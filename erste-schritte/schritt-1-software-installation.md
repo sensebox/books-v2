@@ -14,11 +14,11 @@ Falls etwas bei dem Testlauf schief geht, melde dich am besten [per Mail](https:
 
 Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
-![](https://raw.githubusercontent.com/sensebox/resources/master/images/home/03_arduino-dl.png)
+![](https://github.com/bkari02/senseBooksv2/blob/master/erste-schritte/arduino-windows-view.png)
 
 Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
 
-![](https://raw.githubusercontent.com/sensebox/resources/master/images/home/04_donate.png)
+![](https://github.com/bkari02/senseBooksv2/blob/master/erste-schritte/arduino-just-download.png)
 
 Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die Zip-Datei. Durch starten der Datei `arduino.exe` kann die IDE gestartet werden.  
 {% endtab %}
@@ -30,16 +30,27 @@ Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die Zip-Date
 
 Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
-![](https://raw.githubusercontent.com/sensebox/resources/master/images/home/03_arduino-dl.png)
+![](https://github.com/bkari02/senseBooksv2/blob/master/erste-schritte/arduino-mac-view.png)
 
 Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
 
-![](https://raw.githubusercontent.com/sensebox/resources/master/images/home/04_donate.png)
+![](https://github.com/bkari02/senseBooksv2/blob/master/erste-schritte/arduino-just-download.png)
 
 Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die Zip-Datei. Durch starten der Datei `arduino.exe` kann die IDE gestartet werden.  
 {% endtab %}
 
 {% tab title="Linux-Installation" %}
+### Arduino Software herunterladen
+
+> Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
+
+Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+
+![](https://github.com/bkari02/senseBooksv2/blob/master/erste-schritte/arduino-linux-view.png)
+
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
+
+![](https://github.com/bkari02/senseBooksv2/blob/master/erste-schritte/arduino-just-download.png)
 ### Installation der IDE unter Linux {#installation-der-ide-unter-linux}
 
 Linux-Nutzer können die Linuxvariante herunterladen und entpacken. Das enthaltene `install.sh`-Skript legt automatisch eine Desktopverknüpfung an. Am schnellsten geht dies über die folgenden Terminal-Befehle:
