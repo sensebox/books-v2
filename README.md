@@ -4,7 +4,5 @@ description: 'Dein Weg zur eigenen Umweltmessstation, vom Aufbau bis zur Program
 
 # Das senseBox:home Buch
 
-### Ueber dieses Buch:
-
-
+## Ueber dieses Buch:
 

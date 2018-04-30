@@ -1,9 +1,3 @@
----
-description: >-
-  Hier findest du eine Liste aller Sensoren die wir dir zu deiner senseBox
-  anbieten.
----
-
 # Sensoren
 
 Mit Sensoren kannst du verschiedene Umweltphaenomene messen und mit den Messungen wiederrum kannst du eine Menge andere coole Sachen anstellen. 
