@@ -17,6 +17,38 @@
     
             
                 
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-youtubex/player.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-simpletabs/tabs.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -34,7 +66,7 @@
 
     
         
-    
+        <link rel="stylesheet" href="styles/website.css">
         
     
         
@@ -57,11 +89,20 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="uebersicht.html" />
+    
     
 
     </head>
     <body>
         
+  <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+  
 <div class="book">
     <div class="book-summary">
         
@@ -98,14 +139,14 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" >
+        <li class="chapter " data-level="1.2" data-path="uebersicht.html">
             
-                <span>
+                <a href="uebersicht.html">
             
                     
-                    Uebersicht
+                    Übersicht
             
-                </span>
+                </a>
             
 
             
@@ -131,27 +172,27 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" >
+        <li class="chapter " data-level="2.2" data-path="erste-schritte/schritt-2-libraries-hinzufuegen.html">
             
-                <span>
+                <a href="erste-schritte/schritt-2-libraries-hinzufuegen.html">
             
                     
                     Schritt 2: Librarys herunterladen
             
-                </span>
+                </a>
             
 
             
         </li>
     
-        <li class="chapter " data-level="2.3" >
+        <li class="chapter " data-level="2.3" data-path="erste-schritte/schritt-3-sensoren-testen.html">
             
-                <span>
+                <a href="erste-schritte/schritt-3-sensoren-testen.html">
             
                     
                     Schritt 3: Sensoren testen
             
-                </span>
+                </a>
             
 
             
@@ -490,6 +531,10 @@
             
                 
                 
+                <a href="uebersicht.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Übersicht">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
             
         
     </div>
@@ -497,14 +542,55 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"Dein Weg zur eigenen Umweltmessstation, vom Aufbau bis zur Programmierung.","title":"Das senseBox:home Buch","level":"1.1","depth":1,"next":{"title":"Uebersicht","level":"1.2","depth":1,"ref":"","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-04-30T11:19:10.136Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-30T11:48:09.265Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"description":"Dein Weg zur eigenen Umweltmessstation, vom Aufbau bis zur Programmierung.","title":"Das senseBox:home Buch","level":"1.1","depth":1,"next":{"title":"Übersicht","level":"1.2","depth":1,"path":"uebersicht.md","ref":"uebersicht.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","livereload"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"livereload":{},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","de":"Seite bearbeiten"},"base":"https://github.com/bkari02/senseBooksv2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"README.md","mtime":"2018-04-30T13:02:57.315Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-30T14:00:33.253Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
 
+
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-scramble-mailto/scramble-mailto.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-youtubex/player.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>

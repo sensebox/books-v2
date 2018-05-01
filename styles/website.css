@@ -1,0 +1,26 @@
+
+@import url("//hello.myfonts.net/count/2ef157");
+@font-face {font-family: 'BrixSlab-Bold';src: url('https://sensebox.de/css/webfonts/2EF157_0_0.eot');src: url('https://sensebox.de/css/webfonts/2EF157_0_0.eot?#iefix') format('embedded-opentype'),url('https://sensebox.de/css/webfonts/2EF157_0_0.woff2') format('woff2'),url('https://sensebox.de/css/webfonts/2EF157_0_0.woff') format('woff'),url('https://sensebox.de/css/webfonts/2EF157_0_0.ttf') format('truetype');}
+@font-face {font-family: 'BrixSlab-Regular';src: url('https://sensebox.de/css/webfonts/2EF157_1_0.eot');src: url('https://sensebox.de/css/webfonts/2EF157_1_0.eot?#iefix') format('embedded-opentype'),url('https://sensebox.de/css/webfonts/2EF157_1_0.woff2') format('woff2'),url('https://sensebox.de/css/webfonts/2EF157_1_0.woff') format('woff'),url('https://sensebox.de/css/webfonts/2EF157_1_0.ttf') format('truetype');}
+
+.book-summary {
+  background-color: #ccc;
+  font-family: BrixSlab-Regular;
+}
+
+.book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
+	color: #4EAF47!important;
+}
+
+.page-inner {
+  background-color: #fff;
+  color: #000;
+  font-family: BrixSlab-Regular;
+}
+
+p, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	font-family: BrixSlab-Regular;
+}
+
+

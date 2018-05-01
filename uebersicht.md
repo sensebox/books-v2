@@ -4,7 +4,7 @@ description: >-
   senseBox:home durchzustarten!
 ---
 
-# Uebersicht
+# Übersicht
 
 In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklaeren dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.
 
