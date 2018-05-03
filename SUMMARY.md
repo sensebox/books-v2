@@ -7,7 +7,7 @@
 * [Schritt 1: Software Installation](erste-schritte/schritt-1-software-installation.md)
 * [Schritt 2: Librarys herunterladen](erste-schritte/schritt-2-libraries-hinzufuegen.md)
 * [Schritt 3: Sensoren testen](erste-schritte/schritt-3-sensoren-testen.md)
-* Schritt 4: Registrierung auf der openSenseMap
+* [Schritt 4: Registrierung auf der openSenseMap](erste-schritte/schritt-4-registrierung-auf-der-osem.md)
 * [Komponenten](erste-schritte/komponenten/README.md)
     * [senseBox MCU](erste-schritte/komponenten/sensebox-mcu.md)
     * [Bees](erste-schritte/komponenten/bees/README.md)
@@ -23,6 +23,7 @@
     * Zubehoer
         * LED-Display
         * HUB
-* Experimente
-* Untitled
+* [Experimente](erste-schritte/experimente.md)
+* [Erweiterungen](erste-schritte/erweiterungen.md)
+* [Hilfe](erste-schritte/hilfe.md)
 
