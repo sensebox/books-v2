@@ -1,4 +1,11 @@
-# Schritt 1: Software Installation
+#Schritt 1: Software Installation {#head}
+ <div class="description" id="head">Bevor du mit dem Messen von Phaenomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehoert die Installation von verschiedener Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafuer. Du solltest dir die Schirtte 1 bis 5 allerdings genau anschauen, damit spaeter keine Probleme auftreten. </div>
+
+<div class="line">
+    <br>
+    <br>
+    <br>
+</div>
 
 ## Treiber und Softwareinstallation {#treiber-und-softwareinstallation}
 
@@ -31,7 +38,7 @@ __________
 
 > Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
 
-Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
 ![](https://github.com/sensebox/books-v2/blob/master/erste-schritte/arduino-mac-view.png?raw=true)
 
@@ -39,7 +46,7 @@ Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wir
 
 ![](https://github.com/sensebox/books-v2/blob/master/erste-schritte/arduino-just-download.png?raw=true)
 
-Die Datei .zip-Datei sollte automatisch entpackt werden und dafür Arduino.app Datei in deinem Download-Ordner erscheinen. Verschiebe diese Datei in deinen "Programme"-Ordner. Durch starten der Datei `Arduino.app` kann die IDE gestartet werden. 
+In deinem Downloads-Ordner sollte eine Arduino.app Datei erscheinen. Verschiebe diese Datei in deinen "Programme"-Ordner. Durch starten der Datei `Arduino.app` kann die IDE gestartet werden. 
 ___________________
 
 
@@ -49,7 +56,7 @@ ___________________
 
 > Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
 
-Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
 ![](https://github.com/sensebox/books-v2/blob/master/erste-schritte/arduino-linux-view.png?raw=true)
 
