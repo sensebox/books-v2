@@ -1,4 +1,4 @@
-# Schritt 3: Sensoren Testen
+# Schritt 2: Board-Support-Package installieren
 
 ## Board-Support-Package einbinden {#board-package}
 

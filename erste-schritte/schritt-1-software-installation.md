@@ -4,7 +4,9 @@
 
 Bevor die senseBox aktiviert werden kann, musst du Treiber sowie eine Software auf deinem Computer installieren. Außerdem ist es vor Inbetriebnahme der senseBox ratsam einen Testlauf durchzuführen, um zu überprüfen ob die Sensoren korrekt funktionieren und die Kommunikation mit dem Internet reibungslos läuft.
 
-Falls etwas bei dem Testlauf schief geht, melde dich am besten [per Mail](https://home.books.sensebox.de/de/software_installation.html#) bei unserem Support.
+Falls etwas bei dem Testlauf schief geht, schau zuerst in unser Forum ob jemand schon aehnliche Probleme gehabt hat. Falls du auch dort keine Loesung findest melde dich am besten [per Mail](https://home.books.sensebox.de/de/software_installation.html#) bei unserem Support.
+
+Schau dir die Anleitung fuer dein Betriebsystem an und folge den angegebenen Schritten.
 
 {% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
 {% content "first" %}
@@ -76,8 +78,5 @@ ___________
 
 {% endtabs %}
 
-In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklaeren dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.
 
-Damit alles reibungslos laeuft starten wir ganz von vorne und fuehren dich Schritt fuer Schritt durch die Installation von Software und Hardware bis zum Bau deiner einsatzbereiten Messstation. Dazu bekommst Du zuerst einmal eine Uebersicht wie diese Buch aufgebaut ist.
-### 
 

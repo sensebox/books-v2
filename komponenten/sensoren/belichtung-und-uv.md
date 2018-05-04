@@ -1,0 +1,1 @@
+#Belichtungs- und UV-Sensor

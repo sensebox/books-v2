@@ -1,4 +1,4 @@
-# Schritt 2: Libraries herunterladen
+# Schritt 3: Libraries herunterladen
 
 ## Libraries herunterladen und hinzufügen {#library-add}
 
