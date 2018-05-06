@@ -15,7 +15,7 @@ Bei der senseBox zum Beispiel kann eine Methode aufgerufen werden um die LEDs au
 Eine Library ist also eine Datei, in der viele Methoden gespeichert werden. Man kann Libraries in seinen Code einbinden. Dafür reicht es wenn sie im Arduino-Ordner für Libraries gespeichert sind und man sie dann mit einer einzigen Zeile zu Beginn des Programmcodes einbindet. Das sieht in Arduino für die Library mit dem Namen "senseBoxIO" wie folgt aus: 
 
 ```c
-#include <senseBoxIO>;
+#include <senseBoxIO.h>;
 ```
 
 Ist die Library eingebunden, können alle in ihr enthaltenen Methoden im Code benutzt werden. 
