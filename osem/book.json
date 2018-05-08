@@ -1,0 +1,37 @@
+{
+  "gitbook": "^3.2.2",
+  "plugins": [
+    "theme-api",
+    "edit-link",
+    "localized-footer",
+    "scramble-mailto",
+    "hide-published-with",
+    "youtubex",
+    "katex",
+    "collapsible-chapters",
+    "piwik",
+    "sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0",
+    "scripts",
+    "printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox",
+    "validate-links"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/sensebox/books/tree/book_osem",
+      "label": {
+        "en": "Edit This Page",
+        "de": "Seite bearbeiten"
+      }
+    },
+    "piwik": {
+      "URL": "piwik.uni-muenster.de/",
+      "siteId": 25
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "scripts": {
+      "files": ["tawkto.js"]
+    }
+  }
+}
