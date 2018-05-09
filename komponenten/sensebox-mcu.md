@@ -4,6 +4,8 @@ Der senseBox-Microcontroller ist speziell für die Bedürfnisse der senseBox ent
 
 Auch ohne Vorkenntnisse kann der Microcontroller ganz einfach mit der Übertragung eines vorgefertigten Sketches in 10 Minuten "programmiert" werden. Für fortgeschrittene Programmierer kann wie gewohnt mit Arduino IDE eingesetzt werden um neue und individuelle Projekte durchzuführen.
 
+![](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/mcu%20v2%20top.png?token=AUIA51aG04ZIOY0mXSxjP60bJdSe79uYks5a_DzOwA%3D%3D)
+
 # Technische Spezifikationen
 
 ## Prozessor
