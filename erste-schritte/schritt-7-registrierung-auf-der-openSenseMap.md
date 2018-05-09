@@ -1,4 +1,4 @@
-# Schritt 5: Registrierung auf der openSenseMap
+# Schritt 7: Registrierung auf der openSenseMap
 
 >Registriere deine senseBox jetzt auf der openSenseMap und werde Teil einer der größten citizenScience Bewegungen weltweit!
 
