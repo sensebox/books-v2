@@ -2,6 +2,7 @@
 
 * [Das senseBox:home Buch](README.md)
 * [Übersicht](uebersicht.md)
+* [Inventar](inventar.md)
 
 ## Erste Schritte
 * [Schritt 1: Software Installation](erste-schritte/schritt-1-software-installation.md)
