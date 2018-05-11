@@ -1,48 +1,20 @@
-# Der Serielle Monitor
+# Der serielle Datenbus
+Der Arduino kann über einen Datenbus mit anderen Geräten kommunizieren.
+Ein Datenbus beschreibt ein System, über das zwei oder mehr Geräte Daten auf eine geordnete Art und Weise austauschen können.
+Bei unserem Arduino wäre das zweite Gerät fast immer ein Sensor, bzw ein Aktor.
 
-Der serielle Monitor ist ein Werkzeug um Daten über die USB-Verbindung des Arduino direkt in der IDE anzeigen zu lassen und Daten von der Computertastatur an den Arduino zu übertragen.
+## Der I²C-Bus
+Der I²C-Bus ist ein einfach zu verwendender Datenbus um Daten zu übermitteln.
+Hierbei werden die Daten zwischen dem Arduino und dem anderen Gerät durch zwei Kabel übertragen, die als `SDA` und `SCL` bezeichnet werden.
+Die als `SDA` (serial data) bezeichnete Leitung ist die Datenleitung, über welche die eigentlichen Daten übermittelt werden.
+Die `SCL` (serial clock) Leitung wird auch Taktleitung genannt und gibt die Taktfrequenz vor.
+Am Arduino findest du die beiden Anschlüsse als `A4` (SDA) und `A5` (SDC).
 
-Mit diesem seriellen Monitor kann man sich am PC Daten anzeigen lassen, die der Mikrocontroller an den PC sendet (Zahlen oder Texte).
-Das ist sehr sinnvoll, da man nicht immer ein LCD Display am Mikrocontroller angeschlossen hat, auf dem man bestimmte Werte ablesen könnte.
+Wenn mehrere I²C Geräte an den Arduino angeschlossen werden sollen, wird dies über eine Reihenschaltung umgesetzt.
+Das SDA Kabel am ersten Sensor würde also auf der selben Reihe des Breadboards zum nächsten Sensor verlängert:
 
-## Den seriellen Monitor starten
-Um den seriellen Monitor zu starten, musst du zuerst die IDE öffnen und dann in der Symbolleiste auf das Symbol mit der kleinen Lupe klicken.
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/edu/i2c_serienschaltung.png" alt="i2c serienschaltung" align="center" width="400px"/>
 
-![Lupe](https://raw.githubusercontent.com/sensebox/resources/master/images/arduino_magnifying_glass.png
- "Lupe")
-
-Das nun geöffnete Fenster hat oben eine Eingabezeile mit "Senden"-Schaltfläche und darunter ein Ausgabefenster.
-Im Ausgabefenster werden fortlaufend die neusten Ausgaben angezeigt. Wenn das Häkchen bei Autoscroll gesetzt ist, werden nur die aktuellsten Ausgaben angezeigt.
-Das heißt, wenn das Ausgabefenster voll ist, werden ältere Daten nach oben aus dem sichtbaren Bereich des Bildschirms geschoben um Platz für die aktuellen Ausgaben zu schaffen.
-Deaktiviert man die Autscroll Funktion, muss manuell über den Scrollbalken am rechten Rand gescrollt werden.
-
-![serieller Monitor](https://raw.githubusercontent.com/sensebox/resources/master/images/arduino_serial_monitor.jpg
- "serieller Monitor")
-
-## Werte auf dem seriellen Monitor ausgeben
-Um sich Daten im seriellen Monitor anzeigen lassen zu können, muss dieser zuerst initialisiert werden.
-Dies passiert über die Funktion `Serial.begin(9600)` in der `setup()` Funktion.
-Der Wert `9600` definiert die Baud-Rate, also die Geschwindigkeit mit der Daten zwischen Computer und Arduino übertragen werden.
-Der eingetragene Wert muss immer der im seriellen Monitor unten rechts ausgewählten Geschwindigkeit entsprechen.
-
-Um Daten an den seriellen Monitor zu senden, verwendet man die Funktionen `Serial.print()` und `Serial.println()`.
-Die erste Variante der Funktion gibt einfach die Daten aus, während die zweite Variante einen Zeilenumbruch am Ende einfügt.
-
-
-Als ersten Versuch sollst du jetzt Text im Ausgabefenster anzeigen lassen.
-Um Text anzeigen zu lassen, muss dieser in Anführungszeichen in den Klammern der Funktion stehen:
-```arduino
-Serial.println("senseBox rocks!");
-Serial.print("senseBox ");
-Serial.println("rocks!");
-```
-
-Das Beispiel sollte in je einer Zeile den Text "senseBox rocks!" ausgeben.
-Beachte die Verwendung von `print` und `println`!
-
-Neben Text kann man sich im seriellen Monitor auch die Inhalte von Variablen anzeigen lassen. Dazu muss statt dem gewünschten Text der Name der jeweiligen Variable eingetragen werden:
-
-```arduino
-String beispielvariable = "hallo welt!";
-Serial.println(beispielvariable);
-```
+Benutzt man den I²C-Bus auf dem Arduino, gilt der Arduino immer als Master-Gerät und alle anderen Geräte am Bus als Slave.
+Jeder Slave hat seine eigene Adresse in Form einer Hexadezimalzahl, mit welcher er eindeutig angesprochen werden kann.
+Für gewöhnlich bringt jedes Gerät einen Bereich von Busadressen mit, welche man verwenden kann. Die jeweiligen Adressen können im Datenblatt des Herstellers nachgeschaut werden, und stehen auch bei uns im [Glossar](../GLOSSARY.md).
