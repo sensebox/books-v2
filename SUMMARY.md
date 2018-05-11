@@ -10,6 +10,18 @@
 * [Schritt 4: Sensoren testen](erste-schritte/schritt-4-sensoren-testen.md)
 * [Schritt 5: Registrierung auf der openSenseMap](erste-schritte/schritt-5-registrierung-auf-der-openSenseMap.md)
 
+## Grundlagen
+* [Digitale Signale](grundlagen/digitale_signale.md)
+* [Analoge Signale](grundlagen/analoge_signale.md)
+* [Variablen](grundlagen/variablen.md)
+* [Der Serielle Motor](grundlagen/der_serielle_motor.md)
+* [if/else - Bedingung](grundlagen/if_else_bedingung.md)
+* [Schleifen](grundlagen/schleifen.md)
+* [Verwendung von Software-Bibliotheken](grundlagen/software_bibliotheken.md)
+* [Der serielle Datenbus(I²C)](grundlagen/serielle_datenbus.md)
+* [Kommentare im Quelltext](grundlagen/kommentare.md)
+* [Shields](grundlagen/shields.md)
+
 ## Alles zur senseBox
 * [Komponenten](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
