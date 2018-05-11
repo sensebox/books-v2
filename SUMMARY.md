@@ -14,7 +14,7 @@
 * [Digitale Signale](grundlagen/digitale_signale.md)
 * [Analoge Signale](grundlagen/analoge_signale.md)
 * [Variablen](grundlagen/variablen.md)
-* [Der Serielle Motor](grundlagen/der_serielle_motor.md)
+* [Der Serielle Monitor](grundlagen/der_serielle_monitor.md)
 * [if/else - Bedingung](grundlagen/if_else_bedingung.md)
 * [Schleifen](grundlagen/schleifen.md)
 * [Der serielle Datenbus(I²C)](grundlagen/serielle_datenbus.md)
