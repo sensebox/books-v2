@@ -17,7 +17,6 @@
 * [Der Serielle Motor](grundlagen/der_serielle_motor.md)
 * [if/else - Bedingung](grundlagen/if_else_bedingung.md)
 * [Schleifen](grundlagen/schleifen.md)
-* [Verwendung von Software-Bibliotheken](grundlagen/software_bibliotheken.md)
 * [Der serielle Datenbus(I²C)](grundlagen/serielle_datenbus.md)
 * [Kommentare im Quelltext](grundlagen/kommentare.md)
 * [Shields](grundlagen/shields.md)
