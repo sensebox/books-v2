@@ -7,6 +7,10 @@
 * [Verwalten von senseBoxen](osem_manage-boxes.md)
 * [Datendownload](osem_download.md)
 * [Datenanalyse](osem_datenanalyse.md)
+	* [Microsoft Excel](excel.md)
+	* [Libre Office](libre.md)
+	* [R-Studio](R.md)
+	* [ArcGis](Arc.md)
 
 ---
 
