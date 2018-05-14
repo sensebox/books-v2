@@ -7,7 +7,7 @@ There are two books until now:
 - <b>[senseBox:edu-book](https://github.com/sensebox/books-v2/tree/edu)</b> in branch called "edu" 
 - <b>[senseBox:home-book](https://github.com/sensebox/books-v2/tree/home)</b> in branch called "home".
 
-##Contributing 
+## Contributing 
 
 ### Development environment
 We use the node.js-based tool [GitBook](https://github.com/GitbookIO/gitbook) for the rendering of the content.
