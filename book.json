@@ -13,7 +13,8 @@
     "printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox",
     "validate-links",
     "codetabs",
-    "simpletabs"
+    "simpletabs",
+    "image-captions"
   ],
   "pluginsConfig": {
     "edit-link": {
@@ -22,6 +23,9 @@
         "en": "Edit This Page",
         "de": "Seite bearbeiten"
       }
+    },
+    "image-captions": {
+      "caption": "_CAPTION_"
     }
   },
     "styles": {

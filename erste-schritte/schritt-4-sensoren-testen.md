@@ -7,7 +7,7 @@
 >Warum sollte ich testen?
 
 ------
->Durch das Testen kannst du pruefen ob du wirklich alle voherigen Schritte ausgefuehrt hast. Sind zum Beispiel die Libraries falsch eingebunden, wird sich das bei den Tests sehr wahrscheinlich bemerkbar machen und du kannst den Fehler schnell finden und beheben. Ausserdem kannst du pruefen ob alle deine Sensoren korrekt funktionieren und richtig angeschlossen sind.
+>Durch das Testen kannst du prüfen ob du wirklich alle voherigen Schritte ausgeführt hast. Sind zum Beispiel die Libraries falsch eingebunden, wird sich das bei den Tests sehr wahrscheinlich bemerkbar machen und du kannst den Fehler schnell finden und beheben. Ausserdem kannst du prüfen ob alle deine Sensoren korrekt funktionieren und richtig angeschlossen sind.
 
 
 

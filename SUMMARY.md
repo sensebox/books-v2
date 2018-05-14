@@ -6,7 +6,7 @@
 ## Erste Schritte
 * [Schritt 1: Software Installation](erste-schritte/schritt-1-software-installation.md)
 * [Schritt 2: Board-Support-Packages installieren](erste-schritte/schritt-2-board-support-packages-installieren.md)
-* [Schritt 3: Librarys hinzufuegen](erste-schritte/schritt-3-libraries-hinzufuegen.md)
+* [Schritt 3: Librarys hinzufügen](erste-schritte/schritt-3-libraries-hinzufuegen.md)
 * [Schritt 4: Sensoren testen](erste-schritte/schritt-4-sensoren-testen.md)
 * [Schritt 5: Registrierung auf der openSenseMap](erste-schritte/schritt-5-registrierung-auf-der-openSenseMap.md)
 
@@ -46,5 +46,8 @@
 * [Experimente](experimente.md)
 * [Erweiterungen](erweiterungen.md)
 * [Hilfe](hilfe.md)
-* [Templates](hint-template.md)
+* [Templates](templates/README.md)
+    * [Hint-Box](templates/hint-template.md)
+    * [Bildunterschriften](templates/bildunterschriften.md)
+    * [Tabs](templates/tabs.md)
 

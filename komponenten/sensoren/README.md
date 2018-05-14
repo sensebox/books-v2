@@ -12,5 +12,5 @@ Hier findest du Informationen zu den folgenden Sensoren, klicke einfach den Name
 * Licht Sensor
 * ...
 
-Natuerlich kannst Du auch jeden anderen dir bekannten Sensor an die senseBox anschliessen, dann bist du als Tueftler allerdings selbst gefragt, wenn es erstmal an das Verkabeln und Programmieren geht ;\)
+Natürlich kannst Du auch jeden anderen dir bekannten Sensor an die senseBox anschliessen, dann bist du als Tüftler allerdings selbst gefragt, wenn es erstmal an das Verkabeln und Programmieren geht ;\)
 
