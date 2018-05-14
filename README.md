@@ -3,9 +3,10 @@
 This repository contains the gitbook sources for the documentation and OER regarding the <b>second version of senseBox</b> (for first version of senseBox see [here](https://github.com/sensebox/books)).
 
 There are seperate branches for each book inside this repository. 
-There are two books until now:
+There are throe books until now:
 - <b>[senseBox:edu-book](https://github.com/sensebox/books-v2/tree/edu)</b> in branch called "edu" 
 - <b>[senseBox:home-book](https://github.com/sensebox/books-v2/tree/home)</b> in branch called "home".
+- <b>[senseBox:osem-book](https://github.com/sensebox/books-v2/tree/osem)</b> in branch called "osem".
 
 ## Contributing 
 
