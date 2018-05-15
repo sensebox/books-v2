@@ -21,6 +21,14 @@
 * [Kommentare im Quelltext](grundlagen/kommentare.md)
 * [Shields](grundlagen/shields.md)
 
+## Projekte
+* [DIY-Umweltstation](projekte/Umweltstation/README.md)
+    * [Temperatur und Luftfeuchtigkeit](projekte/Umweltstation/temp_luft.md)
+    * [Experimente mit Licht](projekte/Umweltstation/licht.md)
+    * [UV-Sensor](projekte/Umweltstation/UV_Sensor.md)
+    * [Luftdruck](projekte/Umweltstation/luftdruck.md)
+    * [Datenupload zur OSeM](projekte/Umweltstation/datenupload.md)
+
 ## Alles zur senseBox
 * [Komponenten](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
