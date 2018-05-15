@@ -1,6 +1,7 @@
 # Datendownload
 Es bestehen mehrere Möglichkeiten Sensordaten von der openSenseMap herunterzuladen.
 Abhängig von der Fragestellung bietet sich je eine Option an.
+Bei denen von der SenseBox aufgenommenen Daten handelt es sich um OpenData, das heißt sie stehen für alle Nutzer zur freien Verfügung. 
 
 ## Daten zu einer Box
 Unter <https://archive.opensensemap.org> wird ein Archiv für sämtliche Messungen in der openSenseMap Datenbank geführt.
@@ -9,8 +10,10 @@ Hier sind nach Tag und Box gegliederte Messwerte als CSV beziehungsweise ZIP-Arc
 ## Filter
 
 Durch einen Klick auf den Reiter "Filter" in der openSenseMap kannst du dir zunächst optional spezische Dinge für deine Suche und den anschließenden Download der Daten vorfiltern lassen.
-Solltest du nach einem Namen filtern, kannst du auch die Werte einer einzelnen SenseBox herunterladen. 
- 
+Solltest du nach einem Namen filtern, kannst du auch die Werte einer einzelnen SenseBox herunterladen.
+Das der Filter aktiv ist, erkennst du an einem roten Dreick unter dem "Reiter" Namen
+
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/filter.png" align="center" width="900"/>
 
 
 ## Grapische Darstellung von Daten  
@@ -21,6 +24,8 @@ kannst, die du angezeigt bekommen möchtest.
 ##Download
 
 Wenn du auf der Seite der openSenseMap den Reiter "Datendownload" auswählst, kannst du eine Reihe von räumlichen und Zeitlichen Filtern auf die bereits von den SenseBoxen gemessenen Werte anwenden.
+
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/downl.png" align="center" width="900"/>
 
 
 ### Zeitraum auswählen
@@ -51,6 +56,7 @@ Klicke auf den Button "Columns" um auswählen zu können, welche zusätzlichen I
 ### Formate
 Derzeit wird nur das Datenformat CSV unterstützt, welches problemlos mit Tabellenkalkulations-Tools wie 
 [Microsoft Excel](excel.md), [Libre office](libre.md), [R-Studio](R.md) oder [ArcGis](Arc.md) verarbeitet werden kann.
+Informationen zu Weiteren Datenformaten finder ihr [hier](formate.md)
 
 Jede Zeile enthält eine Messung einer senseBox mit dem ausgewählten Phänomen.
 Der Messwert (`value`), Standort des Sensors (`lat`, `lng`, Referenzsystem WGS84) und ein Zeitstempel (`createdAt`) sind in je einer Spalte angegeben:
