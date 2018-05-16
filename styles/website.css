@@ -22,14 +22,17 @@ p, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 }
 
 .description{
-  color: #f4f4f4;
+  background-color: #f4f4f4;
+  color: #4EAF47;
+  padding: 0 16px;
+  border-radius:.5em;
 }
 .line{
 	border-bottom: solid 2px #f4f4f4!important;
 }
 
-#head {
-	border-left: solid 4px #4EAF47!important;
+.head {
+	border-left: solid 4px #999999!important;
   padding-left: 10px;
 }
 
