@@ -1,4 +1,11 @@
 # if/else-Bedingung {#head}
+
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 Mit `if` ist es möglich in einem Programm Entscheidungen zu fällen und den Arduino, jenachdem wie die Entscheidung ausfällt, unterschiedlichen Code ausführen zu lassen.
 Wenn du beispielsweise eine LED in Abhängigkeit von einem Schalter leuchten lassen möchtest würde der Code wie folgt aussehen:
 

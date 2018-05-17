@@ -1,5 +1,11 @@
 # Variablen und Datentypen {#head}
 
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 Um Daten in Programmen festzuhalten, verwendet man Variablen.
 Eine Variable ist ein Speichercontainer, der über seinen Namen angesprochen werden kann, und in dem Daten abgelegt werden können.
 Auf Variablen lässt sich sowohl lesend als auch schreibend zugreifen, der Wert ist also variabel.

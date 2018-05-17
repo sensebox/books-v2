@@ -1,5 +1,11 @@
 # Schritt 3: Libraries herunterladen {#head}
 
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 ## Libraries herunterladen und hinzufügen {#library-add}
 
 > Du hast die Ardunio IDE erfolgreich heruntergeladen und installiert?

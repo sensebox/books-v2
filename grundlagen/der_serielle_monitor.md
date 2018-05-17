@@ -1,5 +1,11 @@
 # Der Serielle Monitor {#head}
 
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 Der serielle Monitor ist ein Werkzeug um Daten über die USB-Verbindung des Arduino direkt in der IDE anzeigen zu lassen und Daten von der Computertastatur an den Arduino zu übertragen.
 
 Mit diesem seriellen Monitor kann man sich am PC Daten anzeigen lassen, die der Mikrocontroller an den PC sendet (Zahlen oder Texte).

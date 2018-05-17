@@ -1,5 +1,11 @@
 # DIY - UV-Licht Sensor {#head}
 
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 ## Vorraussetzungen
 - [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-1-software-installation.md)
 - [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
