@@ -15,8 +15,8 @@ Falls etwas bei dem Testlauf schief geht, schau zuerst in unser Forum ob jemand 
 
 Schau dir die Anleitung fuer dein Betriebsystem an und folge den angegebenen Schritten.
 
-{% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
-{% content "first" %}
+tabs first="Windows", second="Mac(OSX)", third="Linux"
+content "first"
 ### Arduino Software für Windows herunterladen
 
 > Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
@@ -32,7 +32,7 @@ Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wir
 Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die Zip-Datei. Durch starten der Datei `arduino.exe` kann die IDE gestartet werden.  
 __________
 
-{% content "second" %}
+content "second"
 
 ### Arduino Software für Mac(OSX) herunterladen
 
@@ -50,7 +50,7 @@ In deinem Downloads-Ordner sollte eine Arduino.app Datei erscheinen. Verschiebe 
 ___________________
 
 
-{% content "third" %}
+content "third"
 
 ### Arduino Software für Linux herunterladen
 
@@ -82,8 +82,7 @@ sudo chmod a+rw /dev/<device-id>
 
 Nach einem Logout und erneutem Login sollte der Arduino aus der Arduino IDE programmierbar sein!
 ___________
-
-{% endtabs %}
+endtabs
 
 
 
