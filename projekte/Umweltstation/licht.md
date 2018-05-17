@@ -1,4 +1,4 @@
-# DIY - Experimente mit Licht
+# DIY - Experimente mit Licht {#head}
 Wenn du fern siehst, das Radio anschaltest, mit deinem Smartphone eine Nachricht schreibst oder Essen in der Mikrowelle warm machst, nutzt du dabei elektromagnetische Energie.
 Heutzutage sind alle Menschen ständig auf diese Energie angewiesen.
 Ohne sie würde das Leben in modernen Städten völlig anders sein, als du es kennst.

@@ -1,4 +1,4 @@
-# DIY - UV-Licht Sensor
+# DIY - UV-Licht Sensor {#head}
 
 ## Vorraussetzungen
 - [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-1-software-installation.md)

@@ -1,7 +1,7 @@
-<span id"head">
+
 # Schritt 1: Software Installation {#head}
  <div class="description">Bevor du mit dem Messen von Phaenomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehoert die Installation von verschiedener Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafuer. Du solltest dir die Schirtte 1 bis 5 allerdings genau anschauen, damit spaeter keine Probleme auftreten. </div>
-</span>
+
 
 <div class="line">
     <br>

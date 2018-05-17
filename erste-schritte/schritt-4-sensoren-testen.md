@@ -1,4 +1,4 @@
-# Schritt 4: Sensoren Testen
+# Schritt 4: Sensoren Testen {#head}
 
 > Es ist soweit, alle Software-Komponenten sollten installiert sein und du bist bereit durchzustarten! Aber langsam an, zuerst sollten wir die einzelenen Sensoren testen, denn nichts ist aergerlicher als alles fertig angeschlossen zu haben und dann zu merken, dass etwas nicht stimmt. 
 

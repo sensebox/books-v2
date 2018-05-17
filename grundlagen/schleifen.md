@@ -1,21 +1,8 @@
-# Schleifen
-> *Und täglich grüßt das Murmeltier...*
+# Schleifen {#head}
 
-Wenn du eine LED 50 Mal blinken lassen willst, ist das ganz schön viel Schreibarbeit:
-
-```arduino
-digitalWrite(led, HIGH);
-delay(100);
-digitalWrite(led, LOW); // 1
-delay(100);
-digitalWrite(led, HIGH);
-delay(100);
-digitalWrite(led, LOW); // 2
-//...
-```
-
-Da Informatiker schreibfaul sind, haben sie sich eine einfache Lösung einfallen lassen: Schleifen.
-Eine Schleife führt eine Anweisungen mehrmals aus, bis eine bestimmte Bedingung erfüllt ist.
+<div class="description">Wenn du eine LED 50 Mal blinken lassen willst, ist das ganz schön viel Schreibarbeit. <br>
+Da Informatiker schreibfaul sind, haben sie sich eine einfache Lösung einfallen lassen: <b> Schleifen </b>. <br>
+Eine Schleife führt eine Anweisungen mehrmals aus, bis eine bestimmte Bedingung erfüllt ist. </div>
 
 ## Aufbau von Schleifen
 Schleifen bestehen aus zwei Teilen, einem **Schleifen-Kopf** und einem **Schleifen-Körper**.

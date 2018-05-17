@@ -1,4 +1,4 @@
-# Komponenten
+# Komponenten {#head}
 
 >Hier findest du eine Liste aller Sensoren, Bees, Shields und anderen Zubehoerteile der Sensebox. Wenn du wissen willst wofür du ein Teil benutzen kannst klicke einfach auf den Namen. 
 

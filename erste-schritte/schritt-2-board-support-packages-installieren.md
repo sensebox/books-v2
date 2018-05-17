@@ -1,6 +1,6 @@
 # Schritt 2: Board-Support-Package installieren {#head}
 
-## Board-Support-Package einbinden {#board-package}
+## Board-Support-Package einbinden 
 
 > Was fehlt jetzt noch?
     Das Board-Support-Package!

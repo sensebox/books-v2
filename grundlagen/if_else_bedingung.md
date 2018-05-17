@@ -1,4 +1,4 @@
-# if/else-Bedingung
+# if/else-Bedingung {#head}
 Mit `if` ist es möglich in einem Programm Entscheidungen zu fällen und den Arduino, jenachdem wie die Entscheidung ausfällt, unterschiedlichen Code ausführen zu lassen.
 Wenn du beispielsweise eine LED in Abhängigkeit von einem Schalter leuchten lassen möchtest würde der Code wie folgt aussehen:
 

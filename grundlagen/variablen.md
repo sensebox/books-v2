@@ -1,4 +1,4 @@
-# Variablen und Datentypen
+# Variablen und Datentypen {#head}
 
 Um Daten in Programmen festzuhalten, verwendet man Variablen.
 Eine Variable ist ein Speichercontainer, der über seinen Namen angesprochen werden kann, und in dem Daten abgelegt werden können.

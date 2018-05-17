@@ -1,4 +1,4 @@
-# Bildunterschriften
+# Bildunterschriften 
 
 Um eine Bildunterschrift zu erstellen fuege einfach einen Titel zum Bild hinzu, dieser wird dann automatisch als Bildunterschrift dargestellt. 
 

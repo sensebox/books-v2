@@ -1,4 +1,4 @@
-# Schritt 5: Registrierung auf der openSenseMap
+# Schritt 5: Registrierung auf der openSenseMap {#head}
 
 <div class="description">Registriere deine senseBox jetzt auf der openSenseMap und werde Teil einer der größten citizenScience Bewegungen weltweit! </div>
 

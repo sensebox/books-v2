@@ -1,4 +1,4 @@
-# Sensoren
+# Sensoren {#head}
 
 Mit Sensoren kannst du verschiedene Umweltphaenomene messen und mit den Messungen wiederrum kannst du eine Menge andere coole Sachen anstellen. 
 
