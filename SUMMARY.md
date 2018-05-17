@@ -1,6 +1,6 @@
 # Summary
 
-* [Das senseBox:home Buch](README.md)
+* [Das senseBox:edu Buch](README.md)
 * [Übersicht](uebersicht.md)
 
 ## Erste Schritte
