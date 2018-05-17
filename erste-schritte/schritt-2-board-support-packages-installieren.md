@@ -21,7 +21,7 @@ Oeffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalt
 
 und installiere dort die zwei Board-Support-Packages mit den Namen **Arduino SAMD Boards by Arduino** und **senseBox SAMD Boards by senseBox**.
 
-![Installiere die beiden Packages](https://github.com/sensebox/books-v2/blob/edu/pictures/screenshot%20arduino3.PNG?raw=true)
+![Oeffne den Bordverwalter und installiere die beiden Packages](https://github.com/sensebox/books-v2/blob/edu/pictures/Ardu2.png?raw=true)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
