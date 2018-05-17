@@ -13,7 +13,7 @@ Fuege die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* i
 https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json
 ```
 
-![Oeffne die Voereinstellungen und fuege die URL ein](https://github.com/sensebox/books-v2/blob/edu/pictures/ardu1.PNG?raw=true)
+![Oeffne die Voereinstellungen und fuege die URL ein](https://github.com/sensebox/books-v2/blob/edu/pictures/Ardu1.png?raw=true)
 
 Oeffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* 
 
