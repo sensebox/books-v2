@@ -5,7 +5,9 @@
 
 Hier findest du eine Sammlung von Vorlagen fuer das Styling der Gitbooks.
 
-Darunter [Hint-Boxes](hint-template.md): 
+Darunter eine [Vorlage fuer eine neue Seite](neue-seite.md) mit Titelelement und Beschreibungsbox.
+
+[Hint-Boxes](hint-template.md): 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     >>INFO-HINT<<
@@ -26,6 +28,25 @@ Darunter [Hint-Boxes](hint-template.md):
     >>ERROR-HINT<<
 </div>
 
-[Bildunterschriften](bildunterschriften.md):
 
-[Tabs](tabs.md) 
+[Bildunterschriften](bildunterschriften.md):
+![Dies ist eine Beispiel-Unterschrift](https://github.com/sensebox/books-v2/blob/home/pictures/mcu_one_top.png?raw=true)
+
+[Tabs](tabs.md):
+{% tabs first="Erster Tab", second="Zweiter Tab", third="Dritter Tab" %}
+{% content "first" %}
+# Erster Tab
+Das ist der erste Tab.
+> Innerhalb der Tabs kann Markdown normal verwendet werden. 
+
+{% content "second" %}
+# Zweiter Tab
+Das ist der zweite Tab.
+> Innerhalb der Tabs kann Markdown normal verwendet werden.
+
+{% content "third" %}
+# Dritter Tab
+Das ist der dritte Tab.
+> Innerhalb der Tabs kann Markdown normal verwendet werden.
+
+{% endtabs %}
