@@ -19,7 +19,7 @@
 * [Schleifen](grundlagen/schleifen.md)
 * [Der serielle Datenbus(I²C)](grundlagen/serielle_datenbus.md)
 * [Kommentare im Quelltext](grundlagen/kommentare.md)
-* [Shields](grundlagen/shields.md)
+* [Bees](grundlagen/Bees.md)
 
 ## Projekte
 * [DIY-Umweltstation](projekte/Umweltstation/README.md)

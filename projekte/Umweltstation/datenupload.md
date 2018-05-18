@@ -21,10 +21,38 @@ Dazu gibt es die [openSenseMap](https://openSenseMap.org/) (OSeM), welche divers
 In dieser Station wird beispielhaft die Integration eines Sensors in die openSenseMap gezeigt, sodass die gewonnenen Daten online verfügbar sind.
 
 ## Materialien
-* Ethernet-Shield bzw WiFi-Bee (je nach Variante)
-* evtl. Netzwerk-Kabel
+*  WiFi-Bee
 * Mindestens einen (beliebigen) Sensor
 
+## Programmierung 
+Im Kapitel [Bees](/../../grundlagen/shields.md) hast du schon gelernt wie du eine Verbindung zum Internet aufbaust, nun schauen wir uns an wie wir unsere Messwerte kontinuierlich auf der openSenseMap hochladen können.
+
+Wie im vorherigen [Kapitel](/../../grundlagen/shields.md) bereits beschrieben müssen wir erstmal die Instanzen für die openSenseMap erstellen und unser WLAN-Netzwerk + Zugangsdaten bereitstellen. 
+
+<!--sec data-title="Deklarierung der Objekte" data-id="setupWiFiObjekte" data-collapse=true ces-->
+```arduino
+Bee* b = new Bee(); // Instanz der Bee
+OpenSenseMap osem("senseBox ID",b); // Instanz der openSenseMap
+HDC1080 hdc; // Instanz des Temperatur - & Luftfeuchte Sensor 
+void setup(){
+    b->connectToWifi("SSID","PW"); // Verbindung zum WiFi herstellen 
+    hdc.begin();
+    };
+``` 
+
+
+<!--endsec-->
+
+In der `loop()`-Funktion laden wir nun unsere Messwerte hoch.
+
+<!--sec data-title="loop()" data-id="loopWiFiObjekte" data-collapse=true ces-->
+```arduino
+void loop(){
+    osem.uploadMeasurement(hdc.getTemperature(),"Sensor ID")
+    delay(5000);
+    };
+``` 
+<!--endsec-->
 ## Aufgaben
 <!--sec data-title="Aufgabe 1" data-id="aufg1" data-collapse=true ces-->
 Mache dich mit der openSenseMap vertraut (siehe Vorraussetzungen), und registriere dort deine senseBox mit den Sensoren, welche du bisher angeschlossen hast.
@@ -38,10 +66,5 @@ Erweitere den Sketch von der OSeM-Registrierung sodass deine angeschlossenen Sen
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Folge der Anleitung im <a href="../../grundlagen/digitale_signale.html">Grundlagenkapitel</a>. Du kannst deinen bisherigen Code überwiegend wiederverwenden!<
 </div>
-
-<!-- endsec -->
-
-<!--sec data-title="Aufgabe 3" data-id="aufg3" data-collapse=true ces-->
-Erweitere den Sketch aus Aufgabe 2, sodass die Sensordaten zur openSenseMap hochgeladen werden.
 
 <!-- endsec -->
