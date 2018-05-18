@@ -1,14 +1,14 @@
 # DIY - Experimente mit Licht {#head}
 
-<div class="description"></div>
+<div class="description">Wenn du fern siehst, das Radio anschaltest, mit deinem Smartphone eine Nachricht schreibst oder Essen in der Mikrowelle warm machst, nutzt du dabei elektromagnetische Energie.
+Heutzutage sind alle Menschen ständig auf diese Energie angewiesen.
+Ohne sie würde das Leben in modernen Städten völlig anders sein, als du es kennst.</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Wenn du fern siehst, das Radio anschaltest, mit deinem Smartphone eine Nachricht schreibst oder Essen in der Mikrowelle warm machst, nutzt du dabei elektromagnetische Energie.
-Heutzutage sind alle Menschen ständig auf diese Energie angewiesen.
-Ohne sie würde das Leben in modernen Städten völlig anders sein, als du es kennst.
+
 
 ## Vorraussetzungen
 - [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-1-software-installation.md)

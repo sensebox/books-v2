@@ -1,7 +1,7 @@
 #Luftdruck {#head}
-Die Messung des Luftdrucks erlaubt neben Wettervorhersagen auch indirekt die Bestimmung der Höhe des Sensors.
 
-<div class="description"></div>
+<div class="description">Die Messung des Luftdrucks erlaubt neben Wettervorhersagen auch indirekt die Bestimmung der Höhe des Sensors.
+</div>
 <div class="line">
     <br>
     <br>

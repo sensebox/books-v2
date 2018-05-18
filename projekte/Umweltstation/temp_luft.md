@@ -1,12 +1,12 @@
 # DIY - Temperatur und Luftfeuchtigkeit {#head}
 
-<div class="description"></div>
+<div class="description">Damit wir täglich den Wetterbericht im Internet, im Fernsehen, in der Zeitung oder in Apps sehen können, werden nicht nur Satellitendaten ausgewertet. Auch Daten von Wetterstationen am Boden spielen eine wichtige Rolle bei der Vorhersage. Aber wie funktioniert die Messung und Darstellung von Temperatur- und Luftfeuchtigkeitswerten?</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Damit wir täglich den Wetterbericht im Internet, im Fernsehen, in der Zeitung oder in Apps sehen können, werden nicht nur Satellitendaten ausgewertet. Auch Daten von Wetterstationen am Boden spielen eine wichtige Rolle bei der Vorhersage. Aber wie funktioniert die Messung und Darstellung von Temperatur- und Luftfeuchtigkeitswerten?
+
 
 ## Voraussetzungen
 - [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-3-libraries-hinzufuegen.md)
