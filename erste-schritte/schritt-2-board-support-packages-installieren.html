@@ -137,7 +137,7 @@
                 <a href="../">
             
                     
-                    Das senseBox:home Buch
+                    Das senseBox:edu Buch
             
                 </a>
             
@@ -828,6 +828,19 @@
             
         </li>
     
+        <li class="chapter " data-level="5.5.4" data-path="../templates/neue-seite.html">
+            
+                <a href="../templates/neue-seite.html">
+            
+                    
+                    Neue Seite
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -879,19 +892,33 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="head">Schritt 2: Board-Support-Package installieren </h1>
-<h2 id="board-package">Board-Support-Package einbinden </h2>
-<blockquote>
-<p>Was fehlt jetzt noch?
-    Das Board-Support-Package!</p>
-</blockquote>
-<p>Als n&#xE4;chstes musst du noch zwei Board-Support-Packages in die Arduino IDE hinzuf&#xFC;gen. Daf&#xFC;r gehs du auf:  </p>
-<p>Eine Library ist wie der Name schon sagt eine Sammlung von etwas - eine Sammlung von Methoden um genauer zu sein. Methoden sind in der Programmierung kleinere Abschnitte von Code die auf ein Objekt angewendet werden k&#xF6;nnen.</p>
-<p>Bei der senseBox zum Beispiel kann eine Methode aufgerufen werden um die LEDs auf dem MCU ein- und auszuschalten. Es gibt eine Menge solcher Standardmethoden, die von einer Vielzahl an Programmmen benutzt werden. Um diese Methoden nicht alle einzeln in den Programmcode &#xFC;bertragen zu m&#xFC;ssen, k&#xF6;nnen sie in Libraries abgelegt werden. </p>
-<p>Eine Library ist also eine Datei, in der viele Methoden gespeichert werden. Man kann Libraries in seinen Code einbinden. Daf&#xFC;r reicht es wenn sie im Arduino-Ordner f&#xFC;r Libraries gespeichert sind und man sie dann mit einer einzigen Zeile zu Beginn des Programmcodes einbindet. Das sieht in Arduino f&#xFC;r die Library mit dem Namen &quot;senseBoxIO&quot; wie folgt aus: </p>
-<pre><code class="lang-arduino"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;senseBoxIO&gt;</span>;</span>
-</code></pre>
-<p>Ist die Library eingebunden, k&#xF6;nnen alle in ihr enthaltenen Methoden im Code benutzt werden. </p>
-<p>F&#xFC;r die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden, um alle grundlegenden Methoden gegeben zu haben.</p>
+<div class="description">Damit die Arduino IDE dein <a href="../komponenten/sensebox-mcu.html">senseBox MCU</a> unterstuetzt und Du Programme auf dieses uebertragen kannst musst Du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die noetigen Treiber und die noetigste Software, um mit deinem Prozessor zu kommunizieren.</div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
+<h2 id="board-support-package-einbinden">Board-Support-Package einbinden</h2>
+<p>Fuege die folgende URL in deiner Arduino IDE unter <em>Datei -&gt; Voreinstellungen</em> in das Feld fuer <em>Zusaetzliche Bordverwalter-URLs</em> ein:</p>
+<pre><code>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json
+</code></pre><figure id="fig2.2.1"><img src="https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu1.png?raw=true" alt="Oeffne die Voereinstellungen und fuege die URL ein"><figcaption>Oeffne die Voereinstellungen und fuege die URL ein</figcaption></figure>
+<p>Oeffne dann den <em>Boardverwalter</em> unter <em>Werkzeuge -&gt; Board:&quot;...&quot; -&gt; Boardverwalter</em> und installiere dort die zwei Board-Support-Packages mit den Namen <strong>Arduino SAMD Boards by Arduino</strong> und <strong>senseBox SAMD Boards by senseBox</strong>.</p>
+<figure id="fig2.2.2"><img src="https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu2.png?raw=true" alt="Oeffne den Bordverwalter und installiere die beiden Packages"><figcaption>Oeffne den Bordverwalter und installiere die beiden Packages</figcaption></figure>
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Gib &quot;SAMD&quot; oben in die Suchleiste ein um die Packages schneller zu finden
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
                                 
                                 </section>
@@ -935,7 +962,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Schritt 2: Board-Support-Packages installieren","level":"2.2","depth":1,"next":{"title":"Schritt 3: Librarys hinzufügen","level":"2.3","depth":1,"path":"erste-schritte/schritt-3-libraries-hinzufuegen.md","ref":"erste-schritte/schritt-3-libraries-hinzufuegen.md","articles":[]},"previous":{"title":"Schritt 1: Software Installation","level":"2.1","depth":1,"path":"erste-schritte/schritt-1-software-installation.md","ref":"erste-schritte/schritt-1-software-installation.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"grundlagen/der_serielle_monitor.html#fig3.4.1","level":"3.4","list_caption":"Figure: Lupe","alt":"Lupe","nro":1,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/arduino_magnifying_glass.png","index":1,"caption_template":"_CAPTION_","label":"Lupe","attributes":{},"title":"Lupe","skip":false,"key":"3.4.1"},{"backlink":"grundlagen/der_serielle_monitor.html#fig3.4.2","level":"3.4","list_caption":"Figure: serieller Monitor","alt":"serieller Monitor","nro":2,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/arduino_serial_monitor.jpg","index":2,"caption_template":"_CAPTION_","label":"serieller Monitor","attributes":{},"title":"serieller Monitor","skip":false,"key":"3.4.2"},{"backlink":"grundlagen/serielle_datenbus.html#fig3.7.1","level":"3.7","list_caption":"Figure: senseBox_MCU","alt":"senseBox_MCU","nro":3,"url":"https://raw.githubusercontent.com/sensebox/books-v2/edu/grundlagen/senseBox_MCU.jpg?token=ARdM0l7XEX9qelerBf53MG_i7KQNydkXks5a_u0ywA%3D%3D","index":1,"caption_template":"_CAPTION_","label":"senseBox_MCU","attributes":{},"skip":false,"key":"3.7.1"},{"backlink":"templates/bildunterschriften.html#fig5.5.2.1","level":"5.5.2","list_caption":"Figure: Das LoraBee passend zur SenseBox!","alt":"Das LoraBee passend zur SenseBox!","nro":4,"url":"https://github.com/sensebox/books-v2/blob/home/pictures/LoraBee%20top.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Das LoraBee passend zur SenseBox!","attributes":{},"skip":false,"key":"5.5.2.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","de":"Seite bearbeiten"},"base":"https://github.com/bkari02/senseBooksv2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"erste-schritte/schritt-2-board-support-packages-installieren.md","mtime":"2018-05-17T09:56:09.622Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-17T09:57:04.649Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Schritt 2: Board-Support-Packages installieren","level":"2.2","depth":1,"next":{"title":"Schritt 3: Librarys hinzufügen","level":"2.3","depth":1,"path":"erste-schritte/schritt-3-libraries-hinzufuegen.md","ref":"erste-schritte/schritt-3-libraries-hinzufuegen.md","articles":[]},"previous":{"title":"Schritt 1: Software Installation","level":"2.1","depth":1,"path":"erste-schritte/schritt-1-software-installation.md","ref":"erste-schritte/schritt-1-software-installation.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"erste-schritte/schritt-2-board-support-packages-installieren.html#fig2.2.1","level":"2.2","list_caption":"Figure: Oeffne die Voereinstellungen und fuege die URL ein","alt":"Oeffne die Voereinstellungen und fuege die URL ein","nro":1,"url":"https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu1.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Oeffne die Voereinstellungen und fuege die URL ein","attributes":{},"skip":false,"key":"2.2.1"},{"backlink":"erste-schritte/schritt-2-board-support-packages-installieren.html#fig2.2.2","level":"2.2","list_caption":"Figure: Oeffne den Bordverwalter und installiere die beiden Packages","alt":"Oeffne den Bordverwalter und installiere die beiden Packages","nro":2,"url":"https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu2.png?raw=true","index":2,"caption_template":"_CAPTION_","label":"Oeffne den Bordverwalter und installiere die beiden Packages","attributes":{},"skip":false,"key":"2.2.2"},{"backlink":"grundlagen/der_serielle_monitor.html#fig3.4.1","level":"3.4","list_caption":"Figure: Lupe","alt":"Lupe","nro":3,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/arduino_magnifying_glass.png","index":1,"caption_template":"_CAPTION_","label":"Lupe","attributes":{},"title":"Lupe","skip":false,"key":"3.4.1"},{"backlink":"grundlagen/der_serielle_monitor.html#fig3.4.2","level":"3.4","list_caption":"Figure: serieller Monitor","alt":"serieller Monitor","nro":4,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/arduino_serial_monitor.jpg","index":2,"caption_template":"_CAPTION_","label":"serieller Monitor","attributes":{},"title":"serieller Monitor","skip":false,"key":"3.4.2"},{"backlink":"grundlagen/serielle_datenbus.html#fig3.7.1","level":"3.7","list_caption":"Figure: senseBox_MCU","alt":"senseBox_MCU","nro":5,"url":"https://raw.githubusercontent.com/sensebox/books-v2/edu/grundlagen/senseBox_MCU.jpg?token=ARdM0l7XEX9qelerBf53MG_i7KQNydkXks5a_u0ywA%3D%3D","index":1,"caption_template":"_CAPTION_","label":"senseBox_MCU","attributes":{},"skip":false,"key":"3.7.1"},{"backlink":"projekte/Umweltstation/luftdruck.html#fig4.1.4.1","level":"4.1.4","list_caption":"Figure: Aufbau_Arduino_BMP280","alt":"Aufbau_Arduino_BMP280","nro":6,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/wired_lux.jpg","index":1,"caption_template":"_CAPTION_","label":"Aufbau_Arduino_BMP280","attributes":{},"skip":false,"key":"4.1.4.1"},{"backlink":"komponenten/sensebox-mcu.html#fig5.1.1.1","level":"5.1.1","list_caption":"Figure: Die senseBox MCU","alt":"Die senseBox MCU","nro":7,"url":"https://github.com/sensebox/books-v2/blob/home/pictures/mcu_one_top.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Die senseBox MCU","attributes":{},"skip":false,"key":"5.1.1.1"},{"backlink":"templates/bildunterschriften.html#fig5.5.2.1","level":"5.5.2","list_caption":"Figure: Das LoraBee passend zur SenseBox!","alt":"Das LoraBee passend zur SenseBox!","nro":8,"url":"https://github.com/sensebox/books-v2/blob/home/pictures/LoraBee%20top.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Das LoraBee passend zur SenseBox!","attributes":{},"skip":false,"key":"5.5.2.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","de":"Seite bearbeiten"},"base":"https://github.com/bkari02/senseBooksv2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"erste-schritte/schritt-2-board-support-packages-installieren.md","mtime":"2018-05-18T13:18:27.505Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-18T14:24:03.311Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
