@@ -1,4 +1,11 @@
-#Hilfe
+#Hilfe {#head}
+<div class="description"></div>
+
+<div class="line">
+    <br>
+    <br>
+    <br>
+</div>
 
 
 Hier findest du haeufig gestellte Fragen und Antworten. Wenn du Probleme hast schaue zuerst hier nach ob deine Frage beantwortet wird. Ansonsten schau in unser Forum oder stell dort deine Fragen.
