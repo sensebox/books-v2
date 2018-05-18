@@ -35,7 +35,7 @@ Das ist der zweite Tab.
 
 {% content "third" %}
 # Dritter Tab
-Das ist der 3. Tab.
+Das ist der dritte Tab.
 > Innerhalb der Tabs kann Markdown normal verwendet werden.
 
 {% endtabs %}
