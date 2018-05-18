@@ -82,6 +82,7 @@ background-color: #dcf1da!important;
 .box_info, .box_success, .box_warning, .box_error {
     margin: 10px 0px;
     padding:12px;
+    font-family: BrixSlab-Regular;
  
 }
 .box_info {

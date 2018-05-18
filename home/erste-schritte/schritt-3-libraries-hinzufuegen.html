@@ -683,34 +683,45 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="schritt-3-libraries-herunterladen">Schritt 3: Libraries herunterladen</h1>
-<h2 id="library-add">Libraries herunterladen und hinzuf&#xFC;gen </h2>
+                                <h1 id="head">Schritt 3: Libraries herunterladen </h1>
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
+<h2 id="libraries-herunterladen-und-hinzuf&#xFC;gen">Libraries herunterladen und hinzuf&#xFC;gen</h2>
 <blockquote>
 <p>Du hast die Ardunio IDE erfolgreich heruntergeladen und installiert?</p>
 </blockquote>
-<table>
-<thead>
-<tr>
-<th>Ja nat&#xFC;rlich!</th>
-<th>Nein, habe ich noch nicht..</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dann bist du hier genau richtig und du kannst mit dem zweiten Schritt, dem hinzuf&#xFC;gen der Libraries starten!</td>
-<td>Wenn du nicht wei&#xDF;t was die Arduino IDE ist oder du sie noch nicht installiert hast schau dir zuerst <a href="erste-schritte/schritt-1-software-installieren">Schritt 1</a> an und folge dort allen Anweisungen.</td>
-</tr>
-</tbody>
-</table>
+<div class="box_success">
+    <i class="fa fa-check fa-fw" aria-hidden="true" style="color: #50af51;"></i>
+    Ja nat&#xFC;rlich!
+    <br>
+    Dann bist du hier genau richtig und du kannst mit dem zweiten Schritt, dem hinzuf&#xFC;gen der Libraries starten!
+</div>
+<div class="box_error">
+    <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
+     Nein, habe ich noch nicht..
+     <br>
+     Wenn du nicht wei&#xDF;t was die Arduino IDE ist oder du sie noch nicht installiert hast schau dir zuerst <a href="erste-schritte/schritt-1-software-installieren">Schritt 1</a> an und folge dort allen Anweisungen.
+</div>
+
 <blockquote>
 <p>&quot;Library&quot; - Was ist das eigentlich und wof&#xFC;r brauche ich das? </p>
 </blockquote>
 <p>Eine Library ist wie der Name schon sagt eine Sammlung von etwas - eine Sammlung von Methoden um genauer zu sein. Methoden sind in der Programmierung kleinere Abschnitte von Code die auf ein Objekt angewendet werden k&#xF6;nnen. 
 Bei der senseBox zum Beispiel kann eine Methode aufgerufen werden um die LEDs auf dem MCU ein- und auszuschalten. Es gibt eine Menge solcher Standardmethoden, die von einer Vielzahl an Programmmen benutzt werden. Um diese Methoden nicht alle einzeln in den Programmcode &#xFC;bertragen zu m&#xFC;ssen, k&#xF6;nnen sie in Libraries abgelegt werden. 
 Eine Library ist also eine Datei, in der viele Methoden gespeichert werden. Man kann Libraries in seinen Code einbinden. Daf&#xFC;r reicht es wenn sie im Arduino-Ordner f&#xFC;r Libraries gespeichert sind und man sie dann mit einer einzigen Zeile zu Beginn des Programmcodes einbindet. Das sieht in Arduino f&#xFC;r die Library mit dem Namen &quot;senseBoxIO&quot; wie folgt aus: </p>
-<pre><code class="lang-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;senseBoxIO.h&gt;</span>;</span>
+<pre><code class="lang-arduino"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;senseBoxMCU.h&gt;</span>;</span>
 </code></pre>
 <p>Ist die Library eingebunden, k&#xF6;nnen alle in ihr enthaltenen Methoden im Code benutzt werden. </p>
+<button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+<div id="demo" class="collapse">
+Lorem ipsum dolor text....
+</div>
+
 <p>F&#xFC;r die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden, um alle grundlegenden Methoden gegeben zu haben.</p>
 
                                 
@@ -755,7 +766,7 @@ Eine Library ist also eine Datei, in der viele Methoden gespeichert werden. Man 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Schritt 3: Librarys hinzufuegen","level":"2.3","depth":1,"next":{"title":"Schritt 4: Anschluss und Verkabelung","level":"2.4","depth":1,"path":"erste-schritte/schritt-4-anschluss-und-verkabelung.md","ref":"erste-schritte/schritt-4-anschluss-und-verkabelung.md","articles":[]},"previous":{"title":"Schritt 2: Board-Support-Packages installieren","level":"2.2","depth":1,"path":"erste-schritte/schritt-2-board-support-packages-installieren.md","ref":"erste-schritte/schritt-2-board-support-packages-installieren.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"komponenten/sensebox-mcu.html#fig3.1.1.1","level":"3.1.1","list_caption":"Figure: Die senseBox MCU","alt":"Die senseBox MCU","nro":1,"url":"https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/mcu_one_top.png?token=AUIA57jhn7bQtOLARhIPmBHCHpKzhdVBks5a_D4ZwA%3D%3D","index":1,"caption_template":"_CAPTION_","label":"Die senseBox MCU","attributes":{},"skip":false,"key":"3.1.1.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","de":"Seite bearbeiten"},"base":"https://github.com/bkari02/senseBooksv2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"erste-schritte/schritt-3-libraries-hinzufuegen.md","mtime":"2018-05-18T14:32:12.298Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-18T14:32:25.823Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Schritt 3: Librarys hinzufuegen","level":"2.3","depth":1,"next":{"title":"Schritt 4: Anschluss und Verkabelung","level":"2.4","depth":1,"path":"erste-schritte/schritt-4-anschluss-und-verkabelung.md","ref":"erste-schritte/schritt-4-anschluss-und-verkabelung.md","articles":[]},"previous":{"title":"Schritt 2: Board-Support-Packages installieren","level":"2.2","depth":1,"path":"erste-schritte/schritt-2-board-support-packages-installieren.md","ref":"erste-schritte/schritt-2-board-support-packages-installieren.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"erste-schritte/schritt-2-board-support-packages-installieren.html#fig2.2.1","level":"2.2","list_caption":"Figure: Oeffne die Voereinstellungen und fuege die URL ein","alt":"Oeffne die Voereinstellungen und fuege die URL ein","nro":1,"url":"https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu1.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Oeffne die Voereinstellungen und fuege die URL ein","attributes":{},"skip":false,"key":"2.2.1"},{"backlink":"erste-schritte/schritt-2-board-support-packages-installieren.html#fig2.2.2","level":"2.2","list_caption":"Figure: Oeffne den Bordverwalter und installiere die beiden Packages","alt":"Oeffne den Bordverwalter und installiere die beiden Packages","nro":2,"url":"https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu2.png?raw=true","index":2,"caption_template":"_CAPTION_","label":"Oeffne den Bordverwalter und installiere die beiden Packages","attributes":{},"skip":false,"key":"2.2.2"},{"backlink":"komponenten/sensebox-mcu.html#fig3.1.1.1","level":"3.1.1","list_caption":"Figure: Die senseBox MCU","alt":"Die senseBox MCU","nro":3,"url":"https://github.com/sensebox/books-v2/blob/home/pictures/mcu_one_top.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Die senseBox MCU","attributes":{},"skip":false,"key":"3.1.1.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","de":"Seite bearbeiten"},"base":"https://github.com/bkari02/senseBooksv2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"erste-schritte/schritt-3-libraries-hinzufuegen.md","mtime":"2018-05-18T15:14:51.009Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-18T15:15:02.425Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
