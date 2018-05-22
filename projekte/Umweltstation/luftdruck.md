@@ -39,7 +39,7 @@ Um den Sensor zum Laufen zu bringen schließe ihn einfach an den I²C/Wire Port 
 ![Aufbau_Arduino_BMP280](https://raw.githubusercontent.com/sensebox/resources/master/images/wired_lux.jpg)
 
 ## Programmierung - Auslesen des Sensors
-Der Sensor kann über die Bibliothek `SenseBoxMCU.h` angestuert werden.
+Der Sensor kann über die Bibliothek `SenseBoxMCU.h` angesteuert werden.
 Nachdem diese eingebunden wurde, muss eine Instanz `bmp` davon erstellt werden
 Auf diesem Objekt werden alle Funktionen der Bibliothek aufgerufen:
 

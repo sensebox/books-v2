@@ -3,9 +3,9 @@
 > Contributers-only
 
 
-Hier findest du eine Sammlung von Vorlagen fuer das Styling der Gitbooks.
+Hier findest du eine Sammlung von Vorlagen für das Styling der Gitbooks.
 
-Darunter eine [Vorlage fuer eine neue Seite](neue-seite.md) mit Titelelement und Beschreibungsbox.
+Darunter eine [Vorlage für eine neue Seite](neue-seite.md) mit Titelelement und Beschreibungsbox.
 
 [Hint-Boxes](hint-template.md): 
 <div class="box_info">

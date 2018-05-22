@@ -1,6 +1,6 @@
 
 # Schritt 1: Software Installation {#head}
- <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafuer. Du solltest dir die Schritte 1 bis 5 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
+ <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 5 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
 <div class="line">
     <br>
     <br>
@@ -14,7 +14,7 @@ Bevor die senseBox aktiviert werden kann, musst du Treiber sowie eine Software a
 
 Falls etwas bei dem Testlauf schief geht, schau zuerst in unser Forum ob jemand schon ähnliche Probleme gehabt hat. Falls du auch dort keine Lösung findest melde dich am besten per Mail bei unserem Support.
 
-Schau dir die Anleitung fuer dein Betriebsystem an und folge den angegebenen Schritten.
+Schau dir die Anleitung für dein Betriebsystem an und folge den angegebenen Schritten.
 
 {% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
 {% content "first" %}

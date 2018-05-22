@@ -1,4 +1,4 @@
-#Ueberschrift{#head}
+#Überschrift{#head}
 
 <div class="description">
 	Hier steht eine einleitende Beschreibung der Seite/des Themas.
@@ -8,7 +8,7 @@
     <br>
 </div>
 
-##Weitere Ueberschrift
+##Weitere Überschrift
 Inhalt 
 der 
 Seite
@@ -16,7 +16,7 @@ Seite
 
 ## Markdown Code der Vorlage
 ```markdown
-#Ueberschrift{#head}
+#Überschrift{#head}
 
 <div class="description">
     Hier steht eine einleitende Beschreibung der Seite/des Themas.
@@ -26,7 +26,7 @@ Seite
     <br>
 </div>
 
-##Weitere Ueberschrift
+##Weitere Überschrift
 Inhalt 
 der 
 Seite
