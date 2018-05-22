@@ -1,4 +1,4 @@
-#Zubehoer {#head}
+#Zubehör {#head}
 
 <div class="description"></div>
 <div class="line">
@@ -6,5 +6,5 @@
     <br>
 </div>
 
-Zubehoer ...
+Zubehör ...
 

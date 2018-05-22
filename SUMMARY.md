@@ -43,7 +43,7 @@
         * [GPS](komponenten/sensoren/gps.md)
         * [Belichtung und UV](komponenten/sensoren/belichtung-und-uv.md)
         * [Feinstaub](komponenten/sensoren/feinstaub.md)
-    * [Zubehoer](komponenten/zubehoer/README.md)
+    * [Zubehör](komponenten/zubehoer/README.md)
         * [Strahlenschutz](komponenten/zubehoer/strahlenschutz.md)
         * [Gehäuse](komponenten/zubehoer/gehaeuse.md)
         * [Netzteil und USB-Kabel](komponenten/zubehoer/netzteil-und-usb-kabel.md)
