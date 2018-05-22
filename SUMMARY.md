@@ -45,7 +45,7 @@
         * [Feinstaub](komponenten/sensoren/feinstaub.md)
     * [Zubehoer](komponenten/zubehoer/README.md)
         * [Strahlenschutz](komponenten/zubehoer/strahlenschutz.md)
-        * [Gehaeuse](komponenten/zubehoer/gehaeuse.md)
+        * [Gehäuse](komponenten/zubehoer/gehaeuse.md)
         * [Netzteil und USB-Kabel](komponenten/zubehoer/netzteil-und-usb-kabel.md)
         * [LED-Display](komponenten/zubehoer/led-display.md)
         * [HUB](komponenten/zubehoer/hub.md)

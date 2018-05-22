@@ -8,7 +8,7 @@
 
 ## Board-Support-Package einbinden 
 
-Fuege die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld fuer *Zusaetzliche Bordverwalter-URLs* ein:
+Fuege die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld fuer *Zusätzliche Bordverwalter-URLs* ein:
 ```
 https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json
 ```

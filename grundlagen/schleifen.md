@@ -49,7 +49,7 @@ Schreibe nun eine Anweisung in den Schleifenkörper, die dir den Wert der Zählv
 > ***Tipp:*** *In [Der Serielle Monitor](der_serielle_monitor.md) wird erklärt wie das geht!*
 
 - **a)** Untersuche was passiert, wenn du `zaehler = zaehler + 1` durch `zaehler = zaehler*2` oder `zaehler--` ersetzt.
-- **b)** Untersuche was passiert, wenn du `int zaehler = 0` durch `int zaehler = 25` ersetzt.
+- **b)** Untersuche was passiert, wenn du `int zaehler = 0` durch `int zeahler = 25` ersetzt.
 
 ---
 

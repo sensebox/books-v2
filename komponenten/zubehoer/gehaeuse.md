@@ -1,4 +1,4 @@
-# Gehaeuse {#head}
+# Gehäuse {#head}
 
 <div class="description"></div>
 <div class="line">

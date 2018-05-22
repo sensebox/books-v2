@@ -8,7 +8,7 @@
 
 >Hier findest du eine Liste aller Sensoren, Bees, Shields und anderen Zubehoerteile der Sensebox. Wenn du wissen willst wofür du ein Teil benutzen kannst klicke einfach auf den Namen. 
 
-Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kurz zu erklaeren und dir alle noetigen Informationen bereit zu stellen, um mit der Komponente und deiner senseBox voll durchzustarten!
+Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kurz zu erklären und dir alle noetigen Informationen bereit zu stellen, um mit der Komponente und deiner senseBox voll durchzustarten!
 
 
 1. [senseBox MCU](sensebox-mcu.md)
@@ -25,7 +25,7 @@ Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kur
     + [Feinstaub](sensoren/feinstaub.md)
 4. [Zubehoer](zubehoer/README.md)
     + [Strahlenschutz](zubehoer/strahlenschutz.md)
-    + [Gehaeuse](zubehoer/gehaeuse.md)
+    + [Gehäuse](zubehoer/gehaeuse.md)
     + [Netzteil und USB-Kabel](zubehoer/netzteil-und-usb-kabel.md)
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)

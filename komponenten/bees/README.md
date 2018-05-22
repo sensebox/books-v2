@@ -6,7 +6,7 @@
     <br>
 </div>
 
-Du kannst bei der Konfiguration deiner senseBox zwischen vier verschieden Bees waehlen: 
+Du kannst bei der Konfiguration deiner senseBox zwischen vier verschieden Bees wählen: 
 
 * Wifi-Bee
 * SD-Bee 

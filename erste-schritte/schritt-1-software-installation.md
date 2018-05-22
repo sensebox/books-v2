@@ -1,6 +1,6 @@
 
 # Schritt 1: Software Installation {#head}
- <div class="description">Bevor du mit dem Messen von Phaenomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehoert die Installation von verschiedenen Treibern und Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafuer. Du solltest dir die Schritte 1 bis 5 allerdings genau anschauen, damit spaeter keine Probleme auftreten. </div>
+ <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehoert die Installation von verschiedenen Treibern und Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafuer. Du solltest dir die Schritte 1 bis 5 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
 <div class="line">
     <br>
     <br>
@@ -12,7 +12,7 @@ Die senseBoxMCU ist eine
 
 Bevor die senseBox aktiviert werden kann, musst du Treiber sowie eine Software auf deinem Computer installieren. Außerdem ist es vor Inbetriebnahme der senseBox ratsam einen Testlauf durchzuführen, um zu überprüfen ob die Sensoren korrekt funktionieren und die Kommunikation mit dem Internet reibungslos läuft.
 
-Falls etwas bei dem Testlauf schief geht, schau zuerst in unser Forum ob jemand schon aehnliche Probleme gehabt hat. Falls du auch dort keine Loesung findest melde dich am besten per Mail bei unserem Support.
+Falls etwas bei dem Testlauf schief geht, schau zuerst in unser Forum ob jemand schon ähnliche Probleme gehabt hat. Falls du auch dort keine Loesung findest melde dich am besten per Mail bei unserem Support.
 
 Schau dir die Anleitung fuer dein Betriebsystem an und folge den angegebenen Schritten.
 

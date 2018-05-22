@@ -1,12 +1,12 @@
 # Übersicht {#head}
 
-<div class="description">In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklaeren dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.</div>
+<div class="description">In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklären dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Damit alles reibungslos laeuft starten wir ganz von vorne und führen dich Schritt für Schritt durch die Installation von Software und Hardware bis zum Bau deiner einsatzbereiten Messstation. Dazu bekommst Du zuerst einmal eine übersicht wie diese Buch aufgebaut ist.
+Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schritt für Schritt durch die Installation von Software und Hardware bis zum Bau deiner einsatzbereiten Messstation. Dazu bekommst Du zuerst einmal eine übersicht wie diese Buch aufgebaut ist.
 
 1. Erste Schritte - Installiere benoetigte Programme, teste deine Sensoren und starte durch mit Deiner senseBox
    1. [Installation von benoetigter Software](erste-schritte/schritt-1-software-installation.md)
@@ -23,4 +23,4 @@ Damit alles reibungslos laeuft starten wir ganz von vorne und führen dich Schri
    4.[ Weiteres Zubehoer](komponenten/zubehoer/README.md)
 5. [Experimente - Lass dich inspirieren und führe spannende Experimente durch](experimente.md)
 6. [Erweiterungen - Schon alle Teile ausprobiert? - Schau dir an wie du deine senseBox erweitern kannst!](erweiterungen.md)
-7. [FAQ - Haeufig gestellte Fragen & Antworten](hilfe.md)
+7. [FAQ - Häufig gestellte Fragen & Antworten](hilfe.md)
