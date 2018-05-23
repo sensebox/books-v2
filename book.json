@@ -14,7 +14,8 @@
     "validate-links",
     "codetabs",
     "simpletabs",
-    "image-captions"
+    "image-captions",
+    "collapse"
   ],
   "pluginsConfig": {
     "edit-link": {

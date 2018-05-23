@@ -29,7 +29,7 @@ Im Kapitel [Bees](/../../grundlagen/shields.md) hast du schon gelernt wie du ein
 
 Wie im vorherigen [Kapitel](/../../grundlagen/shields.md) bereits beschrieben müssen wir erstmal die Instanzen für die openSenseMap erstellen und unser WLAN-Netzwerk + Zugangsdaten bereitstellen. 
 
-<!--sec data-title="Deklarierung der Objekte" data-id="setupWiFiObjekte" data-collapse=true ces-->
+{% collapse title="Deklarierung der Objekte" %}
 ```arduino
 Bee* b = new Bee(); // Instanz der Bee
 OpenSenseMap osem("senseBox ID",b); // Instanz der openSenseMap
@@ -38,27 +38,28 @@ void setup(){
     b->connectToWifi("SSID","PW"); // Verbindung zum WiFi herstellen 
     hdc.begin();
     };
-``` 
-
-
-<!--endsec-->
+```
+{% endcollapse %}
 
 In der `loop()`-Funktion laden wir nun unsere Messwerte hoch.
 
-<!--sec data-title="loop()" data-id="loopWiFiObjekte" data-collapse=true ces-->
+{% collapse title="loop()" %}
 ```arduino
 void loop(){
     osem.uploadMeasurement(hdc.getTemperature(),"Sensor ID")
     delay(5000);
     };
-``` 
-<!--endsec-->
-## Aufgaben
-<!--sec data-title="Aufgabe 1" data-id="aufg1" data-collapse=true ces-->
-Mache dich mit der openSenseMap vertraut (siehe Vorraussetzungen), und registriere dort deine senseBox mit den Sensoren, welche du bisher angeschlossen hast.
-<!-- endsec -->
+```
+{% endcollapse %}
 
-<!--sec data-title="Aufgabe 2" data-id="aufg2" data-collapse=true ces-->
+## Aufgaben
+{% collapse title="Aufgabe 1" %}
+Mache dich mit der openSenseMap vertraut (siehe Vorraussetzungen), und registriere dort deine senseBox mit den Sensoren, welche du bisher angeschlossen hast.
+{% endcollapse %}
+
+
+
+{% collapse title="Aufgabe 2" %}
 In dem Arduino-Sketch, den du bei der Registrierung in Aufgabe 1 erhalten hast, fehlt noch das Auslesen von Sensoren.
 Erweitere den Sketch von der OSeM-Registrierung sodass deine angeschlossenen Sensoren ausgelesen werden.
 
@@ -67,4 +68,4 @@ Erweitere den Sketch von der OSeM-Registrierung sodass deine angeschlossenen Sen
     Folge der Anleitung im <a href="../../grundlagen/digitale_signale.html">Grundlagenkapitel</a>. Du kannst deinen bisherigen Code überwiegend wiederverwenden!<
 </div>
 
-<!-- endsec -->
+{% endcollapse %}

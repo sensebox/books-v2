@@ -16,21 +16,22 @@ Das WiFi-Bee ist das Verbindungsstück um die senseBox mit dem Internet zu verbi
     Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/schritt-3-libraries-hinzufuegen.html">Schritt 3</a> erklärt!
 </div>
 
-<!--sec data-title="Deklarierung der Objekte" data-id="setupWiFiObjekte" data-collapse=true ces-->
+{% collapse title="Deklarierung der Objekte" %}
 Als erstes muss eine Instanz der Bee & der openSenseMap erstellt werden.
 
 ```arduino
 Bee* b = new Bee(); // Instanz der Bee
 OpenSenseMap osem("senseBox ID",b); // Instanz der openSenseMap
 float temp = 24.3; // Testwert den wir später auf der openSenseMap hochladen 
-``` 
- Haben wir dies getan kann die Bee im Programmcode fortlaufen mit dem Kürzel `b` angesprochen werden. In der `setup()`-Funktion stellen wir nun eine Verbindung zu unserem gewünschten WiFi-Netzwerk her. Und laden Testweise einen ersten Wert auf der openSenseMap hoch.
+```
+
+Haben wir dies getan kann die Bee im Programmcode fortlaufen mit dem Kürzel `b`angesprochen werden. In der `setup()`-Funktion stellen wir nun eine Verbindung zu unserem gewünschten WiFi-Netzwerk her. Und laden Testweise einen ersten Wert auf der openSenseMap hoch.
 
  
 
-<!--endsec-->
+{% endcollapse %}
 
-<!--sec data-title="setup()" data-id="setupWifi" data-collapse=true ces-->
+{% collapse title="setup()" %}
 
 ```arduino
 void setup(){
@@ -40,14 +41,13 @@ void setup(){
                                              //"sensor ID" muss noch ersetzt werden
     
     };
-``` 
-
+```
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Achte hier darauf, dass du die Parameter "SSID" mit dem Netzwerknamens ,"PW" mit dem dazugehörigen Passwort und "senseBox ID" mit deiner Box ID  ersetzen musst!
 </div>
 
-<!--endsec-->
+{% endcollapse %}
 
 Nun hat deine WiFi-Bee eine Verbindung zum Internet hergestellt und sollte einen ersten Wert auf der openSenseMap hochladen. 
 

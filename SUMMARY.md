@@ -59,4 +59,5 @@
     * [Bildunterschriften](templates/bildunterschriften.md)
     * [Tabs](templates/tabs.md)
     * [Neue Seite](templates/neue-seite.md)
+    * [Collapsible](templates/collapsible.md)
 
