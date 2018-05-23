@@ -10,7 +10,7 @@ node_modules
 # Book build output
 _book
 _book/index.html
-*.html
+
 
 # eBook build output
 *.epub

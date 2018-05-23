@@ -7,9 +7,9 @@
     <br>
 </div>
 
->Hier findest du eine Liste aller Sensoren, Bees, Shields und anderen Zubehoerteile der Sensebox. Wenn du wissen willst wofuer du ein Teil benutzen kannst klicke einfach auf den Namen. 
+>Hier findest du eine Liste aller Sensoren, Bees, Shields und anderen Zubehörteile der Sensebox. Wenn du wissen willst wofür du ein Teil benutzen kannst klicke einfach auf den Namen. 
 
-Wir haben fuer jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kurz zu erklaeren und dir alle noetigen Informationen bereit zu stellen, um mit der Komponente und deiner senseBox voll durchzustarten!
+Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kurz zu erklären und dir alle nötigen Informationen bereit zu stellen, um mit der Komponente und deiner senseBox voll durchzustarten!
 
 
 1. [senseBox MCU](sensebox-mcu.md)
@@ -24,12 +24,12 @@ Wir haben fuer jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kur
     + [GPS](sensoren/gps.md)
     + [Belichtung und UV](sensoren/belichtung-und-uv.md)
     + [Feinstaub](sensoren/feinstaub.md)
-4. [Zubehoer](zubehoer/README.md)
+4. [Zubehör](zubehoer/README.md)
     + [Strahlenschutz](zubehoer/strahlenschutz.md)
-    + [Gehaeuse](zubehoer/gehaeuse.md)
+    + [Gehäuse](zubehoer/gehaeuse.md)
     + [Netzteil und USB-Kabel](zubehoer/netzteil-und-usb-kabel.md)
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)
     + [Micro-SD Karte](zubehoer/micro-sd-karte.md)
 
-Natuerlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tueftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit koennen wir dir leider nur Anleitungen fuer die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort kriegst du nicht nur Hilfe von uns sondern auch von Tueftlern aus der ganzen Welt. 
+Natürlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tüftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit können wir dir leider nur Anleitungen für die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort kriegst du nicht nur Hilfe von uns sondern auch von Tüftlern aus der ganzen Welt. 
