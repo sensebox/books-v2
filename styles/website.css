@@ -52,7 +52,8 @@ p, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: BrixSlab-Regular;
 }
 
-.description{
+/*Description-box and collapsibles*/
+.description, details summary{
   font-family: BrixSlab-Bold;
   color: #4EAF47;
   background-color: #f4f4f4;
