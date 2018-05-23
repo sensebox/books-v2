@@ -1,13 +1,7 @@
 # Lan-Bee {#head}
-<div class="
-
-Verbindungsstück um die senseBox mit dem Internet zu verbinden. Die Daten der senseBox werden per per LAN-Kabel an direkt an einen Router übertragen. Das LAN-Bee basiert auf dem W5500 Mikrochip von Wiznet welcher einen hohe Ethernet Datenübertragungsrate ermöglicht.
-
-
-"></div>
-
+<div class="description">
+Verbindungsstück um die senseBox mit dem Internet zu verbinden. Die Daten der senseBox werden per per LAN-Kabel an direkt an einen Router übertragen. Das LAN-Bee basiert auf dem W5500 Mikrochip von Wiznet welcher einen hohe Ethernet Datenübertragungsrate ermöglicht.</div>
 <div class="line">
-    <br>
     <br>
     <br>
 </div>
