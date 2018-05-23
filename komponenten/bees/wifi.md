@@ -7,7 +7,7 @@
     <br>
 </div>
 
-![Wifi-Bee](https://github.com/sensebox/books-v2/blob/home/pictures/wifi_new_bottom.png)
+![Wifi-Bee](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/wifi_new_bottom.png?token=AUIA53fROQf19TZZIUhC0rXqvo7VVmzpks5bDpzAwA%3D%3D)
 
 # Technische Informationen
 
