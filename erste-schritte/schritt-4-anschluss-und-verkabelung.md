@@ -1,1 +1,0 @@
-#Schritt 4: Anschluss und Verkabelung

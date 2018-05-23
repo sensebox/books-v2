@@ -1,2 +1,0 @@
-# Netzteil und USB-Kabel
-

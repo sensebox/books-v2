@@ -1,1 +1,0 @@
-#Schritt 9: Die senseBox aufstellen
