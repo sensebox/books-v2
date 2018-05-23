@@ -1,4 +1,11 @@
-# Komponenten
+# Komponenten {#head}
+<div class="description"></div>
+
+<div class="line">
+    <br>
+    <br>
+    <br>
+</div>
 
 >Hier findest du eine Liste aller Sensoren, Bees, Shields und anderen Zubehoerteile der Sensebox. Wenn du wissen willst wofuer du ein Teil benutzen kannst klicke einfach auf den Namen. 
 

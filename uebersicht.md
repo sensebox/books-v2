@@ -4,9 +4,14 @@ description: >-
   senseBox:home durchzustarten!
 ---
 
-# Übersicht
+# Übersicht {#head}
+<div class="description">In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklaeren dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.</div>
 
-In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklaeren dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.
+<div class="line">
+    <br>
+    <br>
+    <br>
+</div>
 
 Damit alles reibungslos laeuft starten wir ganz von vorne und fuehren dich Schritt fuer Schritt durch die Installation von Software und Hardware bis zum Bau deiner einsatzbereiten Messstation. Dazu bekommst Du zuerst einmal eine Uebersicht wie diese Buch aufgebaut ist.
 

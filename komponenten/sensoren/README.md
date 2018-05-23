@@ -1,4 +1,11 @@
-# Sensoren
+# Sensoren {#head}
+<div class="description"></div>
+
+<div class="line">
+    <br>
+    <br>
+    <br>
+</div>
 
 Mit Sensoren kannst du verschiedene Umweltphaenomene messen und mit den Messungen wiederrum kannst du eine Menge andere coole Sachen anstellen. 
 
