@@ -5,13 +5,14 @@ Verbindungsstück um die senseBox mit dem Internet zu verbinden. Die Daten der s
 
 
 "></div>
-![LAN Bee](https://github.com/sensebox/books-v2/blob/home/pictures/Lan_bottom.png?raw=true)
 
 <div class="line">
     <br>
     <br>
     <br>
 </div>
+
+![LAN Bee](https://github.com/sensebox/books-v2/blob/home/pictures/Lan_bottom.png?raw=true)
 
 ## Technische Informationen
 
