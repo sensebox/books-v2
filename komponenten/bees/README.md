@@ -7,9 +7,9 @@
     <br>
 </div>
 
-Du kannst bei der Konfiguration deiner senseBox zwischen vier verschieden Bees wählen: 
+Es gibt verschiedene Bees mit der die senseBox Daten speichern, oder diese ins Internet übermitteln kann. Im Moment kann man zwischen vier verschieden Bees wählen: 
 
 * Wifi-Bee
 * SD-Bee 
 * LAN-Bee
-* 
+* LoRa-Bee
