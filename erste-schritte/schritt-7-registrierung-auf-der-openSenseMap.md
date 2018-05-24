@@ -28,5 +28,73 @@ Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anz
 
 Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du danach nach der verwendeten Hardware gefragt. Wähle senseBox:home V2 und den Bee den du verwendest (WiFi, oder Ethernet)
 
-![Wähle senseBox:home V2](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Select_hardware.PNG?token=AUIA5-lN3qWbM2w4n4LIfImC2XHlINq9ks5bD_VkwA%3D%3D)
+![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Select_hardware.PNG?token=AUIA5-lN3qWbM2w4n4LIfImC2XHlINq9ks5bD_VkwA%3D%3D)
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Du bist dir nicht sicher ob du ein Ethernet oder WiFi-Bee hast, oder kannst den Unterschied zwischen dem Luftdruck und Temperatursensor nicht erkennen? Im Kapitel **Komponenten** findest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
+</div>
+
+Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Fallst du einen Feinstaubsensor anschließen willst, musst du außerdem noch angeben an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
+
+{% collapse title="Warum muss ich den Feinstaub-Sensor an einen Serial-Port anschließen?" %}
+
+Hier sollte eine Erklärung stehen. 
+
+{% endcollapse %}
+
+## 3. Summary der Registrierung und Mail erhalten
+Wenn du die Registrierung abgeschlossen hast musst du nocheinmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt (diesen erhälst du zudem nocheinmal per E-Mail zugeschickt). 
+
+![Summary der Registrierung. Hier siehst du die IDs deiner senseBox und deiner Sensoren!](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/summary.PNG?token=AUIA5-0amRn0Chp0NbIb3kbUknQ8hXwcks5bD_oUwA%3D%3D)
+
+{% collapse title="Was ist meine senseBox ID" %}
+
+Die senseBox ID ist ein eindeutiger Identifikator deiner senseBox. Damit kannst du deine senseBox z.B. über die URL finden (opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN) oder in Datensätzen aufspüren. Des weiteren wird Sie für verschiedene Applications und Funktionen rund um die senseBox und die openSenseMap verwendet.
+
+{% endcollapse %}
+
+## Arduino-Code auf die senseBox laden
+Nachdem du den ```.ino``` Anhang der Email heruntergeladen hast, muss dieses Programm auf deine senseBox geladen werden. Dafür musst du natürlich die Arduino IDE (wie in Schritt 1 erklärt) auf deinem Computer heruntergeladen haben. In Kurzfassung kannst du danach folgende Schritte befolgen:
+
+{% tabs first="WiFi-Bee", second="Ethernet-Bee", third="LoRa-Bee" %}
+{% content "first" %}
+
+### WiFi-Bee
+
+* Arduino Anwendung öffnen
+* In der Menüleiste ``Datei`` → ``Öffnen`` auswählen und die ``sensebox.ino`` Datei auswählen
+* Im Dialogfeld wird gefragt ob die Datei verschoben werden darf. Dieses mit "Ja" oder "Ok" bestätigen.
+* Jetzt musst du dein WiFi-Netzwerk und dein Passwort für das Netzwerk zwischen die ``""`` eingeben. Achte darauf, keine Leerzeichen zwischen den ``"`` und den Buchstaben deines Passworts zu haben.  
+* Jetzt kannst du as Programm über das Pfeil Icon auf den Mikrocontroller laden.
+* Warten bis das Programm übertragen wurde
+__________
+
+{% content "second" %}
+
+### Ethernet-Bee
+
+* Arduino Anwendung öffnen
+* In der Menüleiste ``Datei`` → ``Öffnen`` auswählen und die ``sensebox.ino`` Datei auswählen
+* Im Dialogfeld wird gefragt ob die Datei verschoben werden darf. Dieses mit "Ja" oder "Ok" bestätigen.
+* Jetzt musst du dein WiFi-Netzwerk und dein Passwort für das Netzwerk zwischen die ``""`` eingeben. Achte darauf, keine Leerzeichen zwischen den ``"`` und den Buchstaben deines Passworts zu haben.  
+* Jetzt kannst du as Programm über das Pfeil Icon auf den Mikrocontroller laden.
+* Warten bis das Programm übertragen wurde
+___________________
+
+
+{% content "third" %}
+
+### LoRa-Bee
+
+Leider sind wir bisher nochnicht dazu gekommen eine Anleitung für das LoRa-Bee zu schreiben. Wenn du Lust hast dies zu übernehmen, schicke uns gerne eine Mail an info@sensebox.de
+___________
+
+{% endtabs %}
+
+Wenn alles richtig gelaufen ist, kannst du nun auf der openSenseMap deine Station auswählen und verfolgen, wie Messungen kontinuierlich übertragen werden!
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Du kannst dich nichtmehr daran erinnern wie du den Code von Arduino auf die senseBox überträgst? Schau nochmal in Schritt 1 nach, dort wird die Installation und die Übertragung der Tests erklärt. Falls das auch nutze unser Forum auf www.forum.sensebox.de um dich zu informieren oder gegebenenfalls eine Frage zu stellen. </div>
 
