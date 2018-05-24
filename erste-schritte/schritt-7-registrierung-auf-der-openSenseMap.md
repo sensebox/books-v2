@@ -28,5 +28,5 @@ Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anz
 
 Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du danach nach der verwendeten Hardware gefragt. Wähle senseBox:home V2 und den Bee den du verwendest (WiFi, oder Ethernet)
 
-![Wähle senseBox:home V2](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Sing_up.PNG?token=AUIA5ykjuDKMxyHo_4xCZtuYpJM3H3XFks5bD_B9wA%3D%3D)
+![Wähle senseBox:home V2](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Select_hardware.PNG?token=AUIA5-lN3qWbM2w4n4LIfImC2XHlINq9ks5bD_VkwA%3D%3D)
 
