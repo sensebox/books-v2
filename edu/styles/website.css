@@ -26,6 +26,11 @@
 @font-face {font-family: 'BrixSlab-Bold';src: url('https://sensebox.de/css/webfonts/2EF157_0_0.eot');src: url('https://sensebox.de/css/webfonts/2EF157_0_0.eot?#iefix') format('embedded-opentype'),url('https://sensebox.de/css/webfonts/2EF157_0_0.woff2') format('woff2'),url('https://sensebox.de/css/webfonts/2EF157_0_0.woff') format('woff'),url('https://sensebox.de/css/webfonts/2EF157_0_0.ttf') format('truetype');}
 @font-face {font-family: 'BrixSlab-Regular';src: url('https://sensebox.de/css/webfonts/2EF157_1_0.eot');src: url('https://sensebox.de/css/webfonts/2EF157_1_0.eot?#iefix') format('embedded-opentype'),url('https://sensebox.de/css/webfonts/2EF157_1_0.woff2') format('woff2'),url('https://sensebox.de/css/webfonts/2EF157_1_0.woff') format('woff'),url('https://sensebox.de/css/webfonts/2EF157_1_0.ttf') format('truetype');}
 
+p {
+  font-family: BrixSlab-Regular;
+}
+
+
 .book-summary, #book-search-input {
   background-color:#f4f4f4;
   font-family: BrixSlab-Bold;
