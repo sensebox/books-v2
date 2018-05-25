@@ -20,7 +20,7 @@ Schau dir die Anleitung für dein Betriebsystem an und folge den angegebenen Sch
 {% content "first" %}
 ### Arduino Software für Windows herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
+> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
 
 Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
@@ -37,7 +37,7 @@ __________
 
 ### Arduino Software für Mac(OSX) herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
+> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
 
 Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
@@ -55,7 +55,7 @@ ___________________
 
 ### Arduino Software für Linux herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
+> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
 
 Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
@@ -66,15 +66,27 @@ Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wir
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 ### Installation der IDE unter Linux {#installation-der-ide-unter-linux}
 
-Linux-Nutzer können die Linuxvariante herunterladen und entpacken. Das enthaltene `install.sh`-Skript legt automatisch eine Desktopverknüpfung an. Am schnellsten geht dies über die folgenden Terminal-Befehle:
+Linux-Nutzer können die Linuxvariante herunterladen und entpacken. Das enthaltene `install.sh`-Skript legt automatisch eine Desktopverknüpfung an. Am schnellsten geht dies über den Terminal. Öffne dazu den Terminal in dem du die Tasten `Ctrl + Alt + T` drückst und gib dort die folgenden Befehle ein:
 
 ```text
-tar -xvf arduino-1.8.3-linux64.tar.xz
-cd arduino-1.8.3
-./install.sh
+# sollte die heruntergeladene Datei nicht im Downloads-Ordner abgespeichert sein, ersetze "Downloads" durch den Pfad zum entsprechenden Ordner
+cd Downloads 
 ```
 
-Um den Arduino programmieren zu können, sind unter Ubuntu 14 & 16 zusätzliche Rechte notwendig. Diese können für den aktuellen Nutzer mit den folgenden Befehlen eingerichtet werden \(benötigt Admin-Rechte\): Führe `udevadm monitor --udev` aus und schließe den Arduino per USB an, um die Device-ID zu bestimmen. Der angegebene Bezeichnung am Ende der Ausgabe \(zB. `ttyUSB0`\) ist die Device-ID. Beende `udevadm` per `ctrl+C`, und führe noch die folgenden Befehle aus, wobei die herausgefundene Device-ID eingesetzt werden muss:
+```text
+# entpacke die Datei mit folgendem Befehl und installiere Arduino
+tar -xvf arduino-1.8.5-linux64.tar.xz
+cd arduino-1.8.5
+./install.sh
+```
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Achte darauf, dass der Befehl auf die heruntergeladene Arduinoversion abgestimmt ist! Lädst du z.B. Arduino 1.8.6 muss auch überall wo arduino-1.8.5 steht arduino-1.8.6 stehen. Um zu überprüfen welche Version du heruntergeladen hast, schau dir den Namen der Download-Datei an.
+</div>
+
+Um den Arduino programmieren zu können, sind unter Ubuntu 14 & 16 zusätzliche Rechte notwendig. Diese können für den aktuellen Nutzer mit den folgenden Befehlen eingerichtet werden \(benötigt Admin-Rechte\):
+
+Führe `udevadm monitor --udev` aus und schließe den Arduino per USB an, um die Device-ID zu bestimmen. Der angegebene Bezeichnung am Ende der Ausgabe \(zB. `ttyUSB0`\) ist die Device-ID. Beende `udevadm` per `ctrl+C`, und führe noch die folgenden Befehle aus, wobei die herausgefundene Device-ID eingesetzt werden muss:
 
 ```text
 sudo usermod -a -G dialout $(whoami)
