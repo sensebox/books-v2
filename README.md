@@ -4,9 +4,9 @@ This repository contains the gitbook sources for the documentation and OER regar
 
 There are seperate branches for each book inside this repository. 
 There are throe books until now:
-- <b>[senseBox:edu-book](https://github.com/sensebox/books-v2/tree/edu)</b> in branch called "edu" 
-- <b>[senseBox:home-book](https://github.com/sensebox/books-v2/tree/home)</b> in branch called "home".
-- <b>[senseBox:osem-book](https://github.com/sensebox/books-v2/tree/osem)</b> in branch called "osem".
+- <b>[senseBox:edu-book](https://github.com/sensebox/books-v2/tree/edu)</b> in branch called "edu" hosted [here](https://sensebox.github.io/books-v2/edu).
+- <b>[senseBox:home-book](https://github.com/sensebox/books-v2/tree/home)</b> in branch called "home" hosted [here](https://sensebox.github.io/books-v2/home).
+- <b>[senseBox:osem-book](https://github.com/sensebox/books-v2/tree/osem)</b> in branch called "osem" hosted [here](https://sensebox.github.io/books-v2/osem).
 
 ## Contributing 
 
