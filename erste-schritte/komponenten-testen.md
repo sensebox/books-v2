@@ -1,4 +1,4 @@
-# Schritt 5: Sensoren Testen {#head}
+# Schritt 5: Komponenten Testen {#head}
 <div class="description"></div>
 
 <div class="line">
@@ -7,7 +7,7 @@
     <br>
 </div>
 
-> Es ist soweit, alle Software-Komponenten sollten installiert sein und du bist bereit durchzustarten! Aber langsam an, zuerst sollten wir die einzelenen Sensoren testen, denn nichts ist ärgerlicher als alles fertig angeschlossen zu haben und dann zu merken, dass etwas nicht stimmt. 
+> Es ist soweit, alle Software-Komponenten sollten installiert sein und du bist bereit durchzustarten! Aber langsam an, zuerst sollten wir die einzelenen Komponenten testen, denn nichts ist ärgerlicher als alles fertig angeschlossen zu haben und dann zu merken, dass etwas nicht stimmt. 
 
 ------
 

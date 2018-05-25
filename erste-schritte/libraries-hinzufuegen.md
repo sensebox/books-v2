@@ -24,7 +24,7 @@
             <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
              Nein, was ist das?!
              <br>
-             Wenn du nicht weißt was die Arduino IDE ist oder du sie noch nicht installiert hast schau dir zuerst <a href="schritt-1-software-installation.html">Schritt 1</a> an und folge dort allen Anweisungen.
+             Wenn du nicht weißt was die Arduino IDE ist oder du sie noch nicht installiert hast schau dir zuerst <a href="software-installation.html">Schritt 1</a> an und folge dort allen Anweisungen.
         </div>
     </div>
 </div>
