@@ -1,4 +1,4 @@
-# Boxen verwalten
+# Boxen verwalten {#head}
 Jeder registrierte Nutzer kann beliebig viele Boxen auf der openSenseMap verwalten.
 Wenn die Einstellungen einer Box nachträglich geändert oder der Sketch heruntergeladen werden sollen ist dies über das **Dashboard** möglich.
 Dieses ist in der Menuleiste unter dem User-Icon verfuegbar, sobald ein Nutzer eingeloggt ist:

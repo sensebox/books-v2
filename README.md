@@ -1,6 +1,16 @@
-# openSenseMap Book
-Up to now this is just a copy+paste version of the [osem_book from senseBox version 1](https://github.com/sensebox/books/tree/book_osem). 
-Feel free to contribute and start adding or editing content. 
-This book will adapt the structure and design of the new books within the next few days.
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/sensebox_logo_neu.png" align="center" width="400"/>
 
-Switch into *osem folder* to edit and view the book.
+# openSenseMap {#head}
+
+Die openSenseMap (OSeM) ist eine Webplattform, auf welcher diverse standortbezogene Sensordaten hochgeladen und visualisiert werden können.
+Auf der Plattform lassen sich Stationen registrieren, welche die Daten eines oder mehrerer Sensoren übertragen.
+
+Neben einer Zeitreihenvisualisierung der Daten, ist es auch möglich diese nach verschiedenen Kriterien zu Filtern und räumliche Interpolationen zu errechnen.
+
+Sämtliche Sensordaten stehen unter der [Public Domain Dedication and License 1.0](http://opendatacommons.org/licenses/pddl/summary/) zum Download zur Verfügung, und können frei verwendet werden.
+
+Sowohl die openSenseMap als auch die zugehörige API ist Open Source Software.
+Quellcode und Issuetracker sind hier zu finden:
+
+* [openSenseMap](https://github.com/sensebox/OpenSenseMap)
+* [openSenseMap API](https://github.com/sensebox/OpenSenseMap-API)

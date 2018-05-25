@@ -1,4 +1,4 @@
-# Anwendungen für die openSenseMap API
+# Anwendungen für die openSenseMap API {#head}
 
 In der Community sind bereits einige Tools und Anwendungen entstanden,
 welche die openSenseMap integrieren oder als Schnittstelle nutzen.

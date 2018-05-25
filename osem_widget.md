@@ -1,4 +1,4 @@
-# openSenseMap Widget
+# openSenseMap Widget {#head}
 Um die Sensordaten einer senseBox nicht nur auf `opensensemap.org` anzuzeigen, sondern beispielsweise auch in eine eigene Website einzubinden
 kann das *openSenseMap Widget* verwendet werden.
 

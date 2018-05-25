@@ -1,4 +1,4 @@
-# Registrierung auf der openSenseMap
+# Registrierung auf der openSenseMap {#head}
 Um eine neue senseBox auf der openSenseMap zu registrieren, muss zunächst unter *Anmelden* ein Nutzer-Account erstellt werden.
 Anschließend ist unter dem User-Logo oben rechts das Dashboard zu finden, über welches senseBoxen hinzugefügt und [verwaltet](osem_manage-boxes.md) werden können.
 

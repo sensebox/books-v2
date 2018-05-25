@@ -1,4 +1,4 @@
-# Datenübertragung über MQTT
+# Datenübertragung über MQTT {#head}
 
 Diese Anleitung beschreibt die Möglichkeit, Messwerte über MQTT an die openSenseMap zu senden. Die openSenseMap ist in der Lage, sich als MQTT Client mit einem öffentlichen MQTT Broker zu verbinden. Einen eigenen MQTT Broker bietet die openSenseMap nicht an. Der openSenseMap MQTT Client verbindet sich, wenn nicht anders in den Verbindungseinstellungen angegeben, mit einer 13 Stelligen Id mit prefix `osem_` gefolgt von 8 zufälligen Ziffern und Buchstaben von A bis F.
 

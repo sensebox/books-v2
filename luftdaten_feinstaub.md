@@ -1,4 +1,4 @@
-# Stuttgart Luftdaten.info Daten an openSenseMap.org senden
+# Stuttgart Luftdaten.info Daten an openSenseMap.org senden {#head}
 Die Feinstaub Sensoren des OK Lab Stuttgart (Luftdaten.info) erlauben es, die gemessenen Daten auch an die openSenseMap zu senden. Um die Daten an die openSenseMap zu senden muss zu allererst herausgefunden werden, welche Sensoren am Feinstaubsensor verwendet werden. Dies kann man am besten in dem Webinterface des Feinstaubsensors nachsehen. ([Abb. 1](#abbildung-1-webinterface-feinstaubsensor))
 
 Danach muss eine senseBox auf der openSenseMap mit der gerade nachgesehenen Konfiguration registriert werden.

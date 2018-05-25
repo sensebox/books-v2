@@ -1,4 +1,4 @@
-## Diagramme erstellen
+## Diagramme erstellen {#head}
 
 Um euch aus den heruntergeladenen Daten ein Diagramm zu erstellen, markiert ihr zunächst alle Daten, die mit in die Analyse einfließen sollen und klickt auf das Diagrammsymbol
 

@@ -1,4 +1,4 @@
-# Manuelle Konfiguration eines Sensors auf der OSeM
+# Manuelle Konfiguration eines Sensors auf der OSeM {#head}
 
 In dieser Anleitung wird beispielhaft die Anbindung eines SHT15 Sensors in das OSeM Netzwerk beschrieben.
 Für die Datenverarbeitung bzw. -übertragung nutzen wir einen Arduino Uno mit Arduino Ethernet Shield.
