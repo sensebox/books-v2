@@ -43,5 +43,9 @@
 ## Hilfe 
 * [Hilfe](hilfe.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
-* [Templates](hint-template.md)
-
+* [Templates](templates/README.md)
+    * [Hint-Box](templates/hint-template.md)
+    * [Bildunterschriften](templates/bildunterschriften.md)
+    * [Tabs](templates/tabs.md)
+    * [Neue Seite](templates/neue-seite.md)
+    * [Collapsible](templates/collapsible.md)
