@@ -57,7 +57,7 @@
 
 ## Hilfe
 * [FAQ](hilfe/hilfe.md)
-* [Übertragungsprobleme Wifi](additional-info.md)
+* [Firmware Update Wifi-Bee](additional-info.md)
 * [Templates](templates/README.md)
     * [Hint-Box](templates/hint-template.md)
     * [Bildunterschriften](templates/bildunterschriften.md)
