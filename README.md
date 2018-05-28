@@ -1,7 +1,7 @@
 # Das senseBox:edu Buch {#head}
 <div class="description">
 Hier findest Du alle Informationen, die du brauchst um mit Deiner
-senseBox:home durchzustarten!
+senseBox:edu durchzustarten!
 </div>
 <div class="line">
     <br>
