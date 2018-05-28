@@ -1,5 +1,12 @@
-# DIY - Temperatur und Luftfeuchtigkeit
-Damit wir täglich den Wetterbericht im Internet, im Fernsehen, in der Zeitung oder in Apps sehen können, werden nicht nur Satellitendaten ausgewertet. Auch Daten von Wetterstationen am Boden spielen eine wichtige Rolle bei der Vorhersage. Aber wie funktioniert die Messung und Darstellung von Temperatur- und Luftfeuchtigkeitswerten?
+# DIY - Temperatur und Luftfeuchtigkeit {#head}
+
+<div class="description">Damit wir täglich den Wetterbericht im Internet, im Fernsehen, in der Zeitung oder in Apps sehen können, werden nicht nur Satellitendaten ausgewertet. Auch Daten von Wetterstationen am Boden spielen eine wichtige Rolle bei der Vorhersage. Aber wie funktioniert die Messung und Darstellung von Temperatur- und Luftfeuchtigkeitswerten?</div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
+
 
 ## Voraussetzungen
 - [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-3-libraries-hinzufuegen.md)
@@ -13,15 +20,15 @@ In dieser Station beschäftigen wir uns mit dem Temperatur- und Luftfeuchtigkeit
 - kombinierter Temperatur und Luftfeuchtigkeitssensor `HDC1080`
 
 ## Grundlagen
-<!--sec data-title="HDC1080 Sensor" data-id="grundlagensensor" data-collapse=true ces-->
+{% collapse title="HDC1080 Sensor" %}
 Der `HDC1080`, aus der Serie HDX10XX von Texas Instruments, ist ein kombinierter Temperatur- und Luftfeuchtigkeitssensor. Der Sensor kann die Luftfeuchtigkeit von 0% bis 100%, sowie die Temperatur von -40°C bis 125°C bei einer Genauigkeit von ±2% bzw. von ±0,2°C messen.
-<!--endsec-->
+{% endcollapse %}
 
-<!--sec data-title="I²C Bus" data-id="grundlageni2c" data-collapse=true ces-->
+{% collapse title="I²C Bus" %}
 Die Kommunikation des Sensors mit dem Mikrokontroller läuft über den [seriellen Datenbus I²C](../../grundlagen/serielle_datenbus.md).
 Anders als bei einfachen digitalen oder analogen Eingängen, können an den Datenbus mehrere I²C-Geräte (wie z.B. Sensoren oder Displays) parallel geschaltet werden.
 Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzelne davon zuordnen und separat ansprechen kann.
-<!--endsec-->
+{% endcollapse %}
 
 ## Aufbau
 Steckt den Schaltkreis wie ihr ihn unten in der Grafik seht.
@@ -37,16 +44,16 @@ Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino
 HDC1080 hdc;
 ```
-<!--sec data-title="setup() Funktion" data-id="programmierungsetup" data-collapse=true ces-->
+{% collapse title="setup() Funktion" %}
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 
 ```arduino
 hdc.begin();
 ```
 
-<!-- endsec -->
+{% endcollapse %}
 
-<!--sec data-title="loop() Funktion" data-id="programmierungloop" data-collapse=true ces-->
+{% collapse title="loop() Funktion" %}
 Nachdem du den Sensor, wie oben beschrieben, initialisiert hast, kannst du zwei Befehle in der `loop()`-Funktion nutzen, um einen Temperatur- bzw. Feuchtigkeitswert ausgeben zu lassen:
 ```arduino
 hdc.getHumidity();
@@ -56,14 +63,14 @@ hdc.getTemperature();
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Beim Speichern der Messwerte sollten die Variablen den gleichen Datentypen haben wie die Rückgabewerte der Messfunktionen. In unserem Fall sind das beides float Werte.!
 </div>
-<!--endsec-->
+{% endcollapse %}
 
 ## Aufgaben
 
-<!--sec data-title="Aufgabe 1" data-id="aufg1" data-collapse=true ces-->
+{% collapse title="Aufgabe 1" %}
 Baue die oben beschriebene Schaltung nach und versuche den HDC1008 auszulesen und Dir die gemessenen Daten im seriellen Monitor anzeigen zu lassen.
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Schaue dir hierfür die Beispiele aus den <a href="/../../erste-schritte/schritt-1-software-installation.html">Ersten Schritten</a> an!
 </div>
-<!--endsec-->
+{% endcollapse %}

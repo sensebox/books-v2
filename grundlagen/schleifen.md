@@ -1,21 +1,12 @@
-# Schleifen
-> *Und täglich grüßt das Murmeltier...*
+# Schleifen {#head}
 
-Wenn du eine LED 50 Mal blinken lassen willst, ist das ganz schön viel Schreibarbeit:
-
-```arduino
-digitalWrite(led, HIGH);
-delay(100);
-digitalWrite(led, LOW); // 1
-delay(100);
-digitalWrite(led, HIGH);
-delay(100);
-digitalWrite(led, LOW); // 2
-//...
-```
-
-Da Informatiker schreibfaul sind, haben sie sich eine einfache Lösung einfallen lassen: Schleifen.
-Eine Schleife führt eine Anweisungen mehrmals aus, bis eine bestimmte Bedingung erfüllt ist.
+<div class="description">Wenn du eine LED 50 Mal blinken lassen willst, ist das ganz schön viel Schreibarbeit. <br>
+Da Informatiker schreibfaul sind, haben sie sich eine einfache Lösung einfallen lassen: <b> Schleifen </b>. <br>
+Eine Schleife führt eine Anweisungen mehrmals aus, bis eine bestimmte Bedingung erfüllt ist. </div>
+<div class="line">
+    <br>
+    <br>
+</div>
 
 ## Aufbau von Schleifen
 Schleifen bestehen aus zwei Teilen, einem **Schleifen-Kopf** und einem **Schleifen-Körper**.
@@ -58,7 +49,7 @@ Schreibe nun eine Anweisung in den Schleifenkörper, die dir den Wert der Zählv
 > ***Tipp:*** *In [Der Serielle Monitor](der_serielle_monitor.md) wird erklärt wie das geht!*
 
 - **a)** Untersuche was passiert, wenn du `zaehler = zaehler + 1` durch `zaehler = zaehler*2` oder `zaehler--` ersetzt.
-- **b)** Untersuche was passiert, wenn du `int zaehler = 0` durch `int zaehler = 25` ersetzt.
+- **b)** Untersuche was passiert, wenn du `int zaehler = 0` durch `int zeahler = 25` ersetzt.
 
 ---
 

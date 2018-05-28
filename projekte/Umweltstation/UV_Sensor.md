@@ -1,4 +1,10 @@
-# DIY - UV-Licht Sensor
+# DIY - UV-Licht Sensor {#head}
+
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
 
 ## Vorraussetzungen
 - [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-1-software-installation.md)
@@ -13,7 +19,8 @@ Anschließend wollen wir den Wert in den UV-Index umrechnen.
 - UV-Licht Sensor `VEML6070`
 
 ##Grundlagen
-<!--sec data-title="UV-Strahlung" data-id="grundlagenuv" data-collapse=true ces-->
+
+{% collapse title="UV-Strahlung" %}
 Ultraviolettstrahlung (UV-Licht) ist für den Menschen unsichtbare elektromagnetische Strahlung mit einer Wellenlänge, die kürzer ist als die sichtbaren Lichtes, aber länger als die der Röntgenstrahlung.
 UV-Licht umfasst die Wellenlängen von 100 nm bis 380 nm.
 Wegen der Absorption in der Erdatmosphäre - insbesondere in der Ozonschicht - dringt nur wenig UV-B-Strahlung (100 - 300 nm) bis zur Erdoberfläche vor.
@@ -21,7 +28,7 @@ UV-A-Strahlung (300 - 380 nm), welche weniger gefährlich für die menschliche H
 
 UV-Lichtintensität wird in Mikrowatt je Quadratzentimeter (μW / cm²) gemessen.
 Unser Sensor misst im Bereich von ca. 300 - 400 nm, nimmt also nur UV-A Strahlung auf (für genauere Angaben beachte das [Datenblatt](https://github.com/sensebox/resources/raw/master/datasheets/datasheet_veml6070-UV-A-Light-Sensor.pdf)).
-<!--endsec-->
+{% endcollapse %}
 
 ##Aufbau
 
@@ -38,16 +45,15 @@ Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino
 VEML6070 vml;
 ```
-<!--sec data-title="setup() Funktion" data-id="programmierungsetup" data-collapse=true ces-->
+{% collapse title="setup() Funktion" %}
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 
 ```arduino
 vml.begin();
 ```
+{% endcollapse %}
 
-<!-- endsec -->
-
-<!--sec data-title="loop() Funktion" data-id="programmierungloop" data-collapse=true ces-->
+{% collapse title="loop() Funktion" %}
 In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktuelle gemessene Lichtintensität abrufen:
 
 ```arduino
@@ -57,9 +63,9 @@ In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktue
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Möchtest du dir den UV-Index anzeigen lassen so musst du dir vorher eine Funktion deklarieren die das für dich übernimmt. Wie das geht erfährst du im nächsten Schritt!
 </div>
-<!-- endsec -->
+{% endcollapse %}
 
-<!--sec data-title="Umrechnung in den UV-Index" data-id="programierunguvindex" data-collapse=true ces-->
+{% collapse title="Umrechnung in den UV-Index" %}
 Da im Alltag häufig mit dem [UV-Index](https://de.wikipedia.org/wiki/UV-Index) gearbeitet wird, wollen wir nun eine Methode schreiben, welche uns den Messwert in einen UV-Index umrechnet:
 
 ```arduino
@@ -75,11 +81,10 @@ float getUVI(int uv) {
   return uvi;
 }
 ```
-<!--endsec-->
+{% endcollapse %}
 
 ## Aufgaben
 
-<!--sec data-title="Aufgabe 1" data-id="aufg1" data-collapse=true ces-->
+{% collapse title="Aufgabe 1" %}
 Versuche dir im seriellen Monitor nun mithilfe der  `getUVI()`-Funktion den UV-Index ausgeben zu lassen. 
-<!-- endsec -->
-
+{% endcollapse %}

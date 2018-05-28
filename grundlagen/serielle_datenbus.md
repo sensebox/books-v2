@@ -1,4 +1,11 @@
-# Der serielle Datenbus
+# Der serielle Datenbus {#head}
+
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 Der Arduino kann über einen Datenbus mit anderen Geräten kommunizieren.
 Ein Datenbus beschreibt ein System, über das zwei oder mehr Geräte Daten auf eine geordnete Art und Weise austauschen können.
 Bei unserem Arduino wäre das zweite Gerät fast immer ein Sensor, bzw ein Aktor.

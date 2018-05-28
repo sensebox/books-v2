@@ -1,4 +1,10 @@
-# Digitale Signale
+# Digitale Signale {#head}
+
+<div class="description"></div>
+<div class="line">
+    <br>
+    <br>
+</div>
 
 Digitale Signale können lediglich die Werte 1 oder 0 bzw. High oder Low annehmen. Sie verwenden also nur abzählbare Elemente wie zum Beispiel Finger. Daher auch der Begriff digital, der auf das lateinische digitus, der Finger zurück geht.
 

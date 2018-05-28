@@ -1,14 +1,15 @@
 # Summary
 
-* [Das senseBox:home Buch](README.md)
+* [Das senseBox:edu Buch](README.md)
 * [Übersicht](uebersicht.md)
 
 ## Erste Schritte
-* [Schritt 1: Software Installation](erste-schritte/schritt-1-software-installation.md)
-* [Schritt 2: Board-Support-Packages installieren](erste-schritte/schritt-2-board-support-packages-installieren.md)
-* [Schritt 3: Librarys hinzufügen](erste-schritte/schritt-3-libraries-hinzufuegen.md)
-* [Schritt 4: Sensoren testen](erste-schritte/schritt-4-sensoren-testen.md)
-* [Schritt 5: Registrierung auf der openSenseMap](erste-schritte/schritt-5-registrierung-auf-der-openSenseMap.md)
+* [Schritt 1: Software Installation](erste-schritte/software-installation.md)
+* [Schritt 2: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
+* [Schritt 3: Librarys hinzufügen](erste-schritte/libraries-hinzufuegen.md)
+* [Schritt 4: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
+* [Schritt 5: Komponenten testen](erste-schritte/komponenten-testen.md)
+* [Schritt 6: Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
 
 ## Grundlagen
 * [Digitale Signale](grundlagen/digitale_signale.md)
@@ -19,7 +20,7 @@
 * [Schleifen](grundlagen/schleifen.md)
 * [Der serielle Datenbus(I²C)](grundlagen/serielle_datenbus.md)
 * [Kommentare im Quelltext](grundlagen/kommentare.md)
-* [Shields](grundlagen/shields.md)
+* [Bees](grundlagen/Bees.md)
 
 ## Projekte
 * [DIY-Umweltstation](projekte/Umweltstation/README.md)
@@ -43,9 +44,9 @@
         * [GPS](komponenten/sensoren/gps.md)
         * [Belichtung und UV](komponenten/sensoren/belichtung-und-uv.md)
         * [Feinstaub](komponenten/sensoren/feinstaub.md)
-    * [Zubehoer](komponenten/zubehoer/README.md)
+    * [Zubehör](komponenten/zubehoer/README.md)
         * [Strahlenschutz](komponenten/zubehoer/strahlenschutz.md)
-        * [Gehaeuse](komponenten/zubehoer/gehaeuse.md)
+        * [Gehäuse](komponenten/zubehoer/gehaeuse.md)
         * [Netzteil und USB-Kabel](komponenten/zubehoer/netzteil-und-usb-kabel.md)
         * [LED-Display](komponenten/zubehoer/led-display.md)
         * [HUB](komponenten/zubehoer/hub.md)
@@ -58,4 +59,6 @@
     * [Hint-Box](templates/hint-template.md)
     * [Bildunterschriften](templates/bildunterschriften.md)
     * [Tabs](templates/tabs.md)
+    * [Neue Seite](templates/neue-seite.md)
+    * [Collapsible](templates/collapsible.md)
 
