@@ -39,6 +39,9 @@
 
 * [Experimente](experimente.md)
 * [Erweiterungen](erweiterungen.md)
+
+## Hilfe 
 * [Hilfe](hilfe.md)
+* [Übertragungsprobleme Wifi](additional-info.md)
 * [Templates](hint-template.md)
 

@@ -4,8 +4,13 @@
 <div class="line">
     <br>
     <br>
-    <br>
 </div>
+
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Bei einigen unserer WiFi Bees vom Typ WINC1500 kann es vorkommen, dass eine veraltete Firmware (Version 19.4.4) installiert ist. Das kann zu Übertragungsproblemen führen. Sollten diese Probleme bei dir auftreten, schaue dir <a href="../../additional-info.md">diese Hilfeseite</a> an, um die Firmware zu aktualisieren.
+</div>
+<br>
 
 ![Wifi-Bee](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/wifi_new_bottom.png?token=AUIA53fROQf19TZZIUhC0rXqvo7VVmzpks5bDpzAwA%3D%3D)
 
