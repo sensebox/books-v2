@@ -42,6 +42,6 @@
 
 ## Hilfe 
 * [Hilfe](hilfe.md)
-* [Firmware Update Wifi-Modul](additional-info.md)
+* [Firmware Update Wifi-Bee](additional-info.md)
 * [Templates](hint-template.md)
 
