@@ -1,4 +1,4 @@
-# Firmware Update Wifi-Modul {#head}
+# Firmware Update Wifi-Bee {#head}
 <div class="description">Leider haben einige unserer WiFi Bees vom Typ WINC1500 eine veraltete Firmware (Version 19.4.4) installiert. Leider gibt es keine andere Möglichkeit dieses Firmware zu updaten als es manuell durchzuführen. Im folgenden Kapitel wirk erklärt wie man rausfindet welche Firmware man benutzt und (falls man eine veraltete Version hat) wie man diese updatet.</div>
 
 ## Test der Version

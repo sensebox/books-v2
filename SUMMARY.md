@@ -42,6 +42,6 @@
 
 ## Hilfe 
 * [Hilfe](hilfe.md)
-* [Übertragungsprobleme Wifi](additional-info.md)
+* [Firmware Update Wifi-Modul](additional-info.md)
 * [Templates](hint-template.md)
 
