@@ -9,30 +9,31 @@
 
 {% collapse title="Was ist die openSenseMap?" %}
 
-Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](www.opensensemap.org) und entdecke ein riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du hier: LINK zur Doku der openSenseMap
+
+Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](www.opensensemap.org) und entdecke einen riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du [hier](sensebox.github.io/books-v2/osem)
 
 
 {% endcollapse %}
 
 ## 1. Nutzeraccount Registrierung
-Gehe auf www.opensensemap.org und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum registrieren. Nach erfolgreicher Registrierung erhälst du eine E-Mail mit einem Bestätigungslink. Bitte klicken den Link um die Registrierung abzuschließen. 
+Gehe auf www.opensensemap.org und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicken den Link um die Registrierung abzuschließen. 
 
 ![Account anlegen](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Sing_up.PNG?token=AUIA5ykjuDKMxyHo_4xCZtuYpJM3H3XFks5bD_B9wA%3D%3D)
 
 ## 2. Eine neue senseBox anlegen
-Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anzulegen. Dafür klicke auf "New senseBox / Neue senseBox" in deinem Menü und bestätige die Nutzungsbedingungen. Befolge danach die Anweißungen der Registrierung und gebe folgende Daten an:
+Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anzulegen. Dafür klicke auf "New senseBox / Neue senseBox" in deinem Menü und bestätige die Nutzungsbedingungen. Befolge danach die Anweisungen der Registrierung und gebe folgende Daten an:
 
-* Einen frei wählbaren Name der senseBox
+* Einen frei wählbaren Namen der senseBox
 * Die Umgebung (Exposure) in der du deine senseBox aufstellen möchtest
-* Den Ort (Location) an dem du deine senseBox aufstellen möchtest (du kannst auch deinen Standort automatisch bestimmen lassen)
+* Den Ort (Location) an dem du deine senseBox aufstellen möchtest (du kannst deinen Standort auch automatisch bestimmen lassen)
 
-Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du danach nach der verwendeten Hardware gefragt. Wähle senseBox:home V2 und den Bee den du verwendest (WiFi, oder Ethernet)
+Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der verwendeten Hardware gefragt. Wähle senseBox:home V2 und den Bee den du verwendest (WiFi, oder Ethernet)
 
 ![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Select_hardware.PNG?token=AUIA5-lN3qWbM2w4n4LIfImC2XHlINq9ks5bD_VkwA%3D%3D)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Du bist dir nicht sicher ob du ein Ethernet oder WiFi-Bee hast, oder kannst den Unterschied zwischen dem Luftdruck und Temperatursensor nicht erkennen? Im Kapitel **Komponenten** findest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
+  Du bist dir nicht sicher ob du ein Ethernet oder WiFi-Bee hast, oder kannst den Unterschied zwischen dem Luftdruck und Temperatursensor nicht erkennen? Im Kapitel [Komponenten](https://sensebox.github.io/books-v2/home/komponenten/) findest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
 </div>
 
 Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Fallst du einen Feinstaubsensor anschließen willst, musst du außerdem noch angeben an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
