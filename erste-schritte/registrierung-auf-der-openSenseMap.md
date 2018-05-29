@@ -16,7 +16,7 @@ Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu
 {% endcollapse %}
 
 ## 1. Nutzeraccount Registrierung
-Gehe auf www.opensensemap.org und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicken den Link um die Registrierung abzuschließen. 
+Gehe auf www.opensensemap.org und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
 
 ![Account anlegen](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Sing_up.PNG?token=AUIA5ykjuDKMxyHo_4xCZtuYpJM3H3XFks5bD_B9wA%3D%3D)
 
@@ -27,16 +27,16 @@ Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anz
 * Die Umgebung (Exposure) in der du deine senseBox aufstellen möchtest
 * Den Ort (Location) an dem du deine senseBox aufstellen möchtest (du kannst deinen Standort auch automatisch bestimmen lassen)
 
-Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der verwendeten Hardware gefragt. Wähle senseBox:home V2 und den Bee den du verwendest (WiFi, oder Ethernet)
+Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der verwendeten Hardware gefragt. Wähle *senseBox:home V2* und den Bee den du verwendest (WiFi, oder Ethernet)
 
 ![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Select_hardware.PNG?token=AUIA5-lN3qWbM2w4n4LIfImC2XHlINq9ks5bD_VkwA%3D%3D)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Du bist dir nicht sicher ob du ein Ethernet oder WiFi-Bee hast, oder kannst den Unterschied zwischen dem Luftdruck und Temperatursensor nicht erkennen? Im Kapitel [Komponenten](https://sensebox.github.io/books-v2/home/komponenten/) findest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
+  Du bist dir nicht sicher ob du ein Ethernet oder WiFi-Bee hast, oder kannst den Unterschied zwischen dem Luftdruck und Temperatursensor nicht erkennen? Im Kapitel <a href = "../komponenten/README.md">Komponenten</a> findest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
 </div>
 
-Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Fallst du einen Feinstaubsensor anschließen willst, musst du außerdem noch angeben an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
+Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen, welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Fallt du einen Feinstaubsensor anschließen willst, musst du außerdem noch angeben an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
 
 {% collapse title="Warum muss ich den Feinstaub-Sensor an einen Serial-Port anschließen?" %}
 
@@ -45,7 +45,7 @@ Hier sollte eine Erklärung stehen.
 {% endcollapse %}
 
 ## 3. Summary der Registrierung und Mail erhalten
-Wenn du die Registrierung abgeschlossen hast musst du nocheinmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt (diesen erhälst du zudem nocheinmal per E-Mail zugeschickt). 
+Wenn du die Registrierung abgeschlossen hast musst du noch einmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt (diesen bekommst du zudem noch einmal per E-Mail zugeschickt). 
 
 ![Summary der Registrierung. Hier siehst du die IDs deiner senseBox und deiner Sensoren!](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/summary.PNG?token=AUIA5-0amRn0Chp0NbIb3kbUknQ8hXwcks5bD_oUwA%3D%3D)
 
@@ -88,7 +88,7 @@ ___________________
 
 ### LoRa-Bee
 
-Leider sind wir bisher nochnicht dazu gekommen eine Anleitung für das LoRa-Bee zu schreiben. Wenn du Lust hast dies zu übernehmen, schicke uns gerne eine Mail an info@sensebox.de
+Leider sind wir bisher noch nicht dazu gekommen eine Anleitung für das LoRa-Bee zu schreiben. Wenn du Lust hast dies zu übernehmen, schicke uns gerne eine Mail an info@sensebox.de
 ___________
 
 {% endtabs %}
