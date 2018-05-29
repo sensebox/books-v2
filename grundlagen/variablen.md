@@ -1,14 +1,14 @@
 # Variablen und Datentypen {#head}
 
-<div class="description"></div>
+<div class="description">Um Daten in Programmen festzuhalten, verwendet man Variablen.
+Eine Variable ist ein Speichercontainer, der über seinen Namen angesprochen werden kann, und in dem Daten abgelegt werden können.
+Auf Variablen lässt sich sowohl lesend als auch schreibend zugreifen, der Wert ist also variabel.</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Um Daten in Programmen festzuhalten, verwendet man Variablen.
-Eine Variable ist ein Speichercontainer, der über seinen Namen angesprochen werden kann, und in dem Daten abgelegt werden können.
-Auf Variablen lässt sich sowohl lesend als auch schreibend zugreifen, der Wert ist also variabel.
+## Datentypen 
 Eine Variable hat immer einen zugeordneten Datentyp, folgende Typen sind für die Arduinoprogrammierung wichtig:
 
 | Datentypen | Bedeutung     | Beschreibung  |
@@ -28,7 +28,7 @@ Eine Variable hat immer einen zugeordneten Datentyp, folgende Typen sind für di
 Beim Programmieren gibt es einige Konventionen, das heißt einige Regeln, auf die man sich geeinigt hat, um die Lesbarkeit von Programmcode zu verbessern. Eine davon ist, dass Name von Variablen immer klein geschrieben werden.
 </div>
 
-## So verwendet man die verschiedenen Datentypen
+## Verwendung der Datentypen
 
 ### boolean
 Ein Boolean kann nur zwei Werte annehmen, wahr oder falsch (`true` or `false`).

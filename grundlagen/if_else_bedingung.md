@@ -1,13 +1,15 @@
 # if/else-Bedingung {#head}
 
-<div class="description"></div>
+<div class="description">Mit <i>if</i> und <i>else</i> ist es möglich in einem Programm Entscheidungen zu fällen und die senseBox MCU, jenachdem wie die Entscheidung ausfällt, unterschiedlichen Code ausführen zu lassen.</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Mit `if` ist es möglich in einem Programm Entscheidungen zu fällen und den Arduino, jenachdem wie die Entscheidung ausfällt, unterschiedlichen Code ausführen zu lassen.
-Wenn du beispielsweise eine LED in Abhängigkeit von einem Schalter leuchten lassen möchtest würde der Code wie folgt aussehen:
+## Verwendung von if
+Um die Bedeutung von `if` verständlich zu machen schauen wir uns Programmcode zu folgendem Beispiel an:
+
+Wenn du eine LED in Abhängigkeit von einem Schalter leuchten lassen möchtest würde der Code wie folgt aussehen:
 
 ```arduino
 if (digitalRead(BUTTON_PIN) == HIGH) {

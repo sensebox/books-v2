@@ -1,12 +1,14 @@
 # Digitale Signale {#head}
 
-<div class="description"></div>
+<div class="description">Digitale Signale können lediglich die Werte 1 oder 0 bzw. High oder Low annehmen. Sie verwenden also nur abzählbare Elemente wie zum Beispiel Finger. Daher auch der Begriff digital, der auf das lateinische digitus, der Finger zurück geht. Um zu verstehen wie digitale Signale funktionieren und wo wir mit ihnen Arbeiten müssen wir den Aufbau eines Sketches in Arduino verstehen.</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Digitale Signale können lediglich die Werte 1 oder 0 bzw. High oder Low annehmen. Sie verwenden also nur abzählbare Elemente wie zum Beispiel Finger. Daher auch der Begriff digital, der auf das lateinische digitus, der Finger zurück geht.
+
+
+## Arduino-Sketch
 
 Ein Arduino Programm (auch "Sketch" genannt) hat einen sehr einfachen Aufbau, der aus zwei Hauptbestandteilen besteht. Diese zwei benötigten Funktionen enthalten Blöcke von Anweisungen, welche den Programmablauf beschreiben:
 

@@ -1,6 +1,7 @@
 # DIY - UV-Licht Sensor {#head}
 
-<div class="description"></div>
+<div class="description">Wenn die Temperaturen im Sommer steigen und wir uns länger draußen aufhalten, versuchen wir uns zunehmend vor der UV-Einstrahlung der Sonne zu schützen, zum Beispiel mit Sonnencreme. Doch gibt es diese UV-Strahlung nur im Sommer? Wie sieht es aus wenn die Sonne verdeckt ist und wie stark schwanken die Werte? Finde heraus wie viel UV-Strahlung die Erde erreicht und messe die UV-Intensität mit deiner senseBox!   
+</div>
 <div class="line">
     <br>
     <br>
