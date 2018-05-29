@@ -26,7 +26,6 @@
     * [Sensoren](komponenten/sensoren/README.md)
         * [Temperatur & Luftfeuchte (HDC1080)](komponenten/sensoren/hdc1080.md)
         * [Luftdruck & Temperatur](komponenten/sensoren/luftdruck-temperatur.md)
-        * [GPS](komponenten/sensoren/gps.md)
         * [Belichtung und UV](komponenten/sensoren/belichtung-und-uv.md)
         * [Feinstaub](komponenten/sensoren/feinstaub.md)
     * [Zubehör](komponenten/zubehoer/README.md)
@@ -36,6 +35,7 @@
         * [LED-Display](komponenten/zubehoer/led-display.md)
         * [HUB](komponenten/zubehoer/hub.md)
         * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
+        * [GPS](komponenten/zubehoer/gps.md)
 
 * [Experimente](experimente.md)
 * [Erweiterungen](erweiterungen.md)
