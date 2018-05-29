@@ -46,7 +46,19 @@ Ist die Library eingebunden, können alle in ihr enthaltenen Methoden im Code be
 
 {% endcollapse %}
 
-Für die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden, um alle grundlegenden Methoden gegeben zu haben.
+Für die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden, um alle grundlegenden Methoden gegeben zu haben. Befolge dafür folgende Schritte: 
+
+1. Ein zip-Archiv mit allen benötigten Bibliotheken findest du [hier](https://github.com/sensebox/resources/blob/master/libraries/senseBox_Libraries.zip).
+
+2. Klicke auf ``Download`` um den Ordner herunterzuladen und speichere den Ordner.
+
+3. Klicke dann auf ``Datei speichern`` und lege den Ordner an einen beliebigen Ord auf deinem Computer.
+
+4. Jetzt entpackst du die ``.zip`` Datei und speicherst diese im gleichen Ordner.
+
+5. Als letztes suchst du die den Ort an dem du Arduino installiert hast und ziehst die beiden Dateien aus dem entpackten ``.zip``-Archiv ( ``libraries`` und ``examples``) in diesen Ordner. Du kannst diese gerne "ersetzen", falls du danach gefragt wirst.  
+
+6. Starte jetzt Arduino neu. 
 
 
 
