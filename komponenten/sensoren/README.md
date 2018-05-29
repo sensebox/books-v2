@@ -14,7 +14,6 @@ Hier findest du Informationen zu den folgenden Sensoren, klicke einfach den Name
 
 * Temperatur & Luftfeuchte \(HDC1080\)
 * Luftdruck & Temperatur
-* GPS
 * Licht Sensor
 * ...
 

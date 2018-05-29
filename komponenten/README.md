@@ -20,7 +20,6 @@ Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kur
 3. [Sensoren](sensoren/README.md)
     + [Temperatur & Luftfeuchte (HDC1080)](sensoren/hdc1080.md)
     + [Luftdruck & Temperatur](sensoren/luftdruck-temperatur.md)
-    + [GPS](sensoren/gps.md)
     + [Belichtung und UV](sensoren/belichtung-und-uv.md)
     + [Feinstaub](sensoren/feinstaub.md)
 4. [Zubehör](zubehoer/README.md)
@@ -30,5 +29,6 @@ Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kur
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)
     + [Micro-SD Karte](zubehoer/micro-sd-karte.md)
+    + [GPS](zubehoer/gps.md)
 
 Natürlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tüftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit können wir dir leider nur Anleitungen für die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort kriegst du nicht nur Hilfe von uns sondern auch von Tüftlern aus der ganzen Welt. 
