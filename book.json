@@ -20,10 +20,7 @@
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/sensebox/books-v2/tree/master",
-      "label": {
-        "en": "Edit This Page",
-        "de": "Seite bearbeiten"
-      }
+      "label": "Seite bearbeiten"
     },
     "image-captions": {
       "caption": "_CAPTION_"
