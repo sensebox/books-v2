@@ -1,4 +1,4 @@
-#Beleuchtungsstärke und UV-Strahlung Sensor {#head}
+# Beleuchtungsstärke und UV-Strahlung Sensor {#head}
 <div class="description">
 
 Auf diesem senseBox-Bauteil sind zwei Sensoren zusammengelegt.
