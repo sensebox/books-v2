@@ -37,9 +37,6 @@
         * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
 
-* [Experimente](experimente.md)
-* [Erweiterungen](erweiterungen.md)
-
 ## Hilfe 
 * [Hilfe](hilfe.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
