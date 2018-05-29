@@ -52,7 +52,7 @@ Für die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden
 
 2. Klicke auf ``Download`` um den Ordner herunterzuladen und speichere den Ordner.
 
-3. Klicke dann auf ``Datei speichern`` und lege den Ordner an einen beliebigen Ord auf deinem Computer.
+3. Klicke dann auf ``Datei speichern`` und lege den Ordner an einen beliebigen Ort auf deinem Computer.
 
 4. Jetzt entpackst du die ``.zip`` Datei und speicherst diese im gleichen Ordner.
 
@@ -61,6 +61,9 @@ Für die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden
 6. Starte jetzt Arduino neu. 
 
 
-
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Leider ist ein typischer Fehler, dass die senseBox Library nicht in den richtigen Ordner gelegt wird. Bitte überprüfe nochmal, ob du die Datei in den richtigen Ordner gelegt hast. Kontaktiere uns gerne, wenn du eine Idee hast wie wir das besser erklären können.
+</div>
 
 
