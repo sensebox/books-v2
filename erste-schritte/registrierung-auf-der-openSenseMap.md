@@ -10,7 +10,7 @@
 {% collapse title="Was ist die openSenseMap?" %}
 
 
-Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](www.opensensemap.org) und entdecke einen riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du [hier](sensebox.github.io/books-v2/osem)
+Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](www.opensensemap.org) und entdecke einen riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du [hier](https://sensebox.github.io/books-v2/osem)
 
 
 {% endcollapse %}
@@ -97,5 +97,5 @@ Wenn alles richtig gelaufen ist, kannst du nun auf der openSenseMap deine Statio
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Du kannst dich nichtmehr daran erinnern wie du den Code von Arduino auf die senseBox überträgst? Schau nochmal in <a href="../erste-schritte/software-installation.html">Schritt 1</a> und <a href="../erste-schritte/komponenten-testen.html">Schritt 5</a> nach, dort wird die Installation und die Übertragung der Tests erklärt. Falls du weitere Fragen hast nutze unser <a href="https://forum.sensebox.de/">Forum</a> um dich zu informieren oder gegebenenfalls einen eigenen Beitrag zu erstellen. </div>
+  Du kannst dich nicht mehr daran erinnern wie du den Code von Arduino auf die senseBox überträgst? Schau nochmal in <a href="../erste-schritte/software-installation.html">Schritt 1</a> und <a href="../erste-schritte/komponenten-testen.html">Schritt 5</a> nach, dort wird die Installation und die Übertragung der Tests erklärt. Falls du weitere Fragen hast nutze unser <a href="https://forum.sensebox.de/">Forum</a> um dich zu informieren oder gegebenenfalls einen eigenen Beitrag zu erstellen. </div>
 
