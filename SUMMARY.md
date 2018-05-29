@@ -29,6 +29,8 @@
     * [UV-Sensor](projekte/Umweltstation/UV_Sensor.md)
     * [Luftdruck](projekte/Umweltstation/luftdruck.md)
     * [Datenupload zur OSeM](projekte/Umweltstation/datenupload.md)
+* [Ampel Button](projekte/AmpelButton.md)
+* [Verkehrszähler](projekte/verkehrszaehlerv2.md)
 
 ## Alles zur senseBox
 * [Komponenten](komponenten/README.md)

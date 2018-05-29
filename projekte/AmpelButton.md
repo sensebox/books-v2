@@ -1,5 +1,13 @@
-Ampel
-Es soll eine Ampel simuliert werden. Mit einem Button kann man die Ampel umschalten.
+# Ampel {#head}
+
+<div class="description">
+  Es soll eine Ampel simuliert werden. Mit einem Button kann man die Ampel umschalten.
+</div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 
 ## Materialien
 * senseBox MCU
