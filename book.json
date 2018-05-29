@@ -19,11 +19,8 @@
   ],
   "pluginsConfig": {
     "edit-link": {
-      "base": "https://github.com/bkari02/senseBooksv2/tree/master",
-      "label": {
-        "en": "Edit This Page",
-        "de": "Seite bearbeiten"
-      }
+      "base": "https://github.com/sensebox/books-v2/tree/master",
+      "label": "Seite bearbeiten"
     },
     "image-captions": {
           "caption": "_CAPTION_"
