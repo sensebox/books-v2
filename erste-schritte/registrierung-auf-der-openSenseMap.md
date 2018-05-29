@@ -9,7 +9,7 @@
 
 {% collapse title="Was ist die openSenseMap?" %}
 
-Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehee auf [www.opensensemap.org](www.opensensemap.org) und entdecke ein riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du hier: LINK zur Doku der openSenseMap
+Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](www.opensensemap.org) und entdecke ein riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du hier: LINK zur Doku der openSenseMap
 
 
 {% endcollapse %}
