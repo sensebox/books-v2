@@ -9,18 +9,22 @@
 * [Schritt 3: Librarys hinzufügen](erste-schritte/libraries-hinzufuegen.md)
 * [Schritt 4: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
 * [Schritt 5: Komponenten testen](erste-schritte/komponenten-testen.md)
-* [Schritt 6: Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
+* [Schritt 6: Hello World-Programm ](erste-schritte/hello-world.md)
 
 ## Grundlagen
+* [Arduino IDE und Sketches](grundlagen/der-arduino-sketch.md)
+    * [Kommentare im Quelltext](grundlagen/kommentare.md)\
+    * [if/else - Bedingung](grundlagen/if_else_bedingung.md)
+    * [Schleifen](grundlagen/schleifen.md)
+    * [Variablen](grundlagen/variablen.md)
+    * [Der Serielle Monitor](grundlagen/der_serielle_monitor.md)
 * [Digitale Signale](grundlagen/digitale_signale.md)
-* [Analoge Signale](grundlagen/analoge_signale.md)
-* [Variablen](grundlagen/variablen.md)
-* [Der Serielle Monitor](grundlagen/der_serielle_monitor.md)
-* [if/else - Bedingung](grundlagen/if_else_bedingung.md)
-* [Schleifen](grundlagen/schleifen.md)
 * [Der serielle Datenbus(I²C)](grundlagen/serielle_datenbus.md)
-* [Kommentare im Quelltext](grundlagen/kommentare.md)
+* [Analoge Signale](grundlagen/analoge_signale.md)
 * [Bees](grundlagen/Bees.md)
+* [Breadboard](grundlagen/breadboard.md)
+* [Registrierung der senseBox:edu auf der oSeM](grundlagen/registrierung-edu-osem.md) 
+
 
 ## Projekte
 * [DIY-Umweltstation](projekte/Umweltstation/README.md)
@@ -29,11 +33,11 @@
     * [UV-Sensor](projekte/Umweltstation/UV_Sensor.md)
     * [Luftdruck](projekte/Umweltstation/luftdruck.md)
     * [Datenupload zur OSeM](projekte/Umweltstation/datenupload.md)
-* [Ampel Button](projekte/AmpelButton.md)
+* [Ampelschaltung](projekte/AmpelButton.md)
 * [Verkehrszähler](projekte/verkehrszaehlerv2.md)
 
-## Alles zur senseBox
-* [Komponenten](komponenten/README.md)
+## Komponenten
+* [Inhalt](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
     * [Bees](komponenten/bees/README.md)
         * [Wifi-Bee](komponenten/bees/wifi.md)
@@ -53,13 +57,11 @@
         * [HUB](komponenten/zubehoer/hub.md)
         * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
-* [Experimente](experimente.md)
-* [Erweiterungen](erweiterungen.md)
 
 ## Hilfe
 * [FAQ](hilfe/hilfe.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
-* [Templates](templates/README.md)
+* [Contributing](templates/README.md)
     * [Hint-Box](templates/hint-template.md)
     * [Bildunterschriften](templates/bildunterschriften.md)
     * [Tabs](templates/tabs.md)

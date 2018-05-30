@@ -1,11 +1,26 @@
-# Templates
+# Contributing {#head}
+<div class="description">
+<i>Contributers-only</i><br>
+Hier findest du eine Sammlung von Vorlagen für das Styling, um an diesem Gitbook mitzuarbeiten.</div>
+<div class="line">
+    <br>
+    <br>
+</div>
+<div>
+    <br>
+    <br>
+</div>
 
-> Contributers-only
 
-
-Hier findest du eine Sammlung von Vorlagen für das Styling der Gitbooks.
 
 Darunter eine [Vorlage für eine neue Seite](neue-seite.md) mit Titelelement und Beschreibungsbox.
+
+<div class="line">
+    <br>
+    <br>
+</div>
+<br>
+<br>
 
 [Hint-Boxes](hint-template.md): 
 <div class="box_info">
@@ -28,9 +43,23 @@ Darunter eine [Vorlage für eine neue Seite](neue-seite.md) mit Titelelement und
     >>ERROR-HINT<<
 </div>
 
+<div class="line">
+    <br>
+    <br>
+</div>
+<br>
+<br>
 
 [Bildunterschriften](bildunterschriften.md):
+
 ![Dies ist eine Beispiel-Unterschrift](https://github.com/sensebox/books-v2/blob/home/pictures/mcu_one_top.png?raw=true)
+
+<div class="line">
+    <br>
+    <br>
+</div>
+<br>
+<br>
 
 [Tabs](tabs.md):
 {% tabs first="Erster Tab", second="Zweiter Tab", third="Dritter Tab" %}
@@ -50,6 +79,13 @@ Das ist der dritte Tab.
 > Innerhalb der Tabs kann Markdown normal verwendet werden.
 
 {% endtabs %}
+
+<div class="line">
+    <br>
+    <br>
+</div>
+<br>
+<br>
 
 [Collapsibles](collapsible.md):
 {% collapse title="my list" %}

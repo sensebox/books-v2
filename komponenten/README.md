@@ -1,15 +1,17 @@
-# Komponenten {#head}
+# Inhalt {#head}
 
-<div class="description"></div>
+<div class="description">Hier findest du eine Liste aller Sensoren, Bees und anderen Zubehörteile der senseBox. Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kurz zu erklären und dir alle nötigen Informationen bereit zu stellen, um mit der Komponente und deiner senseBox voll durchzustarten! </div>
+
 <div class="line">
+    <br>
     <br>
     <br>
 </div>
 
->Hier findest du eine Liste aller Sensoren, Bees, Shields und anderen Zubehörteile der Sensebox. Wenn du wissen willst wofür du ein Teil benutzen kannst klicke einfach auf den Namen. 
-
-Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kurz zu erklären und dir alle nötigen Informationen bereit zu stellen, um mit der Komponente und deiner senseBox voll durchzustarten!
-
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+   Wenn du wissen willst, wofür du ein Teil benutzen kannst klicke einfach auf den Namen.
+</div>
 
 1. [senseBox MCU](sensebox-mcu.md)
 2. [Bees](bees/README.md)
@@ -31,4 +33,4 @@ Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kur
     + [Micro-SD Karte](zubehoer/micro-sd-karte.md)
     + [GPS](zubehoer/gps.md)
 
-Natürlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tüftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit können wir dir leider nur Anleitungen für die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort kriegst du nicht nur Hilfe von uns sondern auch von Tüftlern aus der ganzen Welt. 
+Natürlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tüftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit können wir dir leider nur Anleitungen für die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort bekommst du nicht nur Hilfe von uns sondern auch von Tüftlern aus der ganzen Welt. 

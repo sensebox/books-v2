@@ -6,24 +6,6 @@
     <br>
 </div>
 
-
-
-## Arduino-Sketch
-
-Ein Arduino Programm (auch "Sketch" genannt) hat einen sehr einfachen Aufbau, der aus zwei Hauptbestandteilen besteht. Diese zwei benötigten Funktionen enthalten Blöcke von Anweisungen, welche den Programmablauf beschreiben:
-
-```arduino
-void setup(){
-    // Anweisung
-}
-void loop(){
-    // Anweisung
-}
-```
-Die `setup`-Funktion wird nur einmal beim Start des Programmes ausgeführt. In der `loop`-Funktion werden hingegen alle Anweisungen fortlaufend in einer endlosen Schleife wiederholt. Beide Funktionen sind zwingend notwendig um das Programm erfolgreich kompilieren und ausführen zu können. "Kompilieren" bezeichnet die Übersetzung des Programms in Maschinencode, welcher vom Arduino-Prozessor verstanden werden kann; dies Übernimmt die Arduino-IDE für uns.
-
-Mit einem doppelten Schrägstrich (`//`) lassen sich Kommentare zum Programmcode hinzufügen. Es ist immer wichtig seinen Programmcode zu kommentieren, damit auch andere nachvollziehen können, was an einer bestimmten Stelle passiert.
-
 ## Digitale Aktoren ansteuern 
 
 <div class="box_info">

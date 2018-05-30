@@ -16,11 +16,13 @@ Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schri
    5. [Registrierung auf der openSenseMap](erste-schritte/schritt-5-registrierung-auf-der-openSenseMap.md)
 2. Grundlagen
 3. Projekte
-4. [Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an](komponenten/README.md)
-   1. [sensebox MCU](komponenten/sensebox-mcu.md)
-   2. [Bees](komponenten/bees/README.md)
-   3. [Sensoren](komponenten/sensoren/README.md)
-   4.[ Weiteres Zubehör](komponenten/zubehoer/README.md)
-5. [Experimente - Lass dich inspirieren und führe spannende Experimente durch](experimente.md)
-6. [Erweiterungen - Schon alle Teile ausprobiert? - Schau dir an wie du deine senseBox erweitern kannst!](erweiterungen.md)
-7. [FAQ - Häufig gestellte Fragen & Antworten](hilfe.md)
+4. Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an]
+  1. [Inhalt](komponenten/README.md)
+    1. [sensebox MCU](komponenten/sensebox-mcu.md)
+    2. [Bees](komponenten/bees/README.md)
+    3. [Sensoren](komponenten/sensoren/README.md)
+    4. [ Weiteres Zubehör](komponenten/zubehoer/README.md)
+5. Hilfe
+  1. [FAQ](hilfe.md)
+  2. [Firmware Update Wifi-Bee](additional-info.md)
+  3. [Contributing](templates/README.md)
