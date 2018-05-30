@@ -10,8 +10,8 @@
 
 ## Grundlagen
 
-Wenn du die IDE öffnest siehst du direkt einen großen weißen Bereich, in welchem du dein Programm schreiben wirst.
-Im schwarzen Bereich darunter werden dir Status- und Fehlermeldungen angezeigt, es lohnt sich also immer einen Blick auf die Meldungen zu werfen.
+Wenn du die IDE öffnest, siehst du direkt einen großen weißen Bereich, in welchem du dein Programm schreiben wirst.
+Im schwarzen Bereich darunter werden dir Status- und Fehlermeldungen angezeigt. Es lohnt sich also immer einen Blick auf die Meldungen zu werfen.
 
 Zuletzt solltest du dir noch die kleinen Schaltflächen über dem weißen Bereich anschauen.
 
@@ -35,6 +35,6 @@ void loop(){
     // Anweisung
 }
 ```
-Die `setup`-Funktion wird nur einmal beim Start des Programmes ausgeführt. In der `loop`-Funktion werden hingegen alle Anweisungen fortlaufend in einer endlosen Schleife wiederholt. Beide Funktionen sind zwingend notwendig um das Programm erfolgreich kompilieren und ausführen zu können. "Kompilieren" bezeichnet die Übersetzung des Programms in Maschinencode, welcher vom Arduino-Prozessor verstanden werden kann; dies Übernimmt die Arduino-IDE für uns.
+Die `setup`-Funktion wird nur einmal beim Start des Programmes ausgeführt. In der `loop`-Funktion werden hingegen alle Anweisungen in einer endlosen Schleife wiederholt. Beide Funktionen sind zwingend notwendig, um das Programm erfolgreich kompilieren und ausführen zu können. "Kompilieren" bezeichnet die Übersetzung des Programms in einen Maschinencode, welcher vom Arduino-Prozessor verstanden werden kann; dies übernimmt die Arduino-IDE für uns.
 
 Mit einem doppelten Schrägstrich (`//`) lassen sich Kommentare zum Programmcode hinzufügen. Es ist immer wichtig seinen Programmcode zu kommentieren, damit auch andere nachvollziehen können, was an einer bestimmten Stelle passiert.
