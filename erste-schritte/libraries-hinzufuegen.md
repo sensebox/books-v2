@@ -8,21 +8,6 @@
 
 ## Libraries herunterladen und hinzufügen {#library-add}
 
-> Du hast die Ardunio IDE erfolgreich heruntergeladen und installiert?
-
-<div class="box_success">
-    <i class="fa fa-check fa-fw" aria-hidden="true" style="color: #50af51;"></i>
-    Ja natürlich!
-    <br>
-    Dann bist du hier genau richtig und du kannst mit dem zweiten Schritt, dem hinzufügen der Libraries starten!
-</div>
-<div class="box_error">
-    <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
-     Nein, habe ich noch nicht..
-     <br>
-     Wenn du nicht weißt was die Arduino IDE ist oder du sie noch nicht installiert hast schau dir zuerst <a href="erste-schritte/software-installieren">Schritt 1</a> an und folge dort allen Anweisungen.
-</div>
-
 {% collapse title="'Library' - Was ist das eigentlich und wofür brauche ich das?" %}
  
 Eine Library ist wie der Name schon sagt eine Sammlung von etwas - eine Sammlung von Methoden um genauer zu sein. Methoden sind in der Programmierung kleinere Abschnitte von Code die auf ein Objekt angewendet werden können. 
