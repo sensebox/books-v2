@@ -1,6 +1,6 @@
 
 # Schritt 1: Software Installation {#head}
- <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 6 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
+ <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst, musst du noch ein paar Dinge beachten. Dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge, es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 6 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
 <div class="line">
     <br>
     <br>
@@ -23,7 +23,7 @@ Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-windows-view.png?raw=true)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf „just download“ klickst.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 
@@ -40,7 +40,7 @@ Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-mac-view.png?raw=true)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf „just download“ klickst.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 
@@ -58,7 +58,7 @@ Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-linux-view.png?raw=true)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf „just download“ klickst.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 ### Installation der IDE unter Linux {#installation-der-ide-unter-linux}
