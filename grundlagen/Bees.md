@@ -7,17 +7,17 @@
 </div>
 
 ## WiFi-Bee
-Das WiFi-Bee ist das Verbindungsstück um die senseBox mit dem Internet zu verbinden. Deine Messwerte werden per WLAN(WiFi) in das bestehende Netzwerk übertragen. Das WiFi-Bee basiert auf dem ATWINC15000 Mikrochip von Atmel welcher einen sehr geringen Energieverbrauch und eine hohe Reichweite hat.
+Das WiFi-Bee ist das Verbindungsstück, um die senseBox mit dem Internet zu verbinden. Deine Messwerte werden per WLAN(WiFi) in das bestehende Netzwerk übertragen. Das WiFi-Bee basiert auf dem ATWINC15000 Mikrochip von Atmel, welcher einen sehr geringen Energieverbrauch und eine hohe Reichweite hat.
 
 ### Konfigurierung der WiFi-Bee & Hochladen auf der openSenseMap
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/schritt-3-libraries-hinzufuegen.html">Schritt 3</a> erklärt!
+    Stelle sicher, dass du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/schritt-3-libraries-hinzufuegen.html">Schritt 3</a> erklärt!
 </div>
 
 {% collapse title="Deklarierung der Objekte" %}
-Als erstes muss eine Instanz der Bee & der openSenseMap erstellt werden.
+Als erstes muss eine Instanz der Bee und der openSenseMap erstellt werden.
 
 ```arduino
 Bee* b = new Bee(); // Instanz der Bee
@@ -25,7 +25,7 @@ OpenSenseMap osem("senseBox ID",b); // Instanz der openSenseMap
 float temp = 24.3; // Testwert den wir später auf der openSenseMap hochladen 
 ```
 
-Haben wir dies getan kann die Bee im Programmcode fortlaufen mit dem Kürzel `b`angesprochen werden. In der `setup()`-Funktion stellen wir nun eine Verbindung zu unserem gewünschten WiFi-Netzwerk her. Und laden Testweise einen ersten Wert auf der openSenseMap hoch.
+Haben wir dies getan, kann die Bee im Programmcode fortlaufend mit dem Kürzel `b`angesprochen werden. In der `setup()`-Funktion stellen wir nun eine Verbindung zu unserem gewünschten WiFi-Netzwerk her und laden testweise einen ersten Wert auf der openSenseMap hoch.
 
  
 
