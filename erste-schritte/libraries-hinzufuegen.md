@@ -6,30 +6,6 @@
     <br>
 </div>
 
-<div class="box_warning">
-    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Hast Du schon die Ardunio IDE heruntergeladen und installiert?
-
-<div class="row">
-    <div class="col-sm-6">
-        <div class="box_success">
-            <i class="fa fa-check fa-fw" aria-hidden="true" style="color: #50af51;"></i>
-            Ja natürlich?!
-            <br>
-            Dann bist du hier genau richtig und du kannst mit dem zweiten Schritt, dem hinzufügen der Libraries starten!
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <div class="box_error">
-            <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
-             Nein, was ist das?!
-             <br>
-             Wenn du nicht weißt was die Arduino IDE ist oder du sie noch nicht installiert hast schau dir zuerst <a href="software-installation.html">Schritt 1</a> an und folge dort allen Anweisungen.
-        </div>
-    </div>
-</div>
-</div>
-
 ## Libraries herunterladen und hinzufügen
 
 {% collapse title="'Library' - Was ist das eigentlich und wofür brauche ich das?" %}
