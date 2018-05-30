@@ -67,3 +67,17 @@ Für die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden
 </div>
 
 
+{% tabs first="Libraries einfügen Windows", second="Libraries einfügen Mac", third="Libraries einfügen Linux" %}
+{% content "first" %}
+# Libraries einfügen Windows
+Coming soon...
+
+{% content "second" %}
+# Libraries einfügen Mac
+Coming soon...
+
+{% content "third" %}
+# Libraries einfügen Linux
+Coming soon...
+
+{% endtabs %}
