@@ -14,19 +14,19 @@ Der Anschluss der Bees ist ganz einfach. Durch das Stecksystem reicht es das Bee
 ### WiFi-Bee, Ethernet-Bee und LoRa-Bee
 Diese Bees werden alle auf den Port 1 aufgesteckt. Den richtigen Port erkennst du an der Beschriftung: ``XBEE1``. Die richtige Richtung beim Aufstecken erkennst du an der 7-eckigen Kennzeichnung auf dem Board und der Bee.
 
-![Exemplarischer Anschluss der WiFi-Bee an die MCU (XBEE1)](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/plug-in-components/wifi-anschluss.png?token=AUIA51zxX61VugZlNyZoXgyFAwVXNFxMks5bF7W4wA%3D%3D)
+![Exemplarischer Anschluss der WiFi-Bee an die MCU (XBEE1)](https://github.com/sensebox/books-v2/blob/home/pictures/plug-in-components/wifi-anschluss.png?raw=true)
 
 ### mSD-Bee
 Die SD-Bee wird an Port 2 aufgesteckt, welcher standardmäßig dafür freigeschalten ist. Den richtigen Port erkennst du an der Beschriftung: ``XBEE2``. Die richtige Richtung beim Aufstecken erkennst du an der 7-eckigen Kennzeichnung auf dem Board und der Bee.
 
-![Anschluss der mSD-Bee an die MCU (XBEE1)](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/plug-in-components/sd-anschluss.png?token=AUIA51fXRQ2rKemNKnRZysGJuU1xO0w0ks5bF7cSwA%3D%3D)
+![Anschluss der mSD-Bee an die MCU (XBEE1)](https://github.com/sensebox/books-v2/blob/home/pictures/plug-in-components/sd-anschluss.png?raw=true)
 
 ## Anschluss von einfachen Sensoren
 Die Sensoren, welche mit der senseBox gekauft werden können, sind mit den beiliegenden "I2C to I2C" Kabeln sehr einfach anzuschließen. Dafür musst du die Steckplätze auf dem Board verwenden die mit ``I2C/Wire`` gekennzeichnet sind.
 
-![Anschluss einfacher Sensoren)](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/plug-in-components/sensor-anschluss.jpg?token=AUIA52hoBfQdORIsXStJI7Wj0jbFDTKwks5bF7mpwA%3D%3D)
+![Anschluss einfacher Sensoren)](https://github.com/sensebox/books-v2/blob/home/pictures/plug-in-components/sensor-anschluss.jpg?raw=true)
 
 ## Anschluss vom Feinstaubsensor
 Der Feinstaubsensor, der mit der senseBox gekauft werden kann, hat ein beiliegendes passendes Kabel, welches den Sensor mit dem Board verbinden kann. Hierfür musst du die Steckplätze auf dem Board verwenden die mit ``UART/Serial`` gekennzeichnet sind. Weitere Infos zum Anschluss des Feinstaubsensors findest du übrigens [hier](../komponenten/sensoren/feinstaub.md).
 
-![Anschluss Feinstaubsensor)](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/plug-in-components/feinstaub-anschluss.jpg?token=AUIA53qcucGufp3F72N-FWsqcYyrJ8yHks5bF7uCwA%3D%3D)
+![Anschluss Feinstaubsensor)](https://github.com/sensebox/books-v2/blob/home/pictures/plug-in-components/feinstaub-anschluss.jpg?raw=true)
