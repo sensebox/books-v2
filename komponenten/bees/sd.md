@@ -1,5 +1,5 @@
-# SD-Bee {#head}
-<div class="description">Mit dem SD-Bee können die Daten der senseBox auf einer SD-Karte gespeichert werden. So kann man messen, auch wenn keine Internetanschluss in der Nähe der senseBox ist.</div>
+# mSD-Bee {#head}
+<div class="description">Mit dem mSD-Bee können die Daten der senseBox auf einer SD-Karte gespeichert werden. So kann man messen, auch wenn keine Internetanschluss in der Nähe der senseBox ist.</div>
 
 <div class="line">
     <br>
