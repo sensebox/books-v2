@@ -38,9 +38,10 @@
         * [GPS](komponenten/zubehoer/gps.md)
 
 ## Hilfe 
-* [Hilfe](hilfe.md)
+* [FAQ](hilfe.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
-* [Templates](templates/README.md)
+* [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
+* [Contributing](templates/README.md)
     * [Hint-Box](templates/hint-template.md)
     * [Bildunterschriften](templates/bildunterschriften.md)
     * [Tabs](templates/tabs.md)

@@ -26,7 +26,7 @@ Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikroco
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-windows-view.png?raw=true)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf `JUST DOWNLOAD` klickst.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 

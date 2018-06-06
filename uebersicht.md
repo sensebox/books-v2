@@ -26,9 +26,13 @@ Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schri
   8. [Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
   9. [Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
 2. Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an
-   1. sensebox MCU
-   2. Bees
-   3. Sensoren
-   4. Weiteres Zubehör
+   1. [Inahlt](komponenten/README.md)
+     1. [senseBox MCU](komponenten/sensebox-mcu.md)
+     2. [Bees](komponenten/bees/README.md)
+     3. [Sensoren](komponenten/sensoren/README.md)
+     4. [Zubehör](komponenten/zubehoer/README.md)
 3. Hilfe - Häufig gestellte Fragen, Antworten und Hilfe bei Problemen
-
+   1. [FAQ](hilfe.md)
+   2. [Firmware Update Wifi-Bee](additional-info.md)
+   3. [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
+   4. [Contributing](templates/README.md)

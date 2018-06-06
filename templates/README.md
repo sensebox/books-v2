@@ -1,7 +1,7 @@
-# Templates {#head}
+# Contributing {#head}
 <div class="description">
 <i>Contributers-only</i><br>
-Hier findest du eine Sammlung von Vorlagen für das Styling der Gitbooks.</div>
+Hier findest du eine Sammlung von Vorlagen für das Styling, um an diesem Gitbook mitzuarbeiten.</div>
 <div class="line">
     <br>
     <br>
@@ -10,7 +10,6 @@ Hier findest du eine Sammlung von Vorlagen für das Styling der Gitbooks.</div>
     <br>
     <br>
 </div>
-
 
 
 Darunter eine [Vorlage für eine neue Seite](neue-seite.md) mit Titelelement und Beschreibungsbox.
