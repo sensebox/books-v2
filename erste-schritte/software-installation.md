@@ -1,6 +1,6 @@
 
 # Schritt 1: Software Installation {#head}
- <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst musst du noch ein paar Dinge beachten, dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 5 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
+ <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst, musst du noch ein paar Dinge beachten. Dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge, es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 9 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
 <div class="line">
     <br>
     <br>
@@ -8,11 +8,7 @@
 
 ## Arduino IDE installieren
 
-Die senseBoxMCU ist eine 
-
 Bevor die senseBox aktiviert werden kann, musst du Treiber sowie eine Software auf deinem Computer installieren. Außerdem ist es vor Inbetriebnahme der senseBox ratsam einen Testlauf durchzuführen, um zu überprüfen ob die Sensoren korrekt funktionieren und die Kommunikation mit dem Internet reibungslos läuft.
-
-Falls etwas bei dem Testlauf schief geht, schau zuerst in unser Forum ob jemand schon ähnliche Probleme gehabt hat. Falls du auch dort keine Lösung findest melde dich am besten per Mail bei unserem Support.
 
 Schau dir die Anleitung für dein Betriebsystem an und folge den angegebenen Schritten.
 
@@ -20,13 +16,14 @@ Schau dir die Anleitung für dein Betriebsystem an und folge den angegebenen Sch
 {% content "first" %}
 ### Arduino Software für Windows herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
+> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
 
-Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+
+Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-windows-view.png?raw=true)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf `JUST DOWNLOAD` klickst.
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 
@@ -37,13 +34,13 @@ __________
 
 ### Arduino Software für Mac(OSX) herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.3 oder höher nutzen.
+> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
 
-Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-mac-view.png?raw=true)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 
@@ -57,11 +54,11 @@ ___________________
 
 > Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
 
-Das Mainboard der senseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, brauchst du die integrierte Entwicklungsumgebung von Arduino, kurz _Arduino IDE_. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-linux-view.png?raw=true)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen indem du auf „just download“ klickst.
+Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
 
 ![](https://github.com/sensebox/books-v2/blob/edu/pictures/software-install/arduino-just-download.png?raw=true)
 ### Installation der IDE unter Linux {#installation-der-ide-unter-linux}

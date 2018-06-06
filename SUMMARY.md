@@ -21,7 +21,7 @@
     * [Bees](komponenten/bees/README.md)
         * [Wifi-Bee](komponenten/bees/wifi.md)
         * [LAN-Bee](komponenten/bees/lan.md)
-        * [SD-Bee](komponenten/bees/sd.md)
+        * [mSD-Bee](komponenten/bees/sd.md)
         * [LoRa-Bee](komponenten/bees/lora.md)
     * [Sensoren](komponenten/sensoren/README.md)
         * [Temperatur & Luftfeuchte (HDC1080)](komponenten/sensoren/hdc1080.md)
