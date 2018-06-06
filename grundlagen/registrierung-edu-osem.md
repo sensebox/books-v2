@@ -9,7 +9,8 @@
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Achtung! Die openSenseMap ist ein Portal auf dem weltweit Menschen Messdaten ihrer senseBoxen oder anderen Messstationen hochladen. Diese Messdaten werden von Privatpersonen, aber auch von <b>Forschern, zu wissenschaftlichen Zwecken</b> benutzt. Du solltest die senseBox:edu daher nur auf der oSeM registrieren, falls du längerfristig Daten hochladen möchtest und diese echte Umweltmessungen darstellen und nicht zu experimentalen Zwecken verfälscht werden. Möchtest du deine senseBox:edu also dennoch registrieren, musst du sie dabei einfach als senseBox:home-v2 angeben. 
+    Achtung! <br>
+    Die openSenseMap ist ein Portal auf dem weltweit Menschen Messdaten ihrer senseBoxen oder anderen Messstationen hochladen. Diese Messdaten werden von Privatpersonen, aber auch von <b>Forschern, zu wissenschaftlichen Zwecken</b> benutzt. Du solltest die senseBox:edu daher nur auf der oSeM registrieren, falls du längerfristig Daten hochladen möchtest und diese echte Umweltmessungen darstellen und nicht zu experimentalen Zwecken verfälscht werden. Möchtest du deine senseBox:edu also dennoch registrieren, musst du sie dabei einfach als senseBox:home-v2 angeben. 
 </div>
 
 Du weisst noch gar nicht was die openSenseMap ist? Dann schau sie dir jetzt an, gehe auf [www.opensensemap.org](www.opensensemap.org) und entdecke ein riesigen Pool aus open-data mit fast einer Milliarde Messungen weltweit!

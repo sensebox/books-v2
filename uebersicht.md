@@ -25,4 +25,5 @@ Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schri
 5. Hilfe
   1. [FAQ](hilfe.md)
   2. [Firmware Update Wifi-Bee](additional-info.md)
-  3. [Contributing](templates/README.md)
+  3. [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
+  4. [Contributing](templates/README.md)
