@@ -1,9 +1,15 @@
 # Schritt 5: Komponenten Testen {#head}
 <div class="description">Bevor ihr eure senseBox mit der openSenseMap verbindet sollten alle Sensoren und das Netzwerkmodul überprüft werden um späteren Fehlern vorzubeugen. Mit unserem Testprogramm können nach dem Aufbau der Station der Messvorgang und die Netzwerkverbindung getestet werden.</div>
 
+
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
     Voraussetzung dafür ist die vorherige Installation der Softwarebibliotheken aus Schritt 3.
+</div>
+
+<div class="line">
+    <br>
+    <br>
 </div>
 
 

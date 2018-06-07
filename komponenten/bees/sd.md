@@ -4,7 +4,6 @@
 <div class="line">
     <br>
     <br>
-    <br>
 </div>
 
 ![microSD-Bee](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/msd_new%20bottom.png?token=AUIA5yNsNoRMrDoT58N8-Qo80POQMi1Fks5bDp26wA%3D%3D)

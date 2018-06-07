@@ -17,6 +17,6 @@ Verbindungsstück um die senseBox mit dem Internet zu verbinden. Die Daten der s
 * Maße: 46mm x 25mm x 12mm
 * Gewicht: 9,2 g
 
-## Hinweiße und Tipps
+## Hinweise und Tipps
 
 Das LAN-Bee wird ohne LAN-Kabel geliefert. Es eignen sich aber insbesondere flache LAN-Kabel, welche man einfach durch Fenster und Türen nach außen legen kann. Insbesondere in Kombination mit Power over Ethernet (PoE) kann die senseBox dann einfach betrieben werden.

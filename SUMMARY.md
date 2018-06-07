@@ -15,8 +15,8 @@
 * [Schritt 8: Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
 * [Schritt 9: Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
 
-## Alles zur senseBox
-* [Komponenten](komponenten/README.md)
+## Komponenten
+* [Inhalt](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
     * [Bees](komponenten/bees/README.md)
         * [Wifi-Bee](komponenten/bees/wifi.md)

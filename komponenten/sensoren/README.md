@@ -4,12 +4,11 @@
 <div class="line">
     <br>
     <br>
-    <br>
 </div>
 
  
 
-In unserem [SenseBox-Shop](https://sensebox.kaufen/) findest du eine Liste mit Sensoren, mit denen auch wir arbeiten und deshalb kleine Anleitungen geschrieben haben. Zu diesen Sensoren bieten wir dir hier Informationen, aber auch Hilfe beim Anschliessen an die senseBox. 
+In unserem [senseBox-Shop](https://sensebox.kaufen/) findest du eine Liste mit Sensoren, mit denen auch wir arbeiten und deshalb kleine Anleitungen geschrieben haben. Zu diesen Sensoren bieten wir dir hier Informationen, aber auch Hilfe beim Anschliessen an die senseBox. 
 
 Hier findest du Informationen zu den folgenden Sensoren, klicke einfach den Namen des Sensors und du wirst auf eine eigene Seite weitergeleitet:
 

@@ -4,7 +4,6 @@
 <div class="line">
     <br>
     <br>
-    <br>
 </div>
 
 {% collapse title="Was ist die openSenseMap?" %}

@@ -1,14 +1,7 @@
----
-description: >-
-  Hier findest Du alle Informationen, die du brauchst um mit Deiner
-  senseBox:home durchzustarten!
----
-
 # Übersicht {#head}
 <div class="description">In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklären dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.</div>
 
 <div class="line">
-    <br>
     <br>
     <br>
 </div>

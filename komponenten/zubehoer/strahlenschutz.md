@@ -4,7 +4,6 @@
 <div class="line">
     <br>
     <br>
-    <br>
 </div>
 
 Der Strahlenschutz schützt den Außensender für Temperatur + Luftfeuchtigkeit (BMP280)vor Witterung. Er dient als Schutz vor Niederschlag und direkter Sonneneinstrahlung. Er ist einfach zu montieren und hat eine Öffnung für die Fühlerkabel. 
