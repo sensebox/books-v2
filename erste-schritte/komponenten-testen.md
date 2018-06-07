@@ -12,8 +12,6 @@
     <br>
 </div>
 
-
-------
 ## Test-Sketch öffnen
 Öffnet aus den Beispielen die Datei mcu_component_test (Datei -> Beispiele -> senseBoxMCU). Nachdem ihr diesen Sketch auf die MCU hochgeladen habt, startet ihr den seriellen Monitor indem ihr auf das Lupen-Symbol rechts oben in der Werkzeugleiste klickt. 
 
