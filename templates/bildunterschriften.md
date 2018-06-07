@@ -1,4 +1,13 @@
-# Bildunterschriften 
+# Bildunterschriften {#head}
+
+<div class="description">
+    Um eine Bildunterschrift zu erstellen füge einfach einen Titel zum Bild hinzu, dieser wird dann automatisch als Bildunterschrift dargestellt. 
+</div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 
 Um eine Bildunterschrift zu erstellen füge einfach einen Titel zum Bild hinzu, dieser wird dann automatisch als Bildunterschrift dargestellt. 
 

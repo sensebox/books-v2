@@ -1,5 +1,6 @@
 # Collapsible {#head}
 <div class="description">
+    Um die Übersicht zu verbessern und Text nur dann zu zeigen, wenn er dem User auch nutzt/interessiert kannst du sogenannte "Collapsibles" erstellen. Sieh dir an wie sie funktionieren und was du damit machen kannst.
 </div>
 <div class="line">
   <br>

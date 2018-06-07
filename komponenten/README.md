@@ -1,9 +1,8 @@
-# Inhalt {#head}
+# Übersicht aller Komponenten {#head}
 
-<div class="description">Hier findest du eine Liste aller Sensoren, Bees und anderen Zubehörteile der senseBox. Wir haben für jedes Teil eine eigene Seite erstellt um dir das Teil jeweils kurz zu erklären und dir alle nötigen Informationen bereit zu stellen, um mit der Komponente und deiner senseBox voll durchzustarten! </div>
+<div class="description">Hier findest du eine Liste aller Sensoren, Bees und anderen Zubehörteile der senseBox. Wir haben für jedes Teil eine eigene Seite erstellt, um es jeweils kurz zu erklären und dir alle nötigen Informationen bereit zu stellen. So kannst du mit deinen Komponenten und der senseBox voll durchzustarten! </div>
 
 <div class="line">
-    <br>
     <br>
     <br>
 </div>

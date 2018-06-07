@@ -1,6 +1,7 @@
 # Kommentare im Quelltext {#head}
 
-<div class="description">Das Kommentieren von Quellcode ist leider ein Thema das stiefmütterlich behandelt wird. Den Nutzen von guten Kommentaren erkennt man häufig erst dann, wenn man versucht sich durch fremden Quelltext durchzuwuseln oder wenn man ein eigenes Programm nach langer Zeit wieder 'ausgräbt'. Kommentare werden vom Compiler nicht ausgewertet und beeinflussen den Ablauf des Programms damit nicht. Text und Programmteile die auskommentiert sind, erkennt man daran, dass sie grau gefärbt sind.</div>
+<div class="description">Das Kommentieren von Quellcode ist leider ein Thema das stiefmütterlich behandelt wird. Den Nutzen von guten Kommentaren erkennt man häufig erst dann, wenn man versucht sich durch fremden Quelltext durchzuwuseln oder wenn man ein eigenes Programm nach langer Zeit wieder 'ausgräbt'. Kommentare werden vom Compiler nicht ausgewertet und beeinflussen den Ablauf des Programms damit nicht. Text und Programmteile die auskommentiert sind, erkennt man daran, dass sie grau gefärbt sind.
+</div>
 <div class="line">
     <br>
     <br>

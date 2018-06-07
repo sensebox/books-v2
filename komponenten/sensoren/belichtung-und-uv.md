@@ -7,14 +7,13 @@ Die Lichtintensität wird mit dem TSL45315-Sensor von AMS-TAOS gemessen. Dieser 
 
 Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Dieser wandelt die Intensität des UV-Lichts der Sonne in digitale Daten um. Der Sensor hat eine hervorragende UV-Empfindlichkeit und Linearität über Filtron™-Technologie. Er hat eine gute UV-Strahlungsmessung auch bei langer Sonnen-UV-Belastung und kann exzellenter Temperaturschwankungen ausgleichen.
 </div>
-
-![Beleuchtungsstärke und UV-Stahlung](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/tsl%20top.png?token=AUIA5xb1UX2DbakBIbtCul4aeo7cT6ezks5bFkzywA%3D%3D)
-
 <div class="line">
     <br>
     <br>
     <br>
 </div>
+
+![Beleuchtungsstärke und UV-Stahlung](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/tsl%20top.png?token=AUIA5xb1UX2DbakBIbtCul4aeo7cT6ezks5bFkzywA%3D%3D)
 
 ## Technische Details
 

@@ -1,6 +1,14 @@
-# Tabs 
+# Tabs {#head}
 
+<div class="description">
+Tabs helfen dir wenn du Textabschnitte auf verschiedene Grundbedingungen seitens des Nutzers anpassen willst. Ist ein Textabschnitt zum Beispiel abhängig von dem Betriebssystem, welches der Nutzer verwendet, so kannst du Tabs benutzten um dem Nutzer die Ansicht auf das für ihn relevante zu reduzieren. <br>
 Um Tabs zu benutzen, verwende den Tabs-Tag:
+</div>
+<div class="line">
+    <br>
+    <br>
+</div>
+
 
 ```Markdown
 {% tabs first="Erster Tab", second="Zweiter Tab", third="Dritter Tab" %}

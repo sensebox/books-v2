@@ -4,7 +4,6 @@
 <div class="line">
     <br>
     <br>
-    <br>
 </div>
 
 ![Lora Bee](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/LoraBee%20bottom.png?token=AUIA54XnDLqZsb-vfA994Mxn17m4dijLks5bDpw6wA%3D%3D)

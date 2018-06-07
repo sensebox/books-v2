@@ -1,5 +1,3 @@
-## Bild link aktualisieren
-
 # Der serielle Datenbus {#head}
 
 <div class="description">Der Arduino kann über einen Datenbus mit anderen Geräten kommunizieren.
