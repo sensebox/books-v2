@@ -10,8 +10,8 @@ Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schri
 
 1. Erste Schritte - Installiere benötigte Programme, teste deine Sensoren und starte durch mit Deiner senseBox
    1. [Installation von benötigter Software](erste-schritte/schritt-1-software-installation.md)
-   2. [Installieren der Board-Support-Packages](erste-schritte/schritt-2-board-support-packages-installieren.md)
-   3. [Herunterladen der senseBox-Library](erste-schritte/schritt-3-libraries-hinzufuegen.md)
+   2. [Herunterladen der senseBox-Library](erste-schritte/schritt-3-libraries-hinzufuegen.md)
+   3. [Installieren der Board-Support-Packages](erste-schritte/schritt-2-board-support-packages-installieren.md)
    4. [Erste Tests mit deinen Sensoren](erste-schritte/schritt-4-sensoren-testen.md)
    5. [Registrierung auf der openSenseMap](erste-schritte/schritt-5-registrierung-auf-der-openSenseMap.md)
 2. Grundlagen
