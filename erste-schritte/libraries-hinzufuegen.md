@@ -1,4 +1,4 @@
-# Schritt 3: Libraries herunterladen {#head}
+# Schritt 2: Libraries hinzufügen {#head}
 
 <div class="description">Für die senseBox solltet Ihr zu Beginn unbedingt die senseBox-Library einbinden, um alle grundlegenden Methoden gegeben zu haben. Wo ihr die Libraries bekommt und wie ihr sie korrekt installiert erfahrt ihr hier.</div>
 <div class="line">
