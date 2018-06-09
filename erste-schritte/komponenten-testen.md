@@ -26,7 +26,7 @@ Als nächstes wählt ihr unter `Werkzeuge` -> `Port` die Anschlussnummer des USB
 ### Hello World Beispiel
 Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeilsymbol in der Werkzeugleiste. Im unteren Teil der Arduino Oberfläche bekommt ihr Feedback zum Uploadvorgang. Wenn alles geklappt hat erscheint dort die Meldung `Hochladen abgeschlossen`.
 
-```ruby
+```cpp
 int ledPin = LED_BUILTIN; 
 
 void setup()
