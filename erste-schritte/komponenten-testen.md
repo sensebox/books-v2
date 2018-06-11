@@ -77,32 +77,35 @@ Nachdem ihr den seriellen Monitor geöffnet habt erscheint ein Menü auf dessen 
 
 Dazu schreibt ihr die Nummer der entsprechenden Option in das Eingabefeld und klickt auf „Senden“. Unterhalb findet ihr eine Auflistung der Optionen mit kurzen Beschreibungen.
 
-1. Find connected sensors
-Hier könnt ihr überprüfen ob alle angeschlossenen Sensoren richtig initialisiert und erkannt wurden. Für jeden angeschlossenen Sensor sollte es eine Rückmeldung und eine Testmessung geben. Im Beispiel unterhalb wurde ein HDC1080 Temperatur- und Luftfeuchtesensor an einen `I2C/Wire` Port angeschlossen.
+1. **Find connected sensors**
 
-![Sensortest](../pictures/test_option1.png)
+  Hier könnt ihr überprüfen ob alle angeschlossenen Sensoren richtig initialisiert und erkannt wurden. Für jeden angeschlossenen Sensor sollte es eine Rückmeldung und eine Testmessung geben. Im Beispiel unterhalb wurde ein HDC1080 Temperatur- und Luftfeuchtesensor an einen `I2C/Wire` Port angeschlossen.
 
-<div class="box_info">
-    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-   Falls bei der Ausgabe einer der angeschlossenen Sensoren fehlt solltet ihr die Kabelverbindung überprüfen und den Test wiederholen.
-</div>
+  ![Sensortest](../pictures/test_option1.png)
 
-2. Test connection to openSenseMap
-Mit dieser Option wird die Internetverbindung getestet. Bei einem erfolgreichen Verbindungsaufbau sollte eine Antwort mit HTTP-Status 200 vom Server ausgegeben werden:
+  <div class="box_info">
+      <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+     Falls bei der Ausgabe einer der angeschlossenen Sensoren fehlt solltet ihr die Kabelverbindung überprüfen und den Test wiederholen.
+  </div>
 
-![Sensortest](../pictures/test_option2.png)
+2. **Test connection to openSenseMap**
 
-<div class="box_info">
-    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-   Falls ihr ein WiFi-Modul nutzt, wird außerdem überprüft ob die aktuellste Version der Firmware auf dem Modul installiert ist. Falls die Version veraltet ist solltet ihr sie aktualisieren.
-</div>
+  Mit dieser Option wird die Internetverbindung getestet. Bei einem erfolgreichen Verbindungsaufbau sollte eine Antwort mit HTTP-Status 200 vom Server ausgegeben werden:
 
-3. Get security key
-Jedes senseBox Board besitzt einen eigenen, einzigartigen Sicherheitsschlüssel den ihr mit dieser Option auslesen könnt. Er wird genutzt um die Verbindung zwischen der openSenseMap und eurer senseBox zu verschlüsseln damit niemand eure Messungen von außen Manipulieren kann.
-<div class="box_info">
-    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-   Ihr benötigt diesen Schlüssel im nächsten Schritt bei der Registrierung eurer senseBox auf der openSenseMap.
-</div>
+  ![Sensortest](../pictures/test_option2.png)
+
+  <div class="box_info">
+      <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+     Falls ihr ein WiFi-Modul nutzt, wird außerdem überprüft ob die aktuellste Version der Firmware auf dem Modul installiert ist. Falls die Version veraltet ist solltet ihr sie aktualisieren.
+  </div>
+
+3. **Get security key**
+
+  Jedes senseBox Board besitzt einen eigenen, einzigartigen Sicherheitsschlüssel den ihr mit dieser Option auslesen könnt. Er wird genutzt um die Verbindung zwischen der openSenseMap und eurer senseBox zu verschlüsseln damit niemand eure Messungen von außen Manipulieren kann.
+  <div class="box_info">
+      <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+     Ihr benötigt diesen Schlüssel im nächsten Schritt bei der Registrierung eurer senseBox auf der openSenseMap.
+  </div>
 
 ------
 

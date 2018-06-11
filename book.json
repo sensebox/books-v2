@@ -15,7 +15,8 @@
     "codetabs",
     "simpletabs",
     "image-captions",
-    "collapse"
+    "collapse",
+    "image-wrapper"
   ],
   "pluginsConfig": {
     "edit-link": {
