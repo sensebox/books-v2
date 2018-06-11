@@ -1,4 +1,58 @@
-# Schritt 5: Komponenten Testen {#head}
+# Schritt 5: Programmierung und Komponententest {#head}
+<div class="description"> In diesem Kapitel wird beschrieben wie die Programmierung der senseBox funktioniert und wie ihr die mitgelieferten Sensoren und Komponenten testen könnt.</div>
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Ein Softwareprogramm für die senseBox wird im Folgenden auch Sketch genannt.
+</div>
+
+<div><br><br></div>
+
+## Programmieren mit der Arduino IDE
+Mit der Arduino IDE lässt sich ein Sketch kompilieren und auf die senseBox MCU hochladen. Schließt nun die senseBox per USB Kabel an euren Computer an und befolgt die nächsten Schritte.
+
+### Konfiguration in der Arduino IDE
+Bevor die senseBox programmieren könnt müsst ihr ein paar Einstellungen in der Arduino IDE vornehmen. Unter dem Reiter `Werkzeuge` müsst ihr bei der Option `Boards` die senseBox MCU unten in der Liste auswählen.
+
+![Boardauswahl](https://github.com/sensebox/books-v2/blob/home/pictures/select_board.png?raw=true)
+
+Als nächstes wählt ihr unter `Werkzeuge` -> `Port` die Anschlussnummer des USB Ports aus, an dem die senseBox MCU mit dem Computer verbunden ist. 
+
+![Portauswahl](https://github.com/sensebox/books-v2/blob/home/pictures/select_port.png?raw=true)
+
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Der Port lässt sich nur dann auswählen, wenn die senseBox mit dem USB Kabel an den Computer angeschlossen wurde.
+</div>
+
+### Hello World Beispiel
+Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeilsymbol in der Werkzeugleiste. Im unteren Teil der Arduino Oberfläche bekommt ihr Feedback zum Uploadvorgang. Wenn alles geklappt hat erscheint dort die Meldung `Hochladen abgeschlossen`.
+
+```cpp
+int ledPin = LED_BUILTIN; 
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(ledPin, HIGH); // turn the LED on (HIGH is the voltage level)
+  delay(1000);                // wait for a second
+  digitalWrite(ledPin, LOW);  // turn the LED off by making the voltage LOW
+  delay(1000);                // wait for a second
+}
+```
+
+Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der nicht vom Kompiler mit ausgewertet wird. Das hat den Sinn dass man sich besser im Code zurecht findet und man macht es so anderen Programmierern leichter den eigenen Code zu verstehen. 
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Anders als bei einem Laptop oder Smartphone läuft auf eurer senseBox kein Betriebssystem wie Windows, Linux oder MacOS. Die senseBox MCU ist ein Mikrocontroller auf dem immer nur das letzte Programm ausgeführt wird, das hochgeladen wurde.
+</div>
+
+## Sensoren und Internetverbindung testen
 <div class="description">Bevor ihr eure senseBox mit der openSenseMap verbindet sollten alle Sensoren und das Netzwerkmodul überprüft werden um späteren Fehlern vorzubeugen. Mit unserem Testprogramm können nach dem Aufbau der Station der Messvorgang und die Netzwerkverbindung getestet werden.</div>
 
 <div class="box_warning">
@@ -6,8 +60,8 @@
     Voraussetzung dafür ist die vorherige Installation der Softwarebibliotheken aus Schritt 3.
 </div>
 
-<div><br><br></div>>
-## Test-Sketch öffnen
+------
+### Test-Sketch öffnen
 Öffnet aus den Beispielen die Datei `mcu_component_test` (`Datei` -> `Beispiele` -> `senseBoxMCU`). Nachdem ihr diesen Sketch auf die MCU hochgeladen habt, startet ihr den seriellen Monitor indem ihr auf das Lupen-Symbol rechts oben in der Werkzeugleiste klickt. 
 
 <div class="box_info">
@@ -16,7 +70,7 @@
 </div>
 
 ------
-## Optionsmenü
+### Optionsmenü
 Nachdem ihr den seriellen Monitor geöffnet habt erscheint ein Menü auf dessen Funktionen ihr über das Eingabefeld zugreifen könnt:
 
 ![Optionsmenu](https://github.com/sensebox/books-v2/blob/home/pictures/test_option-menu.png?raw=true)
