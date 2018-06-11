@@ -1,13 +1,10 @@
 # Strahlenschutz {#head}
-<div class="description"></div>
+<div class="description">Der Strahlenschutz schützt den Außensender für Temperatur + Luftfeuchtigkeit (BMP280)vor Witterung. Er dient als Schutz vor Niederschlag und direkter Sonneneinstrahlung. Er ist einfach zu montieren und hat eine Öffnung für die Fühlerkabel.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
-
-Der Strahlenschutz schützt den Außensender für Temperatur + Luftfeuchtigkeit (BMP280)vor Witterung. Er dient als Schutz vor Niederschlag und direkter Sonneneinstrahlung. Er ist einfach zu montieren und hat eine Öffnung für die Fühlerkabel. 
-Vielen Dank, dass Sie sich für dieses Gerät aus dem Hause TFA entschieden haben.
 
 ## Hinweise für die Standortwahl des Strahlenschutzes
 * Suchen  dir  im  Freien  einen  schattigen  Platz  für  den  Strahlenschutz  aus.  (Direkte  Sonnen-

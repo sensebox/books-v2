@@ -15,12 +15,12 @@ Im schwarzen Bereich darunter werden dir Status- und Fehlermeldungen angezeigt. 
 
 Zuletzt solltest du dir noch die kleinen Schaltflächen über dem weißen Bereich anschauen.
 
-![auf Schreibfehler überprüfen - Programm an senseBox MCU übertragen](https://raw.githubusercontent.com/sensebox/resources/master/images/arduino-ide_schaltflaechen1.png)
+![auf Schreibfehler überprüfen - Programm an senseBox MCU übertragen](../pictures/grundlagen/arduino-ide_schaltflaechen1.png)
 
 Das Häkchen und der Pfeil sind die beiden wichtigsten Symbole für dich:
 Mit dem Häkchen kannst du dein Programm auf Schreibfehler überprüfen lassen, und mit den Pfeil überträgst du dein Programm an die senseBox MCU.
 
-![neues Programm erstellen - gespeichertes Programm öffnen - Programm speichern](https://raw.githubusercontent.com/sensebox/resources/master/images/arduino-ide_schaltflaechen2.png)
+![neues Programm erstellen - gespeichertes Programm öffnen - Programm speichern](../pictures/grundlagen/arduino-ide_schaltflaechen2.png)
 
 Die anderen drei Symbole - angefangen mit dem kleinen Blatt ganz links - stehen dafür ein neues Programm zu erstellen, ein gespeichertes zu öffnen und dein geschriebenes Programm zu speichern
 

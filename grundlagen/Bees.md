@@ -24,6 +24,10 @@ Bee* b = new Bee(); // Instanz der Bee
 OpenSenseMap osem("senseBox ID",b); // Instanz der openSenseMap
 float temp = 24.3; // Testwert den wir später auf der openSenseMap hochladen 
 ```
+<div class="box_warning">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+    Achte hier darauf, dass du den Parameter  "senseBox ID" mit deiner Box ID  ersetzen musst!
+</div>
 
 Haben wir dies getan, kann die Bee im Programmcode fortlaufend mit dem Kürzel `b`angesprochen werden. In der `setup()`-Funktion stellen wir nun eine Verbindung zu unserem gewünschten WiFi-Netzwerk her und laden testweise einen ersten Wert auf der openSenseMap hoch.
 
@@ -39,12 +43,11 @@ void setup(){
     delay(1000);
     osem.uploadMeasurement(temp,"sensor ID") // Testwert wird hochgeladen 
                                              //"sensor ID" muss noch ersetzt werden
-    
     };
 ```
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Achte hier darauf, dass du die Parameter "SSID" mit dem Netzwerknamens ,"PW" mit dem dazugehörigen Passwort und "senseBox ID" mit deiner Box ID  ersetzen musst!
+    Achte hier darauf, dass du die Parameter "SSID" mit dem Netzwerknamen deines WiFi-Netzwerks, "PW" mit dem dazugehörigen Passwort und "sensor ID" mit der Sensor-ID des entsprechenden Sensors ersetzen musst!
 </div>
 
 {% endcollapse %}

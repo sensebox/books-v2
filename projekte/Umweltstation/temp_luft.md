@@ -9,7 +9,7 @@
 
 
 ## Voraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-3-libraries-hinzufuegen.md)
+- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/libraries-hinzufuegen.md)
 - [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
 - [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
 
@@ -32,13 +32,14 @@ Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzeln
 
 ## Aufbau
 Steckt den Schaltkreis wie ihr ihn unten in der Grafik seht.
-<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/wired_tempairhumi.jpg" width="500"/>
+
+![Temperatur- und Luftfeuchtigkeitssensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_tempairhumi.jpg)
 
 ## Programmierung
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/schritt-3-libraries-hinzufuegen.html">Schritt 3</a> erklärt!
+    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/libraries-hinzufuegen.html">Schritt 3</a> erklärt!
 </div>
 Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino
@@ -71,6 +72,6 @@ hdc.getTemperature();
 Baue die oben beschriebene Schaltung nach und versuche den HDC1008 auszulesen und Dir die gemessenen Daten im seriellen Monitor anzeigen zu lassen.
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Schaue dir hierfür die Beispiele aus den <a href="/../../erste-schritte/schritt-1-software-installation.html">Ersten Schritten</a> an!
+    Schaue dir hierfür die Beispiele aus den <a href="/../../erste-schritte/software-installation.md">Ersten Schritten</a> an!
 </div>
 {% endcollapse %}

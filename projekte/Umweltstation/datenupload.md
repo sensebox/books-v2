@@ -11,11 +11,9 @@ Dazu gibt es die [openSenseMap](https://openSenseMap.org/) (OSeM), welche divers
 
 
 ## Voraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-1-software-installation.md)
-- [**Bees**](../../grundlagen/shields.md):
-    Lese dieses Kapitel um zu erfahren, wie der Arduino mit Shields um eine Netzwerkverbindung erweitert werden kann.
-- [**openSenseMap Upload**](../../grundlagen/datenupload.md):
-    In diesem Kapitel erfährst du, wie du deine senseBox in die openSenseMap einbinden kannst.
+- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/libraries-hinzufuegen.md) : Du solltest dir zu diesem Zweck die ersten Schritte angeguckt haben.
+- [**Bees**](../../grundlagen/Bees.md):
+    Lese dieses Kapitel um zu erfahren, wie die senseBox MCU mithilfe von Bees eine Netzwerkverbindung herstellen kann, um so Daten auf die openSenseMap zu übertragen.
 
 ## Ziele der Station
 In dieser Station wird beispielhaft die Integration eines Sensors in die openSenseMap gezeigt, sodass die gewonnenen Daten online verfügbar sind.
@@ -25,9 +23,8 @@ In dieser Station wird beispielhaft die Integration eines Sensors in die openSen
 * Mindestens einen (beliebigen) Sensor
 
 ## Programmierung 
-Im Kapitel [Bees](/../../grundlagen/shields.md) hast du schon gelernt wie du eine Verbindung zum Internet aufbaust, nun schauen wir uns an wie wir unsere Messwerte kontinuierlich auf der openSenseMap hochladen können.
-
-Wie im vorherigen [Kapitel](/../../grundlagen/shields.md) bereits beschrieben müssen wir erstmal die Instanzen für die openSenseMap erstellen und unser WLAN-Netzwerk + Zugangsdaten bereitstellen. 
+Im Kapitel [Bees](/../../grundlagen/Bees.md) hast du schon gelernt wie du eine Verbindung zum Internet aufbaust, nun schauen wir uns an, wie wir unsere Messwerte kontinuierlich auf der openSenseMap hochladen können.
+Wie dort bereits beschrieben müssen wir erstmal die Instanzen für die openSenseMap erstellen und unser WLAN-Netzwerk + Zugangsdaten bereitstellen. 
 
 {% collapse title="Deklarierung der Objekte" %}
 ```arduino

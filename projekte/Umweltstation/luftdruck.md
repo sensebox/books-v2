@@ -8,8 +8,8 @@
 </div>
 
 ## Vorraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../grundlagen/software_libraries.md)
-- [Der serielle Datenbus I²C](../../grundlagen/der_serielle_datenbus.md)
+- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/libraries-hinzufuegen.md)
+- [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
 - [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
 
 ## Materialien
@@ -36,7 +36,7 @@ Um den Sensor zum Laufen zu bringen schließe ihn einfach an den I²C/Wire Port 
 
 
 
-![Aufbau_Arduino_BMP280](https://raw.githubusercontent.com/sensebox/resources/master/images/wired_lux.jpg)
+![Temperatur- und Luftdrucksensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_lux.jpg)
 
 ## Programmierung - Auslesen des Sensors
 Der Sensor kann über die Bibliothek `SenseBoxMCU.h` angesteuert werden.

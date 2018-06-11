@@ -11,7 +11,7 @@ Ohne sie würde das Leben in modernen Städten völlig anders sein, als du es ke
 
 
 ## Vorraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/schritt-1-software-installation.md)
+- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/software-installation.md)
 - [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
 - [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
 
@@ -36,17 +36,17 @@ Laut dem Datenblatt hat dieser Sensor eine Reichweite von 2 bis 200.000 Lux, bei
 
 Der Sensor wird über das I²C Protokoll angesprochen. Wir sprechen ihn direkt mit den folgenden aus dem Datenblatt entnommenen Befehlen an:
 
-<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/edu//Grundlagen_Station_6.png"/>
+![](../../pictures/diy-station/Grundlagen_Station_6.png)
 {% endcollapse %}
 
 ##Aufbau
 
-<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/wired_lux.jpg" width="500"/>
+![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_lux.jpg)
 
 ## Programmierung
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/schritt-3-libraries-hinzufuegen.html">Schritt 3</a> erklärt!
+    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/libraries-hinzufuegen.html">Schritt 3</a> erklärt!
 </div>
 Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino

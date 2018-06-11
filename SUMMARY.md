@@ -54,7 +54,7 @@
         * [Gehäuse](komponenten/zubehoer/gehaeuse.md)
         * [Netzteil und USB-Kabel](komponenten/zubehoer/netzteil-und-usb-kabel.md)
         * [LED-Display](komponenten/zubehoer/led-display.md)
-        * [HUB](komponenten/zubehoer/hub.md)
+        * [Expander](komponenten/zubehoer/hub.md)
         * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
 

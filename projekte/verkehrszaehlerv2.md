@@ -23,7 +23,7 @@ Der Ultraschallsensor wird mit einem JST-Adapterkabel mit der senseBox MCU verbu
 Zur Stromversorgung wird der VCC-Pin des Sensors mit dem roten Kabel (5V)und der GND-Pin des Sensors mit
 dem schwarzen Kabel (GND) verbunden. Zur Datenübertragung wird dann das grüne Kabel (1) mit dem Echo- und das gelbe Kabel (2) mit dem Trig-Pin des Sensors verbunden.
 
-<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/Verkehrszaehler_v2.png" width="500"/>
+![Verkabelung des Ultraschall-Sensors](../../pictures/projekte/Verkehrszaehler_v2.png)
 
 ***Hinweis:*** *Ihr könnt natürlich jeden mit "Digital" beschrifteten Steckplatz verwenden, denkt aber daran den Code anzupassen.*
 
