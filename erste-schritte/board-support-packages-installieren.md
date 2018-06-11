@@ -13,11 +13,11 @@ Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* i
 https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json
 ```
 
-![Öffne die Voreinstellungen und füge die URL ein](https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu1.png?raw=true)
+![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/Ardu1.png)
 
 Öffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und installiere dort die zwei Board-Support-Packages mit den Namen **Arduino SAMD Boards by Arduino** und **senseBox SAMD Boards by senseBox**.
 
-![Öffne den Bordverwalter und installiere die beiden Packages](https://github.com/sensebox/books-v2/blob/edu/pictures/bsp/Ardu2.png?raw=true)
+![Öffne den Bordverwalter und installiere die beiden Packages](../pictures/ardu/Ardu2.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>

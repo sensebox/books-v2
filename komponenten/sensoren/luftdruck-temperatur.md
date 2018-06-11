@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Der Luftdruck- und Temperatursensor](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/bmp%20top.png?token=AUIA517J0LclIvpcdrCCvXqTHxLc9hKQks5bFlLpwA%3D%3D)
+![Der Luftdruck- und Temperatursensor](../../pictures/bmp%20top.png)
 
 ## Technische Informationen
 

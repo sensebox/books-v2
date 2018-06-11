@@ -1,4 +1,4 @@
-# HUB {#head}
+# Expander {#head}
 <div class="description"></div>
 
 <div class="line">
@@ -6,3 +6,4 @@
     <br>
 </div>
 
+![Expander](../../pictures/hub_bottom.png)

@@ -6,5 +6,5 @@
     <br>
 </div>
 
-![Der GPS-Sensor](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/gps%20top.png?token=AUIA5-Zb9YU5U95bMBXGOrfC2B4mQHWrks5bFk_9wA%3D%3D)
+![Der GPS-Sensor](../../pictures/gps%20top.png)
 

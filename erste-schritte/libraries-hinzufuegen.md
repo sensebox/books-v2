@@ -39,11 +39,11 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
 
 4. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
 
-    ![Klicke `Datei` und dann `Voreinstellungen`](https://github.com/sensebox/books-v2/blob/home/pictures/libraries/voreinstellungen_2.PNG?raw=true)
+    ![Klicke `Datei` und dann `Voreinstellungen`](../pictures/libraries/voreinstellungen_2.PNG)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
 
-    ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](https://github.com/sensebox/books-v2/blob/home/pictures/libraries/voreinstellungen.PNG?raw=true)
+    ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen.PNG)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 

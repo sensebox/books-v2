@@ -34,4 +34,4 @@ Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. un
 1.	Es sollte unbedingt vermieden werden, dass sich Kondenswasser in der senseBox sammelt. Deshalb wird mindestens einmal im Monat ein visueller Check der senseBox empfohlen. Gegebenenfalls sollte das Silica Gel erneuert werden. 
 2.	Die senseBox sollte regelmäßig von anfallendem Schmutz befreit werden.
 
-Weitere Tipps finden Sie auf www.sensebox.de und in unserem Forum www.forum.sensebox.de.  
+Weitere Tipps finden Sie auf [www.sensebox.de](www.sensebox.de) und in unserem Forum [www.forum.sensebox.de](www.forum.sensebox.de).  

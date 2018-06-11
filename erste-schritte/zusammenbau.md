@@ -6,6 +6,6 @@
     <br>
 </div>
 
-![Komponentenübersicht und Zusammensetzung mit Feinstaubsensor](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Home%20station%2004.png?token=AUIA56ef5j4scqxF8egq8q-QQoPhaYeZks5bJOO8wA%3D%3D)
+![Komponentenübersicht und Zusammensetzung mit Feinstaubsensor](../pictures/Home station 04.png)
 
-![Fertige senseBox Zusamensetzung (mit Feinstaubsensor)](https://raw.githubusercontent.com/sensebox/books-v2/home/pictures/Home%20station%2002.png?token=AUIA5_Su1BqkuLUveJ2YGslhH1ErfiPPks5bJORcwA%3D%3D)
+![Fertige senseBox Zusamensetzung (mit Feinstaubsensor)](../pictures/Home station 02.png)
