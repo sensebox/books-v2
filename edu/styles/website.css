@@ -117,6 +117,11 @@ background-color: #dcf1da!important;
     border-left-color: #d9534f; 
 }
 
+.image-wrapper{
+  text-align: center;
+  padding: 15px 0px;
+}
+
 /* distinguish glossary terms from actual links 
 .markdown-section .glossary-term {
   text-decoration-style: dotted;
