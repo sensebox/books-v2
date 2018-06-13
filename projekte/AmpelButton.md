@@ -27,6 +27,9 @@ Um alle Komponenten anzuschließen benötigst Du zwei JST-Adapterkabel. Das erst
 
 ### Sketch
 
+{% tabs first="Arduino Quellcode", second="Blockly", %}
+{% content "first" %}
+# Arduino Quellcode
 ```arduino
 int rot = 1;
 int gelb = 2;
@@ -88,3 +91,15 @@ void loop() {
 - Am Anfang der `loop()` Funktion wird jedesmal abgefragt ob der Button gedrückt wird.
 - `digitalRead(button)` liest den aktuellen Zustand des Buttons aus. Wird er gedrückt, liefert die Funktion `HIGH` aus, ansonsten `LOW`.
 -  Um zu Prüfen ob der Button gedrückt wurde muss `digitalRead(button)` mit `HIGH` verglichen werden. Der Vergleich geschieht mit __zwei__ Gleichzeichen `==` (Vergleichsoperator). __Ein__ Gleichzeichen `=` ist eine Zuweisung, wie etwa `int rot = 13`.
+
+{% content "second" %}
+
+# Blockly
+
+![Blockly](https://raw.githubusercontent.com/sensebox/resources/master/images/edu/Blockly_Ampel_Button.png)
+
+
+
+{% endtabs %}
+
+
