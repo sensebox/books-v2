@@ -27,7 +27,7 @@ Um alle Komponenten anzuschließen benötigst Du zwei JST-Adapterkabel. Das erst
 
 ### Sketch
 
-{% tabs first="Arduino Quellcode", second="Blockly", %}
+{% tabs first="Arduino Quellcode", second="Blockly" %}
 {% content "first" %}
 # Arduino Quellcode
 ```arduino
