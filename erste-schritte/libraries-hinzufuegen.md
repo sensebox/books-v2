@@ -33,9 +33,9 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
 
 1. Im ersten Schritt lädst du ein `.zip`-Archiv mit dem Namen `senseBox_Libraries.zip` herunter. Darin befinden sich alle benötigten Bibliotheken, um mit den Sensoren und der MCU deiner senseBox Programme zu schreiben. Der Download erfolgt indem du [hier klickst](https://github.com/sensebox/resources/raw/master/libraries/senseBox_Libraries.zip).
 
-2. Sollte der Download nicht von alleine starten, öffnet sich ein Fenster, in dem du das Feld ``Datei speichern`` auswählen musst und den Ordner an einen beliebigen Ort auf deinem Computer legst (z.B. in den Downloads-Ordner).
+2. Sollte der Download nicht von alleine starten, öffnet sich ein Fenster, in dem du das Feld ``Datei speichern`` auswählen musst und den Ordner an einen beliebigen Ort auf deinem Computer legst (standardmäßig ist das der Downloads-Ordner).
 
-3. Nun öffnest du den Ordner, in dem du das `senseBox_Libraries.zip`-Archiv gespeichert hast und entpackst die `.zip` Datei mit Rechts-Klick -> `Alle extrahieren`. Wähle als Speicherort denselben Ordner wie beim Download des `.zip`-Archivs (z.B. den Downloads-Ordner). Öffne den Ordner und schau dir den Inhalt an. In dem Ordner sollten zwei weitere Ordner mit den Namen `libraries` und `examples` liegen.
+3. Nun öffnest du den Ordner, in dem du das `senseBox_Libraries.zip`-Archiv gespeichert hast und entpackst die `.zip` Datei mit Rechts-Klick -> `Alle extrahieren...`. Wähle als Speicherort denselben Ordner wie beim Download des `.zip`-Archivs (z.B. den Downloads-Ordner). Öffne den Ordner und schau dir den Inhalt an. In dem Ordner sollten zwei weitere Ordner mit den Namen `libraries` und `examples` liegen.
 
 4. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
 
@@ -52,7 +52,7 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
         Du musst die Libraries, die du bereits heruntergeladen und entpackt hast, im nächsten Schritt in den Sketchbook-Speicherort verschieben. Es ist daher sehr wichtig, dass du dir den entsprechenden Speicherort aus Punkt 4 genau merkst, um so später auftretende Fehler zu vermeiden.
     </div>
 
-5. Nun navigierst du in deinem Datei-Explorer zum Sketchbook-Speicherort (siehe 4.). Beachte, dass der Zielordner im Datei-Explorer am Sketchbook-Speicherort den Namen `Arduino` trägt. Kopiere oder ziehe jetzt die beiden Dateien `libraries` und `examples` aus dem entpackten ``senseBox_Libraries.zip``-Archiv in den `Arduino`-Ordner am Sketchbook-Speicherort. Du kannst diese bedenkenlos "ersetzen", falls du danach gefragt wirst.  
+5. Nun navigierst du in deinem Datei-Explorer zum Sketchbook-Speicherort (siehe 4.). Beachte, dass der Zielordner im Datei-Explorer am Sketchbook-Speicherort den Namen `Arduino` trägt. Kopiere oder ziehe jetzt die beiden Ordner `libraries` und `examples` aus dem entpackten ``senseBox_Libraries.zip``-Archiv in den `Arduino`-Ordner am Sketchbook-Speicherort. Du kannst diese bedenkenlos "ersetzen", falls du danach gefragt wirst.  
 
 6. Schließe jetzt das Programm Arduino vollständig und starte es erneut, um die Installation der entsprechenden Libraries abzuschließen. 
 

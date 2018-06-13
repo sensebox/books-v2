@@ -9,7 +9,7 @@
 * [Schritt 2: Librarys hinzufügen](erste-schritte/libraries-hinzufuegen.md)
 * [Schritt 3: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
 * [Schritt 4: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
-* [Schritt 5: Komponenten testen](erste-schritte/komponenten-testen.md)
+* [Schritt 5: Programmierung der Hardware](erste-schritte/komponenten-testen.md)
 * [Schritt 6: Verschlüsselung](erste-schritte/verschluesselung.md)
 * [Schritt 7: Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
 * [Schritt 8: Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
