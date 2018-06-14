@@ -39,7 +39,7 @@ boolean testWert = false;
 Die Zuweisung `= false` steht in diesem Fall für den Startwert der Variable.
 
 ### char
-Um beispielsweise einen Buchstaben zu speichern benötigt man den Datentyp `char`. Der Wert wird in einfachen Anführungszeichen (`'`) übergeben.
+Um beispielsweise einen Buchstaben zu speichern, benötigt man den Datentyp `char`. Der Wert wird in einfachen Anführungszeichen (`'`) übergeben.
 
 ```arduino
 char testWert = 'a';
@@ -53,7 +53,7 @@ byte testWert  = 18;
 byte testWert2 = B10010;
 ```
 
-Das `B` kennzeichnet, dass die Folgende Zahlenfolge im Binärcode geschrieben ist.
+Das `B` kennzeichnet, dass die folgende Zahlenfolge im Binärcode geschrieben ist.
 `B10010` entspricht 18 im Dezimalsystem, beide Variablen enthalten also den selben Wert mit unterschiedlicher schreibweise.
 
 ### int
@@ -84,14 +84,14 @@ Ein String wird folgendermaßen definiert:
 String testWert = "Hallo Welt";
 ```
 
-Im Gegensatz zu den Datentypen die ihr zuvor kennen gelernt habt, wird der Bezeichner `String` groß geschrieben.
+Im Gegensatz zu den Datentypen, die ihr zuvor kennen gelernt habt, wird der Bezeichner `String` groß geschrieben.
 Darauf müsst ihr achten, sonst erkennt das Programm den Datentyp nicht.
-In den meisten Programmiersprachen gibt es primitive Datentypen und höhere Datentypen. Du erkennst sie daran ob ihre Bezeichner klein (primitiver Datentyp) oder groß (höherer Datentyp) geschrieben werden.
+In den meisten Programmiersprachen gibt es primitive Datentypen und höhere Datentypen. Du erkennst sie daran, ob ihre Bezeichner klein (primitiver Datentyp) oder groß (höherer Datentyp) geschrieben werden.
 Für unsere Anwendungen in der senseBox:edu ist es nicht notwendig zwischen primitiven und höheren Datentypen zu unterscheiden; wenn du später komplexere Anwendungen programmierst, wirst du mehr darüber lernen.
 Möchtest du jetzt schon mehr darüber erfahren, dann schaue doch [hier](https://de.wikipedia.org/wiki/Datentyp#Zusammengesetzte_Datentypen "Wikipedia") nach.
 
 ### array
-Ein Array ist kein eigentlicher Datentyp, sondern viel mehr eine Sammlung mehrerer Varibalen des selben Typs.
+Ein Array ist kein eigentlicher Datentyp, sondern viel mehr eine Sammlung mehrerer Varibalen desselben Typs.
 
 ```arduino
 int testArray[5] = {5, 10, 15, 20, 15};

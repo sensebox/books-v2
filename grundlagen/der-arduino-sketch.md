@@ -22,7 +22,7 @@ Mit dem Häkchen kannst du dein Programm auf Schreibfehler überprüfen lassen, 
 
 ![neues Programm erstellen - gespeichertes Programm öffnen - Programm speichern](../pictures/grundlagen/arduino-ide_schaltflaechen2.png)
 
-Die anderen drei Symbole - angefangen mit dem kleinen Blatt ganz links - stehen dafür ein neues Programm zu erstellen, ein gespeichertes zu öffnen und dein geschriebenes Programm zu speichern
+Die anderen drei Symbole - angefangen mit dem kleinen Blatt ganz links - stehen dafür ein neues Programm zu erstellen, ein gespeichertes zu öffnen und dein geschriebenes Programm zu speichern.
 
 ## Der Arduino-Sketch
 Ein Arduino Programm (auch "Sketch" genannt) hat einen sehr einfachen Aufbau, der aus zwei Hauptbestandteilen besteht. Diese zwei benötigten Funktionen enthalten Blöcke von Anweisungen, welche den Programmablauf beschreiben:

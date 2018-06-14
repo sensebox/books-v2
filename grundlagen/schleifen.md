@@ -21,7 +21,7 @@ Es gibt verschiedene Arten von Schleifen, die je nach Bedarf verwendet werden k�
 In unserem Beispiel wissen wir, dass die LED 50 Mal blinken soll.
 Der Kopf einer `for`-Schleife besteht aus drei Teilen, welche durch ein Semikolon (`;`) getrennt sind:
 
-1. Es wird eine Zählvariable erzeugt, welche angibt wie oft die schleife bereits ausgeführt wurde
+1. Es wird eine Zählvariable erzeugt, welche angibt, wie oft die schleife bereits ausgeführt wurde
 2. Eine Bedingung gibt an, bis wann gezählt werden soll. Wie so eine Bedingung aussieht hast du schon einmal bei [if-Anweisungen](if_else_bedingung.md) gesehen!
 3. Eine Definition, wie gezählt werden soll. Üblicherweise wird die Zählvariable um `1` erhöht.
 
@@ -34,7 +34,7 @@ for (int zaehler = 1; zaehler < 50; zaehler = zaehler + 1) {
 Im diesem Beispiel heißt unsere Zählvariable `zaehler`.
 Die Bedingung lautet: "Solange `zaehler` kleiner als 50 ist".
 Nach jedem Durchlauf der Schleife wird `zaehler` um eins erhöht.
-Deshalb wird der Schleifen Körper 50 Mal ausgeführt.
+Deshalb wird der Schleifenkörper 50 Mal ausgeführt.
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i><ul>
@@ -46,7 +46,7 @@ Deshalb wird der Schleifen Körper 50 Mal ausgeführt.
 ### Aufgabe 1
 Schreibe nun eine Anweisung in den Schleifenkörper, die dir den Wert der Zählvariablen über den seriellen Monitor ausgibt.
 
-> ***Tipp:*** *In [Der Serielle Monitor](der_serielle_monitor.md) wird erklärt wie das geht!*
+> ***Tipp:*** *In [Der Serielle Monitor](der_serielle_monitor.md) wird erklärt, wie das geht!*
 
 - **a)** Untersuche was passiert, wenn du `zaehler = zaehler + 1` durch `zaehler = zaehler*2` oder `zaehler--` ersetzt.
 - **b)** Untersuche was passiert, wenn du `int zaehler = 0` durch `int zeahler = 25` ersetzt.

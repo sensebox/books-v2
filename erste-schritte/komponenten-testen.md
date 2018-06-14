@@ -12,7 +12,7 @@
 Mit der Arduino IDE lässt sich ein Sketch kompilieren und auf die senseBox MCU hochladen. Schließt nun die senseBox per USB Kabel an euren Computer an und befolgt die nächsten Schritte.
 
 ### Konfiguration in der Arduino IDE
-Bevor die senseBox programmieren könnt müsst ihr ein paar Einstellungen in der Arduino IDE vornehmen. Unter dem Reiter `Werkzeuge` müsst ihr bei der Option `Boards` die senseBox MCU unten in der Liste auswählen.
+Bevor die senseBox programmieren könnt, müsst ihr ein paar Einstellungen in der Arduino IDE vornehmen. Unter dem Reiter `Werkzeuge` müsst ihr bei der Option `Boards` die senseBox MCU unten in der Liste auswählen.
 
 ![Boardauswahl](../pictures/select_board.png)
 
@@ -26,7 +26,7 @@ Als nächstes wählt ihr unter `Werkzeuge` -> `Port` die Anschlussnummer des USB
 </div>
 
 ### Hello World Beispiel
-Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeilsymbol in der Werkzeugleiste. Im unteren Teil der Arduino Oberfläche bekommt ihr Feedback zum Uploadvorgang. Wenn alles geklappt hat erscheint dort die Meldung `Hochladen abgeschlossen`.
+Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeilsymbol in der Werkzeugleiste. Im unteren Teil der Arduino Oberfläche bekommt ihr Feedback zum Uploadvorgang. Wenn alles geklappt hat, erscheint dort die Meldung `Hochladen abgeschlossen`.
 
 ```cpp
 int ledPin = LED_BUILTIN; 
@@ -45,7 +45,7 @@ void loop()
 }
 ```
 
-Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der nicht vom Kompiler mit ausgewertet wird. Das hat den Sinn dass man sich besser im Code zurecht findet und man macht es so anderen Programmierern leichter den eigenen Code zu verstehen. 
+Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der nicht vom Kompiler mit ausgewertet wird. Das hat den Sinn, dass man sich besser im Code zurecht findet und man macht es so anderen Programmierern leichter den eigenen Code zu verstehen. 
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -53,7 +53,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der ni
 </div>
 
 ## Sensoren und Internetverbindung testen
-<div class="description">Bevor ihr eure senseBox mit der openSenseMap verbindet sollten alle Sensoren und das Netzwerkmodul überprüft werden um späteren Fehlern vorzubeugen. Mit unserem Testprogramm können nach dem Aufbau der Station der Messvorgang und die Netzwerkverbindung getestet werden.</div>
+<div class="description">Bevor ihr eure senseBox mit der openSenseMap verbindet sollten alle Sensoren und das Netzwerkmodul überprüft werden, um späteren Fehlern vorzubeugen. Mit unserem Testprogramm können nach dem Aufbau der Station der Messvorgang und die Netzwerkverbindung getestet werden.</div>
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
@@ -71,7 +71,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der ni
 
 ------
 ### Optionsmenü
-Nachdem ihr den seriellen Monitor geöffnet habt erscheint ein Menü auf dessen Funktionen ihr über das Eingabefeld zugreifen könnt:
+Nachdem ihr den seriellen Monitor geöffnet habt, erscheint ein Menü auf dessen Funktionen ihr über das Eingabefeld zugreifen könnt:
 
 ![Optionsmenu](../pictures/test_option-menu.png)
 
@@ -79,13 +79,13 @@ Dazu schreibt ihr die Nummer der entsprechenden Option in das Eingabefeld und kl
 
 1. **Find connected sensors**
     
-    Hier könnt ihr überprüfen ob alle angeschlossenen Sensoren richtig initialisiert und erkannt wurden. Für jeden angeschlossenen Sensor sollte es eine Rückmeldung und eine Testmessung geben. Im Beispiel unterhalb wurde ein HDC1080 Temperatur- und Luftfeuchtesensor an einen `I2C/Wire` Port angeschlossen.
+    Hier könnt ihr überprüfen, ob alle angeschlossenen Sensoren richtig initialisiert und erkannt wurden. Für jeden angeschlossenen Sensor sollte es eine Rückmeldung und eine Testmessung geben. Im Beispiel unterhalb wurde ein HDC1080 Temperatur- und Luftfeuchtesensor an einen `I2C/Wire` Port angeschlossen.
 
     ![Sensortest](../pictures/test_option1.png)
 
     <div class="box_info">
         <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-       Falls bei der Ausgabe einer der angeschlossenen Sensoren fehlt solltet ihr die Kabelverbindung überprüfen und den Test wiederholen.
+       Falls bei der Ausgabe einer der angeschlossenen Sensoren fehlt, solltet ihr die Kabelverbindung überprüfen und den Test wiederholen.
     </div>
 
 2. **Test connection to openSenseMap**
@@ -96,7 +96,7 @@ Dazu schreibt ihr die Nummer der entsprechenden Option in das Eingabefeld und kl
 
     <div class="box_info">
         <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-       Falls ihr ein WiFi-Modul nutzt, wird außerdem überprüft ob die aktuellste Version der Firmware auf dem Modul installiert ist. Falls die Version veraltet ist solltet ihr sie aktualisieren.
+       Falls ihr ein WiFi-Modul nutzt, wird außerdem überprüft ob die aktuellste Version der Firmware auf dem Modul installiert ist. Falls die Version veraltet ist, solltet ihr sie aktualisieren.
     </div>
 
 3. **Get security key**

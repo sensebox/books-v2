@@ -27,7 +27,7 @@ Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wir
 
 ![ ](../pictures/software-install/arduino-just-download.png)
 
-Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die Zip-Datei. Durch starten der Datei `arduino.exe` kann die IDE gestartet werden.  
+Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die zip-Datei. Durch das Starten der Datei `arduino.exe` kann die IDE gestartet werden.  
 __________
 
 {% content "second" %}
