@@ -12,7 +12,7 @@
 
 Dieses Buch begleitet dich auf deinem Weg zur eigenen Umweltmessstation, vom Aufbau bis zur Übertragung des Programm-Codes. Du lernst so eine Menge darüber wie deine Station funktioniert und wo deine Daten herkommen.
 
-Damit du ohne weiteres Starten kannst lies dir einmal kurz aber gründlich die Einleitung durch. Sie hilft dir das Buch besser zu verstehen und gibt dir Einsicht in das was dich erwartet.
+Damit du ohne weiteres starten kannst, lies dir einmal kurz aber gründlich die Einleitung durch. Sie hilft dir das Buch besser zu verstehen und gibt dir Einsicht in das, was dich erwartet.
 
 ## Einleitung
 Das senseBox:home Buch ist ein Buch für Besitzer der senseBox:home, aber auch für alle Interessierten. Also für alle die sich nicht nur einfach eine Wetterstation kaufen und aufhängen wollen, sondern für jene, die verstehen wollen wie so eine Station funktioniert und was nötig ist um Daten zu generieren. Mit der senseBox:home lernst du nicht nur mehr über deine Wetterstation, du kannst sie auch erweitern und eine umfangreiche Umweltmessstation aus ihr bauen, die nicht nur Temperatur und Luftfeuchte misst, sondern mit den passenden Sensoren auch Feinstaub oder UV-Strahlung messen kann. Diese Daten kannst du auf die [openSenseMap](https://opensensemap.org/) übertragen, um sie mit vielen anderen Menschen in einem Pool aus Open-Data zu teilen oder, um dir deine Datenhistorie einfach anschauen zu können. Deine senseBox:home kannst du dir selber zusammenstellen aus einem Basis-Setup und einer Auswahl von Sensoren, Übertragungsmodulen und weiterem Zubehör. Sie kann Zuhause, am Arbeitsplatz oder an einem anderen Ort deiner Wahl aufgestellt werden.
