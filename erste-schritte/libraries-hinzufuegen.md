@@ -72,7 +72,7 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
 
 3. Öffne nun die Arduino IDE. Gehe oben auf `Arduino` -> `Einstellungen ...`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](../pictures/libraries/voreinstellungen_2_mac.png)
+ ![Klicke `Arduino` und dann `Einstellungen ...`](../pictures/libraries/voreinstellungen_2_mac.png)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
 
