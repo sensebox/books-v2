@@ -27,8 +27,7 @@ Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wir
 
 ![ ](arduino-just-download.png)
 
-Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die Zip-Datei. Durch starten der Datei `arduino.exe` kann die IDE gestartet werden.  
-__________
+Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die zip-Datei. Durch das Starten der Datei `arduino.exe` kann die IDE gestartet werden.  
 
 {% content "second" %}
 
@@ -45,7 +44,6 @@ Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wir
 ![ ](arduino-just-download.png)
 
 In deinem Downloads-Ordner sollte eine Arduino.app Datei erscheinen. Verschiebe diese Datei in deinen "Programme"-Ordner. Durch starten der Datei `Arduino.app` kann die IDE gestartet werden. 
-___________________
 
 
 {% content "third" %}
@@ -91,7 +89,6 @@ sudo chmod a+rw /dev/<device-id>
 ```
 
 Nach einem Logout und erneutem Login sollte der Arduino aus der Arduino IDE programmierbar sein!
-___________
 
 {% endtabs %}
 
