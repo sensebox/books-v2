@@ -1,4 +1,4 @@
-# Analoge Signale {#head}
+# Logik {#head}
 
 <div class="description"></div>
 <div class="line">

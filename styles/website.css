@@ -122,6 +122,11 @@ background-color: #dcf1da!important;
   padding: 15px 0px;
 }
 
+img[alt="block"] { 
+  max-width:  400px; 
+  
+}
+
 /* distinguish glossary terms from actual links 
 .markdown-section .glossary-term {
   text-decoration-style: dotted;

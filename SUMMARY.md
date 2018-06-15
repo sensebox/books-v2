@@ -1,29 +1,27 @@
 # Summary
 
-* [Das senseBox:edu Buch](README.md)
+* [Das Blockly für Buch](README.md)
 * [Übersicht](uebersicht.md)
 
-## Erste Schritte
-* [Schritt 1: Software Installation](erste-schritte/software-installation.md)
-* [Schritt 2: Librarys hinzufügen](erste-schritte/libraries-hinzufuegen.md)
-* [Schritt 3: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
-* [Schritt 4: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
-* [Schritt 5: Komponenten testen](erste-schritte/komponenten-testen.md)
+## Übersicht
+* [Blockly für senseBox Online](uebersicht/blockly_online.md)
+* [Blockly für senseBox Offline](uebersicht/blockly_offline.md)
+    * [Schritt 1: Software installation](uebersicht/software-installation.md)
+    * [Schritt 2: Librarys hinzufügen](uebersicht/libraries-hinzufuegen.md)
+    * [Schritt 3: Board-Support-Packages installieren](uebersicht/board-support-packages-installieren.md)
 
-## Grundlagen
-* [Arduino IDE und Sketches](grundlagen/der-arduino-sketch.md)
-    * [Kommentare im Quelltext](grundlagen/kommentare.md)\
-    * [if/else - Bedingung](grundlagen/if_else_bedingung.md)
-    * [Schleifen](grundlagen/schleifen.md)
-    * [Variablen](grundlagen/variablen.md)
-    * [Der Serielle Monitor](grundlagen/der_serielle_monitor.md)
-* [Digitale Signale](grundlagen/digitale_signale.md)
-* [Der serielle Datenbus(I²C)](grundlagen/serielle_datenbus.md)
-* [Analoge Signale](grundlagen/analoge_signale.md)
-* [Bees](grundlagen/Bees.md)
-* [Breadboard](grundlagen/breadboard.md)
-* [Registrierung der senseBox:edu auf der oSeM](grundlagen/registrierung-edu-osem.md) 
-
+## Blöcke
+* [senseBox Sensoren](bloecke/sensebox_sensoren.md)
+* [senseBox Display](bloecke/sensebox_display.md)
+* [senseBox Ausgabe](bloecke/sensebox_ausgabe.md)
+* [Logik](bloecke/logik.md)
+* [Schleifen](bloecke/schleifen.md)
+* [Mathematik](bloecke/mathematik.md)
+* [Text](bloecke/text.md)
+* [Variablen](bloecke/variablen.md)
+* [Funktionen](bloecke/funktionen.md)
+* [Eingang/Ausgang](bloecke/eingang_ausgang.md)
+* [Zeit](bloecke/zeit.md)
 
 ## Projekte
 * [DIY-Umweltstation](projekte/Umweltstation/README.md)

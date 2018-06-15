@@ -16,7 +16,8 @@
     "simpletabs",
     "image-captions",
     "collapse",
-    "image-wrapper"
+    "image-wrapper",
+    "bootstrap-grid"
   ],
   "pluginsConfig": {
     "edit-link": {

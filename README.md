@@ -1,7 +1,6 @@
-# Das senseBox:edu Buch {#head}
+# Das Blockly für senseBox Buch {#head}
 <div class="description">
-Hier findest Du alle Informationen, die du brauchst um mit Deiner
-senseBox:edu durchzustarten!
+Hier findest du alle Informationen um mit Blockly für senseBox deine senseBox zu programmieren 
 </div>
 <div class="line">
     <br>
