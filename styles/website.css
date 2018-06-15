@@ -123,8 +123,16 @@ background-color: #dcf1da!important;
 }
 
 img[alt="block"] { 
-  max-width:  400px; 
+  display: block;  
+  max-width: 100%;  
+  height: auto; 
   
+}
+
+.markdown-section table {
+  table-layout: fixed;
+  display:block;
+  overflow-x: auto;
 }
 
 /* distinguish glossary terms from actual links 

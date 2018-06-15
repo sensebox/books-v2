@@ -24,13 +24,6 @@
 * [Zeit](bloecke/zeit.md)
 
 ## Projekte
-* [DIY-Umweltstation](projekte/Umweltstation/README.md)
-    * [Temperatur und Luftfeuchtigkeit](projekte/Umweltstation/temp_luft.md)
-    * [Experimente mit Licht](projekte/Umweltstation/licht.md)
-    * [UV-Sensor](projekte/Umweltstation/UV_Sensor.md)
-    * [Luftdruck](projekte/Umweltstation/luftdruck.md)
-    * [Datenupload zur OSeM](projekte/Umweltstation/datenupload.md)
-* [Ampelschaltung](projekte/AmpelButton.md)
 * [Verkehrszähler](projekte/verkehrszaehlerv2.md)
 
 ## Komponenten

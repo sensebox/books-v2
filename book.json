@@ -17,7 +17,8 @@
     "image-captions",
     "collapse",
     "image-wrapper",
-    "bootstrap-grid"
+    "bootstrap-grid",
+    "grid"
   ],
   "pluginsConfig": {
     "edit-link": {
