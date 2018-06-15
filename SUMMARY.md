@@ -9,7 +9,6 @@
 * [Schritt 3: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
 * [Schritt 4: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
 * [Schritt 5: Komponenten testen](erste-schritte/komponenten-testen.md)
-* [Schritt 6: Hello World-Programm ](erste-schritte/hello-world.md)
 
 ## Grundlagen
 * [Arduino IDE und Sketches](grundlagen/der-arduino-sketch.md)
