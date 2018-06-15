@@ -29,4 +29,4 @@ Die Sensoren, welche mit der senseBox gekauft werden können, sind mit den beili
 ## Anschluss vom Feinstaubsensor
 Der Feinstaubsensor, der mit der senseBox gekauft werden kann, hat ein beiliegendes passendes Kabel, welches den Sensor mit dem Board verbinden kann. Hierfür musst du die Steckplätze auf dem Board verwenden die mit ``UART/Serial`` gekennzeichnet sind. Weitere Infos zum Anschluss des Feinstaubsensors findest du übrigens [hier](../komponenten/sensoren/feinstaub.md).
 
-![Anschluss Feinstaubsensor)](../pictures/plug-in-components/feinstaub-anschluss.jpg)
+![Anschluss Feinstaubsensor](../pictures/plug-in-components/feinstaub-anschluss.jpg)
