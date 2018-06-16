@@ -16,8 +16,34 @@
         </div>
         <div class="col-md">
             <h4>Die LED</h4>
+            <h6>Anschluss: Digital</h6>
             Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
             aus und den Status der LED
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn-modal" data-toggle="modal" data-target="#exampleModal">
+                Schaltung
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Schaltung</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../../pictures/projekte/Ampel_Button_v2_Steckplatine.png" alt="block" align="left">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -31,6 +57,7 @@
         </div>
         <div class="col-md">
             <h4>Der Piezo</h4>
+            <h6>Anschluss: Digital</h6>
             Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
             aus und den Status der LED
         </div>
@@ -46,6 +73,7 @@
         </div>
         <div class="col-md">
             <h4>Die RGB-LED</h4>
+            <h6>Anschluss: Digital</h6>
             Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
             aus und den Status der LED
         </div>
@@ -63,6 +91,7 @@
         </div>
         <div class="col-md">
             <h4>Speichern auf SD Karte</h4>
+            <h6>Anschluss: XBEE2</h6>
             Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup die Datei erstellt
             und mit einem Dateinamen versehen werden.
         </div>
@@ -111,6 +140,7 @@
         </div>
         <div class="col-md">
             <h4>Wlan Verbindung herstellen</h4>
+            <h6>Anschluss: XBEE1</h6>
             Verwende diesen Block im Setup() um eine Wlan Verbindung herzustellen. Trage den entsprechenden Netzwerknamen (SSID) und
             das Psswort ein.
         </div>
@@ -155,8 +185,7 @@
             Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
             Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
             werden soll. Zusätzlich zum Messwert muss jedes mal dein Standort übertagen werden. Verwende hierzu den
-            <a
-                href="../../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            <a href="../../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
         </div>
     </div>
 </div>

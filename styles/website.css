@@ -129,6 +129,16 @@ img[alt="block"] {
   
 }
 
+.btn-modal {
+  color: #4eaf47;
+  font-size: 16px;
+  padding: 6px 16px 6px 16px;
+  border: solid #4eaf47 2px;
+  text-decoration: none;
+  background: none;
+  margin: 5px;
+}
+
 .markdown-section table {
   table-layout: fixed;
   display:block;

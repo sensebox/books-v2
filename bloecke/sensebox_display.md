@@ -14,6 +14,7 @@
         </div>
         <div class="col-md">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
+            <h6>Anschluss: I2C/Wire</h6>
             Um Messwerte über Internet zu übertragen erstelle zunächst eine neue Messstation auf der
             <a href="https://opensensemap.org/register">openSenseMap</a> Bei der Registrierung musst du angeboten ob es ich um eine stationäre oder mobile Station (benötigt
             GPS) handelt. Desweiteren wirst du gefragt, welche Sensoren und welche Messwerte du an die Plattform senden möchstest.
