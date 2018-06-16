@@ -9,7 +9,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/time/time-0.png" alt="block" align="left">
+            <img src="../pictures/blocks/time/time-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Headline</h4>
@@ -23,7 +23,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/time/time-1.png" alt="block" align="left">
+            <img src="../pictures/blocks/time/time-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Headline</h4>
@@ -37,7 +37,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/time/time-2.png" alt="block" align="left">
+            <img src="../pictures/blocks/time/time-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Headline</h4>
@@ -51,7 +51,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/time/time-3.png" alt="block" align="left">
+            <img src="../pictures/blocks/time/time-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Headline</h4>
@@ -65,7 +65,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/time/time-4.png" alt="block" align="left">
+            <img src="../pictures/blocks/time/time-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Headline</h4>

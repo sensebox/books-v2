@@ -12,7 +12,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-0.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Die LED</h4>
@@ -36,7 +36,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <img src="../../pictures/projekte/Ampel_Button_v2_Steckplatine.png" alt="block" align="left">
+                            <img src="../pictures/projekte/Ampel_Button_v2_Steckplatine.png" alt="block" align="left">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
@@ -53,7 +53,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-1.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Piezo</h4>
@@ -69,7 +69,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-2.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Die RGB-LED</h4>
@@ -87,7 +87,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-3.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Speichern auf SD Karte</h4>
@@ -98,7 +98,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-4.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
             Mit diesem Block kann in der Endlosschleifen nur die Datei geöffnet werden um Daten zu schreiben.
@@ -106,7 +106,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-5.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-5.png" alt="block" align="left">
         </div>
         <div class="col-md">
             Nun kann mit diesem Block ein Messwert oder Text in der, zuvor geöffneten Datei, geschrieben werden. Mithilfe der Checkbox
@@ -121,7 +121,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-6.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-6.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Auf Kommandozeile Ausgeben</h4>
@@ -136,7 +136,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-7.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-7.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Wlan Verbindung herstellen</h4>
@@ -152,7 +152,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-8.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-8.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
@@ -165,7 +165,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-9.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-9.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>stationäre senseBox</h4>
@@ -177,7 +177,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-10.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-10.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>
@@ -185,7 +185,7 @@
             Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
             Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
             werden soll. Zusätzlich zum Messwert muss jedes mal dein Standort übertagen werden. Verwende hierzu den
-            <a href="../../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            <a href="../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
         </div>
     </div>
 </div>
@@ -193,7 +193,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/output/output-11.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/output-11.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Messintervall</h4>

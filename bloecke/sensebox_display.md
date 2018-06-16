@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display-0.png" alt="block" align="left">
+            <img src="../pictures/blocks/display/display-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
@@ -24,7 +24,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display-1.png" alt="block" align="left">
+            <img src="../pictures/blocks/display/display-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>stationäre senseBox</h4>
@@ -36,7 +36,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display-2.png" alt="block" align="left">
+            <img src="../pictures/blocks/display/display-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>
@@ -44,12 +44,12 @@
             Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
             Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
             werden soll. Zusätzlich zum Messwert muss jedes mal dein Standort übertagen werden. Verwende hierzu den
-            <a href="../../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            <a href="../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
         </div>
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display-4.png" alt="block" align="left">
+            <img src="../pictures/blocks/display/display-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>stationäre senseBox</h4>
@@ -61,7 +61,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display-3.png" alt="block" align="left">
+            <img src="../pictures/blocks/display/display-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>
@@ -69,5 +69,5 @@
             Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
             Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
             werden soll. Zusätzlich zum Messwert muss jedes mal dein Standort übertagen werden. Verwende hierzu den
-            <a href="../../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            <a href="../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
         </div>
