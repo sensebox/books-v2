@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display_initialise.png" alt="block" align="left">
+            <img src="../../pictures/blocks/display/display-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
@@ -23,7 +23,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display_show.png" alt="block" align="left">
+            <img src="../../pictures/blocks/display/display-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>stationäre senseBox</h4>
@@ -35,7 +35,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display_clear.png" alt="block" align="left">
+            <img src="../../pictures/blocks/display/display-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>
@@ -48,7 +48,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display_print.png" alt="block" align="left">
+            <img src="../../pictures/blocks/display/display-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>stationäre senseBox</h4>
@@ -60,7 +60,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/display/display_plot.png" alt="block" align="left">
+            <img src="../../pictures/blocks/display/display-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>

@@ -13,7 +13,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/sensors/temp_humi.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/sensors-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Temperatur und Luftfeuchtigkeitssensor</h4>
@@ -32,7 +32,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/sensors/uv_light.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/sensors-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>UV-Licht und Lichtsensor</h4>
@@ -51,7 +51,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/sensors/pm25_pm10.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/sensors-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Feinstaubsensor</h4>
@@ -75,7 +75,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/sensors/pressure.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/sensors-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Luftdrucksensor</h4>
@@ -86,10 +86,12 @@
 
 <div class="line"></div>
 
+
+
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/sensors/ultrasonic_distance.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/sensors-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Ultraschall Distanzsensor</h4>
@@ -104,19 +106,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/sensors/gps.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/sensors-5.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>GPS Sensor</h4>
-            Dieser Block gibt dir verschiedene Messwerte des
-            <a href="../../komponenten/zubehoer/gps.html">GPS Sensors</a>. Neben dem Längen- und Breitengrad für die Standortbestimmtung kann der Sensor auch die Höhe
-            (in Meter) und die aktuelle Geschwindigkeit (in km/h) ausgeben. Dropdown:
-            <ul>
-                <li> Breitengrad </li>
-                <li> Längengrad </li>
-                <li> Höhe </li>
-                <li> Geschwindigkeit </li>
-            </ul>
+            <h4>Lautstärkesensor</h4>
+            Dieser Block gibt dir den Messwert des Ultraschall Distanzsensor. Der ausgegebene Messwert entspricht der Distanz in Zentimeter.
+            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.
         </div>
     </div>
 </div>
@@ -126,7 +121,52 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/sensors/gps.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/sensors-6.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>Lichtwiderstand</h4>
+            Dieser Block gibt dir den Messwert des Ultraschall Distanzsensor. Der ausgegebene Messwert entspricht der Distanz in Zentimeter.
+            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.
+        </div>
+    </div>
+</div>
+
+<div class="line"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="../../pictures/blocks/sensors/sensors-7.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>Button</h4>
+            Dieser Block gibt dir den Messwert des Ultraschall Distanzsensor. Der ausgegebene Messwert entspricht der Distanz in Zentimeter.
+            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.
+        </div>
+    </div>
+</div>
+
+<div class="line"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="../../pictures/blocks/sensors/sensors-8.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>Potentiometer</h4>
+            Dieser Block gibt dir den Messwert des Ultraschall Distanzsensor. Der ausgegebene Messwert entspricht der Distanz in Zentimeter.
+            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.
+        </div>
+    </div>
+</div>
+
+<div class="line"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="../../pictures/blocks/sensors/sensors-9.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>GPS Sensor</h4>
