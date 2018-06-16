@@ -12,7 +12,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/led.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/led.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Die LED</h4>
@@ -27,7 +27,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/led.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/led.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen
@@ -46,7 +46,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/create_sd_card.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/create_sd_card.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Speichern auf SD Karte</h4>
@@ -56,7 +56,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/open_sd_card.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/open_sd_card.png" alt="block" align="left">
         </div>
         <div class="col-md">
             Mit diesem Block kann in der Endlosschleifen nur die Datei geöffnet werden um Daten zu schreiben.
@@ -64,7 +64,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/save_sd_card.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/save_sd_card.png" alt="block" align="left">
         </div>
         <div class="col-md">
             Nun kann mit diesem Block ein Messwert oder Text in der, zuvor geöffneten Datei, geschrieben werden. Mithilfe der Checkbox
@@ -79,7 +79,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/wifi_connect.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/wifi_connect.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Wlan Verbindung herstellen</h4>
@@ -94,7 +94,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/connect_osem.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/connect_osem.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
@@ -107,7 +107,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/send_osem.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/send_osem.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>stationäre senseBox</h4>
@@ -119,7 +119,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/send_osem_mobile.png" alt="block" align="left">
+            <img src="../../pictures/blocks/output/send_osem_mobile.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>

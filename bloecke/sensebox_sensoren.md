@@ -13,7 +13,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/temp_humi.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/temp_humi.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Temperatur und Luftfeuchtigkeitssensor</h4>
@@ -32,7 +32,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/uv_light.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/uv_light.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>UV-Licht und Lichtsensor</h4>
@@ -51,7 +51,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/pm25_pm10.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/pm25_pm10.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Feinstaubsensor</h4>
@@ -75,7 +75,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/pressure.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/pressure.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Luftdrucksensor</h4>
@@ -89,7 +89,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/ultrasonic_distance.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/ultrasonic_distance.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Ultraschall Distanzsensor</h4>
@@ -104,7 +104,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/gps.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/gps.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>GPS Sensor</h4>
@@ -126,7 +126,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../../pictures/blocks/gps.png" alt="block" align="left">
+            <img src="../../pictures/blocks/sensors/gps.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>GPS Sensor</h4>
