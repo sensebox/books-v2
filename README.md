@@ -15,8 +15,6 @@ Damit du ohne weiteres starten kannst, lies dir einmal kurz aber gründlich die 
 ## Einleitung
 Das senseBox:edu Buch ist ein Buch für alle Tüftler und Interessierte, die im Besitz einer senseBox:edu sind. Also für alle, die nicht nur einfach eine Umweltmessstation zusammenbauen und aufstellen wollen, sondern die Technik, Hardware und Software dahinter verstehen und beherrschen möchten. Mit der senseBox:edu sind dir keine Limits gesetzt, eigene Anwendungsfälle zu erfinden und dazu passende Programme zu schreiben. Die senseBox:edu wird zusammen mit einem umfassenden Setup an Sensoren, LEDs, Widerständen, Kabeln und weiteren spannenden Komponenten geliefert. Sie kann in der Schule zum Lernen und Verstehen von Informatik, Physik und Technik eingesetzt werden, aber auch zuhause zum Experimentieren benutzt werden.
 
-Dieses Buch hilft dir bei den [Ersten Schritten](erste-schritte/software-installation.md) mit deiner senseBox:edu, erklärt dir Grundlagen, stellt dir Projekte zum selber nachbauen vor und erklärt dir die einzelnen Komponenten der senseBox. Du solltest mit den ersten Schritten starten und diese lesen und befolgen, bevor du dich an die vorgestelleten DIY-Projekte oder eigene Projekte wagst. 
-
 Auf dem Weg durch das Buch wirst Du dich mithilfe der Seitenleiste links oder mit den grünen Pfeiltasten auf den Seiten durch die Anleitungen klicken.
 Jede Seite hat eine Überschrift und darunter eine grau hinterlegte Box mit grüner Schrift, in der eine kleine Beschreibung der Seite verfasst wurde. Das Ganze sieht in etwa so aus:
 

@@ -8,13 +8,24 @@
 
 Damit alles reibungslos läuft, starten wir ganz von vorne und führen dich Schritt für Schritt durch die Installation von Software und Hardware bis zum Bau deiner einsatzbereiten Messstation. Dazu bekommst Du zuerst einmal eine Übersicht wie diese Buch aufgebaut ist.
 
-1. Erste Schritte - Installiere benötigte Programme, teste deine Sensoren und starte durch mit Deiner senseBox
-   1. [Installation von benötigter Software](erste-schritte/software-installation.md)
-   2. [Herunterladen der senseBox-Library](erste-schritte/libraries-hinzufuegen.md)
-   3. [Installieren der Board-Support-Packages](erste-schritte/board-support-packages-installieren.md)
-   4. [Anschließen und Verkabeln von MCU und Sensoren](erste-schritte/anschluss-und-verkabelung.md)
-   5. [Programmierung und erste Tests mit deinen Sensoren](erste-schritte/komponenten-testen.md)
-2. Grundlagen
+1. Übersicht
+   1. [Blockly für senseBox Online](uebersicht/blockly_online.md)
+   2. [Blockly für senseBox Offline](uebersicht/blockly_offline.md)
+      * [Schritt 1: Software installation](uebersicht/software-installation.md)
+      * [Schritt 2: Librarys hinzufügen](uebersicht/libraries-hinzufuegen.md)
+      * [Schritt 3: Board-Support-Packages installieren](uebersicht/board-support-packages-installieren.md)
+2. Blöcke
+  1. [senseBox Sensoren](bloecke/sensebox_sensoren.md)
+  2. [senseBox Display](bloecke/sensebox_display.md)
+  3. [senseBox Ausgabe](bloecke/sensebox_ausgabe.md)
+  4. [Logik](bloecke/logik.md)
+  5. [Schleifen](bloecke/schleifen.md)
+  6. [Mathematik](bloecke/mathematik.md)
+  7. [Text](bloecke/text.md)
+  8. [Variablen](bloecke/variablen.md)
+  9. [Funktionen](bloecke/funktionen.md)
+  10. [Eingang/Ausgang](bloecke/eingang_ausgang.md)
+  11. [Zeit](bloecke/zeit.md)
 3. Projekte
 4. Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an]
   1. [Inhalt](komponenten/README.md)
