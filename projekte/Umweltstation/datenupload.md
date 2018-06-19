@@ -9,9 +9,8 @@ Dazu gibt es die [openSenseMap](https://openSenseMap.org/) (OSeM), welche divers
     <br>
 </div>
 
-
 ## Voraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/libraries-hinzufuegen.md) : Du solltest dir zu diesem Zweck die ersten Schritte angeguckt haben.
+- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md) : Du solltest dir zu diesem Zweck die ersten Schritte angeguckt haben.
 - [**Bees**](../../grundlagen/Bees.md):
     Lese dieses Kapitel um zu erfahren, wie die senseBox MCU mithilfe von Bees eine Netzwerkverbindung herstellen kann, um so Daten auf die openSenseMap zu übertragen.
 

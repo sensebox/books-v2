@@ -1,4 +1,4 @@
-# Schritt 5: Programmierung und Komponententest {#head}
+# Schritt 4: Programmierung und Komponententest {#head}
 <div class="description"> In diesem Kapitel wird beschrieben wie die Programmierung der senseBox funktioniert und wie ihr die mitgelieferten Sensoren und Komponenten testen könnt.</div>
 
 <div class="box_info">
@@ -57,7 +57,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der ni
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Voraussetzung dafür ist die vorherige Installation der Softwarebibliotheken aus Schritt 3.
+    Voraussetzung dafür ist die aktuellste Version des Board-Support-Package aus [Schritt 2](board-support-packages-installieren.md). Am Ende von Schritt 2 ist erklärt, wie ihr das Board-Support-Package auf den neusten Stand bringen könnt.
 </div>
 
 ------

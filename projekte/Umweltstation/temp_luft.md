@@ -9,7 +9,7 @@
 
 
 ## Voraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/libraries-hinzufuegen.md)
+- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md)
 - [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
 - [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
 
@@ -39,8 +39,9 @@ Steckt den Schaltkreis wie ihr ihn unten in der Grafik seht.
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/libraries-hinzufuegen.html">Schritt 3</a> erklärt!
+    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
 </div>
+
 Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino
 HDC1080 hdc;

@@ -1,6 +1,5 @@
-
 # Schritt 1: Software Installation {#head}
- <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst, musst du noch ein paar Dinge beachten. Dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge, es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 6 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
+ <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst, musst du noch ein paar Dinge beachten. Dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge, es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 4 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
 <div class="line">
     <br>
     <br>

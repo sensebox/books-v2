@@ -30,10 +30,12 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
 
 Mit dem mitgelieferten Verbindungskabel kannst du deinen Feinstaub Sensor mit dem "UART/Serial"-Port der senseBoxMCU verbinden. 
 Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und uns die ersten Messwerte ausgeben lassen.
+
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher das du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/libraries-hinzufuegen.html">Schritt 3</a> erklärt!
+    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
 </div>
+
 Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte
 für PM10 und PM2.5 speichern
 

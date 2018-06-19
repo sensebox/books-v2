@@ -10,10 +10,9 @@ Damit alles reibungslos läuft, starten wir ganz von vorne und führen dich Schr
 
 1. Erste Schritte - Installiere benötigte Programme, teste deine Sensoren und starte durch mit Deiner senseBox
    1. [Installation von benötigter Software](erste-schritte/software-installation.md)
-   2. [Herunterladen der senseBox-Library](erste-schritte/libraries-hinzufuegen.md)
-   3. [Installieren der Board-Support-Packages](erste-schritte/board-support-packages-installieren.md)
-   4. [Anschließen und Verkabeln von MCU und Sensoren](erste-schritte/anschluss-und-verkabelung.md)
-   5. [Programmierung und erste Tests mit deinen Sensoren](erste-schritte/komponenten-testen.md)
+   2. [Installieren der Board-Support-Packages und senseBox Libraries](erste-schritte/board-support-packages-installieren.md)
+   3. [Anschließen und Verkabeln von MCU und Sensoren](erste-schritte/anschluss-und-verkabelung.md)
+   4. [Programmierung und erste Tests mit deinen Sensoren](erste-schritte/komponenten-testen.md)
 2. Grundlagen
 3. Projekte
 4. Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an]

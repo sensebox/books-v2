@@ -86,7 +86,7 @@ background-color: #dcf1da!important;
 
 /*Hint Box Styling*/
 .box_info, .box_success, .box_warning, .box_error {
-    margin: 10px 0px;
+    margin: 30px 0px;
     padding:12px;
     font-family: BrixSlab-Regular;
  

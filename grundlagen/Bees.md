@@ -13,7 +13,7 @@ Das WiFi-Bee ist das Verbindungsstück, um die senseBox mit dem Internet zu verb
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher, dass du die Software-Bibliotheken korrekt installiert hast. Wie das geht wurde dir in <a href ="/../../erste-schritte/schritt-3-libraries-hinzufuegen.html">Schritt 3</a> erklärt!
+    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
 </div>
 
 {% collapse title="Deklarierung der Objekte" %}
