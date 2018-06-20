@@ -1,4 +1,4 @@
-#Schritt 8: Zusammenbauen im Gehäuse {#head}
+#Schritt 7: Zusammenbauen im Gehäuse {#head}
 <div class="description">Im folgenden wird der Zusammenbau der senseBox:home im Gehäuse erklärt. </div>
 
 <div class="line">

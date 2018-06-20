@@ -1,4 +1,4 @@
-# Schritt 4: Anschluss und Verkabelung {#head}
+# Schritt 3: Anschluss und Verkabelung {#head}
 
 <div class="description">Durch das I2C Stecksystem ist der Anschluss der Sensoren und Komponenten an die senseBox MCU sehr einfach. Hier siehst du noch einmal eine grobe Übersicht über die einzelnen Komponenten</div>
 

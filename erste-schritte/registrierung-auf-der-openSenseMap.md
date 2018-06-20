@@ -1,4 +1,4 @@
-# Schritt 7: Registrierung auf der openSenseMap {#head}
+# Schritt 6: Registrierung auf der openSenseMap {#head}
 <div class="description">Um die gemessenen Daten auf die openSenseMap zu übertragen musst du dich dort zuerst registrieren und eine neue senseBox anlegen. Wie das geht erfährst du im folgenden Abschnitt</div>
 
 <div class="line">

@@ -1,4 +1,4 @@
-# Schritt 9: Die senseBox aufstellen {#head}
+# Schritt 8: Die senseBox aufstellen {#head}
 <div class="description">Um eine erfolgreiche Datenübertragen, sowie die Vergleichbarkeit der Daten zu maximieren, gibt es einige Tipps was sie beim Aufstellen der senseBox:home beachten sollten.</div>
 
 <div class="line">

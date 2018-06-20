@@ -6,14 +6,13 @@
 
 ## Erste Schritte
 * [Schritt 1: Software Installation](erste-schritte/software-installation.md)
-* [Schritt 2: Librarys hinzufügen](erste-schritte/libraries-hinzufuegen.md)
-* [Schritt 3: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
-* [Schritt 4: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
-* [Schritt 5: Programmierung der Hardware](erste-schritte/komponenten-testen.md)
-* [Schritt 6: Verschlüsselung](erste-schritte/verschluesselung.md)
-* [Schritt 7: Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
-* [Schritt 8: Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
-* [Schritt 9: Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
+* [Schritt 2: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
+* [Schritt 3: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
+* [Schritt 4: Programmierung der Hardware](erste-schritte/komponenten-testen.md)
+* [Schritt 5: Verschlüsselung](erste-schritte/verschluesselung.md)
+* [Schritt 6: Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
+* [Schritt 7: Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
+* [Schritt 8: Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
 
 ## Komponenten
 * [Inhalt](komponenten/README.md)
@@ -39,6 +38,7 @@
 
 ## Hilfe 
 * [FAQ](hilfe.md)
+* [Externe Libraries hinzufügen](add-external-libraries.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
 * [Contributing](templates/README.md)
