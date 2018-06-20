@@ -6,6 +6,14 @@ Hier findest du häufig gestellte Fragen und Antworten. Wenn du Probleme hast sc
     <br>
 </div>
 
+### Fragen zur Programmierung
+{% collapse title="Ich möchte eine externe Library einbinden. Geht das?" %}
+Ja das geht. Die senseBox ist nicht auf die mitgelieferten Sensoren beschränkt. Du kannst sie mit jeglichen Sensoren erweitern. Zur Programmierung werden oft externe Libraries von den Anbietern der Sensoren benötigt. 
+
+Wie du diese manuell in die Arduino IDE einbinden kannst erfährst du auf [dieser Hilfeseite](add-external-libraries.md)!
+{% endcollapse %}
+
+
 ### Fragen zur Datenübertragung
 
 {% collapse title="Ich habe Probleme bei der Übertragung von Daten per Wifi. Was kann ich tun?" %}
