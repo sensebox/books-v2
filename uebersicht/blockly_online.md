@@ -6,7 +6,7 @@
     <br>
 </div>
 
-Du findest Blockly für senseBox online unter <a href="blockly.sensebox.de">https://blockly.senseBox.de</a>. Dort kannst du zwischen den verschiedenen Versionen der senseBox auswählen. 
+Du findest Blockly für senseBox online unter <a href="https://blockly.sensebox.de">https://blockly.senseBox.de</a>. Dort kannst du zwischen den verschiedenen Versionen der senseBox auswählen. 
 
 ## Die Oberfläche
 

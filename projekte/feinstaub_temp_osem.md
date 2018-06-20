@@ -18,13 +18,13 @@
 * Wifi Bee 
 
 ## Grundlagen 
-Feinstaub kann in verschiedenen Partikelgrößen gemessen werden. Standardmäßig werden Partikel mit einer Größe von unter 10µm oder 2.5µm gemessen. Der Messwert, den der Sensor ausgibt
-entspricht dann der Konzentration von µg/m^3. Die Temperatur wird in grad Celsius und die Luftfeuchtigkeit in %RF ausgegeben.
-Der Feinstaubsensor reagiert sehr stark auf erhöhte Luftfeuchtigkeit, daher sollte immer wenn der Feinstaubgehalt bestimmt
-wird auch die Temperatur und Luftfeuchtigkeit gemessen werden um die Messwerte korrekt einordnen zu können. 
+Feinstaub kann in verschiedenen Partikelgrößen gemessen werden. Standardmäßig werden Partikel mit einer Größe von unter 10µm oder 2.5µm gemessen. Der Messwert, den der Sensor ausgibt,
+entspricht dann der Konzentration in µg/m^3. Die Temperatur wird in Grad Celsius und die Luftfeuchtigkeit in %rF ausgegeben.
+Der Feinstaubsensor reagiert sehr stark auf erhöhte Luftfeuchtigkeit, daher sollte immer, wenn der Feinstaubgehalt bestimmt
+wird, auch die Temperatur und die Luftfeuchtigkeit gemessen werden, um die Messwerte korrekt einordnen zu können. 
 ## Aufbau 
 Verbinde im ersten Schritt das Wifi Bee mit dem XBee Steckplatz 1. Anschließend verbindest du mit dem senseBox Kabel das Display und
-den Temperatur- und Luftfeuchtigkeitssensor mit den I2C/Wire Steckplätzen. Der Feinstaubsensor wird mit dem entsprechenden
+den Temperatur- und Luftfeuchtigkeitssensor mit einem der I2C/Wire Steckplätzen. Der Feinstaubsensor wird mit dem entsprechenden
 Kabel an einen UART/Serial Anschluss angeschlossen. 
 
 ## Programmierung 
@@ -42,8 +42,8 @@ Nach dem Aufbau muss die Feinstaubmessstation noch programmiert werden.
             <h4>Das OLED-Display</h4>
             <h6>Anschluss: I2C/Wire</h6>
             Das
-            <a href="../komponenten/zubehoer/led-display.html">OLED-DISPLAY</a> hat eine Auflösung von 128x64 Pixeln und wird über den I2C Anschluss angeschlossen. Um das Display
-            zu verwenden muss es im Setup() initialisiert werden.
+            <a href="../komponenten/zubehoer/led-display.html">OLED-DISPLAY</a> hat eine Auflösung von 128x64 Pixeln und wird über den I2C/Wire Anschluss angeschlossen. Um das Display
+            zu verwenden, muss es im Setup() initialisiert werden.
         </div>
     </div>
 </div>
@@ -64,11 +64,11 @@ Nach dem Aufbau muss die Feinstaubmessstation noch programmiert werden.
         </div>
         <div class="col-md">
             <h4>Anzeigen von Text</h4>
-             Mit diesem Block kannst du dir Text und Messwerte auf dem Display anzeigen lassen. Die Schriftfarbe ist Standardmäßig auf
+             Mit diesem Block kannst du dir Text und Messwerte auf dem Display anzeigen lassen. Die Schriftfarbe ist standardmäßig auf
             Weiß eingestellt, da das Display einen schwarzen Hintergrund hat. Du kannst neben der Schriftfarbe auch die Schriftgröße
-            ändern. In Schriftgröße 1 ist ein Buchstabe oder eine Zahl 8 Pixel groß und du kannst dir insgesamt in 8 Zeilen
+            ändern. In Schriftgröße 1 ist ein Buchstabe oder eine Zahl 8 Pixel hoch und du kannst dir insgesamt in 8 Zeilen
             auf dem Display verschiedene Texte anzeigen lassen. In Schriftgröße 2 sind die Buchstaben oder Zahlen 16 Pixel
-            hoch. Mit den X- und Y-Werten gibst du an wo auf dem Display etwas angezigt wird.
+            hoch. Mit den X- und Y-Werten gibst du an, wo auf dem Display etwas angezeigt wird.
         </div>
     </div>
     <div class="row">
@@ -77,8 +77,8 @@ Nach dem Aufbau muss die Feinstaubmessstation noch programmiert werden.
         </div>
         <div class="col-md">
             <h4>Display löschen</h4>
-           Verwende diesen Block um den Inhalt des Displays zu löschen. Es empfiehlt sich am Anfang oder Ende der Endlosschleife das
-            Display zu löschen um ein korrektes Anzeigen von z.B. Messwerten zu gewährleisten.
+           Verwende diesen Block um den Inhalt des Displays zu löschen. Es empfiehlt sich, am Anfang oder Ende der Endlosschleife das
+            Display zu löschen, um ein korrektes Anzeigen von z.B. Messwerten zu gewährleisten.
         </div>
     </div>
 </div>
@@ -139,8 +139,8 @@ und später wieder aufrufen zu können.
         </div>
         <div class="col-md">
             <h4>Variablen</h4>
-            In dem Menü Variablen findest du alle Blöcke, die du benötigst um mit Variablen zu arbeiten. Verwende für jeden Sensor eine
-            neue Variable. Du kannst in dem Dropdown Menü des Variablen Blocks deine aktuelle Variable umbennen oder eine
+            In dem Menü Variablen findest du alle Blöcke, die du benötigst, um mit Variablen zu arbeiten. Verwende für jeden Sensor eine
+            neue Variable. Du kannst in dem Dropdown Menü des Variablen Blocks deine aktuelle Variable umbenennen oder eine
             neue erstellen. Verbinde den Sensorblock mit der Variable um den Messwert der Variable zuzuordnen.
         </div>
     </div>
@@ -215,7 +215,7 @@ dem Display anzeigen.
                     </div>
                     <div class="col-md">
                         <h6 align="center">Erläuterung</h6>
-                        Im Setup wird das Display initialisiert. In der Endlosschleife werden zuerst alle Messwerte ausgelesen und einer Variable
+                        Im Setup wird das Display initialisiert. In der Endlosschleife werden zunächst alle Messwerte ausgelesen und einer Variable
                         zugewiesen. Anschließend werden die Variablen auf dem Display ausgegeben.
                     </div>
                 </div>
@@ -231,7 +231,7 @@ dem Display anzeigen.
 
 <h5> Schritt 3: Hier wirst du lernen, wie du eine Wlan Verbindung herstellst und die Messwerte an die openSenseMap überträgst.</h5>
 
-Für die Übertragung an die openSenseMap benötigst du neben deinen Zugangsdaten für das Wlan auch eine BoxID und ID (SensorID)
+Für die Übertragung an die openSenseMap benötigst du neben deinen Zugangsdaten für das Wlan auch eine BoxID und Sensor ID's 
 für die einzelnen Messwerte und Sensoren. Registriere eine neue senseBox auf der openSenseMap um die entsprechenden ID's
 zu erhalten.
 
@@ -244,8 +244,8 @@ zu erhalten.
             <h4>Wlan Verbindung herstellen</h4>
             <h6>Anschluss: XBEE1</h6>
             Verwende diesen Block im Setup() um eine Wlan Verbindung herzustellen. Trage den entsprechenden Netzwerknamen (SSID) und
-            das Passwort ein. Eine einfache Möglichkeit die Datenübertragung auch außerhalb von Gebäude herzustellen ist
-            die Nutzung deines Handys und die Funktion eine Wlan Hotspot zu erstellen.
+            das Passwort ein. Eine einfache Möglichkeit, die Datenübertragung auch außerhalb von Gebäude herzustellen ist
+            die Nutzung deines Handys und die Funktion einen Wlan Hotspot zu erstellen.
 
         </div>
     </div>
@@ -260,7 +260,7 @@ zu erhalten.
         </div>
         <div class="col-md">
             <h4>Messintervall</h4>
-            Damit das Übertragen der Messwerte nicht jede Sekunde erfolgt, sondern erst nach einem gewissen Zeitintervall kannst du diesen
+            Damit das Übertragen der Messwerte nicht jede Sekunde erfolgt, sondern erst nach einem gewissen Zeitintervall, kannst du diesen
             Block verwenden. Trage dazu die Zeit in Millisekunden ein.
         </div>
     </div>
@@ -273,10 +273,10 @@ zu erhalten.
         </div>
         <div class="col-md">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
-            Um Messwerte über Internet zu übertragen erstelle zunächst eine neue Messstation auf der
-            <a href="https://opensensemap.org/register">openSenseMap</a> Bei der Registrierung musst du angeben ob es ich um eine stationäre oder mobile Station (benötigt
-            GPS) handelt. Desweiteren wirst du gefragt, welche Sensoren und welche Messwerte du an die Plattform senden möchstest.
-            Du kannst diese Parameter nach immer wieder ändern, falls du möchtest. Wichtig ist, dass du die BoxID kopierst
+            Um Messwerte über das Internet zu übertragen, erstelle zunächst eine neue Messstation auf der
+            <a href="https://opensensemap.org/register">openSenseMap</a> Bei der Registrierung musst du angeben, ob es sich um eine stationäre oder mobile Station (benötigt
+            GPS) handelt. Des Weiteren wirst du gefragt, welche Sensoren und welche Messwerte du an die Plattform senden möchstest.
+            Du kannst diese Parameter immer wieder ändern, falls du möchtest. Wichtig ist, dass du die BoxID kopierst
             und in diesen Block einfügst. Damit werden die Messwerte deiner senseBox zugeordnet.
         </div>
     </div>
@@ -286,9 +286,9 @@ zu erhalten.
         </div>
         <div class="col-md">
             <h4>Messwerte übertragen</h4>
-            Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benögtist du jeweils einen eigenen
+            Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benötigst du jeweils einen eigenen
             Block, denn jeder Sensor/Messwert erhält zusätzlich zur BoxID eine spezifische und einmalige SensorID. Kopiere
-            die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen werden
+            die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge einen Messwert an, der übertragen werden
             soll. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
         </div>
     </div>
@@ -317,7 +317,7 @@ zu erhalten.
                     </div>
                     <div class="col-md">
                         <h6 align="center">Erläuterung</h6>
-                        Nachdem im Setup() eine Wlan verbindung hergestellt wurde wird in der Endlosschleife() das Messintervall eingestellt und die Verbindung zur openSenseMap hergestellt. Anschließend werden die Messwerte einzelnd übertragen. 
+                        Nachdem im Setup() eine Wlan-Verbindung hergestellt wurde, wird in der Endlosschleife() das Messintervall eingestellt und die Verbindung zur openSenseMap hergestellt. Anschließend werden die Messwerte einzelnd übertragen. 
                     </div>
                 </div>
             </div>
