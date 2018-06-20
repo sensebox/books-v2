@@ -3,7 +3,7 @@
 * [Das Blockly für Buch](README.md)
 * [Übersicht](uebersicht.md)
 
-## Übersicht
+## Blockly für senseBox
 * [Blockly für senseBox Online](uebersicht/blockly_online.md)
 * [Blockly für senseBox Offline](uebersicht/blockly_offline.md)
     * [Schritt 1: Software installation](uebersicht/software-installation.md)

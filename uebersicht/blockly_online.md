@@ -1,92 +1,48 @@
 
 # Blockly für senseBox Online {#head}
- <div class="description">Blockly für senseBox ist eine grafische Programmieroberfläche die komplett Online in deinem Browser läuft. Sie ermöglicht dir deine senseBox zu programmieren ohne Software zu installieren </div>
+ <div class="description">Blockly für senseBox ist eine grafische Programmieroberfläche die komplett online in deinem Browser läuft. Sie ermöglicht dir deine senseBox zu programmieren ohne Software zu installieren </div>
 <div class="line">
     <br>
     <br>
 </div>
 
+Du findest Blockly für senseBox online unter <a href="blockly.sensebox.de">https://blockly.senseBox.de</a>. Dort kannst du zwischen den verschiedenen Versionen der senseBox auswählen. 
+
 ## Die Oberfläche
 
+Blockly für senseBox läuft in den gängingen Browsern (Google Chrome, Firefox und Edge) ohne Installation. Die Oberfläche ist sowohl in Deutsch als auch in Englisch verfügbar.
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Wenn du die Sprache änderst wird die Oberfläche neu geladen und deine bisherige Programmierung wird nicht gespeichert. Du solltest dir also zu Begin überlegen ob du in der Englischen oder Deutschen Oberfläche arbeiten willst. Alternativ kannst du die deine Blöcke als XML Datei speichern und nach dem Ändern der Sprache wieder laden. 
+</div>
 
+Die Oberfläche ist grob in drei Bereiche aufgeteilt. Links findest du die Toolbox, die alle Blöcke enthält. In der Mitte ist deine Arbeitsoberfläche und rechts wird dir der generierte Arduino Code angezeigt. 
 
-{% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
+![Die Blockly für senseBox Oberfläche](../pictures/blockly_overview.png)
+
+#### Die Toolbox
+
+Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kannst. Eine genaue Erläuterung zu den einzelnen Kategorien und die Funktionsweise der Blöcke findest du [hier](../bloecke/sensebox_sensoren.md)
+
+#### Buttons
+
+In der Online Oberfläche verbergen sich die wichtigsten Funktionen hinter verschiedenen Buttons. Die beiden Buttons in der Arbeitsoberfläche sind zum kopieren des Codes in die Zwischenablage (Praktisch, wenn du z.B. deinen Code offline in der Arduino IDE kompilieren willst) und der Kompilieren Button, der den Programmcode auf dem Server Online kompiliert und anschließend dir eine fertigen Programmcode als .BIN Datei zum Download anbietet. 
+In der Kopfzeile der Weboberfläche kannst du deinem Programmcode einen Namen geben, die Blöcke als XML-Datei speichern oder wieder laden, den Programmcode als .ino speichern und die komplette Arbeitsfläche mit einem klick löschen. Ganz links findes du das Menü, in dem du Zugriff auf die Einstellungen und die vorgefertigten Beispiele hast.
+
+### Übertragen auf die senseBox MCU
+
+Schließt du deine senseBox MCU an deinen Computer an und führst einen Doppelklick auf den roten Button aus wird diese als Wechseldatendräger erkannt. Mit einem Klick auf Code Kompilieren in der Weboberfläche wird dein Programmcode auf dem Server kompiliert und eine .BIN Datei wird dir zum Download angeboten. Je nachdem welches Betriebssystem du verwendest unterscheidet sich nun der Kopiervorgang. 
+
+{% tabs first="Windows", second="MacOS und Linux" %}
 {% content "first" %}
-### Arduino Software für Windows herunterladen
+#### Kopieren unter Windows 
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
+Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
 
-
-Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
-
-![ ](../pictures/software-install/arduino-windows-view.png)
-
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
-
-![ ](../pictures/software-install/arduino-just-download.png)
-
-Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die zip-Datei. Durch das Starten der Datei `arduino.exe` kann die IDE gestartet werden.  
 
 {% content "second" %}
 
-### Arduino Software für Mac(OSX) herunterladen
-
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
-
-Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
-
-![ ](../pictures/software-install/arduino-mac-view.png)
-
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
-
-![ ](../pictures/software-install/arduino-just-download.png)
-
-In deinem Downloads-Ordner sollte eine Arduino.app Datei erscheinen. Verschiebe diese Datei in deinen "Programme"-Ordner. Durch starten der Datei `Arduino.app` kann die IDE gestartet werden. 
-
-
-{% content "third" %}
-
-### Arduino Software für Linux herunterladen
-
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
-
-Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
-
-![ ](../pictures/software-install/arduino-linux-view.png)
-
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
-
-![ ](../pictures/software-install/arduino-just-download.png)
-### Installation der IDE unter Linux {#installation-der-ide-unter-linux}
-
-Linux-Nutzer können die Linuxvariante herunterladen und entpacken. Das enthaltene `install.sh`-Skript legt automatisch eine Desktopverknüpfung an. Am schnellsten geht dies über den Terminal. Öffne dazu den Terminal in dem du die Tasten `Ctrl + Alt + T` drückst und gib dort die folgenden Befehle ein:
-
-```text
-# sollte die heruntergeladene Datei nicht im Downloads-Ordner abgespeichert sein, ersetze "Downloads" durch den Pfad zum entsprechenden Ordner
-cd Downloads 
-```
-
-```text
-# entpacke die Datei mit folgendem Befehl und installiere Arduino
-tar -xvf arduino-1.8.5-linux64.tar.xz
-cd arduino-1.8.5
-./install.sh
-```
-<div class="box_warning">
-    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Achte darauf, dass der Befehl auf die heruntergeladene Arduinoversion abgestimmt ist! Lädst du z.B. Arduino 1.8.6 muss auch überall wo arduino-1.8.5 steht arduino-1.8.6 stehen. Um zu überprüfen welche Version du heruntergeladen hast, schau dir den Namen der Download-Datei an.
-</div>
-
-Um den Arduino programmieren zu können, sind unter Ubuntu 14 & 16 zusätzliche Rechte notwendig. Diese können für den aktuellen Nutzer mit den folgenden Befehlen eingerichtet werden \(benötigt Admin-Rechte\):
-
-Führe `udevadm monitor --udev` aus und schließe den Arduino per USB an, um die Device-ID zu bestimmen. Der angegebene Bezeichnung am Ende der Ausgabe \(zB. `ttyUSB0`\) ist die Device-ID. Beende `udevadm` per `ctrl+C`, und führe noch die folgenden Befehle aus, wobei die herausgefundene Device-ID eingesetzt werden muss:
-
-```text
-sudo usermod -a -G dialout $(whoami)
-sudo chmod a+rw /dev/<device-id>
-```
-
-Nach einem Logout und erneutem Login sollte der Arduino aus der Arduino IDE programmierbar sein!
+#### Kopieren unter MacOS und Linux
 
 {% endtabs %}
 

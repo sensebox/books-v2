@@ -31,7 +31,7 @@ Kabel an einen UART/Serial Anschluss angeschlossen.
 
 Nach dem Aufbau muss die Feinstaubmessstation noch programmiert werden.
 
-<h6>Schritt 1: Hier wirst du lernen, wie das Display angeschlossen und angesteuert wird.</h6>
+<h5>Schritt 1: Hier wirst du lernen, wie das Display angeschlossen und angesteuert wird.</h5>
 
 <div class="container">
     <div class="row">
@@ -48,11 +48,6 @@ Nach dem Aufbau muss die Feinstaubmessstation noch programmiert werden.
     </div>
 </div>
 
-<div class="line"></div>
-<br> Nachdem das Display initialisiert wurde kannst du eine erste Ausgabe testen. Verwende dazu folgende Blöcke um einen einfachen
-Textstring ausgeben zu lassen.
-<br>
-
 <div class="container">
     <div class="row">
         <div class="col-md">
@@ -65,32 +60,32 @@ Textstring ausgeben zu lassen.
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/display/display-2.png" alt="block" align="left">
-        </div>
-        <div class="col-md">
-            <h4>Display löschen</h4>
-            Verwende diesen Block um den Inhalt des Displays zu löschen. Es empfiehlt sich am Anfang oder Ende der Endlosschleife das
-            Display zu löschen um ein korrektes Anzeigen von z.B. Messwerten zu gewährleisten.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md">
             <img src="../pictures/blocks/display/display-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Anzeigen von Text</h4>
-            Mit diesem Block kannst du dir Text und Messwerte auf dem Display anzeigen lassen. Die Schriftfarbe ist Standardmäßig auf
+             Mit diesem Block kannst du dir Text und Messwerte auf dem Display anzeigen lassen. Die Schriftfarbe ist Standardmäßig auf
             Weiß eingestellt, da das Display einen schwarzen Hintergrund hat. Du kannst neben der Schriftfarbe auch die Schriftgröße
             ändern. In Schriftgröße 1 ist ein Buchstabe oder eine Zahl 8 Pixel groß und du kannst dir insgesamt in 8 Zeilen
             auf dem Display verschiedene Texte anzeigen lassen. In Schriftgröße 2 sind die Buchstaben oder Zahlen 16 Pixel
             hoch. Mit den X- und Y-Werten gibst du an wo auf dem Display etwas angezigt wird.
         </div>
     </div>
+    <div class="row">
+        <div class="col-md">
+            <img src="../pictures/blocks/display/display-2.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>Display löschen</h4>
+           Verwende diesen Block um den Inhalt des Displays zu löschen. Es empfiehlt sich am Anfang oder Ende der Endlosschleife das
+            Display zu löschen um ein korrektes Anzeigen von z.B. Messwerten zu gewährleisten.
+        </div>
+    </div>
 </div>
 
 <div class="line"></div>
 
-#### Aufgabe Schritt 1:
+##### Aufgabe Schritt 1:
 
 Lasse dir einen Text auf dem Display anzeigen.
 
@@ -131,7 +126,7 @@ Lasse dir einen Text auf dem Display anzeigen.
 
 <div class="line"></div>
 
-<h6>Schritt 2: Hier wirst du lernen, wie die Sensoren ausgelesen werden können.</h6>
+<h5>Schritt 2: Hier wirst du lernen, wie die Sensoren ausgelesen werden können.</h5>
 
 Die Blöcke für das Auslesen der Sensoren findest du unter senseBox Sensoren. Die Sensoren haben verschiedene Ausgabewerte,
 die du jeweils in dem Dropdown Menü auswählen kannst. Verwende für jeden Messwert eine eigene Variable um diesen zu speichern
@@ -195,6 +190,7 @@ und später wieder aufrufen zu können.
 <div class="line"></div>
 
 ##### Aufgabe Schritt 2
+
 Lese alle Messwerte der Sensoren aus und speichere diese als Variable. Lasse dir anschließend alle Messwerte auf
 dem Display anzeigen.
 <button type="button" class="btn-modal" data-toggle="modal" data-target="#Modal-Lösung">
@@ -233,8 +229,7 @@ dem Display anzeigen.
 
 <div class="line"></div>
 
-<h6> Im letzten Schritt stellen wir die Verbindung mit einen Wlan Netzwerk her. Und übertagen die Messwerte ins Internet an die
-    openSenseMap</h6>
+<h5> Schritt 3: Hier wirst du lernen, wie du eine Wlan Verbindung herstellst und die Messwerte an die openSenseMap überträgst.</h5>
 
 Für die Übertragung an die openSenseMap benötigst du neben deinen Zugangsdaten für das Wlan auch eine BoxID und ID (SensorID)
 für die einzelnen Messwerte und Sensoren. Registriere eine neue senseBox auf der openSenseMap um die entsprechenden ID's
@@ -335,7 +330,7 @@ zu erhalten.
 
  <div class="line"></div>
 
- #### Aufgabe
+ ##### Aufgabe
  Kombiniere die Schritte 1 bis 3 und erstelle einen Programmcode, der folgende Funktion hat:
  - Auslesen der Sensoren und speichern als Variablen
  - Anzeige der Messwerte auf dem Display
