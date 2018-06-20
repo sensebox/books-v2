@@ -24,7 +24,9 @@
 * [Zeit](bloecke/zeit.md)
 
 ## Projekte
+* [Feinstaub Messstation](projekte/feinstaub_temp_osem.md)
 * [Verkehrszähler](projekte/verkehrszaehlerv2.md)
+
 
 ## Komponenten
 * [Inhalt](komponenten/README.md)
@@ -49,6 +51,7 @@
         * [GPS](komponenten/zubehoer/gps.md)
 
 ## Hilfe
+* [Lösungen](hilfe/loesungen.md)
 * [FAQ](hilfe/hilfe.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
