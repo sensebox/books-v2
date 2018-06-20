@@ -57,7 +57,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der ni
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Voraussetzung dafür ist die aktuellste Version des Board-Support-Package aus [Schritt 2](board-support-packages-installieren.md). Am Ende von Schritt 2 ist erklärt, wie ihr das Board-Support-Package auf den neusten Stand bringen könnt.
+    Voraussetzung dafür ist die aktuellste Version des Board-Support-Package aus <a href="board-support-packages-installieren.md">Schritt 2</a>. Am Ende von Schritt 2 ist erklärt, wie ihr das Board-Support-Package auf den neusten Stand bringen könnt.
 </div>
 
 ------

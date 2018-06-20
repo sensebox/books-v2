@@ -1,6 +1,6 @@
 # Schritt 2: Board-Support-Package installieren {#head}
 
-<div class="description">Damit die Arduino IDE deine <a href="../komponenten/sensebox-mcu.html">senseBox MCU</a> unterstützt und Du Programme auf diese übertragen kannst, musst Du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die nötigen Treiber und die notwendige Software, um mit deinem Prozessor zu kommunizieren. Das Board-Support-Package der senseBox enthält außerdem bereits unsere senseBox-Libraries. Damit stehen euch alle grundlegenden Methoden zur Programmierung der beiligenden Sensoren zur Verfügung.</div>
+<div class="description">Damit die Arduino IDE deine <a href="../komponenten/sensebox-mcu.html">senseBox MCU</a> unterstützt und Du Programme auf diese übertragen kannst, musst Du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die nötigen Treiber und die notwendige Software, um mit deinem Prozessor zu kommunizieren. Das Board-Support-Package der senseBox enthält außerdem bereits unsere senseBox-Libraries. Damit stehen euch alle grundlegenden Methoden zur Programmierung der beiligenden Sensoren zu Verfügung.</div>
 <div class="line">
     <br>
     <br>
@@ -57,7 +57,7 @@ Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+  Wichtig ist, auf zuerst den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
 </div>
 
 
