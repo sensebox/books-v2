@@ -41,8 +41,8 @@
             Dieser Block gibt dir den Messwert des
             <a href="../komponenten/sensoren/belichtung-und-uv.html">UV-Licht und Lichtsensor</a>. Im Dropdown Menü kannst du den jeweiligen Messwert auswählen. Dropdown:
             <ul>
-                <li> Temperatur </li>
-                <li> Luftfeuchtigkeit </li>
+                <li> UV-Licht </li>
+                <li> Helligkeit </li>
             </ul>
         </div>
     </div>
@@ -61,8 +61,8 @@
             Dieser Block gibt dir den Messwert des
             <a href="../komponenten/sensoren/feinstaub.html">Feinstaubsensor</a> . Im Dropdown Menü kannst du den jeweiligen Messwert auswählen. Dropdown (Messwert):
             <ul>
-                <li> Temperatur </li>
-                <li> Luftfeuchtigkeit </li>
+                <li> PM10 </li>
+                <li> PM2.5 </li>
             </ul>
             Dropdown:
             <ul>
