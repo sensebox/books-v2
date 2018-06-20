@@ -17,8 +17,8 @@
 - Gehäuse mit Deckel
 - mini-USB Kabel + Adapter
 - senseBox MCU 
-- Sensor für Luftfeuchte und Temperatur + Tüte mit Zubehör
-- Schutzgehäuse für Sensor mit Luftfeuchte und Temperatur
+- Sensor für Luftfeuchte und Temperatur 
+- Schutzgehäuse für Sensor mit Luftfeuchte und Temperatur + Zubehör
 - Plexiglas mit Plastikstiften 
 - M20 Gewinde 
 - Tüte mit 8 Schrauben
@@ -32,8 +32,9 @@
 
 *senseBox MCU im Gehäuse anbringen:* 
 
-Dazu richtest du die MCU so aus, dass der micro USB-Anschluss und der rote Knope zum Loch im Gehäuse zeigen.
-Danach schraubst du die MCU mit zwei kleinen Schrauben am Gehäuse fest. Nutze dazu die beiden mittleren Löcher im MCU.
+Dazu richtest du die MCU so aus, dass der micro USB-Anschluss und der rote Knopf zum Loch im Gehäuse zeigen.
+Danach schraubst du die MCU mit zwei kleinen Schrauben am Gehäuse fest. Nutze dazu die beiden mittleren Löcher an der Längsseite 
+des MCUs.
 
 
 
@@ -41,24 +42,21 @@ Danach schraubst du die MCU mit zwei kleinen Schrauben am Gehäuse fest. Nutze d
 
 
 
-
-
-
 ## 2. Schritt
 
-*Anschließen vom Bee und Temperatur und Luftfeuchtigkeitssensor:*
+*Anschließen vom Bee und Temperatur- und Luftfeuchtigkeitssensor:*
 
-Unanhängig davon, welches Bee du benutzt, musst du im nächsten Schritt dein Bee auf dem dafür vorgesehenen XBEE1 Steckplatz anbringen. 
+Unanhängig davon, welches Bee du benutzt, musst du im nächsten Schritt dein Bee auf dem dafür vorgesehenen *XBEE1* Steckplatz anbringen. 
 
 ![MCU im Gehäuse mit WiFi Bee](../pictures/xbee.jpeg)
 
 ## 3. Schritt
 
-* Anschluss des Sensors und des mini-USB Kabels:*
+*Anschluss des Sensors und des mini-USB Kabels:*
 
 Hierzu verschraubst du erst einmal das M20 Gewinde in dem Loch in der Seite des Gehäuses. 
 Schraube anschließend die Kappe ab und stecke das Kabel (ohne Sensor) und das mini-USB Kabel durch die Öffnung vom Gewinde.
-Jetzt kannst du die Kappe wieder auf das Gewinde drehen und den Sensor am Kabel Anschließen. 
+Jetzt kannst du die Kappe wieder auf das Gewinde drehen und den Sensor mit dem Kabel verbinden. 
 Der Stecker des Sensors im Gehäuse kann auf einem der 5 *12C/Wire* Steckplätze angebracht werden.
 **Das mini-USB Kabel solltest du erst am MCU anschließen, sobald alles aufgebaut ist.**
 
@@ -69,26 +67,22 @@ Der Stecker des Sensors im Gehäuse kann auf einem der 5 *12C/Wire* Steckplätze
 
 *Sensor im Schutzgehäuse anbringen*
 
-Das Schutzgehäuse ist dazu da, damit der Temperatur und Luftfeuchtigkeitssensor der Sonne nicht direkt ausgesetzt ist.
+Das Schutzgehäuse sorgt dafür, dass der Temperatur- und Luftfeuchtigkeitssensor der Sonne nicht direkt ausgesetzt ist.
 Um den Sensor im Gehäuse zu installieren, muss zunächst das Loch auf der Unterseite des Gehäuses erweitert werden, da dieser ansonsten nicht dort durch passt.
 
-Jetzt kannst du den Sensor mit 2 Plastikstiften (siehe Foto) oder Spaghettibändern an dem kleinen Gerüst anbringen.
+Jetzt kannst du den Sensor mit 2 Plastikstiften (siehe Foto) oder Kabelbindern an dem kleinen Gerüst anbringen.
 Mit dem Zubehör kannst du das Gehäuse nun da befestigen, wo du möchtest. 
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Achte drauf, dass der Sensor dabei nach oben zeigt! 
+    Achte darauf, dass der Sensor dabei nach oben zeigt! 
 </div>
 
 ![Temperatur und Luftfeuchtigskeitssensor im Schutzgehäuse](../pictures/tempGeh.jpeg)
 
 
-
-# Zusätzliche Komponenten 
-
-
-
-hier kommt noch ein bild von den anderen sensoren hin!!!!
+# Zusätzliche Komponenten  (optional)
+ 
 
 ## 5. Schritt
 
@@ -131,9 +125,7 @@ Platziere jetzt jeweils 2 Plastikstifte für einen Sensor und den kleinen Löche
 
 
 
-
-a
-Beim Anschluss vom Feinstaubsensor musst folgendermaßen vorgehen. 
+Beim Anschluss vom Feinstaubsensor musst folgendermaßen vorgehen:
 Löse zunächst die Kappe und dann die Gummidichtung im Gewinde. 
 Jetzt kannst du das Kabel vom Sensor nacheinander durch die gerade gelösten Komponenten stecken. 
 Stecke das Kabel jetzt durch das Loch im Gehäuse und verbinde es mit dem Sensor.
@@ -142,7 +134,7 @@ Stecke das Kabel jetzt durch das Loch im Gehäuse und verbinde es mit dem Sensor
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-An dieser Stelle solltest du das Gewinde noch nicht fest drehen. 
+An dieser Stelle solltest du das Gewinde noch nicht fest drehen!
 </div>
 
 
@@ -150,14 +142,14 @@ An dieser Stelle solltest du das Gewinde noch nicht fest drehen.
 
 
 
-Stecke jetzt erst einmal die Kunststoffröhre auf den Eingang vom Feinstaubsensor und dann durch das andere Loch im Gehäuse. 
+Stecke jetzt die Kunststoffröhre auf den Eingang vom Feinstaubsensor und dann durch das andere Loch im Gehäuse. 
 Nun kannst du die Gewinde auf beiden Seiten des Gehäuses fest drehen und den Deckel auf dem Gehäuse befestigen. 
 
 ![Fertiger Anschluss Feinstaubsensor](../pictures/feinstaub.jpeg)
 
 
 
-## Fertiger Aufbau der senseBox:home Version
+## Fertiger Aufbau der senseBox:home mit Temperatur-, Luftfeuchtigkeit, Feinstaub-, UV- und Luftdrucksensor
 
 
 
