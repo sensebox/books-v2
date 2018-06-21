@@ -12,7 +12,7 @@
     <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
     <b>Achtung, hier hat sich etwas geändert!</b> <br>
     Um euch die ersten Schritte mit der senseBox zu erleichtern haben wir die senseBox Libraries mit in das Board-Support-Package integriert. Somit fällt der ehemals 2. Schritt, das Hinzufügen der Libraries, weg.<br>
-    Solltet ihr die alte Anleitung verwendet haben, schaut bitte <a href="">hier</a> oder in unserem FAQ nach, was ihr jetzt tun solltet. <br>
+    Solltet ihr die alte Anleitung (vor dem 23. Juni 2018) verwendet haben, schaut bitte <a href="">hier</a> nach, wie ihr euer Board-Support-Package akutalisieren könnt. <br>
     Wenn ihr zum ersten mal die ersten Schritte durchführt, könnt ihr einfach weiter der Anleitung folgen :)
 </div> 
 
