@@ -21,8 +21,10 @@ Damit alles reibungslos läuft, starten wir ganz von vorne und führen dich Schr
     2. [Bees](komponenten/bees/README.md)
     3. [Sensoren](komponenten/sensoren/README.md)
     4. [ Weiteres Zubehör](komponenten/zubehoer/README.md)
-5. Hilfe
-  1. [FAQ](hilfe/hilfe.md)
-  2. [Firmware Update Wifi-Bee](additional-info.md)
-  3. [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
-  4. [Contributing](templates/README.md)
+3. Hilfe - Häufig gestellte Fragen, Antworten und Hilfe bei Problemen
+   1. [FAQ](hilfe.md)
+   2. [Externe Libraries hinzufügen](add-external-libraries.md)
+   3. [Firmware Update Wifi-Bee](additional-info.md)
+   4. [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
+   5. [Aktualisierung des Board-Support-Package & senseBox-Libraries](aktualisierung_bsp_libraries.md)
+   6. [Contributing](templates/README.md)
