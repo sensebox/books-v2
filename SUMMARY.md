@@ -41,6 +41,7 @@
 * [Externe Libraries hinzufügen](add-external-libraries.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
+* [Aktualisierung des Board-Support-Package & senseBox-Libraries](aktualisierung_bsp_libraries.md)
 * [Contributing](templates/README.md)
     * [Hint-Box](templates/hint-template.md)
     * [Bildunterschriften](templates/bildunterschriften.md)
