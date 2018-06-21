@@ -1,6 +1,6 @@
 # Schritt 2: Board-Support-Package installieren {#head}
 
-<div class="description">Damit die Arduino IDE deine <a href="../komponenten/sensebox-mcu.html">senseBox MCU</a> unterstützt und Du Programme auf diese übertragen kannst, musst Du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die nötigen Treiber und die notwendige Software, um mit deinem Prozessor zu kommunizieren. Das Board-Support-Package der senseBox enthält außerdem bereits unsere senseBox-Libraries. Damit stehen euch alle grundlegenden Methoden zur Programmierung der beiligenden Sensoren zu Verfügung.</div>
+<div class="description">Damit die Arduino IDE deine <a href="../komponenten/sensebox-mcu.html">senseBox MCU</a> unterstützt und Du Programme auf diese übertragen kannst, musst Du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die nötigen Treiber und die notwendige Software, um mit deinem Prozessor zu kommunizieren. Das Board-Support-Package der senseBox enthält außerdem bereits unsere senseBox-Libraries. Damit stehen euch alle grundlegenden Methoden, zur Programmierung der beiligenden Sensoren, zu Verfügung.</div>
 <div class="line">
     <br>
     <br>
@@ -11,12 +11,12 @@
 <div class="box_error">
     <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
     <b>Achtung, hier hat sich etwas geändert!</b> <br>
-    Um euch die ersten Schritte mit der senseBox zu erleichtern haben wir die senseBox Libraries mit in das Board-Support-Package integriert. Somit fällt der ehemals 2. Schritt, das Hinzufügen der Libraries, weg.<br>
-    Solltet ihr die alte Anleitung (vor dem 23. Juni 2018) verwendet haben, schaut bitte <a href="../hilfe/aktualisierung_bsp_libraries.md">hier</a> nach, wie ihr euer Board-Support-Package akutalisieren könnt. <br>
+    Um euch die ersten Schritte mit der senseBox zu erleichtern, haben wir die senseBox-Libraries mit in das Board-Support-Package integriert. Somit fällt der ehemals 2. Schritt, das Hinzufügen der Libraries, weg.<br>
+    Solltet ihr die alte Anleitung (vor dem 23. Juni 2018) verwendet haben, schaut bitte <a href="../hilfe/aktualisierung_bsp_libraries.md">hier</a> nach, wie ihr euer Board-Support-Package aktualisieren könnt. <br>
     Wenn ihr zum ersten mal die ersten Schritte durchführt, könnt ihr einfach weiter der Anleitung folgen :)
 </div> 
 
-Für die Programmierung der senseBox sollten zu Beginn unbedingt die senseBox-Libraries eingebunden werden. Diese Libraries haben wir für euch in das Board-Support-Package der senseBox integriert, um euch die Installation möglichst einfach zu machen. 
+Für die Programmierung der senseBox sollten zu Beginn unbedingt die senseBox-Libraries eingebunden werden. Diese Libraries haben wir für euch in das Board-Support-Package der senseBox integriert, um euch die Installation möglichst einfach zu gestalten. 
 
 {% collapse title="'Library' - Was ist das eigentlich und wofür brauche ich das?" %}
 
@@ -51,13 +51,13 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
   Gib "SAMD" oben in die Suchleiste ein um die Packages schneller zu finden
 </div>
 
-Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter und sucht nach **senseBox SAMD Boards**. Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort, im Falle einer neuen Version, ein Update-Button. Klicke diesen um die neuste Version zu installieren. 
+Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür, wie oben beschrieben, den Boardverwalter und sucht nach **senseBox SAMD Boards**. Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort, im Falle einer neuen Version, ein Update-Button. Klickt diesen, um die neuste Version zu installieren. 
 
 ![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/update-b-s-p.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, auf zuerst den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
 </div>
 
 
