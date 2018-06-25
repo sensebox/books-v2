@@ -45,15 +45,13 @@ gitbook epub      # build the ebook
 
 ## Repository structure
 
-Each (multilingual) book resides on its own branch.
-Currently these are `edu` and `home`.
+Each book resides on its own branch.
+Currently these are `edu`,`home` and `osem`.
 
 Files that are parsed specially by GitBook have a filename in caps:
 
 - `README.md`: the landingpage of a book, eg an introduction
 - `SUMMARY.md`: the table of contents, rendered as the left navbar
-missing up to now:
-- `GLOSSARY.md`: a glossary, whose terms are referenced on all other book pages
 - `FOOTER.md`: the page footer on any page
 
 Stylesheets applied on all books are in `./styles`, and are symlinked into each book (unix only).
@@ -62,4 +60,4 @@ Stylesheets applied on all books are in `./styles`, and are symlinked into each 
 - Content: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - Code: Apache
 
-See [LICENSE](https://github.com/sensebox/books/blob/master/LICENSE) file.
+See [LICENSE](https://github.com/sensebox/books-v2/raw/master/LICENSE) file.
