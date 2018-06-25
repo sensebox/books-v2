@@ -29,6 +29,6 @@
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)
     + [Micro-SD Karte](zubehoer/micro-sd-karte.md)
-    + [GPS](komponenten/zubehoer/gps.md)
+    + [GPS](zubehoer/gps.md)
 
 Natürlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tüftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit können wir dir leider nur Anleitungen für die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort kriegst du nicht nur Hilfe von uns sondern auch von Tüftlern aus der ganzen Welt. 

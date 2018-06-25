@@ -26,7 +26,7 @@ c.	Sonstige Beschreibungen
 *	Es ist zudem besser die senseBox etwas entfernt von der Hauswand anzubringen (z.B. an einem Balkongeländer), um Verfälschung durch Abwärme zu vermeiden.  
 Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. unter folgendem Link: https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf 
 
-4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: www.books.sensebox.de
+4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: [www.books.sensebox.de](https://www.books.sensebox.de)
 
 
 ## Wartung
@@ -34,4 +34,4 @@ Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. un
 1.	Es sollte unbedingt vermieden werden, dass sich Kondenswasser in der senseBox sammelt. Deshalb wird mindestens einmal im Monat ein visueller Check der senseBox empfohlen. Gegebenenfalls sollte das Silica Gel erneuert werden. 
 2.	Die senseBox sollte regelmäßig von anfallendem Schmutz befreit werden.
 
-Weitere Tipps finden Sie auf [www.sensebox.de](www.sensebox.de) und in unserem Forum [www.forum.sensebox.de](www.forum.sensebox.de).  
+Weitere Tipps finden Sie auf [www.sensebox.de](https://www.sensebox.de) und in unserem Forum [www.forum.sensebox.de](https://www.forum.sensebox.de).  
