@@ -32,9 +32,69 @@ Ist die Library eingebunden, können alle in ihr enthaltenen Methoden im Code be
 
 {% endcollapse %}
 
-
 ## Board-Support-Package einbinden 
+Wähle dein Betriebssystem, um die passende Anleitung zu sehen:
 
+{% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
+{% content "first" %}
+### Anleitung für Windows
+Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+```
+https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
+```
+
+![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/Ardu1.png)
+
+Öffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und installiere dort die zwei Board-Support-Packages mit den Namen **Arduino SAMD Boards by Arduino** und **senseBox SAMD Boards by senseBox**.
+
+![Öffne den Bordverwalter und installiere die beiden Packages](../pictures/ardu/Ardu2.png)
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Gib "SAMD" oben in die Suchleiste ein um die Packages schneller zu finden
+</div>
+
+Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür, wie oben beschrieben, den Boardverwalter und sucht nach **senseBox SAMD Boards**. Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort, im Falle einer neuen Version, ein Update-Button. Klickt diesen, um die neuste Version zu installieren. 
+
+![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/update-b-s-p.png)
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+</div> 
+
+{% content "second" %}
+### Anleitung für Mac
+Füge die folgende URL in deiner Arduino IDE unter *`Arduino -> Einstellungen...`* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+```
+https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
+```
+
+![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/ardu_mac.png)
+
+Öffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und installiere dort die zwei Board-Support-Packages mit den Namen **Arduino SAMD Boards by Arduino** und **senseBox SAMD Boards by senseBox**.
+
+![Öffne den Bordverwalter ](../pictures/ardu/ardu3_mac.png)
+
+![Installiere die beiden markierten Packages](../pictures/ardu/ardu2_mac.png)
+
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Gib "SAMD" oben in die Suchleiste ein um die Packages schneller zu finden
+</div>
+
+Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür, wie oben beschrieben, den Boardverwalter und sucht nach **senseBox SAMD Boards**. Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort, im Falle einer neuen Version, ein Update-Button. Klickt diesen, um die neuste Version zu installieren. 
+
+![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/ardu_update_mac.png)
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+</div>
+
+{% content "third" %}
+### Anleitung für Linux
 Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
 ```
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
@@ -59,6 +119,8 @@ Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
   Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
 </div>
+
+{% endtabs %}
 
 
 
