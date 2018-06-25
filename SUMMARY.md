@@ -56,8 +56,9 @@
         * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
 
-## Hilfe
+## Hilfe & Weiteres
 * [FAQ](hilfe/hilfe.md)
+* [Downloads](downloads.md)
 * [Externe Libraries hinzufügen](hilfe/add-external-libraries.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
