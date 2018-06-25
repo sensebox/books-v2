@@ -14,16 +14,16 @@
 
 ## Aufstellungsort:
 
-1.	Grundsätzlich gibt es keinen richtigen, oder falschen Aufstellungsort. Wir ermutigen dazu die senseBox dort aufzubauen, wo man sich selbst für die Messungen interessiert. 
+1.	Grundsätzlich gibt es keinen richtigen oder falschen Aufstellungsort. Wir ermutigen dazu, die senseBox dort aufzubauen, wo man sich selbst für die Messungen interessiert. 
 
 2.	Die senseBox Community freut sich aber, wenn die senseBoxen eine gute Dokumentation auf der openSenseMap haben. Dazu gehören:
 a.	Ein Bild der Station
 b.	Beschaffung des Anbringungsorts, wie Höhe, Überdachung, Orientierung.
 c.	Sonstige Beschreibungen
 
-3.	Aus wissenschaftlicher Sicht gibt es natürlich eine weitgehende Untersuchung zu optimalen Messwerterfassung. Viele verschiedenen Faktoren beeinflussen die Messqualität. Wir verweisen auf folgende Punkte:
+3.	Aus wissenschaftlicher Sicht gibt es natürlich eine weitgehende Untersuchung zur optimalen Messwerterfassung. Viele verschiedene Faktoren beeinflussen die Messqualität. Wir verweisen auf folgende Punkte:
 *	Natürlich verändern verschiedene Positionierungen die Messwerte. Stellt man die senseBox direkt in die Sonne, können z.B. die Temperatur-Werte bei Einstrahlung sehr hoch sein.
-*	Es ist zudem besser die senseBox etwas entfernt von der Hauswand anzubringen (z.B. an einem Balkongeländer) um Verfälschung durch Abwärme zu vermeiden.  
+*	Es ist zudem besser die senseBox etwas entfernt von der Hauswand anzubringen (z.B. an einem Balkongeländer), um Verfälschung durch Abwärme zu vermeiden.  
 Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. unter folgendem Link: https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf 
 
 4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: www.books.sensebox.de
