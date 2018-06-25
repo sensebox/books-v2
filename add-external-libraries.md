@@ -38,7 +38,7 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
 
 1. Die meisten externen Libraries findest du in Github-Repositories. Um sie herunterzuladen, musst du den grünen Button `Clone or download` und daraufhin im sich öffnenden Fenster `Download ZIP` klicken. 
 
-  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](../pictures/libraries/github_download.png)
+  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](pictures/libraries/github_download.png)
 
 2. Sollte der Download nicht von alleine starten, öffnet sich ein Fenster, in dem du das Feld ``Datei speichern`` auswählen musst und den Ordner an einen beliebigen Ort auf deinem Computer legst (standardmäßig ist das der Downloads-Ordner).
 
@@ -46,11 +46,11 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
 
 4. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](../pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Klicke `Datei` und dann `Voreinstellungen`](pictures/libraries/voreinstellungen_2.PNG?raw=true)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen.PNG)
+ ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](pictures/libraries/voreinstellungen.PNG)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 
@@ -77,17 +77,17 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
 
 1. Die meisten externen Libraries findest du in Github-Repositories. Um sie herunterzuladen, musst du den grünen Button `Clone or download` und daraufhin im sich öffnenden Fenster `Download ZIP` klicken. 
 
-  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](../pictures/libraries/github_download.png)
+  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](pictures/libraries/github_download.png)
 
 2. Der Download sollte von alleine starten und die Datei automatisch entpackt und in deinem "Downloads"-Ordner abgelegt werden. Öffne den Downloads-Ordner und schaue ob der heruntergeladene Ordner dort vorhanden ist. *Sollte dort anstelle eines Ordners nur eine **.zip**-Datei liegen, doppel-klicke diese, um sie zu entpacken.*
 
 3. Öffne nun die Arduino IDE. Gehe oben auf `Arduino` -> `Einstellungen ...`:
 
- ![Klicke `Arduino` und dann `Einstellungen ...`](../pictures/libraries/voreinstellungen_2_mac.png)
+ ![Klicke `Arduino` und dann `Einstellungen ...`](pictures/libraries/voreinstellungen_2_mac.png)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen_mac.png)
+ ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](pictures/libraries/voreinstellungen_mac.png)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 
@@ -114,17 +114,17 @@ Wähle das zu deinem Computer passende System und folge den angegebenen Schritte
 
 1.  Die meisten externen Libraries findest du in Github-Repositories. Um sie herunterzuladen, musst du den grünen Button `Clone or download` und daraufhin im sich öffnenden Fenster `Download ZIP` klicken. 
 
-  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](../pictures/libraries/github_download.png)
+  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](pictures/libraries/github_download.png)
 
 2. Der Download startet von alleine und legt ein `.zip`-Archiv in deinem Downloads-Ordner ab. Öffne den Downloads-Ordner und entpacke die `.zip` Datei mit Rechts-Klick -> `Extrahiere Hier`(*`Extract Here`*).
 
 3. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](../pictures/libraries/voreinstellungen_2_linux.png)
+ ![Klicke `Datei` und dann `Voreinstellungen`](pictures/libraries/voreinstellungen_2_linux.png)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen_linux.png)
+ ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](pictures/libraries/voreinstellungen_linux.png)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 

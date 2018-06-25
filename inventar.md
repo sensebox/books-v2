@@ -41,7 +41,7 @@ Mit Hilfe dieser Sensoren lassen sich Umweltphänomene messen. Du kannst also en
 ### Weiteres Zubehör
 Hier findest du alles weitere verfügbare an Zubehör für die senseBox. Um mehr über die einzelnen Komponenten zu erfahren, klicke einfach auf die Namen.
 
-+ [GPS-Modul](komponenten/sensoren/gps.md)
++ [GPS-Modul](komponenten/zubehoer/gps.md)
 + [LED-Display](komponenten/zubehoer/led-display.md)
 + [HUB](komponenten/zubehoer/hub.md)
 + [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
