@@ -37,7 +37,7 @@
         * [GPS](komponenten/zubehoer/gps.md)
 
 ## Hilfe & Weiteres
-* [FAQ](hilfe/hilfe.md)
+* [FAQ](hilfe.md)
 * [Downloads](downloads.md)
 * [Externe Libraries hinzufügen](add-external-libraries.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
