@@ -175,9 +175,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="row">
+                                <div class="row well">
                                    In diesem Beispiel wird der analoge Geräuschsensor ausgelesen. Zuerst werden die gemessenen analogen Werte (Wertebereich von 0 bis 1023) direkt angezeigt.
-                                    <div class="col-xs-9">
+                                   <div class="col-xs-9">
                                         <h6 align="center">Blöcke ohne Verteilung</h6>
                                         <img src="../pictures/blocks/maths/sound-example.png" alt="block" align="left">
                                     </div>
@@ -186,7 +186,7 @@
                                         <img src="../pictures/blocks/maths/sound-exampe-orig.png" alt="block" align="left">
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row well">
                                     Hier werden die gemessenen Werte zusätzlich durch den Verteile-Wert-Block in einen neuen Wertebereich von 0 bis 10 übertragen.
                                     <div class="col-xs-9">
                                         <h6 align="center">Blöcke mit Verteilung</h6>
