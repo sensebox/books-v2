@@ -57,6 +57,7 @@ TSL45315 lux_sensor;
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 
 ```arduino
+#include "SenseBoxMCU.h"
 lux_sensor.begin();
 ```
 
