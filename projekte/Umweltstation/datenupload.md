@@ -27,6 +27,7 @@ Wie dort bereits beschrieben müssen wir erstmal die Instanzen für die openSens
 
 {% collapse title="Deklarierung der Objekte" %}
 ```arduino
+#include "SenseBoxMCU.h"
 Bee* b = new Bee(); // Instanz der Bee
 OpenSenseMap osem("senseBox ID",b); // Instanz der openSenseMap
 HDC1080 hdc; // Instanz des Temperatur - & Luftfeuchte Sensor 
