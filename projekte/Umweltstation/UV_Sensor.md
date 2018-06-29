@@ -44,6 +44,7 @@ Schließe den Sensor an die senseBoxMCU an, wie es in der Grafik dargestellt ist
 </div>
 Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino
+#include "SenseBoxMCU.h"
 VEML6070 vml;
 ```
 {% collapse title="setup() Funktion" %}
