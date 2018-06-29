@@ -51,7 +51,9 @@ HDC1080 hdc;
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 
 ```arduino
-hdc.begin();
+void setup(){
+    hdc.begin();
+}
 ```
 
 {% endcollapse %}
@@ -59,8 +61,10 @@ hdc.begin();
 {% collapse title="loop() Funktion" %}
 Nachdem du den Sensor, wie oben beschrieben, initialisiert hast, kannst du zwei Befehle in der `loop()`-Funktion nutzen, um einen Temperatur- bzw. Feuchtigkeitswert ausgeben zu lassen:
 ```arduino
-hdc.getHumidity();
-hdc.getTemperature();
+void loop(){
+    hdc.getHumidity();
+    hdc.getTemperature();
+}
 ```
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>

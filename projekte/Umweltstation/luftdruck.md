@@ -52,7 +52,9 @@ BMP280 bmp_sensor;
 In der `setup()`-Funktion muss der Sensor initialisiert werden. Verwende dazu die folgenden Zeilen:
 
 ```arduino
+void setup(){
     bmp_sensor.begin();
+}
 ```
 {% endcollapse %}
 
@@ -61,9 +63,11 @@ Nun muss der Sensor in der `loop()`-Funktion ausgelesen werden.
 In den Variablen `temp` und `pressure` stehen dann jeweils die aktuellen Messwerte.
 
 ```arduino
-double temp, pressure;
- pressure = bmp_sensor.getPressure();
- temp = bmp_sensor.getTemperature();
+void loop(){
+    double temp, pressure;
+    pressure = bmp_sensor.getPressure();
+    temp = bmp_sensor.getTemperature();
+}
 ```
 {% endcollapse %}
 

@@ -58,7 +58,9 @@ TSL45315 lux_sensor;
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 
 ```arduino
-lux_sensor.begin();
+void setup(){
+    lux_sensor.begin();
+}
 ```
 
 {% endcollapse %}
@@ -67,7 +69,9 @@ lux_sensor.begin();
 In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktuelle gemessene Lichtintensität abrufen:
 
 ```arduino
-lux_sensor.getIlluminance();
+void loop(){
+    lux_sensor.getIlluminance();
+}
 ```
 {% endcollapse %}
 

@@ -51,7 +51,9 @@ VEML6070 vml;
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 
 ```arduino
-vml.begin();
+void setup(){
+    vml.begin();
+}
 ```
 {% endcollapse %}
 
@@ -59,7 +61,9 @@ vml.begin();
 In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktuelle gemessene Lichtintensität abrufen:
 
 ```arduino
-  vml.getUvIntensitiy
+void loop(){
+  vml.getUvIntensity();
+}
 ```
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
