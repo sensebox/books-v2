@@ -44,6 +44,7 @@ Steckt den Schaltkreis wie ihr ihn unten in der Grafik seht.
 
 Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino
+#include "SenseBoxMCU.h"
 HDC1080 hdc;
 ```
 {% collapse title="setup() Funktion" %}
