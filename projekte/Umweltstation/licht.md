@@ -50,6 +50,7 @@ Der Sensor wird über das I²C Protokoll angesprochen. Wir sprechen ihn direkt m
 </div>
 Als erstes muss eine Instanz des Sensors angelegt werden.
 ```arduino
+#include "SenseBoxMCU.h"
 TSL45315 lux_sensor;
 ```
 
@@ -57,7 +58,6 @@ TSL45315 lux_sensor;
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 
 ```arduino
-#include "SenseBoxMCU.h"
 lux_sensor.begin();
 ```
 
@@ -67,7 +67,6 @@ lux_sensor.begin();
 In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktuelle gemessene Lichtintensität abrufen:
 
 ```arduino
-#include <SenseBoxMCU.h>
 lux_sensor.getIlluminance();
 ```
 {% endcollapse %}
