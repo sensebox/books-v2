@@ -67,6 +67,7 @@ lux_sensor.begin();
 In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktuelle gemessene Lichtintensität abrufen:
 
 ```arduino
+#include <SenseBoxMCU.h>
 lux_sensor.getIlluminance();
 ```
 {% endcollapse %}
