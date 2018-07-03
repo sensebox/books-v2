@@ -142,7 +142,7 @@
             <h4>Wlan Verbindung herstellen</h4>
             <h6>Anschluss: XBEE1</h6>
             Verwende diesen Block im Setup() um eine Wlan Verbindung herzustellen. Trage den entsprechenden Netzwerknamen (SSID) und
-            das Psswort ein.
+            das Passwort ein.
         </div>
     </div>
 </div>
@@ -197,8 +197,8 @@
         </div>
         <div class="col-md">
             <h4>Messintervall</h4>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            Damit das Übertragen der Messwerte nicht jede Sekunde erfolgt, sondern erst nach einem gewissen Zeitintervall, kannst du diesen
+            Block verwenden. Ziehe dazu alle Aktionen, die erste nach einer gewissen Zeit erfolgen sollen in die Schleife und trage die Zeit in Millisekunden ein. 
         </div>
     </div>
 </div>

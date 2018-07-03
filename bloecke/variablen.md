@@ -33,7 +33,7 @@
         </div>
         <div class="col-md">
             <h4>Variablen schreiben</h4>
-           Mit diesem Block kannst du einer Variable einen Wert oder einen Text zuweisen. Es ist zum Beispiel auch direkt möglich das Auslesen eines Sensors mit dem Block zu verbinden.
+           Mit diesem Block kannst du einer Variable einen Wert oder einen Text zuweisen. Es ist zum Beispiel auch direkt möglich das Auslesen eines Sensors mit dem Block zu verbinden. Der Block erkennt den Datentyp des Rückgabewerts automatisch und legt eine entsprechende Variable an.
         </div>
     </div>
 </div>
@@ -50,12 +50,11 @@
             <h4>Variablen schreiben mit bestimmten Datentyp</h4>
             In der Regel wird der Datentyp einer Variable automatisch erkannt. Du hast aber auch die Möglichkeit der Variable einen spezifischen Datentyp zuzuweisen. In dem Dropdown Menü findest du folgende Datentypen:
             <ul>
-                <li>Zeichen: </li>
-                <li>Text: </li>
-                <li>Boolean: </li>
-                <li>kurze Zahl: </li>
-                <li>Zahl: </li>
-                <li>große Zahl: </li>
-                <li>Dezimalzahl: </li>
+                <li>Zeichen <i>(Char)</i>: Hiermit können einzelne Zeichen gespeichert werden</li>
+                <li>Text <i>(String)</i>: Speichert einzelne Texte</li>
+                <li>Boolean <i>(boolean)</i>: Kann den Wert TRUE/WAHR oder FALSE/FALSCH annehmen</li>
+                <li>Zahl <i>(int)</i>: ganze Zahlen (-32.768 bis 32.767) </li>
+                <li>große Zahl <i>(long)</i>: -2,147,483,648 bis 2,147,483,647 </li>
+                <li>Dezimalzahl <i>(float)</i>: Dezimalzahlen zwischen -3.4028235E+38 und +3.4028235E+38 </li>
         </div>
    
