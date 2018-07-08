@@ -19,3 +19,37 @@
 # Hinweise
 
 Achtung: Das SD-Bee wird ohne SD-Karte geliefert, falls ihr im senseBox-Shop bestellt.
+
+# Beispiel 
+Im folgenden Beispiel zeigen wir euch wie ihr eure Daten auf einer SD-Karte speichern könnt. 
+{% collapse title="Deklarierung der Objekte und setup()" %}
+```arduino
+// Einladen der Bibliotheken
+#include <SPI.h>
+#include <SD.h>
+#include "SenseBoxMCU.h"
+
+HDC1080 hdc;
+
+void setup(){
+    
+    // Starten der SD-Bee
+    SD.begin(28);
+    // Öffnen der Datei auf der SD-Karte
+    dataFileSenseBox = SD.open("SenseBox.txt", FILE_WRITE);
+    dataFileSenseBox.close();
+
+    hdc.begin();
+    };
+```
+{% endcollapse %}
+
+In der `loop()`-Funktion speichern wir nun unsere Messwerte in der eben erstellten Datei.
+
+{% collapse title="loop()" %}
+```arduino
+void loop(){
+    dataFileSenseBox.println(hdc.getTemperature());
+    };
+```
+{% endcollapse %}
