@@ -1,5 +1,5 @@
 # LoRa-Bee {#head}
-<div class="description">Verwendet die LoRa-Schnittstelle um Daten ins Internet zu übertragen. Neu ist das LoRa WAN-XBee-Modul, mit dem eine stromsparende und kostenlose Möglichkeit der Datenübertragung ins Internet über den LoRa-Funk-Standard ermöglicht wird. Dafür werden bestehende LoRa-Netzwerke, wie zum Beispiel das TheThingsNetwork Daten zu übertragen. Die hierzu benötigte Infrastruktur wird bei TheThingsNetwork von der Community bereit gestellt, und ist in immer mehr Regionen verfügbar.</div>
+<div class="description">Verwendet die LoRa-Schnittstelle um Daten ins Internet zu übertragen. Neu ist das LoRa WAN-XBee-Modul, mit dem eine stromsparende und kostenlose Möglichkeit der Datenübertragung ins Internet über den LoRa-Funk-Standard ermöglicht wird. Dafür werden bestehende LoRa-Netzwerke, wie zum Beispeil TheThingsNetwork genutzt um Daten zu übertragen. Die hierzu benötigte Infrastruktur wird bei TheThingsNetwork von der Community bereit gestellt, und ist in immer mehr Regionen verfügbar.</div>
 
 <div class="line">
     <br>
@@ -38,12 +38,11 @@ Infrastruktur für das IP-Netzwerk implementiert, wodurch registrierte Geräte
 mit dem Internet verbunden werden können.
 
 Nutzer können *Gateways* sowie *Nodes* zu dem Netzwerk hinzufügen.
-Mit dem LoRa Sender auf dem [Dragino Shield](http://wiki.dragino.com/index.php?title=Lora_Shield)
-haben wir bisher gute Erfahrungen gemacht.
+
 
 ## TTN openSenseMap Integration
 Die openSenseMap bietet eine direkte Integration in das TTN Netzwerk, was die
-Konfiguration stark vereinfacht.
+Konfiguration stark vereinfacht. Hierfür musst du einen Account [TheThingsNetwork](https://thethingsnetwork.org) erstellen.
 
 ### Registrierung in TTN Console
 
@@ -70,62 +69,22 @@ welches bestimmt wie die - wegen der geringen Bandbreite als rohe Bytes
 Optional kann im Feld `port` noch der Port angegeben werden, auf welchem
 der Sender seine Daten an das TTN schickt. So lassen sich die selbe `app_id`
 und `dev_id` für mehrere Sensorstationen verwenden.
-
-### Decoding Profile
-Für eine Box muss passend zu den übertragenen Messdaten ein Decoding-Profil
-ausgewählt oder definiert werden.
-Die Auswahl des Decoding-Profils ist von dem Encoding der Nachrichten auf dem
-Mikrocontroller, und ob im TTN eine Payload-Function eingestellt wurde abhängig.
-
-- Für die senseBox:home (ohne Erweiterungen) kann das `senseBox:home` Profil
-verwendet werden.
-- Werden die Messungen auf der LoRa-Node mit der `lora-serialization`-Library
-encodiert, sollte das `lora-serialization` Profil verwendet werden.
-- Mit dem `json` Profil werden beliebige andere Encodings unterstuetzt, falls eine
-Payload-Function in der TTN Console die Nachrichten passend decodiert.
-
-Im Folgenden wird erklärt wie die unterstützten Profile konfiguriert werden:
-
-#### `sensebox/home`
-Dieses Profil ist zugeschnitten auf die mit der senseBox:home gelieferten Sensoren.
-Neben der Angabe `sensebox/home` unter `profile` ist keine weitere Konfiguration
-notwendig. Folgender Sketch kann nun auf die senseBoxMCU hochgeladen werden.
+### Arduino Sketch 
+So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk an die openSenseMap senden kannst.
 
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo <b>'INSERT YOUR ID HERE'</b> steht. Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> als <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
+    <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
 </div>
-<img src="https://raw.githubusercontent.com/sensebox/resources/145f1bb49ae027730afdc2960b79de9be828dc2c/images/lora_ids_lsb.png"  alt="Ausgewählte ID's und Keys" center width="767"/>
+
+![Ausgewählte ID's und Keys](../../pictures/LoRa_TTN_EUI.png)
 
 {% collapse title="Arduino Sketch für senseBoxMCU" %}
+
 ```arduino
 /*******************************************************************************
- * Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
- *
- * Permission is hereby granted, free of charge, to anyone
- * obtaining a copy of this document and accompanying files,
- * to do whatever they want with them without any restriction,
- * including, but not limited to, copying, modification and redistribution.
- * NO WARRANTY OF ANY KIND IS PROVIDED.
- *
- * This example sends a valid LoRaWAN packet with payload "Hello,
- * world!", using frequency and encryption settings matching those of
- * the The Things Network.
- *
- * This uses OTAA (Over-the-air activation), where where a DevEUI and
- * application key is configured, which are used in an over-the-air
- * activation procedure where a DevAddr and session keys are
- * assigned/generated for use with all further communication.
- *
- * Note: LoRaWAN per sub-band duty-cycle limitation is enforced (1% in
- * g1, 0.1% in g2), but not the TTN fair usage policy (which is probably
- * violated by this sketch when left running for longer)!
- * To use this sketch, first register your application and device with
- * the things network, to set or generate an AppEUI, DevEUI and AppKey.
- * Multiple devices can use the same AppEUI, but each device has its own
- * DevEUI and AppKey.
- *
- * Do not forget to define the radio type correctly in config.h.
+ * Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman.
+ * Edited by: senseBox
  *
  *******************************************************************************/
 #include <LoraMessage.h>
@@ -445,12 +404,36 @@ void loop() {
 ```
 {% endcollapse %}
 
+### Decoding Profile
+Für eine Box muss passend zu den übertragenen Messdaten ein Decoding-Profil
+ausgewählt oder definiert werden.
+Die Auswahl des Decoding-Profils ist von dem Encoding der Nachrichten auf dem
+Mikrocontroller, und ob im TTN eine Payload-Function eingestellt wurde abhängig.
+
+- Für die senseBox:home (ohne Erweiterungen) kann das `senseBox:home` Profil
+verwendet werden.
+- Werden die Messungen auf der LoRa-Node mit der `lora-serialization`-Library
+encodiert, sollte das `lora-serialization` Profil verwendet werden.
+- Mit dem `json` Profil werden beliebige andere Encodings unterstuetzt, falls eine
+Payload-Function in der TTN Console die Nachrichten passend decodiert.
+
+Im Folgenden wird erklärt wie die unterstützten Profile konfiguriert werden:
+
+#### `sensebox/home`
+Dieses Profil ist zugeschnitten auf die mit der senseBox:home gelieferten Sensoren.
+Neben der Angabe `sensebox/home` unter `profile` ist keine weitere Konfiguration
+notwendig.
+<br><b>Dies funktioniert nur ohne die Feinstaub(PM2.5 und PM10) Sensoren</b>
+
+
+
 Zusätzlich zu dem Arduino Sketch musst du auf der TTN-Homepage einen Decoder einrichten, sodass deine Messwerte im richtigen Format an die openSenseMap gesendet werden.
 ![Im Overview Fenster zu "Payload Formats" navigieren](../../pictures/decoder_1st.png)
 
 ![In der Textbox muss der Decoder nun eingefügt werden](../../pictures/decoder_code.png)
 
-{% collapse title="Decoder für das TTN" %}
+<h1 id="decoder"></h1>
+{% collapse  title="Decoder für das TTN" %}
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
     <b>Wichtig:</b> Hier musst du deine <b>sensor ID's</b> nachtragen.
@@ -460,51 +443,11 @@ Zusätzlich zu dem Arduino Sketch musst du auf der TTN-Homepage einen Decoder ei
 function Decoder(bytes, port) {
   // bytes is of type Buffer.
   'use strict';
-  var TEMPSENSOR_ID,
-    HUMISENSOR_ID,
-    PRESSURESENSOR_ID,
-    LUXSENSOR_ID,
-    UVSENSOR_ID;
-
-  switch (port) {
-    case 1:
-      TEMPSENSOR_ID = 'YOUR SENSORID HERE';
-      HUMISENSOR_ID = 'YOUR SENSORID HERE';
-      PRESSURESENSOR_ID = 'YOUR SENSORID HERE';
-      LUXSENSOR_ID = 'YOUR SENSORID HERE';
-      UVSENSOR_ID = 'YOUR SENSORID HERE';
-      break;
-    case 2:
-      TEMPSENSOR_ID = 'YOUR SENSORID HERE';
-      HUMISENSOR_ID = 'YOUR SENSORID HERE';
-      PRESSURESENSOR_ID = 'YOUR SENSORID HERE';
-      LUXSENSOR_ID = 'YOUR SENSORID HERE';
-      UVSENSOR_ID = 'YOUR SENSORID HERE';
-      break;
-    case 3:
-      TEMPSENSOR_ID = 'YOUR SENSORID HERE';
-      HUMISENSOR_ID = 'YOUR SENSORID HERE';
-      PRESSURESENSOR_ID = 'YOUR SENSORID HERE';
-      LUXSENSOR_ID = 'YOUR SENSORID HERE';
-      UVSENSOR_ID = 'YOUR SENSORID HERE';
-      break;
-    case 4:
-      TEMPSENSOR_ID = 'YOUR SENSORID HERE';
-      HUMISENSOR_ID = 'YOUR SENSORID HERE';
-      PRESSURESENSOR_ID = 'YOUR SENSORID HERE';
-      LUXSENSOR_ID = 'YOUR SENSORID HERE';
-      UVSENSOR_ID = 'YOUR SENSORID HERE';
-      break;
-    case 5:
-      TEMPSENSOR_ID = 'YOUR SENSORID HERE';
-      HUMISENSOR_ID = 'YOUR SENSORID HERE';
-      PRESSURESENSOR_ID = 'YOUR SENSORID HERE';
-      LUXSENSOR_ID = 'YOUR SENSORID HERE';
-      UVSENSOR_ID = 'YOUR SENSORID HERE';
-      break;
-    default:
-      throw new Error('No configured sensor IDs for uplink on port: ' + port);
-  }
+  var TEMPSENSOR_ID = 'YOUR TEMPERATURE SENSOR ID HERE',
+    HUMISENSOR_ID = 'YOUR HUMIDITY SENSOR ID HERE',
+    PRESSURESENSOR_ID = 'YOUR PRESSURE SENSOR ID HERE ',
+    LUXSENSOR_ID = 'YOUR LUXSENSOR ID HERE ',
+    UVSENSOR_ID = 'YOUR UV SENSOR ID HERE';
 
   var bytesToInt = function (bytes) {
     var i = 0;
@@ -674,5 +617,7 @@ Ein einfaches Beispiel:
 ```json
 { "sensor_id1": "value1, "sensor_id2: "value2" }
 ```
+
+Ein Beispiel dafür wurde dir [oben](#decoder) gezeigt.
 
 Auf Seiten der openSenseMap ist keine Konfiguration notwendig.
