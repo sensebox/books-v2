@@ -18,7 +18,7 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
 * Mehrfach wissenschaftliche Prüfung der Datengenauigkeit
 
 ## Zum Aufbau benötigte Bauteile 
-![Benötigte (mitgelieferte) Bauteile](../../pictures/feinstaub_top_accessoire.png)
+<img src="../../pictures/feinstaub_top_accessoire.png" alt="Benötigte (mitgelieferte) Bauteile" width="500px"/>
 
    * SDS011 Feinstaub Sensor
    * Verbindungskabel
