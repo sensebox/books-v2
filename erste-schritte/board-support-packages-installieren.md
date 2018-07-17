@@ -8,14 +8,6 @@
 
 ## Libraries
 
-<div class="box_error">
-  <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
-  <b>Achtung, hier hat sich etwas geändert!</b> <br>
-  Um euch die ersten Schritte mit der senseBox zu erleichtern, haben wir die senseBox-Libraries mit in das Board-Support-Package integriert. Somit fällt der ehemals 2. Schritt, das Hinzufügen der Libraries, weg.<br>
-  Solltet ihr die alte Anleitung (vor dem 23. Juni 2018) verwendet haben, schaut bitte <a href="../aktualisierung_bsp_libraries.md">hier</a> nach, wie ihr euer Board-Support-Package aktualisieren könnt. <br>
-  Wenn ihr zum ersten Mal die ersten Schritte durchführt, könnt ihr einfach weiter der Anleitung folgen :)
-</div> 
-
 Für die Programmierung der senseBox sollten zu Beginn unbedingt die senseBox-Libraries eingebunden werden. Diese Libraries haben wir für euch in das Board-Support-Package der senseBox integriert, um euch die Installation möglichst einfach zu gestalten. 
 
 {% collapse title="'Library' - Was ist das eigentlich und wofür brauche ich das?" %}
