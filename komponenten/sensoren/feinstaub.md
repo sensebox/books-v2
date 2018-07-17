@@ -53,7 +53,7 @@ void setup(){
     while(!Serial);
     // Seriellen Port an dem unsere Sensor angeschlossen ist initialisieren
     Serial1.begin(9600);
-    delay(5000)
+    delay(5000);
 
 }
 ```
