@@ -1,6 +1,6 @@
 # senseBox Display {#head}
 
-<div class="description"> Diese Seite gibt dir eine Übersicht über die verschiedenen Möglichkeiten des Displays der senseBox</div>
+<div class="description"> This Site give you an overview about the different possibilities with the senseBox Display.</div>
 <div class="line">
     <br>
     <br>
@@ -14,11 +14,10 @@
             <img src="../pictures/blocks/display/display-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Das OLED-Display</h4>
-            <h6>Anschluss: I2C/Wire</h6>
-            Das
-            <a href="../komponenten/zubehoer/led-display.html">OLED-DISPLAY</a> hat eine Auflösung von 128x64 Pixeln und wird über den I2C Anschluss angeschlossen. Um das Display
-            zu verwenden muss es im Setup() initialisiert werden.
+            <h4>The OLED-Display</h4>
+            <h6>Connection: I2C/Wire</h6>
+            The
+            <a href="../komponenten/zubehoer/led-display.html">OLED-DISPLAY</a> has a Resolution of 128 by 64 and will be connected via the I2C/Wire connectors. The Display need to be initialise first in the setup().
         </div>
     </div>
     <div class="row">
@@ -26,11 +25,8 @@
             <img src="../pictures/blocks/display/display-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Anzeige auf dem Display</h4>
-            Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benögtist du jeweils einen eigenen
-            Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
-            Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
-            werden soll. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            <h4>Show on  display</h4>
+            Use this Block to show content on the display. In this loop you can either use the Block to plot a diagram or the Block to print text or values.
         </div>
     </div>
     <div class="row">
@@ -38,9 +34,8 @@
             <img src="../pictures/blocks/display/display-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Display löschen</h4>
-            Verwende diesen Block um den Inhalt des Displays zu löschen. Es empfiehlt sich am Anfang oder Ende der Endlosschleife das
-            Display zu löschen um ein korrektes Anzeigen von z.B. Messwerten zu gewährleisten.
+            <h4>Clear Display</h4>
+            Use this Block to clear to complete display content. Verwende diesen Block um den Inhalt des Displays zu löschen. It is recommended to clear the display at the bevor or after the "Show on Display" loop to ensure measured values being displayed correctly.
         </div>
     </div>
     <div class="row">
@@ -48,15 +43,11 @@
             <img src="../pictures/blocks/display/display-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Anzeigen von Text</h4>
-            Mit diesem Block kannst du dir Text und Messwerte auf dem Display anzeigen lassen. Die Schriftfarbe ist Standardmäßig auf
-            Weiß eingestellt, da das Display einen schwarzen Hintergrund hat. Du kannst neben der Schriftfarbe auch die Schriftgröße
-            ändern. In Schriftgröße 1 ist ein Buchstabe oder eine Zahl 8 Pixel groß und du kannst dir insgesamt in 8 Zeilen
-            auf dem Display verschiedene Texte anzeigen lassen. In Schriftgröße 2 sind die Buchstaben oder Zahlen 16 Pixel
-            hoch. Mit den X- und Y-Werten gibst du an wo auf dem Display etwas angezigt wird.
+            <h4>Print Text</h4>
+            With this block you can display text and measured values on the display. The font color is set to "white" by default as the display has a black background. You can also change the font size in addition to the font color. In font size 1 a letter or number is 8 pixel tall and you can display 8 lines in total on the display. In font size 2 the letters and numbers are 16 pixels tall. With the X and Y values you can indicante where on the display something it is displayed.
 
             <button type="button" class="btn-modal" data-toggle="modal" data-target="#Modal-Display-Example">
-                Display Beispiele
+                Display Examples
             </button>
 
             <!-- Modal begin -->
@@ -65,7 +56,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="ModalLabelDisplayExample">Display Beispiele</h5>
+                            <h5 class="modal-title" id="ModalLabelDisplayExample">Display Examples</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -83,7 +74,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -100,6 +91,7 @@
             <img src="../pictures/blocks/display/display-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Anzeigen von Diagrammen</h4>
-            Mit diesem Block können automatisch Diagramme auf dem Display erstellt werden.
+            <h4>Plot Diagrams</h4>
+            With this block you can create diagrams out of measured values on the display.
         </div>
+    </div>

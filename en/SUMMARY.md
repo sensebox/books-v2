@@ -4,25 +4,25 @@
 * [Übersicht](uebersicht.md)
 
 ## Blockly für senseBox
-* [Blockly für senseBox Online](uebersicht/blockly_online.md)
-* [Blockly für senseBox Offline](uebersicht/blockly_offline.md)
-    * [Schritt 1: Software installation](uebersicht/software-installation.md)
-    * [Schritt 2: Librarys hinzufügen](uebersicht/libraries-hinzufuegen.md)
-    * [Schritt 3: Board-Support-Packages installieren](uebersicht/board-support-packages-installieren.md)
+* [Blockly für senseBox Online](overview/blockly_online.md)
+* [Blockly für senseBox Offline](overview/blockly_offline.md)
+    * [Schritt 1: Software installation](overview/software-installation.md)
+    * [Schritt 2: Librarys hinzufügen](overview/libraries-hinzufuegen.md)
+    * [Schritt 3: Board-Support-Packages installieren](overview/board-support-packages-installieren.md)
 
 ## Blöcke
-* [Übersicht über die Blöcke](bloecke/README.md)
-    * [senseBox Sensoren](bloecke/sensebox_sensoren.md)
-    * [senseBox Display](bloecke/sensebox_display.md)
-    * [senseBox Ausgabe](bloecke/sensebox_ausgabe.md)
-    * [Logik](bloecke/logik.md)
-    * [Schleifen](bloecke/schleifen.md)
-    * [Mathematik](bloecke/mathematik.md)
-    * [Text](bloecke/text.md)
-    * [Variablen](bloecke/variablen.md)
-    * [Funktionen](bloecke/funktionen.md)
-    * [Eingang/Ausgang](bloecke/eingang_ausgang.md)
-    * [Zeit](bloecke/zeit.md)
+* [block overview](blocks/README.md)
+    * [senseBox sensors](blocks/sensebox_sensors.md)
+    * [senseBox display](blocks/sensebox_display.md)
+    * [senseBox Ausgabe](blocks/sensebox_output.md)
+    * [Logic](blocks/logic.md)
+    * [loops](blocks/loops.md)
+    * [maths](blocks/maths.md)
+    * [text](blocks/text.md)
+    * [variables](blocks/variables.md)
+    * [functions](blocks/functions.md)
+    * [input/output](blocks/io.md)
+    * [time](blocks/time.md)
 
 ## Projekte
 * [Feinstaub Messstation](projekte/feinstaub_temp_osem.md)
@@ -46,8 +46,8 @@
         * [GPS](komponenten/zubehoer/gps.md)
 
 ## Hilfe
-* [Lösungen](hilfe/loesungen.md)
-* [FAQ](hilfe/hilfe.md)
+* [Lösungen](help/loesungen.md)
+* [FAQ](help/hilfe.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
 * [Contributing](templates/README.md)
