@@ -12,6 +12,6 @@
 
 Dieses Buch ist auch als PDF zum ausdrucken verfügbar!
 
-PDF-Download: [senseBox:edu-Dokumentation](https://github.com/sensebox/resources/raw/master/senseBox-edu.pdf)
+PDF-Download: [senseBox:edu-Dokumentation](https://github.com/sensebox/books-v2/raw/gh-pages/senseBox:edu.pdf)
 
 *Weitere nützliche Downloads folgen in Kürze ;)*
