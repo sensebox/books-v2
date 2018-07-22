@@ -1,4 +1,4 @@
-# senseBox Ausgabe {#head}
+# senseBox output {#head}
 
 <div class="description">Diese Seite gibt dir eine Übersicht über die verschiedenen Ausgabemöglichkeiten der senseBox
 </div>
@@ -166,7 +166,7 @@
         <div class="col-md">
             <h4>mobile senseBox</h4>
             Use this Block if you registered a mobile senseBox. For each measurement you need a seperate Block with a specific Sensor ID. Copy the Sensor ID from the registration form and append a value. You also have to append the location to this Block, use the 
-            <a href="../bloecke/sensebox_sensoren.html">GPS Sensor</a>to gain latitude and longitude values. Attach this Block within the Block which setups a connection to the openSenseMap.
+            <a href="../blocks/sensebox_sensoren.html">GPS Sensor</a>to gain latitude and longitude values. Attach this Block within the Block which setups a connection to the openSenseMap.
         </div>
     </div>
 </div>
