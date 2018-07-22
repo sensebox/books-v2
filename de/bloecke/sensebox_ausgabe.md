@@ -58,8 +58,7 @@
         <div class="col-md">
             <h4>Der Piezo</h4>
             <h6>Anschluss: Digital</h6>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            Der Piezo gibt einen Ton aus, wenn er mit Strom versorgt wird. Schließe den Piezo über einen der digitalen Anschlüsse an und verwenden diesen Block um den Anschluss mit Strom zu versorgen.
         </div>
     </div>
 </div>
@@ -74,8 +73,7 @@
         <div class="col-md">
             <h4>Die RGB-LED</h4>
             <h6>Anschluss: Digital</h6>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            Die RGB-LED kann verschiedenen Farben anzeigen. Die Farbe setzt sich immer aus den Farbwerten Rot, Grün, Blau zusammen. So lassen sich alle möglichen Farben erstellen. 
         </div>
     </div>
 </div>
@@ -125,8 +123,7 @@
         </div>
         <div class="col-md">
             <h4>Auf Kommandozeile Ausgeben</h4>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            Mit der Kommandozeile kannst du dir Messwerte und Text ohne ein zusätzliches Display ausgeben lassen. Mit der Checkbox wird nach jeder Zeile ein Zeilenumbruch eingefügt. Wichtig: Um dir die Kommandozeile aufzurufen muss die Arduino IDE auf deinem Computer installiert sein!
         </div>
     </div>
 </div>

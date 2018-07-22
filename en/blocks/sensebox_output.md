@@ -15,14 +15,13 @@
             <img src="../pictures/blocks/output/output-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Die LED</h4>
-            <h6>Anschluss: Digital</h6>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            <h4>The LED</h4>
+            <h6>Connection: Digital</h6>
+            The simplest output is a LED. Choose the right PIN and the LED status in the dropdown.
             <br>
             <!-- Button trigger modal -->
             <button type="button" class="btn-modal" data-toggle="modal" data-target="#exampleModal">
-                Schaltung
+                Circuit
             </button>
 
             <!-- Modal -->
@@ -30,7 +29,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Schaltung</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Circuit</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -39,7 +38,7 @@
                             <img src="../pictures/projekte/Ampel_Button_v2_Steckplatine.png" alt="block" align="left">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -56,10 +55,8 @@
             <img src="../pictures/blocks/output/output-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Piezo</h4>
-            <h6>Anschluss: Digital</h6>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            <h4>The Piezo</h4>
+            <h6>Connection: Digital</h6>
         </div>
     </div>
 </div>
@@ -72,10 +69,8 @@
             <img src="../pictures/blocks/output/output-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Die RGB-LED</h4>
-            <h6>Anschluss: Digital</h6>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            <h4>The RGB-LED</h4>
+            <h6>Connection: Digital</h6>
         </div>
     </div>
 </div>
@@ -90,10 +85,9 @@
             <img src="../pictures/blocks/output/output-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Speichern auf SD Karte</h4>
-            <h6>Anschluss: XBEE2</h6>
-            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup die Datei erstellt
-            und mit einem Dateinamen versehen werden.
+            <h4>Save on SD Karte</h4>
+            <h6>Connection: XBEE2</h6>
+            Saving data to the SD-Card different Blocks were needed. The first step is to create a file with a filename in the Setup()
         </div>
     </div>
     <div class="row">
@@ -101,7 +95,7 @@
             <img src="../pictures/blocks/output/output-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            Mit diesem Block kann in der Endlosschleifen nur die Datei geöffnet werden um Daten zu schreiben.
+            This Block allows to open the file in den loop() to write data.
         </div>
     </div>
     <div class="row">
@@ -109,9 +103,7 @@
             <img src="../pictures/blocks/output/output-5.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            Nun kann mit diesem Block ein Messwert oder Text in der, zuvor geöffneten Datei, geschrieben werden. Mithilfe der Checkbox
-            kann angegeben werden ob nach diesem Block eine neue Zeile in der Datei erstellt wird. Es wird empfohlen die
-            Messwerte durch ein Trennzeichen von einander zu Trennen. Verwende dazu den Block xxx aus (link zu Text)
+            After opening the file in the loop() you can use this Block to write measurment values or text. Use the checkbox apply a linebrake in the file after writing. It is recommended to seperate values with a seperator e.g. a comma or semikolon. Use the Text Blocks for it.
         </div>
     </div>
 </div>
@@ -124,9 +116,8 @@
             <img src="../pictures/blocks/output/output-6.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Auf Kommandozeile Ausgeben</h4>
-            Die Einfachste Ausgabemöglichkeit wird über den Anschluss einer LED gesteuert. Wähle im Dropdown Menü den richtigen Anschlusspin
-            aus und den Status der LED
+            <h4>print on serial monitor</h4>
+            If you want to see values or text withou atteching the Display you can use this command to start the serial monitor and write Values. Note: To use this functionality you need to have the Arduino IDE installed to your computer!
         </div>
     </div>
 </div>
@@ -139,10 +130,9 @@
             <img src="../pictures/blocks/output/output-7.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Wlan Verbindung herstellen</h4>
-            <h6>Anschluss: XBEE1</h6>
-            Verwende diesen Block im Setup() um eine Wlan Verbindung herzustellen. Trage den entsprechenden Netzwerknamen (SSID) und
-            das Passwort ein.
+            <h4>Setup wifi connection</h4>
+            <h6>Connection: XBEE1</h6>
+            Use this Block in the setup() to connect to a wifi network. Insert the Network ID (SSID) and the Password.
         </div>
     </div>
 </div>
@@ -155,12 +145,9 @@
             <img src="../pictures/blocks/output/output-8.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Übertragen der Messwerte an die openSenseMap</h4>
-            Um Messwerte über Internet zu übertragen erstelle zunächst eine neue Messstation auf der
-            <a href="https://opensensemap.org/register">openSenseMap</a> Bei der Registrierung musst du angeboten ob es ich um eine stationäre oder mobile Station (benötigt
-            GPS) handelt. Desweiteren wirst du gefragt, welche Sensoren und welche Messwerte du an die Plattform senden möchstest.
-            Du kannst diese Parameter nach immer wieder ändern, falls du möchtest. Wichtig ist, dass du die BoxID kopierst
-            und in diesen Block einfügst. Damit werden die Messwerte deiner senseBox zugeordnet.
+            <h4>Transfer measurement values to the openSenseMap</h4>
+            Start first with a registration on the           
+            <a href="https://opensensemap.org/register">openSenseMap</a> In the registration process you have to choose between stationary and mobile (need GPS) senseBox. Furthermore you will be asked was kind of sensors you are using and which parameters you want to send to the platform. This parameter can be edited after the registration. Import: Copy your BoxID to this Block.
         </div>
     </div>
     <div class="row">
@@ -168,11 +155,8 @@
             <img src="../pictures/blocks/output/output-9.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>stationäre senseBox</h4>
-            Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benögtist du jeweils einen eigenen
-            Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
-            Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
-            werden soll. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            <h4>stationary senseBox</h4>
+             Use this Block if you registered a stationary senseBox. For each measurement you need a seperate Block with a specific Sensor ID. Copy the Sensor ID from the registration form and append a value. Attach this Block within the Block which setups a connection to the openSenseMap.
         </div>
     </div>
     <div class="row">
@@ -181,11 +165,8 @@
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>
-            Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benögtist du jeweils einen eigenen
-            Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
-            Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
-            werden soll. Zusätzlich zum Messwert muss jedes mal dein Standort übertagen werden. Verwende hierzu den
-            <a href="../bloecke/sensebox_sensoren.html">GPS Sensor</a>. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            Use this Block if you registered a mobile senseBox. For each measurement you need a seperate Block with a specific Sensor ID. Copy the Sensor ID from the registration form and append a value. You also have to append the location to this Block, use the 
+            <a href="../bloecke/sensebox_sensoren.html">GPS Sensor</a>to gain latitude and longitude values. Attach this Block within the Block which setups a connection to the openSenseMap.
         </div>
     </div>
 </div>
@@ -196,9 +177,8 @@
             <img src="../pictures/blocks/output/output-11.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Messintervall</h4>
-            Damit das Übertragen der Messwerte nicht jede Sekunde erfolgt, sondern erst nach einem gewissen Zeitintervall, kannst du diesen
-            Block verwenden. Ziehe dazu alle Aktionen, die erste nach einer gewissen Zeit erfolgen sollen in die Schleife und trage die Zeit in Millisekunden ein. 
+            <h4>Measurement interval</h4>
+            Transmitten values each second to the openSeneMap is not sufficient. With this Block you can setup a interval timer. Everything which should be done after the interval timer need to be placed within this Block loop.
         </div>
     </div>
 </div>

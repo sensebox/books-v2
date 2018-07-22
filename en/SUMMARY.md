@@ -14,7 +14,7 @@
 * [block overview](blocks/README.md)
     * [senseBox sensors](blocks/sensebox_sensors.md)
     * [senseBox display](blocks/sensebox_display.md)
-    * [senseBox Ausgabe](blocks/sensebox_output.md)
+    * [senseBox output](blocks/sensebox_output.md)
     * [Logic](blocks/logic.md)
     * [loops](blocks/loops.md)
     * [maths](blocks/maths.md)
