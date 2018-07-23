@@ -4,10 +4,6 @@
 
 ## Blockly für senseBox
 * [Blockly für senseBox Online (de)](overview/blockly_online.md)
-* [Blockly für senseBox Offline (de)](overview/blockly_offline.md)
-    * [Schritt 1: Software installation](overview/software-installation.md)
-    * [Schritt 2: Librarys hinzufügen](overview/libraries-hinzufuegen.md)
-    * [Schritt 3: Board-Support-Packages installieren](overview/board-support-packages-installieren.md)
 
 ## Blöcke
 * [block overview](blocks/README.md)

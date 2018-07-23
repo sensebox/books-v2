@@ -33,18 +33,14 @@ In der Kopfzeile der Weboberfläche kannst du deinem Programmcode einen Namen ge
 
 Schließt du deine senseBox MCU an deinen Computer an und führst einen Doppelklick auf den roten Button aus wird diese als Wechseldatendräger erkannt. Mit einem Klick auf Code Kompilieren in der Weboberfläche wird dein Programmcode auf dem Server kompiliert und eine .BIN Datei wird dir zum Download angeboten. Je nachdem welches Betriebssystem du verwendest unterscheidet sich nun der Kopiervorgang. 
 
-{% tabs first="Windows", second="MacOS und Linux" %}
-{% content "first" %}
 #### Kopieren unter Windows 
 
 Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
 
 
-{% content "second" %}
-
 #### Kopieren unter MacOS und Linux
 
-{% endtabs %}
+
 
 
 
