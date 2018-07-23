@@ -1,23 +1,23 @@
 # Übersicht aller Blöcke {#head}
 
-<div class="description">Hier findest du eine Übersicht über die verschiedenen Blöcketypen.</div>
+<div class="description">This is an overview of all blocks of "blockly for sensebox"</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-#### Verschiedene Blocktypen
+#### Blocktypes
 
-Es gibt verschiedene Typen von Blöcken:
+There are four different block types:
 
 <div class="container">
     <div class="row">
         <div class="col-md">
             <img src="../pictures/blocks/sensors/sensors-0.png" alt="block" align="left"></div>
         <div class="col-md">
-        <h4>Blöcke mit Rückgabewerten</h4>
-            Diese Blöcke müssen immer an andere Blöcke angehangen werden. Sie geben einen Wert zurück (z.B. ein Messwert)
+        <h4>blocks with return value</h4>
+        These blocks must be attached to other blocks. They return an specific value (e.g. a measurement)
          </div>
     </div>
 </div>
@@ -27,8 +27,8 @@ Es gibt verschiedene Typen von Blöcken:
         <div class="col-md">
             <img src="../pictures/blocks/display/display-1.png" alt="block" align="left"></div>
         <div class="col-md">
-        <h4>Blöcke mit Schleifen</h4>
-            In diese Blöcke kannst du verschiedene Aktionen hinziehen, die dann nacheinander ausgeführt werden.  
+        <h4>blocks with loops</h4>
+        You can add different blocks to these. All added blocks will be processed one after the other.
          </div>
     </div>
 </div>
@@ -38,8 +38,8 @@ Es gibt verschiedene Typen von Blöcken:
         <div class="col-md">
             <img src="../pictures/blocks/logic/logic-gif-0.gif" alt="block" align="left"></div>
         <div class="col-md">
-        <h4>Blöcke mit Kontextmenü</h4>
-            Einige Blöcke haben ein kleines Zahnrad an der Seite. Mit einem Klick auf das Zahnrad kannst du das Kontexmenü öffnen und den Block um weitere Funktionen erweitern.
+        <h4>blocks with context menu</h4>
+        Some blocks have a litte gear symbol in the top left corner. This gear symbol opens a context menu to add different functions to the block.
          </div>
     </div>
 </div>
@@ -49,8 +49,8 @@ Es gibt verschiedene Typen von Blöcken:
         <div class="col-md">
             <img src="../pictures/blocks/dropdown.png" alt="block" align="left"></div>
         <div class="col-md">
-        <h4>Blöcke mit Dropdownmenü</h4>
-            Das Dropdown Menü eines Blockes gibt dir Zugriff auf weitere Funktionen und Rückgabewerte. So kann bei Sensoren zum Beispiel ausgewählt werden welcher Messwert zurückgegeben wird oder an welchen Anschluss der Sensor angeschlossen wurde.
+        <h4>blocks with drop down menu</h4>
+        The drop down menu gives you access to more functions and return values. For example you can chosse wich value will be measured and to which pin the sensor is connected.
          </div>
     </div>
 </div>
@@ -60,18 +60,17 @@ Es gibt verschiedene Typen von Blöcken:
     <br>
 </div>
 
+A more detailed explanation can be found on the different subpages:
 
-Eine genauere Erläuterungen zu den Blöcken, die du in der Toolbox findest gibt es auf der jeweiligen Unterseite. 
-
-* [senseBox Sensoren](../bloecke/sensebox_sensoren.md)
-* [senseBox Display](../bloecke/sensebox_display.md)
-* [senseBox Ausgabe](../bloecke/sensebox_ausgabe.md)
-* [Logik](../bloecke/logik.md)
-* [Schleifen](../bloecke/schleifen.md)
-* [Mathematik](../bloecke/mathematik.md)
-* [Text](../bloecke/text.md)
-* [Variablen](../bloecke/variablen.md)
-* [Funktionen](../bloecke/funktionen.md)
-* [Eingang/Ausgang](../bloecke/eingang_ausgang.md)
-* [Zeit](../bloecke/zeit.md)
+* [senseBox sensors](../blocks/sensebox_sensors.md)
+* [senseBox display](../blocks/sensebox_display.md)
+* [senseBox output](../blocks/sensebox_output.md)
+* [Logic](../blocks/logic.md)
+* [loops](../blocks/loops.md)
+* [Maths](../blocks/maths.md)
+* [Text](../blocks/text.md)
+* [Variables](../blocks/variables.md)
+* [Functions](../blocks/functions.md)
+* [Input/Output](../blocks/io.md)
+* [time](../blocks/time.md)
 
