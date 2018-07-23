@@ -1,7 +1,7 @@
 # senseBox Sensoren {#head}
 
-<div class="description">Diese Seite gibt dir eine Übersicht über die Verfügbaren Blöcke mit denen du die Sensoren der senseBox auslesen und ansteuern
-    kannst
+<div class="description">
+    This site gives you an overview about the all blocks.
 </div>
 <div class="line">
     <br>
@@ -16,13 +16,14 @@
             <img src="../pictures/blocks/sensors/sensors-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Temperatur und Luftfeuchtigkeitssensor</h4>
-            <h6>Anschluss: I2C/Wire</h6>
-            Dieser Block gibt dir den Messwert des
-            <a href="../komponenten/sensoren/hdc1080.html">Temperatur und Luftfeuchtigkeitssensor</a>. Im Dropdown Menü kannst du den jeweiligen Messwert auswählen. Dropdown:
+            <h4>Temperature and humidity sensor</h4>
+            <h6>Connection: I2C/Wire</h6>
+
+            This block returns the measurements of the
+            <a href="../komponenten/sensoren/hdc1080.html">temperature and humidity sensor</a>. Simply choose temperature or humidity in the dropdown-menu. Dropdown:
             <ul>
-                <li> Temperatur </li>
-                <li> Luftfeuchtigkeit </li>
+                <li> temperature </li>
+                <li> humidity </li>
             </ul>
         </div>
     </div>
@@ -36,13 +37,13 @@
             <img src="../pictures/blocks/sensors/sensors-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>UV-Licht und Lichtsensor</h4>
-            <h6>Anschluss: I2C/Wire</h6>
-            Dieser Block gibt dir den Messwert des
-            <a href="../komponenten/sensoren/belichtung-und-uv.html">UV-Licht und Lichtsensor</a>. Im Dropdown Menü kannst du den jeweiligen Messwert auswählen. Dropdown:
+            <h4>UV and visible light sensor</h4>
+            <h6>Connection: I2C/Wire</h6>
+            This block returns the measurements of the
+            <a href="../komponenten/sensoren/belichtung-und-uv.html">UV and visible light sensor</a>. Simply choose UV-light or visible in the dropdown-menu. Dropdown:
             <ul>
-                <li> UV-Licht </li>
-                <li> Helligkeit </li>
+                <li> UV-light </li>
+                <li> visible light </li>
             </ul>
         </div>
     </div>
@@ -56,10 +57,10 @@
             <img src="../pictures/blocks/sensors/sensors-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Feinstaubsensor</h4>
-            <h6>Anschluss: UART/Serial</h6>
-            Dieser Block gibt dir den Messwert des
-            <a href="../komponenten/sensoren/feinstaub.html">Feinstaubsensor</a> . Im Dropdown Menü kannst du den jeweiligen Messwert auswählen. Dropdown (Messwert):
+            <h4>dust sensor</h4>
+            <h6>Connection: UART/Serial</h6>
+            This block returns the measurements of the
+            <a href="../komponenten/sensoren/feinstaub.html">dust sensor</a>. Simply choose the value you want to measure in the dropdown-menu. Dropdown:
             <ul>
                 <li> PM10 </li>
                 <li> PM2.5 </li>
@@ -81,9 +82,9 @@
             <img src="../pictures/blocks/sensors/sensors-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Luftdrucksensor</h4>
-            <h6>Anschluss: I2C/Wire</h6>
-            Dieser Block gibt dir den Messwert des <a href="../komponenten/sensoren/luftdruck-temperatur.html">Luftdruck</a>. Der Luftdruck wird vom Sensor in Pascal (Pa) ausgegeben. Benötigst du den Wert in Hektopascal (hPa) teile durch 100.
+            <h4>air pressure sensor</h4>
+            <h6>Connection: I2C/Wire</h6>
+            This block returns the measurements of the <a href="../komponenten/sensoren/luftdruck-temperatur.html">air pressure sensor</a>. Air pressure is measured in Pascal (Pa).
         </div>
     </div>
 </div>
@@ -98,13 +99,13 @@
             <img src="../pictures/blocks/sensors/sensors-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Ultraschall Distanzsensor</h4>
-            <h6>Anschluss: Digital</h6>
-            Dieser Block gibt dir den Messwert des Ultraschall Distanzsensor. Der ausgegebene Messwert entspricht der Distanz in Zentimeter.
-            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.  <br>
+            <h4>ultrasonic distance sensor</h4>
+            <h6>Connection: Digital</h6>
+            This block returns a distance in centimeters. 
+            When wiring pay attention to choose the connected pins in the dropdown menu.  <br>
             <!-- Button trigger modal -->
             <button type="button" class="btn-modal" data-toggle="modal" data-target="#Modal-Ultrasonic">
-                Schaltung: Ultraschall Distanzsensor
+                Wiring: ultrasonic distance sensor
             </button>
 
             <!-- Modal begin -->
@@ -112,7 +113,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="ModalLabelUltrasonic">Schaltung: Ultraschall Distanzsensor</h5>
+                            <h5 class="modal-title" id="ModalLabelUltrasonic">Wiring: ultrasonic distance sensor</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -121,7 +122,7 @@
                             <img src="../pictures/projekte/Verkehrszaehler_v2.png" alt="block" align="left">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -138,12 +139,13 @@
             <img src="../pictures/blocks/sensors/sensors-5.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Lautstärkesensor</h4>
-            <h6>Anschluss: Digital</h6>
-            Dieser Block gibt dir den Messwert des Lautstärkesensor. Der ausgegebene Messwert ist ein Pegelwert zwischen 0 und 1023.
-            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.<!-- Button trigger modal -->
+            <h4>sound sensor</h4>
+            <h6>Connection: Digital</h6>
+            This block returns a sound value. The value is a level between 0 an 1023.
+            When wiring pay attention to choose the connected pins in the dropdown menu.
+            <!-- Button trigger modal -->
             <button type="button" class="btn-modal" data-toggle="modal" data-target="#Modal-Sound">
-                Schaltung: Lautstärkesensor
+                Wiring: sound sensor.
             </button>
 
             <!-- Modal begin -->
@@ -151,7 +153,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="ModalLabelSound">Schaltung: Lautstärkesensor</h5>
+                            <h5 class="modal-title" id="ModalLabelSound">Wiring: sound sensor</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -160,7 +162,7 @@
                             <img src="../pictures/projekte/Verkehrszaehler_v2.png" alt="block" align="left">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -177,12 +179,11 @@
             <img src="../pictures/blocks/sensors/sensors-6.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Lichtwiderstand</h4>
-            <h6>Anschluss: Digital</h6>
-            Dieser Block gibt dir den Messwert des Lichtwiderstand. Der ausgegeben Messwert ist ein Pegel zwischen 0 und 1023. Je heller es ist, desto höher ist der Messwert. 
-            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.<!-- Button trigger modal -->
+            <h4>light dependant resistor</h4>
+            <h6>Connection: Digital</h6>
+            This block returns the measurements of the light dependant resistor (LDR). The value is a level between 0 an 1023.  When wiring pay attention to choose the connected pins in the dropdown menu.<!-- Button trigger modal -->
             <button type="button" class="btn-modal" data-toggle="modal" data-target="#Modal-LDR">
-                Schaltung: Lichtwiderstand
+                Wiring: LDR
             </button>
 
             <!-- Modal begin -->
@@ -190,7 +191,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="ModalLabelLDR">Schaltung: Lichtwiderstand</h5>
+                            <h5 class="modal-title" id="ModalLabelLDR">Wiring: LDR</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -199,7 +200,7 @@
                             <img src="../pictures/projekte/Verkehrszaehler_v2.png" alt="block" align="left">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -217,9 +218,9 @@
         </div>
         <div class="col-md">
             <h4>Button</h4>
-            <h6>Anschluss: Digital</h6>
-            Dieser Block gibt dir den Status des angeschlossenen Buttons. Der Status des Buttons wird als Boolean Variable übergeben und ist entspricht 1/HIGH (Gedrückt)
-            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü (der Button der MCU kann über den Pin 0 angesteuert werden).
+            <h6>Connection: Digital</h6>
+            This block returns the state of the wired button. The state of the button is returned as boolean and equals 1/HIGH (pressed).
+            When wiring pay attention to choose the connected pins in the dropdown menu (for the build-in button choose pin number 0)
         </div>
     </div>
 </div>
@@ -233,9 +234,8 @@
         </div>
         <div class="col-md">
             <h4>Potentiometer</h4>
-            <h6>Anschluss: Digital</h6>
-            Dieser Block gibt dir den Messwert des Ultraschall Distanzsensor. Der ausgegebene Messwert entspricht der Distanz in Zentimeter.
-            Beachte beim Anschluss des Sensor auf die korrekte Auswahl der Pins im Dropdown Menü.
+            <h6>Conntection: Digital</h6>
+            This block returns the measured values of the potentiometer. The value is a level between 0 an 1023.  When wiring pay attention to choose the connected pins in the dropdown menu
         </div>
     </div>
 </div>
@@ -248,16 +248,18 @@
             <img src="../pictures/blocks/sensors/sensors-9.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>GPS Sensor</h4>
-            <h6>Anschluss: I2C/Wire</h6>
-            Dieser Block gibt dir verschiedene Messwerte des
-            <a href="../komponenten/zubehoer/gps.html">GPS Sensors</a>. Neben dem Längen- und Breitengrad für die Standortbestimmtung kann der Sensor auch die Höhe
-            (in Meter) und die aktuelle Geschwindigkeit (in km/h) ausgeben. Dropdown:
+            <h4>GPS sensor</h4>
+            <h6>Connection: I2C/Wire</h6>
+            This block returns the different measurement of the
+            <a href="../komponenten/zubehoer/gps.html">GPS sensors</a>. 
+            
+            Longitude and latitude are displayss along with altitude and current speed (in km/h). Select the value you want to measure in the dropdown menu.
+            Dropdown:
             <ul>
-                <li> Breitengrad </li>
-                <li> Längengrad </li>
-                <li> Höhe </li>
-                <li> Geschwindigkeit </li>
+                <li> latitude </li>
+                <li> longitude </li>
+                <li> altitude </li>
+                <li> speed </li>
             </ul>
         </div>
     </div>
