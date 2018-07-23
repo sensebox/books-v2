@@ -12,8 +12,8 @@
             <img src="../pictures/blocks/time/time-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Programmcode unterbrechen</h4>
-            Mit diesem Block kannst du deinen Programmcode für eine gewisse Zeit unterbrechen. In dieser Zeit pausiert der Mikrokontroller und es werden keine Aktionen ausgeführt. Die Zeit wird in Millisekunden angegeben (1 Sekunde = 1000 Millisekunden)
+            <h4>wait</h4>
+            This block will pause the running program for a certain time.
         </div>
     </div>
 </div>
@@ -25,7 +25,6 @@
             <img src="../pictures/blocks/time/time-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            Dieser Block hat die gleiche Funktion wie der vorherige Block, allerdings wird hier eine Zeit in Mikrosekunden angegeben.
         </div>
     </div>
 </div>
@@ -38,8 +37,8 @@
             <img src="../pictures/blocks/time/time-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Bereits vergangene Zeit</h4>
-            Dieser Block gibt dir die Zeit, die dein Programmcode bereits läuft. Die Laufzeit wird in Millisekunden angegeben
+            <h4>time elapsed</h4>
+           This block returns the time your program is running.
         </div>
     </div>
 </div>
@@ -51,7 +50,6 @@
             <img src="../pictures/blocks/time/time-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
-             Auch mit diesem Block wird dir die Laufzeit seit dem Start deines Programmes angegeben, diesmal allerdings in Mikrosekunden.
         </div>
     </div>
 </div>
@@ -64,8 +62,8 @@
             <img src="../pictures/blocks/time/time-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
-           <h4>Warte für immer</h4>
-           Mit diesem Block kannst du dein Programm einfach beenden lassen.
+           <h4>wait forever</h4>
+        This block will pause your program forver (in fact end it).
         </div>
     </div>
 </div>

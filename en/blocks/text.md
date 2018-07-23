@@ -1,13 +1,11 @@
 # Text {#head}
 
-<div class="description">Diese Seite gibt dir einen Überblick über die verfügbaren Blöcke zur Texterstellung in Blockly für senseBox. Text kann zum Beispiel:
-<ul> 
-<li>ein einzelnes Wort (z.B. Namen)</li>
-<li>ein ganzer Satz (z.B. Hello World!)</li>
-<li>ein Messwert</li>
-<li>eine Beschreibungen für Messwerte (z.B. Temperatur: )</li>
+<div class="description">Examples of pieces of text are:
+<li>"senseBox #1"</li>
+<li>"Mai 13, 2011"</li>
+<li>a measurement</li>
+<li>description of a measurement (e.g. temperature: )</li>
 </ul>
-sein.
 </div>
 <div class="line">
     <br>
@@ -20,8 +18,8 @@ sein.
             <img src="../pictures/blocks/text/text-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Textblock</h4>
-        Verwende diesen Block um dir einfachen Text anzeigen zu lassen. Schreibe den gewünschten Text dazu in das Feld zwischen den Anführungszeichen.
+            <h4>textblock</h4>
+           Use this block to create a piece of text.
         </div>
     </div>
 </div>
@@ -34,8 +32,8 @@ sein.
             <img src="../pictures/blocks/text/text-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Erstelle-Text-Aus-Block</h4>
-            Verwende diesen Block um kompliziertere Textelemente darstellen zu lassen. Du benötigst diesen Block einerseits um einen Messwert in Text umwandeln und zu lassen und andererseits um zusammengesetze Texte zu erstellen. 
+            <h4>create text with</h4>
+            Use this block to display complex textelements. This is necessary to convert measurements into text.
         </div>
     </div>
 </div>
@@ -45,8 +43,8 @@ sein.
             <img src="../pictures/blocks/text/text-gif-0.gif" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Erstelle-Text-Aus Erweiterungen</h4>
-            Der normale Erstelle-Text-Aus-Block kann mit einem Klick auf das Zahnrad erweitert werden. Du kannst noch weitere Elemente durch Klicken und Ziehen hinzufügen um Text aus mehreren Elementen zu erstellen. Nach dem Bearbeiten kann mit einem weiteren Klick auf das Zahnrad das Fenster wieder geschlossen werden.
+            <h4>create text extension</h4>
+            You can extend the normal block by clicking on the gear in the top left corner.
         </div>
     </div>
 </div>
@@ -58,8 +56,8 @@ sein.
             <img src="../pictures/blocks/text/text-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Text-Anhängen-Block</h4>
-            Verwende diesen Block um einen bereits erstellten Textblock um ein zusätzliches Element zu erweitern.
+            <h4>append text</h4>
+            Use this block to extend an existing text.
         </div>
     </div>
 </div>
@@ -72,8 +70,8 @@ sein.
             <img src="../pictures/blocks/text/text-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Länge-Block</h4>
-            Verwende diesen Block um die Länge eines Textblocks bestimmen zu lassen. Die Länge des Textblocks "senseBox" wäre zum Beispiel 8.
+            <h4>lenght of</h4>
+           Use this block to count the number of letters, numbers, etc., in each text.
         </div>
     </div>
 </div>
@@ -88,8 +86,8 @@ sein.
             <img src="../pictures/blocks/text/text-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Leer-Block</h4>
-            Dieser Block überprüft, ob ein gegebener Textblock leer ist (die Länge 0 hat). Das Ergebnis ist entweder wahr (wenn der gegebene Textblock tatsächlich leer ist) oder falsch (wenn sich Zeichen im Textblock befinden).
+            <h4>is empty</h4>
+            This block checks, if an existing text is empty (is the lenght of 0).
         </div>
     </div>
 </div>

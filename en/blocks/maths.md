@@ -11,8 +11,8 @@
         <div class="col-md">
             <img src="../pictures/blocks/maths/maths-0.png" alt="block" align="left"></div>
         <div class="col-md">
-        <h4>Der Wert-Block</h4>
-            Mit dem Wert-Block kannst du Zahlen an einen anderen Block übermitteln. In diesen Block kannst du nur Zahlen eintragen, Buchstaben oder Sonderzeichen werden nicht akzeptiert.
+        <h4>value</h4>
+            Use this block to transmit values (numbers) to another Block.
          </div>
     </div>
 </div>
@@ -24,8 +24,8 @@
         <div class="col-md">
             <img src="../pictures/blocks/maths/maths-1.png" alt="block" align="left"></div>
         <div class="col-md">
-            <h4>Der Rechnen-Block</h4>
-            Mit diesem Block kannst du Zahlen addieren, subtrahieren, multiplizieren, dividieren oder potenzieren. Dieser Block ist nur mit anderen Blöcken, deren Eingabewerte Zahlen sind (z.B. der Wert-Block), verwendbar.
+            <h4>calculate</h4>
+            Use this block to sum, substract, multiplicate, divide or exponentiate numbers.
         </div>
     </div>
 </div>
@@ -38,22 +38,8 @@
             <img src="../pictures/blocks/maths/maths-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Mathematische-Funktionen-Block</h4>
-            Mit diesem Block kannst du einige mathematische Funktionen berechnen. Auch dieser Block funktioniert nur mit einem anderen Block, dessen Eingabewert eine Zahl ist.
-        </div>
-    </div>
-</div>
-
-<div class="line"></div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-3.png" alt="block" align="left">
-        </div>
-        <div class="col-md">
-            <h4>Der Konstanten-Block</h4>
-            Mit diesem Block kannst du einige mathematische Konstanten hinzufügen.
+            <h4>mathematic operations</h4>
+            Use this block to perform mathematic operations, e.r. square root.
         </div>
     </div>
 </div>
@@ -64,6 +50,20 @@
     <div class="row">
         <div class="col-md">
             <img src="../pictures/blocks/maths/maths-4.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>constant</h4>
+            Use this block to insert some mathematical constants to your code.
+        </div>
+    </div>
+</div>
+
+<div class="line"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="../pictures/blocks/maths/maths-5.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Erhöhe-Block</h4>
@@ -77,7 +77,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-5.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-6.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Runden-Block</h4>
@@ -91,7 +91,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-6.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-7.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Begrenze-Block</h4>
@@ -111,7 +111,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-7.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-8.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Rest-von-Block</h4>
@@ -125,7 +125,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-8.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-9.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Zahleneigenschaften-Block</h4>
@@ -139,7 +139,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-9.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-10.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Trigonometrische-Funktionen-Block</h4>
@@ -153,7 +153,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-10.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-11.png" alt="block" align="left">
         </div>
         <div class="col-md">
                 <h4>Der Verteile-Wert-Block</h4>
@@ -213,7 +213,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-11.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-12.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Zufallszahl-Block</h4>
@@ -229,7 +229,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/maths/maths-12.png" alt="block" align="left">
+            <img src="../pictures/blocks/maths/maths-13.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Der Ganzzahlige-Zufallszahl-Block</h4>
