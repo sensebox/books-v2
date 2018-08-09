@@ -8,7 +8,7 @@
 
 
 
-## Voraussetzungen
+## Vorraussetzungen
 - [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md)
 - [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
 - [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
