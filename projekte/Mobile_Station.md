@@ -62,7 +62,7 @@ void setup(){
 
 Die `loop`-Funktion fragt nun den Standort der Station ab und lädt diesem gemeinsam mit dem Wert für Temperatur auf die openSenseMap hoch. 
 
-{% collapse title="loop() Funktion" %}
+{% collapse title="loop() Funktion" %} 
 ```arduino
 void loop(){
     lat = gps.getLatitude();
@@ -72,9 +72,5 @@ void loop(){
     osem.uploadMobileMeasurement(temp,"SensorID",lat,lon)
 }
 ```
-<div class="box_info">
-    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Beim Speichern der Messwerte sollten die Variablen den gleichen Datentypen haben wie die Rückgabewerte der Messfunktionen. In unserem Fall sind das beides float Werte.!
-</div>
 {% endcollapse %}
 
