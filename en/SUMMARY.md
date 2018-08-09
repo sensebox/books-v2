@@ -3,7 +3,7 @@
 * [Blockly for senseBox Documentation](README.md)
 
 ## Blockly für senseBox
-* [Blockly für senseBox Online (de)](overview/blockly_online.md)
+* [Blockly for senseBox online](overview/blockly_online.md)
 
 ## Blöcke
 * [block overview](blocks/README.md)

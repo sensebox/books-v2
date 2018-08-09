@@ -1,6 +1,6 @@
 # senseBox output {#head}
 
-<div class="description">Diese Seite gibt dir eine Übersicht über die verschiedenen Ausgabemöglichkeiten der senseBox
+<div class="description">This site gives an overview over the various outputs of the senseBox
 </div>
 <div class="line">
     <br>
@@ -85,7 +85,7 @@
             <img src="../pictures/blocks/output/output-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Save on SD Karte</h4>
+            <h4>Save on SD-Card</h4>
             <h6>Connection: XBEE2</h6>
             Saving data to the SD-Card different Blocks were needed. The first step is to create a file with a filename in the Setup()
         </div>

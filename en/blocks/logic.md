@@ -1,9 +1,9 @@
-# Logik {#head}
+# Logic {#head}
 
-<div class="description">Wenn-Dann Bedingungen sind bei der Programmierung eines der wichtigsten Elemente um dein Programmcode zu steuern. Mit Wenn-Dann kannst du zum Beispiel folgendes ausdrücken: 
+<div class="description">The If conditions is an essential part in directing your code. With If-Else this can be expressed for instance: 
 <ul>
-<li><b>Wenn</b> Temperatur kleiner als 20 Grad, <b>Dann</b> die Heizung an</li>
-<li><b>Wenn</b> kein Wlan signal, <b>Dann</b> speichere die Messwerte auf SD-Karte</li>
+<li><b>If</b> Temperature less than 20 degrees <b>do</b> radiator on</li>
+<li><b>If</b> o Wi-Fi reception, <b>do</b> save measurements on SD-Card</li>
 </ul>
 </div>
 <div class="line">
@@ -18,7 +18,7 @@
         </div>
         <div class="col-md">
             <h4>Wenn-Dann</h4>
-            Mit der Wenn dann Bedingung kannst du deinen Programmcode steuern und Bestimmte Aktionen ausführen lassen, <b>wenn</b> ein Bestimmter Status eingetreten ist. Um den Wenn-Dann Block zu verwenden musst du immer eine Vergleichsbedingung hinzufügen
+            With <b>if</b> you can direct your code to execute certain actions <b>if</b> a certain event occured. To execute an an <b>if</b> statement a comparison has to be set.
         </div>
     </div>
 </div>

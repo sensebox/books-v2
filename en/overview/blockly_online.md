@@ -1,42 +1,42 @@
 
-# Blockly für senseBox Online {#head}
- <div class="description">Blockly für senseBox ist eine grafische Programmieroberfläche die komplett online in deinem Browser läuft. Sie ermöglicht dir deine senseBox zu programmieren ohne Software zu installieren </div>
+# Blockly for senseBox Online {#head}
+ <div class="description">
+ Blockly for senseBox is a visual programming editor which runs completely in your browser! With blockly you can program your senseBox without installing any
+ software on your computer </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Du findest Blockly für senseBox online unter <a href="https://blockly.sensebox.de">https://blockly.senseBox.de</a>. Dort kannst du zwischen den verschiedenen Versionen der senseBox auswählen. 
+You can find Blockly for senseBox <a href="https://blockly.sensebox.de">online</a>. There you can choose between the two senseBox versions. 
 
-## Die Oberfläche
-
-Blockly für senseBox läuft in den gängingen Browsern (Google Chrome, Firefox und Edge) ohne Installation. Die Oberfläche ist sowohl in Deutsch als auch in Englisch verfügbar.
+## The Interface
+Blockly for senseBox is compatible with most common browsers(Goolge Chrome , Firefox and Edge) without having to install anything. It is available either in English or in German.
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Wenn du die Sprache änderst wird die Oberfläche neu geladen und deine bisherige Programmierung wird nicht gespeichert. Du solltest dir also zu Begin überlegen ob du in der Englischen oder Deutschen Oberfläche arbeiten willst. Alternativ kannst du die deine Blöcke als XML Datei speichern und nach dem Ändern der Sprache wieder laden. 
+    If you decide to change the language, your already written code will not be saved! Therefore you should decide on a language before starting to program. Alternatively you can save the blocks as an XML file and after changing the language reload these blocks.
 </div>
 
-Die Oberfläche ist grob in drei Bereiche aufgeteilt. Links findest du die Toolbox, die alle Blöcke enthält. In der Mitte ist deine Arbeitsoberfläche und rechts wird dir der generierte Arduino Code angezeigt. 
+The interface is divided roughly in three components. On the left you can find the toolbox, which contains all blocks. In the middle you see the desktop where your programming takes place. On the right side the generated arduino code is displayed.
 
-![Die Blockly für senseBox Oberfläche](../pictures/blockly_overview.png)
+![The blockly for senseBox interface](../pictures/blockly_overview.png)
 
-#### Die Toolbox
+#### The Toolbox
 
-Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kannst. Eine genaue Erläuterung zu den einzelnen Kategorien und die Funktionsweise der Blöcke findest du [hier](../bloecke/sensebox_sensoren.md)
+Here you can find all blocks, that you can use for programming. A detailed description to all blocks is available [here](../blocks/sensebox_sensors.md).
 
 #### Buttons
+The most important features of blockly for senseBox hide behind two buttons. The two buttons on the desktop(middle) are used to paste something to the clipboard(useful when you want to compile your code in the Arduino IDE) and the compile button, with which you can compile your code online. The compiled code is made available to you via a .BIN file which you can download.
+The header contains the name of your code and various useful functions. You can load already stored blocks, you can store blocks as XML files, you can save your current sketch as an .INO file and you can delete everything that is displayed on your desktop. On the far left you can find the menu in which you can change the settings and access the examples.
 
-In der Online Oberfläche verbergen sich die wichtigsten Funktionen hinter verschiedenen Buttons. Die beiden Buttons in der Arbeitsoberfläche sind zum kopieren des Codes in die Zwischenablage (Praktisch, wenn du z.B. deinen Code offline in der Arduino IDE kompilieren willst) und der Kompilieren Button, der den Programmcode auf dem Server Online kompiliert und anschließend dir eine fertigen Programmcode als .BIN Datei zum Download anbietet. 
-In der Kopfzeile der Weboberfläche kannst du deinem Programmcode einen Namen geben, die Blöcke als XML-Datei speichern oder wieder laden, den Programmcode als .ino speichern und die komplette Arbeitsfläche mit einem klick löschen. Ganz links findes du das Menü, in dem du Zugriff auf die Einstellungen und die vorgefertigten Beispiele hast.
+### Transmit to the senseBoxMCU
 
-### Übertragen auf die senseBox MCU
+After connecting the senseBox MCU to your computer and after a double click on the red button, the senseBox MCU is recognized as a medium. If you click the 'Compile Sketch' button the code will be compiled on the server and will be provided to you via download. Depending on the operating system you are using the following process will alter.
 
-Schließt du deine senseBox MCU an deinen Computer an und führst einen Doppelklick auf den roten Button aus wird diese als Wechseldatendräger erkannt. Mit einem Klick auf Code Kompilieren in der Weboberfläche wird dein Programmcode auf dem Server kompiliert und eine .BIN Datei wird dir zum Download angeboten. Je nachdem welches Betriebssystem du verwendest unterscheidet sich nun der Kopiervorgang. 
 
 #### Kopieren unter Windows 
-
-Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
-
+ 
+With windows you can transfer the just downloaded .BIN file via Drag & Drop to the medium <b>SENSEBOX</b>. The red LED will blink for a moment. Afterwards the board will reboot und run your code.
 
 #### Kopieren unter MacOS und Linux
 
