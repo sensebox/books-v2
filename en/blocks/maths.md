@@ -1,6 +1,6 @@
-# Mathematik {#head}
+# Mathematics {#head}
 
-<div class="description">Mit den "Mathematik"-Blöcken kannst du Werte einstellen und verschiedene Berechnungen durchführen.</div>
+<div class="description">With the mathematics blocks you can assign values and do various calculations.</div>
 <div class="line">
     <br>
     <br>
@@ -11,7 +11,7 @@
         <div class="col-md">
             <img src="../pictures/blocks/maths/maths-0.png" alt="block" align="left"></div>
         <div class="col-md">
-        <h4>value</h4>
+        <h4>Value</h4>
             Use this block to transmit values (numbers) to another Block.
          </div>
     </div>
@@ -24,7 +24,7 @@
         <div class="col-md">
             <img src="../pictures/blocks/maths/maths-1.png" alt="block" align="left"></div>
         <div class="col-md">
-            <h4>calculate</h4>
+            <h4>Calculate</h4>
             Use this block to sum, substract, multiplicate, divide or exponentiate numbers.
         </div>
     </div>
@@ -38,7 +38,7 @@
             <img src="../pictures/blocks/maths/maths-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>mathematic operations</h4>
+            <h4>Mathematic operations</h4>
             Use this block to perform mathematic operations, e.r. square root.
         </div>
     </div>
@@ -52,7 +52,7 @@
             <img src="../pictures/blocks/maths/maths-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>constant</h4>
+            <h4>Constant</h4>
             Use this block to insert some mathematical constants to your code.
         </div>
     </div>
@@ -66,8 +66,8 @@
             <img src="../pictures/blocks/maths/maths-5.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Erhöhe-Block</h4>
-            Mit diesem Block kannst du den Wert einer numerischen Variable um einen bestimmten Betrag erhöhen.
+            <h4>The increase block</h4>
+            With this block you increase the value of a numeric variable by a certain value.
         </div>
     </div>
 </div>
@@ -80,8 +80,8 @@
             <img src="../pictures/blocks/maths/maths-6.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Runden-Block</h4>
-            Mit diesem Block kannst du Werte runden. Beim Runden werden die Nachkommastellen auf 0 gesetzt, dabei wird je nach Größe der Nachkommastellen automatisch auf- oder abgerundet. Du kannst jedoch auch einstellen, dass immer auf- bzw. immer abgerundet wird.
+            <h4>The round block</h4>
+            With this block you can round values. The round block the decimal numbers are set to 0. Depending on the value, the value is rounded down or up. Either way, you can choose if you want to round down or up in the settings menu.
         </div>
     </div>
 </div>
@@ -94,12 +94,13 @@
             <img src="../pictures/blocks/maths/maths-7.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Begrenze-Block</h4>
+            <h4>The range block</h4>
+            With this block you can assign a range. Three values have to be set:
             Dieser Block sorgt dafür, dass bestimmte Grenzwerte nicht überschritten werden. Dazu müssen drei Werte eingegeben werden:
             <ul>
-                <li>Der zu prüfende Wert</li>
-                <li>Die untere Grenze</li>
-                <li>Die obere Grenze</li>
+                <li>The examined value</li>
+                <li>The lower limit</li>
+                <li>The upper limit</li>
             </ul>
 
         </div>
@@ -114,8 +115,8 @@
             <img src="../pictures/blocks/maths/maths-8.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Rest-von-Block</h4>
-            Dieser Block führt eine Division durch und gibt dir den Rest aus.
+            <h4>The Rest block</h4>
+            This block executes a division and returns the rest.
         </div>
     </div>
 </div>
@@ -128,8 +129,8 @@
             <img src="../pictures/blocks/maths/maths-9.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Zahleneigenschaften-Block</h4>
-            Mit diesen Block kannst du prüfen, ob eine eingegebene Zahl eine bestimmte Eigenschaft aufweist.
+            <h4>The number properties block</h4>
+            With this block you can check if a given number has certain properties.
         </div>
     </div>
 </div>
@@ -142,8 +143,8 @@
             <img src="../pictures/blocks/maths/maths-10.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Trigonometrische-Funktionen-Block</h4>
-            Mit diesem Block kannst du Sinus, Cosinus und Tangens sowie die dazugehörigen Unterfunktionen berechnen. Beachte, dass die Eingabewerte im Bogenmaß und nicht im Grad stehen.
+            <h4>The trigonometric functions block</h4>
+            With this block you can calculate sinus, cosinus and tangens with the corresponding sub-functions. Keep in mind to give the values in radians and not in degrees.
         </div>
     </div>
 </div>
@@ -156,11 +157,11 @@
             <img src="../pictures/blocks/maths/maths-11.png" alt="block" align="left">
         </div>
         <div class="col-md">
-                <h4>Der Verteile-Wert-Block</h4>
-                Mit diesem Block kannst du Werte von einem Wertebereich in einen anderen übertragen. Dazu musst du einen zu verteilenden Wert und einen neuen Wertebereich eingeben. 
+                <h4>The distribute values block</h4>
+                With this block you can distribute values from a value range to another. To do this you have to give a to be distributed value and a new range. 
                 
                 <button type="button" class="btn-modal" data-toggle="modal" data-target="#Modal-Display-Example">
-                    Verteile-Wert Beispiel
+                    distribute values example
                 </button>
     
                 <!-- Modal begin -->
@@ -169,14 +170,14 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="ModalLabelDisplayExample">Verteile-Wert Beispiel</h5>
+                                <h5 class="modal-title" id="ModalLabelDisplayExample">distribute values example</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
                                 <div class="row well">
-                                   In diesem Beispiel wird der analoge Geräuschsensor ausgelesen. Zuerst werden die gemessenen analogen Werte (Wertebereich von 0 bis 1023) direkt angezeigt.
+                                    In this example the analog noise sensor is checked. First die measured analog values (Range from 0 bis 1023) will be displayed.
                                    <div class="col-xs-9">
                                         <h6 align="center">Blöcke ohne Verteilung</h6>
                                         <img src="../pictures/blocks/maths/sound-example.png" alt="block" align="left">
@@ -187,7 +188,7 @@
                                     </div>
                                 </div>
                                 <div class="row well">
-                                    Hier werden die gemessenen Werte zusätzlich durch den Verteile-Wert-Block in einen neuen Wertebereich von 0 bis 10 übertragen.
+                                    Here the measured values will be distributed to the new range of 0 to 10.
                                     <div class="col-xs-9">
                                         <h6 align="center">Blöcke mit Verteilung</h6>
                                         <img src="../pictures/blocks/maths/sound-example-mapped.png" alt="block" align="left">
@@ -199,7 +200,7 @@
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                                <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
@@ -216,8 +217,8 @@
             <img src="../pictures/blocks/maths/maths-12.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Zufallszahl-Block</h4>
-            Dieser Block bestimmt eine Zufallszahl zwischen 0,0 und 1,0.
+            <h4>The random numbers block</h4>
+            This block returns a random number from 0.0 to 1.0
         </div>
     </div>
         </div>
@@ -232,8 +233,8 @@
             <img src="../pictures/blocks/maths/maths-13.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Der Ganzzahlige-Zufallszahl-Block</h4>
-            Mit diesem Block können ganzzahlige Zufallswerte innerhalb selbst festgelegter Grenzen erzeugt werden.
+            <h4>The advanced random numbers block</h4>
+            This block returns a random whole number in the given range.
         </div>
     </div>
 </div>

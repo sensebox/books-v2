@@ -178,7 +178,7 @@
         </div>
         <div class="col-md">
             <h4>Measurement interval</h4>
-            Transmitten values each second to the openSeneMap is not sufficient. With this Block you can setup a interval timer. Everything which should be done after the interval timer need to be placed within this Block loop.
+            Transmitting values each second to the openSeneMap is not sufficient. With this Block you can setup a interval timer. Everything which should be done after the interval timer need to be placed within this Block loop.
         </div>
     </div>
 </div>
