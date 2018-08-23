@@ -2,11 +2,11 @@
 
 * [Blockly for senseBox Documentation](README.md)
 
-## Blockly für senseBox
+## Blockly for senseBox
 * [Blockly for senseBox online](overview/blockly_online.md)
 
-## Blöcke
-* [block overview](blocks/README.md)
+## Blocks
+* [Block overview](blocks/README.md)
     * [senseBox sensors](blocks/sensebox_sensors.md)
     * [senseBox display](blocks/sensebox_display.md)
     * [senseBox output](blocks/sensebox_output.md)
