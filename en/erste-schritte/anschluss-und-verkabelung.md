@@ -1,32 +1,32 @@
-# Schritt 3: Anschluss und Verkabelung {#head}
+# Step 3: Pin and Wiring {#head}
 
-<div class="description">Durch das I2C Stecksystem ist der Anschluss der Sensoren und Komponenten an die senseBox MCU sehr einfach. Hier siehst du noch einmal eine grobe Übersicht über die einzelnen Komponenten</div>
+<div class="description">Due to the I2C plug-in system, the pin of the sensor and components to the senseBox MCU is very easy. You will here see a complete overview of all the components</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-## Anschluss von Bees
+## Pin of Bees
 
-Der Anschluss der Bees ist ganz einfach. Durch das Stecksystem reicht es das Bee direkt auf den Microcontroller aufzusetzen. Dabei gibt es nur zwei Dinge zu beachten: 1. Die Ausrichtung auf dem Board und 2. Der richtige Portanschluss auf dem Microcontroller. 
+The pin of the Bees is very simple. The plug-in system makes it possible to just plug the bee on to the microcontroller. You have to consider only two things: 1. The orientation on the board 2. and the correct portpin on the microcontroller.
 
-### WiFi-Bee, Ethernet-Bee und LoRa-Bee
-Diese Bees werden alle auf den Port 1 aufgesteckt. Den richtigen Port erkennst du an der Beschriftung: ``XBEE1``. Die richtige Richtung beim Aufstecken erkennst du an der 7-eckigen Kennzeichnung auf dem Board und der Bee.
+### WiFi-Bee, Ethernet-Bee and LoRa-Bee
+These bees all have to be plugged in port 1. You can identify the correct port by the marking: ``XBEE1``. The 7-angled sign on board and bee shows you the correct plug-in direction.
 
 ![Exemplarischer Anschluss der WiFi-Bee an die MCU (XBEE1)](../pictures/plug-in-components/wifi-anschluss.png)
 
 ### mSD-Bee
-Die SD-Bee wird an Port 2 aufgesteckt, welcher standardmäßig dafür freigeschalten ist. Den richtigen Port erkennst du an der Beschriftung: ``XBEE2``. Die richtige Richtung beim Aufstecken erkennst du an der 7-eckigen Kennzeichnung auf dem Board und der Bee.
+The SD-bee has to be plugged on to port 2, which is by default activated. The marking: ``XBEE2`` shows you the correct port and the the 7-angled sign the correct direction of the pin.
 
 ![Anschluss der mSD-Bee an die MCU (XBEE1)](../pictures/plug-in-components/sd-anschluss.png)
 
-## Anschluss von einfachen Sensoren
-Die Sensoren, welche mit der senseBox gekauft werden können, sind mit den beiliegenden "I2C to I2C" Kabeln sehr einfach anzuschließen. Dafür musst du die Steckplätze auf dem Board verwenden die mit ``I2C/Wire`` gekennzeichnet sind.
+## Pin of the Basic Sensors
+The sensor, which can be bought with the senseBox are easy to connect with the enclosed "I2C to I2C" wires. Please use the slots that are marked with ``I2C/Wire``.
 
 ![Anschluss einfacher Sensoren)](../pictures/plug-in-components/sensor-anschluss.jpg?raw=true)
 
-## Anschluss vom Feinstaubsensor
-Der Feinstaubsensor, der mit der senseBox gekauft werden kann, hat ein beiliegendes passendes Kabel, welches den Sensor mit dem Board verbinden kann. Hierfür musst du die Steckplätze auf dem Board verwenden die mit ``UART/Serial`` gekennzeichnet sind. Weitere Infos zum Anschluss des Feinstaubsensors findest du übrigens [hier](../komponenten/sensoren/feinstaub.md).
+## Pin of the Fine Dust Sensor
+The fine dust sensor, which can be bought with the senseBox has an enclosed and fitting wire that connects sensor and board. Therefor you have to use the slots with the marking: ``UART/Serial``. [Here](../komponenten/sensoren/feinstaub.md) you can find further information to the pin of the fine dust sensor.
 
 ![Anschluss Feinstaubsensor)](../pictures/plug-in-components/feinstaub-anschluss.jpg)
