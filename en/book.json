@@ -1,0 +1,38 @@
+{
+  "gitbook": "^3.2.2",
+  "plugins": [
+    "edit-link",
+    "localized-footer",
+    "scramble-mailto",
+    "hide-published-with",
+    "youtubex",
+    "katex",
+    "collapsible-chapters",
+    "sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0",
+    "scripts",
+    "printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox",
+    "validate-links",
+    "codetabs",
+    "simpletabs",
+    "image-captions",
+    "collapse",
+    "image-wrapper"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/sensebox/books-v2/tree/master",
+      "label": "Seite bearbeiten"
+    },
+    "image-captions": {
+          "caption": "_CAPTION_"
+      }
+  },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    
+    }
+}
