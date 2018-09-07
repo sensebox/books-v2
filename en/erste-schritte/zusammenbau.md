@@ -1,5 +1,5 @@
-#Schritt 7: Zusammenbauen im Gehäuse {#head}
-<div class="description">Im folgenden wird der Zusammenbau der senseBox:home im Gehäuse erklärt. </div>
+#Step 7: Assembly in Case {#head}
+<div class="description">Below the assembling of the senseBox:home in the case is going to be explained. </div>
 
 <div class="line">
     <br>
@@ -8,43 +8,40 @@
 
 
 
-##Inventarliste 
+##Inventory
 
-### Grundausstattung
+### Basic Configuration
 
 ![Komponentenübersicht der Standardversion](../pictures/01_aufbau.png)
 
-- Gehäuse mit Deckel
-- mini-USB Kabel + Adapter
-- senseBox MCU 
-- Sensor für Luftfeuchte und Temperatur 
-- Schutzgehäuse für Sensor mit Luftfeuchte und Temperatur + Zubehör
-- Plexiglas mit Plastikstiften 
-- M20 Gewinde 
-- Tüte mit 8 Schrauben
+- case with lid
+- mini-USB wire + adapter
+- senseBox MCU
+- sensor for humidity and temperature
+- protective case for humidity and temperature sensor + attachments
+- plexiglas with plastic bolts
+- M20 screw thread
+- bag with 8 screws 
 - Bee
 
 
 
-# Aufbau
+# Installation
 
-## 1. Schritt
+## 1. Step
 
-*senseBox MCU im Gehäuse anbringen:* 
+*mounting of senseBox MCU in the case:* 
 
-Dazu richtest du die MCU so aus, dass der micro USB-Anschluss und der rote Knopf zum Loch im Gehäuse zeigen.
-Danach schraubst du die MCU mit zwei kleinen Schrauben am Gehäuse fest. Nutze dazu die beiden mittleren Löcher an der Längsseite 
-des MCUs.
-
+Therefor you have to align the MCU so that the micro USB-access and the red button are pointing to the hole in the case. Please screw the MCU to the case with the two provided screws. Use therefor the two holes in the middle of the long side of the MCU.
 
 
 ![ MCU im Gehäuse](../pictures/mcu_verschraubung.jpeg)
 
 
 
-## 2. Schritt
+## 2. Step
 
-*Anschließen vom Bee und Temperatur- und Luftfeuchtigkeitssensor:*
+*Connecting Bee and humidity-/ temperaturesensorAnschließen vom Bee und Temperatur- und Luftfeuchtigkeitssensor:*
 
 Unanhängig davon, welches Bee du benutzt, musst du im nächsten Schritt dein Bee auf dem dafür vorgesehenen *XBEE1* Steckplatz anbringen. 
 
