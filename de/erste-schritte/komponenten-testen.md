@@ -28,6 +28,11 @@ Als nächstes wählt ihr unter `Werkzeuge` -> `Port` die Anschlussnummer des USB
 ### Hello World Beispiel
 Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeilsymbol in der Werkzeugleiste. Im unteren Teil der Arduino Oberfläche bekommt ihr Feedback zum Uploadvorgang. Wenn alles geklappt hat, erscheint dort die Meldung `Hochladen abgeschlossen`.
 
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Wenn du noch nicht mit der Arduino IDE gearbeitet hast, kannst du [hier](.../edu/grundlagen/der-arduino-sketch.md) erfahren was es mit den verschiedenen Pfeilen und Symbolen auf sich hat.
+</div>
+
 ```cpp
 int ledPin = LED_BUILTIN; 
 
