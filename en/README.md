@@ -1,5 +1,5 @@
-# Das senseBox:home Buch {#head}
-<div class="description">Dein Weg zur eigenen Umweltmessstation, vom Aufbau bis zur Programmierung.</div>
+# The senseBox:home Book {#head}
+<div class="description">In this book you learn how to built and code your senseBox:home. Have fun!</div>
 
 <div class="line">
     <br>
@@ -8,76 +8,79 @@
 
 
 
-## Über dieses Buch:
+## About the book:
 
-Dieses Buch begleitet dich auf deinem Weg zur eigenen Umweltmessstation, vom Aufbau bis zur Übertragung des Programm-Codes. Du lernst so eine Menge darüber wie deine Station funktioniert und wo deine Daten herkommen.
+In this book you learn how to built and programm your senseBox:home. Additionally, you learn a lot about how the measurement station, how the data is transmitted and how to integrate the data on openSenseMap.
 
-Damit du ohne weiteres starten kannst, lies dir einmal kurz aber gründlich die Einleitung durch. Sie hilft dir das Buch besser zu verstehen und gibt dir Einsicht in das, was dich erwartet.
+Before you start, please read this introduction. It will help you to understand the book and gives you insights into the structure of the book.
 
-## Einleitung
-Das senseBox:home Buch ist ein Buch für Besitzer der senseBox:home, aber auch für alle Interessierten. Also für alle die sich nicht nur einfach eine Wetterstation kaufen und aufhängen wollen, sondern für jene, die verstehen wollen wie so eine Station funktioniert und was nötig ist um Daten zu generieren. Mit der senseBox:home lernst du nicht nur mehr über deine Wetterstation, du kannst sie auch erweitern und eine umfangreiche Umweltmessstation aus ihr bauen, die nicht nur Temperatur und Luftfeuchte misst, sondern mit den passenden Sensoren auch Feinstaub oder UV-Strahlung messen kann. Diese Daten kannst du auf die [openSenseMap](https://opensensemap.org/) übertragen, um sie mit vielen anderen Menschen in einem Pool aus Open-Data zu teilen oder, um dir deine Datenhistorie einfach anschauen zu können. Deine senseBox:home kannst du dir selber zusammenstellen aus einem Basis-Setup und einer Auswahl von Sensoren, Übertragungsmodulen und weiterem Zubehör. Sie kann Zuhause, am Arbeitsplatz oder an einem anderen Ort deiner Wahl aufgestellt werden.
+## Introduction
+The senseBox:home book is mainly done for owners of the senseBox:home, but also for all interested people which want to get in contact with senseBox. This senseBox:home is a DIY project, this means you decide on your own how you senseBox will look like and which data will be collected.You always have the option to adapt more sensors afterwards to your senseBox to measure fine dust, UV and illumination, air preasure or even NOx. All this data you can be upload on [openSenseMap](https://opensensemap.org/) to share them with all other senseBox owners as "open data" and to observe and interpret the data history of your senseBox.
 
-Dieses Buch hilft dir bei den [Ersten Schritten](erste-schritte/software-installation.md) mit deiner senseBox:home, unterstützt dich beim Aufbau deiner Station und erklärt dir die einzelnen Komponenten der senseBox. Du solltest mit den ersten Schritten starten, um dich an die senseBox heranzutasten, bevor Du deine senseBox zusammenbaust.
+This book will help you first to do the [Erste Schritte](erste-schritte/software-installation.md) with your senseBox:home. Afterwards, it explains you the several components and their features. Finally, you find some information about common issues and frequently asked questions.
 
-Auf dem Weg durch das Buch wirst Du dich mithilfe der Seitenleiste links oder mit den grünen Pfeiltasten auf den Seiten durch die Anleitungen klicken.
-Jede Seite hat eine überschrift und darunter eine grau hinterlegte Box mit grüner Schrift in der eine kleine Beschreibung der Seite verfasst wurde. Das ganze sieht in etwa so aus:
+On your way through the book you will be guided with the side bar on the left side and the green arrow buttons. Each chapter has a small introduction in a grey boy with green letters about the content of the page at the beginning. 
 
-#Überschrift
+This will look like this:
+
+#Headline
 <div class="description">
-Hier steht eine kleine Beschreibung von dem was dich erwartet auf dieser Seite.
+This is the content which will be in the chapter.
 </div>
 <div class="line">
     <br>
 </div>
 <br>
-Außerdem werden dir mit Sicherheit einige unserer vier verschiedenen Arten von Hinweis-Boxen begegnen. Hier siehst du wofür die Boxen stehen und was sie dir vermitteln:
+Moreover we added some notice boxes for specific content. There are four types of boxes:
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Diese Box ziegt dir Info-Hinweise. Zum Beispiel Links zu weiteren Informationsquellen oder weiteres Hintergundwissen.</div>
+    This type of notice shows you Information such as links to additional information sources or advanced background knowledge.</div>
 
 <div class="box_success">
     <i class="fa fa-check fa-fw" aria-hidden="true" style="color: #50af51;"></i>
-   Diese Hinweis-Box ist eine Art Checkliste. In ihr stehen zusammenfassend Sachen die du im Laufe der Seite erledigt hast. An ihr kannst du abschließend abhaken, ob du keinen wichtigen Zwischenschritt vergessen hast. 
+   This type of notice contains a checklist. The checklist is typically a summary about the things you should have done in the chapter.
+    With the list you can check if you did not forget any important steps.
 </div>
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Dies ist ein Warn-Hinweis! Er weist dich auf potentielle Fehlerquellen hin oder zeigt dir Stellen an denen du besonders vorsichtig arbeiten musst oder besonders genau hinschauen solltest!
-</div>
+    This type of notice is a warning sign. It guides your attention at situations in the book in which you have to work very carefully.</div>
 
 <div class="box_error">
     <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
-    Diese Box weist dich auf Fehler hin. Sie zeigt dir z.B. was du machen kannst um einen bereits geschehenen Fehler zu korriegieren. 
+    This type of notice informs you about typical errors. It shows you for example what you can do if you already did a mistake.
 </div>
 
-Weiterhin gibt es einige Absätze die dir nicht direkt angezeigt werden, sie enthalten Inforamtionen über weitergehende Themen oder Aufgaben und Beispiele. Um Dir eine Übersicht zu schaffen sind sie eingeklappt. Möchtest du den Inhalt sehen klicke einfach auf die Überschrift des Absatzes. Du erkennst eingeklappte Absätze an der grauen Box mit grüner Schrift, ähnlich wie bei der Box unter der Überschrift der Seite. Zusätzlich befindet sich ein kleiner grüner Pfeil der dir vermittelt ob der Absatz ein- oder ausgeklappt ist. Schau dir hier doch einfach mal so einen versteckten Absatz an:
+In extension we offer some passages which are hidden. They contain information about further topics and examples. If you click on this passage it will drop out. Here is an example for a hidden passage:
 
 {% collapse title="Ein versteckter Absatz" %}
- Super, du hast alles richtig verstanden! Klicke noch einmal auf die grüne Überschrift des Absatzes und ich verschwinde wieder!   
+ Nice, you got it! Click again on the gread headline to hide this passage again.
 {% endcollapse %}
 
-Als letztes wichtiges Element, dass du kennen solltest bevor Du mit diesem Buch durchstarten kannst haben wir sogenannte "Tabs". Du kennst sie vermutlich aus deinem Internet-Browser und wenn Du dich aktuell im Internet befindet hast du auch bestimmt mehrere Tabs geöffnet. Wir haben ähnlich wie im Browser auch Tabs, diese sind allerdings innerhalb der Seite eingebaut. Sie helfen uns, das was du siehst, auf das was du auch wirklich benötigst, zu reduzieren. Wenn wir zum Beispiel eine Anleitung beschreiben um ein Programm zu installieren tun wir dies für verschiedene Betriebssysteme (Windows, OSX(Mac) und Linux). Da Du im Normalfall nur an einem Computer arbeitest ist für dich nur das darauf installierte Betriebssystem von Interesse. Daher integrieren wir die Installationsanleitungen in drei Tabs. In jedem dieser drei Tabs wird die passende Anleitung für ein Betriebssytem angezeigt. Du wählst das zu deinem System passende Tab aus und bekommst so nur die passende Anleitung angezeigt und nicht die anderen beiden. Probier es einfach mal aus und schau dir an was passiert wenn du hier die verschiedenen Tabs anklickst.
-
-{% tabs first="Erster Tab", second="Zweiter Tab", third="Dritter Tab" %}
+The last element in this book which you should familiar with are "tabs". You will know them from your internet browser to open more than one websites at the same time. In this book we use tabs to reduce the content of the page and let you only see what you really need. An example is that we use them to display differences between the operating systems (Windows, OSX(Mac) and Linux). In the most cases you will only be interested in one of the operating systems, so just click on the tab with the system you use. Just try it in the following example:
+{% tabs first="First Tab", second="Second Tab", third="Third Tab" %}
 {% content "first" %}
 # Erster Tab
-Ich bin der erste Tab, ich bin standardmäßig aufgerufen wenn du diese Seite öffnest. 
+The first tab is opened initially.
 
 {% content "second" %}
 # Zweiter Tab
-Ich bin der zweite Tab, indem du mich angewählt hast ersetzt mein Inhalt den Inhalt des ersten Tabs.
+You chose the second tab.
 
 {% content "third" %}
 # Dritter Tab
-Ich bin der dritte Tab, indem du mich angewählt hast wird der Inhalt des vorher ausgewählten Tabs durch meinen Inhalt ersetzt. Viel Spaß noch mit dem senseBox:edu Buch!
+You got it! You opended the third tab.  
 
 {% endtabs %}
 <div class="line" style="border-bottom: solid 1px #a6a6a6!important;">
     <br>
 </div>
 <br>
-Hast Du dir die Tabs und alle weiteren Elemente angeschaut? 
-Wenn ja, dann kannst Du jetzt loslegen mit diesem Buch und deiner senseBox:edu!
+You checked out the tabs and all the other elements of the book?
 
-Viel Spaß wünscht dir das Team der [senseBox](https://sensebox.de/)! 
+Then you can start now with your senseBox:home! 
+
+We wish you a lot of fun!
+
+Your [senseBox](https://sensebox.de/) Team! 
