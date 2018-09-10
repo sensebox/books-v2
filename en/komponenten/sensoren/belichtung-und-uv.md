@@ -1,35 +1,36 @@
-# Beleuchtungsstärke und UV-Strahlung Sensor {#head}
+# Illumination and UV-Radiation Sensor {#head}
 <div class="description">
 
-Auf diesem senseBox-Bauteil sind zwei Sensoren zusammengelegt.
+Two sensors are put together on this senseBox component.
 
-Die Lichtintensität wird mit dem TSL45315-Sensor von AMS-TAOS gemessen. Dieser Sensor erkennt die Lichtverhältnissen ähnlich dem menschlichen Auge und gibt die Helligkeitswerte direkt in Lux, mit großem Dynamikbereich (3 Lux bis 220k Lux), aus.
+The light intensity is measured with the TSL45315 sensor from AMS-TAOS. This sensor detects the light conditions similar to the human eye and outputs the brightness values directly in lux, with a large dynamic range (3 lux to 220k lux).
 
-Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Dieser wandelt die Intensität des UV-Lichts der Sonne in digitale Daten um. Der Sensor hat eine hervorragende UV-Empfindlichkeit und Linearität über Filtron™-Technologie. Er hat eine gute UV-Strahlungsmessung auch bei langer Sonnen-UV-Belastung und kann exzellenter Temperaturschwankungen ausgleichen.
+The second sensor is a Vishay VEML6070 Ultraviolet (UV) light sensor. This converts the intensity of the UV light of the sun into digital data. The sensor has excellent UV sensitivity and linearity via Filtron ™ technology. It has a good UV radiation measurement even with long solar UV exposure and can compensate for excellent temperature fluctuations.
+
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-![Beleuchtungsstärke und UV-Stahlung](../../pictures/tsl top.png)
+![Illumination and UV-Radiation](../../pictures/tsl top.png)
 
-## Technische Details
+## Technical Details
 
-### Belichtungssensor
+### Exposure Sensor
 
-* 3,3V - 5V tolerantes I2C/TWI Interface
-* Eingangsspannungsbereich: 3,3V - 5V
-* on-board 2,5V Spannungsregler
-* on-board Pegelwandler
+* 3,3V - 5V tolerant I2C/TWI Interface
+* input voltage range: 3,3V - 5V
+* on-board 2,5V voltage regulator
+* on-board levelconverter
 
 ### UV-Sensor
 
-* Betriebsspannung: 2,7V - 5,5V I2C Interface
-* Unterstützt Quittierungsfunktion (Active Acknowledge-Funktion)
-* Temperaturkompensation: -40°C bis +85°C
-* Software-Abschaltregelung für Immunität bei flackernden Leuchtstofflampen
+* operating voltage: 2,7V - 5,5V I2C Interface
+* supports confirmation function  (Active Acknowledge-Function)
+* temperature compensation: -40°C to +85°C
+* Software-switching of control for immunity with flickering fluorescent lamps
 
-## Maße
+## Measurement
 * 25mm x 25mm x 9mm
-* Gewicht: 2,5 g
+* Weight: 2,5 g
