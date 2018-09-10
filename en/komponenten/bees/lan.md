@@ -1,22 +1,23 @@
-# Lan-Bee {#head}
+# Ethernet-Bee {#head}
 <div class="description">
-Verbindungsstück um die senseBox mit dem Internet zu verbinden. Die Daten der senseBox werden per per LAN-Kabel an direkt an einen Router übertragen. Das LAN-Bee basiert auf dem W5500 Mikrochip von Wiznet welcher einen hohe Ethernet Datenübertragungsrate ermöglicht.</div>
+This Bee connects the senseBox with your router. The data of your senseBox will be transmitted using a ethernet cable to your router. The bee is based on the W5500 Mikrochip by Wiznet which allows a high ethernet data transmission rate.</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-![LAN Bee](../../pictures/Lan_bottom.png)
+![Ethernet Bee](../../pictures/Lan_bottom.png)
 
-## Technische Informationen
+## Technical Information
 
 
-* "plug-in-and-go" senseBox kompatibel
-* 3.3V Betriebsspannung mit 5V I/O signal Toleranz
-* Bezeichnung: W5500
-* Maße: 46mm x 25mm x 12mm
-* Gewicht: 9,2 g
+* "plug-in-and-go" senseBox compatible
+* 3.3V operating voltage with 5V I/O signal tolerance
+* Indication: W5500
+* Measurements: 46mm x 25mm x 12mm
+* Weigt: 9.2 g
 
-## Hinweise und Tipps
+## Tipps and Hints
 
-Das LAN-Bee wird ohne LAN-Kabel geliefert. Es eignen sich aber insbesondere flache LAN-Kabel, welche man einfach durch Fenster und Türen nach außen legen kann. Insbesondere in Kombination mit Power over Ethernet (PoE) kann die senseBox dann einfach betrieben werden.
+The Ethernet Bee will be delivered without Ethernet cable. We prefer to use flat cables, which can be also pulled below windows and doors.  
+Especially in combination with  Power over Ethernet (PoE) the Ethernet bee is an interesting option.
