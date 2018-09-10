@@ -1,94 +1,93 @@
 
-# Schritt 1: Software Installation {#head}
- <div class="description">Bevor du mit dem Messen von Phänomenen starten kannst, musst du noch ein paar Dinge beachten. Dazu gehört die Installation von verschiedenen Treibern und Software. Keine Sorge, es handelt sich um Open-Source-Software, du zahlst also nichts dafür. Du solltest dir die Schritte 1 bis 8 allerdings genau anschauen, damit später keine Probleme auftreten. </div>
+# Step 1: Software Installation {#head}
+ <div class="description">Before you start measuring phenomena, you have to consider some things like the installation of different drivers and software. No worries it is an Open-Source-Software so you don't have to pay anything. However you should read the steps 1 to 8 carefully so there will not be any problems later.</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Arduino IDE installieren
+## Installation of Arduino IDE
 
-Bevor die senseBox aktiviert werden kann, musst du Treiber sowie eine Software auf deinem Computer installieren. Außerdem ist es vor Inbetriebnahme der senseBox ratsam einen Testlauf durchzuführen, um zu überprüfen ob die Sensoren korrekt funktionieren und die Kommunikation mit dem Internet reibungslos läuft.
+Before the senseBox can be activated, you have to install a driver as well as a software on your computer. Furthermore it is advisable to conduct a test run to check if all the sensors operate correct to ensure the communication with the internet without any problems.
 
-Schau dir die Anleitung für dein Betriebsystem an und folge den angegebenen Schritten.
+Please have a look at the instructions for your operation systems and follow the indicated steps.
 
 {% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
 {% content "first" %}
-### Arduino Software für Windows herunterladen
+### Download of the Arduino Software for Windows
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
+> Please use Arduino 1.8.5 or higher for a fluent procedure.
 
 
-Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version als zip-Datei von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+The senseBox is a microcontroller with diffent components and sensors. She is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
 
 ![ ](arduino-windows-view.png)
-
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
+Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
 ![ ](arduino-just-download.png)
 
-Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die zip-Datei. Durch das Starten der Datei `arduino.exe` kann die IDE gestartet werden.  
+Compile a new folder and unzip the zip-file in the new folder. By starting the file `arduino.exe` the IDE can get started.  
 
 {% content "second" %}
 
-### Arduino Software für Mac(OSX) herunterladen
+### Download the Arduino Software for Mac(OSX) 
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
+> Please use Arduino 1.8.5 or higher for a fluent procedure.
 
-Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+The senseBox is a microcontroller with diffent components and sensors. She is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
 
 ![ ](arduino-mac-view.png)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
+Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
 ![ ](arduino-just-download.png)
 
-In deinem Downloads-Ordner sollte eine Arduino.app Datei erscheinen. Verschiebe diese Datei in deinen "Programme"-Ordner. Durch starten der Datei `Arduino.app` kann die IDE gestartet werden. 
+In your download file should appear a  Arduino.app file. Relocate the file into your "Programme"-folder. By starting the file `Arduino.app` you can run the IDE. 
 
 
 {% content "third" %}
 
-### Arduino Software für Linux herunterladen
+### Download the Arduino Software for Linux
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.5 oder höher nutzen.
+> Please use Arduino 1.8.5 or higher for a fluent procedure.
 
-Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die neueste Version von der [Arduino Homepage](https://www.arduino.cc/en/main/software) herunter:
+The senseBox is a microcontroller with diffent components and sensors. She is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
+
 
 ![ ](arduino-linux-view.png)
 
-Arduino ist ein Open-Source Projekt und wird durch Spenden finanziert. Daher wirst du vor dem Download nach einer Spende gefragt; das kannst du überspringen, indem du auf `JUST DOWNLOAD` klickst.
+Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
 ![ ](arduino-just-download.png)
-### Installation der IDE unter Linux {#installation-der-ide-unter-linux}
+### Installation of the IDE with Linux {#installation-der-ide-unter-linux}
 
-Linux-Nutzer können die Linuxvariante herunterladen und entpacken. Das enthaltene `install.sh`-Skript legt automatisch eine Desktopverknüpfung an. Am schnellsten geht dies über den Terminal. Öffne dazu den Terminal in dem du die Tasten `Ctrl + Alt + T` drückst und gib dort die folgenden Befehle ein:
+Linux-user can download and unzip a Linux version. The contained `install.sh`-script compiles a desktop shortcut automatically. The fastes way is to use the terminal. Open the Terminal therefor by hitting the keys `Ctrl + Alt + T` and enter the following commands:
 
 ```text
-# sollte die heruntergeladene Datei nicht im Downloads-Ordner abgespeichert sein, ersetze "Downloads" durch den Pfad zum entsprechenden Ordner
-cd Downloads 
+# if the downloaded file is not stored in the download-folder, replace "downloads" by the path to the according folder cd downloads 
 ```
 
 ```text
-# entpacke die Datei mit folgendem Befehl und installiere Arduino
+# unzip the file with the following command and install Arduino
 tar -xvf arduino-1.8.5-linux64.tar.xz
 cd arduino-1.8.5
 ./install.sh
 ```
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Achte darauf, dass der Befehl auf die heruntergeladene Arduinoversion abgestimmt ist! Lädst du z.B. Arduino 1.8.6 muss auch überall wo arduino-1.8.5 steht arduino-1.8.6 stehen. Um zu überprüfen welche Version du heruntergeladen hast, schau dir den Namen der Download-Datei an.
+    Watch out, that the command is coordinated to the downloaded Arduinoversion! If you are downloading for example Arduino 1.8.6 everywhere where arduino-1.8.5 stands arduino-1.8.6 has to stand to. Watch the name of the download-file to check which version you have downloaded.
 </div>
 
-Um den Arduino programmieren zu können, sind unter Ubuntu 14 & 16 zusätzliche Rechte notwendig. Diese können für den aktuellen Nutzer mit den folgenden Befehlen eingerichtet werden \(benötigt Admin-Rechte\):
+To programme Arduino ther are additional rights necessary at  Ubuntu 14 & 16. Those can be established by the following commands \(benötigt Admin-Rechte\):
 
-Führe `udevadm monitor --udev` aus und schließe den Arduino per USB an, um die Device-ID zu bestimmen. Der angegebene Bezeichnung am Ende der Ausgabe \(zB. `ttyUSB0`\) ist die Device-ID. Beende `udevadm` per `ctrl+C`, und führe noch die folgenden Befehle aus, wobei die herausgefundene Device-ID eingesetzt werden muss:
+Implement `udevadm monitor --udev`  and connect Arduino by USB to determine the Device-ID. The indicated label at the end of the output \(zB. `ttyUSB0`\) is the device-ID. Finish `udevadm` with `ctrl+C`, and run the following command whereby the found out Device-ID has to be implemented:
 
 ```text
 sudo usermod -a -G dialout $(whoami)
 sudo chmod a+rw /dev/<device-id>
 ```
 
-Nach einem Logout und erneutem Login sollte der Arduino aus der Arduino IDE programmierbar sein!
+After a logout and again a Login the Arduino should be programmable out of the Arduino IDE!
 
 {% endtabs %}
 
