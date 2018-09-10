@@ -109,7 +109,7 @@ Dazu schreibt ihr die Nummer der entsprechenden Option in das Eingabefeld und kl
   Jedes senseBox Board besitzt einen eigenen, einzigartigen Sicherheitsschlüssel den ihr mit dieser Option auslesen könnt. Er wird genutzt, um die Verbindung zwischen der openSenseMap und eurer senseBox zu verschlüsseln, damit niemand eure Messungen von außen manipulieren kann.
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-     Ihr benötigt diesen Schlüssel im nächsten Schritt bei der Registrierung eurer senseBox auf der openSenseMap.
+     Ihr benötigt diesen Schlüssel aktuell noch nicht bei der Registrierung eurer senseBox auf der openSenseMap. Dies wird sich jedoch bald ändern.
   </div>
 
 ------
