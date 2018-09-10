@@ -1,5 +1,5 @@
-# Inventar {#head}
-<div class="description">Hier findest du eine Übersicht was in deiner senseBox:Home alles enthalten ist. Beachte dabei, dass nicht jede senseBox:Home gleich ist. Bei der Bestellung in unserem Online-Shop kannst du dir deine senseBox:home nach deinen Wünschen zusammenstellen. Es gibt dabei immer ein Basis-Setup, dass bei jeder senseBox:home dabei ist sowie verschiedene <a href="/komponenten/sensoren/README.md">Sensoren</a>, <a href="/komponenten/bees/README.md">Bees</a> und <a href="/komponenten/zubehoer/README.md">weiteres Zubehör</a> entsprechend deinen Bedürfnissen.</div>
+# Inventory {#head}
+<div class="description">Here you will find a overview what you can find in your senseBox:home. Please note that not all senseBox:home have the same setup. However, there is always a basis setup with the microcontroller and some parts to setup the box, but there can be different <a href="/komponenten/sensoren/README.md">sensors</a>, <a href="/komponenten/bees/README.md">bees</a> and <a href="/komponenten/zubehoer/README.md">more additional equipment</a> entsprechend deinen Bedürfnissen.</div>
 
 <div class="line">
     <br>
@@ -8,7 +8,7 @@
 
 ##Basis-Setup 
 
-Die senseBox:home hat ein Basis-Setup, dass bei jeder Box mitgeliefert wird. Das Basis-Setup besteht aus den folgenden Komponenten. Klicke auf den Namen der Komponente, um mehr über ihre Eigenschaften zu erfahren.
+The senseBox:home has a Basis-Setup which comes with each senseBox and consist of the following components:
 
 
 + [senseBox MCU](komponenten/sensebox-mcu.md)
@@ -18,37 +18,39 @@ Die senseBox:home hat ein Basis-Setup, dass bei jeder Box mitgeliefert wird. Das
 + [Netzteil und USB-Kabel (3m)](komponenten/zubehoer/netzteil-und-usb-kabel.md)
 
 
-##Weitere Komponenten (nicht in jeder Box enthalten)
+##More components which can differ
 
-Um die senseBox:home flexibel zu gestalten und auf den Benutzer anzupassen kann ein Großteil der Komponenten nach eigenem Bedarf zusammengestellt werden. Es gibt dabei verschiedene Arten von Komponenten. Schaue dir hier an welche Komponenten zuwählbar sind bei deiner senseBox:home.
+We wanted to create the senseBox as flexible and customized as possible. Therefore sensors and the way to upload data (we call them "bees" can differ depending on you reseller. Check here which components exist.
 
 ### Bees 
-Die Bees sind die Schnittstellen deiner senseBox. Mit ihrer Hilfe kannst du Daten übertragen oder auf der senseBox speichern. Jede senseBox benötigt **mindestens 1 Bee**.
-Es gibt vier verschiedene Bees, du kannst auf der senseBox:home bis zu 2 Bees gleichzeitig aufstecken. Klicke auf den Namen des Bees, um mehr über seine Eigenschaften zu erfahren.
+Bees are the interface of your senseBox. Thanks to them you can upload, save and transmit data. **You need minimum one bee** to have a fully functional senseBox.
+
+Currently there are four differnt bees. However, you can put only two Bees at the same time on your microcontroller. Click on the name of a bee to learn more about it:
 
 * [Wifi-Bee](komponenten/bees/wifi.md)
 * [LAN-Bee](komponenten/bees/lan.md)
 * [SD-Bee](komponenten/bees/sd.md)
 * [LoRa-Bee](komponenten/bees/lora.md)
 
-### Sensoren
-Mit Hilfe dieser Sensoren lassen sich Umweltphänomene messen. Du kannst also entscheiden was du messen möchtest, oder eben auch was nicht. Klicke auf den Namen des Sensors, um mehr über seine Eigenschaften zu erfahren.
+### Sensors
+The sensors are the heart of your senseBox. Depending on what you want to measure you can add and choose the sensors for your senseBox. 
+Click on the name of a sensor to learn more about it:
 
 * [Luftdruck- & Temperatursensor](komponenten/sensoren/luftdruck-temperatur.md)
 * [Beleuchtungsstärke- & UV-Strahlungssensor](komponenten/sensoren/belichtung-und-uv.md)
 * [Feinstaubsensor(PM10 & PM2.5)](komponenten/sensoren/feinstaub.md)
+* [Temperatur & Luftfeuchte](komponenten/sensoren/hdc1080.md) 
 
-### Weiteres Zubehör
-Hier findest du alles weitere verfügbare an Zubehör für die senseBox. Um mehr über die einzelnen Komponenten zu erfahren, klicke einfach auf die Namen.
+### Additional Components
+There are some more components you can buy for your senseBox. Check them out by clicking on the names.
 
 + [GPS-Modul](komponenten/zubehoer/gps.md)
 + [LED-Display](komponenten/zubehoer/led-display.md)
 + [HUB](komponenten/zubehoer/hub.md)
 + [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
 
+Currently this is the set of components we offer. However we constantly increase the set of components we offer and try to fullfill all the wishes of the community. The senseBos is a open source microcontroller which you can extend with many more sensors. Feel free to adapt your own sensors on the senseBox if you feel able to make it on your own. Please understand that we cannon help you in that case with additional support. However, you might find help in the [senseBox community](https://forum.sensebox.de/)
 
-Aktuell sind das alle von uns angebotenen Komponenten. Natürlich versuchen wir unser Angebot für dich immer zu erweitern, daher schau immer mal wieder hier auf der Seite oder in unserem Shop, ob nicht schon ein neuer Sensor oder eine andere Erweiterung verfügbar ist. Falls du dich selbst als Tüftler siehst kannst du natürlich auch versuchen die senseBox:home um weitere Sensoren ohne unseren Support zu erweitern. Mit dem richtigen Know-How sind dir keine Grenzen gesetzt, was du mit deiner senseBox messen kannst.
-
-Und nun?
-Viel Spaß beim Zusammebau deiner senseBox:home!
+But let us start now with some action!
+Have fun with your senseBox:home!
 
