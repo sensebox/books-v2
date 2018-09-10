@@ -1,37 +1,36 @@
-# Schritt 6: Registrierung auf der openSenseMap {#head}
-<div class="description">Um die gemessenen Daten auf die openSenseMap zu übertragen, musst du dich dort zuerst registrieren und eine neue senseBox anlegen. Wie das geht, erfährst du im folgenden Abschnitt</div>
+# Step 6: Registration on the openSenseMap {#head}
+<div class="description">In order to transfer the measured data to the openSenseMap, you must first register there and create a new senseBox. How to do that you will find out in the following section</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-{% collapse title="Was ist die openSenseMap?" %}
+{% collapse title="What is the openSenseMap?" %}
 
-Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und entdecke einen riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap, sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du [hier](https://sensebox.github.io/books-v2/osem)
+The openSenseMap is a project to file, compare and visualise sensordata. Take a look at it by clickin on [www.opensensemap.org](https://www.opensensemap.org) and discover a vast data pool of sensordata from around the world. Not only senseBoxes send data to the openSenseMap but also other microcontroller with sensors. You can [here](https://sensebox.github.io/books-v2/osem) see how the individual functions of openSenseMap and their interfaces work.
 
 
 {% endcollapse %}
 
-## 1. Nutzeraccount Registrierung
-Gehe auf www.opensensemap.org und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
-
+## 1. Useraccount Registration
+Please go to www.opensensemap.org and create an account. To do this, click on "Login" in the top right corner and then go to "Sign up". You need a valid e-mail address to register. After successful registration you will receive an e-mail with a confirmation link. Please click the link to complete the registration.
 ![Account anlegen](../pictures/Sing_up.PNG)
 
-## 2. Eine neue senseBox anlegen
-Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anzulegen. Dafür klicke auf "New senseBox / Neue senseBox" in deinem Menü und bestätige die Nutzungsbedingungen. Befolge danach die Anweisungen der Registrierung und gebe folgende Daten an:
+## 2. Set up a new sensBox
+After successful registration you can start creating your senseBox. Click on "New senseBox / New senseBox" in your menu and confirm the terms of use. Follow the instructions of the registration and provide the following data:
 
-* Einen frei wählbaren Namen der senseBox
-* Die Umgebung (Exposure), in der du deine senseBox aufstellen möchtest
-* Den Ort (Location), an dem du deine senseBox aufstellen möchtest (du kannst deinen Standort auch automatisch bestimmen lassen)
+* A freely selectable name of the senseBox
+* The exposure, in which you want to set up your senseBox 
+* The location, where you want to set up your senseBox (you can also have your location determined automatically)
 
-Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der verwendeten Hardware gefragt. Wähle *senseBox:home V2* und den Bee den du verwendest (WiFi, oder Ethernet)
+Since the openSenseMap is open to all types of senseBoxes, you will be asked about the hardware used. Select * senseBox: home V2 * and the bee you use (WiFi, or Ethernet)
 
-![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](../pictures/Select_hardware.PNG)
+![Selection of senseBox:home V2 MCU and WiFi Internetconnection](../pictures/Select_hardware.PNG)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Du bist dir nicht sicher ob du ein Ethernet oder WiFi-Bee hast, oder kannst den Unterschied zwischen dem Luftdruck und Temperatursensor nicht erkennen? Im Kapitel <a href = "../komponenten/README.md">Komponenten</a> findest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
+  You are not sure if you have an ethernet or a wifi-bee, or you can not see the difference between the airpressure and temperaturesensor? In the chapter <a href = "../komponenten/README.md">Komponenten</a> you are going to find pictures and further hintsfindest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
 </div>
 
 Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen, welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Falls du einen Feinstaubsensor installieren möchtest, musst du außerdem noch angeben, an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
