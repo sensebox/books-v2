@@ -47,7 +47,7 @@ Hier findest du alles weitere verfügbare an Zubehör für die senseBox. Um mehr
 + [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
 
 
-Aktuell sind das alle von uns angebotenen Komponenten. Natürlich versuchen wir unser Angebot für dich immer zu erweitern, daher schau immer mal wieder hier auf der Seite oder in unserem Shop, ob nicht schon ein neuer Sensor oder eine andere Erweiterung verfügbar ist. Falls du dich selbst als Tüftler siehst kannst du natürlich auch versuchen die senseBox:home um weitere Sensoren ohne unseren Support zu erweitern. Mit dem richtigen Know-How sind dir keine Grenzen gesetzt, was du mit deiner senseBox messen kannst.
+Aktuell sind das alle von uns angebotenen Komponenten. Natürlich versuchen wir unser Angebot für dich immer zu erweitern, daher schau immer mal wieder hier auf der Seite oder in unserem Shop, ob nicht schon ein neuer Sensor oder eine andere Erweiterung verfügbar ist. Falls du dich selbst als Tüftler siehst kannst du natürlich auch versuchen die senseBox:home um weitere Sensoren ohne unseren Support zu erweitern. Hilfe dazu findest du vielleicht im [senseBox-Forum](https://forum.sensebox.de/) von der Community. Mit dem richtigen Know-How sind dir keine Grenzen gesetzt, was du mit deiner senseBox messen kannst.
 
 Und nun?
 Viel Spaß beim Zusammebau deiner senseBox:home!
