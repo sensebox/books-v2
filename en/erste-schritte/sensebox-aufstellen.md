@@ -1,37 +1,38 @@
-# Schritt 8: Die senseBox aufstellen {#head}
-<div class="description">Um eine erfolgreiche Datenübertragen, sowie die Vergleichbarkeit der Daten zu maximieren, gibt es einige Tipps was sie beim Aufstellen der senseBox:home beachten sollten.</div>
+# Step 8: Set up the senseBox {#head}
+<div class="description">To maximize data transferability and data comparability, there are some tips you should follow when setting up the senseBox:home.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-## Technische Ausstattung am Aufstellungsort:
+## Technical Equipment at the Site of Installation:
 
-1.	Stromversorgung: Die senseBox braucht eine durchgehende Stromversorgung. Das mitgelieferte Kabel hat eine Länge von 3m.
+1.	Power supply: The senseBox needs a continuous power supply. The supplied cable has a length of 3m.
 
-2.	Datenübertragung: Die senseBox braucht eine Möglichkeit durchgehend Daten ins Internet zu übertragen. Die senseBox kann mit WLAN, oder LAN Übertragungsmöglichkeit bestellt werden. Je nach Ausführung braucht man Zugang zum entsprechenden Netzwerk (WLAN Netzwerk, oder LAN Kabel zum Router).
+2.	Data transfer: The senseBox needs a way to continuously transfer data to the Internet. The senseBox can be ordered with WLAN or LAN transmission option. Depending on the version you need access to the appropriate network (WLAN network, or LAN cable to the router)
 
-## Aufstellungsort:
+## Site of Installation:
 
-1.	Grundsätzlich gibt es keinen richtigen oder falschen Aufstellungsort. Wir ermutigen dazu, die senseBox dort aufzubauen, wo man sich selbst für die Messungen interessiert. 
+1.	Basically, there is no right or wrong site. We encourage you to build the senseBox where you are interested in measuring yourself.
 
-2.	Die senseBox Community freut sich aber, wenn die senseBoxen eine gute Dokumentation auf der openSenseMap haben. Dazu gehören:
-a.	Ein Bild der Station
-b.	Beschaffung des Anbringungsorts, wie Höhe, Überdachung, Orientierung.
-c.	Sonstige Beschreibungen
+2.	The senseBox community is pleased with if the senseBoxes have a good documentation on the openSenseMap. This includes:
+a. A picture of the station
+b. Procurement of the location, such as height, roofing, orientation.
+c. Other descriptions
 
-3.	Aus wissenschaftlicher Sicht gibt es natürlich eine weitgehende Untersuchung zur optimalen Messwerterfassung. Viele verschiedene Faktoren beeinflussen die Messqualität. Wir verweisen auf folgende Punkte:
-*	Natürlich verändern verschiedene Positionierungen die Messwerte. Stellt man die senseBox direkt in die Sonne, können z.B. die Temperatur-Werte bei Einstrahlung sehr hoch sein.
-*	Es ist zudem besser die senseBox etwas entfernt von der Hauswand anzubringen (z.B. an einem Balkongeländer), um Verfälschung durch Abwärme zu vermeiden.  
-Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. unter folgendem Link: https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf 
+3.	From a scientific point of view, of course, there is an extensive investigation for optimal data acquisition. Many different factors influence the measurement quality. We refer to the following points:
+* Of course, different positions change the readings. If you place the senseBox directly in the sun, the temperature values can be very high.
+* It is also better to mount the senseBox slightly away from the wall of the house (for example, on a balcony railing), to avoid falsification by waste heat.
+Detailed information on the meteorological data collection can be found e.g. under the following link:
+https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf 
 
-4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: [www.books.sensebox.de](https://www.books.sensebox.de)
+4.	The quality of the measured data also depends on the mounting of the sensors within the senseBox. This information can be found in our building instructions: [www.books.sensebox.de](https://www.books.sensebox.de)
 
 
-## Wartung
+## Maintenance
 
-1.	Es sollte unbedingt vermieden werden, dass sich Kondenswasser in der senseBox sammelt. Deshalb wird mindestens einmal im Monat ein visueller Check der senseBox empfohlen. Gegebenenfalls sollte das Silica Gel erneuert werden. 
-2.	Die senseBox sollte regelmäßig von anfallendem Schmutz befreit werden.
+1. It should be absolutely avoided that condensate collects in the senseBox. Therefore, a visual check of the senseBox is recommended at least once a month. If necessary, the Silica gel should be renewed.
+2. The senseBox should be freed regularly of accumulating dirt
 
-Weitere Tipps finden Sie auf [www.sensebox.de](https://www.sensebox.de) und in unserem Forum [www.forum.sensebox.de](https://www.forum.sensebox.de).  
+You can find further tips on [www.sensebox.de](https://www.sensebox.de) and in our forum [www.forum.sensebox.de](https://www.forum.sensebox.de).  
