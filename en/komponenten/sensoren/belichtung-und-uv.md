@@ -20,15 +20,15 @@ The second sensor is a Vishay VEML6070 Ultraviolet (UV) light sensor. This conve
 ### Exposure Sensor
 
 * 3,3V - 5V tolerant I2C/TWI Interface
-* input voltage range: 3,3V - 5V
-* on-board 2,5V voltage regulator
-* on-board levelconverter
+* Input voltage range: 3,3V - 5V
+* On-board 2,5V voltage regulator
+* On-board levelconverter
 
 ### UV-Sensor
 
-* operating voltage: 2,7V - 5,5V I2C Interface
-* supports confirmation function  (Active Acknowledge-Function)
-* temperature compensation: -40°C to +85°C
+* Operating voltage: 2,7V - 5,5V I2C Interface
+* Supports confirmation function  (Active Acknowledge-Function)
+* Temperature compensation: -40°C to +85°C
 * Software-switching of control for immunity with flickering fluorescent lamps
 
 ## Measurement
