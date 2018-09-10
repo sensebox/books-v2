@@ -30,7 +30,7 @@ Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeil
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wenn du noch nicht mit der Arduino IDE gearbeitet hast, kannst du [hier](.../edu/grundlagen/der-arduino-sketch.md) erfahren was es mit den verschiedenen Pfeilen und Symbolen auf sich hat.
+  Wenn du noch nicht mit der Arduino IDE gearbeitet hast, kannst du ![hier](.../edu/grundlagen/der-arduino-sketch.md) erfahren was es mit den verschiedenen Pfeilen und Symbolen auf sich hat.
 </div>
 
 ```cpp
