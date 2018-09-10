@@ -63,23 +63,23 @@ After you have downloaded the ```.ino``` attachment of the Email you have to loa
 ### WiFi-Bee
 
 * Open Arduino application
-* Select ``Data` → ``Open` ``sensebox.ino`` Datei auswählen
-* Im Dialogfeld wird gefragt, ob die Datei verschoben werden darf. Dieses mit "Ja" oder "Ok" bestätigen.
-* Jetzt musst du dein WiFi-Netzwerk und dein Passwort für das Netzwerk zwischen die ``""`` eingeben. Achte darauf, keine Leerzeichen zwischen den ``"`` und den Buchstaben deines Passworts zu haben.  
-* Jetzt kannst du as Programm über das Pfeil Icon auf den Mikrocontroller laden.
-* Warten bis das Programm übertragen wurde
+* Select ``Data`` → ``Open`` in the data bar and the choose ``sensebox.ino``
+* The dialog field asks if you want to move the file. Confirm this with "Yes" or "Ok"
+* Now you need to enter your WiFi network and password for the network between the ``""``. Please mind to not have any spaces between the  ``"`` and the letters of your password.  
+* Now you can load the program via the arrow icon on the microcontroller.
+* Wait until the program has been transferred
 __________
 
 {% content "second" %}
 
 ### Ethernet-Bee
 
-* Arduino Anwendung öffnen
-* In der Menüleiste ``Datei`` → ``Öffnen`` auswählen und die ``sensebox.ino`` Datei auswählen
-* Im Dialogfeld wird gefragt ob die Datei verschoben werden darf. Dieses mit "Ja" oder "Ok" bestätigen.
-* Jetzt musst du dein WiFi-Netzwerk und dein Passwort für das Netzwerk zwischen die ``""`` eingeben. Achte darauf, keine Leerzeichen zwischen den ``"`` und den Buchstaben deines Passworts zu haben.  
-* Jetzt kannst du as Programm über das Pfeil Icon auf den Mikrocontroller laden.
-* Warten bis das Programm übertragen wurde
+* Open Arduino application
+* Select ``Data`` → ``Open`` in the data bar and the choose ``sensebox.ino``
+* The dialog field asks if you want to move the file. Confirm this with "Yes" or "Ok"
+* Now you need to enter your WiFi network and password for the network between the ``""``. Please mind to not have any spaces between the  ``"`` and the letters of your password.  
+* Now you can load the program via the arrow icon on the microcontroller.
+* Wait until the program has been transferred
 ___________________
 
 
@@ -87,14 +87,13 @@ ___________________
 
 ### LoRa-Bee
 
-Leider sind wir bisher noch nicht dazu gekommen eine Anleitung für das LoRa-Bee zu schreiben. Wenn du Lust hast dies zu übernehmen, schicke uns gerne eine Mail an info@sensebox.de
+Unfortunately we have not been able to write a tutorial for the LoRa-Bee yet. If you would like to help us, please send us an email to info@sensebox.de
 ___________
 
 {% endtabs %}
 
-Wenn alles richtig gelaufen ist, kannst du nun auf der openSenseMap deine Station auswählen und verfolgen, wie Messungen kontinuierlich übertragen werden!
-
+If everything went right, you can now select your station on the openSenseMap and watch how measurements are transmitted continuously!
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Du kannst dich nicht mehr daran erinnern, wie du den Code von Arduino auf die senseBox überträgst? Schau nochmal in <a href="../erste-schritte/software-installation.html">Schritt 1</a> und <a href="../erste-schritte/komponenten-testen.html">Schritt 5</a> nach, dort wird die Installation und die Übertragung der Tests erklärt. Falls du weitere Fragen hast, nutze unser <a href="https://forum.sensebox.de/">Forum</a>, um dich zu informieren oder gegebenenfalls einen eigenen Beitrag zu erstellen. </div>
+  You can not remember how to transfer the code from Arduino to the senseBox? Look again <a href="../erste-schritte/software-installation.html">Step 1</a> and <a href="../erste-schritte/komponenten-testen.html">Step 5</a> , the installation and the transfer will be explained there. In case you have further questions, you are welcome to use our  <a href="https://forum.sensebox.de/">forum</a>, to get information or to write a post. </div>
 
