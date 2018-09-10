@@ -1,7 +1,8 @@
 # senseBox MCU {#head}
 
-<div class="description">Der senseBox-Microcontroller ist speziell für die Bedürfnisse der senseBox entwickelt. Deshalb hat der Microcontroller insbesondere drei Eigenschaften: er ist schnell, energiesparend und hat einen großen Programmspeicher.
-<br>Auch ohne Vorkenntnisse kann der Microcontroller ganz einfach mit der Übertragung eines vorgefertigten Sketches in 10 Minuten "programmiert" werden. Für fortgeschrittene Programmierer kann wie gewohnt die Arduino IDE eingesetzt werden um neue und individuelle Projekte durchzuführen.</div>
+<div class="description">The senseBox-Microcontroller (MCU) is designed and developped for the special needs of a senseBox. Therefore the microcontroller is focussed on especially the following three features: speed, low in energy usage and a big program storage.<br>
+
+However, if you want to participate in openSenseMap the senseBox team offers you a guideline to program it without prior knowledge in coding. For advanced programmer the Arduino IDE can be used to access the board and create individual projects.</div>
 <div class="line">
     <br>
     <br>
@@ -10,23 +11,23 @@
 
 
 
-![Die senseBox MCU](../pictures/mcu_one_top.png)
+![The senseBox MCU](../pictures/mcu_one_top.png)
 
-## Technische Spezifikationen
+## Technical Specifications
 
-### Prozessor
-Der Prozessor basiert auf dem ARM Cortex-M0+ Prozessor aus der SAM D21 Familie von Microchip.
+### Processor
+The processor is based on a ARM Cortex-M0+ processor form the SAM D21 family by Microchip.
 
-### Schnittstellen
-Sensoren und Aktoren werden über die bewährten Schnittstellen wie I2C, UART und digitale I/Os mit einem robusten JST-Steckersystem angesprochen (5V tolerant). 
+### Interface
+Sensors and actors can be activated using standard interfaces like I2C, UART and digitale I/Os with a robust JST-Connecting system (5V tolerant). 
 
-### Datenübertragung
-Über die beiden XBee kompatiblen Sockel werden UART oder SPI Module angeboten. Wahlweise kann die Datenübertragung dadurch per WLAN, LAN, oder LoRa in Echtzeit durchgeführt werden, oder auf einer Mikro-SD Karte abgespeichert werden.  
+### Data transmission
+Using the both Bee compatible sockets, UART or SPI models can be offered. Therefore, real time data transmission via Wifi, LAN, or LoRa is offered as well as saving data on a Mikro-SD card.  
 
 ### Features
-1. Crypto Authentication für OTA (Over the Air) 
-2. Firmware-Upgrades durch den ATECC608A von Microchip
-3. Integrierter BMX055 Sensor von Bosch, womit sich die Beschleunigung, die Neigung und die Orientierung zum Erdmagnetfeld bestimmen lassen
+1. Crypto Authentication for OTA (Over the Air) 
+2. Firmware-Upgrades using the ATECC608A by Microchip
+3. Integrierted BMX055 sensor by Bosch, for measuring accelaration, affinity and orientation
 4. USB CDC+MSC Bootloader (Arduino compatible)
-5. Schnittstellen: I2C = 5 (erweiterbar mit I2C Hub) | 2 UART | 6 analoge und digitale IOs
+5. Interfaces: I2C = 5 (more using a I2C Hub) | 2 UART | 6 analoge digital digitale IOs
 
