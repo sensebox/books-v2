@@ -55,7 +55,7 @@ The senseBox ID is a unique identifier of your senseBox. With this ID you can fi
 ## Loading the Arduino-Code on the senseBox 
 After you have downloaded the ```.ino``` attachment of the Email you have to load this program on to your senseBox. Of course you have to download the Arduino IDE (as explained in step 1) on your computer. In short, you can then follow the following steps:
 
-(opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN)
+(opensensemap.org/explore/ENTER-YOUR-SENSEBOX-HERE)
 
 {% tabs first="WiFi-Bee", second="Ethernet-Bee", third="LoRa-Bee" %}
 {% content "first" %}
