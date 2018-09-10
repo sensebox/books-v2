@@ -30,38 +30,40 @@ Since the openSenseMap is open to all types of senseBoxes, you will be asked abo
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  You are not sure if you have an ethernet or a wifi-bee, or you can not see the difference between the airpressure and temperaturesensor? In the chapter <a href = "../komponenten/README.md">Komponenten</a> you are going to find pictures and further hintsfindest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
+  You are not sure if you have an ethernet or a wifi-bee, or you can not see the difference between the airpressure and temperaturesensor? In the chapter <a href = "../komponenten/README.md">Komponenten</a> you are going to find pictures and further hints for the individual components.
 </div>
 
-Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen, welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Falls du einen Feinstaubsensor installieren möchtest, musst du außerdem noch angeben, an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
+Now you are almost done! Quickly select the sensors that you will connect to your senseBox. Just click and ready. If you want to install a finedustsensor, you also have to specify which serial port you want to connect to. After that you can finish the process.
 
-{% collapse title="Warum muss ich den Feinstaub-Sensor an einen Serial-Port anschließen?" %}
+{% collapse title="Why do I have to connect a finedustsensor to the serial-port?" %}
 
-Hier sollte eine Erklärung stehen. 
-
-{% endcollapse %}
-
-## 3. Summary der Registrierung und Mail erhalten
-Wenn du die Registrierung abgeschlossen hast, musst du noch einmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt (diesen bekommst du zudem noch einmal per E-Mail zugeschickt). 
-
-![Summary der Registrierung. Hier siehst du die IDs deiner senseBox und deiner Sensoren!](../pictures/summary.PNG)
-
-{% collapse title="Was ist meine senseBox ID" %}
-
-Die senseBox ID ist ein eindeutiger Identifikator deiner senseBox. Damit kannst du deine senseBox z.B. über die URL finden (opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN) oder in Datensätzen aufspüren. Des Weiteren wird sie für verschiedene Applications und Funktionen rund um die senseBox und die openSenseMap verwendet.
+Here should be an explanation
 
 {% endcollapse %}
 
-## Arduino-Code auf die senseBox laden
-Nachdem du den ```.ino``` Anhang der Email heruntergeladen hast, muss dieses Programm auf deine senseBox geladen werden. Dafür musst du natürlich die Arduino IDE (wie in Schritt 1 erklärt) auf deinem Computer heruntergeladen haben. In Kurzfassung kannst du danach folgende Schritte befolgen:
+## 3. Receiving a Summary of the Registration
+Once you have completed the registration, you must once again agree to the publication of your data. After that you will receive a summary of your registration. There you will see your senseBox ID, your sensor IDs and the Arduino code (you will also receive it via e-mail)  
+
+![Summary of the registration. Here you can see the IDs to your senseBox and the sensors!](../pictures/summary.PNG)
+
+{% collapse title="What is my senseBox ID" %}
+
+The senseBox ID is a unique identifier of your senseBox. With this ID you can find your senseBox for example with a URL on the senseMap (opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN) or in a data pool. Furthermore, it is used for various applications and functions around the senseBox and the openSenseMap.
+
+{% endcollapse %}
+
+## Loading the Arduino-Code on the senseBox 
+After you have downloaded the ```.ino``` attachment of the Email you have to load this program on to your senseBox. Of course you have to download the Arduino IDE (as explained in step 1) on your computer. In short, you can then follow the following steps:
+
+(opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN)
 
 {% tabs first="WiFi-Bee", second="Ethernet-Bee", third="LoRa-Bee" %}
 {% content "first" %}
 
 ### WiFi-Bee
 
-* Arduino Anwendung öffnen
-* In der Menüleiste ``Datei`` → ``Öffnen`` auswählen und die ``sensebox.ino`` Datei auswählen
+* Open Arduino application
+* Select ``Data` → ``Open` ``sensebox.ino`` Datei auswählen
 * Im Dialogfeld wird gefragt, ob die Datei verschoben werden darf. Dieses mit "Ja" oder "Ok" bestätigen.
 * Jetzt musst du dein WiFi-Netzwerk und dein Passwort für das Netzwerk zwischen die ``""`` eingeben. Achte darauf, keine Leerzeichen zwischen den ``"`` und den Buchstaben deines Passworts zu haben.  
 * Jetzt kannst du as Programm über das Pfeil Icon auf den Mikrocontroller laden.
