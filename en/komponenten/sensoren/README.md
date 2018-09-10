@@ -1,5 +1,5 @@
-# Sensoren {#head}
-<div class="description">Mit Sensoren kannst du verschiedene Umweltphänomene messen und damit Phänomene erkennen, beobachten und analysieren.</div>
+# Sensors {#head}
+<div class="description">With sensors you can measure different environmental phenomena and thus recognize, observe and analyze.</div>
 
 <div class="line">
     <br>
@@ -8,14 +8,13 @@
 
  
 
-In unserem [senseBox-Shop](https://sensebox.kaufen/) findest du eine Liste mit Sensoren, mit denen auch wir arbeiten und deshalb kleine Anleitungen geschrieben haben. Zu diesen Sensoren bieten wir dir hier Informationen, aber auch Hilfe beim Anschliessen an die senseBox. 
+In our [senseBox-Shop](https://sensebox.kaufen/) you will find a list of sensors we work with and therefore have written small instructions. For these sensors we offer you here information, but also help with connecting to the senseBox.
 
-Hier findest du Informationen zu den folgenden Sensoren, klicke einfach den Namen des Sensors und du wirst auf eine eigene Seite weitergeleitet:
+Here you will find information about the following sensors, just click on the name of the sensor and you will be redirected to a separate page
 
-- [Temperatur & Luftfeuchte (HDC1080)](hdc1080.md)
-- [Luftdruck & Temperatur](luftdruck-temperatur.md)
-- [Belichtung und UV](belichtung-und-uv.md)
-- [Feinstaub](feinstaub.md)
+- [temperature & air humidity (HDC1080)](hdc1080.md)
+- [air pressure & temperature](luftdruck-temperatur.md)
+- [exposure and UV](belichtung-und-uv.md)
+- [fine dust](feinstaub.md)
 
-Natürlich kannst Du auch jeden anderen dir bekannten Sensor an die senseBox anschliessen, dann bist du als Tüftler allerdings selbst gefragt, wenn es erstmal an das Verkabeln und Programmieren geht ;) Wenn du Lust hast kannst du aber gerne deinen Sensor beschreiben und wir nehmen die Anleitung mit in dieses Book auf.
-
+Of course, you can also connect any other sensor you know to the senseBox. However then you are asked as a tinkerer to figure out the wiring and programming;) We would love to see you sharing information about your sensor and how you connected it to your senseBox so we can add it to our instruction.
