@@ -1,5 +1,5 @@
-#Schritt 5: Verschlüsselung {#head}
-<div class="description">In Kürze findet man hier Informationen zur Verschlüsselung der senseBox mit Hilfe des sich darauf befindenden Kryptochips. Leider sind wir bisher noch nicht dazu gekommen diese Funktion vollständig zu testen und zu dokumentieren.</div>
+#Step 5: Encryption {#head}
+<div class="description">Soon you will find here information to the encryption of the senseBox with the help of the kryptochip on it. Unfortunately, we have not yet been able to fully test and document this feature.</div>
 
 <div class="line">
     <br>
