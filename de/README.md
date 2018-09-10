@@ -51,7 +51,7 @@ Außerdem werden dir mit Sicherheit einige unserer vier verschiedenen Arten von 
     Diese Box weist dich auf Fehler hin. Sie zeigt dir z.B. was du machen kannst um einen bereits geschehenen Fehler zu korriegieren. 
 </div>
 
-Weiterhin gibt es einige Absätze die dir nicht direkt angezeigt werden, sie enthalten Inforamtionen über weitergehende Themen oder Aufgaben und Beispiele. Um Dir eine Übersicht zu schaffen sind sie eingeklappt. Möchtest du den Inhalt sehen klicke einfach auf die Überschrift des Absatzes. Du erkennst eingeklappte Absätze an der grauen Box mit grüner Schrift, ähnlich wie bei der Box unter der Überschrift der Seite. Zusätzlich befindet sich ein kleiner grüner Pfeil der dir vermittelt ob der Absatz ein- oder ausgeklappt ist. Schau dir hier doch einfach mal so einen versteckten Absatz an:
+Weiterhin gibt es einige Absätze die dir nicht direkt angezeigt werden, sie enthalten Informationen über weitergehende Themen oder Aufgaben und Beispiele. Um Dir eine Übersicht zu schaffen sind sie eingeklappt. Möchtest du den Inhalt sehen klicke einfach auf die Überschrift des Absatzes. Du erkennst eingeklappte Absätze an der grauen Box mit grüner Schrift, ähnlich wie bei der Box unter der Überschrift der Seite. Zusätzlich befindet sich ein kleiner grüner Pfeil der dir vermittelt ob der Absatz ein- oder ausgeklappt ist. Schau dir hier doch einfach mal so einen versteckten Absatz an:
 
 {% collapse title="Ein versteckter Absatz" %}
  Super, du hast alles richtig verstanden! Klicke noch einmal auf die grüne Überschrift des Absatzes und ich verschwinde wieder!   
@@ -78,6 +78,6 @@ Ich bin der dritte Tab, indem du mich angewählt hast wird der Inhalt des vorher
 </div>
 <br>
 Hast Du dir die Tabs und alle weiteren Elemente angeschaut? 
-Wenn ja, dann kannst Du jetzt loslegen mit diesem Buch und deiner senseBox:edu!
+Wenn ja, dann kannst Du jetzt loslegen mit diesem Buch und deiner senseBox:home!
 
 Viel Spaß wünscht dir das Team der [senseBox](https://sensebox.de/)! 
