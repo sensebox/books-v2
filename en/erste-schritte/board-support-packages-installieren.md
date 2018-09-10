@@ -1,6 +1,6 @@
-# Schritt 2: Board-Support-Package installieren {#head}
+# Step 2: Installation of the Board-Support-Package {#head}
 
-<div class="description">Damit die Arduino IDE deine <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> unterstützt und Du Programme auf diese übertragen kannst, musst Du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die nötigen Treiber und die notwendige Software, um mit deinem Prozessor zu kommunizieren. Das Board-Support-Package der senseBox enthält außerdem bereits unsere senseBox-Libraries. Damit stehen euch alle grundlegenden Methoden zur Programmierung der beiliegenden Sensoren zur Verfügung.</div>
+<div class="description">Therewith the Arduino IDE supports your <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> and you are able to relay programme on to it, you have to start with installing two board-support-packages. Those contain the necessary drivers and software to communicate with the processor. The board-support-package of the senseBox contains already our senseBox-libraries. This will give you all the basic methods for programming the enclosed sensors.</div>
 <div class="line">
     <br>
     <br>
@@ -8,109 +8,109 @@
 
 ## Libraries
 
-Für die Programmierung der senseBox sollten zu Beginn unbedingt die senseBox-Libraries eingebunden werden. Diese Libraries haben wir für euch in das Board-Support-Package der senseBox integriert, um euch die Installation möglichst einfach zu gestalten. 
+For the programming of the senseBox, the senseBox libraries should be included at the beginning. We have integrated those libraries into the senseBox board-support-package to make the inatallation as easy as possible for you.  
 
-{% collapse title="'Library' - Was ist das eigentlich und wofür brauche ich das?" %}
+{% collapse title="'Library' - What is it and why do I need it?" %}
 
-Eine Library ist wie der Name schon sagt eine Sammlung von etwas - eine Sammlung von Methoden um genauer zu sein. Methoden sind in der Programmierung kleinere Abschnitte von Code, die auf ein Objekt angewendet werden können. 
-Bei der senseBox zum Beispiel kann eine Methode aufgerufen werden, um die LEDs auf dem MCU ein- und auszuschalten. Es gibt eine Menge solcher Standardmethoden, die von einer Vielzahl an Programmmen benutzt werden. Um diese Methoden nicht alle einzeln in den Programmcode übertragen zu müssen, können sie in Libraries abgelegt werden. 
-Eine Library ist also eine Datei, in der viele Methoden gespeichert werden. Man kann Libraries in seinen Code einbinden. Dafür reicht es, wenn sie im Arduino-Ordner für Libraries gespeichert sind und man sie dann mit einer einzigen Zeile zu Beginn des Programmcodes einbindet. Das sieht in Arduino für die Library mit dem Namen "senseBoxIO" wie folgt aus: 
+As the name suggests, a library is a collection of something - a collection of methods to be more specific. Methods are programming smaller sections of code that can be applied to an object.
+For example, with the senseBox, a method can be invoked to turn the LEDs on and off on the MCU. There are a lot of such standard methods that are used by a variety of programs. In order not to have to transfer these methods individually into the program code, they can be stored in libraries.
+So a library is a file that stores many methods. You can include libraries in your code. For this it is enough, if they are stored in the Arduino folder for libraries and then they are integrated with a single line at the beginning of the program code. This looks like this in Arduino for the library named "senseBoxIO" 
 
 ```arduino
 #include <senseBoxMCU.h>;
 ```
 
-Ist die Library eingebunden, können alle in ihr enthaltenen Methoden im Code benutzt werden. 
+If the library is included, all methods contained in it can be used in the code.
 
 {% endcollapse %}
 
 
-## Board-Support-Package einbinden 
-Wähle dein Betriebssystem, um die passende Anleitung zu sehen:
+## integrate the Board-Support-Package 
+Choose your operating system to see the fitting instruction:
 
 {% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
 {% content "first" %}
-### Anleitung für Windows
-Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+### Instruction for Windows
+Paste the following URL into your Arduino IDE under  *Data -> Preferences* in the field for *Additional Boardmanager-URLs* :
 ```
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
 
-![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/Ardu1.png)
+![Open the Preferences and paste the URL](../pictures/ardu/Ardu1.png)
 
-Öffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und installiere dort die zwei Board-Support-Packages mit den Namen **Arduino SAMD Boards by Arduino** und **senseBox SAMD Boards by senseBox**.
+Please open then the *Boardmanager* under *Tools -> Board:"..." -> Boardmanager* and install there the two board-support-packages with the name **Arduino SAMD Boards by Arduino** and **senseBox SAMD Boards by senseBox**.
 
-![Öffne den Bordverwalter und installiere die beiden Packages](../pictures/ardu/Ardu2.png)
+![Open the Boardmanager and install both Packages](../pictures/ardu/Ardu2.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Gib "SAMD" oben in die Suchleiste ein um die Packages schneller zu finden
+  Enter "SAMD" in the search bar above to find the packages faster
 </div>
 
-Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür, wie oben beschrieben, den Boardverwalter und sucht nach **senseBox SAMD Boards**. Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort, im Falle einer neuen Version, ein Update-Button. Klickt diesen, um die neuste Version zu installieren. 
+Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefor please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case a new version is available. Click the button to install the latest version. 
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/update-b-s-p.png)
+![Click on 'Update', to refresh the Board-Support-Package](../pictures/ardu/update-b-s-p.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+  It is important to first click on the entry. Otherwise the update button will not show up even if there is a new version.
 </div> 
 
 {% content "second" %}
-### Anleitung für Mac
-Füge die folgende URL in deiner Arduino IDE unter *`Arduino -> Einstellungen...`* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+### Instruction fo Mac
+Please paste the following URL into your Arduino IDE under *`Arduino -> Einstellungen...`* in the field for *additional Bordmanager-URLs*:
 ```
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
 
-![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/ardu_mac.png)
+![Open the Preferences and paste the URL](../pictures/ardu/ardu_mac.png)
 
-Öffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und installiere dort die zwei Board-Support-Packages mit den Namen **Arduino SAMD Boards by Arduino** und **senseBox SAMD Boards by senseBox**.
+Please open then the *Boardmanager* under *Tools -> Board:"..." -> Boardmanager* and install there the two board-support-packages with the name **Arduino SAMD Boards by Arduino** and **senseBox SAMD Boards by senseBox**.
 
-![Öffne den Bordverwalter ](../pictures/ardu/ardu3_mac.png)
+![Open the Bordmanager ](../pictures/ardu/ardu3_mac.png)
 
-![Installiere die beiden markierten Packages](../pictures/ardu/ardu2_mac.png)
+![Install the two marked Packages](../pictures/ardu/ardu2_mac.png)
 
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Gib "SAMD" oben in die Suchleiste ein um die Packages schneller zu finden
+  Enter "SAMD" in the search bar above to find the packages faster
 </div>
 
-Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür, wie oben beschrieben, den Boardverwalter und sucht nach **senseBox SAMD Boards**. Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort, im Falle einer neuen Version, ein Update-Button. Klickt diesen, um die neuste Version zu installieren. 
+Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefor please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case a new version is available. Click the button to install the latest version. 
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/ardu_update_mac.png)
+![Click on 'Update', to refresh the Board-Support-Package](../pictures/ardu/ardu_update_mac.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+ It is important to first click on the entry. Otherwise the update button will not show up even if there is a new version.
 </div>
 
 {% content "third" %}
 ### Anleitung für Linux
-Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+Paste the following URL into your Arduino IDE under *Data -> Preferences* in the field for *Additional Boardmanager-URLs*:
 ```
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
 
-![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/Ardu1.png)
+![Open the Preferences and paste the URL](../pictures/ardu/Ardu1.png)
 
-Öffne dann den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und installiere dort die zwei Board-Support-Packages mit den Namen **Arduino SAMD Boards by Arduino** und **senseBox SAMD Boards by senseBox**.
+Please open then the *Boardmanager* under *Tools -> Board:"..." -> Boardmanager* and install there the two board-support-packages with the name **Arduino SAMD Boards by Arduino** and **senseBox SAMD Boards by senseBox**.
 
-![Öffne den Bordverwalter und installiere die beiden Packages](../pictures/ardu/Ardu2.png)
+![Open the Boardmanager and install both packages](../pictures/ardu/Ardu2.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Gib "SAMD" oben in die Suchleiste ein um die Packages schneller zu finden
+  Enter "SAMD" in the search bar above to find the packages faster
 </div>
 
-Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür, wie oben beschrieben, den Boardverwalter und sucht nach **senseBox SAMD Boards**. Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort, im Falle einer neuen Version, ein Update-Button. Klickt diesen, um die neuste Version zu installieren. 
+Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefor please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case a new version is available. Click the button to install the latest version.  
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/update-b-s-p.png)
+![Click on 'Update', to refresh the Board-Support-Package zu](../pictures/ardu/update-b-s-p.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+   It is important to first click on the entry. Otherwise the update button will not show up even if there is a new version.
 </div>
 
 {% endtabs %}
