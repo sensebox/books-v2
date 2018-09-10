@@ -12,9 +12,9 @@ In our [senseBox-Shop](https://sensebox.kaufen/) you will find a list of sensors
 
 Here you will find information about the following sensors, just click on the name of the sensor and you will be redirected to a separate page
 
-- [temperature & air humidity (HDC1080)](hdc1080.md)
-- [air pressure & temperature](luftdruck-temperatur.md)
-- [exposure and UV](belichtung-und-uv.md)
-- [fine dust](feinstaub.md)
+- [Temperature & air humidity (HDC1080)](hdc1080.md)
+- [Air pressure & temperature](luftdruck-temperatur.md)
+- [Exposure and UV](belichtung-und-uv.md)
+- [Fine dust](feinstaub.md)
 
 Of course, you can also connect any other sensor you know to the senseBox. However then you are asked as a tinkerer to figure out the wiring and programming;) We would love to see you sharing information about your sensor and how you connected it to your senseBox so we can add it to our instruction.
