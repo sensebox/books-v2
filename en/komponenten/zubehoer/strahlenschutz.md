@@ -1,5 +1,5 @@
-# Strahlenschutz {#head}
-<div class="description">Der Strahlenschutz schützt den Außensender für Temperatur + Luftfeuchtigkeit (BMP280)vor Witterung. Er dient als Schutz vor Niederschlag und direkter Sonneneinstrahlung. Er ist einfach zu montieren und hat eine Öffnung für die Fühlerkabel. </div>
+# Radiation Protection  {#head}
+<div class="description">The radiation protection protects the outdoor transmitter for temperature + humidity (BMP280) from the weather. It serves as protection against precipitation and direct sunlight. It is easy to mount and has an opening for the sensor cables. </div>
 
 <div class="line">
     <br>
@@ -9,48 +9,40 @@
 
 
 
-## Hinweise für die Standortwahl des Strahlenschutzes
-* Suchen  dir  im  Freien  einen  schattigen  Platz  für  den  Strahlenschutz  aus.  (Direkte  Sonnen-
-einstrahlung verfälscht die Messwerte). 
+## Advice for the Location of the Radiation Protection
+* Choose a shady spot outdoors for radiation protection . (Direct sunshine falsifies the measured values).
 
-* Prüfen, ob eine Übertragung der Messwerte vom Sender am gewünschten Aufstellort
-zur  Basisstation  stattfindet  (bei  massiven  Wänden,  insbesondere  mit  Metallteilen  kann
-sich die Sendereichweite erheblich reduzieren). 
+* Please check wheter a transmission from the transmitter to the desired installation location is possible
+ (in massive walls, especially with metal parts, the transmission range can get considerably reduced).
 
-## Montieren der Schutzhülle 
 
-* Drehe die Schutzhülle im Uhrzeigersinn von der Bodenplatte ab. 
-* Für  einen  sicheren  Halt  kann  die  Schutzhülle  auf  einem  geeigneten  Untergrund  festge-
-schraubt werden.
-* Suchen dir eine glatte, waagrechte Stelle aus.
-* Führen eine Schraube durch die Öffnung in der Mitte und schrauben Sie die Boden-
-platte fest.
+## Mounting of the Protective Cover
 
-## Befestigung an der Wand oder an einem Pfosten
-* Entfernen die Wandhalterung von der Schutzhülle, in dem du sie nach unten schieben.
-* Befestige die Wandhalterung mit den Schrauben und den Dübeln an der Wand. Ach-
-ten Sie auf die Markierung „UP” (oben).
-* Möchtest du  die  Wandhalterung  an  einem  Pfosten  anbringen,  kannst du  auch  die
-Kabelbinder verwenden.
-* Hinweis: Beim Montieren achte bitte darauf, dass die Schutzhülle problemlos in die
-Wandhalterung eingesetzt werden kann.
-* Setzen Sie die Schutzhülle mit der Bodenplatte und dem befestigten Sender von oben in
-die Wandhalterung ein. 
+* Turn off the protective cover clockwise from the bottom plate .
+*  The protective cover can be be screwed on a suitable surface for a secure fit.
+* Choose a smooth, horizontal position.
+* Pass a screw through the opening in the middle and screw the floorplate firmly.
 
-## Befestigung des Senders
-*   Damit der Sender sicher auf der Bodenplatte steht, befestige das Klettband mit dem
-doppelseitigen Klebeband am Ständer und an der Rückseite des Senders und fixiere
-den Sender. Alternativ kannst du auch die Kabelbinder verwenden, oder mit Heißkleber arbeiten.
-*  Führe die Kabel durch die dafür vorgesehene Öffnung in der Bodenplatte.
-*  Setzen  die  Schutzhülle  auf  die  Bodenplatte  mit  dem  befestigten  Sender  und  drehe
-Sie gegen den Uhrzeigersinn fest.
+## Attachment to a Wall or to a Pole
+* Remove the wall bracket from the case by sliding it down.
+* Attach the wall bracket to the wall with the screws and dowels. Please mind the marking "UP"
+* If you want to attach the wall bracket to a pole, you can also use the cable ties.
+* Note: When mounting, please make sure that the protective cover can be easily inserted into the Wall bracket
+* Put the protective cover with the base plate and the attached transmitter in the wall bracket from above.
 
-## Pflege und Wartung
-* Reinigen  die  Schutzhülle  mit  einem  weichen,  leicht  feuchten  Tuch.  Keine  Scheuer-
-oder Lösungsmittel verwenden! 
+## Attachment of the Transmitter
+* To secure the transmitter to the base plate, attach the Velcro strip with the
+double-sided tape  to the base on the stand and on the back of the transmitter and fix
+the transmitter. Alternatively, you can also use the cable ties or work with hot glue.
+* Guide the cables through the provided opening  in the bottom plate.
+* Place the protective cover on the base plate with the attached transmitter and turn it counterclockwise.
 
-## Technische Daten
-Innenraummaße: Höhe 160 mm
-Innendurchmesser: 60 mm
-Gehäusemaße: 95 x 102 (108) x 180 mm
-Gewicht: 163 g 
+
+## Care and Maintenance
+* Clean the protective cover with a soft, slightly damp cloth. Do not use scouring or solvents.
+
+## Technical Data
+Interior dimensions: Höhe 160 mm
+Interior diameter: 60 mm
+Case measurements: 95 x 102 (108) x 180 mm
+Weight: 163 g 
