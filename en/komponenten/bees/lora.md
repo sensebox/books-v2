@@ -1,5 +1,7 @@
 # LoRa-Bee {#head}
-<div class="description">Verwendet die LoRa-Schnittstelle um Daten ins Internet zu übertragen. Neu ist das LoRa WAN-XBee-Modul, mit dem eine stromsparende und kostenlose Möglichkeit der Datenübertragung ins Internet über den LoRa-Funk-Standard ermöglicht wird. Dafür werden bestehende LoRa-Netzwerke, wie zum Beispiel das TheThingsNetwork Daten zu übertragen. Die hierzu benötigte Infrastruktur wird bei TheThingsNetwork von der Community bereit gestellt, und ist in immer mehr Regionen verfügbar.</div>
+<div class="description">Use the LoRa-Inferface to upload your data on the openSenseMap. The LoRa WAN-Bee-Modul is a low energy and cost free option to upload your data unsing the LoRa-Radio-Standard. Therefore existing LoRa-Networks such as TheThingsNetwork are used for data transmission. The necessary infrstructure is provided by the community of TheThingsNetwork and available in more and more regions. 
+
+</div>
 
 <div class="line">
     <br>
@@ -8,16 +10,16 @@
 
 ![Lora Bee](../../pictures/LoraBee bottom.png)
 
-# Technische Informationen
+# Technical Detail
 * HopeRF RFM95W/RFM96W LoRa Transceiver
-* LoRa-Bee 868 / 915 MHz nutzt RFM95W (SX1276 kompatibel)
-* LoRa-Bee 433 / 470 MHz nutzt RFM96W (SX1276 kompatibel)
+* LoRa-Bee 868 / 915 MHz used RFM95W (SX1276 compatibel)
+* LoRa-Bee 433 / 470 MHz used RFM96W (SX1276 compatibel)
 * SPI interface
-* Bezeichnung: RFN9xW
-* Maße: 46mm x 25mm x 12mm
-* Gewicht: 1,1 g
+* Name: RFN9xW
+* Measurements: 46mm x 25mm x 12mm
+* Weight: 1,1 g
 
-# Hinweise
-Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist: https://www.thethingsnetwork.org/community#list-communities-map
+# Information
+Please check if your area is already covered by LoRa before you get your senseBox with LoRa Bee: https://www.thethingsnetwork.org/community#list-communities-map
 
-**Achtung: Aufgrund der erhöhten Komplexität der Installation empfehlen wir das LoRa-Modul außschließlich fortgeschrittenen Nutzern von Open-Hardware**
+**Attention: Due to the increased complexity of the installation, we recommend the LoRa module except advanced users of open hardware**
