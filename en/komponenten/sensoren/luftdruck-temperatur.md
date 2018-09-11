@@ -1,19 +1,19 @@
-# Luftdruck- und Temperatursensor {#head}
-<div class="description">Dieser Sensor misst den Luftdruck und die Temperatur und basiert auf dem BMP280 Sensor von Bosch. </div>
+# Airpressure- and Temperature Sensor {#head}
+<div class="description">This sensor measures air pressure and temperature and is based on the BMP280 sensor from Bosch. </div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-![Der Luftdruck- und Temperatursensor](../../pictures/bmp%20top.png)
+![Airpressure- and Temperature Sensor](../../pictures/bmp%20top.png)
 
-## Technische Informationen
+## Technical Detail
 
-* Maße: 25mm x 25mm x 9mm
-* Gewicht: 2,4 g
-* "Plug-in-and-Go" senseBox kompatibel
-* Betriebsdruck 300 bis 1100 hPa
-* Relative Präzision ±0.12 hPa
-* Absolute Präzision ±1 hPa
-* Betriebsversorgunsstrom 2.7μA bei 1 Hz Sampling Frequenz
+* Dimensions: 25mm x 25mm x 9mm
+* Weight: 2.4 g
+* "Plug-in-and-Go" senseBox compatible
+* Operating pressure 300 to 1100 hPa
+* Relative precision ± 0.12 hPa
+* Absolute precision ± 1 hPa
+* Operating power 2.7μA at 1Hz sampling frequency

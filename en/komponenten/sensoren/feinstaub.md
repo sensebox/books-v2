@@ -1,7 +1,8 @@
-#Feinstaubsensor {#head}
+#Fine Dust Sensor {#head}
 <div class="description">
 
-Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft zu bestimmen. Der Sensor gibt zwei Werte aus: Die Konzentration von PM2.5 (Partikel < 2.5 um) und PM10 (Partikel < 10 um). Dieser Sensor ist mit einem kleinen Ventilator ausgestattet, um Luft anzusaugen. In seinem Inneren befindet sich ein Laser, der zusammen mit einer Photodiode die Anzahl der Partikel misst. Die Ergebnisse der Messungen werden in µg/m³ (Mikrogramm pro Kubikmeter) angegeben.
+With this sensor SDS011 it is possible to determine the fine dust concentration in the air. The sensor outputs two values: the concentration of PM2.5 (particle <2.5 μm) and PM10 (particle <10 μm). This sensor is equipped with a small fan to suck in air. Inside is a laser that measures the number of particles together with a photodiode. The results of the measurements are given in μg / m³ (micrograms per cubic meter)
+
 
 </div>
 <div class="line">
@@ -9,48 +10,50 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
     <br>
 </div>
 
-![Feinstaubsensor für PM10 und PM2.5](../../pictures/feinstaub_top.png)
+![Fine dust sensor for PM10 und PM2.5](../../pictures/feinstaub_top.png)
 
-## Technische Details
-* Schnelle Reaktionszeit von weniger als 10 Sekunden
-* "Plug-in-and-Go" senseBox kompatibel
-* Hohe Auflösung bis zu 0.3µg/m3
-* Mehrfach wissenschaftliche Prüfung der Datengenauigkeit
+## Technical Details
+* Fast reaction time less than 10 seconds 
+* "Plug-in-and-Go" senseBox compatibel
+* High resolution up to 0.3µg/m3
+* Multiple scientific verification of data accuracy
 
-## Zum Aufbau benötigte Bauteile 
-![Benötigte (mitgelieferte) Bauteile](../../pictures/feinstaub_top_accessoire.png)
+## Parts required for the Set-Up 
+![Required (provided) Parts](../../pictures/feinstaub_top_accessoire.png)
 
-   * SDS011 Feinstaub Sensor
-   * Verbindungskabel
-   * Stück Teflonschlauch Ø = 6mm innen und Ø = 8mm außen
-   * Gehäuse
-   * Kabelverschraubung 16mm
+   * SDS011 fine dust sensor
+   * connecting wire
+   * an unit of teflon tube Ø = 6mm inside and Ø = 8mm outside
+   * Case
+   * Cable gland 16mm
 
-## Anschluss und Programmierung
+## Connection and Programming
 
-Mit dem mitgelieferten Verbindungskabel kannst du deinen Feinstaub Sensor mit dem "UART/Serial"-Port der senseBoxMCU verbinden. 
-Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und uns die ersten Messwerte ausgeben lassen.
+With the supplied connection cable you can connect your fine dust sensor with the "UART / Serial" port of the senseBoxMCU.
+Once this is done, we can now initialize the sensor in the program code and have the first measured values output
+
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
+    Make sure you have the latest board support package installed because you need the correct software libraries. How this works was shown in <a href ="../erste-schritte/board-support-packages-installieren.md">Step 2</a>.
 </div>
-Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte
-für PM10 und PM2.5 speichern
+First, create an instance of the sensor. For this we create 2  variables in which we save our two readings
+for PM10 and PM2.5.
+
 
 ```arduino 
 #include "SenseBoxMCU.h"
-SDS011 my_sds(Serial1) // Serial1 gibt hier den Seriellen Port an, an dem du den Sensor angeschlossen hast
+SDS011 my_sds(Serial1) // Serial1 indicates the serial port where you connected the sensor
 float p10,p25
 ```
 {% collapse title="setup() Funktion" %}
-In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
+The sensor should now start in the `setup()`-Function: 
 
 ```arduino
 void setup(){
-    // Normalen seriellen Port initialisieren 
+    // Initialise normal seriel Port  
     Serial.begin(9600);
     while(!Serial);
-    // Seriellen Port an dem unsere Sensor angeschlossen ist initialisieren
+    // Initialize the serial port where our sensor is connected
     Serial1.begin(9600);
     delay(5000);
 
@@ -60,14 +63,14 @@ void setup(){
 {% endcollapse %}
 
 {% collapse title="loop() Funktion" %}
-In der `loop()`-Funktion können wir mit dem Befehl 'getPm10()' und 'getPm25() die aktuell gemessenen Feinstaubwerte abrufen:
+In the `loop ()` function we can use the command 'getPm10 ()' and 'getPm25 () to retrieve the currently measured fine dust values:
 
 ```arduino
 void loop(){
-    // Variablen den gemessenen Feinstaubwerte zuweisen
+    // Assign variables to measured particulate matter values
     p10 = my_sds.getPm10();
     p25 = my_sds.getPm25();
-    //Werte in der Konsole drucken
+    //Print values in the console
     Serial.println("P2.5: "+String(p25));
     Serial.println("P10:  "+String(p10));
     delay(1000);

@@ -1,5 +1,5 @@
 # mSD-Bee {#head}
-<div class="description">Mit dem SD-Bee können die Daten der senseBox auf einer SD-Karte gespeichert werden. So kann man messen, auch wenn keine Internetanschluss in der Nähe der senseBox ist.</div>
+<div class="description">With the SD-Bee, the data of the senseBox can be stored on an SD card. So you can measure, even if there is no Internet connection in the vicinity of the senseBox.</div>
 
 <div class="line">
     <br>
@@ -8,14 +8,14 @@
 
 ![microSD-Bee](../../pictures/msd_new bottom.png)
 
-# Technische Informationen
-* "Plug-in-and-Go" senseBox kompatibel
-* Port für miniSD-Karte
-* Bezeichnung: mSD-Bee
-* Maße:24mm x 21mm x 9mm
-* Gewicht:2,4 g
+# Technical Details
+* "Plug-in-and-Go" senseBox compatibel
+* Port for miniSD-card
+* Name: mSD-Bee
+* Measurements:24mm x 21mm x 9mm
+* Weight:2,4 g
 
 
-# Hinweise
+# Imformation
 
-Achtung: Das SD-Bee wird ohne SD-Karte geliefert, falls ihr im senseBox-Shop bestellt.
+Attention: The SD-bee is deliverd without a SD-card if you order in the senseBox-Shop.

@@ -19,64 +19,54 @@
 * Measurements: 46mm x 25mm x 12mm
 * Weight: 1,1 g
 
-# Hinweise
-Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist: https://www.thethingsnetwork.org/community#list-communities-map
+# Information
+Please check if your area is already covered by LoRa before you get your senseBox with LoRa Bee: https://www.thethingsnetwork.org/community#list-communities-map
 
-**Achtung: Aufgrund der erhöhten Komplexität der Installation empfehlen wir das LoRa-Modul außschließlich fortgeschrittenen Nutzern von Open-Hardware**
+**Attention: Due to the increased complexity of the installation, we recommend the LoRa module except advanced users of open hardware**
 
-# Upload über LoRaWAN
 
-Es ist möglich Sensordaten per LoRaWAN™ durch das [TheThingsNetwork](https://thethingsnetwork.org)
-(TTN) auf die openSenseMap zu laden.
-LoRa ist ein zunehmend Verbreitung findender Funkstandard, welcher ähnlich wie
-WiFi digitale Datenübertragung in einem IP-Netzwerk erlaubt, jedoch deutlich
-andere Features bietet:
+# Upload via LoRaWAN
 
-- Datendurchsatz: 300 - 3000 Bit/s
-- Reichweite:     bis zu 15km 
+It is possible to load sensor data via LoRaWAN ™ by the [TheThingsNetwork] (https://thethingsnetwork.org)
+(TTN) to the openSenseMap.
+LoRa is an increasingly popular radio standard, which is similar to WiFi. It allows digital data transmission in an IP network, but provides notable different features including:
 
-TTN ist eins von mehreren Projekten, welches die zur Funk-Hardware zugehörige
-Infrastruktur für das IP-Netzwerk implementiert, wodurch registrierte Geräte
-mit dem Internet verbunden werden können.
+- Data throughput: 300 - 3000 Bit/s
+- Range:     up to 15km 
 
-Nutzer können *Gateways* sowie *Nodes* zu dem Netzwerk hinzufügen.
+TTN is one of several projects that are related to the radio hardware
+Infrastructure implemented for the IP network. Whereby registered devices can be connected to the internet
+
+
+Users can add *Gateways* as well as *Nodes* to the network.
 
 
 ## TTN openSenseMap Integration
-Die openSenseMap bietet eine direkte Integration in das TTN Netzwerk, was die
-Konfiguration stark vereinfacht. Hierfür musst du einen Account [TheThingsNetwork](https://thethingsnetwork.org) erstellen.
+The openSenseMap provides a direct integration into the TTN network, which simplifies the
+configuration. You therefor need to create an account on [TheThingsNetwork] (https://thethingsnetwork.org).
 
-### Registrierung in TTN Console
+### Registration in TTN Console
 
-Um ein Gerät in das TTN einzubinden, muss für dieses zunächst unter
-[thethingsnetwork.org](https://console.thethingsnetwork.org/)
-eine *Application* und ein *Device* registriert werden. Hierbei erhält man eine
-`app_id` und eine `dev_id`.
+To integrate a device in to the TTN you have to first register an *Application* and a *Device* on the [thethingsnetwork.org](https://console.thethingsnetwork.org/) Here you receive a `app_id` and a `dev_id`.
 
-Für die registrierte Application muss die HTTP Integration unter <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
-aktiviert werden. Diese muss konfiguriert werden, dass sie die Nachrichten von
-Devices per `POST` an `https://ttn.opensensemap.org/v1.1` weiterleitet. Das
-Authorization-Feld kann leer bleiben!
+For the registered application, the HTTP integration must be activated under <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>. 
+To transmit messages from devices via `POST` to `https://ttn.opensensemap.org/v1.1`, you have to configurate this
+The authorization-field can stay empty.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" alt="ttnconsole" center width="767" />
 
-Für die Datenübertragung zur openSenseMap müssen die `app_id` und `dev_id` bei
-der Registrierung auf der openSenseMap in der TTN-Konfiguration angegeben
-werden. Darüber hinaus muss ein passendes Decoding-Profil konfiguriert werden,
-welches bestimmt wie die - wegen der geringen Bandbreite als rohe Bytes 
-übertragenen - Daten als Messungen interpretiert werden sollen.
+For the data transfer to openSenseMap, the `app_id` and` dev_id` must be included for the registration on openSenseMap in the TTN configuration. In addition, a suitable decoding profile must be configured. Which determines how the - because of the low bandwidth as raw bytes transmitted - data should be interpreted as measurements.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_register_ttn.png"  alt="osemregister" center width="767"/>
 
-Optional kann im Feld `port` noch der Port angegeben werden, auf welchem
-der Sender seine Daten an das TTN schickt. So lassen sich die selbe `app_id`
-und `dev_id` für mehrere Sensorstationen verwenden.
+Optionally you can indicate a port in the field `port`, on which the transmitter can send his data to the TTN. So you can use the same `app_id` and `dev_id` for multiple sensor stations.
+
 ### Arduino Sketch 
-So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk an die openSenseMap senden kannst.
+This could be an Arduino sketch that lets you send data to the openSenseMap over the TTN network.
 
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
+    <b>Important:</b> You have to paste your recently crated <b>Application-EUI, Device-EUI</b> and the <b>App-Key</b> in the sketch. Please do this in the first line of the programmecode where <b>'INSERT YOUR ID HERE'</b> is indicated. <br><br> Mind that you have chosen the  <b>Device-EUI</b> the <b>Application-EUI</b> the <b>lsb</b>-Format as well as the <b>App-Key</b> and the <b>msb</b>-Format on the TTN-Homepage.
 </div>
 
 ![Ausgewählte ID's und Keys](../../pictures/LoRa_TTN_EUI.png)
@@ -297,7 +287,7 @@ void do_send(osjob_t* j){
           message.addHumidity(humidity);
         }
         delay(2000);
-
+        
         if (bmp) {
           float altitude;
           tempBaro = BMP.readTemperature();
