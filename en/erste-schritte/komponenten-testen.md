@@ -1,32 +1,36 @@
-# Schritt 4: Programmierung der Hardware {#head}
-<div class="description"> In diesem Kapitel wird beschrieben wie die Programmierung der senseBox funktioniert und wie ihr die mitgelieferten Sensoren und Komponenten testen könnt.</div>
+# Step 4: Programming the Hardware {#head}
+<div class="description"> In this chapter we describe how to program the senseBox using Arduino IDE and how to test the sensors and components of the senseBox.</div>
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Ein Softwareprogramm für die senseBox wird im Folgenden auch Sketch genannt.
-</div>
+  The software we code for senseBox is also called "sketch" in the following.</div>
 
 <div><br><br></div>
 
-## Programmieren mit der Arduino IDE
-Mit der Arduino IDE lässt sich ein Sketch kompilieren und auf die senseBox MCU hochladen. Schließt nun die senseBox per USB Kabel an euren Computer an und befolgt die nächsten Schritte.
+## Programming with Arduino IDE
+Using the Arduino IDE you can write code, compile the code and upload it on the senseBox microcontroller unit (MCU). Therefore you first have to connect the senseBox with the computer using hte USB-cable. Then follow the following steps.
 
-### Konfiguration in der Arduino IDE
-Bevor die senseBox programmieren könnt, müsst ihr ein paar Einstellungen in der Arduino IDE vornehmen. Unter dem Reiter `Werkzeuge` müsst ihr bei der Option `Boards` die senseBox MCU unten in der Liste auswählen.
+### Configuration of the Arduino IDE
+Before you can start programming the senseBox, you have to change some settings in the Arduino IDE. 
+
+First, you choose `Tools` in the menu bar and search the senseBox MCU in the option `Boards`.
 
 ![Boardauswahl](../pictures/select_board.png)
 
-Als nächstes wählt ihr unter `Werkzeuge` -> `Port` die Anschlussnummer des USB Ports aus, an dem die senseBox MCU mit dem Computer verbunden ist. 
+Second, you choose again `Tools` and `Port` and search for the USB Port of your computer which is aligned to the senseBox MCU. Usually the computer gives you only one option. Depending on your operation system you have to choose the port repeadetly when putting code on the board.
 
 ![Portauswahl](../pictures/select_port.png)
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Der Port lässt sich nur dann auswählen, wenn die senseBox mit dem USB Kabel an den Computer angeschlossen wurde.
+    Please consider that you can only choose a port when the senseBox is connected to the computer via USB. 
 </div>
 
-### Hello World Beispiel
-Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeilsymbol in der Werkzeugleiste. Im unteren Teil der Arduino Oberfläche bekommt ihr Feedback zum Uploadvorgang. Wenn alles geklappt hat, erscheint dort die Meldung `Hochladen abgeschlossen`.
+### Hello World Example
+Now you can start putting your first code on the senseBox. Therefore copy the following example into your Arduino IDE and click the arrow to upload the code on your senseBox.
+![This on the right side is the arrow you use to upload code](..edu/pictures/grundlagen/arduino-ide_schaltflaechen1.png)
+
+In the down part of your Arduino interface you receive feedback about your uploading process (in the black colored box). If everything worked out sucessfully, you will receive the note `Done upload`.
 
 ```cpp
 int ledPin = LED_BUILTIN; 
@@ -45,66 +49,68 @@ void loop()
 }
 ```
 
-Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar, der nicht vom Kompiler mit ausgewertet wird. Das hat den Sinn, dass man sich besser im Code zurecht findet und man es so anderen Programmierern leichter macht, den eigenen Code zu verstehen. 
+Now you have seen your first Arduino code. The text which you can see behind the `//` is not code, but a comment of the person who write the code. In programming this helps other persons to understand the code and also yourself to remember your ideas when building it. However, this comments will not be read by the compiler. 
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Anders als bei einem Laptop oder Smartphone läuft auf eurer senseBox kein Betriebssystem wie Windows, Linux oder MacOS. Die senseBox MCU ist ein Mikrocontroller, auf dem immer nur das letzte Programm ausgeführt wird, das hochgeladen wurde.
+  In contrast to your laptop or smartphone the senseBox does not use any operating system such as Windows, Linox, Android or MacOS. Always the last program which you put on the microcontroller will be accomplished.This means that if you plug out the senseBox of your computer and put it to another power source it will still remain to run the same code again and again.
 </div>
 
-## Sensoren und Internetverbindung testen
-<div class="description">Bevor ihr eure senseBox mit der openSenseMap verbindet, sollten alle Sensoren und das Netzwerkmodul überprüft werden um späteren Fehlern vorzubeugen. Mit unserem Testprogramm können nach dem Aufbau der Station der Messvorgang und die Netzwerkverbindung getestet werden.</div>
+## Test sensors and internet connection
+<div class="description">Before you connect and register your senseBox to the openSenseMap, you should check if all sensors and the network modul is working to see if you build your hardware in the right way. Therefoe, a testing programm exists which you can run on your Arduino. </div>
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Voraussetzung dafür ist die aktuellste Version des Board-Support-Package aus <a href="board-support-packages-installieren.md">Schritt 2</a>. Am Ende von Schritt 2 ist erklärt, wie ihr das Board-Support-Package auf den neusten Stand bringen könnt.
+    Please remember that you have to install the newest version of the Board-Support-Package as described in <a href="board-support-packages-installieren.md">Step 2</a>. There is also a information how to update the package at the end of Step 2.
 </div>
 
 ------
-### Test-Sketch öffnen
-Öffnet aus den Beispielen die Datei `mcu_component_test` (`Datei` -> `Beispiele` -> `senseBoxMCU`). Nachdem ihr diesen Sketch auf die MCU hochgeladen habt, startet ihr den seriellen Monitor indem ihr auf das Lupen-Symbol rechts oben in der Werkzeugleiste klickt. 
+### Open the Test-Sketch
+The Board-Support-Package comes wiht some test sketches for your senseBox. This file is named `mcu_component_test` and you can access it via `File` -> `Examples` -> `senseBox-Tests`). Now you can upload the code on your MCU by following the same instructions than you did for the Hello World Example.
+
+After uploading the sketch on the MCU, you can start the `Serial Monitor` by clicking on the loupe icon on the right side. This should open a new window.
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Für den Fall, dass sich der Monitor nicht öffnet, solltet ihr überprüfen ob sich das Board im Programmmodus befindet (einmal auf Reset drücken) und ob der richtige Port ausgewählt wurde. Danach versucht es erneut mit einem Klick auf die Lupe.
+  If the monitor is not opening, you should check if the senseBox MCU is in "Program Mode". To do this press the reset button on the senseBox Board (the red button on your senseBox) and then make sure that the right port ist connected. Afterwards you click the loupe icon again.
 </div>
 
 ------
-### Optionsmenü
-Nachdem ihr den seriellen Monitor geöffnet habt erscheint ein Menü auf dessen Funktionen ihr über das Eingabefeld zugreifen könnt:
+### Option Menu in the Serial Monitor
+After opening the Serial Monitor you find a menu with different functions which you can access using the search field:
 
 ![Optionsmenu](../pictures/test_option-menu.png)
 
-Dazu schreibt ihr die Nummer der entsprechenden Option in das Eingabefeld und klickt auf „Senden“. Unterhalb findet ihr eine Auflistung der Optionen mit kurzen Beschreibungen.
+Just type the number of the option you want to test into the search field and click `Send`. Below you will find a list of options and a short description:
 
 1. **Find connected sensors**
 
-  Hier könnt ihr überprüfen, ob alle angeschlossenen Sensoren richtig initialisiert und erkannt wurden. Für jeden angeschlossenen Sensor sollte es eine Rückmeldung und eine Testmessung geben. Im Beispiel unterhalb wurde ein HDC1080 Temperatur- und Luftfeuchtesensor an einen `I2C/Wire` Port angeschlossen.
+Here you can check if all sensors are installed in a correct way and if they are initialized and recognized by the senseBox. For each connected sensor you should receive a feedback and a test measurement. In the example below, a HDC1080 Temperature and Humidity sensor was connceted correctly to a `I2C/Wire` port.
 
   ![Sensortest](../pictures/test_option1.png)
 
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-     Falls bei der Ausgabe einer der angeschlossenen Sensoren fehlt, solltet ihr die Kabelverbindung überprüfen und den Test wiederholen.
+     If you are missing the data of a sensor which you connected with the senseBox, check all cable connections and try it again. You can  also try different ports on your senseBox as well as exchange cables between the sensors.
   </div>
 
 2. **Test connection to openSenseMap**
 
-  Mit dieser Option wird die Internetverbindung getestet. Bei einem erfolgreichen Verbindungsaufbau sollte eine Antwort mit HTTP-Status 200 vom Server ausgegeben werden:
+  With this option you check your internet connectivity. If your senseBox successfully reaches the server you will get a response of the server in form of a HTTP-Status 200.
 
   ![Sensortest](../pictures/test_option2.png)
 
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-     Falls ihr ein WiFi-Modul nutzt, wird außerdem überprüft ob die aktuellste Version der Firmware auf dem Modul installiert ist. Falls die Version veraltet ist, solltet ihr sie aktualisieren.
+     If you use a Wifi-Bee, the test also checks if your firmware is updated to the newest version. If the version of your Wifi-bee is not the newest, you should update the firmware as described in the FAQ of this book.
   </div>
 
 3. **Get security key**
 
-  Jedes senseBox Board besitzt einen eigenen, einzigartigen Sicherheitsschlüssel den ihr mit dieser Option auslesen könnt. Er wird genutzt, um die Verbindung zwischen der openSenseMap und eurer senseBox zu verschlüsseln, damit niemand eure Messungen von außen manipulieren kann.
+  Each senseBox board has a own and unique security key which you can receive here. This key is used to encrypt the connection between the senseBox and the openSenseMap.
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-     Ihr benötigt diesen Schlüssel im nächsten Schritt bei der Registrierung eurer senseBox auf der openSenseMap.
+     We are currently working on a system to register your senseBox on the openSenseMap by using this key. For the first you can proceed without remembering the key.
   </div>
 
 ------

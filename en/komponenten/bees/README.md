@@ -1,13 +1,13 @@
 # Bees {#head}
-<div class="description">Es gibt verschiedene Bees mit der die senseBox Daten speichern, oder diese ins Internet übermitteln kann. Im Moment kann man zwischen vier verschieden Bees wählen.</div>
+<div class="description">There are four different Bees which you can add to your senseBox to save data or upload it in the openSenseMap.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-Klicke eines der Bees an und schau dir Informationen, Tipps und technische Details an:
+
 * [Wifi-Bee](wifi.md)
-* [LAN-Bee](lan.md)
+* [Ethernet-Bee](lan.md)
 * [SD-Bee](sd.md)
 * [LoRa-Bee](lora.md)

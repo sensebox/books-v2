@@ -28,6 +28,11 @@ Als nächstes wählt ihr unter `Werkzeuge` -> `Port` die Anschlussnummer des USB
 ### Hello World Beispiel
 Kopiert das Beispiel unterhalb in eure Arduino Umgebung und klickt auf das Pfeilsymbol in der Werkzeugleiste. Im unteren Teil der Arduino Oberfläche bekommt ihr Feedback zum Uploadvorgang. Wenn alles geklappt hat, erscheint dort die Meldung `Hochladen abgeschlossen`.
 
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  Wenn du noch nicht mit der Arduino IDE gearbeitet hast, kannst du <a href="https://sensebox.github.io/books-v2/edu/grundlagen/der-arduino-sketch.html">hier im senseBox:edu book</a> erfahren was es mit den verschiedenen Pfeilen und Symbolen auf sich hat.
+</div>
+
 ```cpp
 int ledPin = LED_BUILTIN; 
 
@@ -62,7 +67,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar, der n
 
 ------
 ### Test-Sketch öffnen
-Öffnet aus den Beispielen die Datei `mcu_component_test` (`Datei` -> `Beispiele` -> `senseBoxMCU`). Nachdem ihr diesen Sketch auf die MCU hochgeladen habt, startet ihr den seriellen Monitor indem ihr auf das Lupen-Symbol rechts oben in der Werkzeugleiste klickt. 
+Öffnet aus den Beispielen die Datei `mcu_component_test` (`Datei` -> `Beispiele` -> `senseBox-Tests`). Nachdem ihr diesen Sketch auf die MCU hochgeladen habt, startet ihr den seriellen Monitor indem ihr auf das Lupen-Symbol rechts oben in der Werkzeugleiste klickt. 
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -104,7 +109,7 @@ Dazu schreibt ihr die Nummer der entsprechenden Option in das Eingabefeld und kl
   Jedes senseBox Board besitzt einen eigenen, einzigartigen Sicherheitsschlüssel den ihr mit dieser Option auslesen könnt. Er wird genutzt, um die Verbindung zwischen der openSenseMap und eurer senseBox zu verschlüsseln, damit niemand eure Messungen von außen manipulieren kann.
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-     Ihr benötigt diesen Schlüssel im nächsten Schritt bei der Registrierung eurer senseBox auf der openSenseMap.
+     Ihr benötigt diesen Schlüssel aktuell noch nicht bei der Registrierung eurer senseBox auf der openSenseMap. Dies wird sich jedoch bald ändern.
   </div>
 
 ------
