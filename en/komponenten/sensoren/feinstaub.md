@@ -1,10 +1,9 @@
 #Fine Dust Sensor {#head}
 <div class="description">
 
-With this sensor SDS011 it is possible to determine the fine dust concentration in the air. The sensor outputs two values: the concentration of PM2.5 (particle <2.5 μm) and PM10 (particle <10 μm). This sensor is equipped with a small fan to suck in air. Inside is a laser that measures the number of particles together with a photodiode. The results of the measurements are given in μg / m³ (micrograms per cubic meter)
-
-
+With this sensor SDS011 it is possible to determine the fine dust concentration in the air. The sensor outputs two values: the concentration of PM2.5 (particle < 2.5 μm) and PM10 (particle < 10 μm). This sensor is equipped with a small fan to suck in air. Inside is a laser that measures the number of particles together with a photodiode. The results of the measurements are given in μg / m³ (micrograms per cubic meter)
 </div>
+
 <div class="line">
     <br>
     <br>

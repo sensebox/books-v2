@@ -9,10 +9,10 @@
 ## Overview
 
 There are the following components offered and tested for you with the senseBox :
-* [Radiation protection] (radiation protection.md)
-* [Housing] (housing.md)
-* [AC adapter and USB cable] (power supply and USB cable.md)
-* [LED display] (LED display.md)
-* [HUB] (hub.md)
-* [Micro SD card] (micro-sd-karte.md)
-* [GPS] (gps.md)
+* [Radiation protection](strahlenschutz.md)
+* [Housing](gehaeuse.md)
+* [AC adapter and USB cable](netzteil-und-usb-kabel.md)
+* [LED display](led-display.md)
+* [HUB](hub.md)
+* [Micro SD card](micro-sd-karte.md)
+* [GPS](gps.md)
