@@ -1,0 +1,995 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Schritt 6: Registrierung auf der openSenseMap · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-youtubex/player.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-simpletabs/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-collapse/collapse.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="zusammenbau.html" />
+    
+    
+    <link rel="prev" href="verschluesselung.html" />
+    
+
+    </head>
+    <body>
+        
+  <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+  
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Das senseBox:home Buch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../uebersicht.html">
+            
+                <a href="../uebersicht.html">
+            
+                    
+                    Übersicht
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../inventar.html">
+            
+                <a href="../inventar.html">
+            
+                    
+                    Inventar
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Erste Schritte</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="software-installation.html">
+            
+                <a href="software-installation.html">
+            
+                    
+                    Schritt 1: Software Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="board-support-packages-installieren.html">
+            
+                <a href="board-support-packages-installieren.html">
+            
+                    
+                    Schritt 2: Board-Support-Packages installieren
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="anschluss-und-verkabelung.html">
+            
+                <a href="anschluss-und-verkabelung.html">
+            
+                    
+                    Schritt 3: Anschluss und Verkabelung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="komponenten-testen.html">
+            
+                <a href="komponenten-testen.html">
+            
+                    
+                    Schritt 4: Programmierung der Hardware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="verschluesselung.html">
+            
+                <a href="verschluesselung.html">
+            
+                    
+                    Schritt 5: Verschlüsselung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.6" data-path="registrierung-auf-der-openSenseMap.html">
+            
+                <a href="registrierung-auf-der-openSenseMap.html">
+            
+                    
+                    Schritt 6: Registrierung auf der openSenseMap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="zusammenbau.html">
+            
+                <a href="zusammenbau.html">
+            
+                    
+                    Schritt 7: Zusammenbauen im Gehäuse
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="sensebox-aufstellen.html">
+            
+                <a href="sensebox-aufstellen.html">
+            
+                    
+                    Schritt 8: Die senseBox aufstellen
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Komponenten</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../komponenten/">
+            
+                <a href="../komponenten/">
+            
+                    
+                    Inhalt
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../komponenten/sensebox-mcu.html">
+            
+                <a href="../komponenten/sensebox-mcu.html">
+            
+                    
+                    senseBox MCU
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../komponenten/bees/">
+            
+                <a href="../komponenten/bees/">
+            
+                    
+                    Bees
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.2.1" data-path="../komponenten/bees/wifi.html">
+            
+                <a href="../komponenten/bees/wifi.html">
+            
+                    
+                    Wifi-Bee
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.2" data-path="../komponenten/bees/lan.html">
+            
+                <a href="../komponenten/bees/lan.html">
+            
+                    
+                    LAN-Bee
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.3" data-path="../komponenten/bees/sd.html">
+            
+                <a href="../komponenten/bees/sd.html">
+            
+                    
+                    mSD-Bee
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.4" data-path="../komponenten/bees/lora.html">
+            
+                <a href="../komponenten/bees/lora.html">
+            
+                    
+                    LoRa-Bee
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../komponenten/sensoren/">
+            
+                <a href="../komponenten/sensoren/">
+            
+                    
+                    Sensoren
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.3.1" data-path="../komponenten/sensoren/hdc1080.html">
+            
+                <a href="../komponenten/sensoren/hdc1080.html">
+            
+                    
+                    Temperatur & Luftfeuchte (HDC1080)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.2" data-path="../komponenten/sensoren/luftdruck-temperatur.html">
+            
+                <a href="../komponenten/sensoren/luftdruck-temperatur.html">
+            
+                    
+                    Luftdruck & Temperatur
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.3" data-path="../komponenten/sensoren/belichtung-und-uv.html">
+            
+                <a href="../komponenten/sensoren/belichtung-und-uv.html">
+            
+                    
+                    Belichtung und UV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.4" data-path="../komponenten/sensoren/feinstaub.html">
+            
+                <a href="../komponenten/sensoren/feinstaub.html">
+            
+                    
+                    Feinstaub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../komponenten/zubehoer/">
+            
+                <a href="../komponenten/zubehoer/">
+            
+                    
+                    Zubehör
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.4.1" data-path="../komponenten/zubehoer/strahlenschutz.html">
+            
+                <a href="../komponenten/zubehoer/strahlenschutz.html">
+            
+                    
+                    Strahlenschutz
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.2" data-path="../komponenten/zubehoer/gehaeuse.html">
+            
+                <a href="../komponenten/zubehoer/gehaeuse.html">
+            
+                    
+                    Gehäuse
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.3" data-path="../komponenten/zubehoer/netzteil-und-usb-kabel.html">
+            
+                <a href="../komponenten/zubehoer/netzteil-und-usb-kabel.html">
+            
+                    
+                    Netzteil und USB-Kabel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.4" data-path="../komponenten/zubehoer/led-display.html">
+            
+                <a href="../komponenten/zubehoer/led-display.html">
+            
+                    
+                    LED-Display
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.5" data-path="../komponenten/zubehoer/hub.html">
+            
+                <a href="../komponenten/zubehoer/hub.html">
+            
+                    
+                    Expander
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.6" data-path="../komponenten/zubehoer/micro-sd-karte.html">
+            
+                <a href="../komponenten/zubehoer/micro-sd-karte.html">
+            
+                    
+                    Micro-SD Karte
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.7" data-path="../komponenten/zubehoer/gps.html">
+            
+                <a href="../komponenten/zubehoer/gps.html">
+            
+                    
+                    GPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Hilfe & Weiteres</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../hilfe.html">
+            
+                <a href="../hilfe.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../downloads.html">
+            
+                <a href="../downloads.html">
+            
+                    
+                    Downloads
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../add-external-libraries.html">
+            
+                <a href="../add-external-libraries.html">
+            
+                    
+                    Externe Libraries hinzufügen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../additional-info.html">
+            
+                <a href="../additional-info.html">
+            
+                    
+                    Firmware Update Wifi-Bee
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../win-boot-help.html">
+            
+                <a href="../win-boot-help.html">
+            
+                    
+                    Windows USB-Bootloader Treiber aktualisieren
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../aktualisierung_bsp_libraries.html">
+            
+                <a href="../aktualisierung_bsp_libraries.html">
+            
+                    
+                    Aktualisierung des Board-Support-Package & senseBox-Libraries
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../templates/">
+            
+                <a href="../templates/">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.7.1" data-path="../templates/hint-template.html">
+            
+                <a href="../templates/hint-template.html">
+            
+                    
+                    Hint-Box
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7.2" data-path="../templates/bildunterschriften.html">
+            
+                <a href="../templates/bildunterschriften.html">
+            
+                    
+                    Bildunterschriften
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7.3" data-path="../templates/tabs.html">
+            
+                <a href="../templates/tabs.html">
+            
+                    
+                    Tabs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7.4" data-path="../templates/neue-seite.html">
+            
+                <a href="../templates/neue-seite.html">
+            
+                    
+                    Neue Seite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7.5" data-path="../templates/collapsible.html">
+            
+                <a href="../templates/collapsible.html">
+            
+                    
+                    Collapsible
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Schritt 6: Registrierung auf der openSenseMap</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="head">Step 6: Registration on the openSenseMap </h1>
+<div class="description">In order to transfer the measured data to the openSenseMap, you must first register there and create a new senseBox. How to do that you will find out in the following section</div>
+
+<div class="line">
+    <br>
+    <br>
+</div>
+
+<p><details><summary>What is the openSenseMap?</summary><p>The openSenseMap is a project to file, compare and visualise sensordata. Take a look at it by clickin on <a href="https://www.opensensemap.org" target="_blank">www.opensensemap.org</a> and discover a vast data pool of sensordata from around the world. Not only senseBoxes send data to the openSenseMap but also other microcontroller with sensors. You can <a href="https://sensebox.github.io/books-v2/osem" target="_blank">here</a> see how the individual functions of openSenseMap and their interfaces work.</p>
+</details></p>
+<h2 id="1-useraccount-registration">1. Useraccount Registration</h2>
+<p>Please go to www.opensensemap.org and create an account. To do this, click on &quot;Login&quot; in the top right corner and then go to &quot;Sign up&quot;. You need a valid e-mail address to register. After successful registration you will receive an e-mail with a confirmation link. Please click the link to complete the registration.
+<div class="image-wrapper"><img src="../pictures/Sing_up.PNG" alt="Account anlegen"></div></p>
+<h2 id="2-set-up-a-new-sensbox">2. Set up a new sensBox</h2>
+<p>After successful registration you can start creating your senseBox. Click on &quot;New senseBox / New senseBox&quot; in your menu and confirm the terms of use. Follow the instructions of the registration and provide the following data:</p>
+<ul>
+<li>A freely selectable name of the senseBox</li>
+<li>The exposure, in which you want to set up your senseBox </li>
+<li>The location, where you want to set up your senseBox (you can also have your location determined automatically)</li>
+</ul>
+<p>Since the openSenseMap is open to all types of senseBoxes, you will be asked about the hardware used. Select <em> senseBox: home V2 </em> and the bee you use (WiFi, or Ethernet)</p>
+<figure id="fig2.6.1"><div class="image-wrapper"><img src="../pictures/Select_hardware.PNG" alt="Selection of senseBox:home V2 MCU and WiFi Internetconnection"></div><figcaption>Selection of senseBox:home V2 MCU and WiFi Internetconnection</figcaption></figure>
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  You are not sure if you have an ethernet or a wifi-bee, or you can not see the difference between the airpressure and temperaturesensor? In the chapter <a href="../komponenten/">Komponenten</a> you are going to find pictures and further hints for the individual components.
+</div>
+
+<p>Now you are almost done! Quickly select the sensors that you will connect to your senseBox. Just click and ready. If you want to install a finedustsensor, you also have to specify which serial port you want to connect to. After that you can finish the process.</p>
+<p><details><summary>Why do I have to connect a finedustsensor to the serial-port?</summary><p>Here should be an explanation</p>
+</details></p>
+<h2 id="3-receiving-a-summary-of-the-registration">3. Receiving a Summary of the Registration</h2>
+<p>Once you have completed the registration, you must once again agree to the publication of your data. After that you will receive a summary of your registration. There you will see your senseBox ID, your sensor IDs and the Arduino code (you will also receive it via e-mail)  </p>
+<figure id="fig2.6.2"><div class="image-wrapper"><img src="../pictures/summary.PNG" alt="Summary of the registration. Here you can see the IDs to your senseBox and the sensors!"></div><figcaption>Summary of the registration. Here you can see the IDs to your senseBox and the sensors!</figcaption></figure>
+<p><details><summary>What is my senseBox ID</summary><p>The senseBox ID is a unique identifier of your senseBox. With this ID you can find your senseBox for example with a URL on the senseMap (opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN) or in a data pool. Furthermore, it is used for various applications and functions around the senseBox and the openSenseMap.</p>
+</details></p>
+<h2 id="loading-the-arduino-code-on-the-sensebox">Loading the Arduino-Code on the senseBox</h2>
+<p>After you have downloaded the <code>.ino</code> attachment of the Email you have to load this program on to your senseBox. Of course you have to download the Arduino IDE (as explained in step 1) on your computer. In short, you can then follow the following steps:</p>
+<p>(opensensemap.org/explore/ENTER-YOUR-SENSEBOX-HERE)</p>
+<p><ul class="nav nav-tabs" role="tablist"><li role="presentation" class="active"><a href="#first" aria-controls="first" role="tab" data-toggle="tab">WiFi-Bee</a></li><li role="presentation" class=""><a href="#second" aria-controls="second" role="tab" data-toggle="tab">Ethernet-Bee</a></li><li role="presentation" class=""><a href="#third" aria-controls="third" role="tab" data-toggle="tab">LoRa-Bee</a></li></ul><div class="tab-content"><div role="tabpanel" class="tab-pane active" id="first"><h3 id="wifi-bee">WiFi-Bee</h3><ul><li>Open Arduino application
+</li>
+<li>Select <code>Data</code> &#x2192; <code>Open</code> in the data bar and the choose <code>sensebox.ino</code>
+</li>
+<li>The dialog field asks if you want to move the file. Confirm this with &quot;Yes&quot; or &quot;Ok&quot;
+</li>
+<li>Now you need to enter your WiFi network and password for the network between the <code>&quot;&quot;</code>. Please mind to not have any spaces between the  <code>&quot;</code> and the letters of your password.  
+</li>
+<li>Now you can load the program via the arrow icon on the microcontroller.
+</li>
+<li>Wait until the program has been transferred
+</li></ul>
+<hr></div><div role="tabpanel" class="tab-pane " id="second"><h3 id="ethernet-bee">Ethernet-Bee</h3><ul><li>Open Arduino application
+</li>
+<li>Select <code>Data</code> &#x2192; <code>Open</code> in the data bar and the choose <code>sensebox.ino</code>
+</li>
+<li>The dialog field asks if you want to move the file. Confirm this with &quot;Yes&quot; or &quot;Ok&quot;
+</li>
+<li>Now you need to enter your WiFi network and password for the network between the <code>&quot;&quot;</code>. Please mind to not have any spaces between the  <code>&quot;</code> and the letters of your password.  
+</li>
+<li>Now you can load the program via the arrow icon on the microcontroller.
+</li>
+<li>Wait until the program has been transferred
+</li></ul>
+<hr></div><div role="tabpanel" class="tab-pane " id="third"><h3 id="lora-bee">LoRa-Bee</h3><p>Unfortunately we have not been able to write a tutorial for the LoRa-Bee yet. If you would like to help us, please send us an email to info@sensebox.de</p><hr></div></div></p>
+<p>If everything went right, you can now select your station on the openSenseMap and watch how measurements are transmitted continuously!</p>
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+  You can not remember how to transfer the code from Arduino to the senseBox? Look again <a href="software-installation.html">Step 1</a> and <a href="komponenten-testen.html">Step 5</a> , the installation and the transfer will be explained there. In case you have further questions, you are welcome to use our  <a href="https://forum.sensebox.de/" target="_blank">forum</a>, to get information or to write a post. </div>
+
+
+<p><div id="page-footer" class="localized-footer"><hr><p><span style="color: #666; font-size: 85%;">
+    Made with &#x2665; by the senseBox team at <a href="https://www.uni-muenster.de/Geoinformatics/en/" target="_blank">ifgi</a>, WWU M&#xFC;nster
+</span>
+<span style="color: #666; font-size: 85%; float: right; align: center;">
+    All content is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+    <div class="image-wrapper"></div>
+</span></p>
+</div></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="verschluesselung.html" class="navigation navigation-prev " aria-label="Previous page: Schritt 5: Verschlüsselung">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="zusammenbau.html" class="navigation navigation-next " aria-label="Next page: Schritt 7: Zusammenbauen im Gehäuse">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Schritt 6: Registrierung auf der openSenseMap","level":"2.6","depth":1,"next":{"title":"Schritt 7: Zusammenbauen im Gehäuse","level":"2.7","depth":1,"path":"erste-schritte/zusammenbau.md","ref":"erste-schritte/zusammenbau.md","articles":[]},"previous":{"title":"Schritt 5: Verschlüsselung","level":"2.5","depth":1,"path":"erste-schritte/verschluesselung.md","ref":"erste-schritte/verschluesselung.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions","collapse","image-wrapper"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"image-wrapper":{},"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"collapse":{},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Seite bearbeiten","base":"https://github.com/sensebox/books-v2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"erste-schritte/software-installation.html#fig2.1.1","level":"2.1","list_caption":"Figure:  ","alt":" ","nro":1,"url":"arduino-just-download.png","index":1,"caption_template":"_CAPTION_","label":" ","attributes":{},"skip":false,"key":"2.1.1"},{"backlink":"erste-schritte/software-installation.html#fig2.1.2","level":"2.1","list_caption":"Figure:  ","alt":" ","nro":2,"url":"arduino-mac-view.png","index":2,"caption_template":"_CAPTION_","label":" ","attributes":{},"skip":false,"key":"2.1.2"},{"backlink":"erste-schritte/software-installation.html#fig2.1.3","level":"2.1","list_caption":"Figure:  ","alt":" ","nro":3,"url":"arduino-just-download.png","index":3,"caption_template":"_CAPTION_","label":" ","attributes":{},"skip":false,"key":"2.1.3"},{"backlink":"erste-schritte/software-installation.html#fig2.1.4","level":"2.1","list_caption":"Figure:  ","alt":" ","nro":4,"url":"arduino-linux-view.png","index":4,"caption_template":"_CAPTION_","label":" ","attributes":{},"skip":false,"key":"2.1.4"},{"backlink":"erste-schritte/software-installation.html#fig2.1.5","level":"2.1","list_caption":"Figure:  ","alt":" ","nro":5,"url":"arduino-just-download.png","index":5,"caption_template":"_CAPTION_","label":" ","attributes":{},"skip":false,"key":"2.1.5"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.1","level":"2.2","list_caption":"Figure: Open the Preferences and paste the URL","alt":"Open the Preferences and paste the URL","nro":6,"url":"../pictures/ardu/Ardu1.png","index":1,"caption_template":"_CAPTION_","label":"Open the Preferences and paste the URL","attributes":{},"skip":false,"key":"2.2.1"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.2","level":"2.2","list_caption":"Figure: Open the Boardmanager and install both Packages","alt":"Open the Boardmanager and install both Packages","nro":7,"url":"../pictures/ardu/Ardu2.png","index":2,"caption_template":"_CAPTION_","label":"Open the Boardmanager and install both Packages","attributes":{},"skip":false,"key":"2.2.2"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.3","level":"2.2","list_caption":"Figure: Click on 'Update', to refresh the Board-Support-Package","alt":"Click on 'Update', to refresh the Board-Support-Package","nro":8,"url":"../pictures/ardu/update-b-s-p.png","index":3,"caption_template":"_CAPTION_","label":"Click on 'Update', to refresh the Board-Support-Package","attributes":{},"skip":false,"key":"2.2.3"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.4","level":"2.2","list_caption":"Figure: Open the Preferences and paste the URL","alt":"Open the Preferences and paste the URL","nro":9,"url":"../pictures/ardu/ardu_mac.png","index":4,"caption_template":"_CAPTION_","label":"Open the Preferences and paste the URL","attributes":{},"skip":false,"key":"2.2.4"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.5","level":"2.2","list_caption":"Figure: Open the Bordmanager ","alt":"Open the Bordmanager ","nro":10,"url":"../pictures/ardu/ardu3_mac.png","index":5,"caption_template":"_CAPTION_","label":"Open the Bordmanager ","attributes":{},"skip":false,"key":"2.2.5"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.6","level":"2.2","list_caption":"Figure: Install the two marked Packages","alt":"Install the two marked Packages","nro":11,"url":"../pictures/ardu/ardu2_mac.png","index":6,"caption_template":"_CAPTION_","label":"Install the two marked Packages","attributes":{},"skip":false,"key":"2.2.6"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.7","level":"2.2","list_caption":"Figure: Click on 'Update', to refresh the Board-Support-Package","alt":"Click on 'Update', to refresh the Board-Support-Package","nro":12,"url":"../pictures/ardu/ardu_update_mac.png","index":7,"caption_template":"_CAPTION_","label":"Click on 'Update', to refresh the Board-Support-Package","attributes":{},"skip":false,"key":"2.2.7"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.8","level":"2.2","list_caption":"Figure: Open the Preferences and paste the URL","alt":"Open the Preferences and paste the URL","nro":13,"url":"../pictures/ardu/Ardu1.png","index":8,"caption_template":"_CAPTION_","label":"Open the Preferences and paste the URL","attributes":{},"skip":false,"key":"2.2.8"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.9","level":"2.2","list_caption":"Figure: Open the Boardmanager and install both packages","alt":"Open the Boardmanager and install both packages","nro":14,"url":"../pictures/ardu/Ardu2.png","index":9,"caption_template":"_CAPTION_","label":"Open the Boardmanager and install both packages","attributes":{},"skip":false,"key":"2.2.9"},{"backlink":"erste-schritte/board-support-packages-installieren.html#fig2.2.10","level":"2.2","list_caption":"Figure: Click on 'Update', to refresh the Board-Support-Package zu","alt":"Click on 'Update', to refresh the Board-Support-Package zu","nro":15,"url":"../pictures/ardu/update-b-s-p.png","index":10,"caption_template":"_CAPTION_","label":"Click on 'Update', to refresh the Board-Support-Package zu","attributes":{},"skip":false,"key":"2.2.10"},{"backlink":"erste-schritte/anschluss-und-verkabelung.html#fig2.3.1","level":"2.3","list_caption":"Figure: Exemplarischer Anschluss der WiFi-Bee an die MCU (XBEE1)","alt":"Exemplarischer Anschluss der WiFi-Bee an die MCU (XBEE1)","nro":16,"url":"../pictures/plug-in-components/wifi-anschluss.png","index":1,"caption_template":"_CAPTION_","label":"Exemplarischer Anschluss der WiFi-Bee an die MCU (XBEE1)","attributes":{},"skip":false,"key":"2.3.1"},{"backlink":"erste-schritte/anschluss-und-verkabelung.html#fig2.3.2","level":"2.3","list_caption":"Figure: Anschluss der mSD-Bee an die MCU (XBEE1)","alt":"Anschluss der mSD-Bee an die MCU (XBEE1)","nro":17,"url":"../pictures/plug-in-components/sd-anschluss.png","index":2,"caption_template":"_CAPTION_","label":"Anschluss der mSD-Bee an die MCU (XBEE1)","attributes":{},"skip":false,"key":"2.3.2"},{"backlink":"erste-schritte/anschluss-und-verkabelung.html#fig2.3.3","level":"2.3","list_caption":"Figure: Anschluss einfacher Sensoren)","alt":"Anschluss einfacher Sensoren)","nro":18,"url":"../pictures/plug-in-components/sensor-anschluss.jpg?raw=true","index":3,"caption_template":"_CAPTION_","label":"Anschluss einfacher Sensoren)","attributes":{},"skip":false,"key":"2.3.3"},{"backlink":"erste-schritte/anschluss-und-verkabelung.html#fig2.3.4","level":"2.3","list_caption":"Figure: Anschluss Feinstaubsensor)","alt":"Anschluss Feinstaubsensor)","nro":19,"url":"../pictures/plug-in-components/feinstaub-anschluss.jpg","index":4,"caption_template":"_CAPTION_","label":"Anschluss Feinstaubsensor)","attributes":{},"skip":false,"key":"2.3.4"},{"backlink":"erste-schritte/komponenten-testen.html#fig2.4.1","level":"2.4","list_caption":"Figure: Boardauswahl","alt":"Boardauswahl","nro":20,"url":"../pictures/select_board.png","index":1,"caption_template":"_CAPTION_","label":"Boardauswahl","attributes":{},"skip":false,"key":"2.4.1"},{"backlink":"erste-schritte/komponenten-testen.html#fig2.4.2","level":"2.4","list_caption":"Figure: Portauswahl","alt":"Portauswahl","nro":21,"url":"../pictures/select_port.png","index":2,"caption_template":"_CAPTION_","label":"Portauswahl","attributes":{},"skip":false,"key":"2.4.2"},{"backlink":"erste-schritte/komponenten-testen.html#fig2.4.3","level":"2.4","list_caption":"Figure: Optionsmenu","alt":"Optionsmenu","nro":22,"url":"../pictures/test_option-menu.png","index":3,"caption_template":"_CAPTION_","label":"Optionsmenu","attributes":{},"skip":false,"key":"2.4.3"},{"backlink":"erste-schritte/komponenten-testen.html#fig2.4.4","level":"2.4","list_caption":"Figure: Sensortest","alt":"Sensortest","nro":23,"url":"../pictures/test_option2.png","index":4,"caption_template":"_CAPTION_","label":"Sensortest","attributes":{},"skip":false,"key":"2.4.4"},{"backlink":"erste-schritte/registrierung-auf-der-openSenseMap.html#fig2.6.1","level":"2.6","list_caption":"Figure: Selection of senseBox:home V2 MCU and WiFi Internetconnection","alt":"Selection of senseBox:home V2 MCU and WiFi Internetconnection","nro":24,"url":"../pictures/Select_hardware.PNG","index":1,"caption_template":"_CAPTION_","label":"Selection of senseBox:home V2 MCU and WiFi Internetconnection","attributes":{},"skip":false,"key":"2.6.1"},{"backlink":"erste-schritte/registrierung-auf-der-openSenseMap.html#fig2.6.2","level":"2.6","list_caption":"Figure: Summary of the registration. Here you can see the IDs to your senseBox and the sensors!","alt":"Summary of the registration. Here you can see the IDs to your senseBox and the sensors!","nro":25,"url":"../pictures/summary.PNG","index":2,"caption_template":"_CAPTION_","label":"Summary of the registration. Here you can see the IDs to your senseBox and the sensors!","attributes":{},"skip":false,"key":"2.6.2"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.1","level":"2.7","list_caption":"Figure: Komponentenübersicht der Standardversion","alt":"Komponentenübersicht der Standardversion","nro":26,"url":"../pictures/01_aufbau.png","index":1,"caption_template":"_CAPTION_","label":"Komponentenübersicht der Standardversion","attributes":{},"skip":false,"key":"2.7.1"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.2","level":"2.7","list_caption":"Figure:  MCU im Gehäuse","alt":" MCU im Gehäuse","nro":27,"url":"../pictures/mcu_verschraubung.jpeg","index":2,"caption_template":"_CAPTION_","label":" MCU im Gehäuse","attributes":{},"skip":false,"key":"2.7.2"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.3","level":"2.7","list_caption":"Figure: Temperature and air humiditysensor + USB ","alt":"Temperature and air humiditysensor + USB ","nro":28,"url":"../pictures/usb_sensor.png","index":3,"caption_template":"_CAPTION_","label":"Temperature and air humiditysensor + USB ","attributes":{},"skip":false,"key":"2.7.3"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.4","level":"2.7","list_caption":"Figure: Temperature and air humiditysensor in the protective case","alt":"Temperature and air humiditysensor in the protective case","nro":29,"url":"../pictures/tempGeh.jpeg","index":4,"caption_template":"_CAPTION_","label":"Temperature and air humiditysensor in the protective case","attributes":{},"skip":false,"key":"2.7.4"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.5","level":"2.7","list_caption":"Figure: Pin of the 3 standardsensors and the finedustsensor","alt":"Pin of the 3 standardsensors and the finedustsensor","nro":30,"url":"../pictures/allesensoren.jpeg","index":5,"caption_template":"_CAPTION_","label":"Pin of the 3 standardsensors and the finedustsensor","attributes":{},"skip":false,"key":"2.7.5"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.6","level":"2.7","list_caption":"Figure: Pin of the sensors on the Plexiglass","alt":"Pin of the sensors on the Plexiglass","nro":31,"url":"../pictures/plexi.jpeg","index":6,"caption_template":"_CAPTION_","label":"Pin of the sensors on the Plexiglass","attributes":{},"skip":false,"key":"2.7.6"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.7","level":"2.7","list_caption":"Figure: Components of the finedustsensor","alt":"Components of the finedustsensor","nro":32,"url":"../pictures/komposFein.jpeg","index":7,"caption_template":"_CAPTION_","label":"Components of the finedustsensor","attributes":{},"skip":false,"key":"2.7.7"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.8","level":"2.7","list_caption":"Figure: Procedure to connect the wire of the finedustsensor","alt":"Procedure to connect the wire of the finedustsensor","nro":33,"url":"../pictures/anschlussfein.jpeg","index":8,"caption_template":"_CAPTION_","label":"Procedure to connect the wire of the finedustsensor","attributes":{},"skip":false,"key":"2.7.8"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.9","level":"2.7","list_caption":"Figure: Completed connection of the finedustsensor","alt":"Completed connection of the finedustsensor","nro":34,"url":"../pictures/feinstaub.jpeg","index":9,"caption_template":"_CAPTION_","label":"Completed connection of the finedustsensor","attributes":{},"skip":false,"key":"2.7.9"},{"backlink":"erste-schritte/zusammenbau.html#fig2.7.10","level":"2.7","list_caption":"Figure: Completed Connection finedustsensor","alt":"Completed Connection finedustsensor","nro":35,"url":"../pictures/aufbaufertig.jpeg","index":10,"caption_template":"_CAPTION_","label":"Completed Connection finedustsensor","attributes":{},"skip":false,"key":"2.7.10"},{"backlink":"komponenten/sensebox-mcu.html#fig3.1.1.1","level":"3.1.1","list_caption":"Figure: The senseBox MCU","alt":"The senseBox MCU","nro":36,"url":"../pictures/mcu_one_top.png","index":1,"caption_template":"_CAPTION_","label":"The senseBox MCU","attributes":{},"skip":false,"key":"3.1.1.1"},{"backlink":"komponenten/bees/wifi.html#fig3.1.2.1.1","level":"3.1.2.1","list_caption":"Figure: Wifi-Bee","alt":"Wifi-Bee","nro":37,"url":"../../pictures/wifi_new bottom.png","index":1,"caption_template":"_CAPTION_","label":"Wifi-Bee","attributes":{},"skip":false,"key":"3.1.2.1.1"},{"backlink":"komponenten/bees/lan.html#fig3.1.2.2.1","level":"3.1.2.2","list_caption":"Figure: Ethernet Bee","alt":"Ethernet Bee","nro":38,"url":"../../pictures/Lan_bottom.png","index":1,"caption_template":"_CAPTION_","label":"Ethernet Bee","attributes":{},"skip":false,"key":"3.1.2.2.1"},{"backlink":"komponenten/bees/sd.html#fig3.1.2.3.1","level":"3.1.2.3","list_caption":"Figure: microSD-Bee","alt":"microSD-Bee","nro":39,"url":"../../pictures/msd_new bottom.png","index":1,"caption_template":"_CAPTION_","label":"microSD-Bee","attributes":{},"skip":false,"key":"3.1.2.3.1"},{"backlink":"komponenten/bees/lora.html#fig3.1.2.4.1","level":"3.1.2.4","list_caption":"Figure: Lora Bee","alt":"Lora Bee","nro":40,"url":"../../pictures/LoraBee%20bottom.png","index":1,"caption_template":"_CAPTION_","label":"Lora Bee","attributes":{},"skip":false,"key":"3.1.2.4.1"},{"backlink":"komponenten/bees/lora.html#fig3.1.2.4.2","level":"3.1.2.4","list_caption":"Figure: ttnconsole","alt":"ttnconsole","nro":41,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png","index":2,"caption_template":"_CAPTION_","label":"ttnconsole","attributes":{},"skip":false,"key":"3.1.2.4.2"},{"backlink":"komponenten/bees/lora.html#fig3.1.2.4.3","level":"3.1.2.4","list_caption":"Figure: osemregister","alt":"osemregister","nro":42,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/osem_register_ttn.png","index":3,"caption_template":"_CAPTION_","label":"osemregister","attributes":{},"skip":false,"key":"3.1.2.4.3"},{"backlink":"komponenten/bees/lora.html#fig3.1.2.4.4","level":"3.1.2.4","list_caption":"Figure: Ausgewählte ID's und Keys","alt":"Ausgewählte ID's und Keys","nro":43,"url":"../../pictures/LoRa_TTN_EUI.png","index":4,"caption_template":"_CAPTION_","label":"Ausgewählte ID's und Keys","attributes":{},"skip":false,"key":"3.1.2.4.4"},{"backlink":"komponenten/bees/lora.html#fig3.1.2.4.5","level":"3.1.2.4","list_caption":"Figure: In der Textbox muss der Decoder nun eingefügt werden","alt":"In der Textbox muss der Decoder nun eingefügt werden","nro":44,"url":"../../pictures/decoder_code.png","index":5,"caption_template":"_CAPTION_","label":"In der Textbox muss der Decoder nun eingefügt werden","attributes":{},"skip":false,"key":"3.1.2.4.5"},{"backlink":"komponenten/bees/lora.html#fig3.1.2.4.6","level":"3.1.2.4","list_caption":"Figure: In der TTN Console muss eine Payload Function definiert werden","alt":"In der TTN Console muss eine Payload Function definiert werden","nro":45,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png","index":6,"caption_template":"_CAPTION_","label":"In der TTN Console muss eine Payload Function definiert werden","attributes":{},"skip":false,"key":"3.1.2.4.6"},{"backlink":"komponenten/sensoren/hdc1080.html#fig3.1.3.1.1","level":"3.1.3.1","list_caption":"Figure: Temperature and Air Humidity Sensor","alt":"Temperature and Air Humidity Sensor","nro":46,"url":"../../pictures/hds top.png","index":1,"caption_template":"_CAPTION_","label":"Temperature and Air Humidity Sensor","attributes":{},"skip":false,"key":"3.1.3.1.1"},{"backlink":"komponenten/sensoren/luftdruck-temperatur.html#fig3.1.3.2.1","level":"3.1.3.2","list_caption":"Figure: Airpressure- and Temperature Sensor","alt":"Airpressure- and Temperature Sensor","nro":47,"url":"../../pictures/bmp%20top.png","index":1,"caption_template":"_CAPTION_","label":"Airpressure- and Temperature Sensor","attributes":{},"skip":false,"key":"3.1.3.2.1"},{"backlink":"komponenten/sensoren/belichtung-und-uv.html#fig3.1.3.3.1","level":"3.1.3.3","list_caption":"Figure: Illumination and UV-Radiation","alt":"Illumination and UV-Radiation","nro":48,"url":"../../pictures/tsl top.png","index":1,"caption_template":"_CAPTION_","label":"Illumination and UV-Radiation","attributes":{},"skip":false,"key":"3.1.3.3.1"},{"backlink":"komponenten/sensoren/feinstaub.html#fig3.1.3.4.1","level":"3.1.3.4","list_caption":"Figure: Fine dust sensor for PM10 und PM2.5","alt":"Fine dust sensor for PM10 und PM2.5","nro":49,"url":"../../pictures/feinstaub_top.png","index":1,"caption_template":"_CAPTION_","label":"Fine dust sensor for PM10 und PM2.5","attributes":{},"skip":false,"key":"3.1.3.4.1"},{"backlink":"komponenten/sensoren/feinstaub.html#fig3.1.3.4.2","level":"3.1.3.4","list_caption":"Figure: Required (provided) Parts","alt":"Required (provided) Parts","nro":50,"url":"../../pictures/feinstaub_top_accessoire.png","index":2,"caption_template":"_CAPTION_","label":"Required (provided) Parts","attributes":{},"skip":false,"key":"3.1.3.4.2"},{"backlink":"komponenten/zubehoer/gehaeuse.html#fig3.1.4.2.1","level":"3.1.4.2","list_caption":"Figure: The Housing","alt":"The Housing","nro":51,"url":"https://raw.githubusercontent.com/sensebox/books-v2/edu/pictures/box%2002%20top.png?token=AUIA55NGps0H8Zb_B-wyS-Tmo0Bd8763ks5bVvhcwA%3D%3D","index":1,"caption_template":"_CAPTION_","label":"The Housing","attributes":{},"skip":false,"key":"3.1.4.2.1"},{"backlink":"komponenten/zubehoer/netzteil-und-usb-kabel.html#fig3.1.4.3.1","level":"3.1.4.3","list_caption":"Figure: USB-cable","alt":"USB-cable","nro":52,"url":"../../pictures/USB_cable.png","index":1,"caption_template":"_CAPTION_","label":"USB-cable","attributes":{},"skip":false,"key":"3.1.4.3.1"},{"backlink":"komponenten/zubehoer/hub.html#fig3.1.4.5.1","level":"3.1.4.5","list_caption":"Figure: Expander","alt":"Expander","nro":53,"url":"../../pictures/hub_bottom.png","index":1,"caption_template":"_CAPTION_","label":"Expander","attributes":{},"skip":false,"key":"3.1.4.5.1"},{"backlink":"komponenten/zubehoer/gps.html#fig3.1.4.7.1","level":"3.1.4.7","list_caption":"Figure: The GPS-sensor","alt":"The GPS-sensor","nro":54,"url":"../../pictures/gps%20top.png","index":1,"caption_template":"_CAPTION_","label":"The GPS-sensor","attributes":{},"skip":false,"key":"3.1.4.7.1"},{"backlink":"hilfe.html#fig4.1.1","level":"4.1","list_caption":"Figure: Look at which of the two color-coded ports you've connected your fine dust sensor.","alt":"Look at which of the two color-coded ports you've connected your fine dust sensor.","nro":55,"url":"pictures/feinstaub_serial_port.jpg","index":1,"caption_template":"_CAPTION_","label":"Look at which of the two color-coded ports you've connected your fine dust sensor.","attributes":{},"skip":false,"key":"4.1.1"},{"backlink":"add-external-libraries.html#fig4.3.1","level":"4.3","list_caption":"Figure: Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","alt":"Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","nro":56,"url":"pictures/libraries/github_download.png","index":1,"caption_template":"_CAPTION_","label":"Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","attributes":{},"skip":false,"key":"4.3.1"},{"backlink":"add-external-libraries.html#fig4.3.2","level":"4.3","list_caption":"Figure: Klicke `Datei` und dann `Voreinstellungen`","alt":"Klicke `Datei` und dann `Voreinstellungen`","nro":57,"url":"pictures/libraries/voreinstellungen_2.PNG?raw=true","index":2,"caption_template":"_CAPTION_","label":"Klicke `Datei` und dann `Voreinstellungen`","attributes":{},"skip":false,"key":"4.3.2"},{"backlink":"add-external-libraries.html#fig4.3.3","level":"4.3","list_caption":"Figure: Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","alt":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","nro":58,"url":"pictures/libraries/voreinstellungen.PNG","index":3,"caption_template":"_CAPTION_","label":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","attributes":{},"skip":false,"key":"4.3.3"},{"backlink":"add-external-libraries.html#fig4.3.4","level":"4.3","list_caption":"Figure: Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","alt":"Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","nro":59,"url":"pictures/libraries/github_download.png","index":4,"caption_template":"_CAPTION_","label":"Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","attributes":{},"skip":false,"key":"4.3.4"},{"backlink":"add-external-libraries.html#fig4.3.5","level":"4.3","list_caption":"Figure: Klicke `Arduino` und dann `Einstellungen ...`","alt":"Klicke `Arduino` und dann `Einstellungen ...`","nro":60,"url":"pictures/libraries/voreinstellungen_2_mac.png","index":5,"caption_template":"_CAPTION_","label":"Klicke `Arduino` und dann `Einstellungen ...`","attributes":{},"skip":false,"key":"4.3.5"},{"backlink":"add-external-libraries.html#fig4.3.6","level":"4.3","list_caption":"Figure: Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","alt":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","nro":61,"url":"pictures/libraries/voreinstellungen_mac.png","index":6,"caption_template":"_CAPTION_","label":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","attributes":{},"skip":false,"key":"4.3.6"},{"backlink":"add-external-libraries.html#fig4.3.7","level":"4.3","list_caption":"Figure: Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","alt":"Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","nro":62,"url":"pictures/libraries/github_download.png","index":7,"caption_template":"_CAPTION_","label":"Beispielhafter Download der \"Adafruit_HDC_Library\" von github.com","attributes":{},"skip":false,"key":"4.3.7"},{"backlink":"add-external-libraries.html#fig4.3.8","level":"4.3","list_caption":"Figure: Klicke `Datei` und dann `Voreinstellungen`","alt":"Klicke `Datei` und dann `Voreinstellungen`","nro":63,"url":"pictures/libraries/voreinstellungen_2_linux.png","index":8,"caption_template":"_CAPTION_","label":"Klicke `Datei` und dann `Voreinstellungen`","attributes":{},"skip":false,"key":"4.3.8"},{"backlink":"add-external-libraries.html#fig4.3.9","level":"4.3","list_caption":"Figure: Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","alt":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","nro":64,"url":"pictures/libraries/voreinstellungen_linux.png","index":9,"caption_template":"_CAPTION_","label":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","attributes":{},"skip":false,"key":"4.3.9"},{"backlink":"additional-info.html#fig4.4.1","level":"4.4","list_caption":"Figure: Open the WiFi-Test","alt":"Open the WiFi-Test","nro":65,"url":"pictures/Update-Wifi-Firmware/1-test.PNG","index":1,"caption_template":"_CAPTION_","label":"Open the WiFi-Test","attributes":{},"skip":false,"key":"4.4.1"},{"backlink":"additional-info.html#fig4.4.2","level":"4.4","list_caption":"Figure: Test results with a non-current firmware","alt":"Test results with a non-current firmware","nro":66,"url":"pictures/Update-Wifi-Firmware/2-result.PNG","index":2,"caption_template":"_CAPTION_","label":"Test results with a non-current firmware","attributes":{},"skip":false,"key":"4.4.2"},{"backlink":"additional-info.html#fig4.4.3","level":"4.4","list_caption":"Figure: Open the WINC1500_Updater","alt":"Open the WINC1500_Updater","nro":67,"url":"pictures/Update-Wifi-Firmware/3-updater.PNG","index":3,"caption_template":"_CAPTION_","label":"Open the WINC1500_Updater","attributes":{},"skip":false,"key":"4.4.3"},{"backlink":"additional-info.html#fig4.4.4","level":"4.4","list_caption":"Figure: Choose Wifi 101 Firmware Updater","alt":"Choose Wifi 101 Firmware Updater","nro":68,"url":"pictures/Update-Wifi-Firmware/4-firmware-updater.PNG","index":4,"caption_template":"_CAPTION_","label":"Choose Wifi 101 Firmware Updater","attributes":{},"skip":false,"key":"4.4.4"},{"backlink":"additional-info.html#fig4.4.5","level":"4.4","list_caption":"Figure: Test connection of the Wifi-Bee","alt":"Test connection of the Wifi-Bee","nro":69,"url":"pictures/Update-Wifi-Firmware/5-test-connection.PNG","index":5,"caption_template":"_CAPTION_","label":"Test connection of the Wifi-Bee","attributes":{},"skip":false,"key":"4.4.5"},{"backlink":"additional-info.html#fig4.4.6","level":"4.4","list_caption":"Figure: Finally Update Firmware","alt":"Finally Update Firmware","nro":70,"url":"pictures/Update-Wifi-Firmware/6-update-firmware.PNG","index":6,"caption_template":"_CAPTION_","label":"Finally Update Firmware","attributes":{},"skip":false,"key":"4.4.6"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.1","level":"4.6","list_caption":"Figure: Klicke `Datei` und dann `Voreinstellungen`","alt":"Klicke `Datei` und dann `Voreinstellungen`","nro":71,"url":"../pictures/libraries/voreinstellungen_2.PNG?raw=true","index":1,"caption_template":"_CAPTION_","label":"Klicke `Datei` und dann `Voreinstellungen`","attributes":{},"skip":false,"key":"4.6.1"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.2","level":"4.6","list_caption":"Figure: Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","alt":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","nro":72,"url":"../pictures/libraries/voreinstellungen.PNG","index":2,"caption_template":"_CAPTION_","label":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","attributes":{},"skip":false,"key":"4.6.2"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.3","level":"4.6","list_caption":"Figure: Öffne die Voreinstellungen und füge die URL ein","alt":"Öffne die Voreinstellungen und füge die URL ein","nro":73,"url":"../pictures/ardu/Ardu1.png","index":3,"caption_template":"_CAPTION_","label":"Öffne die Voreinstellungen und füge die URL ein","attributes":{},"skip":false,"key":"4.6.3"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.4","level":"4.6","list_caption":"Figure: Suche nach dem rot markierten Package","alt":"Suche nach dem rot markierten Package","nro":74,"url":"../pictures/ardu/Ardu3.png","index":4,"caption_template":"_CAPTION_","label":"Suche nach dem rot markierten Package","attributes":{},"skip":false,"key":"4.6.4"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.5","level":"4.6","list_caption":"Figure: Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","alt":"Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","nro":75,"url":"../pictures/ardu/update-b-s-p.png","index":5,"caption_template":"_CAPTION_","label":"Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","attributes":{},"skip":false,"key":"4.6.5"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.6","level":"4.6","list_caption":"Figure: Klicke `Arduino` -> `Einstellungen...`","alt":"Klicke `Arduino` -> `Einstellungen...`","nro":76,"url":"../pictures/libraries/voreinstellungen_2_mac.png","index":6,"caption_template":"_CAPTION_","label":"Klicke `Arduino` -> `Einstellungen...`","attributes":{},"skip":false,"key":"4.6.6"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.7","level":"4.6","list_caption":"Figure: Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","alt":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","nro":77,"url":"../pictures/libraries/voreinstellungen_mac.png","index":7,"caption_template":"_CAPTION_","label":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","attributes":{},"skip":false,"key":"4.6.7"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.8","level":"4.6","list_caption":"Figure: Öffne die Voreinstellungen und füge dort die URL ein","alt":"Öffne die Voreinstellungen und füge dort die URL ein","nro":78,"url":"../pictures/libraries/voreinstellungen_mac_boardverwalter.png","index":8,"caption_template":"_CAPTION_","label":"Öffne die Voreinstellungen und füge dort die URL ein","attributes":{},"skip":false,"key":"4.6.8"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.9","level":"4.6","list_caption":"Figure: Suche nach dem rot markierten Package","alt":"Suche nach dem rot markierten Package","nro":79,"url":"../pictures/ardu/Ardu3.png","index":9,"caption_template":"_CAPTION_","label":"Suche nach dem rot markierten Package","attributes":{},"skip":false,"key":"4.6.9"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.10","level":"4.6","list_caption":"Figure: Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","alt":"Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","nro":80,"url":"../pictures/ardu/update-b-s-p.png","index":10,"caption_template":"_CAPTION_","label":"Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","attributes":{},"skip":false,"key":"4.6.10"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.11","level":"4.6","list_caption":"Figure: Klicke `Datei` -> `Voreinstellungen`","alt":"Klicke `Datei` -> `Voreinstellungen`","nro":81,"url":"../pictures/libraries/voreinstellungen_2_linux.png","index":11,"caption_template":"_CAPTION_","label":"Klicke `Datei` -> `Voreinstellungen`","attributes":{},"skip":false,"key":"4.6.11"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.12","level":"4.6","list_caption":"Figure: Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","alt":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","nro":82,"url":"../pictures/libraries/voreinstellungen_linux.png","index":12,"caption_template":"_CAPTION_","label":"Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist","attributes":{},"skip":false,"key":"4.6.12"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.13","level":"4.6","list_caption":"Figure: Öffne die Voreinstellungen und füge die URL ein","alt":"Öffne die Voreinstellungen und füge die URL ein","nro":83,"url":"../pictures/ardu/Ardu1.png","index":13,"caption_template":"_CAPTION_","label":"Öffne die Voreinstellungen und füge die URL ein","attributes":{},"skip":false,"key":"4.6.13"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.14","level":"4.6","list_caption":"Figure: Suche nach dem rot markierten Package","alt":"Suche nach dem rot markierten Package","nro":84,"url":"../pictures/ardu/Ardu3.png","index":14,"caption_template":"_CAPTION_","label":"Suche nach dem rot markierten Package","attributes":{},"skip":false,"key":"4.6.14"},{"backlink":"aktualisierung_bsp_libraries.html#fig4.6.15","level":"4.6","list_caption":"Figure: Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","alt":"Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","nro":85,"url":"../pictures/ardu/update-b-s-p.png","index":15,"caption_template":"_CAPTION_","label":"Klicke auf 'Update', um das Board-Support-Package zu aktualisieren","attributes":{},"skip":false,"key":"4.6.15"},{"backlink":"templates/index.html#fig4.7.1","level":"4.7","list_caption":"Figure: Dies ist eine Beispiel-Unterschrift","alt":"Dies ist eine Beispiel-Unterschrift","nro":86,"url":"https://github.com/sensebox/books-v2/blob/home/pictures/mcu_one_top.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Dies ist eine Beispiel-Unterschrift","attributes":{},"skip":false,"key":"4.7.1"},{"backlink":"templates/bildunterschriften.html#fig4.7.2.1","level":"4.7.2","list_caption":"Figure: Das LoraBee passend zur SenseBox!","alt":"Das LoraBee passend zur SenseBox!","nro":87,"url":"https://github.com/sensebox/books-v2/blob/home/pictures/LoraBee%20top.png?raw=true","index":1,"caption_template":"_CAPTION_","label":"Das LoraBee passend zur SenseBox!","attributes":{},"skip":false,"key":"4.7.2.1"}]},"language":"en","gitbook":"^3.2.2"},"file":{"path":"erste-schritte/registrierung-auf-der-openSenseMap.md","mtime":"2018-09-11T19:00:15.808Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-11T19:30:58.351Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-scramble-mailto/scramble-mailto.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-youtubex/player.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapse/collapse.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
