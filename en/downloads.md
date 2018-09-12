@@ -1,17 +1,17 @@
 # Downloads {#head}
 
 <div class="description">
-	In diesem Bereich findest du verschiedene Downloads, die dir bei der Verwendung der senseBox helfen können.
+	In this section you will find various downloads that help you to use the senseBox.
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Dokumentation als PDF
+## Documentation as PDF
 
-Dieses Buch ist auch als PDF zum ausdrucken verfügbar!
+This book is also available as PDF for printing.
 
-PDF-Download: [senseBox:home-Dokumentation](https://github.com/sensebox/books-v2/raw/gh-pages/senseBox:home.pdf)
+PDF-Download: [senseBox:home-Documentation](https://github.com/sensebox/books-v2/raw/gh-pages/senseBox:home.pdf)
 
-*Weitere nützliche Downloads folgen in Kürze ;)*
+* More useful downloads coming soon;) *
