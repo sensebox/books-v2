@@ -69,7 +69,7 @@ This could be an Arduino sketch that lets you send data to the openSenseMap over
     <b>Important:</b> You have to paste your recently crated <b>Application-EUI, Device-EUI</b> and the <b>App-Key</b> in the sketch. Please do this in the first line of the programmecode where <b>'INSERT YOUR ID HERE'</b> is indicated. <br><br> Mind that you have chosen the  <b>Device-EUI</b> the <b>Application-EUI</b> the <b>lsb</b>-Format as well as the <b>App-Key</b> and the <b>msb</b>-Format on the TTN-Homepage.
 </div>
 
-![Ausgewählte ID's und Keys](../../pictures/LoRa_TTN_EUI.png)
+![Selected ID's and Keys](../../pictures/LoRa_TTN_EUI.png)
 
 {% collapse title="Arduino Sketch für senseBoxMCU" %}
 
@@ -397,38 +397,38 @@ void loop() {
 {% endcollapse %}
 
 ### Decoding Profile
-Für eine Box muss passend zu den übertragenen Messdaten ein Decoding-Profil
-ausgewählt oder definiert werden.
-Die Auswahl des Decoding-Profils ist von dem Encoding der Nachrichten auf dem
-Mikrocontroller, und ob im TTN eine Payload-Function eingestellt wurde abhängig.
+A decoding-profile fitting to the measuring data has to be selected and defined for a box.
+The decoding profile selection is based on the encoding of the messages on the
+Microcontroller. And whether in the TTN a payload function has been set dependent.
 
-- Für die senseBox:home (ohne Erweiterungen) kann das `senseBox:home` Profil
-verwendet werden.
-- Werden die Messungen auf der LoRa-Node mit der `lora-serialization`-Library
-encodiert, sollte das `lora-serialization` Profil verwendet werden.
-- Mit dem `json` Profil werden beliebige andere Encodings unterstuetzt, falls eine
-Payload-Function in der TTN Console die Nachrichten passend decodiert.
+- For the senseBox: home (without extensions) the `senseBox: home` profile
+be used.
+- If the measurements will be encoded on the LoRa node using the `lora-serialization` library
+, the `lora-serialization` profile should be used.
+- The `json` profile supports any other encodings, if one
+Payload function in the TTN Console decodes the messages appropriately.
 
-Im Folgenden wird erklärt wie die unterstützten Profile konfiguriert werden:
+The following explains how to configure the supported profiles:
 
 #### `sensebox/home`
-Dieses Profil ist zugeschnitten auf die mit der senseBox:home gelieferten Sensoren.
-Neben der Angabe `sensebox/home` unter `profile` ist keine weitere Konfiguration
-notwendig.
-<br><b>Dies funktioniert nur ohne die Feinstaub(PM2.5 und PM10) Sensoren</b>
+This profile is tailored to the sensors supplied with the senseBox: home.
+Besides the specification `sensebox / home` under` profile` there is no further configuration
+necessary.
+<br><b>This works only without the fine dust sensors(PM2.5 und PM10)</b>
 
 
 
-Zusätzlich zu dem Arduino Sketch musst du auf der TTN-Homepage einen Decoder einrichten, sodass deine Messwerte im richtigen Format an die openSenseMap gesendet werden.
-![Im Overview Fenster zu "Payload Formats" navigieren](../../pictures/decoder_1st.png)
+In addition to the Arduino Sketch, you'll need to set up a decoder on the TTN homepage so that your metrics are sent to the openSenseMap in the correct format.
 
-![In der Textbox muss der Decoder nun eingefügt werden](../../pictures/decoder_code.png)
+![Navigate to Payload Formats in the Overview window](../../pictures/decoder_1st.png)
+
+![The decoder must now be inserted in the text box](../../pictures/decoder_code.png)
 
 <h1 id="decoder"></h1>
 {% collapse  title="Decoder für das TTN" %}
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    <b>Wichtig:</b> Hier musst du deine <b>sensor ID's</b> nachtragen.
+    <b>Important:</b> Here you have to add your <b>sensor ID's</b>.
 </div>
 
 ```javascript
@@ -560,18 +560,17 @@ function Decoder(bytes, port) {
 
 
 #### `lora-serialization`
-Für Sensorstationen, welche eine spezielle Sensorkonfiguration haben, können
-durch das `lora-serialization` Profil nahezu beliebige Daten annehmen.
-Hierzu nutzen wir die [`lora-serialization`](https://github.com/thesolarnomad/lora-serialization)
-Bibliothek, welche ein einheitliches Encoding auf dem Microcontroller, und
-Decoding am anderen Ende der Leitung erlaubt.
+The `lora-serialization` profile can accept almost any data, even sensor stations, which have a special sensor configuration.
+For this we use the [`lora-serialization`] (https://github.com/thesolarnomad/lora-serialization)
+Library, which provides a unified encoding on the microcontroller, and
+Decoding on the other end of the line.
 
-Es werden die Encodings `temperature`, `humidity`, `unixtime`, `uint8` und
-`uint16` unterstützt, welche pro Sensor unter **Dekodierungsoptionen** angegeben
-werden müssen.  Die Zuordnung des Sensors kann über eine der Properties
-`sensor_id`, `sensor_title`, `sensor_unit`, `sensor_type` erfolgen.
+The encodings `temperature`,` humidity`, `unixtime`,` uint8` and
+`uint16` are supported, which need to be indicated per sensor under ** decoding options **.
+The assignment of the sensor can be made via one of the properties
+`sensor_id`,` sensor_title`, `sensor_unit`,` sensor_type`.
 
-Ein Beispiel für zwei Sensoren sähe so aus:
+An example of two sensors looks like this:
 
 ```json
 [
@@ -580,13 +579,12 @@ Ein Beispiel für zwei Sensoren sähe so aus:
 ]
 ```
 
-> ***Hinweis:*** *Die Reihenfolge der Sensoren muss hier beim Arduino und der
-> openSenseMap identisch sein!*
+> ***Information:*** *The order of the sensors must be the same here as well as on the Arduino and the >openSenseMap!*
 
-Wenn ein `unixtime` Decoder angegeben wird, wird dessen Zeitstempel für alle im
-Folgenden angegebenen Messungen verwendet.
-Andernfalls wird der Moment verwendet, in dem das erste Gateway die Nachricht
-erhält. Beispiel: 
+If a `unixtime` decoder is specified, its timestamp will be used for all of
+the following measurements.
+Otherwise, the moment is used in which the first gateway receives the message.
+Example:
 
 ```json
 [
@@ -596,20 +594,21 @@ erhält. Beispiel:
 ```
 
 #### `json` - Decoding mit TTN Payload Function
-Falls die `lora-serialization` Library nicht zur Wahl steht, können Messungen
-schon auf Seite des TTN mittels einer *Payload Function* dekodiert werden,
-sodass hier beliebige Datenformate unterstützt werden.
+If the `lora-serialization` library is not available, measurements can still get
+decoded on the TTN side by means of a * Payload Function *,
+so that any data formats are supported here.
 
-![In der TTN Console muss eine Payload Function definiert werden](https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png)
 
-Das resultierende JSON muss kompatibel mit den von der [openSenseMap-API verstandenen
+![In the TTN Console, a payload function must be defined](https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png)
+
+The resulting JSON must be compatible with that of the[openSenseMap-API verstandenen
 Measurement Formaten sein](https://docs.opensensemap.org/#api-Measurements-postNewMeasurements).
-Ein einfaches Beispiel:
+A simple example:
 
 ```json
 { "sensor_id1": "value1, "sensor_id2: "value2" }
 ```
 
-Ein Beispiel dafür wurde dir [oben](#decoder) gezeigt.
+An example of this is indicated for you you [above](#decoder).
 
-Auf Seiten der openSenseMap ist keine Konfiguration notwendig.
+On the side of the openSenseMap no configuration is necessary.
