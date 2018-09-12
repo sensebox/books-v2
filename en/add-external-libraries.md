@@ -1,6 +1,6 @@
-# Manuelles Einbinden von Libraries {#head}
+# Manual Integration of Libraries {#head}
 
-<div class="description">Um eigene Sensoren an die senseBox anschließen zu können, geben die Hersteller vieler Sensoren passende Libraries mit. Hier zeigen wir euch, wie ihr aus einem Github-Repository Libraries herunterladen und diese manuell einbinden könnt. Ihr könnt diese Anleitung für jegliche externe Libraries verwenden, die ihr in Arduino einbinden möchtet. </div>
+<div class="description">To be able to connect own sensors to the senseBox, the manufacturers of many sensors provide suitable libraries. Here we show you how to download libraries from a Github repository and integrate them manually. You can use this guide for any external libraries you want to include in Arduino. </div>
 <div class="line">
     <br>
     <br>
@@ -8,142 +8,142 @@
 
 <div class="box_error">
     <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
-    <b>ACHTUNG:</b> Die für die senseBox benötigten Libraries befinden sich bereits im Board-Support-Package, welches in <a href="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> heruntergeladen wird. Ihr solltet diese <b> nicht </b> mehr manuell einbinden, so wie es in früheren Versionen dieses Buches angegeben wurde.
-    Dadurch entstehen Doppelungen, die zu Fehlern führen können.
+    <b>ATTENTION:</b> The libraries required for the senseBox are already in the board support package, which is downloaded in <a href="../erste-schritte/board-support-packages-installieren.md">Step 2</a>. You should not longer <b> integrate them </b> manually like it was suggested in the previous books.
+   This creates duplications that can lead to errors.
 </div>
 
-## Libraries herunterladen und hinzufügen
+## Download and add Libraries
 
-{% collapse title="'Library' - Was ist das eigentlich und wofür brauche ich das?" %}
+{% collapse title="'Library' - What is it and why do I need it?" %}
 
-Eine Library ist wie der Name schon sagt eine Sammlung von etwas - eine Sammlung von Methoden um genauer zu sein. Methoden sind in der Programmierung kleinere Abschnitte von Code, die auf ein Objekt angewendet werden können. 
-Bei der senseBox zum Beispiel kann eine Methode aufgerufen werden, um die LEDs auf dem MCU ein- und auszuschalten. Es gibt eine Menge solcher Standardmethoden, die von einer Vielzahl an Programmmen benutzt werden. Um diese Methoden nicht alle einzeln in den Programmcode übertragen zu müssen, können sie in Libraries abgelegt werden. 
-Eine Library ist also eine Datei, in der viele Methoden gespeichert werden. Man kann Libraries in seinen Code einbinden. Dafür reicht es wenn sie im Arduino-Ordner für Libraries gespeichert sind und man sie dann mit einer einzigen Zeile zu Beginn des Programmcodes einbindet. Das sieht in Arduino für die Library mit dem Namen "senseBoxIO" wie folgt aus: 
+As the name suggests, a library is a collection of something - a collection of methods to be more specific. Methods are programming smaller sections of code that can be applied to an object.
+For example, with the senseBox, a method can be invoked to turn the LEDs on and off on the MCU. There are a lot of such standard methods that are used by a variety of programs. In order not to have to transfer these methods individually into the program code, they can be stored in libraries.
+So a library is a file that stores many methods. You can include libraries in your code. For this it is enough if they are stored in the Arduino folder for libraries and then they are integrated with a single line at the beginning of the program code. This is how it looks like in Arduino for the library named "senseBoxIO":
 
 ```arduino
 #include <senseBoxMCU.h>;
 ```
 
-Ist die Library eingebunden, können alle in ihr enthaltenen Methoden im Code benutzt werden. 
+If the library is included, all methods contained in it can be used in the code.
 
 {% endcollapse %}
 
 
-Bei der manuellen Installation der Libraries können sehr schnell Fehler auftreten, daher sollte man hier besonders genau auf die einzelnen Schritte achten. Um dich bei der Installation möglichst gut zu unterstützen, haben wir für jedes Betriebssystem eine seperate Anleitung geschrieben.
-Wähle das zu deinem Computer passende System und folge den angegebenen Schritten.
+The manual installation of the libraries can  cause errors very quickly, so be sure to pay close attention to each step. To help you with the installation as well as possible, we have written a separate manual for each operating system.
+Choose the right system for your computer and follow the steps given.
 
 {% tabs first="Libraries einfügen Windows", second="Libraries einfügen Mac", third="Libraries einfügen Linux" %}
 {% content "first" %}
-# Libraries einfügen Windows
+# Insert Libraries Windows
 
-1. Die meisten externen Libraries findest du in Github-Repositories. Um sie herunterzuladen, musst du den grünen Button `Clone or download` und daraufhin im sich öffnenden Fenster `Download ZIP` klicken. 
+1. Most external libraries can be found in Github repositories. To download them, you have to click the green button `Clone or download` and click ` Download ZIP` afterwards. 
 
-  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](pictures/libraries/github_download.png)
+  ![Example download of the "Adafruit_HDC_Library" from github.com](pictures/libraries/github_download.png)
 
-2. Sollte der Download nicht von alleine starten, öffnet sich ein Fenster, in dem du das Feld ``Datei speichern`` auswählen musst und den Ordner an einen beliebigen Ort auf deinem Computer legst (standardmäßig ist das der Downloads-Ordner).
+2. If the download does not start on its own, a window opens in which you have to select the field `` Save file`` and place the folder anywhere on your computer (this is the Downloads folder by default).
 
-3. Die heruntergeladene Datei ist ein `.zip`-Archiv, also eine komprimierte Version der Library. Es gilt daher als nächstes dieses `.zip`-Archiv zu entpacken. Dafür öffnest du den Speicherort des Archivs und klickst es mit Rechts-Klick an und wählst im erscheinenden Menü `Alle extrahieren...`. Wähle als Speicherort denselben Ordner wie beim Download (z.B. den Downloads-Ordner).
+3. The downloaded file is a `.zip` archive, which is a compressed version of the library. The next step is to unpack this `.zip` archive. To do this, open the archive location and right-click it and select 'Extract All ...' in the menu that appears. Select the same folder as the download location (for example, the Downloads folder).
 
-4. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
+4. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Click `File` and then` Preferences`](pictures/libraries/voreinstellungen_2.PNG?raw=true)
 
-    und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
+    and look in the box under `Sketchbook location 'for the location of the Sketchbook folder. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](pictures/libraries/voreinstellungen.PNG)
+ ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen.PNG)
 
-    Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
+  Remember the path to this folder, ie the location where it is stored.
 
     <div class="box_warning">
         <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-        Du musst den Library-Ordner, den du bereits heruntergeladen und entpackt hast, im nächsten Schritt in den Sketchbook-Speicherort verschieben. Es ist daher sehr wichtig, dass du dir den entsprechenden Speicherort aus Punkt 4 genau merkst, um so später auftretende Fehler zu vermeiden.
+        You need to move the library folder you have already downloaded and unpacked to the sketchbook location in the next step. It is therefore very important that you remember exactly the corresponding location from point 4, to avoid errors that could occur later.
     </div>
 
-5. Nun navigierst du in deinem Datei-Explorer zum Sketchbook-Speicherort (siehe 4.). Beachte, dass der Zielordner im Datei-Explorer am Sketchbook-Speicherort den Namen `Arduino` trägt. Wähle den Ordner mit Doppelklick aus um seinen Inhalt zu sehen. Der Ordner enthält einen weiteren Ordner mit dem Namen "libraries".
+5.Now navigate to the sketchbook location in your file explorer (see 4.). Note that the destination folder is named 'Arduino' in the File Explorer at the sketchbook location. Double-click on the folder to see its contents. The folder contains another folder named "libraries".
 
- <details><summary>Was mache ich, wenn es keinen 'libaries'-Ordner gibt?</summary><p>Falls hier kein Ordner mit dem Namen "libraries" vorhanden ist, kannst du einfach einen neuen Ordner erstellen und diesen "libraries" nennen. Einen neuen Ordner erstellst du mit Rechtsklick in den Dateiexplorer -&gt; <code>Neu</code> -&gt; <code>Ordner</code>.</p></details>
- <p>Kopiere oder ziehe jetzt den heruntergeladenen und entpackten Ordner in den <code>libraries</code>-Ordner.</p>  
+ <details><summary>What do I do if there is no 'libraries' folder?</summary><p>If there is no folder with the name "libraries", you can simply create a new folder and call it "libraries". Create a new folder by right-clicking in the file explorer -&gt; <code>New</code> -&gt; <code>folder</code>.</p></details>
+ <p>Now copy or drag the downloaded and unzipped folder into the <code>libraries</code>-folder.</p>  
 
-6. Schließe jetzt das Programm Arduino vollständig und starte es erneut, um die Installation der entsprechenden Libraries abzuschließen. 
+6. Close the Arduino program completely and start it again to complete the installation of the respective libraries. 
 
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Leider ist ein typischer Fehler, dass die senseBox Library nicht in den richtigen Ordner gelegt wird. Bitte überprüfe nochmal, ob du die Datei in den richtigen Ordner aus 4. gelegt hast.
+    Unfortunately, a typical error is that the senseBox library is not placed in the correct folder. Please check again if you put the file in the right folder from 4..
 </div>
 
 {% content "second" %}
-# Libraries einfügen Mac
+# Insert Libraries Mac
 
-1. Die meisten externen Libraries findest du in Github-Repositories. Um sie herunterzuladen, musst du den grünen Button `Clone or download` und daraufhin im sich öffnenden Fenster `Download ZIP` klicken. 
+1. Most external libraries can be found in Github repositories. To download them, you have to click the green button `Clone or download` and then in the window` Download ZIP` which opens. 
 
-  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](pictures/libraries/github_download.png)
+  ![Example download of the "Adafruit_HDC_Library" from github.com] (pictures/libraries/github_download.png)
 
-2. Der Download sollte von alleine starten und die Datei automatisch entpackt und in deinem "Downloads"-Ordner abgelegt werden. Öffne den Downloads-Ordner und schaue ob der heruntergeladene Ordner dort vorhanden ist. *Sollte dort anstelle eines Ordners nur eine **.zip**-Datei liegen, doppel-klicke diese, um sie zu entpacken.*
+2. The download should start automatically and the file should be automatically unzipped and placed in your "Downloads" folder. Open the Downloads folder and see if the downloaded folder exists there. * If there is only one **. Zip ** file instead of one folder, double-click to unpack it. *
 
-3. Öffne nun die Arduino IDE. Gehe oben auf `Arduino` -> `Einstellungen ...`:
+3. Now open the Arduino IDE. Go to the top of `Arduino` ->` Settings ... `:
 
- ![Klicke `Arduino` und dann `Einstellungen ...`](pictures/libraries/voreinstellungen_2_mac.png)
+ ![Click `Arduino` and then` Settings ... `](pictures/libraries/voreinstellungen_2_mac.png)
 
-    und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
+    and look in the box under `Sketchbook location 'for the location of the Sketchbook folder.
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](pictures/libraries/voreinstellungen_mac.png)
+ ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen_mac.png)
 
-    Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
+   Remember the path to this folder, ie the location where it is stored.
 
     <div class="box_warning">
         <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-        Du musst die Libraries, die du bereits heruntergeladen hast, im nächsten Schritt in den Sketchbook-Speicherort verschieben. Es ist daher sehr wichtig, dass du dir den entsprechenden Speicherort aus Punkt 3 genau merkst, um so später auftretende Fehler zu vermeiden.
+       You need to move the libraries you have already downloaded to the sketchbook location in the next step. It is therefore very important that you remember exactly the corresponding location from point 3, to avoid errors that could occur later.
     </div>
 
-4. Nun navigierst du in deinem Finder zum Sketchbook-Speicherort. Beachte, dass der Zielordner im Finder am Sketchbook-Speicherort den Namen `Arduino` trägt. Wähle den Ordner mit Doppelklick aus um seinen Inhalt zu sehen. Der Ordner enthält einen weiteren Ordner mit dem Namen "libraries".
+4. Now you navigate to the sketchbook location in your Finder. Note that the destination folder in the Finder is named 'Arduino' at the sketchbook location. Double-click on the folder to see its contents. The folder contains another folder named "libraries".
 
- <details><summary>Was mache ich, wenn es keinen 'libaries'-Ordner gibt?</summary><p>Falls hier kein Ordner mit dem Namen "libraries" vorhanden ist, kannst du einfach einen neuen Ordner erstellen und diesen "libraries" nennen.</p></details>
- <p>Kopiere oder ziehe jetzt den heruntergeladenen (entpackten) Ordner in den <code>libraries</code>-Ordner.</p>
+ <details><summary>What do I do if there is no 'libraries' folder?</summary><p>If there is no folder with the name "libraries", you can simply create a new folder and name it "libraries".</p></details>
+ <p>Copy or drag now the downloaded (unzipped) folder into the <code>libraries</code>-folder.</p>
 
-6. Schließe jetzt das Programm Arduino vollständig und starte es erneut, um die Installation der entsprechenden Libraries abzuschließen. 
+6. Close the Arduino program completely and start it again to complete the installation of the respective libraries. 
 
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Leider ist ein typischer Fehler, dass die senseBox Library nicht in den richtigen Ordner gelegt wird. Bitte überprüfe nochmal, ob du die Datei in den richtigen Ordner aus 3. gelegt hast.
+   Unfortunately, a typical error is that the senseBox library is not placed in the correct folder. Please check again if you have placed the file in the correct folder from 3.
 </div>
 
 {% content "third" %}
-# Libraries einfügen Linux
+# Insert Libraries Linux
 
-1.  Die meisten externen Libraries findest du in Github-Repositories. Um sie herunterzuladen, musst du den grünen Button `Clone or download` und daraufhin im sich öffnenden Fenster `Download ZIP` klicken. 
+1. Most external libraries can be found in Github repositories. To download them, you have to click the green button `Clone or download` and then in the window` Download ZIP` which opens. 
 
-  ![Beispielhafter Download der "Adafruit_HDC_Library" von github.com](pictures/libraries/github_download.png)
+  ![Example download of the "Adafruit_HDC_Library" from github.com](pictures/libraries/github_download.png)
 
-2. Der Download startet von alleine und legt ein `.zip`-Archiv in deinem Downloads-Ordner ab. Öffne den Downloads-Ordner und entpacke die `.zip` Datei mit Rechts-Klick -> `Extrahiere Hier`(*`Extract Here`*).
+2.The download starts automatically and saves a `.zip` archive in your Downloads folder. Open the Downloads folder and unpack the `.zip` file with right-click ->` Extract Here` (* `Extract Here` *).
 
-3. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
+3. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](pictures/libraries/voreinstellungen_2_linux.png)
+ ![Click `File` and then` Preferences`](pictures/libraries/voreinstellungen_2_linux.png)
 
-    und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook Ordner gespeichert ist. 
+    and look in the box under `Sketchbook location 'for the location of the Sketchbook folder. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](pictures/libraries/voreinstellungen_linux.png)
+ ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen_linux.png)
 
-    Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
+    Remember the path to this folder, ie the location where it is stored.
 
     <div class="box_warning">
         <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-        Du musst die Libraries, die du bereits heruntergeladen und entpackt hast, im nächsten Schritt in den Sketchbook-Speicherort verschieben. Es ist daher sehr wichtig, dass du dir den entsprechenden Speicherort aus Punkt 3 genau merkst, um so später auftretende Fehler zu vermeiden.
+        You need to move the libraries you have already downloaded and unzipped to the sketchbook location in the next step. It is therefore very important that you remember exactly the corresponding location from point 3, to avoid errors that could occur later.
     </div>
 
-5. Nun navigierst du in deinem Datei-Explorer zum Sketchbook-Speicherort (siehe 3.). Beachte, dass der Zielordner im Datei-Explorer am Sketchbook-Speicherort den Namen `Arduino` trägt. Wähle den Ordner mit Doppelklick aus um seinen Inhalt zu sehen. Der Ordner enthält einen weiteren Ordner mit dem Namen "libraries".
+5. Now navigate to the sketchbook location in your file explorer (see 3.). Note that the destination folder is named 'Arduino' in the File Explorer at the sketchbook location. Double-click on the folder to see its contents. The folder contains another folder named "libraries".
 
- <details><summary>Was mache ich, wenn es keinen 'libaries'-Ordner gibt?</summary><p>Falls hier kein Ordner mit dem Namen "libraries" vorhanden ist, kannst du einfach einen neuen Ordner erstellen und diesen "libraries" nennen. Einen neuen Ordner erstellst du mit Rechtsklick in den Dateiexplorer -&gt; <code>Neuer Ordner (New Folder)</code>. </p></details>
- <p>Kopiere oder ziehe jetzt den heruntergeladenen (entpackten) Ordner in den <code>libraries</code>-Ordner.</p>
+ <details><summary>What do I do if there is no 'libraries' folder?</summary><p>If there is no folder with the name "libraries", you can simply create a new folder and call it "libraries". Create a new folder by right-clicking in the File Explorer - & gt; <code> New folder (New Folder)</code>. </p></details>
+ <p>Copy or drag now the downloaded (unzipped) folder into the <code>libraries</code>-folder.</p>
 
-6. Schließe jetzt das Programm Arduino vollständig und starte es erneut, um die Installation der entsprechenden Libraries abzuschließen. 
+6. Close the Arduino program completely and start it again to complete the installation of the respective libraries. 
 
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Leider ist ein typischer Fehler, dass die senseBox Library nicht in den richtigen Ordner gelegt wird. Bitte überprüfe nochmal, ob du die Datei in den richtigen Ordner aus 3. gelegt hast.
+    Unfortunately, a typical error is that the senseBox library is not placed in the correct folder. Please check again if you have placed the file in the correct folder from 3..
 </div>
 
 {% endtabs %}
