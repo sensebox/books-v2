@@ -1,52 +1,50 @@
-# Aktualisierung von Board-Support-Package und Libraries {#head}
+# Update of Board Support Package and Libraries {#head}
 
 <div class="description">
-    Um die Installation und Updates der senseBox-Libraries benutzerfreundlicher zu gestalten, haben wir die Installationsschritte verändert. <br>
-    Auf dieser Seite zeigen wir euch, welche Schritte ihr befolgen müsst, um euer Board-Support-Package und eure senseBox-Libraries zu aktualisieren. Diese Anleitung betrifft euch nur, wenn ihr die ersten Schritte dieses Buches <b>vor dem 23. Juni 2018</b> durchgeführt habt.
+    We have changed the installation steps, to make the installation and updates of the senseBox libraries more user-friendly. <br>
+    On this page, we'll show you the steps you need to take to update your board support package and your senseBox libraries. This guide only applies to you if you have completed the first steps of this book <b> before June 23, 2018 </ b>.
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Was ist neu?
-Wir haben ein neues Board-Support-Package entwickelt, welches das alte Board-Support-Package mit den senseBox-Libraries vereint. Dadurch wird die fehleranfällige, manuelle Installation der senseBox-Libraries umgangen. Gleichzeitig kann die integrierte Update-Funktion für Board-Support-Packages aus der Ardunio IDE benutzt werden, um die Libraries auf den neusten Stand zu bringen. So können Updates in Zukunft mit deutlich geringerem Aufwand eingespielt werden. 
+## What is new?
+We have developed a new board support package that combines the old board support package with the senseBox libraries. This bypasses the error-prone manual installation of the senseBox libraries. At the same time, Ardunio IDE's built-in update support for board support packages can be used to bring the libraries up to date. So updates can be recorded in the future with much less effort.
 
-## Anleitung zur Aktualisierung
-Die Aktualisierung besteht aus 2 Schritten: 
-1. Dem Löschen der senseBox-Libraries aus dem Sketchbook-Ordner, um Doppelungen der Libraries und die Benutzung alter Versionen zu vermeiden.
-2. Der Installation des neuen Board-Support-Packages, um die Libraries über dieses in Arduino einzubinden.
-
+## Instructions for updating
+The update consists of 2 steps:
+1. Deleting the senseBox libraries from the Sketchbook folder to avoid duplication of libraries and the use of old versions.
+2. The installation of the new board support package to integrate the libraries in Arduino.
 Wähle dein Betriebssystem, um die passende Anleitung zu sehen:
 
 {% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
 {% content "first" %}
-### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
-1. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
+### Step 1: Delete the senseBox libraries from the sketchbook folder
+1. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](../pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Click `File` and then` Preferences`](../pictures/libraries/voreinstellungen_2.PNG?raw=true)
 
-    und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
+    and look in the box under `Sketchbook location 'to see where the Sketchbook folder is stored. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen.PNG)
+ ![Look in the red-marked box to see where your sketchbook location is](../pictures/libraries/voreinstellungen.PNG)
 
-    Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
+    Remember the path to this folder, ie the location where it is stored.
 
   
 
-2. Nun navigierst du in deinem Datei-Explorer zum Sketchbook-Speicherort (siehe 1.). Beachte, dass der Zielordner im Datei-Explorer am Sketchbook-Speicherort den Namen `Arduino` trägt. Öffne diesen Ordner. Innerhalb des `Arduino`-Ordners befindet sich ein Ordner mit dem Namen `libraries`. Innerhalb dieses Ordners befinden sich die senseBox-Libraries. Lösche den `libraries`-Ornder, um sie zu entfernen.
+2. Now navigate to the sketchbook location in your file explorer (see 1.). Note that the destination folder is named 'Arduino' in the File Explorer at the sketchbook location. Open this folder. Inside the `Arduino` folder is a folder called` libraries`. Within this folder are the senseBox libraries. Delete the `libraries` folder to remove them.
  <div class="box_warning">
        <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-        Wenn du ein erfahrener Arduino-Nutzer bist und in der Vergangenheit weitere externe Libraries eingebunden hast, die nicht zu den senseBox-Libraries gehören, gehe in den `libraries`-Ordner und lösche alle Libraries, die nicht extern von dir eingebunden wurden, anstatt den gesamten Ordner zu löschen.
+         If you are an experienced Arduino user and have in the past included other external libraries that are not part of the senseBox libraries. Go to the `libraries' folder and delete all the libraries that were not external to you, rather than deleting the entire folder.
  </div>  
 
-3. Schließe jetzt das Programm Arduino vollständig und starte es erneut, um das Löschen der alten senseBox-Libraries abzuschließen. 
+3. Now completely close the program Arduino and start it again to complete the deletion of the old senseBox libraries.
 
-### Schritt 2: Neues Board-Support-Package einbinden
+### Step 2: Integrate new board support package
+To incorporate the new board support package, please proceed similar, as in the first steps. There will just be a few small changes.
 
-Um das neue Board-Support-Package einzubinden, geht ihr ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
-
-1. Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+1. Paste the following URL in your Arduino IDE under * File -> Preferences * into the field * Additional Board Administrator URLs *:
 ```
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
@@ -55,52 +53,49 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/Ardu1.png)
+ ![Open the preferences and paste the URL](../pictures/ardu/Ardu1.png)
 
-2. Öffne nun den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und suche dort nach dem **senseBox SAMD Boards**-Package.
+2.Now open the * board administrator * under * Tools -> Board: "..." -> Board Administrator * and search there for the ** senseBox SAMD Boards ** - Package.
 
-![Suche nach dem rot markierten Package](../pictures/ardu/Ardu3.png)
+![Search for the red highlighted package](../pictures/ardu/Ardu3.png)
 
- Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
-
+ If you click on the entry in the list, there appears an update button.
  <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+  It is important to click on the entry first. Otherwise, the update button is not displayed, even if there is already a new version.
  </div>
 
-3. Klicke auf diesen Button und gehe danach sicher, dass die installierte Version höher als 1.1.0 ist.
+3. Click on this button and make sure that the installed version is higher than 1.1.0.
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/update-b-s-p.png)
+![Click 'Update' to update the board support package](../pictures/ardu/update-b-s-p.png)
 
- Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
-
+ Since we regularly update the ** senseBox SAMD boards ** package for you, you should always go back to the board administrator and see if the ** senseBox SAMD boards ** package is still up to date. Open the board administrator as described above, look for ** senseBox SAMD boards ** and click there on 'update'.
 {% content "second" %}
-### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
-1. Öffne nun die Arduino IDE. Gehe auf `Arduino` -> `Einstellungen...`:
+### Delete the senseBox Libraries from the Sketchbook Folder
+1. Now open the Arduino IDE. Go to `Arduino` ->` Settings ... `:
 
- ![Klicke `Arduino` -> `Einstellungen...`](../pictures/libraries/voreinstellungen_2_mac.png)
+ ![Click `Arduino` ->` Settings ... `](../pictures/libraries/voreinstellungen_2_mac.png)
 
-    und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
+    and look in the box under `Sketchbook location 'to see where the Sketchbook folder is stored.
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen_mac.png)
+ ![Look in the red-marked box where your sketchbook location is](../pictures/libraries/voreinstellungen_mac.png)
 
-    Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
+    Remember the path to this folder, ie the location where it is stored.
 
   
 
-2. Nun navigierst du in deinem Datei-Explorer zum Sketchbook-Speicherort (siehe 1.). Beachte, dass der Zielordner im Datei-Explorer am Sketchbook-Speicherort den Namen `Arduino` trägt. Öffne diesen Ordner. Innerhalb des `Arduino`-Ordners befindet sich ein Ordner mit dem Namen `libraries`. Innerhalb dieses Ordners befinden sich die senseBox-Libraries. Lösche den `libraries`-Ornder, um sie zu entfernen.
- <div class="box_warning">
-       <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-        Wenn du ein erfahrener Arduino-Nutzer bist und in der Vergangenheit weitere externe Libraries eingebunden hast, die nicht zu den senseBox-Libraries gehören, gehe in den `libraries`-Ordner und lösche alle Libraries, die nicht extern von dir eingebunden wurden, anstatt den gesamten Ordner zu löschen.
+2. Now navigate to the sketchbook location in your file explorer (see 1.). Note that the destination folder is named 'Arduino' in the File Explorer at the sketchbook location. Open this folder. Inside the `Arduino` folder is a folder called` libraries`. Within this folder are the senseBox libraries. Delete the `libraries` folder to remove them.
+  <div class = "box_warning">
+        aria-hidden = "true" style = "color: # f0ad4e"> </ i>
+         If you are an experienced Arduino user and have in the past included other external libraries that are not part of the senseBox libraries. Go to the `libraries` folder and delete all the libraries that were not external to you, rather than the delete entire folder.
  </div>  
 
-3. Schließe jetzt das Programm Arduino vollständig und starte es erneut, um das Löschen der alten senseBox-Libraries abzuschließen.
+3. Now completely close the Arduino program and restart it to finish deleting the old senseBox libraries.
 
-### Schritt 2: Neues Board-Support-Package einbinden
+### Step 2: Integrate new board support package
+To incorporate the new board support package, it's similar, as in the first steps, with a few small changes.
 
-Um das neue Board-Support-Package einzubinden, geht ihr ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
-
-1. Füge die folgende URL in deiner Arduino IDE unter *`Arduino` -> `Einstellungen...`* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+1. Paste the following URL in your Arduino IDE under *'Arduino` -> `Settings ...` * in the field * Additional Board Administrator URLs *:
 ```
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
@@ -109,79 +104,76 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Öffne die Voreinstellungen und füge dort die URL ein](../pictures/libraries/voreinstellungen_mac_boardverwalter.png)
+ ![Open the preferences and paste the URL there](../pictures/libraries/voreinstellungen_mac_boardverwalter.png)
 
-2. Öffne nun den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und suche dort nach dem **senseBox SAMD Boards**-Package.
+2. Now open the * board administrator * under * Tools -> Board: "..." -> Board Administrator * and search there for the ** senseBox SAMD Boards ** - Package.
 
-![Suche nach dem rot markierten Package](../pictures/ardu/Ardu3.png)
+![Search for the red highlighted package](../pictures/ardu/Ardu3.png)
 
- Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
-
+ If you click on the entry in the list, there appears an update button.
  <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+ It is important to click on the entry first. Otherwise, the update button is not displayed, even if there is already a new version.
  </div>
 
-3. Klicke auf diesen Button und gehe danach sicher, dass die installierte Version höher als 1.1.0 ist.
+3.Click on this button and make sure that the installed version is higher than 1.1.0.
+![KClick 'Update' to update the board support package](../pictures/ardu/update-b-s-p.png)
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/update-b-s-p.png)
-
- Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
+Since we regularly update the ** senseBox SAMD boards ** package for you, you should always go back to the board administrator and see if the ** senseBox SAMD boards ** package is still up to date. Open the board administrator as described above, look for ** senseBox SAMD boards ** and click there on 'update'.
 
 {% content "third" %}
-### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
-1. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
+### Step 1: Delete the senseBox libraries from the sketchbook folder
+1. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Klicke `Datei` -> `Voreinstellungen`](../pictures/libraries/voreinstellungen_2_linux.png)
+ ![Click `File` ->` Preferences`](../pictures/libraries/voreinstellungen_2_linux.png)
 
-    und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
+    and look in the box under `Sketchbook location 'to see where the Sketchbook folder is stored. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen_linux.png)
+ ![Look in the red-marked box to see where your sketchbook location is](../pictures/libraries/voreinstellungen_linux.png)
 
-    Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
+    Remember the path to this folder, ie the location where it is stored.
 
   
 
-2. Nun navigierst du in deinem Datei-Explorer zum Sketchbook-Speicherort (siehe 1.). Beachte, dass der Zielordner im Datei-Explorer am Sketchbook-Speicherort den Namen `Arduino` trägt. Öffne diesen Ordner. Innerhalb des `Arduino`-Ordners befindet sich ein Ordner mit dem Namen `libraries`. Innerhalb dieses Ordners befinden sich die senseBox-Libraries. Lösche den `libraries`-Ornder, um sie zu entfernen.
- <div class="box_warning">
-       <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-        Wenn du ein erfahrener Arduino-Nutzer bist und in der Vergangenheit weitere externe Libraries eingebunden hast, die nicht zu den senseBox-Libraries gehören, gehe in den `libraries`-Ordner und lösche alle Libraries, die nicht extern von dir eingebunden wurden, anstatt den gesamten Ordner zu löschen.
+2. Now navigate to the sketchbook location in your file explorer (see 1.). Note that the destination folder is named 'Arduino' in the File Explorer at the sketchbook location. Open this folder. Inside the `Arduino` folder is a folder called` libraries`. Within this folder are the senseBox libraries. Delete the `libraries` folder to remove them.
+  <div class = "box_warning">
+        aria-hidden = "true" style = "color: # f0ad4e"> </ i>
+         If you are an experienced Arduino user and have in the past included other external libraries that are not part of the senseBox libraries. Go to the `libraries` folder and delete all the libraries that were not external to you, rather than the delete entire folder
  </div>  
 
-3. Schließe jetzt das Programm Arduino vollständig und starte es erneut, um das Löschen der alten senseBox-Libraries abzuschließen.
+3. Now completely close the program Arduino and start it again to complete the deletion of the old senseBox libraries.
 
+### Step 2: Integrate new board support package
 
-### Schritt 2: Neues Board-Support-Package einbinden
+To incorporate the new board support package, it's similar, as in the first steps, with a few small changes.
 
-Um das neue Board-Support-Package einzubinden, geht ihr ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
-
-1. Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
+1. Paste the following URL in your Arduino IDE under * File -> Preferences * into the field * Additional Board Administrator URLs *:
 ```
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
     <div class="box_warning">
         <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-       An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
+       Normally, the following URL already exists at this point: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> this looks very similar to the above, but is not the same URL. However, it must necessarily be replaced by the above URL.
     </div>
 
- ![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/Ardu1.png)
+ ![Open the preferences and paste the URL](../pictures/ardu/Ardu1.png)
 
-2. Öffne nun den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und suche dort nach dem **senseBox SAMD Boards**-Package.
+2.Now open the * board administrator * under * Tools -> Board: "..." -> Board Administrator * and search there for the ** senseBox SAMD Boards ** - Package.
 
-![Suche nach dem rot markierten Package](../pictures/ardu/Ardu3.png)
+![Search for the red highlighted package](../pictures/ardu/Ardu3.png)
 
- Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
+ If you click on the entry in the list, there appears an update button.
 
  <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Wichtig ist, zuerst auf den Eintrag zu klicken. Ansonsten wird der Update-Button nicht angezeigt, auch wenn es bereits eine neue Version gibt.
+  It is important to click on the entry first. Otherwise, the update button is not displayed, even if there is already a new version.
  </div>
 
-3. Klicke auf diesen Button und gehe danach sicher, dass die installierte Version höher als 1.1.0 ist.
+3. Click on this button and make sure that the installed version is higher than 1.1.0.
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../pictures/ardu/update-b-s-p.png)
+![Click 'Update' to update the board support package](../pictures/ardu/update-b-s-p.png)
 
- Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
+ Since we regularly update the ** senseBox SAMD boards ** package for you, you should always go back to the board administrator and see if the ** senseBox SAMD boards ** package is still up to date. Open the board administrator as described above, look for ** senseBox SAMD boards ** and click there on 'update'.
 {% endtabs %}
 
 
