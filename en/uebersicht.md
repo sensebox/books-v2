@@ -1,32 +1,33 @@
-# Übersicht {#head}
-<div class="description">In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklären dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.</div>
+# Overview {#head}
+<div class="description">In this book, we'll show you what you can do with your senseBox, and explain everything you need to know to build a ready weather station. We also give you tips and suggestions for further experiments.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schritt für Schritt durch die Installation von Software und Hardware bis zum Bau deiner einsatzbereiten Messstation. Dazu bekommst Du zuerst einmal eine Übersicht wie diese Buch aufgebaut ist.
+So that everything runs smoothly we start from the very beginning and lead you step by step through the installation of software and hardware up to the construction of your operational measuring station. First of all, you get an overview of how this book is structured.
 
-1. Erste Schritte - Installiere benötigte Programme, teste deine Sensoren und starte durch mit Deiner senseBox
-  1. [Installation benötigter Software](erste-schritte/software-installation.md)
-  2. [Installation der Board-Support-Packages und senseBox Libraries](erste-schritte/board-support-packages-installieren.md)
-  3. [Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
-  4. [Komponenten testen](erste-schritte/komponenten-testen.md)
-  5. [Verschlüsselung](erste-schritte/verschluesselung.md)
-  6. [Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
-  7. [Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
-  8. [Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
-2. Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an
-   1. [Inahlt](komponenten/README.md)
-     1. [senseBox MCU](komponenten/sensebox-mcu.md)
-     2. [Bees](komponenten/bees/README.md)
-     3. [Sensoren](komponenten/sensoren/README.md)
-     4. [Zubehör](komponenten/zubehoer/README.md)
-3. Hilfe - Häufig gestellte Fragen, Antworten und Hilfe bei Problemen
-   1. [FAQ](hilfe.md)
-   2. [Externe Libraries hinzufügen](add-external-libraries.md)
-   3. [Firmware Update Wifi-Bee](additional-info.md)
-   4. [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
-   5. [Aktualisierung des Board-Support-Package & senseBox-Libraries](aktualisierung_bsp_libraries.md)
-   6. [Contributing](templates/README.md)
+
+1. Getting Started - Install needed programs, test your sensors and start with your senseBox
+  1. [Installation of required software] (first steps / software-installation.md)
+  2. [Installing the Board Support Packages and SenseBox Libraries] (first steps / board-support-packages-install.md)
+  3. [Connection and Wiring] (first steps / connection and cabling.md)
+  4. [Test components] (first-steps / component-tests.md)
+  5. [Encryption] (first-steps / encryption.md)
+  6. [Registration on the openSenseMap] (first steps / registration on the -openSenseMap.md)
+  7. [Assembling in the housing] (first-steps / assembling.md)
+  8. [Setting up the senseBox] (first steps / sensebox setup.md)
+2. Components - Look at all parts of the senseBox and their functions
+   1. [Contents] (components / README.md)
+     1. [senseBox MCU] (components / sensebox-mcu.md)
+     2. [Bees] (components / bees / README.md)
+     3. [Sensors] (components / sensors / README.md)
+     4. [Accessories] (components / accessories / README.md)
+3. Help - Frequently asked questions, answers and help with problems
+   1. [FAQ] (help.md)
+   2. [Add External Libraries] (add-external-libraries.md)
+   3. [Firmware Update Wifi-Bee] (additional-info.md)
+   4. [Update Windows USB Bootloader Driver] (win-boot-help.md)
+   5. [Updating the Board Support Package & senseBox Libraries] (updating_bsp_libraries.md)
+   6. [Contributing] (templates / README.md)

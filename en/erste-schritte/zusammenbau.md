@@ -35,7 +35,7 @@
 Therefor you have to align the MCU so that the micro USB-access and the red button are pointing to the hole in the case. Please screw the MCU to the case with the two provided screws. Use therefor the two holes in the middle of the long side of the MCU.
 
 
-![ MCU im Gehäuse](../pictures/mcu_verschraubung.jpeg)
+![ MCU in the housing](../pictures/mcu_verschraubung.jpeg)
 
 
 
