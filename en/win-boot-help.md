@@ -1,32 +1,33 @@
-# Windows USB-Bootloader Treiber aktualisieren {#head}
+# Update Windows USB Bootloader Driver {#head}
 
 <div class="description">
-    Unter Windows kann es in seltenen Einzelfällen zu Problemen mit den Treibern des USB-Bootloader kommen. Was du tun kannst, um zu überprüfen ob deine Treiber korrekt installiert sind und wie du sie ggf. installieren kannst erfährst du hier.
+    In some rare cases Windows can cause problems with the USB-Bootloader drivers. What you can do to check if your drivers are installed correctly and how you can install them if you find out here.
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Treiberstatus überprüfen
+## Check Driver Status
 
-Um zu überprüfen, ob deine Treiber für den USB-Bootloader funktionieren, befolge die folgenden Schritte:
-- Schließe deine senseBox MCU Board per USB-Kabel an deinen Windows-Computer an
-- Öffne den Geräte-Manager, indem du in der Windowsleiste nach `Geräte-Manager` suchst und diesen durch eine Klick öffnest.
-- Aktiviere den Bootloadermodus der senseBox MCU indem du den `Reset`-Knopf (roter mechanischer Knopf auf der senseBox MCU), zweimal schnell nacheinander drückst
-- Im Gerätemanager sollte nun ein Punkt `Anschlüsse (COM & LPT)` erscheinen
-- Durch anklicken des Punktes öffnet sich eine Liste mit angeschlossenen Geräten, dort sollte die senseBox MCU aufgeführt sein 
-- Sollte die senseBox MCU nicht aufgeführt sein, trenne das USB-Kabel vom Computer und verbinde sie erneut - lasse dabei den Gerätemanager geöffnet und schau dir an was passiert
+To check if your USB bootloader drivers work, follow these steps:
+- Connect your senseBox MCU board via USB cable to your Windows computer
+- Open the Device Manager by searching for `Device Manager` in the Windows bar and open it with a click.
+- Activate the bootloader mode of the senseBox MCU by pressing the `Reset` button (red mechanical button on the senseBox MCU) twice in quick succession
+- The device manager should now show a point `Connections (COM & LPT)`
+- Click on the item to open a list of connected devices, where the senseBox MCU should be listed
+- If the senseBox MCU is not listed, disconnect the USB cable from the computer and reconnect it - leave the device manager open and look what happens
 
-Falls dort kein entsprechendes Gerät angezeigt wird und auch auf erneutes verbinden kein neues Gerät angezeigt wird, sind deine USB-Bootloader Treiber nicht korrekt installiert. Lade dir die aktuellen Treiber hier mit einem Klick herunter:
 
-[senseBox MCU Treiber herunterladen](https://github.com/watterott/senseBox-MCU/raw/master/arduino/driver.zip)
+If there is no corresponding and no new device displayed on reconnect, your USB bootloader drivers are not installed correctly. Download the current drivers here with one click:
 
-Gehe nun im Gerätemanager auf `Treiber aktualisieren` -> `Auf dem Computer suchen` und wähle die soeben heruntergeladenen Treiber aus. 
+[Download senseBox MCU Driver](https://github.com/watterott/senseBox-MCU/raw/master/arduino/driver.zip)
 
-Starte den Computer neu und überprüfe den Treiberstatus erneut, wie oben angegeben. Die senseBox MCU sollte nun erkannt werden.
+Now go to Device Manager and select `Update Driver` ->` Find on Computer` and select the drivers you just downloaded. 
+
+Restart the computer and check the driver status again, as stated above. The senseBox MCU should now be recognized.
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Falls dir dieser Artikel nicht weitergeholfen hat, kannst du versuchen in unserem <a href="https://forum.sensebox.de">Forum</a> nach einer Lösung suchen, oder gegebenenfalls selbst dort einen Beitrag erstellen.
+    If this article did not help you, you can try to search for a solution in our <a href="https://forum.sensebox.de"> forum </a> or create a post there yourself.
 </div>

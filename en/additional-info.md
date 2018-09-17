@@ -1,59 +1,62 @@
 # Firmware Update Wifi-Bee {#head}
-<div class="description">Leider haben einige unserer WiFi Bees vom Typ WINC1500 eine veraltete Firmware (Version 19.4.4) installiert. Leider gibt es keine andere Möglichkeit dieses Firmware zu updaten als es manuell durchzuführen. Im folgenden Kapitel wirk erklärt wie man rausfindet welche Firmware man benutzt und (falls man eine veraltete Version hat) wie man diese updatet.</div>
+<div class="description">Unfortunately, some of our WINC1500 WiFi Bees have outdated firmware (version 19.4.4) installed. Unfortunately, there is no other way to update this firmware than to do it manually. The following chapter explains how to find out which firmware you are using and (if you have an outdated version) how to update it.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-## Test der Version
-Zuerst muss rausgefunden werden, welche Version das gelieferte WiFi-Bee hat. Gehe dazu auf ´´Datei´´; ´´Beispiele´´ und unter "Beispiele für senseBox MCU" auf ´´Test_WINC1500´´ 
+## Test the Version
+First, it must be found out which version the supplied WiFi Bee has. Go to''file'' '' Examples '' and under "Examples for senseBox MCU" on''Test_WINC1500''
 
 ![Open the WiFi-Test](pictures/Update-Wifi-Firmware/1-test.PNG)
 
-Lade nun den Sketch auf dein Board (durch klicken des Pfeil-Symbols). Beachte, dass auf deinem senseBox Board das WiFi-Bee aufgesteckt sein muss (bitte auf XBEE1 aufstecken). Klicke dann auf den seriellen Monitor (durch klicken des Lupen-Symbols) und es wird geprüft ob dein Wifi-Bee funktionsfähig ist und angezeigt welche Firmware darauf installiert ist.
+Now upload the sketch to your board (by clicking the arrow icon). Note that the WiFi Bee must be plugged into your senseBox board (please plug it in to XBEE1). Then click on the serial monitor (by clicking the magnifying glass icon) and it will be checked if your Wifi-Bee is functional and shows which firmware is installed on it.
+
+
 
 ![Test results with a non-current firmware](pictures/Update-Wifi-Firmware/2-result.PNG)
 
 <div class="box_success">
     <i class="fa fa-check fa-fw" aria-hidden="true" style="color: #50af51;"></i>
-   Wenn du eine Firmware **19.5.2, oder höher** hast kannst du hier abbrechen. Dein WiFi-Bee funktioniert einwandfrei. 
+   If you have a firmware ** 19.5.2, or higher ** you can cancel here. Your WiFi Bee works perfectly.
 </div>
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Wenn du eine Firmware geringer als 19.5.2 hast musst du leider die Firmware updaten. Wie das funktioniert erfährst du im nächsten Schritt. 
+    If you have a firmware lower than 19.5.2 you unfortunately have to update the firmware. You will find out how this works in the next step.
 </div>
 
 ## WiFi-Bee Firmware Update
-Um die Firmware upzudaten, folge dem Pfad von oben: ´´Datei´´; ´´Beispiele´´ und unter "Beispiele für senseBox MCU" auf ´´WINC1500_Updater´´ 
+To update the firmware, follow the path from the top:''file''; '' Examples '' and under "Examples for senseBox MCU" on''WINC1500_Updater''
 
 ![Open the WINC1500_Updater](pictures/Update-Wifi-Firmware/3-updater.PNG)
 
 
-Lade nun den Sketch auf dein Board (durch klicken des Pfeil-Symbols), auf welchem das WiFi-Bee aufgesteckt ist (bitte auf XBEE1 aufstecken). 
+Now load the sketch on your board (by clicking the arrow icon), on which the WiFi Bee is plugged (please plug it on XBEE1)
 
 <div class="box_error">
     <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true" style="color: #d9534f"></i>
-    Öffne dieses Mal nicht den seriellen Monitor (nicht auf das Lupen-Symbols klicken)
+    Do not open the serial monitor this time (do not click on the magnifying glass icon)
 </div>
 
-Jetzt auf ``Werkzeuge`` klicken und ``Wifi 101 Firware Updater`` auswählen.
+Now click ``Tools`` and select ``Wifi101 Firmware Updater``.
 
 ![Choose Wifi 101 Firmware Updater](pictures/Update-Wifi-Firmware/4-firmware-updater.PNG)
 
-Zuerst kannst du die Verbindung testen, indem du auf den angezeigten ``COM Port`` klickst und danach auf ``Test connection``. Es sollte folgende Information zurück kommen: "The programmer is working!"
+First, you can test the connection by clicking on the `` COM Port`` and then on `` Test connection``. The following information should come back: "The programmer is working!"
 
 ![Test connection of the Wifi-Bee](pictures/Update-Wifi-Firmware/5-test-connection.PNG)
 
-Fast geschafft, jetzt nur noch auf ``Update Firmware`` klicken und der Upload beginnt. Danach sollte eine Erfolgsmeldung kommen "The firmware has been updated!".
+Almost done, now just click on `` Update Firmware`` and the upload starts. Then a success message should come "The firmware has been updated!".
 
 ![Finally Update Firmware](pictures/Update-Wifi-Firmware/6-update-firmware.PNG)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Nicht davon irritieren lassen, dass es auch eine Version der Firmware 19.5.4 gibt, diese aber nicht in Arduino zu finden ist wenn man die Firmware updaten möchte. Diese Firmware wird mit dem Arduino Release 1.8.6 integriert und ist ab dann zu finden.</div>
+    Do not let yourself be confused that there is also a version of the firmware 19.5.4, but this is not found in Arduino if you want to update the firmware. This firmware will be integrated with the Arduino Release 1.8.6 and will be available from then on.
+    Nicht davon irritieren lassen, dass es auch eine Version der Firmware 19.5.4 gibt, diese aber nicht in Arduino zu finden ist wenn man die Firmware updaten möchte.</div>
     
- Wir entschuldigen uns für den Umweg und wünschen auch weiterhin viel Spaß mit der senseBox.
+   We apologize for the detour and wish you lots of fun with the senseBox.
  
-Falls dir dieser Artikel nicht weitergeholfen hat, kannst du versuchen auf www.forum.sensebox.de nach einer Lösung suchen, oder gegebenenfalls selbst einen Beitrag einreichen. 
+If this article has not helped you, you can try on www.forum.sensebox.de to look for a solution, or if necessary submit yourself a contribution.
