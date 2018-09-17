@@ -1,12 +1,16 @@
 # Schritt 4: Programmierung der Hardware {#head}
 <div class="description"> In diesem Kapitel wird beschrieben wie die Programmierung der senseBox funktioniert und wie ihr die mitgelieferten Sensoren und Komponenten testen könnt.</div>
 
+<div class="line">
+    <br>
+    <br>
+</div>
+
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
   Ein Softwareprogramm für die senseBox wird im Folgenden auch Sketch genannt.
 </div>
 
-<div><br><br></div>
 
 ## Programmieren mit der Arduino IDE
 Mit der Arduino IDE lässt sich ein Sketch kompilieren und auf die senseBox MCU hochladen. Schließt nun die senseBox per USB Kabel an euren Computer an und befolgt die nächsten Schritte.

@@ -1,11 +1,17 @@
 # Step 4: Programming the Hardware {#head}
 <div class="description"> In this chapter we describe how to program the senseBox using Arduino IDE and how to test the sensors and components of the senseBox.</div>
 
+<div class="line">
+    <br>
+    <br>
+</div>
+
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  The software we code for senseBox is also called "sketch" in the following.</div>
+  The software we code for senseBox is also called "sketch" in the following.
+</div>
 
-<div><br><br></div>
+
 
 ## Programming with Arduino IDE
 Using the Arduino IDE you can write code, compile the code and upload it on the senseBox microcontroller unit (MCU). Therefore you first have to connect the senseBox with the computer using hte USB-cable. Then follow the following steps.
