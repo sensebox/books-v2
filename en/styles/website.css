@@ -117,6 +117,16 @@ background-color: #dcf1da!important;
   padding: 15px 0px;
 }
 
+
+/*Styles for language choose page:*/
+.lang-button {
+  border-radius:.5em;
+    border-left: 5px solid; 
+}
+
+
+
+
 /* distinguish glossary terms from actual links 
 .markdown-section .glossary-term {
   text-decoration-style: dotted;
