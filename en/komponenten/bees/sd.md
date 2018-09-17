@@ -16,6 +16,6 @@
 * Weight:2,4 g
 
 
-# Imformation
+# Information
 
 Attention: The SD-bee is deliverd without a SD-card if you order in the senseBox-Shop.
