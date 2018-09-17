@@ -34,7 +34,6 @@ Second, you choose again `Tools` and `Port` and search for the USB Port of your 
 
 ### Hello World Example
 Now you can start putting your first code on the senseBox. Therefore copy the following example into your Arduino IDE and click the arrow to upload the code on your senseBox.
-![This on the right side is the arrow you use to upload code](..edu/pictures/grundlagen/arduino-ide_schaltflaechen1.png)
 
 In the down part of your Arduino interface you receive feedback about your uploading process (in the black colored box). If everything worked out sucessfully, you will receive the note `Done upload`.
 

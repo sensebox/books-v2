@@ -24,9 +24,9 @@ The SD-bee has to be plugged on to port 2, which is by default activated. The ma
 ## Pin of the Basic Sensors
 The sensor, which can be bought with the senseBox are easy to connect with the enclosed "I2C to I2C" wires. Please use the slots that are marked with ``I2C/Wire``.
 
-![Connection of simple sensors)](../pictures/plug-in-components/sensor-anschluss.jpg?raw=true)
+![Connection of simple sensors](../pictures/plug-in-components/sensor-anschluss.jpg?raw=true)
 
 ## Pin of the Fine Dust Sensor
 The fine dust sensor, which can be bought with the senseBox has an enclosed and fitting wire that connects sensor and board. Therefor you have to use the slots with the marking: ``UART/Serial``. [Here](../komponenten/sensoren/feinstaub.md) you can find further information to the pin of the fine dust sensor.
 
-![Connection fine dust sensor)](../pictures/plug-in-components/feinstaub-anschluss.jpg)
+![Connection fine dust sensor](../pictures/plug-in-components/feinstaub-anschluss.jpg)
