@@ -76,7 +76,7 @@ You can now mount the case wherever you want with the attachments.
 ![Temperature and air humiditysensor in the protective case](../pictures/tempGeh.jpeg)
 
 
-# additional components  (optional)
+# Additional Components  (optional)
  
 
 ## 5. Step
@@ -145,9 +145,11 @@ Now you can fasten the screw thread on both sides of the case and mount the lid 
 
 
 
-## Completed inatallation of the senseBox:home with temperature-, air humidity, finedust, UV- and airpressuresensor
+## Completed Installation of the senseBox:home
+<div class="description"> The senseBox:home below includes temperature, humidity, finedust, UV and airpressure sensors. </div>
 
 
 
-![Completed Connection finedustsensor](../pictures/aufbaufertig.jpeg)
+
+![Completed Connection](../pictures/aufbaufertig.jpeg)
 

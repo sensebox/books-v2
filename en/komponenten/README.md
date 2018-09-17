@@ -1,4 +1,4 @@
-# Übersicht aller Komponenten {#head}
+# Overview of Available Components {#head}
 <div class="description">Here you will find a list with all sensors, bees and other components of the senseBox. We created a page for each part to explain it and provide you the information necessary to work with the part.</div>
 
 <div class="line">
