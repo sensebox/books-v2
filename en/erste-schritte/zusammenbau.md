@@ -32,7 +32,7 @@
 
 *mounting of senseBox MCU in the case:* 
 
-Therefor you have to align the MCU so that the micro USB-access and the red button are pointing to the hole in the case. Please screw the MCU to the case with the two provided screws. Use therefor the two holes in the middle of the long side of the MCU.
+Therefore you have to align the MCU so that the micro USB-access and the red button are pointing to the hole in the case. Please screw the MCU to the case with the two provided screws. Therefore use the two holes in the middle of the long side of the MCU.
 
 
 ![ MCU in the housing](../pictures/mcu_verschraubung.jpeg)
@@ -62,7 +62,7 @@ The sensor plug can be attached to one of the 5 *12C/Wire* slots.
 
 *mounting the sensor in the protective case*
 
-The protective case ensures that temperature- and air humiditysensors are not exposed directly to the Sun. To install the sensor in the case you have to enlarge the hole in the underside of the case so that the sensor fits through.
+The protective case ensures that temperature- and air humiditysensors are not exposed directly to the sun. To install the sensor in the case you have to enlarge the hole in the underside of the case so that the sensor fits through.
 
 
 Now you can mount the sensor with the two plastic bolts (see photo) or zip ties on to the little framework.
@@ -83,7 +83,7 @@ You can now mount the case wherever you want with the attachments.
 
 
 
-In case you want to add further sensors, please initially connect the intended wire with the 12C/Wire ports. If you have a fine dust sensor begin with putting the wire through the screw thread. Following connect the other end of the wire to the UART/Serial port 1. 
+In case you want to add further sensors, please initially connect the intended wire with the 12C/Wire ports. If you have a finedustsensor begin with putting the wire through the screw thread. Following connect the other end of the wire to the UART/Serial port 1. 
 Now push the 4 plastic bolts in the outer holes of the MCU
 
 
