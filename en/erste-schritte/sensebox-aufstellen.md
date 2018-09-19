@@ -16,7 +16,7 @@
 
 1.	Basically, there is no right or wrong site. We encourage you to build the senseBox where you are interested in measuring yourself.
 
-2.	The senseBox community is pleased with if the senseBoxes have a good documentation on the openSenseMap. This includes:
+2.	The senseBox community is pleased if the senseBoxes have a good documentation on the openSenseMap. This includes:
 a. A picture of the station
 b. Procurement of the location, such as height, roofing, orientation.
 c. Other descriptions
@@ -33,6 +33,6 @@ https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf
 ## Maintenance
 
 1. It should be absolutely avoided that condensate collects in the senseBox. Therefore, a visual check of the senseBox is recommended at least once a month. If necessary, the Silica gel should be renewed.
-2. The senseBox should be freed regularly of accumulating dirt
+2. The senseBox should be freed regularly of accumulating dirt.
 
 You can find further tips on [www.sensebox.de](https://www.sensebox.de) and in our forum [www.forum.sensebox.de](https://www.forum.sensebox.de).  
