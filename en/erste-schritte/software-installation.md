@@ -1,6 +1,6 @@
 
 # Step 1: Software Installation {#head}
- <div class="description">Before you start measuring phenomena, you have to consider some things like the installation of different drivers and software. No worries it is an Open-Source-Software so you don't have to pay anything. However you should read the steps 1 to 8 carefully so there will not be any problems later.</div>
+ <div class="description">Before you start measuring phenomena, you have to consider some things like the installation of different drivers and software. No worries, it is an Open-Source-Software so you don't have to pay anything. However you should read the steps 1 to 8 carefully so there will not be any problems later.</div>
 <div class="line">
     <br>
     <br>
@@ -19,7 +19,7 @@ Please have a look at the instructions for your operation systems and follow the
 > Please use Arduino 1.8.5 or higher for a fluent procedure.
 
 
-The senseBox is a microcontroller with diffent components and sensors. She is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
+The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
 
 ![ ](arduino-windows-view.png)
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
@@ -34,7 +34,7 @@ Compile a new folder and unzip the zip-file in the new folder. By starting the f
 
 > Please use Arduino 1.8.5 or higher for a fluent procedure.
 
-The senseBox is a microcontroller with diffent components and sensors. She is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
+The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
 
 ![ ](arduino-mac-view.png)
 
@@ -51,7 +51,7 @@ In your download file should appear a  Arduino.app file. Relocate the file into 
 
 > Please use Arduino 1.8.5 or higher for a fluent procedure.
 
-The senseBox is a microcontroller with diffent components and sensors. She is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
+The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
 
 
 ![ ](arduino-linux-view.png)

@@ -1,6 +1,6 @@
 # Step 2: Installation of the Board-Support-Package {#head}
 
-<div class="description">Therewith the Arduino IDE supports your <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> and you are able to relay programme on to it, you have to start with installing two board-support-packages. Those contain the necessary drivers and software to communicate with the processor. The board-support-package of the senseBox contains already our senseBox-libraries. This will give you all the basic methods for programming the enclosed sensors.</div>
+<div class="description">Therewith the Arduino IDE supports your <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> and you are able to relay the programme on to it, you have to start with installing two board-support-packages. Those contain the necessary drivers and software to communicate with the processor. The board-support-package of the senseBox contains already our senseBox-libraries. This will give you all the basic methods for programming the enclosed sensors.</div>
 <div class="line">
     <br>
     <br>
@@ -25,7 +25,7 @@ If the library is included, all methods contained in it can be used in the code.
 {% endcollapse %}
 
 
-## integrate the Board-Support-Package 
+## Integrate the Board-Support-Package 
 Choose your operating system to see the fitting instruction:
 
 {% tabs first="Windows", second="Mac(OSX)", third="Linux" %}
@@ -47,7 +47,7 @@ Please open then the *Boardmanager* under *Tools -> Board:"..." -> Boardmanager*
   Enter "SAMD" in the search bar above to find the packages faster
 </div>
 
-Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefor please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case a new version is available. Click the button to install the latest version. 
+Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefore please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case that a new version is available. Click the button to install the latest version. 
 
 ![Click on 'Update', to refresh the Board-Support-Package](../pictures/ardu/update-b-s-p.png)
 
@@ -77,7 +77,7 @@ Please open then the *Boardmanager* under *Tools -> Board:"..." -> Boardmanager*
   Enter "SAMD" in the search bar above to find the packages faster
 </div>
 
-Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefor please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case a new version is available. Click the button to install the latest version. 
+Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefore please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case that a new version is available. Click the button to install the latest version. 
 
 ![Click on 'Update', to refresh the Board-Support-Package](../pictures/ardu/ardu_update_mac.png)
 
@@ -104,7 +104,7 @@ Please open then the *Boardmanager* under *Tools -> Board:"..." -> Boardmanager*
   Enter "SAMD" in the search bar above to find the packages faster
 </div>
 
-Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefor please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case a new version is available. Click the button to install the latest version.  
+Because we are updating the **senseBox SAMD Boards**-package regularly for you, you should from time to time have a look into the boardmanager to check if the **senseBox SAMD Boards**-package still is the latest. Therefore please open, like described above, the boardmanager and search for **senseBox SAMD Boards**. If you click at the entry in the list, there will pop up an update-Button in case that a new version is available. Click the button to install the latest version.  
 
 ![Click on 'Update', to refresh the Board-Support-Package zu](../pictures/ardu/update-b-s-p.png)
 
