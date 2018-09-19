@@ -8,7 +8,7 @@
 
 {% collapse title="What is the openSenseMap?" %}
 
-The openSenseMap is a project to file, compare and visualise sensordata. Take a look at it by clickin on [www.opensensemap.org](https://www.opensensemap.org) and discover a vast data pool of sensordata from around the world. Not only senseBoxes send data to the openSenseMap but also other microcontroller with sensors. You can [here](https://sensebox.github.io/books-v2/osem) see how the individual functions of openSenseMap and their interfaces work.
+The openSenseMap is a project to file, compare and visualise sensordata. Take a look at it by clicking on [www.opensensemap.org](https://www.opensensemap.org) and discover a vast data pool of sensordata from around the world. Not only senseBoxes send data to the openSenseMap but also other microcontroller with sensors. You can [here](https://sensebox.github.io/books-v2/osem) see how the individual functions of openSenseMap and their interfaces work.
 
 
 {% endcollapse %}
@@ -24,13 +24,13 @@ After successful registration you can start creating your senseBox. Click on "Ne
 * The exposure, in which you want to set up your senseBox 
 * The location, where you want to set up your senseBox (you can also have your location determined automatically)
 
-Since the openSenseMap is open to all types of senseBoxes, you will be asked about the hardware used. Select * senseBox: home V2 * and the bee you use (WiFi, or Ethernet)
+Since the openSenseMap is open to all types of senseBoxes, you will be asked about the used hardware. Select * senseBox: home V2 * and the bee you use (WiFi, or Ethernet)
 
 ![Selection of senseBox:home V2 MCU and WiFi Internetconnection](../pictures/Select_hardware.PNG)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  You are not sure if you have an ethernet or a wifi-bee, or you can not see the difference between the airpressure and temperaturesensor? In the chapter <a href = "../komponenten/README.md">Komponenten</a> you are going to find pictures and further hints for the individual components.
+  You are not sure if you have an ethernet or a wifi-bee, or you cannot see the difference between the airpressure and temperature sensor? In the chapter <a href = "../komponenten/README.md">Komponenten</a> you are going to find pictures and further hints for the individual components.
 </div>
 
 Now you are almost done! Quickly select the sensors that you will connect to your senseBox. Just click and ready. If you want to install a finedustsensor, you also have to specify which serial port you want to connect to. After that you can finish the process.
@@ -48,12 +48,12 @@ Once you have completed the registration, you must once again agree to the publi
 
 {% collapse title="What is my senseBox ID" %}
 
-The senseBox ID is a unique identifier of your senseBox. With this ID you can find your senseBox for example with a URL on the senseMap (opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN) or in a data pool. Furthermore, it is used for various applications and functions around the senseBox and the openSenseMap.
+The senseBox ID is a unique identifier of your senseBox. With this ID you can find your senseBox for example with a URL on the opensenseMap (opensensemap.org/explore/HIER-DEINE-SENSEBOX-ID-EINGEBEN) or in a data pool. Furthermore, it is used for various applications and functions around the senseBox and the openSenseMap.
 
 {% endcollapse %}
 
 ## Loading the Arduino-Code on the senseBox 
-After you have downloaded the ```.ino``` attachment of the Email you have to load this program on to your senseBox. Of course you have to download the Arduino IDE (as explained in step 1) on your computer. In short, you can then follow the following steps:
+After you have downloaded the ```.ino``` attachment of the e-mail you have to load this program on to your senseBox. Of course you have to download the Arduino IDE (as explained in step 1) on your computer. In short, you can then follow the following steps:
 
 (opensensemap.org/explore/ENTER-YOUR-SENSEBOX-HERE)
 
@@ -87,7 +87,7 @@ ___________________
 
 ### LoRa-Bee
 
-Unfortunately we have not been able to write a tutorial for the LoRa-Bee yet. If you would like to help us, please send us an email to info@sensebox.de
+Unfortunately we have not been able to write a tutorial for the LoRa-Bee yet. If you would like to help us, please send us an e-mail to info@sensebox.de
 ___________
 
 {% endtabs %}
