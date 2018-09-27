@@ -1,6 +1,6 @@
 # Accessories {#head}
 
-<div class="description">Here you can find all the additional accessories-parts which cannot be assigned to <ahref="../sensoren/README.md">sensors</a> or <a href="../bees/README.md">Bees</a>. Including parts, such as a JST expander, which is not included in the senseBox by default. Nevertheless the expander is offered and supported by us. So do not worry if you do not find something in your senseBox right now, look into the <a href="../../inventar.md">inventory</a>. </div>
+<div class="description">Here you will find all other accessory parts that can not be assigned to the sensors or Bees. These include parts such as GPS module, housing or radiation protection, which are not included as standard in the edu version of the senseBox. Nevertheless, to find out what they are useful for, you can still find information about these parts.</div>
 <div class="line">
     <br>
     <br>
