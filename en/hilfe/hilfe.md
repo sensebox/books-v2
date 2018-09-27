@@ -80,13 +80,13 @@ This [help website](add-external-libraries.md)! explains how to integrate them m
 ### Questions about the Data transmission
 
 {% collapse title="I have problems with the transmission of data via wifi. What can I do?" %}
-It is possible with some of our Wifi Bees of the type WINC1500 that an old firmware (Version 19.4.4) is installed. This can lead to problems with the data transmission. If this is the case, please visit [this help website](additional-info.md) to refresh the firmware.
+It is possible with some of our Wifi Bees of the type WINC1500 that an old firmware (Version 19.4.4) is installed. This can lead to problems with the data transmission. If this is the case, please visit [this help website](../additional-info.md) to refresh the firmware.
 {% endcollapse %}
 
 ### Questions to the Connection between the senseBox and the Computer
 
 {% collapse title="I have a problem with the connection of my sensBox MCU and my windows-Computer. What can I do?" %}
-On some of our Windows computer, it may happen that the USB bootloader drivers are not installed correctly. This can lead to the computer not recognizing the senseBox MCU as a USB device and is therefore unable to transfer files. If you encounter these problems, check [this help page](win-boot-help.md) to see if your drivers work and update them if necessary.
+On some of our Windows computer, it may happen that the USB bootloader drivers are not installed correctly. This can lead to the computer not recognizing the senseBox MCU as a USB device and is therefore unable to transfer files. If you encounter these problems, check [this help page](../win-boot-help.md) to see if your drivers work and update them if necessary.
 {% endcollapse %}
 
 
