@@ -19,7 +19,7 @@ So that everything runs smoothly, we start from the beginning and guide you step
 3. Projects
 
 4. Components - SLook at all parts of the senseBox and their functions]
-  1. [content](komponenten/README.md)
+  1. [Content](komponenten/README.md)
     1. [sensebox MCU](komponenten/sensebox-mcu.md)
     2. [Bees](komponenten/bees/README.md)
     3. [Sensors](komponenten/sensoren/README.md)
