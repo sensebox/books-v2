@@ -1,8 +1,7 @@
 # Overview {#head}
 
 <div class="description">In this book, we will show you what you can do with your senseBox and explain everything you need to know to build a weather station. We also give you tips and suggestions for further experiments.
-
-.</div>
+</div>
 <div class="line">
     <br>
     <br>
