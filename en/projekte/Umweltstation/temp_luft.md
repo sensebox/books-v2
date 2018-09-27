@@ -1,4 +1,4 @@
-# DIY - temperature and humidity {#head}
+# DIY - Temperature and Humidity {#head}
 
 <div class="description">So that we can see the weather report daily on the Internet, on television, in the newspaper or in apps, not only satellite data are evaluated. Also data from weather stations on the ground play an important role in the prediction. But how does the measurement and display of temperature and humidity values work?</div>
 <div class="line">
@@ -9,11 +9,11 @@
 
 
 ## Requirements
-- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
-- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
-- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
+- [The Use of Software Libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The Serial Data Bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The Serial Monitor](../../grundlagen/der_serielle_monitor.md)
 
-## Destinations of the station
+## Destinations of the Station
 In this station we are dealing with the temperature and humidity sensor of the senseBox, the HDC1080.
 
 ## Materials
@@ -49,7 +49,7 @@ First, an instance of the sensor must be created.
 #include "SenseBoxMCU.h"
 HDC1080 hdc;
 ```
-{% collapse title="setup() Funktion" %}
+{% collapse title="setup() function" %}
 In the `setup()`-function the sensor should now be started:
 ```arduino
 void setup(){
@@ -59,7 +59,7 @@ void setup(){
 
 {% endcollapse %}
 
-{% collapse title="loop() Funktion" %}
+{% collapse title="loop() function" %}
 After initializing the sensor as described above, you can use two commands in the `loop ()`-function to output a temperature or humidity
 ```arduino
 void loop(){
