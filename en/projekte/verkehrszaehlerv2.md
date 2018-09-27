@@ -1,8 +1,8 @@
-# Traffic counters {#head}
+# Traffic Counters {#head}
 
 <div class="description">
 The goal is to develop a traffic or passenger counter.<br>
-For this we use an ultrasonic distance sensor. The values ​​recorded in this way should be output in the  <b>serial monitor</b> .
+For this we use an ultrasonic distance sensor. The values recorded in this way should be output in the  <b>serial monitor</b> 
 </div>
 <div class="line">
     <br>
@@ -34,7 +34,7 @@ unsigned int time = 0;
 unsigned int distance = 0;
 ```
 
-In the `setup()`-function you have to start the *Seriellen Monitor* and define the pins to which the sensor is connected as input or output. The trigger pin of the sensor must be defined as output and the echo pin as input.
+In the `setup()`-function you have to start the *Serial Monitor* and define the pins to which the sensor is connected as input or output. The trigger pin of the sensor must be defined as output and the echo pin as input.
 
 
 ```arduino
@@ -59,7 +59,7 @@ Finally, the distance from the time must be calculated, and the values are displ
 distance = time / 58;
 Serial.println(distance);
 ```
-**Note** *We assume that the sound propagates at 348 meters per second. This number is not fixed but depends on the ambient temperature.](https://de.wikipedia.org/wiki/Schallgeschwindigkeit#Temperaturabh.C3.A4ngigkeit_in_Luft).*
+**Note** *We assume that the sound propagates at 348 meters per second. This number is not fixed but [depends on the ambient temperature.](https://en.wikipedia.org/wiki/Speed_of_sound).*
 
 {% collapse title="Exercise 1" %}
 
