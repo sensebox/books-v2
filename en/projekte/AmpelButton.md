@@ -1,4 +1,4 @@
-# Traffic light{#head}
+# Traffic Light{#head}
 
 <div class="description">
  It should be simulated a traffic light. With a button you can switch the traffic light.
@@ -21,7 +21,7 @@
 
 
 ## Construction
-### Hardware configuration
+### Hardware Configuration
 To connect all components you need two JST adapter cables. The first is connected to Digital A (digital pins 1 and 2), the second to Digital B (digital pins 3 and 4). On the cable in Digital A the red and the yellow LED are connected, on the cable in Digital B the green LED and the button.
 
 ![Wiring the traffic light circuit](../pictures/projekte/Ampel_Button_v2_Steckplatine.png)
