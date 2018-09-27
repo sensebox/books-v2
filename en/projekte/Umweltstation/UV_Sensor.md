@@ -32,7 +32,7 @@ UV light intensity is measured in microwatts per square centimeter (μW / cm²).
 
 Connect the sensor to the senseBoxMCU as shown in the graphic.
 
-## Programmierung
+## Programming
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Make sure you have the latest board support package installed because you need the correct software libraries. How to do that was explained to you in  <a href ="../erste-schritte/board-support-packages-installieren.md">step 2</a> !
@@ -66,8 +66,8 @@ If you want to see the UV index you have to declare a function before that will 
 </div>
 {% endcollapse %}
 
-{% collapse title="Umrechnung in den UV-Index" %}
-Since the [UV-Index](https://de.wikipedia.org/wiki/UV-Index) is often used in everyday life, we now want to write a method that converts the measured value into a UV index:
+{% collapse title="Transformation to UV-Index" %}
+Since the [UV-Index](https://en.wikipedia.org/wiki/UV-Index) is often used in everyday life, we now want to write a method that converts the measured value into a UV index:
 
 
 ```arduino
