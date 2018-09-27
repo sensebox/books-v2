@@ -1,6 +1,6 @@
 # The senseBox:edu Book {#head}
 <div class="description">
-Here you will find all information you need to start with your own senseBox:edu
+Here you will find all information you need to start with your own senseBox:edu.
 </div>
 <div class="line">
     <br>
