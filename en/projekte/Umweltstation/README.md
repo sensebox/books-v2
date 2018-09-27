@@ -1,4 +1,4 @@
-# DIY-Umweltstation {#head}
+# DIY Environmental Measuring Station {#head}
 
 <div class="description">In this project you will learn how to set up a senseBox environmental station. In the end, the measurement of various environmental phenomena such as temperature, humidity, brightness and air pressure, as well as the publication of the data on the  <a href="https://opensensemap.org">openSenseMap</a>  be possible!</div>
 <div class="line">
@@ -12,11 +12,11 @@ This project is the most extensive. It has been split into several subchapters. 
 
 Within this project you will find the following 5 chapters:
 
-* [Temperature and humidity](temp_luft.md)
-* [Experiments with light](licht.md)
+* [Temperature and Humidity](temp_luft.md)
+* [Experiments with Light](licht.md)
 * [UV-Sensor](UV_Sensor.md)
-* [air pressure](luftdruck.md)
-* [Data upload to the OSeM](datenupload.md)
+* [Air Pressure](luftdruck.md)
+* [Data Upload to the OSeM](datenupload.md)
 
 You can edit the stations as individual projects, or expand your program code with each station to measure all five phenomena simultaneously.
 
