@@ -1,6 +1,6 @@
-# DIY - Temperatur und Luftfeuchtigkeit {#head}
+# DIY - temperature and humidity {#head}
 
-<div class="description">Damit wir täglich den Wetterbericht im Internet, im Fernsehen, in der Zeitung oder in Apps sehen können, werden nicht nur Satellitendaten ausgewertet. Auch Daten von Wetterstationen am Boden spielen eine wichtige Rolle bei der Vorhersage. Aber wie funktioniert die Messung und Darstellung von Temperatur- und Luftfeuchtigkeitswerten?</div>
+<div class="description">So that we can see the weather report daily on the Internet, on television, in the newspaper or in apps, not only satellite data are evaluated. Also data from weather stations on the ground play an important role in the prediction. But how does the measurement and display of temperature and humidity values work?</div>
 <div class="line">
     <br>
     <br>
@@ -8,48 +8,49 @@
 
 
 
-## Vorraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md)
-- [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
-- [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
+## Requirements
+- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
 
-## Ziele der Station
-In dieser Station beschäftigen wir uns mit dem Temperatur- und Luftfeuchtigkeitssensor der senseBox, dem HDC1080.
+## Destinations of the station
+In this station we are dealing with the temperature and humidity sensor of the senseBox, the HDC1080.
 
-## Materialien
-- kombinierter Temperatur und Luftfeuchtigkeitssensor `HDC1080`
+## Materials
+- combined temperature and humidity sensor `HDC1080`
 
-## Grundlagen
+## Basics
 {% collapse title="HDC1080 Sensor" %}
-Der `HDC1080`, aus der Serie HDX10XX von Texas Instruments, ist ein kombinierter Temperatur- und Luftfeuchtigkeitssensor. Der Sensor kann die Luftfeuchtigkeit von 0% bis 100%, sowie die Temperatur von -40°C bis 125°C bei einer Genauigkeit von ±2% bzw. von ±0,2°C messen.
+The `HDC1080`, from the Texas Instruments HDX10XX series, is a combined temperature and humidity sensor. The sensor can measure the humidity from 0% to 100%, as well as the temperature from -40 ° C to 125 ° C with an accuracy of ± 2% or ± 0.2 ° C.
 {% endcollapse %}
 
 {% collapse title="I²C Bus" %}
-Die Kommunikation des Sensors mit dem Mikrokontroller läuft über den [seriellen Datenbus I²C](../../grundlagen/serielle_datenbus.md).
-Anders als bei einfachen digitalen oder analogen Eingängen, können an den Datenbus mehrere I²C-Geräte (wie z.B. Sensoren oder Displays) parallel geschaltet werden.
-Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzelne davon zuordnen und separat ansprechen kann.
+The communication of the sensor with the microcontroller runs over the [seriellen Datenbus I²C](../../grundlagen/serielle_datenbus.md).
+Unlike simple digital or analog inputs, multiple I²C devices (such as sensors or displays) can be connected in parallel to the data bus.
+Each device has a unique identifier so that the data bus can assign each one of them and address them separately.
 {% endcollapse %}
 
-## Aufbau
-Steckt den Schaltkreis wie ihr ihn unten in der Grafik seht.
+## Construction
 
-![Temperatur- und Luftfeuchtigkeitssensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_tempairhumi.jpg)
+Plug in the circuit as you see it in the graphic below.
 
-## Programmierung
+
+![Temperature and humidity sensor connected via I2C port](../../pictures/diy-station/wired_tempairhumi.jpg)
+
+## Programming
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
+      Make sure you have the latest board support package installed because you need the correct software libraries. How to do that was explained to you in  <a href ="../erste-schritte/board-support-packages-installieren.md">step 2</a> !
 </div>
 
-Als erstes muss eine Instanz des Sensors angelegt werden.
+First, an instance of the sensor must be created.
 ```arduino
 #include "SenseBoxMCU.h"
 HDC1080 hdc;
 ```
 {% collapse title="setup() Funktion" %}
-In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
-
+In the `setup()`-function the sensor should now be started:
 ```arduino
 void setup(){
     hdc.begin();
@@ -59,7 +60,7 @@ void setup(){
 {% endcollapse %}
 
 {% collapse title="loop() Funktion" %}
-Nachdem du den Sensor, wie oben beschrieben, initialisiert hast, kannst du zwei Befehle in der `loop()`-Funktion nutzen, um einen Temperatur- bzw. Feuchtigkeitswert ausgeben zu lassen:
+After initializing the sensor as described above, you can use two commands in the `loop ()`-function to output a temperature or humidity
 ```arduino
 void loop(){
     hdc.getHumidity();
@@ -68,16 +69,16 @@ void loop(){
 ```
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Beim Speichern der Messwerte sollten die Variablen den gleichen Datentypen haben wie die Rückgabewerte der Messfunktionen. In unserem Fall sind das beides float Werte.!
+When storing the measured values, the variables should have the same data type as the return values of the measuring functions. In our case these are both float values.!
 </div>
 {% endcollapse %}
 
-## Aufgaben
+## Tasks
 
-{% collapse title="Aufgabe 1" %}
-Baue die oben beschriebene Schaltung nach und versuche den HDC1008 auszulesen und Dir die gemessenen Daten im seriellen Monitor anzeigen zu lassen.
+{% collapse title="Task 1" %}
+Build the circuit which is described above and try to read the HDC1008 out. Print the measured data in the serial monitor.
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Schaue dir hierfür die Beispiele aus den <a href="/../../erste-schritte/software-installation.md">Ersten Schritten</a> an!
+    For this look at the examples from <a href="/../../erste-schritte/software-installation.md">First steps</a> !
 </div>
 {% endcollapse %}

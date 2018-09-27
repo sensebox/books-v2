@@ -1,56 +1,53 @@
-#Luftdruck {#head}
+# Air pressure  {#head}
 
-<div class="description">Die Messung des Luftdrucks erlaubt neben Wettervorhersagen auch indirekt die Bestimmung der Höhe des Sensors.
+<div class="description">The measurement of the air pressure allows not only weather forecasts but also indirectly the determination of the height of the sensor.
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Vorraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md)
-- [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
-- [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
+## Requirements
+- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
 
-## Materialien
-- Luftdrucksensor `BMP280`
+## Materials
+- Air pressure sensor `BMP280`
 
-## Grundlagen
+## Basics
 
-{% collapse title="BMP280 Sensor" %}
-Der BMP280 Sensor misst sowohl Luftdruck (hPa) als auch Temperatur (°C).
-Dieser Sensor wird über das [I²C Protokoll](../../grundlagen/serielle_datenbus.md) angesteuert, und benötigt eine Betriebsspannung von 3.3 bis 5 Volt.
+{% collapse title="BMP280 sensor" %}
+The BMP280 sensor measures both air pressure (hPa) and temperature (° C). This sensor is controlled via the [I²C Protokoll](../../grundlagen/serielle_datenbus.md), and requires an operating voltage of 3.3 to 5 volts.
 
-I²C-Geräte werden an die senseBoxMCU über den I²C/Wire Port angeschlossen , und so digital ausgelesen (siehe auch [Der serielle Datenbus](../../grundlagen/serielle_datenbus.md)).
-Die I²C-Adresse des BMP280 kann über den `SDO` Pin umgeschaltet werden:
-Liegt `SDO` auf Masse (`GND`) ist die Adresse `0x76`, sonst `0x77`. <b>Diese Kommunikation übernimmt die senseBox-Bibliothek für uns.</b>
+
+I²C devices are connected to the senseBoxMCU via the I²C / Wire port and thus read out digitally (see also The [ serial databus](../../grundlagen/serielle_datenbus.md)).
+The I²C address of the BMP280 can be switched via the`SDO` pin:
+If `SDO` is at ground (`GND`) the address is `0x76`, otherwise `0x77`. <b>This communication is handled by the senseBox library for us.
+</b>
 {% endcollapse %}
 
-{% collapse title="Höhenbestimmung über den Luftdruck" %}
-Da der Luftdruck von der Höhe über dem Meeresspiegel abhängt, kann über den `BMP280` auch die Aufbau-Höhe der senseBox bestimmt werden. Dazu wird ein Referenzdruck `P0` benötigt, dessen Höhe bekannt ist. Üblicherweise wird dazu der aktuelle Luftdruck auf Meerespiegelniveau verwendet.
-Da der Luftdruck in Abhängigkeit vom aktuellen Wetter stark schwanken kann, ist diese "Höhenmessung" aber nicht sehr akkurat, und muss immer wieder neu kalibriert werden.
+{% collapse title="Height determination via the air pressure" %}
+Since the air pressure depends on the altitude above sea level, the body height of the senseBox can also be determined via the `BMP280`. For this purpose, a reference pressure `P0` is needed whose height is known. Usually, the current air pressure is used at sea level. Since the air pressure can fluctuate greatly depending on the current weather, this "altitude measurement" but is not very accurate, and must be recalibrated again and again.
 {% endcollapse %}
 
-## Aufbau
-Um den Sensor zum Laufen zu bringen schließe ihn einfach an den I²C/Wire Port an !
+## Construction
+To get the sensor up and running just plug it in to the I²C / wire port!
 
 
 
-![Temperatur- und Luftdrucksensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_lux.jpg)
+![Temperature and air pressure sensor connected via I2C port](../../pictures/diy-station/wired_lux.jpg)
 
-## Programmierung - Auslesen des Sensors
-Der Sensor kann über die Bibliothek `SenseBoxMCU.h` angesteuert werden.
-Nachdem diese eingebunden wurde, muss eine Instanz `bmp` davon erstellt werden
-Auf diesem Objekt werden alle Funktionen der Bibliothek aufgerufen:
+## Programming - Reading the sensor
+The sensor can be controlled via the `SenseBoxMCU.h` library. After this has been integrated, an instance `bmp` of it must be created. On this object all functions of the library are called:
 
 ```arduino
 #include <SenseBoxMCU.h>
 BMP280 bmp_sensor;
 ```
 
-{% collapse title="setup() Funktion" %}
-In der `setup()`-Funktion muss der Sensor initialisiert werden. Verwende dazu die folgenden Zeilen:
-
+{% collapse title="setup() funktion" %}
+In the `setup ()`-function, the sensor must be initialized. Use the following lines
 ```arduino
 void setup(){
     bmp_sensor.begin();
@@ -58,9 +55,8 @@ void setup(){
 ```
 {% endcollapse %}
 
-{% collapse title="loop() Funktion" %}
-Nun muss der Sensor in der `loop()`-Funktion ausgelesen werden.
-In den Variablen `temp` und `pressure` stehen dann jeweils die aktuellen Messwerte.
+{% collapse title="loop() funktion" %}
+Now the sensor has to be read in the `loop ()`-function. The variables `temp` and `pressure` then each contain the current measured values.
 
 ```arduino
 void loop(){
@@ -71,18 +67,17 @@ void loop(){
 ```
 {% endcollapse %}
 
-## Aufgaben
+## Exercises
 
-{% collapse title="Aufgabe 1" %}
-Verbinde den `BMP280` Sensor mit dem Arduino, und erstelle einen Arduino-Sketch, welcher regelmäßig Luftdruck und Temperatur auf dem seriellen Monitor ausgibt!
+{% collapse title="AExercise 1" %}
+Connect the `BMP280` sensor to the Arduino, and create an Arduino sketch, which regularly outputs air pressure and temperature on the serial monitor!
 {% endcollapse %}
 
-{% collapse title="Aufgabe 2" %}
-Du hast erfahren, dass sich aus dem gemessenen Luftdruck die Aufbauhöhe der senseBox bestimmen lässt.
-Verwende die Funktion `bmp.altitude(...)` um die Höhe zu berechnen, und gib diese ebenfalls auf dem Seriellen Monitor aus.
+{% collapse title="Exercise 2" %}
+You have learned that the construction height of the senseBox can be determined from the measured air pressure. Use the function `bmp.altitude (...)`  to calculate the height and output it on the serial monitor as well.
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Sieh dir das der BMP280-Bibliothek beiliegende Beispiel an. Der Referenzdruck P0 muss an die derzeitige Wetterlage angepasst werden: [Hier](https://www.meteoblue.com/en/weather/webmap/index/?variable=mslp_pressure&level=surface&lines=none) findest du den aktuellen Luftdruck.*
+     Take a look at the example enclosed with the BMP280 library. The reference pressure P0 must be adapted to the current weather conditions: [here](https://www.meteoblue.com/en/weather/webmap/index/?variable=mslp_pressure&level=surface&lines=none) you will find the current air pressure.*
 </div>
 {% endcollapse %}

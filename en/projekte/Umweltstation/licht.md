@@ -1,8 +1,6 @@
-# DIY - Experimente mit Licht {#head}
+# DIY - experiments with light {#head}
 
-<div class="description">Wenn du fern siehst, das Radio anschaltest, mit deinem Smartphone eine Nachricht schreibst oder Essen in der Mikrowelle warm machst, nutzt du dabei elektromagnetische Energie.
-Heutzutage sind alle Menschen ständig auf diese Energie angewiesen.
-Ohne sie würde das Leben in modernen Städten völlig anders sein, als du es kennst.</div>
+<div class="description">If you watch television, turn on the radio, write a message on your smartphone, or warm up food in the microwave, you use electromagnetic energy. Nowadays, all people are constantly reliant on this energy. Without them, life in modern cities would be completely different from what you know.</div>
 <div class="line">
     <br>
     <br>
@@ -10,53 +8,53 @@ Ohne sie würde das Leben in modernen Städten völlig anders sein, als du es ke
 
 
 
-## Vorraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md)
-- [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
-- [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
+## Requirements
+- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
 
-## Ziele der Station
-In dieser Station verwendest du einen Lichtsensor, um die Beleuchtungsstärke des sichtbaren Lichts in Lux zu erfassen.
+## Destinations of the station
+In this station, you use a light sensor to measure the illuminance of visible light in lux.
 
-##Materialien
-- Lichtsensor `TSL 45315`
+##Materials
+- Light sensor `TSL 45315`
 
-##Grundlagen
+##Basics
 
-{% collapse title="Lichtintensität" %}
-Elektromagnetische Energie bewegt sich in Wellen durch den Raum. Ihr Spektrum reicht von sehr langen Radiowellen bis hin zur sehr kurzwelligen Gammastrahlung. Das menschliche Auge kann dabei nur einen sehr kleinen Teil dieses Spektrums wahrnehmen: das sichtbare Licht. Unsere Sonne ist dabei die Quelle der Energie über das gesamte Spektrum hinweg. Die Atmosphäre der Erde schützt uns davor, einem zu hohen Maß an Strahlung ausgesetzt zu werden, die für uns lebensgefährlich werden könnte.
+{% collapse title="Light intensity" %}
+Electromagnetic energy moves in waves through space. Their spectrum ranges from very long radio waves to very short-wave gamma radiation. The human eye can only perceive a very small part of this spectrum: the visible light. Our sun is the source of energy across the spectrum. The Earth's atmosphere protects us from being exposed to excessive levels of radiation that could be life-threatening for us.
 
-Für uns ist die Intensität des sichtbaren Lichts besonders interessant. Um die sog. Beleuchtungsstärke des einfallenden Lichts im sichtbaren Teil des Spektrums zu messen, wird die Einheit Lux verwendet. Sie gibt das Verhältnis der Helligkeit in Lumen pro Quadratmeter an. Bei einem hellen Sonnentag beträgt sie über 100.000 Lux, in einer Vollmondnacht hingegen nur etwa 1 Lux.
+For us, the intensity of visible light is particularly interesting. In order to measure the so-called illuminance of the incident light in the visible part of the spectrum, the unit lux is used. It gives the ratio of brightness in lumens per square meter. On a bright sunny day, it is over 100,000 lux, but only about 1 lux in a full moon night.
 {% endcollapse %}
 
 {% collapse title="TSL45315 Sensor" %}
-Für diese Messung benutzen wir im Folgenden den Sensor TSL45315 von AMS-TAOS.
-Im Datenblatt des Sensors sieht man, dass seine Empfindlichkeit auf den sichtbaren Teil des Lichtspektrums angeglichen ist, der ungefähr zwischen 400 und 700 nm liegt.
-Laut dem Datenblatt hat dieser Sensor eine Reichweite von 2 bis 200.000 Lux, bei einer Auflösung von 3 Lux. Des Weiteren muss der Sensor mit 3,3V betrieben werden.
+For this measurement, we will use the sensor TSL45315 from AMS-TAOS below. The sensor datasheet shows that its sensitivity is matched to the visible part of the light spectrum, which is approximately between 400 and 700 nm. According to the data sheet, this sensor has a range of 2 to 200,000 lux, with a resolution of 3 lux. Furthermore, the sensor must be operated at 3.3V.
 
-Der Sensor wird über das I²C Protokoll angesprochen. Wir sprechen ihn direkt mit den folgenden aus dem Datenblatt entnommenen Befehlen an:
+The sensor is addressed via the I²C protocol. We address it directly with the following commands taken from the data sheet: For this measurement, we will use the sensor TSL45315 from AMS-TAOS below. The sensor datasheet shows that its sensitivity is matched to the visible part of the light spectrum, which is approximately between 400 and 700 nm. According to the data sheet, this sensor has a range of 2 to 200,000 lux, with a resolution of 3 lux. Furthermore, the sensor must be operated at 3.3V.
+
+The sensor is addressed via the I²C protocol. We address him directly with the following commands taken from the data sheet:
+
 
 ![](../../pictures/diy-station/Grundlagen_Station_6.png)
 {% endcollapse %}
 
-##Aufbau
+## Construction
 
-![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_lux.jpg)
+![Exposure and UV sensor connected via I2C port](../../pictures/diy-station/wired_lux.jpg)
 
-## Programmierung
+## Programming
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
+     Make sure you have the latest board support package installed because you need the correct software libraries. How to do that is explained in  <a href ="../erste-schritte/board-support-packages-installieren.md">step 2</a>!
 </div>
-Als erstes muss eine Instanz des Sensors angelegt werden.
+First, an instance of the sensor must be created.
 ```arduino
 #include "SenseBoxMCU.h"
 TSL45315 lux_sensor;
 ```
 
 {% collapse title="setup() Funktion" %}
-In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
-
+In the `setup ()`-function the sensor should now be started:
 ```arduino
 void setup(){
     lux_sensor.begin();
@@ -66,7 +64,7 @@ void setup(){
 {% endcollapse %}
 
 {% collapse title="loop() Funktion" %}
-In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktuelle gemessene Lichtintensität abrufen:
+In the `loop ()`-function, we can use the getIlluminance () command to get the current measured light intensity:
 
 ```arduino
 void loop(){
@@ -75,13 +73,12 @@ void loop(){
 ```
 {% endcollapse %}
 
-## Aufgaben
+## Exercises
 
-{% collapse title="Aufgabe 1" %}
-Füge den Code aus dieser Lektion zusammen und ergänze eine Funktion um die Daten im Seriellen Monitor ausgeben zu lassen.
+{% collapse title="Exercise 1" %}
+Combine the code from this lesson and add a function to output the data in the serial monitor.
 {% endcollapse %}
 
-{% collapse title="Aufgabe 2" %}
-Versucht abhängig von der Beleuchtung eine LED an und auszuschalten. Hierfür kann das Kapitel [if/else - Bedingung](/../../grundlagen/if_else_bedingung.md) hilfreich sein.
+{% collapse title="Exercise 2" %}
+VTry to turn an LED on and off depending on the lighting. For this the chapter [if/else - Bedingung](/../../grundlagen/if_else_bedingung.md) can be helpful.
 {% endcollapse %}
-

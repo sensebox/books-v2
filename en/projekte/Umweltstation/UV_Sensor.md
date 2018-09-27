@@ -1,54 +1,49 @@
-# DIY - UV-Licht Sensor {#head}
+# DIY - UV light sensor {#head}
 
-<div class="description">Wenn die Temperaturen im Sommer steigen und wir uns länger draußen aufhalten, versuchen wir uns zunehmend vor der UV-Einstrahlung der Sonne zu schützen, zum Beispiel mit Sonnencreme. Doch gibt es diese UV-Strahlung nur im Sommer? Wie sieht es aus wenn die Sonne verdeckt ist und wie stark schwanken die Werte? Finde heraus wie viel UV-Strahlung die Erde erreicht und messe die UV-Intensität mit deiner senseBox!   
+<div class="description">When temperatures rise in the summer and we spend more time outdoors, we increasingly try to protect ourselves from the UV rays of the sun, for example with sunscreen. But is there only this UV radiation in summer? What does it look like when the sun is obscured and how much do the values fluctuate? Find out how much UV radiation reaches the earth and measure the UV intensity with your senseBox!   
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Vorraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md)
-- [Der serielle Datenbus I²C](../../grundlagen/serielle_datenbus.md)
-- [Der serielle Monitor](../../grundlagen/der_serielle_monitor.md)
+## Requirements
+- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
 
-## Ziele der Station
-In dieser Station verwenden wir einen UV-Lichtsensor, um die Intensität des UV-Lichts in Mikrowatt je Quadratzentimeter (μW / cm²) zu erfassen.
-Anschließend wollen wir den Wert in den UV-Index umrechnen.
+## Destinations of the station
+In this station, we use a UV light sensor to measure the intensity of UV light in microwatts per square centimeter (μW / cm²). Then we want to convert the value into the UV index.
 
-##Materialien
-- UV-Licht Sensor `VEML6070`
+## Materials
+- UV-light sensor `VEML6070`
 
-##Grundlagen
+##Basics
 
-{% collapse title="UV-Strahlung" %}
-Ultraviolettstrahlung (UV-Licht) ist für den Menschen unsichtbare elektromagnetische Strahlung mit einer Wellenlänge, die kürzer ist als die sichtbaren Lichtes, aber länger als die der Röntgenstrahlung.
-UV-Licht umfasst die Wellenlängen von 100 nm bis 380 nm.
-Wegen der Absorption in der Erdatmosphäre - insbesondere in der Ozonschicht - dringt nur wenig UV-B-Strahlung (100 - 300 nm) bis zur Erdoberfläche vor.
-UV-A-Strahlung (300 - 380 nm), welche weniger gefährlich für die menschliche Haut ist, wird weniger durch die Atmosphäre absorbiert.
+{% collapse title="Ultraviolet light" %}
+Ultraviolet (UV) light is invisible electromagnetic radiation to humans with a wavelength shorter than visible light but longer than that of X-rays. UV light covers the wavelengths from 100 nm to 380 nm. Because of the absorption in the earth's atmosphere - especially in the ozone layer - only little UV-B radiation (100 - 300 nm) penetrates to the earth's surface. UV-A radiation (300 - 380 nm), which is less harmful to human skin, is less absorbed by the atmosphere.t.
 
-UV-Lichtintensität wird in Mikrowatt je Quadratzentimeter (μW / cm²) gemessen.
-Unser Sensor misst im Bereich von ca. 300 - 400 nm, nimmt also nur UV-A Strahlung auf (für genauere Angaben beachte das [Datenblatt](https://github.com/sensebox/resources/raw/master/datasheets/datasheet_veml6070-UV-A-Light-Sensor.pdf)).
+UV light intensity is measured in microwatts per square centimeter (μW / cm²). Our sensor measures in the range of approx. 300 - 400 nm, so it absorbs only UV-A radiation (for more details see the [Datasheet](https://github.com/sensebox/resources/raw/master/datasheets/datasheet_veml6070-UV-A-Light-Sensor.pdf))).
 {% endcollapse %}
 
-##Aufbau
+##Construction
 
-![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_lux.jpg)
+![Exposure and UV sensor connected via I2C port](../../pictures/diy-station/wired_lux.jpg)
 
-Schließe den Sensor an die senseBoxMCU an, wie es in der Grafik dargestellt ist.
+Connect the sensor to the senseBoxMCU as shown in the graphic.
 
 ## Programmierung
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
+    Make sure you have the latest board support package installed because you need the correct software libraries. How to do that was explained to you in  <a href ="../erste-schritte/board-support-packages-installieren.md">step 2</a> !
 </div>
-Als erstes muss eine Instanz des Sensors angelegt werden.
+First, an instance of the sensor must be created.
 ```arduino
 #include "SenseBoxMCU.h"
 VEML6070 vml;
 ```
 {% collapse title="setup() Funktion" %}
-In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
+In the `setup()`-function the sensor now should be started:
 
 ```arduino
 void setup(){
@@ -58,7 +53,7 @@ void setup(){
 {% endcollapse %}
 
 {% collapse title="loop() Funktion" %}
-In der `loop()`-Funktion können wir mit dem Befehl 'getIlluminance()' die aktuelle gemessene Lichtintensität abrufen:
+In the `loop ()`-function, we can use the getIlluminance () command to get the current measured light intensity:
 
 ```arduino
 void loop(){
@@ -67,30 +62,30 @@ void loop(){
 ```
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Möchtest du dir den UV-Index anzeigen lassen so musst du dir vorher eine Funktion deklarieren die das für dich übernimmt. Wie das geht erfährst du im nächsten Schritt!
+If you want to see the UV index you have to declare a function before that will do it for you. How to do that you will learn in the next step!
 </div>
 {% endcollapse %}
 
 {% collapse title="Umrechnung in den UV-Index" %}
-Da im Alltag häufig mit dem [UV-Index](https://de.wikipedia.org/wiki/UV-Index) gearbeitet wird, wollen wir nun eine Methode schreiben, welche uns den Messwert in einen UV-Index umrechnet:
+Since the [UV-Index](https://de.wikipedia.org/wiki/UV-Index) is often used in everyday life, we now want to write a method that converts the measured value into a UV index:
+
 
 ```arduino
 /*
  * getUVI()
- * erwartet den Messert des UV-Sensors als Eingabeparameter
- * und gibt den entsprechenden Wert auf dem UV-Index zurück
+ * expects the knife of the UV sensor as an input parameter
+  * and returns the corresponding value on the UV index
  */
 float getUVI(int uv) {
-    
-  float refVal = 0.4; // Referenzwert: 0,01 W/m^2 ist äquivalent zu 0.4 als UV-Index
+
+  float refVal = 0.4; // Reference value: 0.01 W / m 2 is equivalent to 0.4 as UV index
   float uvi = refVal * (uv * 5.625) / 1000;
   return uvi;
 }
 ```
 {% endcollapse %}
 
-## Aufgaben
+## Exercise
 
-{% collapse title="Aufgabe 1" %}
-Versuche dir im seriellen Monitor nun mithilfe der  `getUVI()`-Funktion den UV-Index ausgeben zu lassen. 
-{% endcollapse %}
+{% collapse title="Exercise 1" %}
+In the serial monitor, try using the `getUVI ()`-function to print out the UV index.{% endcollapse %}

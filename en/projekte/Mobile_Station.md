@@ -1,55 +1,55 @@
 # Mobile Station {#head}
 
 <div class="description">
-Eine mobile senseBox kann Daten auf die openSenseMap hochladen von überall wo du Internet hast!<br>
-Wie das funktioniert wird dir in diesem Kapitel an einem Beispiel erläutert.
+A mobile senseBox can upload data to openSenseMap from anywhere you have internet!<br>
+How this works is explained in this chapter with an example.
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Materialien
+## Material
  - senseBoxMCU
- - GPS-Modul
- - senseBox JST-Adapterkabel
+ - GPS module
+ - senseBox JST adapter cable
 
-## Grundlagen 
-Eine mobile senseBox hat vielerlei Anwendungsfälle. Möchtest du zum Beispiel die Konzentration von Feinstaub entlang, deiner täglichen Route zur Arbeit oder Schule messen. Das GPS-Modul empfängt die Position (Längengrad/Breitengrad/Höhe) der senseBox. Dieser Sensor ist kompatibel mit den gängingen GNS Systemen (GPS, QZSS, GLONASS, BeiDou, Galileo) und basiert auf dem u-blox CAM-M8Q Multi GNSS Modul.
+## Basics
+A mobile senseBox has many applications. For example, would you like to measure the concentration of particulate matter, your daily route to work or school? The GPS module receives the position (longitude / latitude / high) of the senseBox. This sensor is compatible with the popular GNS systems (GPS, QZSS, GLONASS, BeiDou, Galileo) and is based on the u-blox CAM-M8Q Multi GNSS module.
 
-![Eine mobile senseBox auf der openSenseMap](../pictures/projekte/feinstaubmobil.png)
+![A mobile senseBox on openSenseMap](../pictures/projekte/feinstaubmobil.png)
 
-## Aufbau 
-Damit das GPS-Modul die ganze Messperiode über ein Signal hat und somit den Standort anfragen kann, musst du sicherstellen, dass das Modul durch nichts verdeckt wird. Idealerweise bringst du es für die Messperiode außerhalb des Gehäuses an. 
+## Construction
+In order for the GPS module to have a signal throughout the measurement period, and thus be able to request the location, you must make sure that nothing obscures the module. Ideally, you attach it outside the case for the measurement period.
 
-Für die Stromversorgung während der Messperiode kannst du zum Beispiel eine Powerbank benutzen. Manche Powerbanks schalten sich ab, wird zu wenig Strom gezogen (z.B. dann wenn ein Handy voll geladen ist), dadurch kann es vorkommen, dass die Powerbank die senseBoxMCU nicht dauerhaft mit Strom versorgt. Gehe vor der Messung sicher, dass dies nicht der Fall sein wird. 
-
-<div class="box_warning">
-    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Es kann sein, dass der GPS Sensor anfangs eine Weile braucht, damit korrekte Signale empfangen werden. Vorallem bei erstmaliger Benutzung kann dieser Prozess bis zu 5 Minuten dauern. Nachdem ein Netzwerk erkannt wurde, werden die Informationen dazu intern im Sensor gespeichert damit es bei der nächsten 
-    Verwendung schneller gehen kann !
-</div>
-
-
-## Programmierung
+For the power supply during the measurement period you can, for example, use a power bank. Some power banks turn off, too little power is drawn (for example, when a cell phone is fully charged), so that it may happen that the power bank does not permanently power the senseBoxMCU. Before measuring, make sure that this will not be the case.
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
+   It may take a while for the GPS sensor to receive correct signals. Especially when used for the first time this process can take up to 5 minutes. After a network has been detected, the information is internally stored in the sensor so it can go faster with the next use!
 </div>
 
-Wie das GPS-Modul programmiert wird, wird hier Beispielhaft anhand einer Temperaturmessung veranschaulicht. Jeder Messwert einer mobilen Station wird zusammen mit den dazugehörigen Werten für Breiten- und Längengrad hochgeladen.
 
-Als erstes muss eine Instanz der Sensoren angelegt werden. Zusätzlich definieren wir noch 2 zwei Variablen für Breiten- und Längengrad
+## Programming
+
+<div class="box_warning">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+   Make sure you have the latest board support package installed because you need the correct software libraries. How to do that was explained to you in <a href ="../erste-schritte/board-support-packages-installieren.md"> step 2</a>!
+</div>
+
+How the GPS module is programmed is exemplified by a temperature measurement. Each metric of a mobile station is uploaded along with its latitude and longitude values.
+
+First, an instance of the sensors must be created. In addition, we define 2 more variables for latitude and longitude:
+
 ```arduino
 #include "SenseBoxMCU.h"
 HDC1080 hdc;
 
 GPS gps;
-float lat; // Geografische Breite
-float lon; // Geografische Länge
+float lat; // Geographic latitude
+float lon; // Geographic longitude
 ```
-In der `setup`-Funktion starten wir nun die beiden Sensoren. 
+In the `setup`-function we now start the two sensors.
 {% collapse title="setup() Funktion" %}
 
 ```arduino
@@ -60,9 +60,9 @@ void setup(){
 ```
 {% endcollapse %}
 
-Die `loop`-Funktion fragt nun den Standort der Station ab und lädt diesem gemeinsam mit dem Wert für Temperatur auf die openSenseMap hoch. 
+The `loop`-funktion now queries the location of the station and uploads it to the openSenseMap together with the value for temperature..
 
-{% collapse title="loop() Funktion" %} 
+{% collapse title="loop() Funktion" %}
 ```arduino
 void loop(){
     lat = gps.getLatitude();
@@ -73,4 +73,3 @@ void loop(){
 }
 ```
 {% endcollapse %}
-
