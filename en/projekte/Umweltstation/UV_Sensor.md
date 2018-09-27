@@ -1,4 +1,4 @@
-# DIY - UV light sensor {#head}
+# DIY - UV Light Sensor {#head}
 
 <div class="description">When temperatures rise in the summer and we spend more time outdoors, we increasingly try to protect ourselves from the UV rays of the sun, for example with sunscreen. But is there only this UV radiation in summer? What does it look like when the sun is obscured and how much do the values fluctuate? Find out how much UV radiation reaches the earth and measure the UV intensity with your senseBox!   
 </div>
@@ -8,17 +8,17 @@
 </div>
 
 ## Requirements
-- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
-- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
-- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
+- [The Use of Software Libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The Serial Data Bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The Serial Monitor](../../grundlagen/der_serielle_monitor.md)
 
-## Destinations of the station
+## Aims of the station
 In this station, we use a UV light sensor to measure the intensity of UV light in microwatts per square centimeter (μW / cm²). Then we want to convert the value into the UV index.
 
 ## Materials
 - UV-light sensor `VEML6070`
 
-##Basics
+## Basics
 
 {% collapse title="Ultraviolet light" %}
 Ultraviolet (UV) light is invisible electromagnetic radiation to humans with a wavelength shorter than visible light but longer than that of X-rays. UV light covers the wavelengths from 100 nm to 380 nm. Because of the absorption in the earth's atmosphere - especially in the ozone layer - only little UV-B radiation (100 - 300 nm) penetrates to the earth's surface. UV-A radiation (300 - 380 nm), which is less harmful to human skin, is less absorbed by the atmosphere.t.
@@ -26,7 +26,7 @@ Ultraviolet (UV) light is invisible electromagnetic radiation to humans with a w
 UV light intensity is measured in microwatts per square centimeter (μW / cm²). Our sensor measures in the range of approx. 300 - 400 nm, so it absorbs only UV-A radiation (for more details see the [Datasheet](https://github.com/sensebox/resources/raw/master/datasheets/datasheet_veml6070-UV-A-Light-Sensor.pdf))).
 {% endcollapse %}
 
-##Construction
+## Construction
 
 ![Exposure and UV sensor connected via I2C port](../../pictures/diy-station/wired_lux.jpg)
 
@@ -53,7 +53,7 @@ void setup(){
 {% endcollapse %}
 
 {% collapse title="loop() Funktion" %}
-In the `loop ()`-function, we can use the getIlluminance () command to get the current measured light intensity:
+In the `loop()`-function, we can use the `getIlluminance()` command to get the current measured light intensity:
 
 ```arduino
 void loop(){
@@ -67,7 +67,7 @@ If you want to see the UV index you have to declare a function before that will 
 {% endcollapse %}
 
 {% collapse title="Transformation to UV-Index" %}
-Since the [UV-Index](https://en.wikipedia.org/wiki/UV-Index) is often used in everyday life, we now want to write a method that converts the measured value into a UV index:
+Since the [UV-Index](https://en.wikipedia.org/wiki/Ultraviolet_index) is often used in everyday life, we now want to write a method that converts the measured value into a UV index:
 
 
 ```arduino
