@@ -69,7 +69,7 @@ void loop(){
 
 ## Exercises
 
-{% collapse title="AExercise 1" %}
+{% collapse title="Exercise 1" %}
 Connect the `BMP280` sensor to the Arduino, and create an Arduino sketch, which regularly outputs air pressure and temperature on the serial monitor!
 {% endcollapse %}
 
