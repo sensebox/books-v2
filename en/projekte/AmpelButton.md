@@ -1,7 +1,7 @@
-# Ampel {#head}
+# Traffic light{#head}
 
 <div class="description">
-  Es soll eine Ampel simuliert werden. Mit einem Button kann man die Ampel umschalten.
+ It should be simulated a traffic light. With a button you can switch the traffic light.
 </div>
 <div class="line">
     <br>
@@ -9,21 +9,22 @@
 </div>
 
 
-## Materialien
+## Materials
 * senseBox MCU
-* rote LED
-* gelbe LED
-* grüne LED
-* 3x 470Ω Wiederstand
+* red LED
+* yellow LED
+* green LED
+* 3x 470Ω resistance
 * Button
-* 10Ω Wiederstand
-* 2x senseBox JST-Adapterkabel
+* 10Ω resistance
+* 2x senseBox JST adapter cable
 
-## Aufbau
-### Hardwarekonfiguration
-Um alle Komponenten anzuschließen benötigst Du zwei JST-Adapterkabel. Das erste wird an Digital A (also den digitalen Pins 1 und 2) angeschlossen, das zweite an Digital B (also den digitalen Pins 3 und 4) angeschlossen. Am Kabel in Digital A werden die rote und die gelbe LED angeschlossen, am Kabel in Digital B die grüne LED und der Button.
 
-![Verkabelung der Ampelschaltung](../pictures/projekte/Ampel_Button_v2_Steckplatine.png)
+## Construction
+### Hardware configuration
+To connect all components you need two JST adapter cables. The first is connected to Digital A (digital pins 1 and 2), the second to Digital B (digital pins 3 and 4). On the cable in Digital A the red and the yellow LED are connected, on the cable in Digital B the green LED and the button.
+
+![Wiring the traffic light circuit](../pictures/projekte/Ampel_Button_v2_Steckplatine.png)
 
 ### Sketch
 
@@ -42,10 +43,10 @@ void setup() {
  pinMode(gelb, OUTPUT);
  pinMode(gruen, OUTPUT);
 
- // Der Button soll Signale messen, also INPUT
+ // The button should measure inputs
  pinMode(button, INPUT);
 
- // Ampel zuerst auf ROT setzen
+ // First set the traffic light to RED
  digitalWrite(rot, HIGH);
  digitalWrite(gelb, LOW);
  digitalWrite(gruen, LOW);
@@ -53,7 +54,7 @@ void setup() {
 
 void loop() {
 
- // Hier wird geprüft ob der Button gedrückt wird
+ // Here it is checked if the button is pressed
  if(digitalRead(button) == HIGH) {
 
    delay(5000);
@@ -72,7 +73,7 @@ void loop() {
    delay(5000);
 
 
-   // GRUEN zu ROT
+   // green to red
    digitalWrite(rot, LOW);
    digitalWrite(gelb, HIGH);
    digitalWrite(gruen, LOW);
@@ -88,9 +89,9 @@ void loop() {
 
 ```
 
-- Am Anfang der `loop()` Funktion wird jedesmal abgefragt ob der Button gedrückt wird.
-- `digitalRead(button)` liest den aktuellen Zustand des Buttons aus. Wird er gedrückt, liefert die Funktion `HIGH` aus, ansonsten `LOW`.
--  Um zu Prüfen ob der Button gedrückt wurde muss `digitalRead(button)` mit `HIGH` verglichen werden. Der Vergleich geschieht mit __zwei__ Gleichzeichen `==` (Vergleichsoperator). __Ein__ Gleichzeichen `=` ist eine Zuweisung, wie etwa `int rot = 13`.
+- At the beginning of the `loop()`-function it is queried each time whether the button is pressed.
+- `digitalRead(button)` reads the current state of the button. If pressed, the function returns `HIGH`, otherwise `LOW`.
+-  To check if the button was pressed `digitalRead(button)`  has to be compared with `HIGH`. The comparison is done with __two__ equals `==` (comparison operator). __One__  equals`=` is an assignment, such as  `int red = 13`.
 
 {% content "second" %}
 
@@ -101,5 +102,3 @@ void loop() {
 
 
 {% endtabs %}
-
-

@@ -1,45 +1,41 @@
-# Verkehrszähler {#head}
+# Traffic counters {#head}
 
 <div class="description">
-Ziel ist es, einen Verkehrs- oder Personenzähler zu entwickeln. <br>
-Dazu verwenden wir einen Ultraschall-Distanzsensor.
-Die so aufgenommenen Werte sollen im <b>Seriellen Monitor</b> ausgegeben werden.
+The goal is to develop a traffic or passenger counter.<br>
+For this we use an ultrasonic distance sensor. The values ​​recorded in this way should be output in the  <b>serial monitor</b> .
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Materialien
-* Ultraschall-Distanzsensor
+## Materials
+* Ultrasonic distance sensor
 * senseBox MCU
-* senseBox JST-Adapterkabel
+* senseBox adapter cable
 
-## Grundlagen
-Der Ultraschall-Distanzsensor nutzt den Schall um die Entfernung von Objekten zu bestimmen. Der Sensor sendet einen Impuls aus und misst die Zeit, bis er das Echo des Impulses wieder empfängt. Aus dieser Zeit errechnet man mit Hilfe der Schallgeschwindigkeit die Entfernung des Objekts.
+## Basics
+The ultrasonic distance sensor uses the sound to determine the distance of objects. The sensor sends out a pulse and measures the time until it receives the echo of the pulse again. From this time one calculates with the help of the speed of sound the distance of the object.
 
-## Aufbau
-Der Ultraschallsensor wird mit einem JST-Adapterkabel mit der senseBox MCU verbunden. Dazu wird das JST-Adapterkabel mit dem Steckplatz Digital A verbunden.
-Zur Stromversorgung wird der VCC-Pin des Sensors mit dem roten Kabel (5V)und der GND-Pin des Sensors mit
-dem schwarzen Kabel (GND) verbunden. Zur Datenübertragung wird dann das grüne Kabel (1) mit dem Echo- und das gelbe Kabel (2) mit dem Trig-Pin des Sensors verbunden.
+## Construction
+The ultrasonic sensor is connected to the senseBox MCU using a JST adapter cable. To do this, connect the JST adapter cable to the Digital A slot. For power supply the VCC pin of the sensor is connected to the red cable (5V) and the GND pin of the sensor to the black cable (GND). For data transmission then the green cable (1) with the echo and the yellow cable (2) with the Trig pin of the sensor is connected.
 
-![Verkabelung des Ultraschall-Sensors](../pictures/projekte/Verkehrszaehler_v2.png)
+![Wiring of the ultrasonic sensor](../pictures/projekte/Verkehrszaehler_v2.png)
 
-***Hinweis:*** *Ihr könnt natürlich jeden mit "Digital" beschrifteten Steckplatz verwenden, denkt aber daran den Code anzupassen.*
+***Note:*** *You can of course use any slot labeled "Digital", but remember to change the code.*
 
-## Programmierung
+## Programming
 
-Definiert die Pins an dem ihr den Sensor angeschlossen habt wie üblich.
-Außerdem werden zwei Variablen angelegt in der die gemessene Zeit und die errechnete Distanz gespeichert werden.
-
+Defines the pins where you connected the sensor as usual. In addition, two variables are created in which the measured time and the calculated distance are stored.
 ```arduino
-int trig = 2;  // Trig-Pin des Sensors ist an Pin 2 angeschlossen.
-int echo = 1;  // Echo-Pin des Sensors ist an Pin 1 angeschlossen.
+int trig = 2;  // Trig pin of the sensor is on pin 2
+int echo = 1;  // Echo pin of the sensor is connected to pin 1.
 unsigned int time = 0;
 unsigned int distance = 0;
 ```
 
-Im `setup()` müsst ihr nun den *Seriellen Monitor* starten und die Pins an welchen der Sensor angeschlossen ist als Ein- bzw. Ausgang definieren. Der Trigger-Pin des Sensors muss als Ausgang und der Echo-Pin als Eingang definiert werden.
+In the `setup()`-function you have to start the *Seriellen Monitor* and define the pins to which the sensor is connected as input or output. The trigger pin of the sensor must be defined as output and the echo pin as input.
+
 
 ```arduino
 Serial.begin(9600);
@@ -48,32 +44,32 @@ pinMode(echo, INPUT);
 
 ```
 
-Im `loop()` wird mit den Befehlen
+The `loop()`-function will start with the commands:
+
 ```arduino
 digitalWrite(trig, HIGH);
 delayMicroseconds(10);
 digitalWrite(trig, LOW);
 ```
-ein 10 Mikrosekunden langer Ultraschallimpuls ausgesendet.
-Der darauffolgende Befehl `time = pulseIn(echo, HIGH);` speichert die Zeit bis zum Empfang des Echos in der Variable `time`.
-Zum Schluss muss noch die Distanz aus der Zeit errechnet werden, sowie die Werte auf dem Seriellen Monitor angezeigt werden.
+sent out a 10 microsecond ultrasonic pulse
+The following command `time = pulseIn(echo, HIGH);` stores the time until the echo is received in the variable `time`.
+Finally, the distance from the time must be calculated, and the values are displayed on the serial monitor.
 
 ```arduino
 distance = time / 58;
 Serial.println(distance);
 ```
-**Hinweis** *Wir gehen davon aus, dass sich der Schall mit 348 Metern pro Sekunde ausbreitet. Diese Zahl ist nicht fix sondern [hängt von der Umgebungstemperatur ab](https://de.wikipedia.org/wiki/Schallgeschwindigkeit#Temperaturabh.C3.A4ngigkeit_in_Luft).*
+**Note** *We assume that the sound propagates at 348 meters per second. This number is not fixed but depends on the ambient temperature.](https://de.wikipedia.org/wiki/Schallgeschwindigkeit#Temperaturabh.C3.A4ngigkeit_in_Luft).*
 
-{% collapse title="Aufgabe 1" %}
+{% collapse title="Exercise 1" %}
 
-Versucht mit Hilfe bekannter Befehle und dem oben angegebenen Sketch zum Ultraschallsensor einen Personen- bzw. Verkehrszähler zu entwickeln.
+Attempts to develop a personal or traffic counter with the help of known commands and the above sketch to the ultrasonic sensor.
 
-Beachtet dabei folgende Hinweise:
-- Versucht nur einen bestimmten Entfernungsbereich auszuwerten, damit es
-nicht zu Störungen durch Bewegungen im Hintergrund kommt. Effektiv misst der Sensor ca. 3 Meter.
+Note the following notes:
+- Try to evaluate only a certain distance range, so that it does not interfere with movements in the background. Effectively the sensor measures approx. 3 meters.
 
-- Um Mehrfachzählungen eines stehenden Fahrzeuges zu vermeiden solltet ihr eine Bedingung programmieren, der den Zählvorgang stoppt bis die Spur wieder frei ist, der Sensor also eine vorher festgelegte Maximaldistanz für die Spur misst. Dazu bietet sich ein `while`-Schleife an. Zuerst muss überprüft werden, ob sich etwas im Messbereich befindet. Solange der Sensor nicht misst, dass die Fahrbahn wieder frei ist, soll er erneut messen. Erst wenn die Fahrbahn wieder frei ist erhöhe deine Zählvariable um eins.
+- To avoid multiple counts of a stationary vehicle, you should program a condition that stops counting until the track is clear, so the sensor measures a preset maximum distance for the lane. For this purpose, a `while` loop offers. First, it must be checked whether something is in the measuring range. As long as the sensor does not measure that the roadway is free again, it should measure again. Only when the lane is clear again increase your counter variable by one.
 
-- Damit die Messwerte beim einfahren in den Messbereich nicht zu sehr schwanken, kann es helfen, zwischen den einzelnen Messungen eine Verzögerung von 200ms zu programmieren.
-    
+- To prevent the measured values ​​from fluctuating too much when entering the measuring range, it may help to program a delay of 200ms between the individual measurements.
+
 {% endcollapse %}

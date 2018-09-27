@@ -1,44 +1,44 @@
-#Datenupload {#head}
+# Data Upload{#head}
 
 
-<div class="description">Wenn wir unsere Wetterstation aufgebaut haben, wäre es doch schön die gewonnenen Daten immer von jedem Ort aus abrufen zu können.
-Dazu gibt es die [openSenseMap](https://openSenseMap.org/) (OSeM), welche diverse Sensordaten online sammelt und auf einer Karte darstellt.
-Über den Ethernet- oder WiFi-Bee oder können wir unsere senseBox ans Internet anbinden und die Daten zur OSeM hochladen.</div>
+<div class="description">If we set up our weather station, it would be nice to be able to retrieve the data from any location. There is the [openSenseMap](https://openSenseMap.org/) ((OSeM), which collects various sensor data online and displays it on a map. Via the Ethernet or WiFi-Bee or we can connect our senseBox to the Internet and upload the data to the OSeM.
+</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Voraussetzungen
-- [Die Verwendung von Software-Bibliotheken](../../erste-schritte/board-support-packages-installieren.md) : Du solltest dir zu diesem Zweck die ersten Schritte angeguckt haben.
+## Requirements
+- [Using Software Libraries](../../erste-schritte/board-support-packages-installieren.md) : You should have looked at the first steps for this purpose.
 - [**Bees**](../../grundlagen/Bees.md):
-    Lese dieses Kapitel um zu erfahren, wie die senseBox MCU mithilfe von Bees eine Netzwerkverbindung herstellen kann, um so Daten auf die openSenseMap zu übertragen.
+   Read this chapter to learn how the senseBox MCU can use Bees to establish a network connection to transfer data to openSenseMap.
 
-## Ziele der Station
-In dieser Station wird beispielhaft die Integration eines Sensors in die openSenseMap gezeigt, sodass die gewonnenen Daten online verfügbar sind.
+## Destinations of the station
+In this station, the integration of a sensor into the openSenseMap is shown by way of example so that the data obtained is available online.
 
-## Materialien
+
+## Materials
 *  WiFi-Bee
-* Mindestens einen (beliebigen) Sensor
+*  At least one (arbitrary) sensor
 
-## Programmierung 
-Im Kapitel [Bees](/../../grundlagen/Bees.md) hast du schon gelernt wie du eine Verbindung zum Internet aufbaust, nun schauen wir uns an, wie wir unsere Messwerte kontinuierlich auf der openSenseMap hochladen können.
-Wie dort bereits beschrieben müssen wir erstmal die Instanzen für die openSenseMap erstellen und unser WLAN-Netzwerk + Zugangsdaten bereitstellen. 
+## Programming
+In the chapter [Bees](/../../grundlagen/Bees.md) you have already learned how to connect to the Internet, now let's see how we can continuously upload our metrics to openSenseMap. As already described there, we must first create the instances for the openSenseMap and provide our Wi-Fi network + access data.
 
-{% collapse title="Deklarierung der Objekte" %}
+
+{% collapse title="Declaration of the objects" %}
 ```arduino
 #include "SenseBoxMCU.h"
-Bee* b = new Bee(); // Instanz der Bee
-OpenSenseMap osem("senseBox ID",b); // Instanz der openSenseMap
-HDC1080 hdc; // Instanz des Temperatur - & Luftfeuchte Sensor 
+Bee* b = new Bee(); // Instance of the Bee
+OpenSenseMap osem("senseBox ID",b); // Instance of the openSenseMap
+HDC1080 hdc; // Instance of the temperature and humidity sensor
 void setup(){
-    b->connectToWifi("SSID","PW"); // Verbindung zum WiFi herstellen 
+    b->connectToWifi("SSID","PW"); // Vconnect to the Wifi
     hdc.begin();
     };
 ```
 {% endcollapse %}
 
-In der `loop()`-Funktion laden wir nun unsere Messwerte hoch.
+In the `loop ()`-function we upload our measurements.
 
 {% collapse title="loop()" %}
 ```arduino
@@ -49,20 +49,19 @@ void loop(){
 ```
 {% endcollapse %}
 
-## Aufgaben
-{% collapse title="Aufgabe 1" %}
-Mache dich mit der openSenseMap vertraut (siehe Vorraussetzungen), und registriere dort deine senseBox mit den Sensoren, welche du bisher angeschlossen hast.
+## Exercises
+{% collapse title="Exercise 1" %}
+Familiarize yourself with openSenseMap (see Requirements) and register your senseBox with the sensors you have previously connected.
 {% endcollapse %}
 
 
 
-{% collapse title="Aufgabe 2" %}
-In dem Arduino-Sketch, den du bei der Registrierung in Aufgabe 1 erhalten hast, fehlt noch das Auslesen von Sensoren.
-Erweitere den Sketch von der OSeM-Registrierung sodass deine angeschlossenen Sensoren ausgelesen werden.
+{% collapse title="Exercise 2" %}
+In the Arduino sketch, which you received when registering in Exercise 1, the reading of sensors is still missing. Extend the sketch from the OSeM registry so that your connected sensors are read out.
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Folge der Anleitung im <a href="../../grundlagen/digitale_signale.md">Grundlagenkapitel</a>. Du kannst deinen bisherigen Code überwiegend wiederverwenden!<
+      Follow the instructions in the <a href="../../grundlagen/digitale_signale.md">basic chapter</a>.You can reuse most of your previous code!<
 </div>
 
 {% endcollapse %}

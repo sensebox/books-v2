@@ -1,24 +1,23 @@
 # DIY-Umweltstation {#head}
 
-<div class="description">In diesem Projekt erfahrt ihr, wie man eine senseBox Umweltstation aufbaut.
-Am Ende wird die Messung diverser Umweltphänomene wie Temperatur, Luftfeuchte, Helligkeit und Luftdruck, sowie die Veröffentlichung der Daten auf der <a href="https://opensensemap.org">openSenseMap</a> möglich sein!</div>
+<div class="description">In this project you will learn how to set up a senseBox environmental station. In the end, the measurement of various environmental phenomena such as temperature, humidity, brightness and air pressure, as well as the publication of the data on the  <a href="https://opensensemap.org">openSenseMap</a>  be possible!</div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Einleitung
-Dieses Projekt ist das umfangreichste, weshalb es in mehrere Unterkapitel aufgeteilt wurde.
-In jedem neuen Kapitel wird ein zusätzlicher Baustein eingeführt, bis eine vollständige - den Funktionen der senseBox:home ähnliche - Wetterstation gebaut wurde!
+## Introduction
 
-Innerhalb dieses Projekts findet ihr die folgenden 5 Kapitel:
+This project is the most extensive. It has been split into several subchapters. In each new chapter, an additional module is introduced until a complete - the functions similar to the senseBox: home - weather station was built!
 
-* [Temperatur und Luftfeuchtigkeit](temp_luft.md)
-* [Experimente mit Licht](licht.md)
+Within this project you will find the following 5 chapters:
+
+* [Temperature and humidity](temp_luft.md)
+* [Experiments with light](licht.md)
 * [UV-Sensor](UV_Sensor.md)
-* [Luftdruck](luftdruck.md)
-* [Datenupload zur OSeM](datenupload.md)
+* [air pressure](luftdruck.md)
+* [Data upload to the OSeM](datenupload.md)
 
-Ihr könnt die Stationen als einzelne Projekte bearbeiten, oder euren Programm-Code mit jeder Station erweitern, um alle fünf Phänomene gleichzeitig messen zu können.
+You can edit the stations as individual projects, or expand your program code with each station to measure all five phenomena simultaneously.
 
-**Viel Erfolg beim Bau deiner DIY-Umweltstation**
+**Good luck building your DIY Environmental Station!**
