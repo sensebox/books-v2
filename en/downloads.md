@@ -1,7 +1,7 @@
 # Downloads {#head}
 
 <div class="description">
-	Here zou can find available downloads that may help you with your senseBox.
+	Here you can find available downloads that may help you with your senseBox.
 </div>
 <div class="line">
     <br>
