@@ -1,4 +1,4 @@
-# DIY - experiments with light {#head}
+# DIY - Experiments with Light {#head}
 
 <div class="description">If you watch television, turn on the radio, write a message on your smartphone, or warm up food in the microwave, you use electromagnetic energy. Nowadays, all people are constantly reliant on this energy. Without them, life in modern cities would be completely different from what you know.</div>
 <div class="line">
@@ -9,11 +9,11 @@
 
 
 ## Requirements
-- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
-- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
-- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
+- [The Use of Software Libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The Serial Data Bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The Serial Monitor](../../grundlagen/der_serielle_monitor.md)
 
-## Destinations of the station
+## Destinations of the Station
 In this station, you use a light sensor to measure the illuminance of visible light in lux.
 
 ##Materials
@@ -53,7 +53,7 @@ First, an instance of the sensor must be created.
 TSL45315 lux_sensor;
 ```
 
-{% collapse title="setup() Funktion" %}
+{% collapse title="setup() function" %}
 In the `setup ()`-function the sensor should now be started:
 ```arduino
 void setup(){
@@ -63,7 +63,7 @@ void setup(){
 
 {% endcollapse %}
 
-{% collapse title="loop() Funktion" %}
+{% collapse title="loop() function" %}
 In the `loop ()`-function, we can use the getIlluminance () command to get the current measured light intensity:
 
 ```arduino
@@ -80,5 +80,5 @@ Combine the code from this lesson and add a function to output the data in the s
 {% endcollapse %}
 
 {% collapse title="Exercise 2" %}
-VTry to turn an LED on and off depending on the lighting. For this the chapter [if/else - Bedingung](/../../grundlagen/if_else_bedingung.md) can be helpful.
+Try to turn an LED on and off depending on the lighting. For this the chapter [if/else - Bedingung](/../../grundlagen/if_else_bedingung.md) can be helpful.
 {% endcollapse %}
