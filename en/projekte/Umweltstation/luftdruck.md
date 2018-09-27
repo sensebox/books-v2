@@ -1,4 +1,4 @@
-# Air pressure  {#head}
+# Air Pressure  {#head}
 
 <div class="description">The measurement of the air pressure allows not only weather forecasts but also indirectly the determination of the height of the sensor.
 </div>
@@ -8,9 +8,9 @@
 </div>
 
 ## Requirements
-- [The use of software libraries](../../erste-schritte/board-support-packages-installieren.md)
-- [The serial data bus I²C](../../grundlagen/serielle_datenbus.md)
-- [The serial monitor](../../grundlagen/der_serielle_monitor.md)
+- [The Use of Software Libraries](../../erste-schritte/board-support-packages-installieren.md)
+- [The Serial Data Bus I²C](../../grundlagen/serielle_datenbus.md)
+- [The Serial Monitor](../../grundlagen/der_serielle_monitor.md)
 
 ## Materials
 - Air pressure sensor `BMP280`
@@ -46,7 +46,7 @@ The sensor can be controlled via the `SenseBoxMCU.h` library. After this has bee
 BMP280 bmp_sensor;
 ```
 
-{% collapse title="setup() funktion" %}
+{% collapse title="setup() function" %}
 In the `setup ()`-function, the sensor must be initialized. Use the following lines
 ```arduino
 void setup(){
@@ -55,7 +55,7 @@ void setup(){
 ```
 {% endcollapse %}
 
-{% collapse title="loop() funktion" %}
+{% collapse title="loop() function" %}
 Now the sensor has to be read in the `loop ()`-function. The variables `temp` and `pressure` then each contain the current measured values.
 
 ```arduino
