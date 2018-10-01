@@ -16,4 +16,4 @@
 * Betriebsdruck 300 bis 1100 hPa
 * Relative Präzision ±0.12 hPa
 * Absolute Präzision ±1 hPa
-* Betriebsversorgunsstrom 2.7μA bei 1 Hz Sampling Frequenz
+* Betriebsversorgungsstrom 2.7μA bei 1 Hz Sampling Frequenz
