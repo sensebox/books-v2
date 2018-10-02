@@ -36,6 +36,8 @@
 * [Mobile Station](projekte/Mobile_Station.md)
 * [Lauschangriff](projekte/Lauschangriff.md)
 * [Auf die Töne fertig los!](projekte/Tonangriff.md)
+* [Mehrfarbige LED](projekte/Farbige_LED.md)
+* [Kaminfeuer](projekte/Kaminfeuer.md)
 
 ## Komponenten
 * [Inhalt](komponenten/README.md)
