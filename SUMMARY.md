@@ -35,6 +35,8 @@
 * [Verkehrszähler](projekte/verkehrszaehlerv2.md)
 * [Mobile Station](projekte/Mobile_Station.md)
 * [Lauschangriff](projekte/Lauschangriff.md)
+* [Auf die Töne fertig los!](projekte/Tonangriff.md)
+
 ## Komponenten
 * [Inhalt](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
