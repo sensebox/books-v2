@@ -1,6 +1,6 @@
 # DIY Environmental Measuring Station {#head}
 
-<div class="description">In this project you will learn how to set up a senseBox environmental station. In the end, the measurement of various environmental phenomena such as temperature, humidity, brightness and air pressure, as well as the publication of the data on the  <a href="https://opensensemap.org">openSenseMap</a>  be possible!</div>
+<div class="description">In this project you will learn how to set up a senseBox environmental station. In the end, the measurement of various environmental phenomena such as temperature, humidity, brightness and air pressure, as well as the publication of the data on the  <a href="https://opensensemap.org">openSenseMap</a>  is possible!</div>
 <div class="line">
     <br>
     <br>

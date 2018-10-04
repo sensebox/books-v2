@@ -1,7 +1,7 @@
 # Illumination and UV-Radiation Sensor {#head}
 <div class="description">
 
-Two sensors are put together on this senseBox component.
+Two sensors are put together with this senseBox component.
 
 The light intensity is measured with the TSL45315 sensor from AMS-TAOS. This sensor detects the light conditions similar to the human eye and outputs the brightness values directly in lux, with a large dynamic range (3 lux to 220k lux).
 

@@ -1,7 +1,7 @@
 #Fine Dust Sensor {#head}
 <div class="description">
 
-With this sensor SDS011 it is possible to determine the fine dust concentration in the air. The sensor outputs two values: the concentration of PM2.5 (particle < 2.5 μm) and PM10 (particle < 10 μm). This sensor is equipped with a small fan to suck in air. Inside is a laser that measures the number of particles together with a photodiode. The results of the measurements are given in μg / m³ (micrograms per cubic meter)
+With the sensor SDS011 it is possible to determine the fine dust concentration in the air. The sensor outputs two values: the concentration of PM2.5 (particle < 2.5 μm) and PM10 (particle < 10 μm). This sensor is equipped with a small fan to suck in air. Inside is a laser that measures the number of particles together with a photodiode. The results of the measurements are given in μg / m³ (micrograms per cubic meter)
 </div>
 
 <div class="line">
@@ -35,7 +35,7 @@ Once this is done, we can now initialize the sensor in the program code and have
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Make sure you have the latest board support package installed because you need the correct software libraries. How this works was shown in <a href ="../erste-schritte/board-support-packages-installieren.md">Step 2</a>.
 </div>
-First, create an instance of the sensor. For this we create 2  variables in which we save our two readings
+First, create an instance of the sensor. For this we create 2 variables in which we save our two readings
 for PM10 and PM2.5.
 
 
@@ -62,7 +62,7 @@ void setup(){
 {% endcollapse %}
 
 {% collapse title="loop() Funktion" %}
-In the `loop ()` function we can use the command 'getPm10 ()' and 'getPm25 () to retrieve the currently measured fine dust values:
+In the `loop ()`-function we can use the command `getPm10 ()` and `getPm25()` to retrieve the current measurements:
 
 ```arduino
 void loop(){

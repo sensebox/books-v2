@@ -9,7 +9,7 @@
 ## Installation of Arduino IDE
 
 
-Before the senseBox can be activated, you need to install drivers and software on your computer. It is also advisable to carry out a test run before commissioning the senseBox, to check whether the sensors are working correctly and that communication with the Internet is running smoothly.
+Before the senseBox can be activated, you need to install drivers and software on your computer. It is also advisable to carry out a test run before commissioning the senseBox, to check whether the sensors are working correctly and that an internet connection has been established.
 
 Review the instructions for your operating system and follow the steps given.
 
@@ -28,7 +28,7 @@ Arduino is an open source project funded by donations. Therefore you will be ask
 
 ![ ](../pictures/software-install/arduino-just-download.png)
 
-Put a new folder on your hard drive and unzip the zip-file. By starting the file `arduino.exe`the IDE can be started.
+Put a new folder on your hard drive and unzip the zip-file. By starting the file `arduino.exe` the IDE can be started.
 
 
 {% content "second" %}
@@ -80,7 +80,7 @@ cd arduino-1.8.5
   Make sure the command matches the downloaded Arduino version! Load, for example Arduino 1.8.6 also has to stand everywhere where arduino-1.8.5 stands arduino-1.8.6. To check which version you have downloaded, look at the name of the download file.
 </div>
 
-To program the Arduino, additional rights are required under Ubuntu 14 & 16. These can be set up for the current user with the following commands \(benötigt Admin-Rechte\):
+To program the Arduino, additional rights are required under Ubuntu 14 & 16. These can be set up for the current user with the following commands \(needs admin rights\):
 
 
 Run `udevadm monitor --udev` and connect the Arduino via USB to determine the Device ID. The specified name at the end of the output \(eg `ttyUSB0`\) is the device ID. Exit `udevadm` by `ctrl+C`and execute the following commands, using the device id found:

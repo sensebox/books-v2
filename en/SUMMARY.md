@@ -33,7 +33,7 @@
     * [Data Upload to OSeM](projekte/Umweltstation/datenupload.md)
 * [Traffic Light Circuit](projekte/AmpelButton.md)
 * [Traffic Counter](projekte/verkehrszaehlerv2.md)
-* [Mobile Station](projekte/Mobile_Station.md)
+* [Mobile station](projekte/Mobile_Station.md)
 
 ## Components
 * [Content](komponenten/README.md)
@@ -57,7 +57,7 @@
         * [Micro-SD Card](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
 
-## Hilfe & Weiteres
+## Help & Miscellaneous
 * [FAQ](hilfe/hilfe.md)
 * [Downloads](downloads.md)
 * [Manual Integration of Libraries](hilfe/add-external-libraries.md)

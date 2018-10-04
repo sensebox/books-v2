@@ -7,7 +7,7 @@
 </div>
 
 ## Test the Version
-First, it must be found out which version the supplied WiFi Bee has. Go to''file'' '' Examples '' and under "Examples for senseBox MCU" on''Test_WINC1500''
+First, it must be found out which version the supplied WiFi Bee has. Go to `file` > `Examples` and under "Examples for senseBox MCU" on `Test_WINC1500`.
 
 ![Open the WiFi-Test](pictures/Update-Wifi-Firmware/1-test.PNG)
 
@@ -28,7 +28,7 @@ Now upload the sketch to your board (by clicking the arrow icon). Note that the 
 </div>
 
 ## WiFi-Bee Firmware Update
-To update the firmware, follow the path from the top:''file''; '' Examples '' and under "Examples for senseBox MCU" on''WINC1500_Updater''
+To update the firmware, follow the path from the top:`file`; ` Examples ` and under "Examples for senseBox MCU" on `WINC1500_Updater`
 
 ![Open the WINC1500_Updater](pictures/Update-Wifi-Firmware/3-updater.PNG)
 
@@ -54,8 +54,7 @@ Almost done, now just click on `` Update Firmware`` and the upload starts. Then 
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Do not let yourself be confused that there is also a version of the firmware 19.5.4, but this is not found in Arduino if you want to update the firmware. This firmware will be integrated with the Arduino Release 1.8.6 and will be available from then on.
-    Nicht davon irritieren lassen, dass es auch eine Version der Firmware 19.5.4 gibt, diese aber nicht in Arduino zu finden ist wenn man die Firmware updaten möchte.</div>
+    Do not let yourself be confused that there is also a version of the firmware 19.5.4, but this is not found in Arduino if you want to update the firmware. This firmware will be integrated with the Arduino Release 1.8.6 and will be available from then on.</div>
     
    We apologize for the detour and wish you lots of fun with the senseBox.
  

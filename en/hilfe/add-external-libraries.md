@@ -1,6 +1,6 @@
 # Manual Integration of Libraries {#head}
 
-<div class="description">To be able to connect own sensors to the senseBox, the manufacturers of many sensors provide suitable libraries. Here we show you how to download libraries from a Github repository and integrate them manually. You can use this guide for any external libraries you want to include in Arduino. </div>
+<div class="description">To be able to connect own sensors to the senseBox, the manufacturers of many sensors provide suitable libraries. Here we show you how to download libraries from a GitHub repository and integrate them manually. You can use this guide for any external libraries you want to include in the Arduino IDE. </div>
 <div class="line">
     <br>
     <br>
@@ -38,7 +38,7 @@ Choose the right system for your computer and follow the steps given.
 
 1. Most external libraries can be found in Github repositories. To download them, you have to click the green button `Clone or download` and click ` Download ZIP` afterwards. 
 
-  ![Example download of the "Adafruit_HDC_Library" from github.com](pictures/libraries/github_download.png)
+  ![Example download of the "Adafruit_HDC_Library" from github.com](../pictures/libraries/github_download.png)
 
 2. If the download does not start on its own, a window opens in which you have to select the field `` Save file`` and place the folder anywhere on your computer (this is the Downloads folder by default).
 
@@ -46,13 +46,13 @@ Choose the right system for your computer and follow the steps given.
 
 4. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Click `File` and then` Preferences`](pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Click `File` and then` Preferences`](../pictures/libraries/voreinstellungen_2.PNG?raw=true)
 
     and look in the box under `Sketchbook location 'for the location of the Sketchbook folder. 
 
- ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen.PNG)
+ ![Look in the red-marked box to see where your sketchbook location is](../pictures/libraries/voreinstellungen.PNG)
 
-  Remember the path to this folder, ie the location where it is stored.
+  Remember the path to this folder, i.e. the location where it is stored.
 
     <div class="box_warning">
         <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
@@ -77,17 +77,17 @@ Choose the right system for your computer and follow the steps given.
 
 1. Most external libraries can be found in Github repositories. To download them, you have to click the green button `Clone or download` and then in the window` Download ZIP` which opens. 
 
-  ![Example download of the "Adafruit_HDC_Library" from github.com] (pictures/libraries/github_download.png)
+  ![Example download of the "Adafruit_HDC_Library" from github.com] (../pictures/libraries/github_download.png)
 
 2. The download should start automatically and the file should be automatically unzipped and placed in your "Downloads" folder. Open the Downloads folder and see if the downloaded folder exists there. * If there is only one **. Zip ** file instead of one folder, double-click to unpack it. *
 
 3. Now open the Arduino IDE. Go to the top of `Arduino` ->` Settings ... `:
 
- ![Click `Arduino` and then` Settings ... `](pictures/libraries/voreinstellungen_2_mac.png)
+ ![Click `Arduino` and then` Settings ... `](../pictures/libraries/voreinstellungen_2_mac.png)
 
     and look in the box under `Sketchbook location 'for the location of the Sketchbook folder.
 
- ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen_mac.png)
+ ![Look in the red-marked box to see where your sketchbook location is](../pictures/libraries/voreinstellungen_mac.png)
 
    Remember the path to this folder, ie the location where it is stored.
 
@@ -114,17 +114,17 @@ Choose the right system for your computer and follow the steps given.
 
 1. Most external libraries can be found in Github repositories. To download them, you have to click the green button `Clone or download` and then in the window` Download ZIP` which opens. 
 
-  ![Example download of the "Adafruit_HDC_Library" from github.com](pictures/libraries/github_download.png)
+  ![Example download of the "Adafruit_HDC_Library" from github.com](../pictures/libraries/github_download.png)
 
 2.The download starts automatically and saves a `.zip` archive in your Downloads folder. Open the Downloads folder and unpack the `.zip` file with right-click ->` Extract Here` (* `Extract Here` *).
 
 3. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Click `File` and then` Preferences`](pictures/libraries/voreinstellungen_2_linux.png)
+ ![Click `File` and then` Preferences`](../pictures/libraries/voreinstellungen_2_linux.png)
 
     and look in the box under `Sketchbook location 'for the location of the Sketchbook folder. 
 
- ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen_linux.png)
+ ![Look in the red-marked box to see where your sketchbook location is](../pictures/libraries/voreinstellungen_linux.png)
 
     Remember the path to this folder, ie the location where it is stored.
 

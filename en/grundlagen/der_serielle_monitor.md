@@ -9,7 +9,7 @@
 
 
 
-This serial monitor can be used to display data on the PC that the microcontroller sends to the PC (numbers or texts). This is very useful, because you have not always connected an LCD display on the microcontroller, on which you could read certain values.
+This serial monitor can be used to display data on the computer that the microcontroller sends to the computer (numbers or texts). This is very useful, because you have not always connected an LCD display on the microcontroller, on which you could read certain values.
 
 
 ## Start the Serial Monitor
@@ -19,16 +19,16 @@ To start the serial monitor, first open the IDE and then click on the icon with 
 
 ![magnifer-symbol](../pictures/grundlagen/arduino_magnifying_glass.png)
 
-The now open window has an input line with a "Send" button at the top and an output window below it. The output window will continuously display the latest issues. If the check mark is set to Autoscroll, only the most recent editions are displayed. That is, when the output window is full, older data is pushed up out of the visible area of the screen to make room for current output. If you deactivate the autoscroll function, you have to scroll manually via the scroll bar on the right edge.
+The now open window has an input line with a "Send" button at the top and an output window below it. The output window will continuously display the latest issues. If the check mark is set to `Autoscroll`, only the most recent editions are displayed. That is, when the output window is full, older data is pushed up out of the visible area of the screen to make room for current output. If you deactivate the autoscroll function, you have to scroll manually via the scroll bar on the right edge.
 
 ![serial monitor](../pictures/grundlagen/arduino_serial_monitor_mac.jpg)
 
 ## Output Values to the Serial Monitor
-To be able to display data in the serial monitor, it must first be initialized. This happens via the function  `Serial.begin(9600)` in the `setup()` Funktion.
-The value `9600` defines the baud rate, ie the speed with which data is transferred between the computer and Arduino. The entered value must always correspond to the speed selected in the serial monitor at the bottom right.
+To be able to display data in the serial monitor, it must first be initialized. This happens via the function  `Serial.begin(9600)` in the `setup()` function.
+The value `9600` defines the baud rate, i.e. the speed with which data is transferred between the computer and Arduino. The entered value must always correspond to the speed selected in the serial monitor at the bottom right.
 
 
-To send data to the serial monitor, use the `Serial.print()` and `Serial.println()`.
+To send data to the serial monitor, use the `Serial.print()` or `Serial.println()`.
 The first variant of the function simply outputs the data, while the second variant inserts a line break at the end.
 
 

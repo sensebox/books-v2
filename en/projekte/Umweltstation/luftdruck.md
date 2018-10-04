@@ -46,7 +46,7 @@ The sensor can be controlled via the `SenseBoxMCU.h` library. After this has bee
 BMP280 bmp_sensor;
 ```
 
-{% collapse title="setup() function" %}
+{% collapse title="setup()-function" %}
 In the `setup ()`-function, the sensor must be initialized. Use the following lines
 ```arduino
 void setup(){
@@ -55,7 +55,7 @@ void setup(){
 ```
 {% endcollapse %}
 
-{% collapse title="loop() function" %}
+{% collapse title="loop()-function" %}
 Now the sensor has to be read in the `loop ()`-function. The variables `temp` and `pressure` then each contain the current measured values.
 
 ```arduino
