@@ -25,7 +25,7 @@
 4. [Additional Components](zubehoer/README.md)
     + [Sensor Protection](zubehoer/strahlenschutz.md)
     + [Casing](zubehoer/gehaeuse.md)
-    + [Power Adapter und USB-cable](zubehoer/netzteil-und-usb-kabel.md)
+    + [Power Adapter and USB-Cable](zubehoer/netzteil-und-usb-kabel.md)
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)
     + [Micro-SD Card](zubehoer/micro-sd-karte.md)
