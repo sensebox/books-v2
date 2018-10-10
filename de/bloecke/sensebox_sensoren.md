@@ -17,7 +17,31 @@
         </div>
         <div class="col-md">
             <h4>Temperatur und Luftfeuchtigkeitssensor</h4>
-            <h6>Anschluss: I2C/Wire</h6>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn-modal" data-toggle="modal" data-target="#exampleModal">
+                Anschluss: I2C/Wire
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Anschluss: I2C/Wire</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../pictures/mcu_i2c.png" alt="block" align="left">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
             Dieser Block gibt dir den Messwert des
             <a href="../komponenten/sensoren/hdc1080.html">Temperatur und Luftfeuchtigkeitssensor</a>. Im Dropdown Menü kannst du den jeweiligen Messwert auswählen. Dropdown:
             <ul>
