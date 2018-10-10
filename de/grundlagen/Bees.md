@@ -30,7 +30,7 @@ float temp = 24.3; // Testwert den wir später auf der openSenseMap hochladen
     Achte hier darauf, dass du den Parameter  "senseBox ID" mit deiner Box ID  ersetzen musst!
 </div>
 
-Haben wir dies getan, kann die Bee im Programmcode fortlaufend mit dem Kürzel `b`angesprochen werden. In der `setup()`-Funktion stellen wir nun eine Verbindung zu unserem gewünschten WiFi-Netzwerk her und laden testweise einen ersten Wert auf der openSenseMap hoch.
+Haben wir dies getan, kann die Bee im Programmcode fortlaufend mit dem Kürzel `b` angesprochen werden. In der `setup()`-Funktion stellen wir nun eine Verbindung zu unserem gewünschten WiFi-Netzwerk her und laden testweise einen ersten Wert auf die openSenseMap hoch.
 
  
 
