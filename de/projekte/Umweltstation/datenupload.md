@@ -62,7 +62,7 @@ Erweitere den Sketch von der OSeM-Registrierung sodass deine angeschlossenen Sen
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Folge der Anleitung im <a href="../../grundlagen/digitale_signale.md">Grundlagenkapitel</a>. Du kannst deinen bisherigen Code überwiegend wiederverwenden!<
+    Folge der Anleitung im <a href="../../grundlagen/digitale_signale.md">Grundlagenkapitel</a>. Du kannst deinen bisherigen Code überwiegend wiederverwenden!
 </div>
 
 {% endcollapse %}
