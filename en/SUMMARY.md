@@ -5,9 +5,9 @@
 
 ## First Steps
 * [Step 1: Software Installation](erste-schritte/software-installation.md)
-* [Step 2: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
-* [Step 3: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
-* [Step 4: Komponenten testen](erste-schritte/komponenten-testen.md)
+* [Step 2: Installation of the Board-Support-Packages](erste-schritte/board-support-packages-installieren.md)
+* [Step 3: Pin and Wiring](erste-schritte/anschluss-und-verkabelung.md)
+* [Step 4: Programming and Component Testing](erste-schritte/komponenten-testen.md)
 
 ## Basics
 * [Arduino IDE and Sketches](grundlagen/der-arduino-sketch.md)
