@@ -30,7 +30,7 @@ To connect all components you need two JST adapter cables. The first is connecte
 
 {% tabs first="Arduino source code", second="Blockly" %}
 {% content "first" %}
-# Arduino source code
+# Arduino Source Code
 ```arduino
 int rot = 1;
 int gelb = 2;
