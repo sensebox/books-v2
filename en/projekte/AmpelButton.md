@@ -28,9 +28,9 @@ To connect all components you need two JST adapter cables. The first is connecte
 
 ### Sketch
 
-{% tabs first="Arduino Quellcode", second="Blockly" %}
+{% tabs first="Arduino source code", second="Blockly" %}
 {% content "first" %}
-# Arduino Quellcode
+# Arduino Source Code
 ```arduino
 int rot = 1;
 int gelb = 2;

@@ -25,10 +25,10 @@
 4. [Additional Components](zubehoer/README.md)
     + [Sensor Protection](zubehoer/strahlenschutz.md)
     + [Casing](zubehoer/gehaeuse.md)
-    + [Power Adabter und USB-cable](zubehoer/netzteil-und-usb-kabel.md)
+    + [Power Adapter and USB-Cable](zubehoer/netzteil-und-usb-kabel.md)
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)
-    + [Micro-SD Karte](zubehoer/micro-sd-karte.md)
+    + [Micro-SD Card](zubehoer/micro-sd-karte.md)
     + [GPS](zubehoer/gps.md)
 
-There are many more sensors which you can adapt with some own initiation and do-it-yourself skills. However, currently we can only provide information about the listet components. If you are interested in other sensor technology you can visit our [Forum](https://forum.sensebox.de/). There you reveice help from the senseBox community.
+There are many more sensors which you can adapt with some own initiation and do-it-yourself skills. However, currently we can only provide information about the listet components. If you are interested in other sensor technology you can visit our [Forum](https://forum.sensebox.de/). There you will reveice help from the senseBox community.

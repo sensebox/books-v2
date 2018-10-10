@@ -22,7 +22,7 @@ In this station, the integration of a sensor into the openSenseMap is shown by w
 *  At least one (arbitrary) sensor
 
 ## Programming
-In the chapter [Bees](/../../grundlagen/Bees.md) you have already learned how to connect to the Internet, now let's see how we can continuously upload our metrics to openSenseMap. As already described there, we must first create the instances for the openSenseMap and provide our Wi-Fi network + access data.
+In the [Bees](/../../grundlagen/Bees.md) chapter you have already learned how to connect to the Internet, now let's see how we can continuously upload our metrics onto the openSenseMap. As already described there, we must first create the instances for the openSenseMap and provide our Wi-Fi network + access data.
 
 
 {% collapse title="Declaration of the objects" %}

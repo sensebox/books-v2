@@ -1,6 +1,6 @@
 # Step 2: Install Board Support Package {#head}
 
-<div class="description">In order for the Arduino IDE to support your  <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> uand allow you to transfer programs to it, you will need to install two board support packages before you begin. These contain the necessary drivers and the necessary software to communicate with your processor. The board support package of the senseBox also already contains our senseBox libraries. This will give you all the basic methods for programming the enclosed sensors.
+<div class="description">In order for the Arduino IDE to support your  <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> and allow you to transfer programs to it, you will need to install two board support packages before you begin. These contain the necessary drivers and the necessary software to communicate with your processor. The board support package of the senseBox already contains our senseBox libraries. This will give you all the basic methods for programming the enclosed sensors.
 </div>
 <div class="line">
     <br>
@@ -12,7 +12,7 @@
 For the programming of the senseBox, the senseBox libraries should be included at the beginning. We have integrated these libraries into the board support package of the senseBox to make the installation as easy as possible.
 {% collapse title="'Library' - What is a library and why do I need it?" %}
 
-As the name suggests, a library is a collection of something - a collection of methods to be more specific. Methods are programming smaller sections of code that can be applied to an object. For example, with the senseBox, a method can be invoked to turn the LEDs on and off on the MCU. There are a lot of such standard methods that are used by a variety of programs. In order not to have to transfer these methods individually into the program code, they can be stored in libraries. So a library is a file that stores many methods. You can include libraries in your code. For this it is enough if they are stored in the Arduino folder for libraries and then they are integrated with a single line at the beginning of the program code. This looks like this in Arduino for the library named „senseBoxIO“:
+As the name suggests, a library is a collection of something - a collection of methods to be more specific. Methods are programming smaller sections of code that can be applied to an object. For example, with the senseBox, a method can be invoked to turn the LEDs on and off on the MCU. There are a lot of such standard methods that are used by a variety of programs. To avoid having to transfer these methods individually into the program code, they can be stored in libraries. So a library is a file that stores many methods. You can include libraries in your code. For this it is enough if they are stored in the Arduino folder for libraries and then they are integrated with a single line at the beginning of the program code. This looks like this in Arduino for the library named „senseBoxIO“:
 
 ```arduino
 #include <senseBoxMCU.h>;

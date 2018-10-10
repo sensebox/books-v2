@@ -29,10 +29,10 @@ float temp = 24.3; // Test value that we later upload to openSenseMap
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Make sure that you have to replace the parameter "senseBox ID" with your Box ID!
+    Make sure that you replace the parameter "senseBox ID" with your own Box-ID!
 </div>
 
-Once we have done this, the bee can be called in the program code consecutively with the abbreviation `b`. In the `setup ()` function, we now connect to our desired WiFi network and upload a first test value on the openSenseMap.
+Once we have done this, the bee can be called in the program code consecutively with the abbreviation `b`. In the `setup()` function, we now connect to our desired WiFi network and upload a first test value onto the openSenseMap.
 
 {% endcollapse %}
 

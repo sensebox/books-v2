@@ -19,7 +19,7 @@
 ## Mounting of the Protective Cover
 
 * Turn off the protective cover clockwise from the bottom plate .
-*  The protective cover can be be screwed on a suitable surface for a secure fit.
+* The protective cover can be be screwed on a suitable surface for a secure fit.
 * Choose a smooth, horizontal position.
 * Pass a screw through the opening in the middle and screw the floorplate firmly.
 

@@ -26,7 +26,7 @@ The ultrasonic sensor is connected to the senseBox MCU using a JST adapter cable
 
 ## Programming
 
-Defines the pins where you connected the sensor as usual. In addition, two variables are created in which the measured time and the calculated distance are stored.
+Define the pins where you connected the sensor as usual. In addition, two variables are created in which the measured time and the calculated distance are stored.
 ```arduino
 int trig = 2;  // Trig pin of the sensor is on pin 2
 int echo = 1;  // Echo pin of the sensor is connected to pin 1.
@@ -38,18 +38,21 @@ In the `setup()`-function you have to start the *Serial Monitor* and define the 
 
 
 ```arduino
-Serial.begin(9600);
-pinMode(trig, OUTPUT);
-pinMode(echo, INPUT);
-
+void setup(){
+    Serial.begin(9600);
+    pinMode(trig, OUTPUT);
+    pinMode(echo, INPUT);
+}
 ```
 
 The `loop()`-function will start with the commands:
 
 ```arduino
-digitalWrite(trig, HIGH);
-delayMicroseconds(10);
-digitalWrite(trig, LOW);
+void loop(){
+    digitalWrite(trig, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trig, LOW);
+}
 ```
 sent out a 10 microsecond ultrasonic pulse
 The following command `time = pulseIn(echo, HIGH);` stores the time until the echo is received in the variable `time`.

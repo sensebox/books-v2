@@ -25,7 +25,7 @@ The `HDC1080`, from the Texas Instruments HDX10XX series, is a combined temperat
 {% endcollapse %}
 
 {% collapse title="I²C Bus" %}
-The communication of the sensor with the microcontroller runs over the [seriellen Datenbus I²C](../../grundlagen/serielle_datenbus.md).
+The communication of the sensor with the microcontroller runs over the [I²C Bus](../../grundlagen/serielle_datenbus.md).
 Unlike simple digital or analog inputs, multiple I²C devices (such as sensors or displays) can be connected in parallel to the data bus.
 Each device has a unique identifier so that the data bus can assign each one of them and address them separately.
 {% endcollapse %}
@@ -49,7 +49,7 @@ First, an instance of the sensor must be created.
 #include "SenseBoxMCU.h"
 HDC1080 hdc;
 ```
-{% collapse title="setup() function" %}
+{% collapse title="setup()-function" %}
 In the `setup()`-function the sensor should now be started:
 ```arduino
 void setup(){
@@ -59,7 +59,7 @@ void setup(){
 
 {% endcollapse %}
 
-{% collapse title="loop() function" %}
+{% collapse title="loop()-function" %}
 After initializing the sensor as described above, you can use two commands in the `loop ()`-function to output a temperature or humidity
 ```arduino
 void loop(){

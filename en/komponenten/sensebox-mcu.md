@@ -22,7 +22,7 @@ The processor is based on a ARM Cortex-M0+ processor form the SAM D21 family by 
 Sensors and actors can be activated using standard interfaces like I2C, UART and digitale I/Os with a robust JST-Connecting system (5V tolerant). 
 
 ### Data transmission
-Using the both Bee compatible sockets, UART or SPI models can be offered. Therefore, real time data transmission via Wifi, LAN, or LoRa is offered as well as saving data on a Mikro-SD card.  
+Using the both Bee compatible sockets, UART or SPI models can be offered. Therefore, real time data transmission via Wifi, LAN, or LoRa is offered as well as saving data on a micro-SD card.  
 
 ### Features
 1. Crypto Authentication for OTA (Over the Air) 

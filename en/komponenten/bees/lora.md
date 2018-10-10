@@ -1,5 +1,5 @@
 # LoRa-Bee {#head}
-<div class="description">Use the LoRa-Inferface to upload your data on the openSenseMap. The LoRa WAN-Bee-Modul is a low energy and cost free option to upload your data unsing the LoRa-Radio-Standard. Therefore existing LoRa-Networks such as TheThingsNetwork are used for data transmission. The necessary infrstructure is provided by the community of TheThingsNetwork and available in more and more regions. 
+<div class="description">Use the LoRa-Inferface to upload your data onto the openSenseMap. The `LoRa WAN-Bee-Modul` is a low energy and cost free option to upload your data unsing the LoRa-Radio-Standard. Therefore existing LoRa-Networks such as `TheThingsNetwork` are used for data transmission. The necessary infratructure is provided by the community of `TheThingsNetwork` and available in increasingly more regions. 
 
 </div>
 
@@ -13,7 +13,7 @@
 # Technical Information
 * HopeRF RFM95W/RFM96W LoRa Transceiver
 * LoRa-Bee 868 / 915 MHz uses RFM95W (SX1276 compatible)
-* LoRa-Bee 433 / 470 MHz uses RFM96W (SX1276 compatoble)
+* LoRa-Bee 433 / 470 MHz uses RFM96W (SX1276 compatible)
 * SPI interface
 * Indication: RFN9xW
 * Measurements: 46mm x 25mm x 12mm
@@ -22,7 +22,7 @@
 # Information
 Please check if your area is already covered by LoRa before you get your senseBox with LoRa Bee: https://www.thethingsnetwork.org/community#list-communities-map
 
-**Attention: Due to the increased complexity of the installation, we recommend the LoRa module except advanced users of open hardware**
+**Attention: Due to the increased complexity of the installation, we only recommend the LoRa module to advanced users of open hardware**
 
 
 # Upload via LoRaWAN
@@ -55,7 +55,7 @@ The authorization-field can stay empty.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" alt="ttnconsole" center width="767" />
 
-For the data transfer to openSenseMap, the `app_id` and` dev_id` must be included for the registration on openSenseMap in the TTN configuration. In addition, a suitable decoding profile must be configured. Which determines how the - because of the low bandwidth as raw bytes transmitted - data should be interpreted as measurements.
+For the data transfer to openSenseMap, the `app_id` and `dev_id` must be included for the registration on openSenseMap in the TTN configuration. In addition, a suitable decoding profile must be configured. Which determines how the - because of the low bandwidth as raw bytes transmitted - data should be interpreted as measurements.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_register_ttn.png"  alt="osemregister" center width="767"/>
 
@@ -66,7 +66,7 @@ This could be an Arduino sketch that lets you send data to the openSenseMap over
 
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    <b>Important:</b> You have to paste your recently crated <b>Application-EUI, Device-EUI</b> and the <b>App-Key</b> in the sketch. Please do this in the first line of the programmecode where <b>'INSERT YOUR ID HERE'</b> is indicated. <br><br> Mind that you have chosen the  <b>Device-EUI</b> the <b>Application-EUI</b> the <b>lsb</b>-Format as well as the <b>App-Key</b> and the <b>msb</b>-Format on the TTN-Homepage.
+    <b>Important:</b> You have to paste your recently created <b>Application-EUI, Device-EUI</b> and the <b>App-Key</b> in the sketch. Please do this in the first line of the code where <b>'INSERT YOUR ID HERE'</b> is indicated. <br><br> Mind that you have to choose the <b>lsb</b>-format for the <b>Device-EUI</b> and <b>Application-EUI</b> and the and the <b>msb</b>-format for the<b>App-Key</b>.
 </div>
 
 ![Selected ID's and Keys](../../pictures/LoRa_TTN_EUI.png)
@@ -397,9 +397,9 @@ void loop() {
 {% endcollapse %}
 
 ### Decoding Profile
-A decoding-profile fitting to the measuring data has to be selected and defined for a box.
+A decoding-profile fitting to the measuring data has to be selected and defined for a senseBox.
 The decoding profile selection is based on the encoding of the messages on the
-Microcontroller. And whether in the TTN a payload function has been set dependent.
+microcontroller. And whether in the TTN a payload function has been set dependent.
 
 - For the senseBox: home (without extensions) the `senseBox: home` profile
 be used.
@@ -601,12 +601,12 @@ so that any data formats are supported here.
 
 ![In the TTN Console, a payload function must be defined](https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png)
 
-The resulting JSON must be compatible with that of the[openSenseMap-API verstandenen
-Measurement Formaten sein](https://docs.opensensemap.org/#api-Measurements-postNewMeasurements).
+The resulting JSON must be compatible with that of the[openSenseMap-API understanding 
+Measurement format](https://docs.opensensemap.org/#api-Measurements-postNewMeasurements).
 A simple example:
 
 ```json
-{ "sensor_id1": "value1, "sensor_id2: "value2" }
+{ "sensor_id1": "value1, "sensor_id2:" "value2" }
 ```
 
 An example of this is indicated for you you [above](#decoder).

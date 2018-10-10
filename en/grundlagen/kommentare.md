@@ -1,6 +1,6 @@
 # Comments in the Source Code {#head}
 
-<div class="description"> The commenting of source code is unfortunately a topic that is neglected. The benefit of good comments is often only recognized when one tries to muddle through foreign source code or when one 'digs out' one's own program after a long time. Comments are not evaluated by the compiler and therefore do not affect the program. Text and program parts that are commented out can be recognized by the fact that they are colored gray.
+<div class="description"> The commenting of source code is unfortunately a topic that is often neglected. The benefit of good comments is often only recognized when one tries to muddle through foreign source code or when one 'digs out' one's own program after a long time. Comments are not evaluated by the compiler and therefore do not affect the program. Text and program parts that are commented out can be recognized by the fact that they are colored gray.
 </div>
 <div class="line">
     <br>

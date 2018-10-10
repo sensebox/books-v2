@@ -22,7 +22,7 @@ A mobile senseBox has many applications. For example, would you like to measure 
 ## Construction
 In order for the GPS module to have a signal throughout the measurement period, and thus be able to request the location, you must make sure that nothing obscures the module. Ideally, you attach it outside the case for the measurement period.
 
-For the power supply during the measurement period you can, for example, use a power bank. Some power banks turn off, too little power is drawn (for example, when a cell phone is fully charged), so that it may happen that the power bank does not permanently power the senseBoxMCU. Before measuring, make sure that this will not be the case.
+For the power supply during the measurement period you can, for example, use a power bank. Some power banks turn off, if too little power is drawn (for example, when a cell phone is fully charged), so that it may happen that the power bank does not permanently power the senseBoxMCU. Before measuring, make sure that this will not be the case.
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -60,7 +60,7 @@ void setup(){
 ```
 {% endcollapse %}
 
-The `loop()`-funktion now queries the location of the station and uploads it to the openSenseMap together with the value for temperature..
+The `loop()`-function now queries the location of the station and uploads it to the openSenseMap together with the value for temperature..
 
 {% collapse title="loop() function" %}
 ```arduino

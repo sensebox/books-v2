@@ -21,7 +21,7 @@ With the Arduino IDE a sketch can be compiled and uploaded to the senseBox MCU. 
 ### Configuration in the Arduino IDE
 
 
-Before the senseBox can program, you have to make a few settings in the Arduino IDE. In the `Tools` tab you have to select the senseBox MCU at the bottom of the list under the`Boards`option.
+Before you can upload anything onto the senseBox, you have to adjust a few settings in the ArduinIDE. In the `Tools` tab you have to select the `senseBoxMCU` at the bottom of the list under the`Boards`option.
 
 ![Board selection](../pictures/select_board.png)
 Next, under `Tools` -> `Port` select the port number of the USB port where the senseBox MCU is connected to the computer.
@@ -34,7 +34,7 @@ Next, under `Tools` -> `Port` select the port number of the USB port where the s
 </div>
 
 ### Hello World Example
-Copy the example below into your Arduino environment and click on the arrow symbol in the toolbar. In the lower part of the Arduino interface you get feedback on the upload process. If everything worked, the message `Upload completed` appears there.
+Copy the example below into your Arduino environment and click on the arrow symbol in the toolbar. In the lower part of the Arduino interface you get feedback on the upload process. If everything worked, the message `Upload completed` should appear there.
 
 ```cpp
 int ledPin = LED_BUILTIN;
@@ -57,7 +57,7 @@ The text behind the // is a comment that is not evaluated by the compiler. This 
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-Unlike a laptop or smartphone runs on your senseBox no operating system such as Windows, Linux or MacOS. The senseBox MCU is a microcontroller running only the last program that has been uploaded.
+Unlike a laptop or smartphone ,the senseBox runs no operating system such as Windows, Linux or MacOS. The senseBox MCU is a microcontroller running only the last program that has been uploaded.
 </div>
 
 ## Testing Sensors and Internet Connection
@@ -71,8 +71,6 @@ Unlike a laptop or smartphone runs on your senseBox no operating system such as 
 
 ------
 ### Open the Test Sketch
-
-Öffnet aus den Beispielen die Datei `mcu_component_test` (`Datei` -> `Beispiele` -> `senseBoxMCU`). Nachdem ihr diesen Sketch auf die MCU hochgeladen habt, startet ihr den seriellen Monitor indem ihr auf das Lupen-Symbol rechts oben in der Werkzeugleiste klickt.
 
 Open the file `mcu_component_test` (`File` -> `Examples` -> `senseBoxMCU`) from the examples. After uploading this sketch to the MCU, start the serial monitor by clicking on the magnifying glass icon in the upper right corner of the toolbar.
 <div class="box_info">
@@ -91,7 +89,7 @@ To do this, write the number of the corresponding option in the input field and 
 
 1. **Find connected sensors**
 
-  Here you can check if all connected sensors have been properly initialized and recognized. For each connected sensor there should be a feedback and a test measurement. In the example below, an HDC1080 temperature and humidity sensor was connected to an `I2C/Wire` port.
+  Here you can check if all connected sensors have been properly initialized and recognized. For each connected sensor there should be a feedback and a test measurement. In the example below, an HDC1080 temperature and humidity sensor were connected to an `I2C/Wire` port.
 
     ![Sensortest](../pictures/test_option1.png)
 

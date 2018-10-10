@@ -9,8 +9,8 @@
 </div>
 
 ## Documentation as PDF
-This book is available as PDF, too! 
-Download PDF version to create yourself a printed version of this book.
+This book is available as a PDF file too! 
+Download the PDF version to create yourself a printed version of this book.
 
 PDF Download: [senseBox:edu-Documentation](https://github.com/sensebox/books-v2/raw/gh-pages/senseBox:edu_en.pdf)
 

@@ -57,7 +57,7 @@
         * [Micro-SD Card](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
 
-## Hilfe & Weiteres
+## Help & Miscellaneous
 * [FAQ](hilfe/hilfe.md)
 * [Downloads](downloads.md)
 * [Manual Integration of Libraries](hilfe/add-external-libraries.md)

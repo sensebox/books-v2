@@ -42,7 +42,7 @@ First, an instance of the sensor must be created.
 #include "SenseBoxMCU.h"
 VEML6070 vml;
 ```
-{% collapse title="setup() Funktion" %}
+{% collapse title="setup()-function" %}
 In the `setup()`-function the sensor now should be started:
 
 ```arduino
@@ -52,7 +52,7 @@ void setup(){
 ```
 {% endcollapse %}
 
-{% collapse title="loop() Funktion" %}
+{% collapse title="loop()-function" %}
 In the `loop()`-function, we can use the `getIlluminance()` command to get the current measured light intensity:
 
 ```arduino
