@@ -1,24 +1,56 @@
 # senseBox Web {#head}
 
-<div class="description">
-</div>
-<div class="line">
-    <br>
-    <br>
+<div class="description">Hier findest du alle Blöcke, die eine Verbindung zum Internet benötigen. Mithilfe der Blöcke kannst du die Verbindung herstellen und Messwerte an die [openSenseMap](https://opensensemap.org) übertragen.
 </div>
 
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="../pictures/wifi_new_bottom.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>WiFi Bee</h4>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn-modal" data-toggle="modal" data-target="#bee1Modal">
+                Anschluss: XBee1
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="bee1Modal" tabindex="-1" role="dialog" aria-labelledby="bee1ModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="bee1ModalLabel">Anschluss: Xbee1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../pictures/mcu_bee1.png" alt="block" align="left">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+           Stecke das Wifi Bee auf den Xbee Steckplatz 1, um eine Verbindung mit einem verfügbarem Wlan Netzwerk herzustellen. 
+        </div>
+    </div>
+</div>
+<br><br>
 <div class="line"></div>
 
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/output/web/output-web-0.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/web/output_web-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Wlan Verbindung herstellen</h4>
-            <h6>Anschluss: XBEE1</h6>
             Verwende diesen Block im Setup() um eine Wlan Verbindung herzustellen. Trage den entsprechenden Netzwerknamen (SSID) und
             das Passwort ein.
         </div>
@@ -30,7 +62,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/output/web/output-web-1.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/web/output_web-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
@@ -43,7 +75,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/output/web/output-web-2.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/web/output_web-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>stationäre senseBox</h4>
@@ -55,7 +87,7 @@
     </div>
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/output/web/output-web-3.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/web/output_web-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>mobile senseBox</h4>

@@ -1,42 +1,89 @@
-# senseBox Web {#head}
+# senseBox SD Karte {#head}
 
-<div class="description">
+<div class="description">Um Daten auf SD Karte zu Speichern benötigst du neben einer micro SD-Karte das mSD-Bee. 
 </div>
-<div class="line">
-    <br>
-    <br>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="../pictures/msd_new_bottom.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>mSD Bee</h4>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn-modal" data-toggle="modal" data-target="#bee2Modal">
+                Anschluss: XBee2
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="bee2Modal" tabindex="-1" role="dialog" aria-labelledby="bee2ModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="bee2ModalLabel">Anschluss: Xbee2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../pictures/mcu_bee2.png" alt="block" align="left">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+           Stecke das SD Bee auf den Xbee Steckplatz 2 und lege eine SD Karte ein. 
+        </div>
+    </div>
 </div>
-
-
+<br><br>
+<div class="line"></div>
 
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/output/output-3.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/sd/output_sd-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Speichern auf SD Karte</h4>
-            <h6>Anschluss: XBEE2</h6>
-            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup die Datei erstellt
+            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup
+            die Datei erstellt
             und mit einem Dateinamen versehen werden.
         </div>
     </div>
+</div>
+
+<div class="line"></div>
+
+<div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/output/output-4.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/sd/output_sd-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            Mit diesem Block kann in der Endlosschleifen nur die Datei geöffnet werden um Daten zu schreiben.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md">
-            <img src="../pictures/blocks/output/output-5.png" alt="block" align="left">
-        </div>
-        <div class="col-md">
-            Nun kann mit diesem Block ein Messwert oder Text in der, zuvor geöffneten Datei, geschrieben werden. Mithilfe der Checkbox
-            kann angegeben werden ob nach diesem Block eine neue Zeile in der Datei erstellt wird. Es wird empfohlen die
-            Messwerte durch ein Trennzeichen von einander zu Trennen. Verwende dazu den Block xxx aus (link zu Text)
+            <h4>Speichern auf SD Karte</h4>
+            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup
+            die Datei erstellt
+            und mit einem Dateinamen versehen werden.
         </div>
     </div>
 </div>
+
+<div class="line"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="../pictures/blocks/output/sd/output_sd-1.png" alt="block" align="left">
+        </div>
+        <div class="col-md">
+            <h4>Speichern auf SD Karte</h4>
+            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup
+            die Datei erstellt
+            und mit einem Dateinamen versehen werden.
+        </div>
+    </div>
+</div>
+
