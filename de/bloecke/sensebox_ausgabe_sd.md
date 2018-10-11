@@ -48,9 +48,7 @@
         </div>
         <div class="col-md">
             <h4>Speichern auf SD Karte</h4>
-            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup
-            die Datei erstellt
-            und mit einem Dateinamen versehen werden.
+            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt wird im Setup() eine neue Datei erstellt. Du kannst mit diesem Block auch mehrere verschiedene Dateien erstellen. 
         </div>
     </div>
 </div>
@@ -64,9 +62,7 @@
         </div>
         <div class="col-md">
             <h4>Speichern auf SD Karte</h4>
-            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup
-            die Datei erstellt
-            und mit einem Dateinamen versehen werden.
+           In Endlosschleife wird die jeweilige Datei geöffnet. Wenn die Datei geöffnet ist kannst du in die Datei schreiben. 
         </div>
     </div>
 </div>
@@ -76,13 +72,11 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <img src="../pictures/blocks/output/sd/output_sd-1.png" alt="block" align="left">
+            <img src="../pictures/blocks/output/sd/output_sd-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
             <h4>Speichern auf SD Karte</h4>
-            Um daten auf SD-Karte zu speichern werden verschiedene Blöcke benötigt. Im ersten Schritt sollte im Setup
-            die Datei erstellt
-            und mit einem Dateinamen versehen werden.
+            Mit diesem Block schreibst du Messwerte oder Texte in die geöffnete Datei. 
         </div>
     </div>
 </div>
