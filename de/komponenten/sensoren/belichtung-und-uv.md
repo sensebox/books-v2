@@ -12,7 +12,7 @@ Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Diese
     <br>
 </div>
 
-![Beleuchtungsstärke und UV-Stahlung](../../pictures/tsl top.png)
+![Beleuchtungsstärke und UV-Stahlung](../../../../pictures/tsl top.png)
 
 ## Technische Details
 

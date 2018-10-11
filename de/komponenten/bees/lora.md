@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Lora Bee](../../pictures/LoraBee%20bottom.png)
+![Lora Bee](../../../../pictures/LoraBee%20bottom.png)
 
 # Technische Informationen
 * HopeRF RFM95W/RFM96W LoRa Transceiver
@@ -77,7 +77,7 @@ So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk 
     <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
 </div>
 
-![Ausgewählte ID's und Keys](../../pictures/LoRa_TTN_EUI.png)
+![Ausgewählte ID's und Keys](../../../../pictures/LoRa_TTN_EUI.png)
 
 {% collapse title="Arduino Sketch für senseBoxMCU" %}
 
@@ -428,9 +428,9 @@ notwendig.
 
 
 Zusätzlich zu dem Arduino Sketch musst du auf der TTN-Homepage einen Decoder einrichten, sodass deine Messwerte im richtigen Format an die openSenseMap gesendet werden.
-![Im Overview Fenster zu "Payload Formats" navigieren](../../pictures/decoder_1st.png)
+![Im Overview Fenster zu "Payload Formats" navigieren](../../../../pictures/decoder_1st.png)
 
-![In der Textbox muss der Decoder nun eingefügt werden](../../pictures/decoder_code.png)
+![In der Textbox muss der Decoder nun eingefügt werden](../../../../pictures/decoder_code.png)
 
 <h1 id="decoder"></h1>
 {% collapse  title="Decoder für das TTN" %}

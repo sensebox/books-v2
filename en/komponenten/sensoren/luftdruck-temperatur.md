@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Airpressure- and Temperature Sensor](../../pictures/bmp%20top.png)
+![Airpressure- and Temperature Sensor](../../../../pictures/bmp%20top.png)
 
 ## Technical Detail
 
