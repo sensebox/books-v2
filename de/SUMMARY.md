@@ -1,6 +1,6 @@
 # Summary
 
-* [Das Buch für Buch](README.md)
+* [Das Blockly Buch](README.md)
 * [Übersicht](uebersicht.md)
 
 ## Blockly für senseBox
@@ -13,8 +13,10 @@
 ## Blöcke
 * [Übersicht über die Blöcke](bloecke/README.md)
     * [senseBox Sensoren](bloecke/sensebox_sensoren.md)
-    * [senseBox Display](bloecke/sensebox_display.md)
     * [senseBox Ausgabe](bloecke/sensebox_ausgabe.md)
+        * [Display](bloecke/sensebox_ausgabe_display.md)
+        * [Web](bloecke/sensebox_ausgabe_web.md)
+        * [SD](bloecke/sensebox_ausgabe_sd.md)
     * [Logik](bloecke/logik.md)
     * [Schleifen](bloecke/schleifen.md)
     * [Mathematik](bloecke/mathematik.md)
