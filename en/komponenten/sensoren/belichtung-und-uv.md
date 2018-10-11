@@ -13,7 +13,7 @@ The second sensor is a Vishay VEML6070 Ultraviolet (UV) light sensor. This conve
     <br>
 </div>
 
-![Illumination and UV-Radiation](../../pictures/tsl top.png)
+![Illumination and UV-Radiation](../../../../pictures/tsl top.png)
 
 ## Technical Details
 

@@ -20,7 +20,7 @@ The ultrasonic distance sensor uses the sound to determine the distance of objec
 ## Construction
 The ultrasonic sensor is connected to the senseBox MCU using a JST adapter cable. To do this, connect the JST adapter cable to the Digital A slot. For power supply the VCC pin of the sensor is connected to the red cable (5V) and the GND pin of the sensor to the black cable (GND). For data transmission then the green cable (1) with the echo and the yellow cable (2) with the Trig pin of the sensor is connected.
 
-![Wiring of the ultrasonic sensor](../pictures/projekte/Verkehrszaehler_v2.png)
+![Wiring of the ultrasonic sensor](../../../pictures/projekte/Verkehrszaehler_v2.png)
 
 ***Note:*** *You can of course use any slot labeled "Digital", but remember to change the code.*
 

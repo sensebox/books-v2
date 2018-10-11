@@ -12,7 +12,7 @@
 </div>
 <br>
 
-![Wifi-Bee](../../pictures/wifi_new_bottom.png)
+![Wifi-Bee](../../../../pictures/wifi_new_bottom.png)
 
 # Technische Informationen
 

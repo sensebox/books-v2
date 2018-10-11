@@ -17,7 +17,7 @@ Wie das funktioniert wird dir in diesem Kapitel an einem Beispiel erläutert.
 ## Grundlagen 
 Eine mobile senseBox hat vielerlei Anwendungsfälle. Möchtest du zum Beispiel die Konzentration von Feinstaub entlang, deiner täglichen Route zur Arbeit oder Schule messen. Das GPS-Modul empfängt die Position (Längengrad/Breitengrad/Höhe) der senseBox. Dieser Sensor ist kompatibel mit den gängingen GNS Systemen (GPS, QZSS, GLONASS, BeiDou, Galileo) und basiert auf dem u-blox CAM-M8Q Multi GNSS Modul.
 
-![Eine mobile senseBox auf der openSenseMap](../pictures/projekte/feinstaubmobil.png)
+![Eine mobile senseBox auf der openSenseMap](../../../pictures/projekte/feinstaubmobil.png)
 
 ## Aufbau 
 Damit das GPS-Modul die ganze Messperiode über ein Signal hat und somit den Standort anfragen kann, musst du sicherstellen, dass das Modul durch nichts verdeckt wird. Idealerweise bringst du es für die Messperiode außerhalb des Gehäuses an. 

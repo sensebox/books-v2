@@ -33,7 +33,7 @@ Unser Sensor misst im Bereich von ca. 300 - 400 nm, nimmt also nur UV-A Strahlun
 
 ##Aufbau
 
-![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_lux.jpg)
+![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../../../pictures/diy-station/wired_lux.jpg)
 
 Schließe den Sensor an die senseBoxMCU an, wie es in der Grafik dargestellt ist.
 
