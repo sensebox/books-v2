@@ -16,7 +16,7 @@ In dieser Station wollen wir lernen, wie man eine mehrfarbige LED verwendet.
 ## Aufbau 
 Um die mehrfarbige LED mit der senseBoxMCU zu verbinden stecke die Pins wie in der Abbildung unten.
 
-![Verkabelung der mehrfarbigen LED](../pictures/Aufbau_LED.png)
+![Verkabelung der mehrfarbigen LED](../../../pictures/Aufbau_LED.png)
 
 ## Programmierung
 

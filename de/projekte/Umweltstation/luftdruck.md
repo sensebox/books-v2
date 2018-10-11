@@ -36,7 +36,7 @@ Um den Sensor zum Laufen zu bringen schließe ihn einfach an den I²C/Wire Port 
 
 
 
-![Temperatur- und Luftdrucksensor angeschlossen über I2C-Port](../../pictures/diy-station/wired_lux.jpg)
+![Temperatur- und Luftdrucksensor angeschlossen über I2C-Port](../../../../pictures/diy-station/wired_lux.jpg)
 
 ## Programmierung - Auslesen des Sensors
 Der Sensor kann über die Bibliothek `SenseBoxMCU.h` angesteuert werden.

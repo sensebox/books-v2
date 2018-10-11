@@ -8,7 +8,7 @@
     <br>
 </div>
 
-![Lora Bee](../../pictures/LoraBee%20bottom.png)
+![Lora Bee](../../../../pictures/LoraBee%20bottom.png)
 
 # Technical Information
 * HopeRF RFM95W/RFM96W LoRa Transceiver
@@ -69,7 +69,7 @@ This could be an Arduino sketch that lets you send data to the openSenseMap over
     <b>Important:</b> You have to paste your recently created <b>Application-EUI, Device-EUI</b> and the <b>App-Key</b> in the sketch. Please do this in the first line of the code where <b>'INSERT YOUR ID HERE'</b> is indicated. <br><br> Mind that you have to choose the <b>lsb</b>-format for the <b>Device-EUI</b> and <b>Application-EUI</b> and the and the <b>msb</b>-format for the<b>App-Key</b>.
 </div>
 
-![Selected ID's and Keys](../../pictures/LoRa_TTN_EUI.png)
+![Selected ID's and Keys](../../../../pictures/LoRa_TTN_EUI.png)
 
 {% collapse title="Arduino Sketch für senseBoxMCU" %}
 
@@ -420,9 +420,9 @@ necessary.
 
 In addition to the Arduino Sketch, you'll need to set up a decoder on the TTN homepage so that your metrics are sent to the openSenseMap in the correct format.
 
-![Navigate to Payload Formats in the Overview window](../../pictures/decoder_1st.png)
+![Navigate to Payload Formats in the Overview window](../../../../pictures/decoder_1st.png)
 
-![The decoder must now be inserted in the text box](../../pictures/decoder_code.png)
+![The decoder must now be inserted in the text box](../../../../pictures/decoder_code.png)
 
 <h1 id="decoder"></h1>
 {% collapse  title="Decoder für das TTN" %}

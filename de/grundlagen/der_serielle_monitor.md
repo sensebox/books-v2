@@ -14,14 +14,14 @@ Das ist sehr sinnvoll, da man nicht immer ein LCD Display am Mikrocontroller ang
 ## Den seriellen Monitor starten
 Um den seriellen Monitor zu starten, musst du zuerst die IDE öffnen und dann in der Symbolleiste auf das Symbol mit der kleinen Lupe klicken.
 
-![Lupen-Symbol](../pictures/grundlagen/arduino_magnifying_glass.png)
+![Lupen-Symbol](../../../pictures/grundlagen/arduino_magnifying_glass.png)
 
 Das nun geöffnete Fenster hat oben eine Eingabezeile mit "Senden"-Schaltfläche und darunter ein Ausgabefenster.
 Im Ausgabefenster werden fortlaufend die neusten Ausgaben angezeigt. Wenn das Häkchen bei Autoscroll gesetzt ist, werden nur die aktuellsten Ausgaben angezeigt.
 Das heißt, wenn das Ausgabefenster voll ist, werden ältere Daten nach oben aus dem sichtbaren Bereich des Bildschirms geschoben um Platz für die aktuellen Ausgaben zu schaffen.
 Deaktiviert man die Autscroll Funktion, muss manuell über den Scrollbalken am rechten Rand gescrollt werden.
 
-![serieller Monitor](../pictures/grundlagen/arduino_serial_monitor_mac.jpg)
+![serieller Monitor](../../../pictures/grundlagen/arduino_serial_monitor_mac.jpg)
 
 ## Werte auf dem seriellen Monitor ausgeben
 Um sich Daten im seriellen Monitor anzeigen lassen zu können, muss dieser zuerst initialisiert werden.

@@ -36,7 +36,7 @@ To get the sensor up and running just plug it in to the I²C / wire port!
 
 
 
-![Temperature and air pressure sensor connected via I2C port](../../pictures/diy-station/wired_lux.jpg)
+![Temperature and air pressure sensor connected via I2C port](../../../../pictures/diy-station/wired_lux.jpg)
 
 ## Programming - Reading the sensor
 The sensor can be controlled via the `SenseBoxMCU.h` library. After this has been integrated, an instance `bmp` of it must be created. On this object all functions of the library are called:

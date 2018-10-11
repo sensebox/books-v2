@@ -10,7 +10,7 @@
 
 
 
-![Die senseBox MCU](../pictures/mcu_one_top.png)
+![Die senseBox MCU](../../../pictures/mcu_one_top.png)
 
 ## Technische Spezifikationen
 

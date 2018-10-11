@@ -33,12 +33,12 @@ Add the following URL in your Ardunino IDE under *File -> Preferences* to the  *
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
 
-![Open the preferences and paste the URL](../pictures/ardu/Ardu1.png)
+![Open the preferences and paste the URL](../../../pictures/ardu/Ardu1.png)
 
 Then open the *board administrator * under *Tools -> Board:"..." -> board administrator* and install there the two board support packages named
  **Arduino SAMD Boards by Arduino** and **senseBox SAMD Boards by senseBox**.
 
-![Open the board administrator and install the two packages](../pictures/ardu/Ardu2.png)
+![Open the board administrator and install the two packages](../../../pictures/ardu/Ardu2.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -47,7 +47,7 @@ Then open the *board administrator * under *Tools -> Board:"..." -> board admini
 
 Since we regularly update the **senseBox SAMD Boards**-Package for you, you should always go back to the board administrator and check if the  **senseBox SAMD Boards**-Package is still up-to-date. As described above, open the board administrator and search for **senseBox SAMD Boards**. If you click on the entry in the list, there appears, in the case of a new version, an update button. Click this to install the latest version.
 
-![Click 'Update' to update the board support package](../pictures/ardu/update-b-s-p.png)
+![Click 'Update' to update the board support package](../../../pictures/ardu/update-b-s-p.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -61,13 +61,13 @@ Add the following URL in your Arduino IDE under  *`Arduino -> Preferences...`* t
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
 
-![Open the preferences and paste the URL](../pictures/ardu/ardu_mac.png)
+![Open the preferences and paste the URL](../../../pictures/ardu/ardu_mac.png)
 
 Then open the  *board administrator* under *Tools -> Board:"..." -> Board Administrator* and install there the two board support packages named  **Arduino SAMD Boards by Arduino** and **senseBox SAMD Boards by senseBox**.
 
-![Open the board administrator](../pictures/ardu/ardu3_mac.png)
+![Open the board administrator](../../../pictures/ardu/ardu3_mac.png)
 
-![Install the two marked packages](../pictures/ardu/ardu2_mac.png)
+![Install the two marked packages](../../../pictures/ardu/ardu2_mac.png)
 
 
 <div class="box_info">
@@ -77,7 +77,7 @@ Then open the  *board administrator* under *Tools -> Board:"..." -> Board Admini
 
 Since we regularly update the **senseBox SAMD Boards**-Package for you, you should always go back to the board administrator and check if the  **senseBox SAMD Boards**-Package is still up-to-date. As described above, open the board administrator and search for **senseBox SAMD Boards**. If you click on the entry in the list, there appears, in the case of a new version, an update button. Click this to install the latest version.
 
-![Click 'Update' to update the board support package](../pictures/ardu/ardu_update_mac.png)
+![Click 'Update' to update the board support package](../../../pictures/ardu/ardu_update_mac.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -92,11 +92,11 @@ Add the following URL in your Arduino IDE under *File  -> Preferences* to the  *
 https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json
 ```
 
-![Open the preferences and paste the URL](../pictures/ardu/Ardu1.png)
+![Open the preferences and paste the URL](../../../pictures/ardu/Ardu1.png)
 
 Then open the  *Boardadministrator* under *Tools -> Board:"..." -> Boardadministrator* und installiere dort die zwei and install there the two board support packages named  **Arduino SAMD Boards by Arduino** and **senseBox SAMD Boards by senseBox**.
 
-![Open the board administrator and install the two packages](../pictures/ardu/Ardu2.png)
+![Open the board administrator and install the two packages](../../../pictures/ardu/Ardu2.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -105,7 +105,7 @@ Then open the  *Boardadministrator* under *Tools -> Board:"..." -> Boardadminist
 
 Since we regularly update the **senseBox SAMD Boards**-Package for you, you should always go back to the board administrator and check if the  **senseBox SAMD Boards**-Package is still up-to-date. As described above, open the board administrator and search for **senseBox SAMD Boards**. If you click on the entry in the list, there appears, in the case of a new version, an update button. Click this to install the latest version.
 
-![Click 'Update' to update the board support package](../pictures/ardu/update-b-s-p.png)
+![Click 'Update' to update the board support package](../../../pictures/ardu/update-b-s-p.png)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>

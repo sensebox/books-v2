@@ -14,15 +14,15 @@ Um eine Bildunterschrift zu erstellen füge einfach einen Titel zum Bild hinzu, 
 ## Bild mit Unterschrift:
 
 ```html
-![Das LoraBee passend zur SenseBox!](../pictures/LoraBee%20top.png)
+![Das LoraBee passend zur SenseBox!](../../../pictures/LoraBee%20top.png)
 ```
 
-![Das LoraBee passend zur SenseBox!](../pictures/LoraBee%20top.png)
+![Das LoraBee passend zur SenseBox!](../../../pictures/LoraBee%20top.png)
 
 ## Bild ohne Unterschrift:
 
 ```html
-![](../pictures/LoraBee top.png)
+![](../../../pictures/LoraBee top.png)
 ```
 
-![](../pictures/LoraBee top.png)
+![](../../../pictures/LoraBee top.png)

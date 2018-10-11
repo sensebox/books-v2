@@ -17,7 +17,7 @@ How this works is explained in this chapter with an example.
 ## Basics
 A mobile senseBox has many applications. For example, would you like to measure the concentration of particulate matter, your daily route to work or school? The GPS module receives the position (longitude / latitude / high) of the senseBox. This sensor is compatible with the popular GNS systems (GPS, QZSS, GLONASS, BeiDou, Galileo) and is based on the u-blox CAM-M8Q Multi GNSS module.
 
-![A mobile senseBox on openSenseMap](../pictures/projekte/feinstaubmobil.png)
+![A mobile senseBox on openSenseMap](../../../pictures/projekte/feinstaubmobil.png)
 
 ## Construction
 In order for the GPS module to have a signal throughout the measurement period, and thus be able to request the location, you must make sure that nothing obscures the module. Ideally, you attach it outside the case for the measurement period.

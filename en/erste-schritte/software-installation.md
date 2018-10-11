@@ -22,11 +22,11 @@ Review the instructions for your operating system and follow the steps given.
 
 The senseBox is a micro controller with various components and sensors. It is programmed via the development environment _Arduino IDE_. Download the latest version as a zip file from the [Arduino Homepage](https://www.arduino.cc/en/main/software):
 
-![ ](../pictures/software-install/arduino-windows-view.png)
+![ ](../../../pictures/software-install/arduino-windows-view.png)
 
 Arduino is an open source project funded by donations. Therefore you will be asked for a donation before downloading; You can skip that by clicking `JUST DOWNLOAD`.
 
-![ ](../pictures/software-install/arduino-just-download.png)
+![ ](../../../pictures/software-install/arduino-just-download.png)
 
 Put a new folder on your hard drive and unzip the zip-file. By starting the file `arduino.exe` the IDE can be started.
 
@@ -39,11 +39,11 @@ Put a new folder on your hard drive and unzip the zip-file. By starting the file
 
 The senseBox is a micro controller with various components and sensors. It is programmed via the development environment _Arduino IDE_. Download the latest version from the  [Arduino Homepage](https://www.arduino.cc/en/main/software):
 
-![ ](../pictures/software-install/arduino-mac-view.png)
+![ ](../../../pictures/software-install/arduino-mac-view.png)
 
 Arduino is an open source project funded by donations. Therefore you will be asked for a donation before downloading; You can skip that by clicking `JUST DOWNLOAD`.
 
-![ ](../pictures/software-install/arduino-just-download.png)
+![ ](../../../pictures/software-install/arduino-just-download.png)
 
 An Arduino.app file should appear in your Downloads folder. Move this file to your "Applications" folder. By starting the file `Arduino.app` the IDE can be started.
 {% content "third" %}
@@ -55,11 +55,11 @@ An Arduino.app file should appear in your Downloads folder. Move this file to yo
 
 The senseBox is a micro controller with various components and sensors. It is programmed via the development environment Arduino IDE. Download the latest version from the [Arduino Homepage](https://www.arduino.cc/en/main/software):
 
-![ ](../pictures/software-install/arduino-linux-view.png)
+![ ](../../../pictures/software-install/arduino-linux-view.png)
 
 Arduino is an open source project funded by donations. Therefore you will be asked for a donation before downloading; You can skip that by clicking `JUST DOWNLOAD`.
 
-![ ](../pictures/software-install/arduino-just-download.png)
+![ ](../../../pictures/software-install/arduino-just-download.png)
 ### Installation of the IDE under Linux {#installation-der-ide-unter-linux}
 
 Linux users can download and unpack the Linux version. The included `install.sh` script automatically creates a desktop shortcut. The fastest way to do this is via terminal. Open the terminal by pressing the keys`Ctrl + Alt + T`and enter the following commands:
