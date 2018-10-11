@@ -15,7 +15,7 @@ The openSenseMap is a project to file, compare and visualise sensordata. Take a 
 
 ## 1. Useraccount Registration
 Please go to www.opensensemap.org and create an account. To do this, click on "Login" in the top right corner and then go to "Sign up". You need a valid e-mail address to register. After successful registration you will receive an e-mail with a confirmation link. Please click the link to complete the registration.
-![Account anlegen](../pictures/Sing_up.PNG)
+![Account anlegen](../../../pictures/Sing_up.PNG)
 
 ## 2. Set up a new sensBox
 After successful registration you can start creating your senseBox. Click on "New senseBox / New senseBox" in your menu and confirm the terms of use. Follow the instructions of the registration and provide the following data:
@@ -26,7 +26,7 @@ After successful registration you can start creating your senseBox. Click on "Ne
 
 Since the openSenseMap is open to all types of senseBoxes, you will be asked about the used hardware. Select * senseBox: home V2 * and the bee you use (WiFi, or Ethernet)
 
-![Selection of senseBox:home V2 MCU and WiFi Internetconnection](../pictures/Select_hardware.PNG)
+![Selection of senseBox:home V2 MCU and WiFi Internetconnection](../../../pictures/Select_hardware.PNG)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -44,7 +44,7 @@ Here should be an explanation
 ## 3. Receiving a Summary of the Registration
 Once you have completed the registration, you must once again agree to the publication of your data. After that you will receive a summary of your registration. There you will see your senseBox ID, your sensor IDs and the Arduino code (you will also receive it via e-mail)  
 
-![Summary of the registration. Here you can see the IDs to your senseBox and the sensors!](../pictures/summary.PNG)
+![Summary of the registration. Here you can see the IDs to your senseBox and the sensors!](../../../pictures/summary.PNG)
 
 {% collapse title="What is my senseBox ID" %}
 

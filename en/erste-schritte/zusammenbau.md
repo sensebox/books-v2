@@ -12,7 +12,7 @@
 
 ### Basic Configuration
 
-![Komponentenübersicht der Standardversion](../pictures/01_aufbau.png)
+![Komponentenübersicht der Standardversion](../../../pictures/01_aufbau.png)
 
 - case with lid
 - mini-USB wire + adapter
@@ -35,7 +35,7 @@
 Therefore you have to align the MCU so that the micro USB-access and the red button are pointing to the hole in the case. Please screw the MCU to the case with the two provided screws. Therefore use the two holes in the middle of the long side of the MCU.
 
 
-![ MCU in the housing](../pictures/mcu_verschraubung.jpeg)
+![ MCU in the housing](../../../pictures/mcu_verschraubung.jpeg)
 
 
 
@@ -44,7 +44,7 @@ Therefore you have to align the MCU so that the micro USB-access and the red but
 *Connecting Bee and humidity-/ temperaturesensor:*
 
 Independently which bee you are using, in the next step you have to mount the bee on the intended *XBEE1* slot.
-![MCU in case with WiFi Bee](../pictures/xbee.jpeg)
+![MCU in case with WiFi Bee](../../../pictures/xbee.jpeg)
 
 ## 3. Step
 
@@ -56,7 +56,7 @@ The sensor plug can be attached to one of the 5 *12C/Wire* slots.
 **Please connect the mini-USB wire not before everything is built together.**
 
 
-![Temperature and air humiditysensor + USB ](../pictures/usb_sensor.png)
+![Temperature and air humiditysensor + USB ](../../../pictures/usb_sensor.png)
 
 ## 4. Step
 
@@ -73,7 +73,7 @@ You can now mount the case wherever you want with the attachments.
     Achte darauf, dass der Sensor dabei nach oben zeigt! 
 </div>
 
-![Temperature and air humiditysensor in the protective case](../pictures/tempGeh.jpeg)
+![Temperature and air humiditysensor in the protective case](../../../pictures/tempGeh.jpeg)
 
 
 # Additional Components  (optional)
@@ -89,7 +89,7 @@ Now push the 4 plastic bolts in the outer holes of the MCU
 
 
 
-![Pin of the 3 standardsensors and the finedustsensor](../pictures/allesensoren.jpeg)
+![Pin of the 3 standardsensors and the finedustsensor](../../../pictures/allesensoren.jpeg)
 
 
 ## 6. Step
@@ -100,7 +100,7 @@ Position respectively 2 plastic bolts for one sensor and the little holes so tha
 
 
 
-![Pin of the sensors on the Plexiglass](../pictures/plexi.jpeg)
+![Pin of the sensors on the Plexiglass](../../../pictures/plexi.jpeg)
 
 
 ## 7. Step 
@@ -109,7 +109,7 @@ Position respectively 2 plastic bolts for one sensor and the little holes so tha
 
 
 
-![Components of the finedustsensor](../pictures/komposFein.jpeg)
+![Components of the finedustsensor](../../../pictures/komposFein.jpeg)
 
 - finedustsensor
 - case
@@ -133,7 +133,7 @@ Please do not fasten the screw thread at this point!
 </div>
 
 
-![Procedure to connect the wire of the finedustsensor](../pictures/anschlussfein.jpeg)
+![Procedure to connect the wire of the finedustsensor](../../../pictures/anschlussfein.jpeg)
 
 
 
@@ -141,7 +141,7 @@ Stick now the plastic tube on to the entry of the finedustsensor and afterwards 
 Now you can fasten the screw thread on both sides of the case and mount the lid on to the case.
  
 
-![Completed connection of the finedustsensor](../pictures/feinstaub.jpeg)
+![Completed connection of the finedustsensor](../../../pictures/feinstaub.jpeg)
 
 
 
@@ -151,5 +151,5 @@ Now you can fasten the screw thread on both sides of the case and mount the lid 
 
 
 
-![Completed Connection](../pictures/aufbaufertig.jpeg)
+![Completed Connection](../../../pictures/aufbaufertig.jpeg)
 

@@ -55,7 +55,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Öffne die Voreinstellungen und füge die URL ein](../pictures/ardu/Ardu1.png)
+ ![Öffne die Voreinstellungen und füge die URL ein](../../../pictures/ardu/Ardu1.png)
 
 2. Öffne nun den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und suche dort nach dem **senseBox SAMD Boards**-Package.
 
@@ -82,7 +82,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../pictures/libraries/voreinstellungen_mac.png)
+ ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../../../pictures/libraries/voreinstellungen_mac.png)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 

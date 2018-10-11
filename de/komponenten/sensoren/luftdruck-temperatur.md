@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Der Luftdruck- und Temperatursensor](../../pictures/bmp%20top.png)
+![Der Luftdruck- und Temperatursensor](../../../../pictures/bmp%20top.png)
 
 ## Technische Informationen
 

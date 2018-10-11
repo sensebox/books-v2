@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![The GPS-sensor](../../pictures/gps%20top.png)
+![The GPS-sensor](../../../../pictures/gps%20top.png)
 
 # Funktion
 

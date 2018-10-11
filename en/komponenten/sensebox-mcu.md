@@ -11,7 +11,7 @@ However, if you want to participate in openSenseMap the senseBox team offers you
 
 
 
-![The senseBox MCU](../pictures/mcu_one_top.png)
+![The senseBox MCU](../../../pictures/mcu_one_top.png)
 
 ## Technical Specifications
 

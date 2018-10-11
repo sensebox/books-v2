@@ -6,7 +6,7 @@ This Bee connects the senseBox with your router. The data of your senseBox will 
     <br>
 </div>
 
-![Ethernet Bee](../../pictures/Lan_bottom.png)
+![Ethernet Bee](../../../../pictures/Lan_bottom.png)
 
 ## Technical Information
 

@@ -21,11 +21,11 @@ Before you can start programming the senseBox, you have to change some settings 
 
 First, you choose `Tools` in the menu bar and search the senseBox MCU in the option `Boards`.
 
-![Boardauswahl](../pictures/select_board.png)
+![Boardauswahl](../../../pictures/select_board.png)
 
 Second, you choose again `Tools` and `Port` and search for the USB Port of your computer which is aligned to the senseBox MCU. Usually the computer gives you only one option. Depending on your operation system you have to choose the port repeadetly when putting code on the board.
 
-![Portauswahl](../pictures/select_port.png)
+![Portauswahl](../../../pictures/select_port.png)
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
@@ -84,7 +84,7 @@ After uploading the sketch on the MCU, you can start the `Serial Monitor` by cli
 ### Option Menu in the Serial Monitor
 After opening the Serial Monitor you find a menu with different functions which you can access using the search field:
 
-![Optionsmenu](../pictures/test_option-menu.png)
+![Optionsmenu](../../../pictures/test_option-menu.png)
 
 Just type the number of the option you want to test into the search field and click `Send`. Below you will find a list of options and a short description:
 
@@ -92,7 +92,7 @@ Just type the number of the option you want to test into the search field and cl
 
 Here you can check if all sensors are installed in a correct way and if they are initialized and recognized by the senseBox. For each connected sensor you should receive a feedback and a test measurement. In the example below, a HDC1080 Temperature and Humidity sensor was connceted correctly to a `I2C/Wire` port.
 
-  ![Sensortest](../pictures/test_option1.png)
+  ![Sensortest](../../../pictures/test_option1.png)
 
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -103,7 +103,7 @@ Here you can check if all sensors are installed in a correct way and if they are
 
   With this option you check your internet connectivity. If your senseBox successfully reaches the server you will get a response of the server in form of a HTTP-Status 200.
 
-  ![Sensortest](../pictures/test_option2.png)
+  ![Sensortest](../../../pictures/test_option2.png)
 
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
