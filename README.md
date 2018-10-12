@@ -3,30 +3,30 @@
 This repository contains the gitbook sources for the documentation and OER regarding the <b>second version of senseBox</b> (for first version of senseBox see [here](https://github.com/sensebox/books)).
 
 There are seperate branches for each book inside this repository. 
-There are throe books until now:
+There are three books until now:
 - <b>[senseBox:edu-book](https://github.com/sensebox/books-v2/tree/edu)</b> in branch called "edu" hosted [here](https://sensebox.github.io/books-v2/edu).
 - <b>[senseBox:home-book](https://github.com/sensebox/books-v2/tree/home)</b> in branch called "home" hosted [here](https://sensebox.github.io/books-v2/home).
 - <b>[senseBox:osem-book](https://github.com/sensebox/books-v2/tree/osem)</b> in branch called "osem" hosted [here](https://sensebox.github.io/books-v2/osem).
 
-## Contributing 
+## Contribution 
 
 ### Development environment
 We use the node.js-based tool [GitBook](https://github.com/GitbookIO/gitbook) for the rendering of the content.
 
-### command line
+### Command line
 To live-preview or render a book, you need the npm package `gitbook-cli`.
-Install it by running `npm i -g gitbook-cli`. If that does not work or you don't have `npm`, have a look at the [official documentation](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
+Install it by running `npm i -g gitbook-cli`. If that does not work or you do not have `npm`, have a look at the [official documentation](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
 Clone this repository with the following command:
 ```
 $ git clone https://github.com/sensebox/books-v2.git
 ```
-to your computer. Change into the created folder with
+to your computer. Change into the created folder with:
 ```
 $ cd books-v2
 ```
 
 #### Live preview
-To get a live preview of a books website-output, run
+To get a live preview of a books website-output, run:
 ```
 gitbook install   # only required once
 gitbook serve
