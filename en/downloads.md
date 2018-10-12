@@ -12,6 +12,6 @@
 
 This book is also available as PDF for printing.
 
-PDF-Download: [senseBox:home-Documentation](https://github.com/sensebox/books-v2/raw/gh-pages/senseBox:home.pdf)
+PDF-Download: [senseBox:home-Documentation](https://github.com/sensebox/books-v2/raw/gh-pages/senseBox:home_en.pdf)
 
 * More useful downloads coming soon;) *
