@@ -11,7 +11,7 @@ There are three books until now:
 ## Contribution 
 
 ### Development environment
-We use the node.js-based tool [GitBook](https://github.com/GitbookIO/gitbook) for the rendering of the content.
+We use the node.js-based tool [GitBook](https://github.com/GitbookIO/gitbook) for rendering of the content.
 
 ### Command line
 To live-preview or render a book, you need the npm package `gitbook-cli`.
