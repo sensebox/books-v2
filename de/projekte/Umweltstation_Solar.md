@@ -14,8 +14,8 @@ Wenn du deine senseBox ohne Steckdose oder Powerbank betreiben möchtest kannst 
   - Temperatur und Luftfeuchte (HDC1080)
   - UV-Intensität und Beleuchtungsstärke(TSL & VML)
   - Feinstaub (SDS) 
-- Solarzelle
-- Akku 
+- [Solarzelle](https://www.amazon.de/Watt-Solarpanel-Volt-Powerbanks-Solarleuchten/dp/B014HWT520/ref=sr_1_1?ie=UTF8&qid=1532255953&sr=8-1&keywords=villageboom)
+- 3.7V LiPo Akku 
 - Adafruit Powerboost 1000C
 - LoRa Bee
 - Power Switch (An/Aus)
