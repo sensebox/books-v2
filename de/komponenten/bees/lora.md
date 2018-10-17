@@ -1280,7 +1280,8 @@ Zusätzlich zu dem Arduino Sketch musst du auf der TTN-Homepage einen Decoder ei
 ![Im Overview Fenster zu "Payload Formats" navigieren](../../../../pictures/decoder_1st.png)
 
 ![In der Textbox muss der Decoder nun eingefügt werden](../../../../pictures/decoder_code.png)
-
+Der Decoder nimmt die Payload die von der LoRa Bee an das TTN-Netzwerk übertragen wird und 'übersetzt' es in ein Format das von der openSenseMap verstanden wird.
+So wird zum Beispiel aus der Payload `
 <h1 id="decoder"></h1>
 {% collapse  title="Decoder für das TTN" %}
 <div class="box_warning">
@@ -1296,7 +1297,9 @@ function Decoder(bytes, port) {
     HUMISENSOR_ID = 'YOUR HUMIDITY SENSOR ID HERE',
     PRESSURESENSOR_ID = 'YOUR PRESSURE SENSOR ID HERE ',
     LUXSENSOR_ID = 'YOUR LUXSENSOR ID HERE ',
-    UVSENSOR_ID = 'YOUR UV SENSOR ID HERE';
+    UVSENSOR_ID = 'YOUR UV SENSOR ID HERE',
+    PM10_ID = 'YOUR PM10_ID HERE',
+    PM25_ID = 'YOUR PM25_ID HERE';
 
   var bytesToInt = function (bytes) {
     var i = 0;
@@ -1366,6 +1369,8 @@ function Decoder(bytes, port) {
           uint8,
           uint16,
           uint8,
+          uint16,
+          uint16,
           uint16
         ],
         [
@@ -1375,7 +1380,9 @@ function Decoder(bytes, port) {
           LUXSENSOR_ID + '_mod',
           LUXSENSOR_ID + '_times',
           UVSENSOR_ID + '_mod',
-          UVSENSOR_ID + '_times'
+          UVSENSOR_ID + '_times',
+          PM10SENSOR_ID,
+          PM25SENSOR_ID,
         ]);
 
       //temp
@@ -1401,6 +1408,14 @@ function Decoder(bytes, port) {
       delete json[UVSENSOR_ID + '_times'];
       delete json[UVSENSOR_ID + '_mod'];
 
+
+       //PM10
+      json[PM10SENSOR_ID] = parseFloat(((json[PM10SENSOR_ID] / 10)).toFixed(1));
+
+
+      //PM2.5
+      json[PM25SENSOR_ID] = parseFloat(((json[PM25SENSOR_ID] / 10)).toFixed(1));
+
     } catch (e) {
       json = { payload: bytes };
     }
@@ -1411,7 +1426,12 @@ function Decoder(bytes, port) {
   return bytesToSenseBoxJson(bytes);
 }
 ```
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+    Möchtest du ein Phänomen hinzufügen oder addieren so musst du dies in der bytesToSenseBoxJson()-Funktion so deklarieren. 
 
+    Achte zudem darauf, dass alle Phänomene die in der LoRa Message geschickt werden auch decodiert werden.
+</div>
 {% endcollapse %}
 
 
