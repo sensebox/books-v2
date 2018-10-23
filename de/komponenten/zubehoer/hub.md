@@ -6,4 +6,5 @@
     <br>
 </div>
 
-![Expander](../../pictures/hub_bottom.png)
+![Expander](../../../../pictures/hub_bottom.png)
+

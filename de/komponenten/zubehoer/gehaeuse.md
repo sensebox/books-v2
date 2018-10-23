@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Das Gehäuse](https://raw.githubusercontent.com/sensebox/books-v2/edu/pictures/box%2002%20top.png?token=AUIA55NGps0H8Zb_B-wyS-Tmo0Bd8763ks5bVvhcwA%3D%3D)
+![Das Gehäuse](/../../../../pictures/box%2002%20top.png)
 
 Das Gehäuse aus Polycarbonat mit durchsichtigem Deckel schützt die senseBox MCU, sowie die dazugehörigen Sensoren vor der Witterung. 
 
