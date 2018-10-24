@@ -48,21 +48,26 @@ Konfiguration stark vereinfacht. Hierfür musst du einen Account [TheThingsNetwo
 
 Um ein Gerät in das TTN einzubinden, muss für dieses zunächst unter
 [thethingsnetwork.org](https://console.thethingsnetwork.org/)
-eine *Application* und ein *Device* registriert werden. Hierbei erhält man eine
-`app_id` und eine `dev_id`.
+eine *Application* und ein *Device* registriert werden. Die Application und Device ID können frei gewählt werden. Die EUIs lässt man sich am besten generieren. Dann erhält man eine `app_id` und eine `dev_id`.
 
-Für die registrierte Application muss die HTTP Integration unter <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
+Für die registrierte Application muss die *HTTP Integration* unter <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
 aktiviert werden. Diese muss konfiguriert werden, dass sie die Nachrichten von
 Devices per `POST` an `https://ttn.opensensemap.org/v1.1` weiterleitet. Das
-Authorization-Feld kann leer bleiben!
+Authorization-Feld kann leer bleiben! Unter Access Key den `default key` auswählen.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" alt="ttnconsole" center width="767" />
 
+Gehe nun auf die openSenseMap und registriere eine senseBox mit deinen Sensoren die du angeschlossen hast.
 Für die Datenübertragung zur openSenseMap müssen die `app_id` und `dev_id` bei
 der Registrierung auf der openSenseMap in der TTN-Konfiguration angegeben
 werden. Darüber hinaus muss ein passendes Decoding-Profil konfiguriert werden,
 welches bestimmt wie die - wegen der geringen Bandbreite als rohe Bytes 
 übertragenen - Daten als Messungen interpretiert werden sollen.
+
+<div class="box_warning">
+     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    <b>Wichtig:</b> Wenn du den Feinstaubsensor anschließen willst musst du im Dekodierungs-Profil <b>JSON</b> auswählen. Wenn du nur die anderen Sensoren benutzt kannst du <b>senseBox:home</b> auswählen. Das LoRa-Bee wird wie alle Übertragungsmodule an den XBEE1-Sockel angeschlossen.  
+</div>
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_register_ttn.png"  alt="osemregister" center width="767"/>
 
@@ -74,7 +79,7 @@ So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk 
 
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
+    <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo in Großbuchstaben <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
 </div>
 
 ![Ausgewählte ID's und Keys](../../../../pictures/LoRa_TTN_EUI.png)
