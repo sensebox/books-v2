@@ -39,6 +39,7 @@
 * [Mehrfarbige LED](projekte/Farbige_LED.md)
 * [Kaminfeuer](projekte/Kaminfeuer.md)
 * [Umweltstation mit Solar](projekte/Umweltstation_Solar.md)
+
 ## Komponenten
 * [Inhalt](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
