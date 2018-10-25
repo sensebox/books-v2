@@ -11,6 +11,9 @@ node_modules
 _book
 _book/index.html
 
+# Exclude pictures folder if exists
+pictures
+
 
 # eBook build output
 *.epub
