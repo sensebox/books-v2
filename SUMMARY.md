@@ -12,7 +12,7 @@
 	* [R-Studio](R.md)
 	* [ArcGis](Arc.md)
 * [Datenformate](formate.md)	
-
+* [Sensoren manuell hinzufügen](hinzufuegen.md)
 ---
 
 * [MQTT Client](mqtt_client.md)
