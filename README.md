@@ -7,7 +7,7 @@ There are four books until now:
 - <b>[senseBox:edu-book](https://github.com/sensebox/books-v2/tree/edu)</b> in branch called "edu" hosted [here](https://sensebox.github.io/books-v2/edu).
 - <b>[senseBox:home-book](https://github.com/sensebox/books-v2/tree/home)</b> in branch called "home" hosted [here](https://sensebox.github.io/books-v2/home).
 - <b>[senseBox:osem-book](https://github.com/sensebox/books-v2/tree/osem)</b> in branch called "osem" hosted [here](https://sensebox.github.io/books-v2/osem).
-- <b>[senseBox:blockly-book](https://github.com/sensebox/books-v2/tree/blockly)</b> in branch called "osem" hosted [here](https://sensebox.github.io/books-v2/blockly).
+- <b>[senseBox:blockly-book](https://github.com/sensebox/books-v2/tree/blockly)</b> in branch called "blockly" hosted [here](https://sensebox.github.io/books-v2/blockly).
 
 There is also a <b>[gh-pages branch](https://github.com/sensebox/books-v2/tree/gh-pages)</b>, where all the builded gitbooks are stored and hosted from. To avoid redundant data all pictures used in all senseBox books are stored in one single pictures-folder in the gh-pages branch.
 
