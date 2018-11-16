@@ -34,11 +34,13 @@ The header contains the name of your code and various useful functions. You can 
 After connecting the senseBox MCU to your computer and after a double click on the red button, the senseBox MCU is recognized as a medium. If you click the 'Compile Sketch' button the code will be compiled on the server and will be provided to you via download. Depending on the operating system you are using the following process will alter.
 
 
-#### Kopieren unter Windows 
+#### Copy with Windows 
  
 With windows you can transfer the just downloaded .BIN file via Drag & Drop to the medium <b>SENSEBOX</b>. The red LED will blink for a moment. Afterwards the board will reboot und run your code.
 
-#### Kopieren unter MacOS und Linux
+#### Copy with MacOS and Linux
+
+Copy the .BIN file via Drag & Drop under MacOS and Linux is not possible at the moment. One solution is to copy the file via the terminal and dd or use an alternative File Manager e.g. [muCommander](http://www.mucommander.com/)
 
 
 
