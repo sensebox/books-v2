@@ -29,7 +29,7 @@
             <img src="../pictures/blocks/logic/logic-gif-0.gif" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Wenn-Dann Erweiterungen</h4>
+            <h4>If/Then Expansions</h4>
             You can expand your if-statement with a click on the settings button inside the block. You can add additional statements or actions by click & drag. After you have finished editing your if-statement close you can close the settings menu with a click on the settings button.
         </div>
     </div>

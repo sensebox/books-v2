@@ -46,5 +46,5 @@ Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den
 
 {% endtabs %}
 
-
+Unter MacOS und Linux funktioniert das kopieren der .BIN per Drag & Drop leider zurzeit noch nicht. Eine Möglichkeit ist die Datei im Terminal per dd-Befehl zu kopieren (nur erfahrenen Nutzern zu empfehlen!) oder einen alternativen Dateimanager wie zum Beispiel [muCommander](http://www.mucommander.com/) zu verwenden.
 

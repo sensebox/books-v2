@@ -10,10 +10,6 @@ Hier findest du eine vollständige Dokumentation von Blockly für senseBox. Nebe
 
 1. Übersicht
    1. [Blockly für senseBox Online](uebersicht/blockly_online.md)
-   2. [Blockly für senseBox Offline](uebersicht/blockly_offline.md)
-      * [Schritt 1: Software installation](uebersicht/software-installation.md)
-      * [Schritt 2: Librarys hinzufügen](uebersicht/libraries-hinzufuegen.md)
-      * [Schritt 3: Board-Support-Packages installieren](uebersicht/board-support-packages-installieren.md)
 2. [Blöcke](bloecke/README.md) 
   1. [senseBox Sensoren](bloecke/sensebox_sensoren.md)
   2. [senseBox Display](bloecke/sensebox_display.md)
