@@ -1,4 +1,4 @@
-# Gehäuse {#head}
+# Stromverbrauch {#head}
 
 <div class="description">Hier findest du eine Übersicht über den Stromverbrauch der MCU in verschiedenen Setups.</div>
 <div class="line">
