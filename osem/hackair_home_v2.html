@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>HTML Widget · GitBook</title>
+        <title>hackAIR home sensor v2 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -97,8 +97,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="osem_custom_sensor.html" />
     
-    <link rel="prev" href="community_anwendungen.html" />
+    
+    <link rel="prev" href="luftdaten_feinstaub.html" />
     
 
     </head>
@@ -174,7 +176,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="hackair_home_v2.html">
+        <li class="chapter active" data-level="1.2.2" data-path="hackair_home_v2.html">
             
                 <a href="hackair_home_v2.html">
             
@@ -394,7 +396,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.3" data-path="osem_widget.html">
+        <li class="chapter " data-level="3.3" data-path="osem_widget.html">
             
                 <a href="osem_widget.html">
             
@@ -437,7 +439,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >HTML Widget</a>
+        <a href="." >hackAIR home sensor v2</a>
     </h1>
 </div>
 
@@ -452,30 +454,35 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="head">openSenseMap Widget </h1>
-<p>Um die Sensordaten einer senseBox nicht nur auf <code>opensensemap.org</code> anzuzeigen, sondern beispielsweise auch in eine eigene Website einzubinden
-kann das <em>openSenseMap Widget</em> verwendet werden.</p>
-<h2 id="beispiel">Beispiel</h2>
-<iframe src="https://sensebox.github.io/opensensemap-widget/iframe.html?senseboxId=570bad2b45fd40c8197f13a2" width="400" height="666" marginwidth="8" marginheight="8" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
-
-<h2 id="anleitung">Anleitung</h2>
-<p>Dieses Widget kann in eine Seite eingebunden werden und zeigt dann dort Informationen zu einer ausgew&#xE4;hlten,
-auf der openSenseMap registrierten senseBox an. Um das Widget einzubinden, muss man einfach folgende Codezeilen
-in sein HTML-Element einf&#xFC;gen:</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span>
-  <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://sensebox.github.io/opensensemap-widget/iframe.html?senseboxId=DEINE-SENSEBOXID&quot;</span>
-  <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;400&quot;</span>
-  <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;600&quot;</span>
-  <span class="hljs-attr">marginwidth</span>=<span class="hljs-string">&quot;8&quot;</span> <span class="hljs-attr">marginheight</span>=<span class="hljs-string">&quot;8&quot;</span>
-  <span class="hljs-attr">hspace</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">vspace</span>=<span class="hljs-string">&quot;0&quot;</span>
-  <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;0&quot;</span>
-  <span class="hljs-attr">scrolling</span>=<span class="hljs-string">&quot;no&quot;</span>
-&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
-</code></pre>
-<p>In der URL muss <code>DEINE-SENSEBOXID</code> durch die ID deiner Box ersetzt werden, wie sie auch in der OpenSenseMap
-gespeichert ist. Anschlie&#xDF;end ist das Widget sofort auf der Seite verf&#xFC;gbar.
-Die Gr&#xF6;&#xDF;e l&#xE4;sst sich &#xFC;ber die <code>width</code> und <code>heigth</code> Attribute anpassen.</p>
-<p>Der Quellcode ist auf GitHub unter <a href="https://github.com/sensebox/opensensemap-widget" target="_blank">sensebox/opensensemap-widget</a> zu finden.</p>
+                                <h1 id="head">hackAIR home sensor v2 Daten an openSenseMap.org senden </h1>
+<p>Es besteht die M&#xF6;glichkeit die gemessenen Daten der hackAIR home Sensoren (Version 2) auch an die openSenseMap zu senden.</p>
+<p>Dazu musst du zuerst dein hackAIR Sensor, wie folgt <a href="http://www.hackair.eu/hackair-home-v2/" target="_blank">zusammenbauen</a> und den <a href="https://github.com/mkraats/hackair-v2-advanced" target="_blank">hackair-v2-advanced</a> aufspielen.</p>
+<p>Danach steht dir die openSenseMap Konfiguration im Webinterface zur Verf&#xFC;gung. (<a href="#abbildung-1-webinterface-feinstaubsensor">Abb. 1</a>)</p>
+<p>Danach muss eine senseBox auf der openSenseMap mit der korrekten Hardware registriert werden.</p>
+<h2 id="1-neue-sensebox-registrieren">1. Neue senseBox <a href="https://opensensemap.org/register" target="_blank">registrieren</a></h2>
+<ul>
+<li>User, Standort, Aufstellungsort und Namen ausf&#xFC;llen. Gruppenkennzeichnung k&#xF6;nnte z.B.: hackAIR sein.</li>
+<li>Unter dem Punkt <strong>&quot;Hardware&quot;</strong> im Schritt <strong>&quot;meine senseBox&quot;</strong> das Feld <strong>&quot;hackAIR&quot;</strong> ausklappen und die passende Sensorkonfiguration ausw&#xE4;hlen. (<a href="#abbildung-2-registrierung-opensensemap">Abb. 2</a>)</li>
+<li>Registrierung abschlie&#xDF;en.</li>
+<li><strong>Wichtig:</strong> <code>senseBox ID</code> kopieren. Dies ist eine 24 Zeichen lange Zeichenkette die ungef&#xE4;hr so aussieht: <em>58a88c6b650831d8a3625e01</em></li>
+<li><strong>Wichtig:</strong> <code>access token</code> kopieren. Dies ist eine 64 Zeichen lange Zeichenkette.</li>
+<li>Wenn eine korrekte E-Mailadresse angegeben wurde, kommt die senseBox ID auch nochmal per Mail. (zum Beispiel: <em>Deine senseBox-ID lautet: 58a88c6b650831d8a3625e01</em>)</li>
+</ul>
+<h2 id="2-hackair-ger&#xE4;t-konfigurieren">2. hackAIR Ger&#xE4;t konfigurieren</h2>
+<p>Der <code>hackAIR home v2</code> Sensor l&#xE4;sst sich bequem &#xFC;ber eine Webseite konfigurieren. Dazu schlie&#xDF;t ihr das Ger&#xE4;t am Strom an.
+Danach sollte ein offenes Netzwerk mit dem Namen <code>ESP-wemos</code> verf&#xFC;gbar sein. Danach m&#xFC;sst ihr noch folgende Schritte durchf&#xFC;hren:</p>
+<ul>
+<li>Mit dem Browser die Konfigurationsseite des hackAIR home v2 aufrufen (<a href="http://192.168.4.1" target="_blank">http://192.168.4.1</a>).</li>
+<li>Unter dem Punkt <strong>Configure WiFi</strong> tragt ihr im Feld <strong>openSenseMap senseBox ID</strong> die <em>senseBox-ID</em> ein.</li>
+<li>Unter dem Punkt <strong>Configure WiFi</strong> tragt ihr im Feld <strong>senseBox access token</strong> den <em>access token</em> ein</li>
+<li>Ganz unten auf der Seite auf <strong>Save</strong> klicken</li>
+</ul>
+<h2 id="fertig">Fertig</h2>
+<p>Der <code>hackAIR home v2</code> Sensor sollte nun die Daten an die openSenseMap senden.</p>
+<h2 id="abbildung-1-webinterface-feinstaubsensor">Abbildung 1: Webinterface Feinstaubsensor</h2>
+<p><img src="https://github.com/sensebox/resources/raw/master/images/hackair/02_Sensor_Konfiguration.png"></p>
+<h2 id="abbildung-2-registrierung-opensensemap">Abbildung 2: Registrierung openSenseMap</h2>
+<p><img src="https://github.com/sensebox/resources/raw/master/images/hackair/01_openSenseMap_Konfiguration.png"></p>
 <p><div id="page-footer" class="localized-footer"><hr><p><span style="color: #666; font-size: 85%;">
   Made with &#x2665; vom senseBox Team am <a href="https://www.uni-muenster.de/Geoinformatics/" target="_blank">ifgi</a>, WWU M&#xFC;nster
 </span>
@@ -511,10 +518,14 @@ Die Gr&#xF6;&#xDF;e l&#xE4;sst sich &#xFC;ber die <code>width</code> und <code>h
 
             
                 
-                <a href="community_anwendungen.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Community Anwendungen">
+                <a href="luftdaten_feinstaub.html" class="navigation navigation-prev " aria-label="Previous page: Luftdaten.info Feinstaubsensor">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="osem_custom_sensor.html" class="navigation navigation-next " aria-label="Next page: Andere Plattformen">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -523,7 +534,7 @@ Die Gr&#xF6;&#xDF;e l&#xE4;sst sich &#xFC;ber die <code>width</code> und <code>h
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HTML Widget","level":"3.3","depth":1,"previous":{"title":"Community Anwendungen","level":"3.2","depth":1,"path":"community_anwendungen.md","ref":"community_anwendungen.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"osem_custom_sensor.html#fig1.2.3.1","level":"1.2.3","list_caption":"Figure: sensor konfiguration","alt":"sensor konfiguration","nro":1,"url":"https://raw.githubusercontent.com/senseBox/resources/master/images/osem_sensorconfig.png","index":1,"caption_template":"_CAPTION_","label":"sensor konfiguration","attributes":{},"skip":false,"key":"1.2.3.1"},{"backlink":"ttn_integration.html#fig2.2.1","level":"2.2","list_caption":"Figure: In der TTN Console muss eine Payload Function definiert werden","alt":"In der TTN Console muss eine Payload Function definiert werden","nro":2,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png","index":1,"caption_template":"_CAPTION_","label":"In der TTN Console muss eine Payload Function definiert werden","attributes":{},"skip":false,"key":"2.2.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions","collapse"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"collapse":{},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Seite bearbeiten","base":"https://github.com/sensebox/books-v2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"osem_widget.md","mtime":"2018-11-28T10:26:42.792Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-11-28T10:27:35.575Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"hackAIR home sensor v2","level":"1.2.2","depth":2,"next":{"title":"Andere Plattformen","level":"1.2.3","depth":2,"path":"osem_custom_sensor.md","ref":"osem_custom_sensor.md","articles":[]},"previous":{"title":"Luftdaten.info Feinstaubsensor","level":"1.2.1","depth":2,"path":"luftdaten_feinstaub.md","ref":"luftdaten_feinstaub.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"osem_custom_sensor.html#fig1.2.3.1","level":"1.2.3","list_caption":"Figure: sensor konfiguration","alt":"sensor konfiguration","nro":1,"url":"https://raw.githubusercontent.com/senseBox/resources/master/images/osem_sensorconfig.png","index":1,"caption_template":"_CAPTION_","label":"sensor konfiguration","attributes":{},"skip":false,"key":"1.2.3.1"},{"backlink":"ttn_integration.html#fig2.2.1","level":"2.2","list_caption":"Figure: In der TTN Console muss eine Payload Function definiert werden","alt":"In der TTN Console muss eine Payload Function definiert werden","nro":2,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png","index":1,"caption_template":"_CAPTION_","label":"In der TTN Console muss eine Payload Function definiert werden","attributes":{},"skip":false,"key":"2.2.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions","collapse"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"collapse":{},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Seite bearbeiten","base":"https://github.com/sensebox/books-v2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"hackair_home_v2.md","mtime":"2018-11-28T10:26:42.788Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-11-28T10:27:35.575Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>HTML Widget · GitBook</title>
+        <title>Sensoren manuell hinzufügen · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -97,8 +97,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="mqtt_client.html" />
     
-    <link rel="prev" href="community_anwendungen.html" />
+    
+    <link rel="prev" href="formate.html" />
     
 
     </head>
@@ -315,7 +317,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="hinzufuegen.html">
+        <li class="chapter active" data-level="1.7" data-path="hinzufuegen.html">
             
                 <a href="hinzufuegen.html">
             
@@ -394,7 +396,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.3" data-path="osem_widget.html">
+        <li class="chapter " data-level="3.3" data-path="osem_widget.html">
             
                 <a href="osem_widget.html">
             
@@ -437,7 +439,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >HTML Widget</a>
+        <a href="." >Sensoren manuell hinzufügen</a>
     </h1>
 </div>
 
@@ -452,31 +454,20 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="head">openSenseMap Widget </h1>
-<p>Um die Sensordaten einer senseBox nicht nur auf <code>opensensemap.org</code> anzuzeigen, sondern beispielsweise auch in eine eigene Website einzubinden
-kann das <em>openSenseMap Widget</em> verwendet werden.</p>
-<h2 id="beispiel">Beispiel</h2>
-<iframe src="https://sensebox.github.io/opensensemap-widget/iframe.html?senseboxId=570bad2b45fd40c8197f13a2" width="400" height="666" marginwidth="8" marginheight="8" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+                                <h1 id="head">Manuelles hinzuf&#xFC;gen eines Sensors </h1>
+<p>F&#xFC;r das manuelle Hinzuf&#xFC;gen eines oder mehrerer Sensoren gibt es verschiedene M&#xF6;glichkeiten. Im Folgenden werden dir drei dieses M&#xF6;glichkeiten vorgestellt.</p>
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+Hast du eine &#xE4;hnliche Frage oder ein spezifisches Problem zu deiner senseBox? Dann besuche unser <a href="https://forum.sensebox.de/" target="_blank">Forum</a> und stelle deine Fragen hier !
+</div>
 
-<h2 id="anleitung">Anleitung</h2>
-<p>Dieses Widget kann in eine Seite eingebunden werden und zeigt dann dort Informationen zu einer ausgew&#xE4;hlten,
-auf der openSenseMap registrierten senseBox an. Um das Widget einzubinden, muss man einfach folgende Codezeilen
-in sein HTML-Element einf&#xFC;gen:</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span>
-  <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://sensebox.github.io/opensensemap-widget/iframe.html?senseboxId=DEINE-SENSEBOXID&quot;</span>
-  <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;400&quot;</span>
-  <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;600&quot;</span>
-  <span class="hljs-attr">marginwidth</span>=<span class="hljs-string">&quot;8&quot;</span> <span class="hljs-attr">marginheight</span>=<span class="hljs-string">&quot;8&quot;</span>
-  <span class="hljs-attr">hspace</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">vspace</span>=<span class="hljs-string">&quot;0&quot;</span>
-  <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;0&quot;</span>
-  <span class="hljs-attr">scrolling</span>=<span class="hljs-string">&quot;no&quot;</span>
-&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
-</code></pre>
-<p>In der URL muss <code>DEINE-SENSEBOXID</code> durch die ID deiner Box ersetzt werden, wie sie auch in der OpenSenseMap
-gespeichert ist. Anschlie&#xDF;end ist das Widget sofort auf der Seite verf&#xFC;gbar.
-Die Gr&#xF6;&#xDF;e l&#xE4;sst sich &#xFC;ber die <code>width</code> und <code>heigth</code> Attribute anpassen.</p>
-<p>Der Quellcode ist auf GitHub unter <a href="https://github.com/sensebox/opensensemap-widget" target="_blank">sensebox/opensensemap-widget</a> zu finden.</p>
-<p><div id="page-footer" class="localized-footer"><hr><p><span style="color: #666; font-size: 85%;">
+<h2 id="m&#xF6;glichkeit-1">M&#xF6;glichkeit #1</h2>
+<p>Du l&#xF6;scht deine alte Station und registrierst eine neue <code>senseBox</code> und w&#xE4;hlst dort direkt die Sensoren aus die du hinzuf&#xFC;gen m&#xF6;chtest. Deine alte Station kannst du l&#xF6;schen indem du im <code>Dashboard</code> nach Eingabe deines Passworts <code>senseBox l&#xF6;schen</code> ausw&#xE4;hlst. <strong>Denke daran das mit dieser Methode alle bisherigen Messwerte gel&#xF6;scht werden!</strong></p>
+<h2 id="m&#xF6;glichkeit-2">M&#xF6;glichkeit #2</h2>
+<p>Du erstellst eine neue <code>senseBox</code> mit den gew&#xFC;nschten Sensoren und bekommst dann direkt den korrekten Sketch zugeschickt. Dort musst du nur deine <code>WiFi</code> oder <code>Ethernet</code> Einstellugen editieren und die ID&apos;s f&#xFC;r die Sensoren austauschen. </p>
+<h2 id="m&#xF6;glichkeit-3">M&#xF6;glichkeit #3</h2>
+<p>Du w&#xE4;hlst <code>Editieren</code> im Dashboard f&#xFC;r deine Station aus und wechselst dort in den Reiter <code>Sensoren</code>. Dort legst du deine gew&#xFC;nschten Sensoren und erh&#xE4;lst im Anschluss zwei neue <code>SensorID&apos;s</code>. Mit diesen neuen SensorID&apos;s kannst du nun deinen Sketch &apos;manuell&apos; bearbeiten. Solltest du nicht wissen wie das geht, so findest du in unseren Anleitungen in den <a href="https://sensebox.github.io/books-v2/edu/de/index.html?Deutsch=Deutsch" target="_blank">edu Books</a> Hilfe.
+<div id="page-footer" class="localized-footer"><hr><p><span style="color: #666; font-size: 85%;">
   Made with &#x2665; vom senseBox Team am <a href="https://www.uni-muenster.de/Geoinformatics/" target="_blank">ifgi</a>, WWU M&#xFC;nster
 </span>
 <span style="color: #666; font-size: 85%; float: right; align: center;">
@@ -511,10 +502,14 @@ Die Gr&#xF6;&#xDF;e l&#xE4;sst sich &#xFC;ber die <code>width</code> und <code>h
 
             
                 
-                <a href="community_anwendungen.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Community Anwendungen">
+                <a href="formate.html" class="navigation navigation-prev " aria-label="Previous page: Datenformate">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="mqtt_client.html" class="navigation navigation-next " aria-label="Next page: MQTT Client">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -523,7 +518,7 @@ Die Gr&#xF6;&#xDF;e l&#xE4;sst sich &#xFC;ber die <code>width</code> und <code>h
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HTML Widget","level":"3.3","depth":1,"previous":{"title":"Community Anwendungen","level":"3.2","depth":1,"path":"community_anwendungen.md","ref":"community_anwendungen.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"osem_custom_sensor.html#fig1.2.3.1","level":"1.2.3","list_caption":"Figure: sensor konfiguration","alt":"sensor konfiguration","nro":1,"url":"https://raw.githubusercontent.com/senseBox/resources/master/images/osem_sensorconfig.png","index":1,"caption_template":"_CAPTION_","label":"sensor konfiguration","attributes":{},"skip":false,"key":"1.2.3.1"},{"backlink":"ttn_integration.html#fig2.2.1","level":"2.2","list_caption":"Figure: In der TTN Console muss eine Payload Function definiert werden","alt":"In der TTN Console muss eine Payload Function definiert werden","nro":2,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png","index":1,"caption_template":"_CAPTION_","label":"In der TTN Console muss eine Payload Function definiert werden","attributes":{},"skip":false,"key":"2.2.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions","collapse"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"collapse":{},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Seite bearbeiten","base":"https://github.com/sensebox/books-v2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"osem_widget.md","mtime":"2018-11-28T10:26:42.792Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-11-28T10:27:35.575Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Sensoren manuell hinzufügen","level":"1.7","depth":1,"next":{"title":"MQTT Client","level":"2.1","depth":1,"path":"mqtt_client.md","ref":"mqtt_client.md","articles":[]},"previous":{"title":"Datenformate","level":"1.6","depth":1,"path":"formate.md","ref":"formate.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"^3.2.2","theme":"default","variables":{"_pictures":[{"backlink":"osem_custom_sensor.html#fig1.2.3.1","level":"1.2.3","list_caption":"Figure: sensor konfiguration","alt":"sensor konfiguration","nro":1,"url":"https://raw.githubusercontent.com/senseBox/resources/master/images/osem_sensorconfig.png","index":1,"caption_template":"_CAPTION_","label":"sensor konfiguration","attributes":{},"skip":false,"key":"1.2.3.1"},{"backlink":"ttn_integration.html#fig2.2.1","level":"2.2","list_caption":"Figure: In der TTN Console muss eine Payload Function definiert werden","alt":"In der TTN Console muss eine Payload Function definiert werden","nro":2,"url":"https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png","index":1,"caption_template":"_CAPTION_","label":"In der TTN Console muss eine Payload Function definiert werden","attributes":{},"skip":false,"key":"2.2.1"}]},"plugins":["edit-link","localized-footer","scramble-mailto","hide-published-with","youtubex","katex","collapsible-chapters","sectionx@git+https://github.com/noerw/gitbook-plugin-sectionx.git#v3.2.0","scripts","printlinks@git+https://github.com/noerw/gitbook-plugin-printlinks.git#sensebox","validate-links","codetabs","simpletabs","image-captions","collapse"],"pluginsConfig":{"validate-links":{"defaultScheme":"https","local":"warn","remote":"disabled"},"scripts":{},"search":{},"collapsible-chapters":{},"codetabs":{},"printlinks":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"collapse":{},"simpletabs":{},"hide-published-with":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"scramble-mailto":{"scrambleMethod":"jsFunction"},"sectionx":{},"highlight":{},"youtubex":{"embedDescription":{"de":"Eingebettetes Video:","default":"Embedded video:"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Seite bearbeiten","base":"https://github.com/sensebox/books-v2/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"caption":"_CAPTION_","variable_name":"_pictures"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"}},"file":{"path":"hinzufuegen.md","mtime":"2018-11-28T10:26:42.789Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-11-28T10:27:35.575Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
