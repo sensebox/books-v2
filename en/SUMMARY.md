@@ -34,6 +34,8 @@
 * [Traffic Light Circuit](projekte/AmpelButton.md)
 * [Traffic Counter](projekte/verkehrszaehlerv2.md)
 * [Mobile Station](projekte/Mobile_Station.md)
+* [Thermo Hut](projekte/ThermoHut.md)
+
 
 ## Components
 * [Content](komponenten/README.md)
