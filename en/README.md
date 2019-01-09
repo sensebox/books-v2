@@ -61,15 +61,15 @@ In extension we offer some passages which are hidden. They contain information a
 The last element in this book which you should familiar with are "tabs". You will know them from your internet browser to open more than one websites at the same time. In this book we use tabs to reduce the content of the page and let you only see what you really need. An example is that we use them to display differences between the operating systems (Windows, OSX(Mac) and Linux). In the most cases you will only be interested in one of the operating systems, so just click on the tab with the system you use. Just try it in the following example:
 {% tabs first="First Tab", second="Second Tab", third="Third Tab" %}
 {% content "first" %}
-# Erster Tab
+# First tab
 The first tab is opened initially.
 
 {% content "second" %}
-# Zweiter Tab
+# Second tab
 You chose the second tab.
 
 {% content "third" %}
-# Dritter Tab
+# Third tab
 You got it! You opended the third tab.  
 
 {% endtabs %}
