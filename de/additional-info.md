@@ -6,6 +6,12 @@
     <br>
 </div>
 
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Mit der aktuellen Arduino IDE 1.8.8 ist es zur Zeit nicht möglich ein Update der Firmware für das WiFi Bee auszuführen. Für einen reibungslosen Vorgang braucht ihr die Arduino IDE V. 1.8.7. Diese könnt ihr euch aus dem <a href="https://www.arduino.cc/en/Main/OldSoftwareReleases#previous">Downloadarchiv von Arduino</a> herunterladen.
+</div>
+
+
 ## Test der Version
 Zuerst muss rausgefunden werden, welche Version das gelieferte WiFi-Bee hat. Gehe dazu auf ´´Datei´´; ´´Beispiele´´ und unter "Beispiele für senseBox MCU" auf ´´Test_WINC1500´´ 
 
@@ -54,6 +60,6 @@ Fast geschafft, jetzt nur noch auf ``Update Firmware`` klicken und der Upload be
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Nicht davon irritieren lassen, dass es auch eine Version der Firmware 19.5.4 gibt, diese aber nicht in Arduino zu finden ist wenn man die Firmware updaten möchte. Diese Firmware wird mit dem Arduino Release 1.8.6 integriert und ist ab dann zu finden.</div>
     
- Wir entschuldigen uns für den Umweg und wünschen auch weiterhin viel Spaß mit der senseBox.
+ Wir entschuldigen uns für den Umweg und wünschen auch weiterhin viel Spaß mit der [senseBox](https://sensebox.de).
  
-Falls dir dieser Artikel nicht weitergeholfen hat, kannst du versuchen auf www.forum.sensebox.de nach einer Lösung suchen, oder gegebenenfalls selbst einen Beitrag einreichen. 
+Falls dir dieser Artikel nicht weitergeholfen hat, kannst du versuchen auf [www.forum.sensebox.de](www.forum.sensebox.de) nach einer Lösung suchen, oder gegebenenfalls selbst einen Beitrag einreichen. 

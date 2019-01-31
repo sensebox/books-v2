@@ -6,6 +6,11 @@
     <br>
 </div>
 
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    With latest Arduino IDE 1.8.8 release it currently is not possible to update the firmware of our WINC1500 WiFi Bee. Therefore, you need to install the previous release Arduino IDE 1.8.7. You will find the download at the <a href="https://www.arduino.cc/en/Main/OldSoftwareReleases#previous">Previous IDE Releases</a> on the Arduino website.
+</div>
+
 ## Test the Version
 First, it must be found out which version the supplied WiFi Bee has. Go to''file'' '' Examples '' and under "Examples for senseBox MCU" on''Test_WINC1500''
 
