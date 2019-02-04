@@ -40,6 +40,7 @@
 * [Kaminfeuer](projekte/Kaminfeuer.md)
 * [Umweltstation mit Solar](projekte/Umweltstation_Solar.md)
 * [Thermometer Hütte für die senseBox](projekte/Wetterhütte.md)
+* [Lügendetektor](projekte/Lügendetektor.md)
 
 ## Komponenten
 * [Inhalt](komponenten/README.md)
