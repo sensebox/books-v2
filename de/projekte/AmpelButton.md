@@ -16,14 +16,14 @@
 * grüne LED
 * 3x 470Ω Wiederstand
 * Button
-* 10Ω Wiederstand
+* 10kΩ (10000Ω) Wiederstand
 * 2x senseBox JST-Adapterkabel
 
 ## Aufbau
 ### Hardwarekonfiguration
 Um alle Komponenten anzuschließen benötigst Du zwei JST-Adapterkabel. Das erste wird an Digital A (also den digitalen Pins 1 und 2) angeschlossen, das zweite an Digital B (also den digitalen Pins 3 und 4) angeschlossen. Am Kabel in Digital A werden die rote und die gelbe LED angeschlossen, am Kabel in Digital B die grüne LED und der Button.
 
-![Verkabelung der Ampelschaltung](../../../pictures/projekte/Ampel_Button_v2_Steckplatine.png)
+![Verkabelung der Ampelschaltung](../../../pictures/projekte/AmpelSchaltungKlein.png)
 
 ### Sketch
 
