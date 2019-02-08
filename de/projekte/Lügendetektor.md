@@ -85,7 +85,7 @@ void loop() {
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-        <b>Aufgabe: Nachdem du nun die Grundlage für das Erstellen des Sensors bekommen hast, kannst du jetzt selber versuchen diesen mit deinem Display zu verknüpfen, sodass die Werte über einen Graphen dargestellt werden. 
+        <b>Aufgabe: Nachdem du nun die Grundlage für das Auslesen des Sensors bekommen hast, kannst du jetzt selber versuchen diesen mit deinem Display zu verknüpfen, sodass die Werte über einen Graphen dargestellt werden. 
 </div>
 
 ## Lösung
