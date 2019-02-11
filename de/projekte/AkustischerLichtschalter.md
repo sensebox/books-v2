@@ -30,7 +30,7 @@ Das Mikrofon (Mic-Breakout) ist in der Lage Amplituden von Schallwellen wahrzune
 Nun wird das längere Ende der LED (Plus-Pol) mit dem 470Ω Widerstand verbunden. Der Widerstand wird am anderen Ende mit dem gelben Kabel des JST-Adapterkabels verbunden. Das kürzere Ende der LED wird mit einem einfachen Male-to-Male Kabel mit der `-`Spalte des Breadbords verbunden.
 
 Steckt den Schaltkries wie ihr ihn unten in der Grafik seht.
-![Verkabelung des Mikrofons](../../../pictures/IntelligenterLichtschalterKlein.png)
+![Verkabelung des Mikrofons](../../../pictures/projekte/IntelligenterLichtschalterKlein.png)
 
 ## Programmierung
 
