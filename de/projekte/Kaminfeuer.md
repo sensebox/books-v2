@@ -32,7 +32,7 @@ void setup() {
   pinMode(led, OUTPUT);
 }
 ```
-Wir speichern den digitalen Port 13 in einer Variable, damit wir uns nur noch den aussagekräftigen Variablennamen merken müssen und nicht die Portnummer. Das ist vorallem bei mehreren angeschlossenen LEDs hilfreich
+Wir speichern den digitalen Port 1 in einer Variable, damit wir uns nur noch den aussagekräftigen Variablennamen merken müssen und nicht die Portnummer. Das ist vorallem bei mehreren angeschlossenen LEDs hilfreich
 {% endcollapse %}
 
 
