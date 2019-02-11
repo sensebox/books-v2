@@ -9,12 +9,12 @@ Es soll ein Kaminfeuer simuliert werden. Dazu wird eine rote LED zum flackern ge
 
 ## Materialien 
 * LED
-* 1x 470Ω Wiederstand
+* 1x 470Ω Widerstand
 * JST-Adapterkabel
 
 ## Aufbau
 
-Es wird nur die LED angeschlossen. Diese wird am langen Beinchen mit einem 470Ω Wiederstand mit dem digitalen Port 1 verbunden. Das kurze Beinchen wird mit GND verbunden.
+Es wird nur die LED angeschlossen. Diese wird am langen Beinchen mit einem 470Ω Widerstand mit dem digitalen Port 1 verbunden. Das kurze Beinchen wird mit GND verbunden.
 
 ![Verkabelung der einfachen LED](../../../pictures/Aufbau_LED.png)
 

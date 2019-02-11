@@ -14,9 +14,9 @@
 * rote LED
 * gelbe LED
 * grüne LED
-* 3x 470Ω Wiederstand
+* 3x 470Ω Widerstand
 * Button
-* 10kΩ (10000Ω) Wiederstand
+* 10kΩ (10000Ω) Widerstand
 * 2x senseBox JST-Adapterkabel
 
 ## Aufbau

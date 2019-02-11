@@ -10,7 +10,7 @@ In dieser Station wollen wir lernen, wie man eine mehrfarbige LED verwendet.
 
 ## Materialien 
 * RGB-LED
-* 1x 470Ω Wiederstand
+* 1x 470Ω Widerstand
 * JST-Adapterkabel
 
 ## Aufbau 

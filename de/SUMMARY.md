@@ -35,6 +35,7 @@
 * [Verkehrszähler](projekte/verkehrszaehlerv2.md)
 * [Mobile Station](projekte/Mobile_Station.md)
 * [Lauschangriff](projekte/Lauschangriff.md)
+* [Akustischer Lichtschalter](projekte/AkustischerLichtschalter.md)
 * [Auf die Töne fertig los!](projekte/Tonangriff.md)
 * [Mehrfarbige LED](projekte/Farbige_LED.md)
 * [Kaminfeuer](projekte/Kaminfeuer.md)

@@ -12,74 +12,97 @@ In dieser Station wollen wir lernen, wie wir das Mikrofon mit dem Arduino nutzen
 * Mic-Breakout
 
 ## Grundlagen 
-Das Mikrofon (Mic-Breakout) benötigt eine Betriebsspannung von 2.7V-5.5V und ist in der Lage Geräusche zwischen 58dB und 110dB wahrzunehmen.
+Das Mikrofon (Mic-Breakout) benötigt eine Betriebsspannung von 2.7V-5.5V und ist in der Lage Amplituden von Schallwellen wahrzunehmen. Anhand dieser Schallwellen wird eine elektrische Spannung erzeugt und von dem Sensor als Signal an die senseBox weitergegeben. Wie ihr dieses elektrische Signal auslesen könnt und in Volt umwandeln könnt erfahrt ihr hier!
 
 ## Aufbau 
-Das Mikrofon wird mit einen JST-Adapterkabel mit der senseBox MCU verbunden. Dazu wird das JST-Adapterkabel mit dem Steckplatz Digital A verbunden. Es verfügt übe.r drei Pins(GND, VCC und OUT). Das schwarze Kabel wird mit GND verbunden, das rote mit VCC und das grüne mit OUT. Hierbei stellen wir mit dem schwarzen Kabel einen Minuspol, mit dem roten Kabel die Stromversorgung und mit dem grünen Kabel eine Datenübertragung zum Port 1 her. 
+Das Mikrofon wird mit einen JST-Adapterkabel mit der senseBox MCU verbunden. Dazu wird das JST-Adapterkabel mit dem Steckplatz Digital A verbunden. Es verfügt über drei Pins(GND, VCC und OUT). Das schwarze Kabel wird mit GND verbunden, das rote mit VCC und das grüne mit OUT. Hierbei stellen wir mit dem schwarzen Kabel einen Minuspol, mit dem roten Kabel die Stromversorgung und mit dem grünen Kabel eine Datenübertragung zum Port 1 her. 
 Steckt den Schaltkries wie ihr ihn unten in der Grafik seht.
 ![Verkabelung des Mikrofons](../../../pictures/LauschangriffKlein.png)
 
 ## Programmierung
 
-Eine Variable in der die Werte des Mikrofons gespeichert werden sowie der digitale Port an der das Mikrofon angeschlossen ist, müssen definiert werden.
+Zu allererst erstellen wir eine Variable in der die Werte des Mikrofons gespeichert werden. Außerdem definieren wir den digitale Port an den das Mikrofon angeschlossen ist und speichern ein Zeitfenster von 100 Millisekunden als Messintervall.
 ```arduino
-    int micValue = 0; 
-    int mic = 1; // Abhängig von dem Port an dem ihr das Mikrofon angeschlossen habt
+ /*  
+ * This code has been adapted from the
+ * Example Sound Level Sketch for the Adafruit Microphone Amplifier 
+ */
+
+unsigned int micValue; // Variable um den aktuellen Messwert zu speichern
+int micPort = 1;
+const int aufnahmeZeitfenster = 100; // Dauer des Messintervalls in ms (100 ms = 10Hz)
 ```
 
-Nun muss die serielle Ausgabe initialisiert werden und dem Pin `mic` der Modus `INPUT` zugeordnet werden. Dies geschieht in der `setup()`-Funktion.
+Nun muss die serielle Ausgabe initialisiert werden. Dies geschieht in der `setup()`-Funktion.
 {% collapse title="setup() Funktion" %}
 
 ```arduino
-void setup(){
-    Serial.begin(9600);
-    pinMode(mic,INPUT);
-    }
+void setup() 
+{
+   Serial.begin(9600);
+}
 ```
+
 {% endcollapse %}
 
-In der `loop()`-Funktion kann nun der gemessene Wert über den seriellen Monitor ausgegeben werden.
+In der `loop()`-Funktion passieren nun mehrere Dinge.
+Es werden zuerst vier Variablen erstellt. 
+* Die erste legt den Startpunkt des aktuellen Messintervalls fest und speichert dafür die aktuelle Zeit ab. 
+* Die zweite Variable wird erstellt um dort am Ende des Messintervalls den maximalen Amplitudenausschlag abzuspeichern.
+* Die dritte und vierte Variable sind temporäre Zwischenspeicher für die maximale (signalMax) und minimale (signalMin) Amplitude während des Messintervalls.
+
+Nachdem erstellen der Variablen wird eine `while`-Schleife gestartet, diese wird solange wiederholt wie unser Messintervall (100 ms) läuft.
+Innerhalb dieser `while`-Schleife werden mehrere Messungen durchgeführt. Über das Messintervall hinweg werden allerdings nur der maximale und minimale gemessene Wert abgespeichert. Da der Mic-Breakout Sensor Amplituden misst sind für uns genau diese Werte von Interesse, denn wir wollen wissen wie "laut" es innerhalb des Messintervalls war, also wie groß der maximale Amplitudenausschlag der Schallwellen war.
+Nach der `while`-Schleife wird genau diese maximale Amplitude bestimmt indem wir die minimale Amplitude von der maximalen abziehen.
+Diesen Wert wandeln wir dann noch in Volt um.
+So erhalten wir einen Wert der uns etwas über die Qualität der Lautstärke aussagt. 
 
 {% collapse title="loop() Funktion" %} 
 ```arduino
-void loop(){
-    micValue = analogRead(mic);
-    Serial.println(micValue);
+void loop()
+{
+ unsigned long start = millis();  // Start des Messintervalls
+ unsigned int peakToPeak = 0;   // Abstand von maximalem zu minimalem Amplitudenausschlag
+ unsigned int signalMax = 0;    
+ unsigned int signalMin = 1024;
+
+ // Sammle Daten für 100 Millisekunden
+ while (millis() - start < aufnahmeZeitfenster)
+    {
+    micValue = analogRead(micPort); // Messe den aktuellen Wert
+        if (micValue < 1024)  // sortiere Fehlmessungen aus, deren Werte über dem max Wert 1024 liegen 
+        {
+            if (micValue > signalMax)
+            {
+            signalMax = micValue;  // speichere den maximal gemessenen Wert
+            }
+        else if (micValue < signalMin)
+            {
+            signalMin = micValue;  // speichere den minimal gemessenen Wert
+            }
+        }
     }
-```
-{% endcollapse %}
+ peakToPeak = signalMax - signalMin;  // max - min = Abstand von maximalem zu minimalem Amplitudenausschlag
+ double volts = (peakToPeak * 3.3) / 1024;  // wandle in Volt um
 
 
-In einem leisen Raum wird der ausgegebene Wert um den Wert 510 schwanken. Bei lauten Geräuschen können auch negative Werte zurückgegeben werden. Um die Lesbarkeit der erhaltenen Werte zu verbessern können wir einige zusätzliche Berechnungen in einer extra Methode ausführen. 
-
-{% collapse title="Funktion zur Lesbarkeit" %} 
-```arduino
-long getMicVal(){
-  int period = 3; // mittelt drei Werte um 'Ausreißer' abzufangen
-  int correction_value = 510;
-  for(int i = 0; i < period; i++){
-    // berechnet den Absolutbetrag des Wertes um negative Ausschläge abzufangen
-    micValue = micValue + abs(analogRead(mic)-correction_value);
-    delay(5);
-  }
-  micValue = constrain(abs(micValue/period),1,500);    
-  return(micValue);
+Serial.print(volts);         
+Serial.println(" Volt");          
 }
 ```
 {% endcollapse %}
 
-Diese Funktion kann nun anstelle von `analogRead(mic)` in der `loop()`-Funktion verwendet werden.
-
-{% collapse title="Aktualisierte loop() Funktion" %} 
-```arduino
-void loop(){
-    micValue = getMicVal(mic);
-    Serial.println(micValue);
-    }
-```
-{% endcollapse %}
+Wenn du den gesamten Sketch nun auf deine senseBox:Edu hochlädst und den seriellen Monitor öffnest siehst du dort die Ausgabewerte deines Mic-Breakout Mikrofons.
 
 Jetzt könnt ihr ausprobieren welche Geräusche welche Ausschläge verursachen:
 * Wie stark ist der Ausschlag bei Gesprächen ? 
 * Was passiert wenn du den etwas lautes vor das Mikrofon hältst ? 
-* Und was, wenn du hinein pustest ? 
+* Und was, wenn du hinein pustest ?
+
+
+
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+    <b>Du kannst mit rohen Messwerten nicht viel anfangen oder würdest gerne sehen wie man das Mikrofon in eine Anwendung einbauen kann?</b> <br>
+    Dann schau dir doch unseren <a href="AkustischerLichtschalter.md">Akustischen Lichtschalter</a> an. Er basiert auf diesem Projekt und zeigt dir wie deine senseBox laute Geräusche identifizieren kann. So kannst du eine LED zum Beispiel durch Händeklatschen ein- und ausschalten. 
+</div>
