@@ -16,7 +16,7 @@ Es soll ein Kaminfeuer simuliert werden. Dazu wird eine rote LED zum flackern ge
 
 Es wird nur die LED angeschlossen. Diese wird am langen Beinchen mit einem 470Ω Widerstand mit dem digitalen Port 1 verbunden. Das kurze Beinchen wird mit GND verbunden.
 
-![Verkabelung der einfachen LED](../../../pictures/Aufbau_LED.png)
+![Verkabelung der einfachen LED](../../../pictures/projekte/KaminfeuerKlein.png)
 
 ## Programmierung
 

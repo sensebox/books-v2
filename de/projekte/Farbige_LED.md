@@ -16,7 +16,7 @@ In dieser Station wollen wir lernen, wie man eine mehrfarbige LED verwendet.
 ## Aufbau 
 Um die mehrfarbige LED mit der senseBoxMCU zu verbinden stecke die Pins wie in der Abbildung unten.
 
-![Verkabelung der mehrfarbigen LED](../../../pictures/Aufbau_LED.png)
+![Verkabelung der mehrfarbigen LED](../../../pictures/projekte/MehrfarbigeLEDKlein.png)
 
 ## Programmierung
 
@@ -25,7 +25,7 @@ Nun kannst du mit dem Schreiben des Programms beginnen, indem du die NeoPixel Bi
 {% collapse title="Definieren der globalen Variablen" %}
 ```arduino
 #include <Adafruit_NeoPixel.h>
-int pin = 9;
+int pin = 1;
 
 Adafruit_NeoPixel rgb_led = Adafruit_NeoPixel(1, pin, NEO_GRB + NEO_KHZ800);
 ```
