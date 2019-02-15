@@ -1,19 +1,19 @@
 # Summary
 
-* [Einleitung](README.md)
-* [Registrierung](osem_registrierung.md)
-	* [Luftdaten.info Feinstaubsensor](luftdaten_feinstaub.md)
+* [Introduction](README.md)
+* [Registration](osem_registrierung.md)
+	* [Luftdaten.info fine dust sensor](luftdaten_feinstaub.md)
 	* [hackAIR home sensor v2](hackair_home_v2.md)
-	* [Andere Plattformen](osem_custom_sensor.md)
-* [Verwalten von senseBoxen](osem_manage-boxes.md)
-* [Datendownload](osem_download.md)
-* [Datenanalyse](osem_datenanalyse.md)
+	* [Other platforms](osem_custom_sensor.md)
+* [Managing a senseBox](osem_manage-boxes.md)
+* [Data download](osem_download.md)
+* [Data analysis](osem_datenanalyse.md)
 	* [Microsoft Excel](excel.md)
 	* [Libre Office](libre.md)
 	* [R-Studio](R.md)
 	* [ArcGis](Arc.md)
-* [Datenformate](formate.md)	
-* [Sensoren manuell hinzufügen](hinzufuegen.md)
+* [Data formats](formate.md)	
+* [Add sensors manually](hinzufuegen.md)
 ---
 
 * [MQTT Client](mqtt_client.md)
@@ -22,5 +22,5 @@
 ---
 
 * [REST API](osem_api.md)
-* [Community Anwendungen](community_anwendungen.md)
+* [Community applications](community_anwendungen.md)
 * [HTML Widget](osem_widget.md)
