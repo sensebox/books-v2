@@ -1,8 +1,7 @@
 # openSenseMap Widget {#head}
-Um die Sensordaten einer senseBox nicht nur auf `opensensemap.org` anzuzeigen, sondern beispielsweise auch in eine eigene Website einzubinden
-kann das *openSenseMap Widget* verwendet werden.
+To display the sensor data of a senseBox not only on `opensensemap.org`, but also to integrate it into your own website, the *openSenseMap widget* can be used.
 
-## Beispiel
+## Example
 
 <iframe
   src="https://sensebox.github.io/opensensemap-widget/iframe.html?senseboxId=570bad2b45fd40c8197f13a2"
@@ -14,14 +13,14 @@ kann das *openSenseMap Widget* verwendet werden.
   scrolling="no"
 ></iframe>
 
-## Anleitung
-Dieses Widget kann in eine Seite eingebunden werden und zeigt dann dort Informationen zu einer ausgewählten,
-auf der openSenseMap registrierten senseBox an. Um das Widget einzubinden, muss man einfach folgende Codezeilen
-in sein HTML-Element einfügen:
+## Instruction
+This widget can be integrated into a page and then displays information about a selected one,
+on the openSenseMap registered senseBox. In order to include the widget, you simply need the following code lines
+into its HTML element:
 
 ```html
 <iframe
-  src="https://sensebox.github.io/opensensemap-widget/iframe.html?senseboxId=DEINE-SENSEBOXID"
+  src="https://sensebox.github.io/opensensemap-widget/iframe.html?senseboxId=YOUR SENSEBOXID"
   width="400"
   height="600"
   marginwidth="8" marginheight="8"
@@ -31,8 +30,8 @@ in sein HTML-Element einfügen:
 ></iframe>
 ```
 
-In der URL muss `DEINE-SENSEBOXID` durch die ID deiner Box ersetzt werden, wie sie auch in der OpenSenseMap
-gespeichert ist. Anschließend ist das Widget sofort auf der Seite verfügbar.
-Die Größe lässt sich über die `width` und `heigth` Attribute anpassen.
+In the URL, `YOUR SENSEBOXID` must be replaced by the ID of your box, as it appears in the OpenSenseMap
+is stored. The widget is then immediately available on the page.
+The size can be adjusted using the `width` and `heigth` attributes.
 
-Der Quellcode ist auf GitHub unter [sensebox/opensensemap-widget](https://github.com/sensebox/opensensemap-widget) zu finden.
+The source code can be found on GitHub at [sensebox/opensensemap-widget](https://github.com/sensebox/opensensemap-widget).

@@ -1,56 +1,56 @@
 # R {#head}
 
-Für eine ausfürhliche Analyse eurer Daten empfiehlt es sich, mit R und der dazugehörigen Benutzeroberfläche R-Studio zu arbeiten. 
-R bietet umfangreiche Analysetools und ist daher bestens geeignet. 
+For a detailed analysis of your data it is recommended to work with R and the corresponding user interface R-Studio. 
+R offers extensive analysis tools and is therefore ideally suited. 
 
-Startet im ersten Schritt R-Studio.
+Start R-Studio in the first step.
 
 
 
-Um einen Datensatz (.csv Datei) in R zu verarbeiten müsst ihr ihn als erstes einladen. 
-Dies geschieht über den Befehl csv.read("dateiname.csv").
+To process a data set (.csv file) in R, you must first load it. 
+This is done with the command csv.read("fileiname.csv").
 
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/r-studio.png" align="center" width="700"/>
 
-Im nächsten Schritt muss die eingelesene Datei als Variable deklariert werden, da ihr nur so die Tools auf den Datensatz anwenden könnt.
+The next step is to declare the loaded file as a variable, as this is the only way to apply the tools to the data set.
 
-Dies funktioniert über folgenden Befehl: 
+This works with the following command: 
 
-variablenname <- read.csv(dateiname.csv)
+```variable name <- read.csv(filename.csv)```
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/r_var.png" align="center" width="700"/>
 
 
-Mit dem Befehl *View(variablenname)* könnt ihr euch den Datensatz in einem Fenster in einer Tabelle anzeigen lassen. 
-Dabei ist es wichtig, wie bei allen Funktionen, das ihr auf Groß- und Kleinschreibung achtet, da die Funktionen sonst nicht vom Programm erkannt werden. 
+With the command `view(variablenname)` you can display the record in a window in a table. 
+It is important, as with all functions, that you pay attention to upper and lower case, otherwise the functions are not recognized by the program. 
 
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/view.png" align="center" width="700"/>
 
-Im Folgenden zeigen wir euch ein paar einfache Tools, die ihr benutzen könnt, um aus eurem Datensatz Graphiken zu erstellen:
+Below we show you a few simple tools that you can use to create graphics from your dataset:
 
-*plot(variablenname)* Plottet euch den Datensatz in einem einfachen Graphen
+`plot(variablename)` Plot the dataset in a simple graph
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/plot1.png" align="center" width="700"/>
 
-*boxplot(variablenname)* Plottet euch den Datensatz in einer "Boxen" Ansicht.
-Hieran könnt ihr unter anderem den Mittelwert, Minimum und Maximum ablesen.
+`boxplot(variablenname)` Plot the dataset in a "Box" view.
+Here you can read the mean value, minimum and maximum.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/boxplot.png" align="center" width="700"/>
 
-Ihr könnt euch auch Messwerte in Abhängigkeit von einzelnen Parametern über den Befehl:
-*boxplot(d$Messwert)* anzeigen lassen
+You can also get readings depending on individual parameters using the command:
+`boxplot(d$Measured value)` display
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/bplot.png" align="center" width="700"/>
 
-Mit dem Befehl *hist(variablenname$Parameter)* könnt ihr ein Histogramm erstellen.
-Hierbei gilt es darauf zu achten, das die Funktion nur nummerische Werte verarbeiten kann und dies jeweils auch nur für eine Spalte. 
-Hierzu arbeitet ihr wieder mit dem *variablenname$Parameter* Operator, mit dem ihr einzelne Parameter ansprechen könnt. 
+With the command `hist(variablename$Parameter)` you can create a histogram.
+It is important to make sure that the function can only process numeric values and only for one column at a time. 
+For this you work again with the `variablenname$Parameter` operator, with which you can address individual parameters. 
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/hist.png" align="center" width="700"/>
 
 
-Weitere Pakete mit nützlichen Tools könnt ihr unter dem Reiter "Tools" -> install Packages installieren.
-Weitere Informationen, unter anderem zu den Paketen finder ihr [hier](<https://www.r-project.org/other-docs.html>)
+Further packages with useful tools can be installed under the tab "Tools" -> Install Packages.
+More information, among others about the packages you can find [here](<https://www.r-project.org/other-docs.html>)
 

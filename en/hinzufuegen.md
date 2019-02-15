@@ -1,19 +1,19 @@
-# Manuelles hinzufügen eines Sensors {#head}
-Für das manuelle Hinzufügen eines oder mehrerer Sensoren gibt es verschiedene Möglichkeiten. Im Folgenden werden dir drei dieses Möglichkeiten vorgestellt.
+# Adding a sensor manually {#head}
+There are several options for manually adding one or more sensors. Three of these options are presented below.
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-Hast du eine ähnliche Frage oder ein spezifisches Problem zu deiner senseBox? Dann besuche unser <a href="https://forum.sensebox.de/">Forum</a> und stelle deine Fragen hier !
+Do you have a similar question or a specific problem to your senseBox? Then visit our <a href="https://forum.sensebox.de/">Forum</a> and ask your questions here !
 </div>
 
-## Möglichkeit #1
+## Possibility #1
 
-Du löscht deine alte Station und registrierst eine neue `senseBox` und wählst dort direkt die Sensoren aus die du hinzufügen möchtest. Deine alte Station kannst du löschen indem du im `Dashboard` nach Eingabe deines Passworts `senseBox löschen` auswählst. **Denke daran das mit dieser Methode alle bisherigen Messwerte gelöscht werden!**
+You delete your old station and register a new `senseBox` and directly select the sensors you want to add. You can delete your old station by selecting `Delete senseBox` in the `Dashboard` after entering your password. **Remember that this method will delete all previous readings!**
 
-## Möglichkeit #2
+## Possibility #2
 
-Du erstellst eine neue `senseBox` mit den gewünschten Sensoren und bekommst dann direkt den korrekten Sketch zugeschickt. Dort musst du nur deine `WiFi` oder `Ethernet` Einstellugen editieren und die ID's für die Sensoren austauschen. 
+You create a new `senseBox` with the desired sensors and get the correct sketch sent to you. There you only have to edit your `WiFi` or `Ethernet` settings and exchange the ID's for the sensors. 
 
-## Möglichkeit #3
+## Possibility #3
 
-Du wählst `Editieren` im Dashboard für deine Station aus und wechselst dort in den Reiter `Sensoren`. Dort legst du deine gewünschten Sensoren und erhälst im Anschluss zwei neue `SensorID's`. Mit diesen neuen SensorID's kannst du nun deinen Sketch 'manuell' bearbeiten. Solltest du nicht wissen wie das geht, so findest du in unseren Anleitungen in den [edu Books](https://sensebox.github.io/books-v2/edu/de/index.html?Deutsch=Deutsch) Hilfe.
+You select `Edit` in the dashboard for your station and change to the tab `Sensors`. There you put your desired sensors and get two new `SensorID's`. With these new SensorID's you can now edit your sketch 'manually'. If you don't know how to do this, you can find help in our instructions in the [edu Books](https://sensebox.github.io/books-v2/edu/de/index.html?Deutsch=English).

@@ -1,37 +1,36 @@
-# Anwendungen für die openSenseMap API {#head}
+# Applications for the openSenseMap API {#head}
 
-In der Community sind bereits einige Tools und Anwendungen entstanden,
-welche die openSenseMap integrieren oder als Schnittstelle nutzen.
+Some tools and applications have already been developed in the community,
+which integrate the openSenseMap or use it as an interface.
 
-> Falls dir weitere Integrationen bekannt sind, lass es uns wissen!
+> If you know further integrations, let us know!
 
-## Visualisierung
+## Visualization
 
-- [DevelopmentSeed Dashboard](https://github.com/developmentseed/sense): elegantes Dashboard welches die Messungen einer senseBox anzeigt
+- [DevelopmentSeed Dashboard](https://github.com/developmentseed/sense): elegant dashboard which displays the measurements of a senseBox
 - [HPI Makerclub Dashboard](https://github.com/HPIMakerKlub/sensebox) ([demo](http://rawgit.com/HPIMakerKlub/sensebox/master/statistics/sensor.html?senseBoxID=5719c4037514d05c121e317c))
-- [senseBox Dashboard](https://github.com/sensebox/sensebox-dashboard): zeigt aktuelle Messwerte einer senseBox an
+- [senseBox Dashboard](https://github.com/sensebox/sensebox-dashboard): displays current measured values of a senseBox
 - [senseBox Widget](osem_widget.md)
-- [Open Sense](https://play.google.com/store/apps/details?id=de.codefor.karlsruhe.opensense): Android widget zum Darstellen von aktuellen Messwerten von opensensemap.org ([Code auf GitHub](https://github.com/CodeforKarlsruhe/opensense))
+- [Open Sense](https://play.google.com/store/apps/details?id=en.codefor.karlsruhe.opensense): Android widget to display current readings from opensensemap.org ([Code on GitHub](https://github.com/CodeforKarlsruhe/opensense))
 
 <!-- not actually using oSeM as data input
 - [R Shiny Weather Conditions](https://github.com/Avipsa1/Sensebox): Visualization of weather conditions as measured with a senseBox with R Shiny
 - [RasPi Dashboard](https://github.com/sensebox/Innotruck)
 -->
 
-## Datenanalyse
+## Data analysis
 
-- [`opensensmapr` R client](https://github.com/noerw/opensensmapR): openSenseMap Messwerte und Boxen in der statistischen Umgebung R
+- [`opensensmapr` R client](https://github.com/noerw/opensensmapR): openSenseMap Measured values and boxes in the statistical environment R
 - [`senseBox` openSenseMap R client](https://github.com/JohannesFriedrich/senseBox): An R API for the senseBox project. Download and analyse environmental data provided by https://sensebox.de/en/.
 
 ## Sensor Firmware
 
-- [RasPi Wolkenbedeckungs-Sensor](https://github.com/felixerdy/senseBox-cloud)
-- [GSM Wassersensor](https://github.com/felixerdy/GSM-Temperature-senseBox)
+- [RasPi Cloud Cover Sensor](https://github.com/felixerdy/senseBox-cloud)
+- [GSM water sensor](https://github.com/felixerdy/GSM-Temperature-senseBox)
 - [mobile GPS senseBox](https://github.com/noerw/mobile-sensebox)
-- [BigGIS LoRa senseBox](https://github.com/biggis-project/sensebox-station)
 
-## Sonstige
+## Other
 
-- [Alexa senseBox-Skill](https://github.com/Zeygon/alexa-sensebox)
+- [Alexa senseBox skill](https://github.com/Zeygon/alexa-sensebox)
 - [openhab2 smart home senseBox Integration](https://github.com/hakan42/openhab2-addons/tree/sensebox-binding/addons/binding/org.openhab.binding.sensebox)
 - [openSenseMap Game](https://github.com/MaxMoody/Senseboxgamification)

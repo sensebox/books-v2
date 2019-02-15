@@ -1,4 +1,4 @@
 # openSenseMap RESTful API {#head}
-Die openSenseMap stellt eine API zur Abfrage von Daten zu Boxen und Messungen sowie zum Upload von Messungen unter der Adresse https://api.opensensemap.org/ zur Verfügung.
+The openSenseMap provides an API for querying data on boxes and measurements as well as for uploading measurements at the address https://api.opensensemap.org/ .
 
-Die Dokumentation der API-Routen ist [hier](https://docs.opensensemap.org) zu finden.
+The documentation of the API routes can be found [here](https://docs.opensensemap.org).

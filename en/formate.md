@@ -1,14 +1,14 @@
-# Datenformate {#head}
+# Data formats {#head}
 
-**CSV** steht für Comma-seperated values. Datensätze werden durch ein einfaches Komma von einander getrennt aufgelistet. Es ist ein Dateiformat mit dem zum Beispiel Tabellen auf einfache Art und Weise abgespeichert und exportiert werden können. CSV Dateien erkennt ihr an der Endung ".csv".
+**CSV** stands for comma-seperated values. Records are listed separated by a single comma. It is a file format with which, for example, tables can be easily saved and exported. CSV files can be recognized by the extension ".csv".
 
-Ihr könnt diese Dateien auch einfach in einem Text-Editor eurer Wahl öffnen und bearbeiten.
+You can also simply open and edit these files in a text editor of your choice.
 
 
-**JSON** steht für JavaScript Object Notation. Es ist ebenfalls ein einfach gehaltenes Datenformat und kann von allen Programmiersprachen zur Analyse verarbeitet werden. JSON Dateien erkennt ihr an der Endung ".json". Ihr könnt JSON Dateien ebenfalls in allen Text-Editoren öffnen und bearbeiten.
-Dabei dient es, hauptsächlich in Web-Anwendungen, dem Transfer von Daten.
+**JSON** stands for JavaScript Object Notation. It is also a simple data format and can be processed by all programming languages for analysis. You can recognize JSON files by the extension ".json". You can also open and edit JSON files in all text editors.
+It serves, mainly in web applications, the transfer of data.
 
-Zur Veranschaulichung downloaded ihr am besten Datensätze in beiden Formaten und vergleicht die Ergebnisse.
+For illustration you can download data sets in both formats and compare the results.
 
-**TIDY** ist vom gleichen Format wie eine CSV Datei und hat damit auch die gleiche Endung(.csv).
-Daten welche in CSV-Dateien oft ungeordnet vorkommen, werden in Tidy Daten so geordnet, dass jede Variable, also im Kontext der SenseBox zum Beispiel die BoxId, der Name der Box oder ein Phänomen, eine Reihe und jede Beobachtung eine Zeile bildet.
+**TIDY**** is of the same format as a CSV file and has the same extension(.csv).
+Data which often occur in CSV files in a disordered manner are arranged in Tidy data in such a way that each variable, for example the BoxId in the context of the SenseBox, the name of the box or a phenomenon, forms a series and each observation forms a line.

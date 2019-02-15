@@ -1,12 +1,12 @@
 # ArcGis {#head}
 
-Um euch euren Datensatz mit ArcGis visualisieren zu lassen, müsst ihr zunächst euren Datensatz einladen.
+To visualize your record with ArcGis, you have to invite your record first.
 
-Im nächsten Schritt klickt ihr auf *view* -> *graph*
+In the next step click on *View* -> *Graph*.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/grpah.PNG" align="center" width="900"/>
 
 
-Hier könnt ihr nun einige Einstellungen bezügliche eures erwünschten Graphen vornehmen. 
+Here you can make some settings concerning your desired graph. 
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/test.PNG" align="center" width="900"/>
