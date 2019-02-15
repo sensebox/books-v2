@@ -1,124 +1,119 @@
-# Upload über LoRaWAN {#head}
+# Upload via LoRaWAN {#head}
 
-Es ist möglich Sensordaten per LoRaWAN™ durch das [TheThingsNetwork](https://thethingsnetwork.org)
-(TTN) auf die openSenseMap zu laden.
-LoRa ist ein zunehmend Verbreitung findender Funkstandard, welcher ähnlich wie
-WiFi digitale Datenübertragung in einem IP-Netzwerk erlaubt, jedoch deutlich
-andere Features bietet:
+It is possible to send sensor data via LoRaWAN™ through the [TheThingsNetwork](https://thethingsnetwork.org)
+(TTN) onto the openSenseMap.
+LoRa is an increasingly widespread radio standard, which is similar to the
+WiFi digital data transmission allowed in an IP network, but offers significant
+other features:
 
-- Datendurchsatz: 300 - 3000 Bit/s
-- Reichweite:     bis zu 15km 
+- Data throughput: 300 - 3000 Bit/s
+- Range: up to 15km 
 
-TTN ist eins von mehreren Projekten, welches die zur Funk-Hardware zugehörige
-Infrastruktur für das IP-Netzwerk implementiert, wodurch registrierte Geräte
-mit dem Internet verbunden werden können.
+TTN is one of several projects, which is the radio hardware's associated
+Infrastructure implemented for the IP network, enabling registered devices
+can be connected to the Internet.
 
-Nutzer können *Gateways* sowie *Nodes* zu dem Netzwerk hinzufügen.
-Mit dem LoRa Sender auf dem [Dragino Shield](http://wiki.dragino.com/index.php?title=Lora_Shield)
-haben wir bisher gute Erfahrungen gemacht.
+Users can add *Gateways* and *Nodes* to the network.
+
 
 ## TTN openSenseMap Integration
-Die openSenseMap bietet eine direkte Integration in das TTN Netzwerk, was die
-Konfiguration stark vereinfacht.
+The openSenseMap offers a direct integration into the TTN network, which greatly simplifies the
+configuration process.
 
-### Registrierung in TTN Console
+### Registration in TTN Console
 
-Um ein Gerät in das TTN einzubinden, muss für dieses zunächst unter
+In order to integrate a device into the TTN, it must first be defined. On
 [thethingsnetwork.org](https://console.thethingsnetwork.org/)
-eine *Application* und ein *Device* registriert werden. Hierbei erhält man eine
-`app_id` und eine `dev_id`.
+an *Application* and a *Device* must be registered. Here you get a
+`app_id` and a `dev_id`.
 
-Für die registrierte Application muss die HTTP Integration unter <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
-aktiviert werden. Diese muss konfiguriert werden, dass sie die Nachrichten von
-Devices per `POST` an `https://ttn.opensensemap.org/v1.1` weiterleitet. Das
-Authorization-Feld kann leer bleiben!
+For the registered application, the HTTP integration must be configured under <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
+can be activated. This must be configured to forward the messages via `POST` to `https://ttn.opensensemap.org/v1.1`. The
+Authorization field can remain empty!
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" center width="767" />
 
-Für die Datenübertragung zur openSenseMap müssen die `app_id` und `dev_id` bei
-der Registrierung auf der openSenseMap in der TTN-Konfiguration angegeben
-werden. Darüber hinaus muss ein passendes Decoding-Profil konfiguriert werden,
-welches bestimmt wie die - wegen der geringen Bandbreite als rohe Bytes 
-übertragenen - Daten als Messungen interpretiert werden sollen.
+For the data transfer to the openSenseMap the `app_id` and `dev_id` must be set at the form in the openSenseMap registration.
+In addition, a suitable decoding profile must be configured,
+which determines how the - because of the low bandwidth as raw bytes 
+data should be interpreted as measurements.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_register_ttn.png" center width="819" />
 
-Optional kann im Feld `port` noch der Port angegeben werden, auf welchem
-der Sender seine Daten an das TTN schickt. So lassen sich die selbe `app_id`
-und `dev_id` für mehrere Sensorstationen verwenden.
+Optionally in the `port` field, you can specify the port on which the
+the transmitter sends its data to the TTN. This way the same `app_id`
+and `dev_id` for multiple sensor stations.
 
-### Decoding Profile
-Für eine Box muss passend zu den übertragenen Messdaten ein Decoding-Profil
-ausgewählt oder definiert werden.
-Die Auswahl des Decoding-Profils ist von dem Encoding der Nachrichten auf dem
-Mikrocontroller, und ob im TTN eine Payload-Function eingestellt wurde abhängig.
+### Decoding profiles
+A decoding profile must be created for a box to match the transmitted measurement data.
+can be selected or defined.
+The selection of the decoding profile depends on the encoding of the messages on the
+microcontroller, and whether a payload function has been set in the TTN depends.
 
-- Für die senseBox:home (ohne Erweiterungen) kann das `senseBox:home` Profil
-verwendet werden.
-- Werden die Messungen auf der LoRa-Node mit der `lora-serialization`-Library
-encodiert, sollte das `lora-serialization` Profil verwendet werden.
-- Mit dem `json` Profil werden beliebige andere Encodings unterstuetzt, falls eine
-Payload-Function in der TTN Console die Nachrichten passend decodiert.
+- For the senseBox:home (without extensions) the `senseBox:home` profile can be used.
+- If the measurements are taken off the LoRa node with the `lora-serialization` library,
+ the `lora-serialization` profile should be used.
+- The `json` profile supports any other encoding, if a
+  Payload function in the TTN console decodes the messages appropriately.
 
-Im Folgenden wird erklärt wie die unterstützten Profile konfiguriert werden:
+The following explains how to configure the supported profiles:
 
 #### `sensebox/home`
-Dieses Profil ist zugeschnitten auf die mit der senseBox:home gelieferten Sensoren,
-in Verwendung mit
-[diesen Arduino Sketch](https://github.com/sensebox/random-sketches/tree/master/lora/dragino).
-Neben der Angabe `sensebox/home` unter `profile` ist keine weitere Konfiguration
-notwendig.
+This profile is tailored to the sensors supplied with senseBox:home,
+in use with
+[this Arduino sketch](https://github.com/sensebox/random-sketches/tree/master/lora/dragino).
+Besides `sensebox/home` under `profile` there is no further configuration
+necessary.
 
 #### `lora-serialization`
-Für Sensorstationen, welche eine spezielle Sensorkonfiguration haben, können
-durch das `lora-serialization` Profil nahezu beliebige Daten annehmen.
-Hierzu nutzen wir die [`lora-serialization`](https://github.com/thesolarnomad/lora-serialization)
-Bibliothek, welche ein einheitliches Encoding auf dem Microcontroller, und
-Decoding am anderen Ende der Leitung erlaubt.
+For sensor stations that have a special sensor configuration, the following options are available that
+can accept almost any data through the `lora-serialization` profile.
+For this we use the [`lora-serialization`](https://github.com/thesolarnomad/lora-serialization)
+library, which provides a uniform encoding on the microcontroller, and
+decoding at the other end of the line.
 
-Es werden die Encodings `temperature`, `humidity`, `unixtime`, `uint8` und
-`uint16` unterstützt, welche pro Sensor unter **Dekodierungsoptionen** angegeben
-werden müssen.  Die Zuordnung des Sensors kann über eine der Properties
-`sensor_id`, `sensor_title`, `sensor_unit`, `sensor_type` erfolgen.
+The encodings `temperature`, `humidity`, `unixtime`, `uint8` and `number` are used.
+`uint16`, which is specified per sensor under **Decoding options**.
+ The assignment of the sensor can be done via one of the properties
+`sensor_id`, `sensor_title`, `sensor_unit`, `sensor_type`.
 
-Ein Beispiel für zwei Sensoren sähe so aus:
+An example for two sensors would look like this:
 
 ```json
 [
-  { "decoder": "temperature", "sensor_title": "Temperatur" },
+  { "decoder": "temperature", "sensor_title": "Temperature" },
   { "decoder": "humidity", "sensor_unit": "%" }
 ]
 ```
 
-> ***Hinweis:*** *Die Reihenfolge der Sensoren muss hier beim Arduino und der
-> openSenseMap identisch sein!*
+>***Note:*** *The order of the sensors has to be set here at Arduino and the openSenseMap to be identical!
 
-Wenn ein `unixtime` Decoder angegeben wird, wird dessen Zeitstempel für alle im
-Folgenden angegebenen Messungen verwendet.
-Andernfalls wird der Moment verwendet, in dem das erste Gateway die Nachricht
-erhält. Beispiel: 
+If a `unixtime` decoder is specified, its timestamp will be used for all decoders in the
+The following measurements are used.
+Otherwise, the moment when the first gateway receives the message
+receives. Example: 
 
 ```json
 [
   { "decoder": "unixtime" },
-  { "decoder": "temperature", "sensor_title": "Temperatur" }
+  { "decoder": "temperature", "sensor_title": "Temperature" }
 ]
 ```
 
-#### `json` - Decoding mit TTN Payload Function
-Falls die `lora-serialization` Library nicht zur Wahl steht, können Messungen
-schon auf Seite des TTN mittels einer *Payload Function* dekodiert werden,
-sodass hier beliebige Datenformate unterstützt werden.
+#### `json` - Decoding with TTN Payload Function
+If the `lora-serialization` library is not available, measurements can be sent using 
+the  *Payload Function* tab at TTN,so that any data formats are supported.
 
-![In der TTN Console muss eine Payload Function definiert werden](https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png)
+![In the TTN Console a Payload Function must be defined](https://raw.githubusercontent.com/sensebox/resources/master/images/lora_ttn_payloadfunc.png)
 
-Das resultierende JSON muss kompatibel mit den von der [openSenseMap-API verstandenen
-Measurement Formaten sein](https://docs.opensensemap.org/#api-Measurements-postNewMeasurements).
-Ein einfaches Beispiel:
+The resulting JSON must be compatible with the [openSenseMap API's understanding of the
+Measurement Formats](https://docs.opensensemap.org/#api-Measurements-postNewMeasurements).
+A simple example:
 
 ```json
 { "sensor_id1": "value1, "sensor_id2: "value2" }
 ```
 
-Auf Seiten der openSenseMap ist keine Konfiguration notwendig.
+No configuration is necessary on the openSenseMap side.
+
 

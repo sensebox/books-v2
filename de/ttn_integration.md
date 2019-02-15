@@ -29,7 +29,7 @@ eine *Application* und ein *Device* registriert werden. Hierbei erhält man eine
 `app_id` und eine `dev_id`.
 
 Für die registrierte Application muss die HTTP Integration unter <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
-aktiviert werden. Diese muss konfiguriert werden, dass sie die Nachrichten von
+aktiviert werden. Diese muss konfiguriert werden, dass sie die Nachrichten von den 
 Devices per `POST` an `https://ttn.opensensemap.org/v1.1` weiterleitet. Das
 Authorization-Feld kann leer bleiben!
 
