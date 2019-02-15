@@ -22,9 +22,9 @@ The fine dust sensor of Luftdaten.info can be easily configured via a website. T
 The fine dust sensor should now send its data to the openSenseMap.
 
 ## Figure 1: Webinterface fine dust sensor
-<img src="https://github.com/sensebox/resources/raw/master/images/luftdaten/02_Sensor_Configuration.png"/>
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/luftdaten/02_Sensor_Konfiguration.png"/>
 
 ## Figure 2: Registration openSenseMap
-<img src="https://github.com/sensebox/resources/raw/master/images/luftdaten/01_openSenseMap_Configuration.png"/>
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/luftdaten/01_openSenseMap_Konfiguration.png"/>
 
 

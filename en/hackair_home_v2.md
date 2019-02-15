@@ -28,9 +28,9 @@ Then an open network called `ESP-wemos` should be available. After that you have
 The `hackAIR home v2` sensor should now send the data to the openSenseMap.
 
 ## Figure 1: Webinterface fine dust sensor
-<img src="https://github.com/sensebox/resources/raw/master/images/hackair/02_Sensor_Configuration.png"/>
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/hackair/02_Sensor_Konfiguration.png"/>
 
 ## Figure 2: Registration openSenseMap
-<img src="https://github.com/sensebox/resources/raw/master/images/hackair/01_openSenseMap_Configuration.png"/>
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/hackair/01_openSenseMap_Konfiguration.png"/>
 
 
