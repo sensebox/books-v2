@@ -1,6 +1,6 @@
 # Upload via LoRaWAN {#head}
 
-It is possible to send sensor data via LoRaWAN™ through the [TheThingsNetwork](https://thethingsnetwork.org)
+It is possible to upload sensor data via LoRaWAN™ through the [TheThingsNetwork](https://thethingsnetwork.org)
 (TTN) onto the openSenseMap.
 LoRa is an increasingly widespread radio standard, which is similar to the
 WiFi digital data transmission allowed in an IP network, but offers significant
@@ -9,11 +9,9 @@ other features:
 - Data throughput: 300 - 3000 Bit/s
 - Range: up to 15km 
 
-TTN is one of several projects, which is the radio hardware's associated
-Infrastructure implemented for the IP network, enabling registered devices
-can be connected to the Internet.
+TTN is one of several projects, which aims to enable registered devices to connect to the Internet via LoRa.
 
-Users can add *Gateways* and *Nodes* to the network.
+Users can also add *Gateways* and *Nodes* to the network.
 
 
 ## TTN openSenseMap Integration
@@ -27,13 +25,13 @@ In order to integrate a device into the TTN, it must first be defined. On
 an *Application* and a *Device* must be registered. Here you get a
 `app_id` and a `dev_id`.
 
-For the registered application, the HTTP integration must be configured under <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
+For the registered application, the HTTP integration must be configured under <https://console.thethingsnetwork.org/applications/YOUR_APP_ID/integrations/create/http-ttn>
 can be activated. This must be configured to forward the messages via `POST` to `https://ttn.opensensemap.org/v1.1`. The
-Authorization field can remain empty!
+Authorization field can remain empty! 
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" center width="767" />
 
-For the data transfer to the openSenseMap the `app_id` and `dev_id` must be set at the form in the openSenseMap registration.
+For the data upload to the openSenseMap the `app_id` and `dev_id` must be set in the registration form on the openSenseMap.
 In addition, a suitable decoding profile must be configured,
 which determines how the - because of the low bandwidth as raw bytes 
 data should be interpreted as measurements.
@@ -46,7 +44,6 @@ and `dev_id` for multiple sensor stations.
 
 ### Decoding profiles
 A decoding profile must be created for a box to match the transmitted measurement data.
-can be selected or defined.
 The selection of the decoding profile depends on the encoding of the messages on the
 microcontroller, and whether a payload function has been set in the TTN depends.
 
@@ -60,8 +57,7 @@ The following explains how to configure the supported profiles:
 
 #### `sensebox/home`
 This profile is tailored to the sensors supplied with senseBox:home,
-in use with
-[this Arduino sketch](https://github.com/sensebox/random-sketches/tree/master/lora/dragino).
+in use with [this Arduino sketch](https://github.com/sensebox/random-sketches/tree/master/lora/dragino).
 Besides `sensebox/home` under `profile` there is no further configuration
 necessary.
 
@@ -88,10 +84,10 @@ An example for two sensors would look like this:
 
 >***Note:*** *The order of the sensors has to be set here at Arduino and the openSenseMap to be identical!
 
-If a `unixtime` decoder is specified, its timestamp will be used for all decoders in the
+If a `unixtime` decoder is specified, its timestamp will be used for all following measurements.
 The following measurements are used.
-Otherwise, the moment when the first gateway receives the message
-receives. Example: 
+Otherwise, the timestampt from when the gateway receives the first message
+is used. Example: 
 
 ```json
 [
