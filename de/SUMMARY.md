@@ -77,4 +77,5 @@
     * [Tabs](templates/tabs.md)
     * [Neue Seite](templates/neue-seite.md)
     * [Collapsible](templates/collapsible.md)
-
+* [Impressum](imprint.md)
+* [Datenschutz](privacy.md)
