@@ -16,15 +16,16 @@ Please have a look at the instructions for your operation systems and follow the
 {% content "first" %}
 ### Download of the Arduino Software for Windows
 
-> Please use Arduino 1.8.5 or higher for a fluent procedure.
+> Please use Arduino 1.8.7 for a fluent procedure.
 
 
-The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
+The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the version 1.8.7 as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
 
-![ ](arduino-windows-view.png)
+![ ](arduino-view.png)
+
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
-![ ](arduino-just-download.png)
+![ ](arduino-install-view.png)
 
 Compile a new folder and unzip the zip-file in the new folder. By starting the file `arduino.exe` the IDE can get started.  
 
@@ -32,15 +33,15 @@ Compile a new folder and unzip the zip-file in the new folder. By starting the f
 
 ### Download the Arduino Software for Mac(OSX) 
 
-> Please use Arduino 1.8.5 or higher for a fluent procedure.
+> Please use Arduino 1.8.7 for a fluent procedure.
 
-The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
+The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the version 1.8.7 as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
 
-![ ](arduino-mac-view.png)
+![ ](arduino-view.png)
 
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
-![ ](arduino-just-download.png)
+![ ](arduino-install-view.png)
 
 In your download file should appear a  Arduino.app file. Relocate the file into your "Programme"-folder. By starting the file `Arduino.app` you can run the IDE. 
 
@@ -49,16 +50,16 @@ In your download file should appear a  Arduino.app file. Relocate the file into 
 
 ### Download the Arduino Software for Linux
 
-> Please use Arduino 1.8.5 or higher for a fluent procedure.
+> Please use Arduino 1.8.7 for a fluent procedure.
 
-The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the latest version as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/main/software) 
+The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the version 1.8.7 as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
 
 
-![ ](arduino-linux-view.png)
+![ ](arduino-view.png)
 
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
-![ ](arduino-just-download.png)
+![ ](arduino-install-view.png)
 ### Installation of the IDE with Linux {#installation-der-ide-unter-linux}
 
 Linux-user can download and unzip a Linux version. The contained `install.sh`-script compiles a desktop shortcut automatically. The fastes way is to use the terminal. Open the Terminal therefor by hitting the keys `Ctrl + Alt + T` and enter the following commands:
@@ -69,14 +70,10 @@ Linux-user can download and unzip a Linux version. The contained `install.sh`-sc
 
 ```text
 # unzip the file with the following command and install Arduino
-tar -xvf arduino-1.8.5-linux64.tar.xz
-cd arduino-1.8.5
+tar -xvf arduino-1.8.7-linux64.tar.xz
+cd arduino-1.8.7
 ./install.sh
 ```
-<div class="box_warning">
-    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Watch out, that the command is coordinated to the downloaded Arduinoversion! If you are downloading for example Arduino 1.8.6 everywhere where arduino-1.8.5 stands arduino-1.8.6 has to stand to. Watch the name of the download-file to check which version you have downloaded.
-</div>
 
 To programme Arduino ther are additional rights necessary at  Ubuntu 14 & 16. Those can be established by the following commands \(benötigt Admin-Rechte\):
 
