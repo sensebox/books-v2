@@ -5,6 +5,11 @@
     <br>
     <br>
 </div>
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Mit der aktuellen Arduino IDE 1.8.8 ist es zur Zeit nicht möglich ein Update der Firmware für das WiFi Bee auszuführen. Für einen reibungslosen Vorgang braucht ihr die Arduino IDE V. 1.8.7. Diese könnt ihr euch aus dem <a href="https://www.arduino.cc/en/Main/OldSoftwareReleases#previous">Downloadarchiv von Arduino</a> herunterladen.
+</div>
+
 
 ## Test der Version
 
