@@ -66,5 +66,5 @@
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Update Windows USB-Bootloader Drivers](win-boot-help.md)
 * [Update of Board-Support-Package & senseBox-Libraries](hilfe/aktualisierung_bsp_libraries.md)
-
-
+* [Imprint](imprint.md)
+* [Privacy](privacy.md)
