@@ -43,3 +43,5 @@
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Update Windows USB Bootloader Driver](win-boot-help.md)
 * [Update of Board Support Package and Libraries](aktualisierung_bsp_libraries.md)
+* [Imprint](imprint.md)
+* [Privacy](privacy.md)
