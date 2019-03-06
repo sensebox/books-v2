@@ -24,7 +24,7 @@
 
 ## Projekte
 * [Feinstaub Messstation](projekte/feinstaub_temp_osem.md)
-* [Verkehrszähler](projekte/ampel_button.md)
+* [Ampelschaltung](projekte/ampel_button.md)
 
 
 
