@@ -24,34 +24,7 @@
 
 ## Projekte
 * [Feinstaub Messstation](projekte/feinstaub_temp_osem.md)
-* [Verkehrszähler](projekte/verkehrszaehlerv2.md)
+* [Verkehrszähler](projekte/ampel_button.md)
 
 
-## Komponenten
-* [Inhalt](komponenten/README.md)
-    * [senseBox MCU](komponenten/sensebox-mcu.md)
-    * [Bees](komponenten/bees/README.md)
-        * [Wifi-Bee](komponenten/bees/wifi.md)
-        * [LAN-Bee](komponenten/bees/lan.md)
-        * [mSD-Bee](komponenten/bees/sd.md)
-    * [Sensoren](komponenten/sensoren/README.md)
-        * [Temperatur & Luftfeuchte (HDC1080)](komponenten/sensoren/hdc1080.md)
-        * [Luftdruck & Temperatur](komponenten/sensoren/luftdruck-temperatur.md)
-        * [Belichtung und UV](komponenten/sensoren/belichtung-und-uv.md)
-        * [Feinstaub](komponenten/sensoren/feinstaub.md)
-    * [Zubehör](komponenten/zubehoer/README.md)
-        * [LED-Display](komponenten/zubehoer/led-display.md)
-        * [GPS](komponenten/zubehoer/gps.md)
-
-## Hilfe
-* [Lösungen](hilfe/loesungen.md)
-* [FAQ](hilfe/hilfe.md)
-* [Firmware Update Wifi-Bee](additional-info.md)
-* [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
-* [Contributing](templates/README.md)
-    * [Hint-Box](templates/hint-template.md)
-    * [Bildunterschriften](templates/bildunterschriften.md)
-    * [Tabs](templates/tabs.md)
-    * [Neue Seite](templates/neue-seite.md)
-    * [Collapsible](templates/collapsible.md)
 
