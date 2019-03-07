@@ -1,4 +1,3 @@
-<div>
 <h1>Datenschutzerkl&auml;rung</h1>
 
 <h2>1) Information &uuml;ber die Erhebung personenbezogener Daten und Kontaktdaten des Verantwortlichen</h2>
@@ -85,4 +84,3 @@ MACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DE
 <h2>7) Dauer der Speicherung personenbezogener Daten</h2>
 
 <p>Die Dauer der Speicherung von personenbezogenen Daten bemisst sich anhand der jeweiligen gesetzlichen Aufbewahrungsfrist (z.B. handels- und steuerrechtliche Aufbewahrungsfristen). Nach Ablauf der Frist werden die entsprechenden Daten routinem&auml;&szlig;ig gel&ouml;scht, sofern sie nicht mehr zur Vertragserf&uuml;llung oder Vertragsanbahnung erforderlich sind und/oder unsererseits kein berechtigtes Interesse an der Weiterspeicherung fortbesteht.</p>
-</div>
