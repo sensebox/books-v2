@@ -1,15 +1,20 @@
 # senseBox version 2 Books
 
-This repository contains the gitbook sources for the documentation and OER regarding the <b>second version of senseBox</b> (for first version of senseBox see [here](https://github.com/sensebox/books)).
+This repository contains the gitbook sources for the documentation and OER regarding <b>only the second version of senseBox</b> that comes with the senseBox MCU instead of Arduino/Genuino Uno.
 
-There are seperate branches for editing each book inside this repository. 
+![senseBox v2 uses sensebox MCU](https://github.com/sensebox/books-v2/raw/master/senseBoxv2.png)
+ 
+There are seperate branches for each book inside this repository. These books are [gitbooks](https://www.gitbook.com) consisting of markdown files. 
 There are four books until now:
 - <b>[senseBox:edu-book](https://github.com/sensebox/books-v2/tree/edu)</b> in branch called "edu" hosted [here](https://sensebox.github.io/books-v2/edu).
 - <b>[senseBox:home-book](https://github.com/sensebox/books-v2/tree/home)</b> in branch called "home" hosted [here](https://sensebox.github.io/books-v2/home).
 - <b>[senseBox:osem-book](https://github.com/sensebox/books-v2/tree/osem)</b> in branch called "osem" hosted [here](https://sensebox.github.io/books-v2/osem).
 - <b>[senseBox:blockly-book](https://github.com/sensebox/books-v2/tree/blockly)</b> in branch called "blockly" hosted [here](https://sensebox.github.io/books-v2/blockly).
 
-There is also a <b>[gh-pages branch](https://github.com/sensebox/books-v2/tree/gh-pages)</b>, where all the builded gitbooks are stored and hosted from. To avoid redundant data all pictures used in all senseBox books are stored in one single pictures-folder in the gh-pages branch.
+Additionally, there is a <b>[gh-pages branch](https://github.com/sensebox/books-v2/tree/gh-pages)</b>.
+This is where all the builded gitbooks are stored as static html files and hosted from. 
+
+To avoid redundant data all pictures used in all senseBox books are stored in one single pictures-folder in the gh-pages branch instead of directly inside each book branch.
 
 ## Contribution 
 
@@ -34,6 +39,8 @@ To get a live preview of a books website-output, run:
 gitbook install   # only required once
 gitbook serve
 ```
+Due to outsourcing the pictures used in all books to the gh-pages branch you will not be able to see pictures in your local live preview.
+
 
 #### Render to disk
 GitBook provides the output formats `website`, `pdf` and `ebook`.
@@ -50,7 +57,7 @@ gitbook epub      # build the ebook
 Each (multilingual) book resides on its own branch.
 Currently these are `edu`,`home`, `osem` and `blockly`, each containing a `de` and `en` language book.
 
-The german versions have far more content, while the english versions are steadily supplemented from there.
+The german versions have more content, while the english versions are steadily supplemented from there.
 
 Files that are parsed specially by GitBook have a filename in caps:
 
@@ -64,7 +71,7 @@ Stylesheets applied on all books are in `./styles`, and are symlinked into each 
 
 ### Deployment
 Currently the books are built and hosted by [gitbook.com](https://sensebox.github.io/books-v2/).
-A commit on each of the <bookname> branches does not automatically triggers a new build of the book there.
+A commit on each of the <bookname> branches does not automatically trigger a new build of the book there.
 Instead the builds of a book will be renewed by senseBox staff. Please keep in mind, to store all pictures in the gh-pages branch and not in the book's branch itself.
 
 The pdf builds however are built on travis to support custom cover pages. These builds are autocommited into the `gh-pages` branch.
