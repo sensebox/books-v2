@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![The Housing](/../../../../pictures/box%2002%20top.png)
+![The Housing](../../../../pictures/box%2002%20top.png)
 
 The transparent polycarbonate housing protects the senseBox MCU and the belonging sensors from the weather.
 

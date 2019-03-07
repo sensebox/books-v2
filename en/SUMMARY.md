@@ -33,7 +33,7 @@
         * [Power Supply and USB-Cable](komponenten/zubehoer/netzteil-und-usb-kabel.md)
         * [LED-Display](komponenten/zubehoer/led-display.md)
         * [Expander](komponenten/zubehoer/hub.md)
-        * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
+        * [Micro-SD Card](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
 
 ## Help & More
