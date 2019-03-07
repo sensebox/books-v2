@@ -6,6 +6,9 @@
     <br>
 </div>
 
+
+![Expander](../../../../pictures/hub_bottom.png)
+
 ## Technische Details
    * "Plug-in-and-Go" senseBox kompatibel
    * 4 x JST Anschluss
@@ -13,7 +16,3 @@
 ## Datenblatt 
 
 Das Datenblatt zum Expander findest du [hier](https://sensebox.kaufen/assets/datenblatt/senseBox-Expander_v20.pdf) als PDF-Version.
-
-
-
-![Expander](../../../../pictures/hub_bottom.png)
