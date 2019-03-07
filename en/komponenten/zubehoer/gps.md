@@ -9,7 +9,7 @@
 ![GPS module](../../../../pictures/gps%20top.png)
 
 
-## Aufbau 
+## Setup 
 In order for the GPS module to have a signal throughout the entire measurement period and thus be able to request the location, you must ensure that the module is not covered by anything. Ideally, you should install it outside the housing for the measurement period. 
 
 For the power supply during the measurement period you can use a power bank. Some Powerbanks switch themselves off, too little power is drawn (e.g. when a mobile phone is fully charged), so it can happen that the Powerbank does not permanently supply the senseBoxMCU with power. Before measuring, make sure that this is not the case. The GPS sensor is connected to the I2C ports. 
@@ -20,7 +20,7 @@ For the power supply during the measurement period you can use a power bank. Som
 </div>
 
 
-## Programmierung
+## Programming
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>

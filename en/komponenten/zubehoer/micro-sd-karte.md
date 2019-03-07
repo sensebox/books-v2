@@ -6,9 +6,11 @@
     <br>
 </div>
 
+
+![microSD Card](../../../../pictures/micro-sd-card.png)
+
 ## Technical Details
    * compatible with senseBox mSD-Bee
    * 2 GB storage
 
 
-![microSD Card](../../../../pictures/micro-sd-card.png)
