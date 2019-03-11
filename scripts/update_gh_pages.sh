@@ -1,7 +1,5 @@
 #!/bin/bash
 set -e
-echo -n "Enter the path to your repository and press [ENTER]: " 
-read bookpath
 shouldloop=true;
 while $shouldloop; do
 echo -n "Enter a book name (edu, home, blockly or osem) and press [ENTER]: "
@@ -14,6 +12,8 @@ else
    shouldloop=true;
 fi
 done
+echo -n "Enter the path to your repository and press [ENTER]: " 
+read bookpath
 echo "Your book is named: $book_name"
 echo "Your book path is: $bookpath"
 cd $bookpath
