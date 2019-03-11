@@ -39,7 +39,7 @@ Steckt den Schaltkreis wie ihr ihn unten in der Grafik seht.
 
 <div class="box_warning">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
+    Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
 </div>
 
 Als erstes muss eine Instanz des Sensors angelegt werden.
@@ -78,6 +78,6 @@ void loop(){
 Baue die oben beschriebene Schaltung nach und versuche den HDC1008 auszulesen und Dir die gemessenen Daten im seriellen Monitor anzeigen zu lassen.
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Schaue dir hierfür die Beispiele aus den <a href="/../../erste-schritte/software-installation.md">Ersten Schritten</a> an!
+    Schaue dir hierfür die Beispiele aus den <a href="../../erste-schritte/software-installation.md">Ersten Schritten</a> an!
 </div>
 {% endcollapse %}
