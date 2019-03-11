@@ -3,11 +3,15 @@
 Here you can find two scripts for updating the edu, home, blockly and osem books.
 
 To perform either of the scripts you need to download them, and make them executable with the command:
-`chmod +x path/to/your/file/filename.sh`
+```
+$ chmod +x path/to/your/file/filename.sh
+```
 
 Next you can execute them with:
-`cd path/to/your/file/`
-`./filename.sh`
+```
+$ cd path/to/your/file/
+$ ./filename.sh
+```
 
 The `update_book_and_gh_pages.sh` can be performed after you saved changes in the edu, home, blockly or osem branches of your local repository. It replaces the `git add`, `git commit` and `git push` commands as they are part of the script. Additionally it builds a static html version of the book and replaces the current version of the book on the `gh-pages` branch.
 There are three input parameters you need to enter, during the script compilation: 
