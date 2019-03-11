@@ -1,8 +1,18 @@
 #!/bin/bash
 set -e
-echo -n "Enter the book name and press [ENTER]: " 
-read book_name
-echo "Your book is: $book_name"
+shouldloop=true;
+while $shouldloop; do
+echo -n "Enter a book name (edu, home, blockly or osem) and press [ENTER]: "
+read input
+shouldloop=false;
+if [ $input == 'edu' ] || [ $input == 'home' ] || [ $input == 'osem' ] || [ $input == 'blockly' ]; then
+   book_name=$input;
+else
+   echo "Enter a valid book name: edu, home, blockly or osem";
+   shouldloop=true;
+fi
+done
+echo "Your book is named: $book_name"
 echo -n "Enter the path to your repository and press [ENTER]: " 
 read repo_path
 cd $repo_path
