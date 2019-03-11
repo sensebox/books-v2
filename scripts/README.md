@@ -24,6 +24,12 @@ There are two parameters you need to enter, during the script compilation:
 - the name of the book you want to update
 - the path to your local repository
 
-Be aware you need to have gitbook installed on you local devices as descriped in the README.md of the master branch of this repository. Additionally, you need the rights to push to the corresponding branches to successfully execute the script. 
-If you don't have these rights, try to fork this repository and perform this script on your forked repository. Then submit a pull request to this repository.
+Be aware you need to have gitbook installed on you local devices as descriped in the README.md of the master branch of this repository.
+
+# Use of scripts without repository rights
+You need the rights to push to the corresponding branches to successfully execute the script. 
+If you don't have these rights, please fork this repository and clone it to your local device.
+Then you can perform this script on your forked repository. 
+Therefore you just need to enter the path to the **forked repository** on your local device.
+When you are finished you can submit a pull request to this (original) repository.
 
