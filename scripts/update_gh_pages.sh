@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
-bookpath=$HOME/SenseBox/gitbook/books/book_home/books-v2; 
+echo -n "Enter the path to your repository and press [ENTER]: " 
+read bookpath
 shouldloop=true;
 while $shouldloop; do
 echo -n "Enter a book name (edu, home, blockly or osem) and press [ENTER]: "
