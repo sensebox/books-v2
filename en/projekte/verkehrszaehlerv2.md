@@ -18,7 +18,7 @@ For this we use an ultrasonic distance sensor. The values recorded in this way s
 The ultrasonic distance sensor uses the sound to determine the distance of objects. The sensor sends out a pulse and measures the time until it receives the echo of the pulse again. From this time one calculates with the help of the speed of sound the distance of the object.
 
 ## Construction
-The ultrasonic sensor is connected to the senseBox MCU using a JST adapter cable. To do this, connect the JST adapter cable to the Digital A slot. For power supply the VCC pin of the sensor is connected to the red cable (5V) and the GND pin of the sensor to the black cable (GND). For data transmission then the green cable (1) with the echo and the yellow cable (2) with the Trig pin of the sensor is connected.
+The ultrasonic sensor is connected to the senseBox MCU using a JST adapter cable. To do this, connect the JST adapter cable to the Digital A slot. For power supply the VCC pin of the sensor is connected to the red cable (5V) and the GND pin of the sensor to the black cable (GND). For data transmission then the green cable (1) with the TRIG and the yellow cable (2) with the ECHO pin of the sensor is connected.
 
 ![Wiring of the ultrasonic sensor](../../../pictures/projekte/Verkehrszaehler_v2.png)
 
@@ -28,8 +28,8 @@ The ultrasonic sensor is connected to the senseBox MCU using a JST adapter cable
 
 Define the pins where you connected the sensor as usual. In addition, two variables are created in which the measured time and the calculated distance are stored.
 ```arduino
-int trig = 2;  // Trig pin of the sensor is on pin 2
-int echo = 1;  // Echo pin of the sensor is connected to pin 1.
+int trig = 1;  // Trig pin of the sensor is on pin 1
+int echo = 2;  // Echo pin of the sensor is connected to pin 2.
 unsigned int time = 0;
 unsigned int distance = 0;
 ```
