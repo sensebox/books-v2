@@ -21,7 +21,7 @@ Der Ultraschall-Distanzsensor nutzt den Schall um die Entfernung von Objekten zu
 ## Aufbau
 Der Ultraschallsensor wird mit einem JST-Adapterkabel mit der senseBox MCU verbunden. Dazu wird das JST-Adapterkabel mit dem Steckplatz Digital A verbunden.
 Zur Stromversorgung wird der VCC-Pin des Sensors mit dem roten Kabel (5V)und der GND-Pin des Sensors mit
-dem schwarzen Kabel (GND) verbunden. Zur Datenübertragung wird dann das grüne Kabel (1) mit dem Echo- und das gelbe Kabel (2) mit dem Trig-Pin des Sensors verbunden.
+dem schwarzen Kabel (GND) verbunden. Zur Datenübertragung wird dann das grüne Kabel (1) mit dem Trig- und das gelbe Kabel (2) mit dem Echo-Pin des Sensors verbunden.
 
 ![Verkabelung des Ultraschall-Sensors](../../../pictures/projekte/Verkehrszaehler_v2.png)
 
@@ -33,8 +33,8 @@ Definiert die Pins an dem ihr den Sensor angeschlossen habt wie üblich.
 Außerdem werden zwei Variablen angelegt in der die gemessene Zeit und die errechnete Distanz gespeichert werden.
 
 ```arduino
-int trig = 2;  // Trig-Pin des Sensors ist an Pin 2 angeschlossen.
-int echo = 1;  // Echo-Pin des Sensors ist an Pin 1 angeschlossen.
+int trig = 1;  // Trig-Pin des Sensors ist an Pin 1 angeschlossen.
+int echo = 2;  // Echo-Pin des Sensors ist an Pin 2 angeschlossen.
 unsigned int time = 0;
 unsigned int distance = 0;
 ```
