@@ -8,7 +8,7 @@
 
 {% collapse title="What is the openSenseMap?" %}
 
-The openSenseMap is a project to file, compare and visualise sensordata. Take a look at it by clicking on [www.opensensemap.org](https://www.opensensemap.org) and discover a vast data pool of sensordata from around the world. Not only senseBoxes send data to the openSenseMap but also other microcontroller with sensors. You can [here](https://sensebox.github.io/books-v2/osem) see how the individual functions of openSenseMap and their interfaces work.
+The openSenseMap is a project to file, compare and visualize sensor data. Take a look at it by clicking on [www.opensensemap.org](https://www.opensensemap.org) and discover a vast data pool of sensor data from around the world. Not only senseBoxes send data to the openSenseMap but also other microcontroller with sensors. You can [here](https://sensebox.github.io/books-v2/osem) see how the individual functions of openSenseMap and their interfaces work.
 
 
 {% endcollapse %}
@@ -30,12 +30,12 @@ Since the openSenseMap is open to all types of senseBoxes, you will be asked abo
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  You are not sure if you have an ethernet or a wifi-bee, or you cannot see the difference between the airpressure and temperature sensor? In the chapter <a href = "../komponenten/README.md">Komponenten</a> you are going to find pictures and further hints for the individual components.
+  You are not sure if you have an ethernet or a wifi-bee, or you cannot see the difference between the air pressure and temperature sensor? In the chapter <a href = "../komponenten/README.md">Box Content</a> you are going to find pictures and further hints for the individual components.
 </div>
 
-Now you are almost done! Quickly select the sensors that you will connect to your senseBox. Just click and ready. If you want to install a finedustsensor, you also have to specify which serial port you want to connect to. After that you can finish the process.
+Now you are almost done! Quickly select the sensors that you will connect to your senseBox. Just click and ready. If you want to install a fine dust sensor, you also have to specify which serial port you want to connect to. After that you can finish the process.
 
-{% collapse title="Why do I have to connect a finedustsensor to the serial-port?" %}
+{% collapse title="Why do I have to connect a fine dust sensor to the serial-port?" %}
 
 Here should be an explanation
 

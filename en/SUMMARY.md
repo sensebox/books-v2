@@ -33,7 +33,7 @@
         * [Power Supply and USB-Cable](komponenten/zubehoer/netzteil-und-usb-kabel.md)
         * [LED-Display](komponenten/zubehoer/led-display.md)
         * [Expander](komponenten/zubehoer/hub.md)
-        * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
+        * [Micro-SD Card](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
 
 ## Help & More
@@ -43,3 +43,5 @@
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Update Windows USB Bootloader Driver](win-boot-help.md)
 * [Update of Board Support Package and Libraries](aktualisierung_bsp_libraries.md)
+* [Imprint](imprint.md)
+* [Privacy](privacy.md)

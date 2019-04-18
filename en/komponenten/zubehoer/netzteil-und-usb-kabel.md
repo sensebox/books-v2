@@ -1,5 +1,5 @@
 # Power Supply and USB-Cable {#head}
-<div class="description">The senseBox is connected to a conventional micro USB cable and connected to the computer or to a power source</div>
+<div class="description">The senseBox is connected to a conventional micro USB cable and connected to the computer or to a power source.</div>
 
 <div class="line">
     <br>

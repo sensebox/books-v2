@@ -18,7 +18,7 @@ Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schri
   7. [Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
   8. [Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
 2. Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an
-   1. [Inahlt](komponenten/README.md)
+   1. [Inhalt](komponenten/README.md)
      1. [senseBox MCU](komponenten/sensebox-mcu.md)
      2. [Bees](komponenten/bees/README.md)
      3. [Sensoren](komponenten/sensoren/README.md)

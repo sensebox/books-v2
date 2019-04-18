@@ -39,6 +39,7 @@
 ## Hilfe & Weiteres
 * [FAQ](hilfe.md)
 * [Downloads](downloads.md)
+* [Stromverbrauch](Stromverbrauch.md)
 * [Externe Libraries hinzufügen](add-external-libraries.md)
 * [Firmware Update Wifi-Bee](additional-info.md)
 * [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
@@ -49,3 +50,5 @@
     * [Tabs](templates/tabs.md)
     * [Neue Seite](templates/neue-seite.md)
     * [Collapsible](templates/collapsible.md)
+* [Impressum](imprint.md)
+* [Datenschutz](privacy.md)
