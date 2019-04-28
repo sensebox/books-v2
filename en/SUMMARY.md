@@ -35,6 +35,7 @@
         * [Expander](komponenten/zubehoer/hub.md)
         * [Micro-SD Card](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
+        * [Solar](komponenten/zubehoer/solar-panel.md)
 
 ## Help & More
 * [Help](hilfe.md)
