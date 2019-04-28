@@ -8,7 +8,7 @@ The solar panel, produced and distributed by Villageboom, is one of the new comp
     <br>
 </div>
 
-![the panel](../../../pictures/solar_top.jpg)
+![the panel](../../../pictures/solar_top.png)
 
 ## Technical details
    * Model no.: VB-010P

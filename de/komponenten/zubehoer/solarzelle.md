@@ -8,7 +8,7 @@ Die Solarzelle, produziert und vertrieben durch Villageboom, ist eine der neuen 
     <br>
 </div>
 
-![Die Solarzelle](../../../pictures/solar_top.jpg)
+![Die Solarzelle](../../../pictures/solar_top.png)
 
 ## Technische Details
    * Model-Nummer: VB-010P
@@ -18,10 +18,6 @@ Die Solarzelle, produziert und vertrieben durch Villageboom, ist eine der neuen 
    * Kurzschlussströme (Isc): 1,83A
    * Maße: 340x235x17mm
    * Gewicht: 1kg
-
-## Zubehoer
-   * Powerboost?
-   * Kabel?
 
 ## Anschluss
 
