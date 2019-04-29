@@ -8,7 +8,7 @@ Die Solarzelle, produziert und vertrieben durch Villageboom, ist eine der neuen 
     <br>
 </div>
 
-![Die Solarzelle](../../../../pictures/solar_top.jpg)
+![Die Solarzelle](../../../../pictures/solar_top.png)
 
 ## Technische Details
    * Model-Nummer: VB-010P
