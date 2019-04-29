@@ -35,15 +35,16 @@ To make sure the senseBox is using the battery and the battery is charged meanwh
 
 ![Powerboost construction](../../../pictures/solar_powerboost.jpg)
 
-### [optional] Power Switch
-{% collapse title="click" %}
+
+{% collapse title="Power Switch (optional)" %}
 The power switch should be connected to the powerboost. You need solder hardware for this. How exactly this is done, can be read [here](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-3-5).
 Now we can use the power switch to regulate the input from the solar panel to the battery.
 
 ![Build-in switch in housing](../../../pictures/solar_aufbau_schalter.jpg)
 
-In this example a hole is drilled into the case, so you can access it whenever you want. Look into the gallery to find out how we did it.
+In this example a hole is drilled into the case, so you can access it whenever you want. 
 {% endcollapse %}
+
 ## Programming
 
 There is nothing special to be programmed in this example. As long as the power supply is working you can use every sketch from the previous sections. In regards to the LoRa-bee you should first check if there is a [network](https://www.thethingsnetwork.org/community#list-communities-map) around. Also you have to register on the TTN website to gain an access key. All of this is covered in our [LoRa bee tutorial](https://sensebox.github.io/books-v2/edu/de/komponenten/bees/lora.html).

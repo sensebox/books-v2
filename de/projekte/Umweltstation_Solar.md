@@ -35,15 +35,15 @@ Um zu gewährleisten, dass die senseBox zeitgleich mit Strom versorgt wird und e
 
 ![Powerboost Aufbau](../../../pictures/solar_powerboost.jpg)
 
-### [Optional] Power Switch
-
-{% collapse title="klick" %}
+{% collapse title="Ein-/Aus-Schalter einbauen (Optional)" %}
 Der Switch wird mit dem Powerboost verbunden. Hierfür benötigst du Löt-Werkzeug. Wie du den Switch mit dem Powerboost verbindest, wird dir [hier](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-3-5) erklärt. Nun können wir den USB-Eingang am Powerboost verwenden, um den Stromfluss zur MCU, mit dem Power Switch zu regulieren.
 
 ![Eingebauter Schalter im Gehäuse](../../../pictures/solar_aufbau_schalter.jpg)
+
+In diesem Beispiel wurde ein Loch für den Schalter in das Gehäuse gebohrt. So ist er von außen immer zugänglich und die senseBox kann nach Belieben zum Stromsparen an- oder ausgeschaltet werden.
 {% endcollapse %}
 
-In diesem Beispiel wurde ein Loch für den Schalter in das Gehäuse gebohrt. So ist er von außen immer zugänglich und die senseBox kann nach Belieben zum Stromsparen an- oder ausgeschaltet werden. Sieh dir die Bildergalerie unten an um zu sehen wie wir das gemacht haben.
+
 
 ## Programmierung
 
