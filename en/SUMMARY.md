@@ -35,6 +35,7 @@
 * [Traffic Counter](projekte/verkehrszaehlerv2.md)
 * [Mobile Station](projekte/Mobile_Station.md)
 * [Thermo Hut](projekte/ThermoHut.md)
+* [Solar Powered Station](projekte/Umweltstation_solar.md)
 
 
 ## Components

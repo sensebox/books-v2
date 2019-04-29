@@ -39,7 +39,7 @@
 * [Auf die Töne fertig los!](projekte/Tonangriff.md)
 * [Mehrfarbige LED](projekte/Farbige_LED.md)
 * [Kaminfeuer](projekte/Kaminfeuer.md)
-* [Umweltstation mit Solar](projekte/Umweltstation_Solar.md)
+* [Solarbetriebene Umweltstation](projekte/Umweltstation_Solar.md)
 * [Thermometer Hütte für die senseBox](projekte/Wetterhütte.md)
 * [Lügendetektor](projekte/Lügendetektor.md)
 
