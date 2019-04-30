@@ -24,7 +24,7 @@ Die Solarzelle, produziert und vertrieben durch Villageboom, ist eine der neuen 
 
 ## Powerboost
 <div class="description">
-Der [Adafruit Powerboost 1000C]() sorgt durch integrierten Lade-Kreislauf dafür, dass die Solarzelle den Akku auflädt und der Akku seinerseits dann die senseBox betreibt. 
+Der [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) sorgt durch integrierten Lade-Kreislauf dafür, dass die Solarzelle den Akku auflädt und der Akku seinerseits dann die senseBox betreibt.
 </div>
 <div class="line">
     <br>
@@ -43,7 +43,7 @@ Der [Adafruit Powerboost 1000C]() sorgt durch integrierten Lade-Kreislauf dafür
 
 ## Anschluss
 
-Um die senseBox mit einer Solarzelle zu benutzen, bedarf es lediglich einem Powerboostund einem [LiPo Akku](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), etwas um die 1000 mAh sollte genügen. Wie die Komponenten verbunden werden, siehst du im Bild unten. Wir empfehlen eine [Brandschutztasche](https://www.amazon.de/Jamara-141360-LiPo-Guard-Lipobrandschutztasche/dp/B003OFCUIS/ref=sr_1_18?keywords=LIPO+TRESOR&qid=1556284975&s=gateway&sr=8-18) für den Akku, da bei einer Beschädigung hohe Verletzungsgefahr besteht.
+Um die senseBox mit einer Solarzelle zu benutzen, bedarf es lediglich einem Powerboostund und einem [LiPo Akku](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), etwas um die 1000 mAh sollte genügen. Wie die Komponenten verbunden werden, siehst du im Bild unten. Wir empfehlen eine [Brandschutztasche](https://www.amazon.de/Jamara-141360-LiPo-Guard-Lipobrandschutztasche/dp/B003OFCUIS/ref=sr_1_18?keywords=LIPO+TRESOR&qid=1556284975&s=gateway&sr=8-18) für den Akku, da bei einer Beschädigung hohe Verletzungsgefahr besteht.
 
 ![Powerboost Aufbau](../../../pictures/solar_powerboost.jpg)
 
