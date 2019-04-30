@@ -21,4 +21,6 @@ The solar panel, produced and distributed by Villageboom, is one of the new comp
 
 ## Setup
 
-To use the senseBox with a solar panel, you only need an [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview) and a [LiPo-battery](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), around 1000 mAh should be enough. The powerboost guarentees, that the panel is loading the battery and the battery is powering the senseBox.
+To use the senseBox with a solar panel, you only need an [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview) and a [LiPo-battery](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), around 1000 mAh should be enough. The powerboost guarentees, that the panel is loading the battery and the battery is powering the senseBox. The picture below shows how the parts are connected.
+
+![Powerboost Setup](../../../pictures/solar_powerboost.jpg)
