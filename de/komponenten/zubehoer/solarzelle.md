@@ -21,4 +21,6 @@ Die Solarzelle, produziert und vertrieben durch Villageboom, ist eine der neuen 
 
 ## Anschluss
 
-Um die senseBox mit einer Solarzelle zu benutzen, bedarf es lediglich einem [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview) und einem [LiPo Akku](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), etwas um die 1000 mAh sollte genügen. Der Powerboost ist dafür zuständig, dass die Solarzelle den Akku aufläd und der Akku seinerseits dann die senseBox betreibt.
+Um die senseBox mit einer Solarzelle zu benutzen, bedarf es lediglich einem [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview) und einem [LiPo Akku](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), etwas um die 1000 mAh sollte genügen. Der Powerboost ist dafür zuständig, dass die Solarzelle den Akku auflädt und der Akku seinerseits dann die senseBox betreibt. Wie die Komponenten verbunden werden, siehst du im Bild unten.
+
+![Powerboost Aufbau](../../../pictures/solar_powerboost.jpg)
