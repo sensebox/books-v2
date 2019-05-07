@@ -1,6 +1,6 @@
 # Solar Panel Set{#head}
 
-Das ganze Set kann [hier](https://sensebox.kaufen/product/solar-set) bestellt werden.
+The whole set can be ordered [here](https://sensebox.shop/product/solar-set).
 
 ## Solar Panel
 <div class="description">

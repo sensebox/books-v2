@@ -1,6 +1,6 @@
 # Solarzellen-Set{#head}
 
-The whole set can be ordered [here](https://sensebox.shop/product/solar-set).
+Das ganze Set kann [hier](https://sensebox.kaufen/product/solar-set) bestellt werden.
 
 ## Solarzelle
 <div class="description">
