@@ -1,7 +1,10 @@
-# Solar panel {#head}
+# Solar Panel Set{#head}
 
+The whole set can be ordered [here](https://sensebox.shop/product/solar-set).
+
+## Solar Panel
 <div class="description">
-The solar panel, produced and distributed by Villageboom, is one of the new components in the senseBox-universe. With its 34x23,5cm panel kann you can operate your station whereever you want, as long the sun is shining.
+The solar panel, produced and distributed by Villageboom, is one of the new components in the senseBox-universe. With its 34x23,5cm panel you can operate your station wherever you want, as long the sun is shining.
 </div>
 <div class="line">
     <br>
@@ -10,15 +13,42 @@ The solar panel, produced and distributed by Villageboom, is one of the new comp
 
 ![the panel](../../../../pictures/solar_top.png)
 
-## Technische Details
+### Technical details
    * Model no.: VB-010P
    * Maximum power (Pm): 10W
-   * Open circuit voltage (V): 7,2V
-   * Voltage at Pmax (Vm): 6,0V
-   * Short-circuit current (Isc): 1,83A
+   * Open circuit voltage (V): 7.2V
+   * Voltage at Pmax (Vm): 6.0V
+   * Short-circuit current (Isc): 1.83A
    * Dimension: 340x235x17mm
    * Weight: 1kg
 
-## Anschluss
+## Powerboost
+ <div class="description">
+The [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) ensures through an integrated charging circuit that the solar cell charges the battery and the battery in turn operates the senseBox.
+</div>
+<div class="line">
+    <br>
+    <br>
+</div>
 
-To use the senseBox with a solar panel, you only need an [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview) and a [LiPo-battery](https://www.amazon.de/Hubschrauber-F-645-1500mAh-Ersatzakku-Original-Blau/dp/B00YM3TL5Q/ref=pd_sim_21_6/257-8903357-8699938?_encoding=UTF8&pd_rd_i=B00YM3TL5Q&pd_rd_r=90464e67-6811-11e9-b934-e511ab4d5346&pd_rd_w=TePr1&pd_rd_wg=6fMkA&pf_rd_p=b0773d2f-6335-4e3d-8bed-091e22ee3de4&pf_rd_r=AC9A3TZNFFBTNH377BBN&psc=1&refRID=AC9A3TZNFFBTNH377BBN), around 1000 mAh should be enough. The powerboost guarentees, that the panel is loading the battery and the battery is powering the senseBox.
+![Powerboost 1000C](../../../../pictures/powerboost_top.png)
+
+### Technical details
+   * Max Power-Input: 3.7V
+   * Max Power-Output: 5.2V
+   * Chipset: [TI TPS61090](http://www.ti.com/product/TPS61090/description)
+   * 2A Internal Switch
+   * LEDs show battery charge
+   * Weight: 6g
+
+## Setup
+
+To use the senseBox with a solar panel, you only need aPowerboost 1000C and a [LiPo-battery](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), around 1000 mAh should be enough. The powerboost guarentees, that the panel is loading the battery and the battery is powering the senseBox. We recommend a [Fire Bag](https://www.amazon.de/Jamara-141360-LiPo-Guard-Lipobrandschutztasche/dp/B003OFCUIS/ref=sr_1_18?keywords=LIPO+TRESOR&qid=1556284975&s=gateway&sr=8-18) for the battery, since there is a high risk of injury when damaged. The picture below shows how the parts are connected.
+
+![Powerboost Setup](../../../pictures/solar_powerboost.jpg)
+
+<div class="box_warning">
+     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+     >>WARNING-HINT<< <br>
+     The LiPo battery and the Powerboost should best be protected from moisture when you operate the station outside. The matching housing is included in the set, but is also the same as e.g. for the fine dust sensor. Also watch out at minus temperatures, then you should bring the station indoors.
+</div>

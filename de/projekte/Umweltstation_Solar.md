@@ -16,11 +16,12 @@ Wenn du deine senseBox ohne Steckdose oder Powerbank betreiben möchtest, kannst
   - Temperatur und Luftfeuchte `HDC1080`
   - UV-Intensität und Beleuchtungsstärke `TSL & VEML`
   - Feinstaub `SDS`
-- [Solarzelle](https://www.amazon.de/Watt-Solarpanel-Volt-Powerbanks-Solarleuchten/dp/B014HWT520/ref=sr_1_1?ie=UTF8&qid=1532255953&sr=8-1&keywords=villageboom)
+- [Solarzelle](https://sensebox.kaufen/product/solar-set)
 - [3.7V LiPo Akku](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector)
-- [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview)
+- [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465)
 - WiFi/LoRa Bee
-- Power Switch [Optional]
+- [Brandschutztasche](https://www.amazon.de/Jamara-141360-LiPo-Guard-Lipobrandschutztasche/dp/B003OFCUIS/ref=sr_1_18?keywords=LIPO+TRESOR&qid=1556284975&s=gateway&sr=8-18) (optional)
+- Power Switch (optional)
 
 
 ## Aufbau
