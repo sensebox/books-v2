@@ -50,22 +50,24 @@ Die senseBox MCU ist das Herzstück der senseBox und besitzt eine Vielzahl von A
 
 ### Kabel 
 
+Um die Sensoren und weiteren elektronischen Bauteile mit der senseBox MCU zu verbinden werden verschiedenen Kabel verwendet. 
+
 <div class="container">
     <div class="row">
             <div class="col-md-4">
                     <h4>JST-JST Kabel</h4>
                     <img src="../pictures/components/jst_jst_cable.png" alt="block" align="left">
-                    <p></p>
+                    <p>Mit den JST-JST Kabeln werden die Umweltsensoren direkt mit der senseBox MCU verbunden</p>
             </div>
             <div class="col-md-4">
                     <h4>JST-Adapterkabel</h4>
                     <img src="../pictures/components/jst_adapter_cable.png" alt="block" align="left">
-                    <p>Anschluss I2C/Wire</p>
+                    <p>Um die senseBox MCU und weiteren Komponenten über das Breadboard zu verbinden werden die JST-Adapterkabel verwendet</p>
             </div>
             <div class="col-md-4">
                     <h4>Steckkabel</h4>
                     <img src="../pictures/components/jumper_wire_cable.png" alt="block" align="left">
-                    <p>Anschluss I2C/Wire</p>
+                    <p>Diese Kabel werden für Schaltungen auf dem Breadboard benötigt</p>
             </div>
     </div>    
 </div>
@@ -93,6 +95,8 @@ Die senseBox MCU ist das Herzstück der senseBox und besitzt eine Vielzahl von A
     </div>
 
 ### Elektronische Bauteile
+
+
 
 <div class="container">
         <div class="row">
@@ -125,6 +129,8 @@ Die senseBox MCU ist das Herzstück der senseBox und besitzt eine Vielzahl von A
     </div>
 
 ### Erweiterungen
+
+Für die senseBox sind verschiedenen Erweitungsmodule erhältlich, die direkt mit den Steckplätzen der senseBox MCU verbunden werden und über Blockly programmiert werden können. 
 
 <div class="container">
         <div class="row">

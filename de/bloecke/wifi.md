@@ -8,10 +8,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6">
             <img src="../pictures/blocks/wifi/wifi1.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
             <h4>Verbinde mit WLAN</h4>
             Verwende diesen Block im Setup() um eine Wlan Verbindung herzustellen. Trage den entsprechenden Netzwerknamen (SSID) und
             das Passwort ein.

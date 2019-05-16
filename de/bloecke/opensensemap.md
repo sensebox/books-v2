@@ -1,15 +1,16 @@
 # openSenseMap {#head}
 
-<div class="description"> Mithilfe der Blöcke kannst du die Verbindung herstellen und Messwerte an die <a href="https://opensensemap.org">openSenseMap</a> übertragen.
+<div class="description"> Mithilfe der Blöcke kannst du eine Verbindung zur  <a href="https://opensensemap.org">openSenseMap</a> herstellen und Messwerte.
+Um Messwerte auf die openSenseMap zu übertragen musst du zuerst einen Useraccount anlegen und eine neue senseBox anlegen. Wie genau das geht erfährst du hier: 
 </div>
 
 
 <div class="container">
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6">
             <img src="../pictures/blocks/opensensemap/opensensemap1.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
             <h4>Übertragen der Messwerte an die openSenseMap</h4>
             Um Messwerte über Internet zu übertragen erstelle zunächst eine neue Messstation auf der
             <a href="https://opensensemap.org/register">openSenseMap</a> Bei der Registrierung musst du angeboten ob es ich um eine stationäre oder mobile Station (benötigt
@@ -19,10 +20,10 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6">
             <img src="../pictures/blocks/opensensemap/opensensemap2.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
             <h4>stationäre senseBox</h4>
             Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benögtist du jeweils einen eigenen
             Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
@@ -31,10 +32,10 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6">
             <img src="../pictures/blocks/opensensemap/opensensemap3.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
             <h4>mobile senseBox</h4>
             Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benögtist du jeweils einen eigenen
             Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.

@@ -60,10 +60,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6">
             <img src="../pictures/blocks/time/time5.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
            <h4>Warte für immer</h4>
            Mit diesem Block kannst du dein Programm einfach beenden lassen.
         </div>
