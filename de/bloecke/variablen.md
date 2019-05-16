@@ -8,10 +8,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6" id="variablesGet">
             <img src="../pictures/blocks/variables/variables-0.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
             <h4>Variablen abrufen</h4>
             Dieser Block gibt dir Zugriff auf die Variable, wenn du diese Abfragen oder Ausgeben (z.B. auf dem Display) möchtest. Standardmäßig ist der Name einer neuen Variable "Element" das Dropdown Menü gibt dir aber Zugriff auf folgende Funktionen:
             <ul>
@@ -28,10 +28,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6" id="variablesSet">
             <img src="../pictures/blocks/variables/variables-1.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
             <h4>Variablen schreiben</h4>
            Mit diesem Block kannst du einer Variable einen Wert oder einen Text zuweisen. Es ist zum Beispiel auch direkt möglich das Auslesen eines Sensors mit dem Block zu verbinden. Der Block erkennt den Datentyp des Rückgabewerts automatisch und legt eine entsprechende Variable an.
         </div>
@@ -42,11 +42,11 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md">
+        <div class="col-md-6" id="variablesDatatype">
             <img src="../pictures/blocks/variables/variables-2.png" alt="block" align="left">
             <img src="../pictures/blocks/variables/variables-3.png" alt="block" align="left">
         </div>
-        <div class="col-md">
+        <div class="col-md-6">
             <h4>Variablen schreiben mit bestimmten Datentyp</h4>
             In der Regel wird der Datentyp einer Variable automatisch erkannt. Du hast aber auch die Möglichkeit der Variable einen spezifischen Datentyp zuzuweisen. In dem Dropdown Menü findest du folgende Datentypen:
             <ul>

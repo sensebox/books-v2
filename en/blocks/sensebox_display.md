@@ -17,7 +17,7 @@
             <h4>The OLED-Display</h4>
             <h6>Connection: I2C/Wire</h6>
             The
-            <a href="../komponenten/zubehoer/led-display.html">OLED-DISPLAY</a> has a Resolution of 128 by 64 and will be connected via the I2C/Wire connectors. The Display need to be initialise first in the setup().
+            <a href="../uebersicht/sensebox_components.html#temp_humi">OLED-DISPLAY</a> has a Resolution of 128 by 64 and will be connected via the I2C/Wire connectors. The Display need to be initialise first in the setup().
         </div>
     </div>
     <div class="row">

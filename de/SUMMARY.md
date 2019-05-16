@@ -5,14 +5,18 @@
 
 ## Blockly für senseBox
 * [Blockly für senseBox Online](uebersicht/blockly_online.md)
+* [senseBox:edu Komponenten](uebersicht/sensebox_components.md)
 
 ## Blöcke
 * [Übersicht über die Blöcke](bloecke/README.md)
-    * [senseBox Sensoren](bloecke/sensebox_sensoren.md)
-    * [senseBox Ausgabe](bloecke/sensebox_ausgabe.md)
-        * [Display](bloecke/sensebox_ausgabe_display.md)
-        * [Web](bloecke/sensebox_ausgabe_web.md)
-        * [SD](bloecke/sensebox_ausgabe_sd.md)
+    * [Sensoren](bloecke/sensoren.md)
+    * [Display](bloecke/display.md)
+    * [LED](bloecke/led.md)
+    * [Web](bloecke/web.md)
+        * [WiFi](bloecke/wifi.md)
+        * [openSenseMap](bloecke/opensensemap.md)
+        * [Webserver](bloecke/webserver.md)
+    * [SD](bloecke/sd.md)     
     * [Logik](bloecke/logik.md)
     * [Schleifen](bloecke/schleifen.md)
     * [Mathematik](bloecke/mathematik.md)
@@ -21,10 +25,6 @@
     * [Funktionen](bloecke/funktionen.md)
     * [Eingang/Ausgang](bloecke/eingang_ausgang.md)
     * [Zeit](bloecke/zeit.md)
-
-## Projekte
-* [Feinstaub Messstation](projekte/feinstaub_temp_osem.md)
-* [Ampelschaltung](projekte/ampel_button.md)
 
 
 

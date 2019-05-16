@@ -22,7 +22,7 @@ Die Oberfläche ist grob in drei Bereiche aufgeteilt. Links findest du die Toolb
 
 #### Die Toolbox
 
-Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kannst. Eine genaue Erläuterung zu den einzelnen Kategorien und die Funktionsweise der Blöcke findest du [hier](../bloecke/sensebox_sensoren.md)
+Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kannst. Eine genaue Erläuterung zu den einzelnen Kategorien und die Funktionsweise der Blöcke findest du [hier](../bloecke/README.md)
 
 #### Buttons
 
@@ -44,7 +44,5 @@ Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den
 
 #### Kopieren unter MacOS und Linux
 
-{% endtabs %}
-
 Unter MacOS und Linux funktioniert das kopieren der .BIN per Drag & Drop leider zurzeit noch nicht. Eine Möglichkeit ist die Datei im Terminal per dd-Befehl zu kopieren (nur erfahrenen Nutzern zu empfehlen!) oder einen alternativen Dateimanager wie zum Beispiel [muCommander](http://www.mucommander.com/) zu verwenden.
-
+{% endtabs %}
