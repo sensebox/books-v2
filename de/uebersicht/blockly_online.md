@@ -6,7 +6,7 @@
     <br>
 </div>
 
-Du findest Blockly für senseBox online unter <a href="https://blockly.sensebox.de">https://blockly.senseBox.de</a>. Dort kannst du zwischen den verschiedenen Versionen der senseBox auswählen. 
+Du findest Blockly für senseBox online unter <a href="https://blockly.sensebox.de">https://blockly.senseBox.de</a>. Dort kannst du zwischen den verschiedenen Versionen der senseBox auswählen. Für die senseBox MCU wird keine weitere Software benötigt. Arbeitest du mit einem anderen Arduino kompatiblen Mikrocontroller musst der Code auf deinem Computer mithilfe der Arduino IDE kompiliert und übertragen werden.
 
 ## Die Oberfläche
 
@@ -28,21 +28,3 @@ Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kan
 
 In der Online Oberfläche verbergen sich die wichtigsten Funktionen hinter verschiedenen Buttons. Die beiden Buttons in der Arbeitsoberfläche sind zum kopieren des Codes in die Zwischenablage (Praktisch, wenn du z.B. deinen Code offline in der Arduino IDE kompilieren willst) und der Kompilieren Button, der den Programmcode auf dem Server Online kompiliert und anschließend dir eine fertigen Programmcode als .BIN Datei zum Download anbietet. 
 In der Kopfzeile der Weboberfläche kannst du deinem Programmcode einen Namen geben, die Blöcke als XML-Datei speichern oder wieder laden, den Programmcode als .ino speichern und die komplette Arbeitsfläche mit einem klick löschen. Ganz links findes du das Menü, in dem du Zugriff auf die Einstellungen und die vorgefertigten Beispiele hast.
-
-### Übertragen auf die senseBox MCU
-
-Schließt du deine senseBox MCU an deinen Computer an und führst einen Doppelklick auf den roten Button aus wird diese als Wechseldatendräger erkannt. Mit einem Klick auf Code Kompilieren in der Weboberfläche wird dein Programmcode auf dem Server kompiliert und eine .BIN Datei wird dir zum Download angeboten. Je nachdem welches Betriebssystem du verwendest unterscheidet sich nun der Kopiervorgang. 
-
-{% tabs first="Windows", second="MacOS und Linux" %}
-{% content "first" %}
-#### Kopieren unter Windows 
-
-Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
-
-
-{% content "second" %}
-
-#### Kopieren unter MacOS und Linux
-
-Unter MacOS und Linux funktioniert das kopieren der .BIN per Drag & Drop leider zurzeit noch nicht. Eine Möglichkeit ist die Datei im Terminal per dd-Befehl zu kopieren (nur erfahrenen Nutzern zu empfehlen!) oder einen alternativen Dateimanager wie zum Beispiel [muCommander](http://www.mucommander.com/) zu verwenden.
-{% endtabs %}

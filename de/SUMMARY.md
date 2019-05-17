@@ -6,6 +6,7 @@
 ## Blockly für senseBox
 * [Blockly für senseBox Online](uebersicht/blockly_online.md)
 * [senseBox:edu Komponenten](uebersicht/sensebox_components.md)
+* [Los gehts](uebersicht/losgehts.md)
 
 ## Blöcke
 * [Übersicht über die Blöcke](bloecke/README.md)
