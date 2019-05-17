@@ -13,9 +13,9 @@
         </div>
         <div class="col-md-6">
             <h4>The OLED display </h4>
-            <h6>connection: I2C/Wire</h6>
-            The OLED-DISPLAY has a resolution of 128x64 pixels and is connected via the I2C connector. To display the
-            it must be initialized in Setup().
+            <h6>Connection: I2C/Wire</h6>
+            The OLED-DISPLAY has a resolution of 128x64 pixels and is connected via the I2C connector. The display 
+            must be initialized in Setup().
         </div>
     </div>
     <div class="line"></div>
@@ -24,11 +24,8 @@
             <img src="../pictures/blocks/display/display2.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>display </h4>display
-            Use this block if you have registered a stationary senseBox. For each measured value you will need a separate
-            Block, because each sensor/measured value receives a specific and unique sensor ID in addition to the senseBox ID.
-            Copy the respective sensor ID from the overview of your registration and append a measured value, which will be transferred to the sensor.
-            to be. Drag this block into the loop of the block that connects to the openSenseMap.
+            <h4>Show on Display </h4>
+            
         </div>
     </div>
     <div class="line"></div>

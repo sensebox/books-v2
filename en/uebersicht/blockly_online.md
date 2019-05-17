@@ -22,7 +22,7 @@ Die Oberfläche ist grob in drei Bereiche aufgeteilt. Links findest du die Toolb
 
 #### Die Toolbox
 
-Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kannst. Eine genaue Erläuterung zu den einzelnen Kategorien und die Funktionsweise der Blöcke findest du [hier](../bloecke/README.md)
+Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kannst. Eine genaue Erläuterung zu den einzelnen Kategorien und die Funktionsweise der Blöcke findest du [hier](../blocks/README.md)
 
 #### Buttons
 

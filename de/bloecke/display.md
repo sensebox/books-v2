@@ -25,10 +25,7 @@
         </div>
         <div class="col-md-6">
             <h4>Anzeige auf dem Display</h4>
-            Verwende diesen Block, wenn du eine stationäre senseBox registriert hast. Für jeden Messwert benögtist du jeweils einen eigenen
-            Block, denn jeder Sensor/Messwert erhält zusätzlich zur senseBox ID eine spezifische und einmalige Sensor ID.
-            Kopiere die jeweilige Sensor ID aus der Übersicht deiner Registrierung und hänge eine Messwert an, der Übertragen
-            werden soll. Ziehe diesen Block in die Schleife des Blocks, der eine Verbindung zur openSenseMap herstellt.
+            Dieser Block wird immer benötigt, wenn etwas auf dem Display angezeigt werden soll. In den offenen Blockabschnitt wird zum Beispiel der Block für die Anzeige von Text eingefügt. 
         </div>
     </div>
     <div class="line"></div>
@@ -49,7 +46,7 @@
         </div>
         <div class="col-md-6">
             <h4>Anzeigen von Text</h4>
-            Mit diesem Block kannst du dir Text und Messwerte auf dem Display anzeigen lassen. Die Schriftfarbe ist Standardmäßig auf
+            Mit diesem Block kannst du dir Text und Messwerte auf dem Display anzeigen lassen. Die Schriftfarbe ist standardmäßig auf
             Weiß eingestellt, da das Display einen schwarzen Hintergrund hat. Du kannst neben der Schriftfarbe auch die Schriftgröße
             ändern. In Schriftgröße 1 ist ein Buchstabe oder eine Zahl 8 Pixel groß und du kannst dir insgesamt in 8 Zeilen
             auf dem Display verschiedene Texte anzeigen lassen. In Schriftgröße 2 sind die Buchstaben oder Zahlen 16 Pixel

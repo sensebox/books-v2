@@ -27,7 +27,7 @@
         </div>
         <div class="col-md-6">
             <h4>Wiederhole solange</h4>
-            Mithilfe dieses Blockes kannst du eine bestimmte Aktion wiederholen lassen, <i>solange</i> einer Bedinung WAHR ist. Füge an diesen Block eine <a href="../bloecke/logik.html">Vergleichsbedingung</a> an. Im Dropdown Menü hast du auch die Auswahlmöglichkeit die Aktion wiederholen zu <i>bis</i> die Vergleichsbedinungen war ist. 
+            Mithilfe dieses Blockes kannst du eine bestimmte Aktion wiederholen lassen, <i>solange</i> einer Bedinung WAHR ist. Füge an diesen Block eine <a href="../blocks/logik.html">Vergleichsbedingung</a> an. Im Dropdown Menü hast du auch die Auswahlmöglichkeit die Aktion wiederholen zu <i>bis</i> die Vergleichsbedinungen war ist. 
         </div>
     </div>
 </div>

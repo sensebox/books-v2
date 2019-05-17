@@ -1,6 +1,6 @@
-# Eingang/Ausgang {#head}
+# Input/Output {#head}
 
-<div class="description">Mit diesen Blöcken kannst du die digitalen und anlogen Pins der senseBox MCU ansteuert. </div>
+<div class="description">With these blocks you can control the digital and analog pins of the senseBox MCU. </div>
 <div class="line">
     <br>
     <br>
@@ -12,8 +12,8 @@
             <img src="../pictures/blocks/io/io-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>digitalen Pin mit Strom versorgen</h4>
-            Mit diesem Block kannst du digitalen Pins an oder auschalten. Den Status setzt du über eine Boolean Variable, die entweder High (AN) oder Low ist (AUS). 
+            <h4>supply power to digital pin </h4>
+            With this block you can switch digital pins on or off. The status is set by a Boolean variable, which is either High (ON) or Low (OFF). 
         </div>
     </div>
 </div>
@@ -24,8 +24,8 @@
             <img src="../pictures/blocks/io/io-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Status eine digitalen Pin auslesen</h4>
-            Mithilfe von diesem Block kannst du den Status eines digitalen Pins auslesen und überrpüfen oder Strom fließt oder nicht.
+            <h4>Status read out a digital pin </h4>
+            With the help of this block you can read the status of a digital pin and check or current flows or not.
         </div>
     </div>
 </div>
@@ -38,8 +38,8 @@
             <img src="../pictures/blocks/io/io-2.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>eingebaute LED anschalten</h4>
-            Die senseBox MCU hat neben dem Resetknopf eine kleine eingebaut LED, die über diesen Block an bzw. ausgeschaltet werden kann.
+            <h4>switch on built-in LED </h4>
+            The senseBox MCU has a small built-in LED next to the reset button, which can be switched on or off via this block.
         </div>
     </div>
 </div>
@@ -52,9 +52,9 @@
             <img src="../pictures/blocks/io/io-3.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>setzte Analogen Pin</h4>
-            Die Pins der senseBox MCU können auch als analogen Aus- bzw. Eingänge verwendet werden. Im Gegensatz zu den digitalen Pins können Analogen Pins mehr als zwei verschiedene Zustände anzeigen. Die Analogen Pins sind mit einem 10 Bit Analog-Digital Wandler ausgestattet und können so Werte zwischen 0 und 1023 einnehmen. <br>
-            Mit diesem Block kannst du einem analogen Pin einen Wert zuweisen. 0 bedeutet hierbei, dass kein Strom fliest. 1023, dass ein Strom mit einer Spanung von 5V fließt. 
+            <h4>set analog pin </h4>
+            The pins of the senseBox MCU can also be used as analog outputs or inputs. In contrast to the digital pins, analog pins can display more than two different states. The analog pins are equipped with a 10 bit analog-to-digital converter and can therefore take values between 0 and 1023. <br>
+            With this block you can assign a value to an analog pin. 0 means that no current flows. 1023 means that a current with a voltage of 5V flows. 
         </div>
     </div>
 </div>
@@ -66,8 +66,8 @@
             <img src="../pictures/blocks/io/io-4.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>lese Analogen Pin</h4>
-            Die analogen Pins können auch auslesen werden. Konkret wird hierbei die Spannung zwischen 0 und 5 gemessen und in einen Wert zwischen 0 und 1023 umgewandelt.
+            <h4>read Analogue Pin</h4>
+            The analog pins can also be read out. Specifically, the voltage between 0 and 5 is measured and converted to a value between 0 and 1023.
         </div>
     </div>
 </div>
@@ -80,11 +80,12 @@
             <img src="../pictures/blocks/io/io-5.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Dauer von Impulsen Messen</h4>
-            Mit diesen Blöcken können Zeiten von Impulsen an Pins gemessen werden. Zurückgegeben wird die Zeit in Microsekunden.
+            <h4>Pulse duration Measuring </h4>
+            With these blocks times of pulses at pins can be measured. The time is returned in microseconds.
         </div>
     </div>
 </div>
+
 
 
 <div class="container">

@@ -1,4 +1,4 @@
-# Übersicht aller Blöcke {#head}
+# Overview {#head}
 
 <div class="description">Hier findest du eine Übersicht über die verschiedenen Blöcketypen.</div>
 
@@ -7,7 +7,7 @@
     <br>
 </div>
 
-#### Verschiedene Blocktypen
+#### Various Blocktyps
 
 Es gibt verschiedene Typen von Blöcken:
 
@@ -63,19 +63,19 @@ Es gibt verschiedene Typen von Blöcken:
 
 Eine genauere Erläuterungen zu den Blöcken, die du in der Toolbox findest gibt es auf der jeweiligen Unterseite. 
 
-* [Sensoren](../bloecke/sensoren.md)
-* [Display](../bloecke/display.md)
-* [Web](../bloecke/web.md)
-    - [WiFi](../bloecke/wifi.md)
-    - [openSenseMap](../bloecke/opensensemap.md)
-    - [Webserver](../bloecke/webserver.md)
-* [SD](../bloecke/sd.md)
-* [Logik](../bloecke/logik.md)
-* [Schleifen](../bloecke/schleifen.md)
-* [Mathematik](../bloecke/mathematik.md)
-* [Text](../bloecke/text.md)
-* [Variablen](../bloecke/variablen.md)
-* [Funktionen](../bloecke/funktionen.md)
-* [Eingang/Ausgang](../bloecke/eingang_ausgang.md)
-* [Zeit](../bloecke/zeit.md)
+* [Sensoren](../blocks/sensoren.md)
+* [Display](../blocks/display.md)
+* [Web](../blocks/web.md)
+    - [WiFi](../blocks/wifi.md)
+    - [openSenseMap](../blocks/opensensemap.md)
+    - [Webserver](../blocks/webserver.md)
+* [SD](../blocks/sd.md)
+* [Logik](../blocks/logik.md)
+* [Schleifen](../blocks/schleifen.md)
+* [Mathematik](../blocks/mathematik.md)
+* [Text](../blocks/text.md)
+* [Variablen](../blocks/variablen.md)
+* [Funktionen](../blocks/funktionen.md)
+* [Eingang/Ausgang](../blocks/eingang_ausgang.md)
+* [Zeit](../blocks/zeit.md)
 
