@@ -1,27 +1,31 @@
 # Summary
 
-* [Blockly for senseBox Documentation](README.md)
+* [Das Blockly Buch](README.md)
+* [Übersicht](uebersicht.md)
 
-## Blockly for senseBox
-* [Blockly for senseBox online](overview/blockly_online.md)
+## Blockly für senseBox
+* [Blockly für senseBox Online](uebersicht/blockly_online.md)
+* [senseBox:edu Komponenten](uebersicht/sensebox_components.md)
+* [Los gehts](uebersicht/losgehts.md)
 
-## Blocks
-* [Block overview](blocks/README.md)
-    * [senseBox sensors](blocks/sensebox_sensors.md)
-    * [senseBox display](blocks/sensebox_display.md)
-    * [senseBox output](blocks/sensebox_output.md)
-    * [Logic](blocks/logic.md)
-    * [loops](blocks/loops.md)
-    * [maths](blocks/maths.md)
-    * [text](blocks/text.md)
-    * [variables](blocks/variables.md)
-    * [functions](blocks/functions.md)
-    * [input/output](blocks/io.md)
-    * [time](blocks/time.md)
-
-
-
-
+## Blöcke
+* [Übersicht über die Blöcke](bloecke/README.md)
+    * [Sensoren](bloecke/sensoren.md)
+    * [Display](bloecke/display.md)
+    * [LED](bloecke/led.md)
+    * [Web](bloecke/web.md)
+        * [WiFi](bloecke/wifi.md)
+        * [openSenseMap](bloecke/opensensemap.md)
+        * [Webserver](bloecke/webserver.md)
+    * [SD](bloecke/sd.md)     
+    * [Logik](bloecke/logik.md)
+    * [Schleifen](bloecke/schleifen.md)
+    * [Mathematik](bloecke/mathematik.md)
+    * [Text](bloecke/text.md)
+    * [Variablen](bloecke/variablen.md)
+    * [Funktionen](bloecke/funktionen.md)
+    * [Eingang/Ausgang](bloecke/eingang_ausgang.md)
+    * [Zeit](bloecke/zeit.md)
 
 
 
