@@ -21,11 +21,11 @@ Before you can start programming the senseBox, you have to change some settings 
 
 First, you choose `Tools` in the menu bar and search the senseBox MCU in the option `Boards`.
 
-![Boardauswahl](../../../pictures/select_board.png)
+![Boardauswahl](../../../pictures/select_board_en.png)
 
 Second, you choose again `Tools` and `Port` and search for the USB Port of your computer which is aligned to the senseBox MCU. Usually the computer gives you only one option. Depending on your operation system you have to choose the port repeadetly when putting code on the board.
 
-![Portauswahl](../../../pictures/select_port.png)
+![Portauswahl](../../../pictures/select_port_en.png)
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
