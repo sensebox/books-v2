@@ -23,10 +23,10 @@ With the Arduino IDE a sketch can be compiled and uploaded to the senseBox MCU. 
 
 Before you can upload anything onto the senseBox, you have to adjust a few settings in the ArduinIDE. In the `Tools` tab you have to select the `senseBoxMCU` at the bottom of the list under the`Boards`option.
 
-![Board selection](../../../pictures/select_board.png)
+![Board selection](../../../pictures/select_board_en.png)
 Next, under `Tools` -> `Port` select the port number of the USB port where the senseBox MCU is connected to the computer.
 
-![port selection](../../../pictures/select_port.png)
+![port selection](../../../pictures/select_port_en.png)
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
