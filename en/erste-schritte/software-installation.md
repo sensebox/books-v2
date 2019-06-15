@@ -26,7 +26,10 @@ The senseBox is a microcontroller with diffent components and sensors. It is goi
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
 ![ ](arduino-install-view.png)
-
+<div class="box_warning">
+ 	<i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+ 	Please download the `ZIP` file and <b> not </b> the Windows Installer as this may lead to complications! 
+</div>
 Compile a new folder and unzip the zip-file in the new folder. By starting the file `arduino.exe` the IDE can get started.  
 
 {% content "second" %}
