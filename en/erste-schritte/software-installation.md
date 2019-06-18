@@ -28,6 +28,12 @@ Arduino is an open source project funded by donations. Therefore you will be ask
 
 ![ ](../../../pictures/software-install/arduino-install-view.png)
 
+ <div class="box_warning">
+ 	<i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+ Please download the `ZIP` file and <b>not</b> the Windows Installer as this may lead to complications! 
+</div>
+
+
 Put a new folder on your hard drive and unzip the zip-file. By starting the file `arduino.exe` the IDE can be started.
 
 
