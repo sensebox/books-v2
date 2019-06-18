@@ -55,6 +55,7 @@
         * [Luftdruck & Temperatur](komponenten/sensoren/luftdruck-temperatur.md)
         * [Belichtung und UV](komponenten/sensoren/belichtung-und-uv.md)
         * [Feinstaub](komponenten/sensoren/feinstaub.md)
+        * [Gassensor](komponenten/sensoren/gassensor.md)
     * [Zubehör](komponenten/zubehoer/README.md)
         * [Strahlenschutz](komponenten/zubehoer/strahlenschutz.md)
         * [Gehäuse](komponenten/zubehoer/gehaeuse.md)
