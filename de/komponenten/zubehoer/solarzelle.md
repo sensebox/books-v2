@@ -1,8 +1,5 @@
 # Solarzellen-Set{#head}
 
-Das ganze Set kann [hier](https://sensebox.kaufen/product/solar-set) bestellt werden.
-
-## Solarzelle
 <div class="description">
 Die Solarzelle, produziert und vertrieben durch Villageboom, ist eine der neuen Komponenten im senseBox-Universum. Durch das 34x23,5cm große Panel kann man seine Station von überall betreiben.
 </div>
@@ -10,6 +7,10 @@ Die Solarzelle, produziert und vertrieben durch Villageboom, ist eine der neuen 
     <br>
     <br>
 </div>
+
+Das ganze Set kann [hier](https://sensebox.kaufen/product/solar-set) bestellt werden.
+
+## Solarzelle
 
 ![Die Solarzelle](../../../../pictures/solar_top.png)
 
@@ -31,7 +32,7 @@ Der [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) sorgt dur
     <br>
 </div>
 
-![Powerboost 1000C](../../../../pictures/powerboost_top.png)
+![Powerboost 1000C](../../../../pictures/powerboost-top.png)
 
 ### Technische Details
    * Maximale Leistungs-Input: 3,7V 
@@ -45,10 +46,10 @@ Der [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) sorgt dur
 
 Um die senseBox mit einer Solarzelle zu benutzen, bedarf es lediglich einem Powerboostund und einem [LiPo Akku](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), etwas um die 1000 mAh sollte genügen. Wie die Komponenten verbunden werden, siehst du im Bild unten. Wir empfehlen eine [Brandschutztasche](https://www.amazon.de/Jamara-141360-LiPo-Guard-Lipobrandschutztasche/dp/B003OFCUIS/ref=sr_1_18?keywords=LIPO+TRESOR&qid=1556284975&s=gateway&sr=8-18) für den Akku, da bei einer Beschädigung hohe Verletzungsgefahr besteht.
 
-![Powerboost Aufbau](../../../pictures/solar_powerboost.jpg)
+![Powerboost Aufbau](../../../../pictures/solar_powerboost.jpg)
 
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-     >>WARNUNG<< <br>
-     Der LiPo-Akku und der Powerboost sollten am besten vor Nässe geschützt aufgebaut werden, wenn ihr die Station draußen betreibt. Das passende Gehäuse gibt es im Set dazu, ist aber auch das Gleiche wie z.B. beim Feinstaubsensor. Vorsicht auch bei Minustemperaturen, dann solltest du die Station bestenfalls reinholen.
+    >>WARNUNG<< <br>
+    Der LiPo-Akku und der Powerboost sollten am besten vor Nässe geschützt aufgebaut werden, wenn ihr die Station draußen betreibt. Das passende Gehäuse gibt es im Set dazu, ist aber auch das Gleiche wie z.B. beim Feinstaubsensor. Vorsicht auch bei Minustemperaturen, dann solltest du die Station bestenfalls reinholen.
 </div>
