@@ -48,7 +48,6 @@ To use the senseBox with a solar panel, you only need aPowerboost 1000C and a [L
 ![Powerboost Setup](../../../pictures/solar_powerboost.jpg)
 
 <div class="box_warning">
-     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-     >>WARNING-HINT<< <br>
-     The LiPo battery and the Powerboost should best be protected from moisture when you operate the station outside. The matching housing is included in the set, but is also the same as e.g. for the fine dust sensor. Also watch out at minus temperatures, then you should bring the station indoors.
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    The LiPo battery and the Powerboost should best be protected from moisture when you operate the station outside. The matching housing is included in the set, but is also the same as e.g. for the fine dust sensor. Also watch out at minus temperatures, then you should bring the station indoors.
 </div>
