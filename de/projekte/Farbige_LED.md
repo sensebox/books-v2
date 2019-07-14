@@ -14,7 +14,7 @@ In dieser Station wollen wir lernen, wie man eine mehrfarbige LED verwendet.
 * JST-Adapterkabel
 
 ## Aufbau 
-Um die mehrfarbige LED mit der senseBoxMCU zu verbinden stecke die Pins wie in der Abbildung unten.
+Um die mehrfarbige LED mit der senseBoxMCU zu verbinden stecke die Pins wie in der Abbildung unten. Auf der senseBoxMCU musst du einen der 3 Digitalen Steckplätze verwenden.
 
 ![Verkabelung der mehrfarbigen LED](../../../pictures/projekte/MehrfarbigeLEDKlein.png)
 

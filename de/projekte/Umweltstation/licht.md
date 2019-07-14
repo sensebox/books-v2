@@ -41,7 +41,7 @@ Der Sensor wird über das I²C Protokoll angesprochen. Wir sprechen ihn direkt m
 
 ##Aufbau
 
-![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../../../pictures/diy-station/wired_lux.jpg)
+![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../../../pictures/diy-station/wired_lux.png)
 
 ## Programmierung
 <div class="box_warning">
