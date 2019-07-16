@@ -34,7 +34,7 @@ sein.
             <img src="../pictures/blocks/text/text-1.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Der Erstelle-Text-Aus-Block</h4>
+            <h4>Erstelle-Text-Aus</h4>
             Verwende diesen Block um kompliziertere Textelemente darstellen zu lassen. Du benötigst diesen Block einerseits um einen Messwert in Text umwandeln und zu lassen und andererseits um zusammengesetze Texte zu erstellen. 
         </div>
     </div>
@@ -58,7 +58,7 @@ sein.
             <img src="../pictures/blocks/text/text-2.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Der Text-Anhängen-Block</h4>
+            <h4>Text-Anhängen</h4>
             Verwende diesen Block um einen bereits erstellten Textblock um ein zusätzliches Element zu erweitern.
         </div>
     </div>
@@ -72,7 +72,7 @@ sein.
             <img src="../pictures/blocks/text/text-3.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Der Länge-Block</h4>
+            <h4>Länge</h4>
             Verwende diesen Block um die Länge eines Textblocks bestimmen zu lassen. Die Länge des Textblocks "senseBox" wäre zum Beispiel 8.
         </div>
     </div>
@@ -86,7 +86,7 @@ sein.
             <img src="../pictures/blocks/text/text-4.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Der Leer-Block</h4>
+            <h4>ist Leer?</h4>
             Dieser Block überprüft, ob ein gegebener Textblock leer ist (die Länge 0 hat). Das Ergebnis ist entweder wahr (wenn der gegebene Textblock tatsächlich leer ist) oder falsch (wenn sich Zeichen im Textblock befinden).
         </div>
     </div>

@@ -70,22 +70,8 @@
             <img src="../pictures/blocks/logic/logic-4.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Headline</h4>
-            Beschreibung
-        </div>
-    </div>
-</div>
-
-<div class="line"></div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="../pictures/blocks/logic/logic-5.png" alt="block" align="left">
-        </div>
-        <div class="col-md-6">
-            <h4>Headline</h4>
-            Beschreibung
+            <h4>Wahr</h4>
+            Der Block für den Boolean Operator Wahr/Falsch
         </div>
     </div>
 </div>
@@ -98,8 +84,8 @@
             <img src="../pictures/blocks/logic/logic-6.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Headline</h4>
-            Beschreibung
+            <h4>Teste Wenn-Wahr</h4>
+            Überprüft eine Bedingung und führt je Zustand entsprechende Anweisungen aus
         </div>
     </div>
 </div>
