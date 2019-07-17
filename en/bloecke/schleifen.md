@@ -1,6 +1,6 @@
-# Schleifen {#head}
+# Loops {#head}
 
-<div class="description">Schleifen sind ein einfaches Steuerelement für deinen Programmcode. Mit einer Schleife kannst Steuern wie oft bestimmte Aktionen ausgeführt werden sollen.</div>
+<div class="description">loops are a simple control for your program code. With a loop you can control how often certain actions should be executed.</div>
 <div class="line">
     <br>
     <br>
@@ -12,8 +12,8 @@
             <img src="../pictures/blocks/loops/loops-0.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Wiederhole X-Mal</h4>
-            Diesen Block kannst du verwenden, wenn du eine bestimmte Aktion wiederholt ausführen willst. Mithilfe der Zahl kannst du einstellen, wie oft die Aktion innerhalb der Schleife wiederholt werden soll. 
+            <h4>Repeat X-Mal</h4>
+            You can use this block if you want to perform a certain action repeatedly. You can use the number to specify how often the action should be repeated within the loop. 
         </div>
     </div>
 </div>
@@ -26,8 +26,8 @@
             <img src="../pictures/blocks/loops/loops-1.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Wiederhole solange</h4>
-            Mithilfe dieses Blockes kannst du eine bestimmte Aktion wiederholen lassen, <i>solange</i> einer Bedinung WAHR ist. Füge an diesen Block eine <a href="../blocks/logik.html">Vergleichsbedingung</a> an. Im Dropdown Menü hast du auch die Auswahlmöglichkeit die Aktion wiederholen zu <i>bis</i> die Vergleichsbedinungen war ist. 
+            <h4> Repeat as long as</h4>
+            With this block you can repeat a certain action, <i>as long as</i> a condition is TRUE. Add a <a href="../blocks/logik.html">comparison condition</a> to this block. In the dropdown menu you also have the option to repeat the action to <i>bis</i> the comparison condition was. 
         </div>
     </div>
 </div>
@@ -40,8 +40,8 @@
             <img src="../pictures/blocks/loops/loops-2.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>For-Schleife</h4>
-            Dieser Block beschreibt die typische for-Schleife in der Programmierung. Mithilfe einer Laufvariable <i>i</i> und einem Laufzeitbereich (z.B 1-10) und einer Schrittweite lässt sich genauer Steuern wie oft und welche Aktion ausgeführt werden soll. 
+            <h4>For loop</h4>
+            This block describes the typical for loop in programming. With the help of a run variable <i>i</i> and a runtime range (e.g. 1-10) and a step size, it is possible to control exactly how often and which action should be executed. 
         </div>
     </div>
 </div>
@@ -54,8 +54,8 @@
             <img src="../pictures/blocks/loops/loops-3.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Schleife abbrechen</h4>
-            Dieser Block sorgt dafür, dass die aktuelle Schleife sofort abgebrochen wird und der Programmcode weiterläuft. Im Dropdown Menü lässt sich auch auswählen, dass <i>mit der nächsten Iteration der Schleife</i> fortgefahren wird.
+            <h4>Cancel loop </h4>
+            This block ensures that the current loop is aborted immediately and the program code continues to run. In the dropdown menu you can also select <i> to continue with the next iteration of the loop</i>.
         </div>
     </div>
 </div>

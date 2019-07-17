@@ -1,4 +1,4 @@
-#  Zeit {#head}
+# Time {#head}
 
 <div class="description"></div>
 <div class="line">
@@ -12,8 +12,8 @@
             <img src="../pictures/blocks/time/time1.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Programmcode unterbrechen</h4>
-            Mit diesem Block kannst du deinen Programmcode für eine gewisse Zeit unterbrechen. In dieser Zeit pausiert der Mikrokontroller und es werden keine Aktionen ausgeführt. Die Zeit wird in Millisekunden angegeben (1 Sekunde = 1000 Millisekunden)
+            <h4> Interrupt program code</h4>
+            With this block you can interrupt your program code for a certain time. During this time the microcontroller pauses and no actions are executed. The time is given in milliseconds (1 second = 1000 milliseconds).
         </div>
     </div>
 </div>
@@ -25,7 +25,7 @@
             <img src="../pictures/blocks/time/time2.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            Dieser Block hat die gleiche Funktion wie der vorherige Block, allerdings wird hier eine Zeit in Mikrosekunden angegeben.
+            This block has the same function as the previous block, but a time in microseconds is given here.
         </div>
     </div>
 </div>
@@ -38,8 +38,8 @@
             <img src="../pictures/blocks/time/time3.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Bereits vergangene Zeit</h4>
-            Dieser Block gibt dir die Zeit, die dein Programmcode bereits läuft. Die Laufzeit wird in Millisekunden angegeben
+            <h4>Already elapsed time</h4>
+            This block gives you the time your program code is already running. The runtime is given in milliseconds.
         </div>
     </div>
 </div>
@@ -51,7 +51,7 @@
             <img src="../pictures/blocks/time/time4.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-             Auch mit diesem Block wird dir die Laufzeit seit dem Start deines Programmes angegeben, diesmal allerdings in Mikrosekunden.
+             This block also tells you the runtime since the start of your program, but this time in microseconds.
         </div>
     </div>
 </div>
@@ -64,8 +64,8 @@
             <img src="../pictures/blocks/time/time5.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-           <h4>Warte für immer</h4>
-           Mit diesem Block kannst du dein Programm einfach beenden lassen.
+           <h4>wait forever </h4>
+           With this block you can simply let your program finish.
         </div>
     </div>
 </div>
@@ -78,9 +78,9 @@
             <img src="../pictures/blocks/time/time6.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Messintervall</h4>
-            Damit das Übertragen der Messwerte nicht jede Sekunde erfolgt, sondern erst nach einem gewissen Zeitintervall, kannst du diesen
-            Block verwenden. Ziehe dazu alle Aktionen, die erste nach einer gewissen Zeit erfolgen sollen in die Schleife und trage die Zeit in Millisekunden ein. 
+            <h4>Measurement interval</h4>
+            So that the transmission of the measured values does not take place every second, but only after a certain time interval, you can
+            block. To do this, drag all actions that are to take place first after a certain time into the loop and enter the time in milliseconds. 
         </div>
     </div>
 </div>

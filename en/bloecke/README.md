@@ -1,23 +1,23 @@
 # Overview {#head}
 
-<div class="description">Hier findest du eine Übersicht über die verschiedenen Blöcketypen.</div>
+<div class="description">Here you will find an overview of the different block types.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-#### Various Blocktyps
+#### Various block types
 
-Es gibt verschiedene Typen von Blöcken:
+There are different types of blocks:
 
 <div class="container">
     <div class="row">
         <div class="col-md-6">
             <img src="../pictures/blocks/sensors/sensors1.png" alt="block" align="left"></div>
         <div class="col-md-6">
-        <h4>Blöcke mit Rückgabewerten</h4>
-            Diese Blöcke müssen immer an andere Blöcke angehangen werden. Sie geben einen Wert zurück (z.B. ein Messwert)
+        <h4>Blocks with return values </h4>
+            These blocks must always be attached to other blocks. They return a value (e.g. a measured value).
          </div>
     </div>
 </div>
@@ -27,8 +27,8 @@ Es gibt verschiedene Typen von Blöcken:
         <div class="col-md-6">
             <img src="../pictures/blocks/display/display2.png" alt="block" align="left"></div>
         <div class="col-md-6">
-        <h4>Blöcke offenen Blockabschnitten</h4>
-            In diese Blöcke kannst du verschiedene Aktionen hinziehen, die dann nacheinander ausgeführt werden.  
+        <h4>Blocks open block sections</h4>
+            You can drag various actions into these blocks, which are then executed one after the other.  
          </div>
     </div>
 </div>
@@ -38,8 +38,8 @@ Es gibt verschiedene Typen von Blöcken:
         <div class="col-md-6">
             <img src="../pictures/blocks/logic/logic-gif-0.gif" alt="block" align="left"></div>
         <div class="col-md-6">
-        <h4>Blöcke mit Kontextmenü</h4>
-            Einige Blöcke haben ein kleines Zahnrad an der Seite. Mit einem Klick auf das Zahnrad kannst du das Kontexmenü öffnen und den Block um weitere Funktionen erweitern.
+        <h4>Blocks with context menu</h4>
+            Some blocks have a small gear on the side. With a click on the gear you can open the context menu and extend the block with further functions.
          </div>
     </div>
 </div>
@@ -49,8 +49,8 @@ Es gibt verschiedene Typen von Blöcken:
         <div class="col-md-6">
             <img src="../pictures/blocks/dropdown.png" alt="block" align="left"></div>
         <div class="col-md-6">
-        <h4>Blöcke mit Dropdownmenü</h4>
-            Das Dropdown Menü eines Blockes gibt dir Zugriff auf weitere Funktionen und Rückgabewerte. So kann bei Sensoren zum Beispiel ausgewählt werden welcher Messwert zurückgegeben wird oder an welchen Anschluss der Sensor angeschlossen wurde.
+        <h4>Blocks with drop down menu</h4>
+            The dropdown menu of a block gives you access to further functions and return values. For example, you can select which measured value is returned or to which connection the sensor has been connected.
          </div>
     </div>
 </div>
@@ -61,21 +61,21 @@ Es gibt verschiedene Typen von Blöcken:
 </div>
 
 
-Eine genauere Erläuterungen zu den Blöcken, die du in der Toolbox findest gibt es auf der jeweiligen Unterseite. 
+A more detailed explanation of the blocks you can find in the toolbox can be found on the respective subpage. 
 
-* [Sensoren](../bloecke/sensoren.md)
+* [Sensors](../bloecke/sensoren.md)
 * [Display](../bloecke/display.md)
 * [Web](../bloecke/web.md)
     - [WiFi](../bloecke/wifi.md)
     - [openSenseMap](../bloecke/opensensemap.md)
     - [Webserver](../bloecke/webserver.md)
 * [SD](../bloecke/sd.md)
-* [Logik](../bloecke/logik.md)
-* [Schleifen](../bloecke/schleifen.md)
-* [Mathematik](../bloecke/mathematik.md)
+* [Logic](../bloecke/logik.md)
+* [loops](../blocks/loops.md)
+* [Mathematics](../bloecke/mathematik.md)
 * [Text](../bloecke/text.md)
-* [Variablen](../bloecke/variablen.md)
-* [Funktionen](../bloecke/funktionen.md)
-* [Eingang/Ausgang](../bloecke/eingang_ausgang.md)
-* [Zeit](../bloecke/zeit.md)
+* [Variables](../bloecke/variablen.md)
+* [Functions](../bloecke/funktionen.md)
+* [Input/Output](../bloecke/Input_Output.md)
+* [Time](../bloecke/zeit.md)
 

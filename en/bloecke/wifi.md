@@ -1,10 +1,10 @@
 # WiFi {#head}
 
-<div class="description">Hier findest du alle Blöcke, die eine Verbindung zum Internet benötigen. 
+<div class="description">Here you will find all blocks that need a connection to the internet. 
 </div>
 
-<p>Um diese Blöcke verwenden zu können stecke des WiFi-Bee auf Steckplatz XBEE1</p>
-![WiFiBee](../pictures/components/wifi-bee.jpeg "Aufstecken des WiFi-Bee")
+<p>To use these blocks, plug the WiFi-Bee into the XBEE1</p> slot.
+![WiFiBee](../pictures/components/wifi-bee.jpeg "Plugging in the WiFi-Bee")
 
 <div class="container">
     <div class="row">
@@ -12,9 +12,9 @@
             <img src="../pictures/blocks/wifi/wifi1.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Verbinde mit WLAN</h4>
-            Verwende diesen Block im Setup() um eine Wlan Verbindung herzustellen. Trage den entsprechenden Netzwerknamen (SSID) und
-            das Passwort ein.
+            <h4>Connect to WLAN</h4>
+            Use this block in Setup() to establish a Wlan connection. Write the corresponding network name (SSID) and
+            enter the password.
         </div>
     </div>
 </div>
@@ -27,6 +27,6 @@
             <img src="../pictures/blocks/wifi/wifi2.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Initialisiere WLAN Access Point</h4>
-            Verwende diesen Block im Setup() um mit der senseBox einen Wlan Acces Point zu erstellen. Anschließend kann sich ein Gerät (z.B. Handy oder Computer direkt) direkt mit der senseBox verbinden.
+            <h4>Initialize WLAN Access Point</h4>
+            Use this block in Setup() to create a Wlan Access Point with the senseBox. Then a device (e.g. mobile phone or computer) can connect directly to the senseBox.
         </div>

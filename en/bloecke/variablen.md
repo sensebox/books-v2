@@ -1,6 +1,6 @@
-# Variablen {#head}
+# Variables {#head}
 
-<div class="description">Variablen werden wie auch in der Mathematik als Platzhalter verwendet. Variablen besitzen immer einen Datentyp und der Wert einer Variable kann im Verlauf des Programmes verändert werden. Variablen können mithilfe der Blöcke als globale Variablen erstellt werden. Weitere Informationen zu den Funktionsweisen und Einsatzmöglichkeiten der einzelnen Blöcke findest du auf dieser Seite </div>
+<div class="description">variables are used as placeholders as in mathematics. Variables always have a data type and the value of a variable can be changed in the course of the program. Variables can be created as global variables using the blocks. More information about the functions and possible uses of the individual blocks can be found on this page </div>
 <div class="line">
     <br>
     <br>
@@ -12,14 +12,14 @@
             <img src="../pictures/blocks/variables/variables-0.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Variablen abrufen</h4>
-            Dieser Block gibt dir Zugriff auf die Variable, wenn du diese Abfragen oder Ausgeben (z.B. auf dem Display) möchtest. Standardmäßig ist der Name einer neuen Variable "Element" das Dropdown Menü gibt dir aber Zugriff auf folgende Funktionen:
+            <h4>Retrieve variables </h4>
+            This block gives you access to the variable if you want to query or output it (e.g. on the display). By default, the name of a new variable is "Element", but the drop-down menu gives you access to the following functions:
             <ul>
-            <li>Eine Übersicht aller Variablen, die im Programm definiert worden sind</li>
-            <li>Eine Option den Namen der aktuellen Variable zu ändern</li>
-            <li>Eine neue Variable anzulegen</li>
+            <li>An overview of all the variables defined in the program</li>
+            <li>An option to change the name of the current variable </li>
+            <li>Create a new variable </li>
             </ul>
-            Diese Dropdown Menü findest du in allen Blöcken, in denen du Zugriff auf die Variablen hast. 
+            You will find this dropdown menu in all blocks where you have access to the variables. 
         </div>
     </div>
 </div>
@@ -32,8 +32,8 @@
             <img src="../pictures/blocks/variables/variables-1.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Variablen schreiben</h4>
-           Mit diesem Block kannst du einer Variable einen Wert oder einen Text zuweisen. Es ist zum Beispiel auch direkt möglich das Auslesen eines Sensors mit dem Block zu verbinden. Der Block erkennt den Datentyp des Rückgabewerts automatisch und legt eine entsprechende Variable an.
+            <h4>Write variables </h4>
+           With this block you can assign a value or a text to a variable. For example, it is also possible to directly connect the readout of a sensor to the block. The block automatically recognizes the data type of the return value and creates a corresponding variable.
         </div>
     </div>
 </div>
@@ -42,19 +42,19 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6" id="variablesDatatype">
+        <div class="col-md-6" id="variablesDatatatype">
             <img src="../pictures/blocks/variables/variables-2.png" alt="block" align="left">
             <img src="../pictures/blocks/variables/variables-3.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Variablen schreiben mit bestimmten Datentyp</h4>
-            In der Regel wird der Datentyp einer Variable automatisch erkannt. Du hast aber auch die Möglichkeit der Variable einen spezifischen Datentyp zuzuweisen. In dem Dropdown Menü findest du folgende Datentypen:
+            <h4>Write variables with specific data type </h4>
+            As a rule, the data type of a variable is recognized automatically. But you also have the possibility to assign a specific datatype to the variable. In the dropdown menu you will find the following data types:
             <ul>
-                <li>Zeichen <i>(Char)</i>: Hiermit können einzelne Zeichen gespeichert werden</li>
-                <li>Text <i>(String)</i>: Speichert einzelne Texte</li>
-                <li>Boolean <i>(boolean)</i>: Kann den Wert TRUE/WAHR oder FALSE/FALSCH annehmen</li>
-                <li>Zahl <i>(int)</i>: ganze Zahlen (-32.768 bis 32.767) </li>
-                <li>große Zahl <i>(long)</i>: -2,147,483,648 bis 2,147,483,647 </li>
-                <li>Dezimalzahl <i>(float)</i>: Dezimalzahlen zwischen -3.4028235E+38 und +3.4028235E+38 </li>
+                <li>characters <i>(Char)</i>: Allows single characters to be saved</li>
+                <li>Text <i>(String)</i>: Saves individual texts</li>
+                <li>Boolean <i>(boolean)</i>: Can take the value TRUE or FALSE/FALSE</li>
+                <li>number <i>(int)</i>: integer numbers (-32,768 to 32,767) </li>
+                <li>large number <i>(long)</i>: -2,147,483,648 to 2,147,483,647 </li>
+                <li>decimal number <i>(float)</i>: Decimal numbers between -3.4028235E+38 and +3.4028235E+38 </li>
         </div>
    

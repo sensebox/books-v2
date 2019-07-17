@@ -12,7 +12,7 @@
             <img src="../pictures/blocks/io/io-0.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>digitalen Pin mit Strom versorgen</h4>
+            <h4>Power digital Pin</h4>
             This block lets you turn digital pins on or off. The status is set by a Boolean variable, which is either High (ON) or Low (OFF). 
         </div>
     </div>
