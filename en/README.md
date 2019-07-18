@@ -1,16 +1,16 @@
-# Das Blockly für senseBox Buch {#head}
+# The Blockly for senseBox book {#head}
 <div class="description">
-Hier findest du alle Informationen, um mit Blockly für senseBox deine senseBox zu programmieren 
+Here you will find all the information you need to program your senseBox with Blockly for senseBox. 
 </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-## Über dieses Buch
-Diese Seiten geben dir einen Überlick über die verschiendene Blöcke und Funktionen der Blockly für senseBox Programmieroberfläche.
+## About this book
+These pages give you an overview of the different blocks and functions of the Blockly for senseBox programming interface.
 
-Diese Buch richtet sich an alle Nutzer der Blockly Oberfläche. Die Oberfläche kann auch mit anderen Arduino kompatiblen Mikrokontrollern verwendet werden. Allerdings sind viele Funktionen speziell für die Verwendung der senseBox MCU und den jeweiligen Sensoren angepasst worden. 
-Du findest Blockly für die senseBox online [hier](https://blockly.sensebox.de)
+This book is intended for all users of the Blockly interface. The interface can also be used with other Arduino compatible microcontrollers. However, many functions have been specially adapted for the use of the senseBox MCU and the respective sensors. 
+You can find Blockly for the senseBox online [here](https://blockly.sensebox.de)
 
-Viel Spaß wünscht dir das Team der [senseBox](https://sensebox.de/)! 
+Have fun with the your [senseBox](https://sensebox.de/)! 

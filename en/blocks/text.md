@@ -1,13 +1,12 @@
 # Text {#head}
 
-<div class="description">This page gives you an overview of the available blocks for creating text in Blockly for senseBox. Text, for example:
+<div class="description">This page gives you an overview of the available blocks for creating text in Blockly for senseBox. Text, for example can be:
 <ul> 
 <li>one single word (e.g. name)</li>
 <li>a whole sentence (e.g. Hello World!)</li>
 <li>one measured value</li>
-<li>a description for measured values (e.g. temperature: </li>)
+<li>a description for measured values (e.g. temperature: )</li>
 </ul>
-be.
 </div>
 <div class="line">
     <br>

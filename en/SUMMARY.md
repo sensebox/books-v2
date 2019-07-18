@@ -1,31 +1,31 @@
 # Summary
 
-* [Das Blockly Buch](README.md)
-* [Übersicht](uebersicht.md)
+* [The Blockly Book](README.md)
+* [Overview](overview.md)
 
 ## Blockly für senseBox
-* [Blockly für senseBox Online](uebersicht/blockly_online.md)
-* [senseBox:edu Komponenten](uebersicht/sensebox_components.md)
-* [Los gehts](uebersicht/losgehts.md)
+* [Blockly for senseBox](overview/blockly_online.md)
+* [senseBox:edu components](overview/sensebox_components.md)
+* [Getting started](overview/gettingstarted.md)
 
 ## Blöcke
-* [Übersicht über die Blöcke](bloecke/README.md)
-    * [Sensoren](bloecke/sensoren.md)
-    * [Display](bloecke/display.md)
-    * [LED](bloecke/led.md)
-    * [Web](bloecke/web.md)
-        * [WiFi](bloecke/wifi.md)
-        * [openSenseMap](bloecke/opensensemap.md)
-        * [Webserver](bloecke/webserver.md)
-    * [SD](bloecke/sd.md)     
-    * [Logik](bloecke/logik.md)
-    * [Schleifen](bloecke/schleifen.md)
-    * [Mathematik](bloecke/mathematik.md)
-    * [Text](bloecke/text.md)
-    * [Variablen](bloecke/variablen.md)
-    * [Funktionen](bloecke/funktionen.md)
-    * [Eingang/Ausgang](bloecke/eingang_ausgang.md)
-    * [Zeit](bloecke/zeit.md)
+* [Block overview](blocks/README.md)
+    * [Sensors](blocks/sensoren.md)
+    * [Display](blocks/display.md)
+    * [LED](blocks/led.md)
+    * [Web](blocks/web.md)
+        * [WiFi](blocks/wifi.md)
+        * [openSenseMap](blocks/opensensemap.md)
+        * [Webserver](blocks/webserver.md)
+    * [SD](blocks/sd.md)     
+    * [Logic](blocks/logik.md)
+    * [Loops](blocks/schleifen.md)
+    * [Maths](blocks/mathematik.md)
+    * [Text](blocks/text.md)
+    * [Variables](blocks/variablen.md)
+    * [Functions](blocks/funktionen.md)
+    * [Input/Output](blocks/eingang_ausgang.md)
+    * [Time](blocks/zeit.md)
 
 
 

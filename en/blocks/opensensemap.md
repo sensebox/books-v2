@@ -41,7 +41,7 @@ To transfer measurements to the openSenseMap you first have to create a user acc
             Block, because each sensor/measured value receives a specific and unique sensor ID in addition to the senseBox ID.
             Copy the respective sensor ID from the overview of your registration and append a measured value, which will be transferred to the sensor.
             to be. In addition to the measured value, your location must be transferred each time. Use the
-            <a href="../blocks/sensors.html#gps">GPS Sensor</a>. Drag this block into the loop of the block that connects to the openSenseMap.
+            <a href="../blocks/sensoren.html#gps">GPS Sensor</a>. Drag this block into the loop of the block that connects to the openSenseMap.
         </div>
     </div>
 </div>

@@ -3,7 +3,7 @@
 <div class="description">Here you will find all blocks that need a connection to the internet. 
 </div>
 
-<p>To use these blocks, plug the WiFi-Bee into the XBEE1</p> slot.
+<p>To use these blocks, plug the WiFi-Bee into the XBEE1 slot.</p>
 ![WiFiBee](../pictures/components/wifi-bee.jpeg "Plugging in the WiFi-Bee")
 
 <div class="container">

@@ -2,7 +2,7 @@
 
 <div class="description">To save data to SD card you need a micro SD card and the mSD-Bee. 
 </div>
-<p>To use these blocks, plug the mSD-Bee into XBEE2</p> slot
+<p>To use these blocks, plug the mSD-Bee into XBEE2 slot</p>
 <div class="container">
     <div class="row">
         <div class="col-md-12" id="mSD-Bee">

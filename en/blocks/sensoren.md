@@ -13,16 +13,16 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6" id="temperature">
-            <img src="../Bilder/Blöcke/Sensoren/Sensoren/Sensoren1.png" alt="block" align="left">
+            <img src="../pictures/blocks/sensors/sensors1.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Temperatur- und Feuchtesensor (HDC1080)</h4>
+            <h4>Temperature and Humidity (HDC1080)</h4>
             <!-- Knopftrigger modal -->
             <Button type="button" class="btn-modal" data-toggle="modal" data-target="#exampleModal">
-                Verbindung: I2C/Draht
+                Connection: I2C/Wire
             </button>
 
-            <!-- Modal --> Modal -->
+            <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -33,7 +33,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <img src="../bilder/kreise /hdc1080.png" alt="block" align="left">
+                            <img src="../pictures/circuits/hdc1080.png" alt="block" align="left">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn btn-modal" data-dismiss="modal">Schließen</button>
@@ -42,11 +42,11 @@
                 </div>
             </div>
             <br>
-            This Block I'll be you do the messwert of
-            <a href="../uebersicht/sensebox_components.html#temp_humi">Temperatur- und Feuchtigkeitssensor</a>. Im Dropdown-Menü können Sie den jeweiligen Messwert auswählen. Dropdown-Menü:
+            This Block will give the value from the
+            <a href="../overview/sensebox_components.html#temp_humi">Temperature and Humiditiy</a>. You can choose between the different measurement values in the Dropdown-Menü:
             <ul>
-                <li> Temperatur </li> Temperatur </li>
-                <li> Luftfeuchtigkeit </>
+                <li> Temperature </li>
+                <li> Humidity </li>
             </ul>
         </div>
     </div>
@@ -57,28 +57,28 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6" id="lichtsensor">
-            <img src="../Bilder/Blöcke/Sensoren/Sensoren/Sensoren2.png" alt="block" align="left">
+            <img src="../pictures/blocks/sensors/sensors2.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Helligkeit-/UV-Sensor</h4>
+            <h4>Illuminance/UV-Sensor</h4>
 
-            <!-- Knopftrigger modal -->
+            <!-- modal -->
             <Button type="button" class="btn-modal" data-toggle="modal" data-target="#i2cModal">
-                Anschluss: I2C/Draht
+                Connection: I2C/Wire
             </button>
 
-            <!-- Modal --> Modal -->
+            <!-- Modal --> 
             <div class="modal fade" id="i2cModal" tabindex="-1" role="dialog" aria-labelledby="i2cModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="i2cModalLabel">Anschluss: I2C/Draht</h5>
+                            <h5 class="modal-title" id="i2cModalLabel">Connection: I2C/Wire</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            <img src="../bilder/kreise / veml6070.png" alt="block" align="left">
+                            <img src="../pictures/circuits/veml6070.png" alt="block" align="left">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn btn-modal" data-dismiss="modal">Schließen</button>
@@ -88,10 +88,10 @@
             </div>
             <br>
             This Block I'll be you do the messwert of
-            <a href="../uebersicht/sensebox_components.html#illu_uv">UV-Licht und Lichtsensor</a>. Im Dropdown-Menü können Sie den jeweiligen Messwert auswählen. Dropdown-Menü:
+            <a href="../overview/sensebox_components.html#illu_uv">UV-Licht und Lichtsensor</a>. Im Dropdown-Menü können Sie den jeweiligen Messwert auswählen. Dropdown-Menü:
             <ul>
-                <li> UV-Licht </li>
-                <li> Helligkeit </li>
+                <li> Illuminance</li>
+                <li> UV-Light </li>
             </ul>
         </div>
     </div>
@@ -103,10 +103,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6" id="beschleunigung">
-            <img src="../Bilder/Blöcke/Sensoren/Sensoren/Sensoren3.png" alt="block" align="left">
+            <img src="../pictures/blocks/sensors/sensors3.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Beschleunigungssensor</h4>>
+            <h4>Beschleunigungssensor</h4>
             Dieser Block gibt den Messwert der Beschleunigungssensoren der direkten auf der SenseBox MCU an. Im Dropdown-Menü können Sie den jeweiligen Messwert auswählen. Dropdown-Menü Richtung:
 <ul>
                 <li>x-axis</li>
@@ -121,7 +121,6 @@
                 <li>8g</li>
                 <li>16g</li>
             </ul>
-
         </div>
     </div>
         </div>
@@ -245,7 +244,7 @@
             This block gives you the reading of the microphone. The output value is a level value between 0 and 5V.
             When connecting the sensor, be sure to select the correct pins in the dropdown menu. <!-- Button trigger modal -->
             <button type="button" class="btn-modal" data-toggle="modal" data-target="#Modal-Sound">
-                Circuit: Volume sensor
+                Circuit: Microphone sensor
             </button>
 
             <!-- Modal begin -->
@@ -253,7 +252,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="ModalLabelSound">Circuit: Volume sensor</h5>
+                            <h5 class="modal-title" id="ModalLabelSound">Circuit: Microphone</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
