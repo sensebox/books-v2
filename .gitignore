@@ -13,3 +13,8 @@ _book
 # eBook build output
 *.epub
 *.mobi
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?

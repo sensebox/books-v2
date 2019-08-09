@@ -145,6 +145,20 @@ img[alt="block"] {
   overflow-x: auto;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: flex;
+}
+
+.component-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* distinguish glossary terms from actual links 
 .markdown-section .glossary-term {
   text-decoration-style: dotted;

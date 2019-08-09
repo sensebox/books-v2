@@ -596,21 +596,6 @@
       "resolved": "https://registry.npmjs.org/gitbook-plugin-youtubex/-/gitbook-plugin-youtubex-2.0.3.tgz",
       "integrity": "sha1-+zScdEC1bWcLISPkR/2Ip/PBDRM="
     },
-    "gitbook-styleguide": {
-      "version": "7.9.3",
-      "resolved": "https://registry.npmjs.org/gitbook-styleguide/-/gitbook-styleguide-7.9.3.tgz",
-      "integrity": "sha1-b5QoBUjXMEc/oj7Y+mh3keLYC+k=",
-      "dev": true,
-      "requires": {
-        "classnames": "2.2.5",
-        "gitbook-markdown-css": "1.1.0",
-        "moment": "2.22.1",
-        "moment-duration-format": "1.3.0",
-        "octicons": "3.4.1",
-        "react-sticky": "5.0.8",
-        "roboto-fontface": "0.6.1"
-      }
-    },
     "graceful-fs": {
       "version": "4.1.11",
       "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz",
@@ -1583,5 +1568,6 @@
         "lodash.assign": "4.2.0"
       }
     }
-  }
+  },
+  "devDependencies": {}
 }
