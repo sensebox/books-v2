@@ -76,6 +76,6 @@ A more detailed explanation of the blocks you can find in the toolbox can be fou
 * [Text](../blocks/text.md)
 * [Variables](../blocks/variablen.md)
 * [Functions](../blocks/funktionen.md)
-* [Input/Output](../blocks/Input_Output.md)
+* [Input/Output](../blocks/input_output.md)
 * [Time](../blocks/zeit.md)
 

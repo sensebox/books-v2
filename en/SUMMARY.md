@@ -19,12 +19,12 @@
         * [Webserver](blocks/webserver.md)
     * [SD](blocks/sd.md)     
     * [Logic](blocks/logik.md)
-    * [Loops](blocks/schleifen.md)
+    * [Loops](blocks/loops.md)
     * [Maths](blocks/mathematik.md)
     * [Text](blocks/text.md)
     * [Variables](blocks/variablen.md)
     * [Functions](blocks/funktionen.md)
-    * [Input/Output](blocks/eingang_ausgang.md)
+    * [Input/Output](blocks/input_output.md)
     * [Time](blocks/zeit.md)
 
 

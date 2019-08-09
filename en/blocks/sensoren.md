@@ -1,6 +1,6 @@
 # senseBox Sensoren {#head}
 
-<div class="description">Diese Seite gibt Ihnen einen Überblick über die verfügbaren Blöcke, mit denen Sie die Sensoren der senseBox auslesen und steuern können.
+<div class="description">This page gives you an overview of the available blocks with which you can read and control the sensors of the senseBox.
     kannst
 </div>
 <div class="line">

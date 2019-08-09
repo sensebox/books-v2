@@ -1,30 +1,30 @@
 
-# Blockly für senseBox Online {#head}
- <div class="description">Blockly für senseBox ist eine grafische Programmieroberfläche die komplett online in deinem Browser läuft. Sie ermöglicht dir deine senseBox zu programmieren ohne Software zu installieren </div>
+# Blockly for senseBox Online {#head}
+ <div class="description">Blockly for senseBox is a graphical programming interface that runs completely online in your browser. It allows you to program your senseBox without installing any software </div>
 <div class="line">
     <br>
     <br>
 </div>
 
-Du findest Blockly für senseBox online unter <a href="https://blockly.sensebox.de">https://blockly.senseBox.de</a>. Dort kannst du zwischen den verschiedenen Versionen der senseBox auswählen. Für die senseBox MCU wird keine weitere Software benötigt. Arbeitest du mit einem anderen Arduino kompatiblen Mikrocontroller musst der Code auf deinem Computer mithilfe der Arduino IDE kompiliert und übertragen werden.
+You can find Blockly for senseBox online at <a href="https://blockly.sensebox.de">https://blockly.senseBox.de</a>. There you can choose between the different versions of senseBox. No additional software is required for the senseBox MCU. If you are working with another Arduino compatible microcontroller, the code on your computer must be compiled and transferred using the Arduino IDE.
 
-## Die Oberfläche
+## The interface
 
-Blockly für senseBox läuft in den gängingen Browsern (Google Chrome, Firefox und Edge) ohne Installation. Die Oberfläche ist sowohl in Deutsch als auch in Englisch verfügbar.
+Blockly for senseBox runs in the popular browsers (Google Chrome, Firefox and Edge) without installation. The interface is available in German as well as in English.
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Wenn du die Sprache änderst wird die Oberfläche neu geladen und deine bisherige Programmierung wird nicht gespeichert. Du solltest dir also zu Begin überlegen ob du in der Englischen oder Deutschen Oberfläche arbeiten willst. Alternativ kannst du die deine Blöcke als XML Datei speichern und nach dem Ändern der Sprache wieder laden. 
+    If you change the language, the interface will be reloaded and your previous programming will not be saved. So you should consider at the beginning whether you want to work in the English or German interface. Alternatively you can save your blocks as XML files and load them again after changing the language. 
 </div>
 
-Die Oberfläche ist grob in drei Bereiche aufgeteilt. Links findest du die Toolbox, die alle Blöcke enthält. In der Mitte ist deine Arbeitsoberfläche und rechts wird dir der generierte Arduino Code angezeigt. 
+The surface is roughly divided into three areas. On the left you find the toolbox, which contains all blocks. In the middle is your desktop and on the right you see the generated Arduino code. 
 
-![Die Blockly für senseBox Oberfläche](../pictures/blockly_overview.png)
+![The Blockly for senseBox interface](../pictures/blockly_overview.png)
 
-#### Die Toolbox
+#### The Toolbox
 
-Hier findest du alle Blöcke, die die du für deine Programmierung verwenden kannst. Eine genaue Erläuterung zu den einzelnen Kategorien und die Funktionsweise der Blöcke findest du [hier](../blocks/README.md)
+Here you will find all the blocks you can use for your programming. You can find a detailed explanation of the individual categories and the functionality of the blocks [here](../blocks/README.md)
 
 #### Buttons
 
-In der Online Oberfläche verbergen sich die wichtigsten Funktionen hinter verschiedenen Buttons. Die beiden Buttons in der Arbeitsoberfläche sind zum kopieren des Codes in die Zwischenablage (Praktisch, wenn du z.B. deinen Code offline in der Arduino IDE kompilieren willst) und der Kompilieren Button, der den Programmcode auf dem Server Online kompiliert und anschließend dir eine fertigen Programmcode als .BIN Datei zum Download anbietet. 
-In der Kopfzeile der Weboberfläche kannst du deinem Programmcode einen Namen geben, die Blöcke als XML-Datei speichern oder wieder laden, den Programmcode als .ino speichern und die komplette Arbeitsfläche mit einem klick löschen. Ganz links findes du das Menü, in dem du Zugriff auf die Einstellungen und die vorgefertigten Beispiele hast.
+In the online interface, the most important functions are hidden behind various buttons. The two buttons in the desktop are for copying the code to the clipboard (handy if you want to compile your code offline in the Arduino IDE) and the compile button, which compiles the program code on the server online and then offers you a finished program code as a .BIN file for download. 
+In the header of the web interface you can give your program code a name, save or reload the blocks as an XML file, save the program code as .ino and delete the entire workspace with one click. On the far left you will find the menu where you have access to the settings and the ready-made examples.

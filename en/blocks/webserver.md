@@ -1,18 +1,18 @@
 # senseBox Web {#head}
 
-<div class="description">Hier findest du alle Blöcke, um einen Webserver mithilfe der senseBox zu bauen. Für den Webserver benötigst du das WiFi-Bee.
+<div class="description">Here you can find all the blocks you need to build a webserver using senseBox. For the webserver you need the WiFi-Bee.
 </div>
 
 <div class="line"></div>
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6" id="http_initialisieren">
+        <div class="col-md-6" id="http_initialize">
             <img src="../pictures/blocks/webserver/webserver1.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>HTTP-Server initialisieren</h4>
-            Verwende diesen Block im Setup() um den HTTP-Server zu initialisieren. Über das Feld Port kannst du einstellen über welchen Port der Server im Broswer erreichbar sein soll. Standardmäßig ist hier Port 80 eingetragen.
+            <h4>Initialize HTTP server </h4>
+            Use this block in Setup() to initialize the HTTP server. The Port field allows you to specify the port the server should be accessible from in the browser. By default, port 80 is entered here.
         </div>
     </div>
 </div>
@@ -25,8 +25,8 @@
             <img src="../pictures/blocks/webserver/webserver2.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Wenn Client verbunden ist</h4>
-            Dieser Block wird in der Endlosschleife verbunden. In den freien Blockabschnitt fügst du die Blöcke ein, die ausgeführt werden sollen, wenn eine Client (z.B. ein Nutzer über den Browser) auf den den Server zugreift.
+            <h4>When client is connected</h4>
+            This block is connected in an endless loop. In the free block section, insert the blocks to be executed when a client (e.g. a user via the browser) accesses the server.
         </div>
     </div>
 </div>
@@ -39,8 +39,8 @@
             <img src="../pictures/blocks/webserver/webserver3.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>IP-Adresse</h4>
-            Dieser Block gibt dir die IP-Adresse deiner senseBox im Netzwerk zurück.
+            <h4>IP address</h4>
+            This block returns the IP address of your senseBox in the network.
         </div>
     </div>
 </div>
@@ -49,12 +49,12 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6" id="methode">
+        <div class="col-md-6" id="method">
             <img src="../pictures/blocks/webserver/webserver4.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Methode</h4>
-            Dieser Block gibt dir die Methode zurück.
+            <h4>Method</h4>
+            This block gives you the method back.
         </div>
     </div>
 </div>
@@ -68,7 +68,7 @@
         </div>
         <div class="col-md-6">
             <h4>URI</h4>
-            Dieser Block gibt dir die URI zurück.
+            This block gives you the URI back.
         </div>
     </div>
 </div>
@@ -81,8 +81,8 @@
             <img src="../pictures/blocks/webserver/webserver6.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>User-Agent</h4>
-            Dieser Block gibt dir die User-Agent des Clienten, der auf den HTTP-Server zugreift zurück.
+            <h4>User agent</h4>
+            This block returns the user agent of the client accessing the HTTP server.
         </div>
     </div>
 </div>
@@ -95,8 +95,8 @@
             <img src="../pictures/blocks/webserver/webserver7.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Erfolgreiche HTTP-Antwort</h4>
-            Mit diesem Block kannst du einen HTTP Antwort an den Clienten senden, wenn dieser auf den Server zugreift. Die Antwort ist der HTML Code, der aus verschiedenen Blöcken zusammengebaut werden kann. 
+            <h4>Successful HTTP Response</h4>
+            With this block you can send an HTTP response to the client when it accesses the server. The answer is the HTML code that can be assembled from different blocks. 
         </div>
     </div>
 </div>
@@ -109,8 +109,8 @@
             <img src="../pictures/blocks/webserver/webserver8.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>404-Fehler</h4>
-            Dieser Block kannst als Mögliche HTTP Antwort gesendet werden, wenn eine fehlerhafte Seite aufgerufen wird. 
+            <h4>404 error</h4>
+            This block can be sent as a possible HTTP response when a faulty page is called. 
         </div>
     </div>
 </div>
@@ -124,7 +124,7 @@
         </div>
         <div class="col-md-6">
             <h4>HTML</h4>
-            Dies ist der Grundbaustein für den HTML Code. An den Body hängst du deinen HTML Code, der den Aufbau der Website beschreibt.
+            This is the basic building block for the HTML code. On the body you attach your HTML code, which describes the structure of the website.
         </div>
     </div>
 </div>
@@ -137,8 +137,8 @@
             <img src="../pictures/blocks/webserver/webserver10.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Tag</h4>
-            Mit den Tags kannst du deine HTML-Seite direkt über Blockly aufbauen. 
+            <h4>Day</h4>
+            With the tags you can build your HTML page directly with Blockly. 
         </div>
     </div>
 </div>
@@ -151,8 +151,8 @@
             <img src="../pictures/blocks/webserver/webserver11.png" alt="block" align="left">
         </div>
         <div class="col-md-6">
-            <h4>Lese HTML von SD Karte</h4>
-            Diesen Block kannst du an den Grundbaustein für den HTML Code anhängen und eine .html Datei von SD-Karte laden. 
+            <h4>Read HTML from SD card</h4>
+            You can append this block to the basic HTML code block and load a .html file from the SD card. 
         </div>
     </div>
 </div>

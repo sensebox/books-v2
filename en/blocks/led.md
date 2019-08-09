@@ -1,6 +1,6 @@
 # LED {#head}
 
-<div class="description">Diese Seite gibt dir eine Übersicht über die verschiedenen Ausgabemöglichkeiten der senseBox
+<div class="description">This page describes how to connect the LED and the RGB to the senseBox MCU.
 </div>
 <div class="line">
     <br>
@@ -20,7 +20,7 @@
             <br>
             <!-- Button trigger modal -->
             <button type="button" class="btn-modal" data-toggle="modal" data-target="#ledModal">
-                Schaltung
+                Circuit
             </button>
 
             <!-- Modal -->
@@ -60,7 +60,7 @@
 
                <!-- Button trigger modal -->
                <button type="button" class="btn-modal" data-toggle="modal" data-target="#rgb-ledModal">
-                Schaltung
+                Circuit
             </button>
 
             <!-- Modal -->

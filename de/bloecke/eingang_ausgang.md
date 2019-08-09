@@ -24,7 +24,7 @@
             <img src="../pictures/blocks/io/io-1.png" alt="block" align="left">
         </div>
         <div class="col-md">
-            <h4>Status eine digitalen Pin auslesen</h4>
+            <h4>Status eines digitalen Pin auslesen</h4>
             Mithilfe von diesem Block kannst du den Status eines digitalen Pins auslesen und überrpüfen oder Strom fließt oder nicht.
         </div>
     </div>
