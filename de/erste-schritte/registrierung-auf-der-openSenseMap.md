@@ -34,6 +34,13 @@ Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der 
   Du bist dir nicht sicher ob du ein Ethernet oder WiFi-Bee hast, oder kannst den Unterschied zwischen dem Luftdruck und Temperatursensor nicht erkennen? Im Kapitel <a href = "../komponenten/README.md">Komponenten</a> findest du Bilder und weitere Hinweise zu den einzelnen Bauteilen.
 </div>
 
+{% collapse title="Verbindung über LoRa" %}
+
+Möchtest du deine Daten über LoRa an die openSenseMap schicken wählst du bei "Verbindungsart" LoRa aus. Anschließend kannst du im Reiter "Erweitert" deine Lora Einstellungen angeben. Hier musst du die Application-ID und Device-ID angeben, welche du beim <a href="www.thethingsnetwork.org">TheThingsNetwork</a> angegeben hast. 
+![LoRa Konfigurationen](../../../pictures/LoRaOSEM.PNG)
+
+{% endcollapse %}
+
 Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen, welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Falls du einen Feinstaubsensor installieren möchtest, musst du außerdem noch angeben, an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
 
 {% collapse title="Warum muss ich den Feinstaub-Sensor an einen Serial-Port anschließen?" %}
@@ -86,7 +93,11 @@ ___________________
 
 ### LoRa-Bee
 
-Leider sind wir bisher noch nicht dazu gekommen eine Anleitung für das LoRa-Bee zu schreiben. Wenn du Lust hast dies zu übernehmen, schicke uns gerne eine Mail an info@sensebox.de
+* Arduino Anwendung öffnen
+* In der Menüleiste ``Datei`` → ``Öffnen`` auswählen und die ``senseBox.ino`` Datei auswählen
+* Im Dialogfeld wird gefragt ob die Datei verschoben werden darf. Dieses mit "Ja" oder "Ok" bestätigen.
+* Jetzt kannst du as Programm über das Pfeil Icon auf den Mikrocontroller laden.
+* Warten bis das Programm übertragen wurde
 ___________
 
 {% endtabs %}
