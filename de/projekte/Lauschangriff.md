@@ -12,7 +12,7 @@ In dieser Station wollen wir lernen, wie wir das Mikrofon mit dem Arduino nutzen
 * Mic-Breakout
 
 ## Grundlagen 
-Das Mikrofon (Mic-Breakout) benötigt eine Betriebsspannung von 2.7V-5.5V und ist in der Lage Amplituden von Schallwellen wahrzunehmen. Anhand dieser Schallwellen wird eine elektrische Spannung erzeugt und von dem Sensor als Signal an die senseBox weitergegeben. Wie ihr dieses elektrische Signal auslesen könnt und in Volt umwandeln könnt erfahrt ihr hier!
+Das Mikrofon (Mic-Breakout) benötigt eine Betriebsspannung von 2.7V-5.5V und ist in der Lage Amplituden von Schallwellen wahrzunehmen. Anhand dieser Schallwellen wird eine elektrische Spannung erzeugt und von dem Sensor als Signal an die senseBox weitergegeben. Wie ihr dieses elektrische Signal auslesen könnt und in Volt umwandeln könnt erfahrt ihr in diesem Kapitel!
 
 ## Aufbau 
 Das Mikrofon wird mit einen JST-Adapterkabel mit der senseBox MCU verbunden. Dazu wird das JST-Adapterkabel mit dem Steckplatz Digital A verbunden. Es verfügt über drei Pins(GND, VCC und OUT). Das schwarze Kabel wird mit GND verbunden, das rote mit VCC und das grüne mit OUT. Hierbei stellen wir mit dem schwarzen Kabel einen Minuspol, mit dem roten Kabel die Stromversorgung und mit dem grünen Kabel eine Datenübertragung zum Port 1 her. 
