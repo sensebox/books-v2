@@ -1,5 +1,5 @@
 # LoRa-Bee {#head}
-<div class="description">Verwendet die LoRa-Schnittstelle um Daten ins Internet zu übertragen. Neu ist das LoRa WAN-XBee-Modul, mit dem eine stromsparende und kostenlose Möglichkeit der Datenübertragung ins Internet über den LoRa-Funk-Standard ermöglicht wird. Dafür werden bestehende LoRa-Netzwerke, wie zum Beispeil TheThingsNetwork genutzt um Daten zu übertragen. Die hierzu benötigte Infrastruktur wird bei TheThingsNetwork von der Community bereit gestellt, und ist in immer mehr Regionen verfügbar.</div>
+<div class="description">LoRa ist eine relativ neue Schnittstelle, mit der eine stromsparende und kostenlose Datenübertragung ins Internet möglich ist. Das Besondere an der Übertragunstechnologie ist ihre Reichweite, so muss ein LoRa-Gateway im Umkreis von lediglich 2 - 40 Kilometern bestehen, je nachdem ob die Station im städtischen Gebiet oder im ländlichen Raum ohne Gebirge (ggf. über Wasser) genutzt werden soll.<br>Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe der LoRa-Funk-Standards des TheThingsNetwork. Die hierzu benötigte Infrastruktur wird von der TTN-Community bereit gestellt, und ist in immer mehr Regionen verfügbar. Deutschland besitzt im internationalen Vegleich schon eine sehr gute Abdeckung mit ~2000 Gateways.</div>
 
 <div class="line">
     <br>
@@ -18,7 +18,7 @@
 * Gewicht: 1,1 g
 
 # Hinweise
-Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist: https://www.thethingsnetwork.org/community#list-communities-map
+Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist.<br>Dies ist auf der [Karte](https://www.thethingsnetwork.org/community#list-communities-map) des TTN möglich.
 
 **Achtung: Aufgrund der erhöhten Komplexität der Installation empfehlen wir das LoRa-Modul außschließlich fortgeschrittenen Nutzern von Open-Hardware**
 
@@ -29,14 +29,14 @@ Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet berei
 
 # Upload über LoRaWAN
 
-Es ist möglich Sensordaten per LoRaWAN™ durch das [TheThingsNetwork](https://thethingsnetwork.org)
+Es ist möglich Sensordaten per [LoRaWAN™](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network) durch das [TheThingsNetwork](https://thethingsnetwork.org)
 (TTN) auf die openSenseMap zu laden.
 LoRa ist ein zunehmend Verbreitung findender Funkstandard, welcher ähnlich wie
 WiFi digitale Datenübertragung in einem IP-Netzwerk erlaubt, jedoch deutlich
 andere Features bietet:
 
 - Datendurchsatz: 300 - 3000 Bit/s
-- Reichweite:     bis zu 15km 
+- Reichweite:     bis zu 15km (Im Durchschnitt) 
 
 TTN ist eins von mehreren Projekten, welches die zur Funk-Hardware zugehörige
 Infrastruktur für das IP-Netzwerk implementiert, wodurch registrierte Geräte
@@ -51,24 +51,27 @@ Konfiguration stark vereinfacht. Das TheThingsNetwork ist ein LoRa Netzwerk, wel
 
 ### Registrierung bei TheThingsNetwork
 
-Hast du einen Account erstellt, musst du nun eine Application hinzufügen. Dies kannst du über [diesen](https://console.thethingsnetwork.org/applications) Link erledigen. Hier musst du eine Application ID, also einen Namen für deine Anwendung eingeben. Nachdem die Application hinzugefügt wurde musst du nun ein Device hinzufügen. Dies geschieht über den Reiter `Devices`->`Register device`. Auch hier musst du eine ID für das Gerät hinzufügen. Die `Device-EUI` kannst du dir mit einem Klick auf das Symbol generieren lassen.
-Zu guter letzt musst du dem TTN-Netzwerk nun noch mitteilen, dass deine Daten an die openSenseMap weitergeleitet werden sollen. Hierfür gehst du auf deine [Übersicht](https://console.thethingsnetwork.org/applications), wählst deine eben erstellte Application aus und gehst auf den Reiter `Integrations`. Dort findest du den Knopf `Add integration`, woraufhin sich ein Fenster mit einer Reihe an Auswahlmöglichkeiten öffnet. Unter diese Möglichkeiten wählst du `HTTP Integration` aus. Die `Process ID` kannst du wieder selbst wählen. Bei `URL` gibst du `https://ttn.opensensemap.org/v1.1` an und die Methode lautet `POST`. Unter Access Key den `default key` auswählen. Das Authorization Feld kann leer bleiben!
+Hast du einen Account erstellt, musst du nun eine Application hinzufügen.<br>Dies kannst du über diesen [Link](https://console.thethingsnetwork.org/applications) erledigen. Hier musst du eine Application ID, also einen Namen für deine Anwendung eingeben.<br><br>Nachdem die Application hinzugefügt wurde, musst du nun ein Device hinzufügen. Dies geschieht über den Reiter `Devices`->`Register device`. Auch hier musst du eine ID für das Gerät hinzufügen. Die `Device-EUI` kannst du dir mit einem Klick auf das Symbol generieren lassen.<br><br>Zu guter Letzt musst du dem TTN-Netzwerk nun noch mitteilen, dass deine Daten an die openSenseMap weitergeleitet werden sollen. Hierfür gehst du auf deine [Übersicht](https://console.thethingsnetwork.org/applications), wählst deine eben erstellte Application aus und gehst auf den Reiter `Integrations`. Dort findest du den Knopf `Add integration`, woraufhin sich ein Fenster mit einer Reihe an Auswahlmöglichkeiten öffnet. Unter diesen Möglichkeiten wählst du `HTTP Integration` aus. Die `Process ID` kannst du wieder selbst wählen. Bei `URL` gibst du `https://ttn.opensensemap.org/v1.1` an und die Methode lautet `POST`. Unter Access Key den `default key` auswählen. Das Authorization Feld kann leer bleiben!
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" alt="ttnconsole" center width="767" />
 
 ### Registrierung auf der openSenseMap
 
-Gehe nun auf die openSenseMap und registriere eine senseBox mit deinen Sensoren die du angeschlossen hast. Als Methode zur Datenübertragung wählst du hier `LoRa` aus. Im Abschnitt `Erweitert` öffnet sich nun der Reiter für die TTN-Konfigurationen. Als erstes musst du hier ein Decoding Profil auswählen. Dies hängt von den Sensoren ab die du installieren möchtest. Hast du nur die Sensoren der senseBox:home (Temperatur&Luftfeuchte, Luftdruck, UV/Licht) wähle das `senseBox:home` Profil aus. Hast du nicht alle Sensoren der senseBox:home oder hast zusätzliche wie <b> z.B. den Feinstaubsensor </b> wähle hier `JSON` aus!
+Gehe nun auf die openSenseMap und registriere eine senseBox mit deinen Sensoren, die du angeschlossen hast. Als Methode zur Datenübertragung wählst du hier `LoRa` aus. Im Abschnitt `Erweitert` öffnet sich nun der Reiter für die TTN-Konfigurationen. Als Erstes musst du hier ein Decoding Profil auswählen. Dies hängt von den Sensoren ab, die du installieren möchtest. 
+
+- Hast du nur die Sensoren der senseBox:home (Temperatur&Luftfeuchte, Luftdruck, UV/Licht) wähle das `senseBox:home` Profil aus. 
+- Hast du nicht alle Sensoren der senseBox:home oder hast zusätzliche wie <b> z.B. den Feinstaubsensor </b> wähle hier `JSON` aus!
+
 In den weiteren Feldern du die `Application ID` und die `Device ID` aus dem vorherigen Schritt angeben.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_register_ttn.png"  alt="osemregister" center width="767"/>
 
 Optional kann im Feld `port` noch der Port angegeben werden, auf welchem
-der Sender seine Daten an das TTN schickt. So lassen sich die selbe `app_id`
+der Sender seine Daten an das TTN schickt. So lassen sich dieselbe `app_id`
 und `dev_id` für mehrere Sensorstationen verwenden. Falls das nicht der Fall ist, lasse dieses Feld leer.
 
 ### Datenübertragung 
-Nachdem du die Box erfolgreich auf der openSenseMap registriert hast, bekommst du nun per Mail einen Arduino Sketch zugeschickt. Dieser ist schon <b>fast fertig</b> wir müssen aber noch ein paar Änderungen vornehmen bis alles funktioniert. 
+Nachdem du die Box erfolgreich auf der openSenseMap registriert hast, bekommst du nun per Mail einen Arduino Sketch zugeschickt. Dieser ist schon <b>fast fertig!</b> Wir müssen aber noch ein paar Änderungen vornehmen, bis alles funktioniert. 
 
 Öffne den dir zugeschickten Sketch in der Arduino IDE und scrolle zur Stelle im Code, an der du die Schlüssel `DEVEUI`,`APPEUI` und `APPKEY` eingeben musst.  
 
@@ -125,7 +128,7 @@ Begebe dich auf die Übersicht deiner Application indem du über [diesen Link](h
 
 ![In der Textbox muss der Decoder nun eingefügt werden](../../../../pictures/decoder_code.png)
 
-In diesem Beispiel findest du ein Decoder Profil welches nur den Temperatur und Luftfeuchte Sensor sowie den Feinstaubsensor der senseBox decodiert. 
+In diesem Beispiel findest du ein Decoder Profil welches nur den Temperatur- und Luftfeuchte-Sensor sowie den Feinstaubsensor der senseBox decodiert. 
 
 
 <h1 id="decoder"></h1>
@@ -241,7 +244,7 @@ function Decoder(bytes, port) {
 ```
 
 {% endcollapse %}
-Möchtest du nun hier etwas ändern, sagen wir du möchtest den Luftdrucksensor hinzufügen so musst du dies an drei Stellen im Decoder tun. 
+Möchtest du nun hier etwas ändern, sagen wir du möchtest den Luftdrucksensor hinzufügen, so musst du dies an drei Stellen im Decoder tun. 
 
 {% collapse  title="Erste Änderung" %}
 Als erstes musst du zwei zusätzliche Variablen für die ID's deklarieren. 
@@ -285,7 +288,7 @@ Das Ausgabe-JSON muss um ein Feld erweitert werden.
 {% endcollapse %}
 
 {% collapse  title="Dritte Änderung" %}
-Zu guter letzt muss dem erweiterten JSON noch ein Wert zugewiesen werden.
+Zu guter Letzt muss dem erweiterten JSON noch ein Wert zugewiesen werden.
 
 ```javascript
       //temp
@@ -302,11 +305,11 @@ Zu guter letzt muss dem erweiterten JSON noch ein Wert zugewiesen werden.
 {% endcollapse %}
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Fügst du einen neuen Sensor hinzu, so musst das natürlich auch in deinem Arduino Sketch machen!
+    Fügst du einen neuen Sensor hinzu, so musst du das natürlich auch in deinem Arduino Sketch machen!
 </div>
 
 #### `lora-serialization`
-Für Sensorstationen, welche eine spezielle Sensorkonfiguration haben, können
+Für Sensor-Stationen, welche eine spezielle Sensorkonfiguration haben, können
 durch das `lora-serialization` Profil nahezu beliebige Daten annehmen.
 Hierzu nutzen wir die [`lora-serialization`](https://github.com/thesolarnomad/lora-serialization)
 Bibliothek, welche ein einheitliches Encoding auf dem Microcontroller, und
