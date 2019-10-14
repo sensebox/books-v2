@@ -13,7 +13,7 @@ Lamellierte Gehäusewände und -türe sorgen für eine gute Belüftung und Schut
 </div>
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Dieses Projekt wurde von einem unserer Community-Member realisiert und dokumentiert! Der Author ist <b>OllyS</b> und ist wie viele andere im <a href="https://forum.sensebox.de/">senseBox Forum</a> zu finden. Im Forum findest du zudem Anregungen, neue Ideen oder Diskussionen rund um die senseBox!
+    Dieses Projekt wurde von einem unserer Community-Member realisiert und dokumentiert! Der Author ist <b>OllyS</b> und ist wie viele andere im <a href="https://forum.sensebox.de/">senseBox Forum</a> zu finden. Im Forum findest du zudem Anregungen, neue Ideen oder Diskussionen rund um die senseBox! Eine ähnliche Wetterhütte könnt ihr jetzt auch im <a href="https://sensebox.kaufen/product/wetterhutte">senseBox Shop</a> kaufen!
     </div>
 
 
