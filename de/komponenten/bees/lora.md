@@ -1,5 +1,5 @@
 # LoRa-Bee {#head}
-<div class="description">LoRa ist eine relativ neue Schnittstelle, mit der eine stromsparende und kostenlose Datenübertragung ins Internet möglich ist. Das Besondere an der Übertragunstechnologie ist ihre Reichweite, so muss ein LoRa-Gateway im Umkreis von lediglich 2 - 40 Kilometern bestehen, je nachdem ob die Station im städtischen Gebiet oder im ländlichen Raum ohne Gebirge (ggf. über Wasser) genutzt werden soll.<br>Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe der LoRa-Funk-Standards des TheThingsNetwork. Die hierzu benötigte Infrastruktur wird von der TTN-Community bereit gestellt, und ist in immer mehr Regionen verfügbar. Deutschland besitzt im internationalen Vegleich schon eine sehr gute Abdeckung mit ~2000 Gateways.</div>
+<div class="description">Verwendet die LoRa-Schnittstelle um Daten stromsparend und kostenlos ins Internet zu übertragen. Das Besondere an der Übertragunstechnologie ist ihre Reichweite, so muss ein LoRa-Gateway im Umkreis von lediglich 2 bis hin zu 40 Kilometern bestehen, je nachdem ob die Station im städtischen Gebiet oder im ländlichen Raum ohne Gebirge (ggf. über Wasser) genutzt werden soll.<br>Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe der LoRa-Funk-Standards des TheThingsNetwork. Die hierzu benötigte Infrastruktur wird von der TTN-Community bereit gestellt, und ist in immer mehr Regionen verfügbar. Deutschland besitzt im internationalen Vegleich schon eine sehr gute Abdeckung mit ~2000 Gateways.</div>
 
 <div class="line">
     <br>
@@ -30,13 +30,13 @@ Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet berei
 # Upload über LoRaWAN
 
 Es ist möglich Sensordaten per [LoRaWAN™](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network) durch das [TheThingsNetwork](https://thethingsnetwork.org)
-(TTN) auf die openSenseMap zu laden.
+(TTN) auf die openSenseMap zu laden.<br>
 LoRa ist ein zunehmend Verbreitung findender Funkstandard, welcher ähnlich wie
 WiFi digitale Datenübertragung in einem IP-Netzwerk erlaubt, jedoch deutlich
 andere Features bietet:
 
 - Datendurchsatz: 300 - 3000 Bit/s
-- Reichweite:     bis zu 15km (Im Durchschnitt) 
+- Reichweite:     ~ 15km (Im Durchschnitt) 
 
 TTN ist eins von mehreren Projekten, welches die zur Funk-Hardware zugehörige
 Infrastruktur für das IP-Netzwerk implementiert, wodurch registrierte Geräte
@@ -45,11 +45,11 @@ mit dem Internet verbunden werden können.
 Nutzer können *Gateways* sowie *Nodes* zu dem Netzwerk hinzufügen.
 
 
-## TheThingsNetwork und openSenseMap Integration
+## TheThingsNetwork & openSenseMap Integration
 Die openSenseMap bietet eine direkte Integration in das TheThingsNetwork, was die
 Konfiguration stark vereinfacht. Das TheThingsNetwork ist ein LoRa Netzwerk, welches dafür zuständig ist Daten von deiner senseBox an die openSenseMap weiterzuleiten. Erstelle als ersten Schritt dieses Tutorials einen Account auf der [Website](www.thethingsnetwork.org).
 
-### Registrierung bei TheThingsNetwork
+### Registrierung im TheThingsNetwork
 
 Hast du einen Account erstellt, musst du nun eine Application hinzufügen.<br>Dies kannst du über diesen [Link](https://console.thethingsnetwork.org/applications) erledigen. Hier musst du eine Application ID, also einen Namen für deine Anwendung eingeben.<br><br>Nachdem die Application hinzugefügt wurde, musst du nun ein Device hinzufügen. Dies geschieht über den Reiter `Devices`->`Register device`. Auch hier musst du eine ID für das Gerät hinzufügen. Die `Device-EUI` kannst du dir mit einem Klick auf das Symbol generieren lassen.<br><br>Zu guter Letzt musst du dem TTN-Netzwerk nun noch mitteilen, dass deine Daten an die openSenseMap weitergeleitet werden sollen. Hierfür gehst du auf deine [Übersicht](https://console.thethingsnetwork.org/applications), wählst deine eben erstellte Application aus und gehst auf den Reiter `Integrations`. Dort findest du den Knopf `Add integration`, woraufhin sich ein Fenster mit einer Reihe an Auswahlmöglichkeiten öffnet. Unter diesen Möglichkeiten wählst du `HTTP Integration` aus. Die `Process ID` kannst du wieder selbst wählen. Bei `URL` gibst du `https://ttn.opensensemap.org/v1.1` an und die Methode lautet `POST`. Unter Access Key den `default key` auswählen. Das Authorization Feld kann leer bleiben!
 
