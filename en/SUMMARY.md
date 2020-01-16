@@ -51,6 +51,7 @@
         * [Air Pressure & Temperature](komponenten/sensoren/luftdruck-temperatur.md)
         * [Light and UV Intensity](komponenten/sensoren/belichtung-und-uv.md)
         * [Fine Dust](komponenten/sensoren/feinstaub.md)
+        * [Soil Moisture](komponenten/sensoren/bodenfeuchte.md)
     * [Accessories](komponenten/zubehoer/README.md)
         * [Radiation Protection](komponenten/zubehoer/strahlenschutz.md)
         * [Housing](komponenten/zubehoer/gehaeuse.md)

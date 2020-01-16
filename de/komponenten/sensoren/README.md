@@ -16,5 +16,5 @@ Hier findest du Informationen zu den folgenden Sensoren, klicke einfach den Name
 - [Luftdruck & Temperatur](luftdruck-temperatur.md)
 - [Belichtung und UV](belichtung-und-uv.md)
 - [Feinstaub](feinstaub.md)
-
+- [Bodenfeuchte](bodenfeuchte.md)
 Natürlich kannst Du auch jeden anderen dir bekannten Sensor an die senseBox anschliessen, dann bist du als Tüftler allerdings selbst gefragt, wenn es erstmal an das Verkabeln und Programmieren geht ;) Wenn du Lust hast kannst du aber gerne deinen Sensor beschreiben und wir nehmen die Anleitung mit in dieses Book auf.

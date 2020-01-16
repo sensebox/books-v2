@@ -22,6 +22,7 @@
     + [Air pressure & Temperatur](sensoren/luftdruck-temperatur.md)
     + [Illumination and UV](sensoren/belichtung-und-uv.md)
     + [Fine dust](sensoren/feinstaub.md)
+    + [Soil Moisture](sensoren/bodenfeuchte.md)
 4. [Additional Components](zubehoer/README.md)
     + [Sensor Protection](zubehoer/strahlenschutz.md)
     + [Casing](zubehoer/gehaeuse.md)

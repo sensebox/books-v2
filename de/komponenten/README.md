@@ -23,6 +23,7 @@
     + [Luftdruck & Temperatur](sensoren/luftdruck-temperatur.md)
     + [Belichtung und UV](sensoren/belichtung-und-uv.md)
     + [Feinstaub](sensoren/feinstaub.md)
+    + [Bodenfeuchte](sensoren/bodenfeuchte.md)
 4. [Zubehör](zubehoer/README.md)
     + [Strahlenschutz](zubehoer/strahlenschutz.md)
     + [Gehäuse](zubehoer/gehaeuse.md)
