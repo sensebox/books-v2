@@ -1,5 +1,7 @@
 # GPS {#head}
-<div class="description">Das GPS-Modul empfängt die Position (Längengrad/Breitengrad/Höhe) der senseBox. Diese kann für mobile Anwendungen, z.B. die mobile Datenübertragung auf die openSenseMap. Dieser Sensor ist kompatibel mit den gängingen GNS Systemen (GPS, QZSS, GLONASS, BeiDou, Galileo) und basiert auf dem u-blox CAM-M8Q Multi GNSS Modul.</div>
+<div class="description">
+    Das GPS-Modul empfängt die Position (Längengrad/Breitengrad/Höhe) der senseBox. Diese kann für mobile Anwendungen, z.B. die mobile Datenübertragung auf die openSenseMap. Dieser Sensor ist kompatibel mit den gängingen GNS Systemen (GPS, QZSS, GLONASS, BeiDou, Galileo) und basiert auf dem u-blox CAM-M8Q Multi GNSS Modul.
+</div>
 
 <div class="line">
     <br>
@@ -30,38 +32,34 @@ Für die Stromversorgung während der Messperiode kannst du zum Beispiel eine Po
 
 Wie das GPS-Modul programmiert wird, wird hier Beispielhaft anhand einer Temperaturmessung veranschaulicht. Jeder Messwert einer mobilen Station wird zusammen mit den dazugehörigen Werten für Breiten- und Längengrad hochgeladen.
 
-Als erstes muss eine Instanz der Sensoren angelegt werden. Zusätzlich definieren wir noch 2 zwei Variablen für Breiten- und Längengrad
+Als erstes muss eine Instanz der Sensoren angelegt werden. Zusätzlich definieren wir noch 2 zwei Variablen für Breiten- und Längengrad.
 ```arduino
 #include "SenseBoxMCU.h"
 HDC1080 hdc;
-
 GPS gps;
 float lat; // Geografische Breite
 float lon; // Geografische Länge
 ```
+
 In der `setup`-Funktion starten wir nun die beiden Sensoren. 
 {% collapse title="setup() Funktion" %}
-
-```arduino
-void setup(){
-    hdc.begin();
-    gps.begin();
-}
-```
+    ```arduino
+    void setup(){
+        hdc.begin();
+        gps.begin();
+    }
+    ```
 {% endcollapse %}
 
 Die `loop`-Funktion fragt nun den Standort der Station ab und lädt diesem gemeinsam mit dem Wert für Temperatur auf die openSenseMap hoch. 
 
-{% collapse title="loop() Funktion" %} 
-```arduino
-void loop(){
-    lat = gps.getLatitude();
-    lon = gps.getLongitude();
-    temp = hdc.getTemperature();
-
-    osem.uploadMobileMeasurement(temp,"SensorID",lat,lon)
-}
-```
+{% collapse title="loop() Funktion" %}
+    ```arduino
+    void loop(){
+        lat = gps.getLatitude();
+        lon = gps.getLongitude();
+        temp = hdc.getTemperature();
+        osem.uploadMobileMeasurement(temp,"SensorID",lat,lon)
+    }
+    ```
 {% endcollapse %}
-
-

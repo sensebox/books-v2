@@ -22,6 +22,7 @@
     + [Air pressure & Temperatur](sensoren/luftdruck-temperatur.md)
     + [Illumination and UV](sensoren/belichtung-und-uv.md)
     + [Fine dust](sensoren/feinstaub.md)
+    + [Soil Moisture Sensor](sensoren/bodenfeuchte.md)
 4. [Additional Components](zubehoer/README.md)
     + [Sensor Protection](zubehoer/strahlenschutz.md)
     + [Casing](zubehoer/gehaeuse.md)
@@ -30,5 +31,6 @@
     + [HUB](zubehoer/hub.md)
     + [Micro-SD Karte](zubehoer/micro-sd-karte.md)
     + [GPS](zubehoer/gps.md)
+    + [Solar](solarzelle.md)
 
 There are many more sensors which you can adapt with some own initiation and do-it-yourself skills. However, currently we can only provide information about the listet components. If you are interested in other sensor technology you can visit our [Forum](https://forum.sensebox.de/). There you reveice help from the senseBox community.

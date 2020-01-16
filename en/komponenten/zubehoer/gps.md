@@ -38,7 +38,9 @@ GPS gps;
 float lat; // Geographical latitude
 float lon; // Geographical longitude
 ```
+
 In the `setup` function we now start the two sensors. 
+
 {% collapse title="setup() Function" %}
 
 ```arduino
@@ -51,7 +53,8 @@ void setup(){
 
 The `loop` function now queries the location of the station and uploads it together with the value for temperature to the openSenseMap. 
 
-{% collapse title="loop() Function" %} 
+{% collapse title="loop() Function" %}
+
 ```arduino
 void loop(){
     lat = gps.getLatitude();

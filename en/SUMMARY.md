@@ -27,6 +27,7 @@
         * [Airpressure- and Temperature Sensor](komponenten/sensoren/luftdruck-temperatur.md)
         * [Illumination and UV-Radiation Sensor](komponenten/sensoren/belichtung-und-uv.md)
         * [Fine Dust Sensor](komponenten/sensoren/feinstaub.md)
+        * [Soil Moisture Sensor](komponenten/sensoren/bodenfeuchte.md)
     * [Accessories](komponenten/zubehoer/README.md)
         * [Radiation Protection](komponenten/zubehoer/strahlenschutz.md)
         * [Housing](komponenten/zubehoer/gehaeuse.md)
@@ -35,7 +36,7 @@
         * [Expander](komponenten/zubehoer/hub.md)
         * [Micro-SD Card](komponenten/zubehoer/micro-sd-karte.md)
         * [GPS](komponenten/zubehoer/gps.md)
-        * [Solar](komponenten/zubehoer/solar-panel.md)
+        * [Solar](komponenten/zubehoer/solarzelle.md)
 
 ## Help & More
 * [Help](hilfe.md)
