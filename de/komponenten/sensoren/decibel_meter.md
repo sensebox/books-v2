@@ -1,4 +1,4 @@
-# Luftdruck- und Temperatursensor {#head}
+# Lautstärkesensor {#head}
 <div class="description">Dieser Sensor misst Geräusche und gibt die Messwerte in Dezibel aus. </div>
 
 
