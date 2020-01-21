@@ -1,5 +1,5 @@
 # Lautstärkesensor {#head}
-<div class="description">Dieser Sensor misst Geräusche und gibt die Messwerte in Dezibel aus. </div>
+<div class="description">Dieser Sensor misst die Lautstärke und gibt die Messwerte in Dezibel aus. </div>
 
 
 
@@ -25,7 +25,7 @@
 ## Programmierung mit Arduino
 
 ### Werte auslesen
-Im ersten Code-Snippet lesen wir lediglich die Eingangsspannung aus und konvertieren diese in Dezibel um. Der Wert wird auf der Konsole in Arduino angezeigt.
+Im ersten Code-Snippet wird lediglich die Eingangsspannung ausgelesen und in Dezibel konvertiert. Der Wert wird auf der Konsole in Arduino angezeigt.
 Sind diese halbwegs nachvollziehbar - werden größer wenn man z.B. in der Nähe des Sensors klatscht und werden dementsprechend kleiner, wenn keine wahrnehmbare Geräuschkulisse vorliegt - dann ist der Sensor einsatzbereit.
 ```arduino
 #define SoundSensorPin A1  //this pin read the analog voltage from the sound level meter
@@ -48,7 +48,7 @@ void loop()
 ```
 
 ### Werte auf der OpenSenseMap anzeigen
-Hier wollen wir nun die ausgelesenen Werte auf der OseM darstellen. Für eine solche Zeitleiste ist es vorteilhaft z.B. den gemittelten Wert von einer Minute (ggf. 10 Minuten) zu benutzen, da wenn man nur einmal pro Minute einen Wert ausliest, relevante Phänomene nicht richtig dargestellt werden. Dazu ein Beispiel, wenn man an einer verkehrsreichen Straße Daten aufnehmen möchte, kann es trotzdem sein, dass gerade in dem Moment der Messung kein Auto vorbei fährt oder dass der Verkehr gerade aufgrund von Ampeln oder Stau, stillsteht.
+Hier wollen wir nun die ausgelesenen Werte auf der OseM darstellen. Dafür ist es vorteilhaft z.B. den gemittelten Wert von einer Minute (ggf. 10 Minuten) zu benutzen, damit das Phänomen nachvollziehbar dargestellt wird. Dazu ein Beispiel, wenn man an einer verkehrsreichen Straße Daten aufnehmen möchte, kann es trotzdem sein, dass gerade in dem Moment der Messung kein Auto vorbei fährt oder dass der Verkehr gerade aufgrund von Ampeln oder Stau, stillsteht.
 ```arduino
 #include "SenseBoxMCU.h"
 #define SoundSensorPin A1  //this pin read the analog voltage from the sound level meter
