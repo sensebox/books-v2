@@ -11,7 +11,7 @@ The solar panel, produced and distributed by Villageboom, is one of the new comp
     <br>
 </div>
 
-![the panel](../../../../pictures/solar_top.png)
+![the panel](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_top.png)
 
 ### Technical details
    * Model no.: VB-010P
@@ -31,7 +31,7 @@ The [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) ensures t
     <br>
 </div>
 
-![Powerboost 1000C](../../../../pictures/powerboost_top.png)
+![Powerboost 1000C](https://github.com/sensebox/resources/raw/master/gitbook_pictures/powerboost_top.png)
 
 ### Technical details
    * Max Power-Input: 3.7V
@@ -45,7 +45,7 @@ The [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) ensures t
 
 To use the senseBox with a solar panel, you only need a Powerboost and a [LiPo-battery](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), around 1000 mAh should be enough. The powerboost guarentees, that the panel is loading the battery and the battery is powering the senseBox. We recommend a [Fire Bag](https://www.amazon.de/Jamara-141360-LiPo-Guard-Lipobrandschutztasche/dp/B003OFCUIS/ref=sr_1_18?keywords=LIPO+TRESOR&qid=1556284975&s=gateway&sr=8-18) for the battery, since there is a high risk of injury when damaged. The picture below shows how the parts are connected.
 
-![Powerboost Setup](../../../pictures/solar_powerboost.jpg)
+![Powerboost Setup](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_powerboost.jpg)
 
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>

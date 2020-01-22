@@ -50,7 +50,7 @@ Befolge die folgenden Schritte, um das Problem zu lösen:
 
 - Schaue auf deine senseBox MCU, wo das Kabel vom Feinstaubsensor angeschlossen ist.
 
-![Schau nach, an welchem der beiden farbig markierten Ports du deinen Feinstaub Sensor angeschlossen hast](pictures/feinstaub_serial_port.jpg)
+![Schau nach, an welchem der beiden farbig markierten Ports du deinen Feinstaub Sensor angeschlossen hast]https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_serial_port.jpg)
 
 - Hast du deinen Feinstaubsensor, wie auf dem Bild, an den seriellen Port 1 (rot markierter Port) angeschlossen, dann ersetze das `undefined` im Sketch durch `Serial1`. 
 

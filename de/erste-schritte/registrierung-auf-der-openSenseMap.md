@@ -16,7 +16,7 @@ Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu
 ## 1. Nutzeraccount Registrierung
 Gehe auf www.opensensemap.org und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
 
-![Account anlegen](../../../pictures/Sing_up.PNG)
+![Account anlegen](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Sing_up.PNG)
 
 ## 2. Eine neue senseBox anlegen
 Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anzulegen. Dafür klicke auf "New senseBox / Neue senseBox" in deinem Menü und bestätige die Nutzungsbedingungen. Befolge danach die Anweisungen der Registrierung und gebe folgende Daten an:
@@ -27,7 +27,7 @@ Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anz
 
 Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der verwendeten Hardware gefragt. Wähle *senseBox:home V2* und den Bee den du verwendest (WiFi, oder Ethernet)
 
-![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](../../../pictures/Select_hardware.PNG)
+![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Select_hardware.PNG)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -37,7 +37,7 @@ Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der 
 {% collapse title="Verbindung über LoRa" %}
 
 Möchtest du deine Daten über LoRa an die openSenseMap schicken wählst du bei "Verbindungsart" LoRa aus. Anschließend kannst du im Reiter "Erweitert" deine Lora Einstellungen angeben. Hier musst du die Application-ID und Device-ID angeben, welche du beim <a href="www.thethingsnetwork.org">TheThingsNetwork</a> angegeben hast. 
-![LoRa Konfigurationen](../../../pictures/LoRaOSEM.PNG)
+![LoRa Konfigurationen](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoRaOSEM.PNG)
 
 {% endcollapse %}
 
@@ -52,7 +52,7 @@ Hier sollte eine Erklärung stehen.
 ## 3. Summary der Registrierung und Mail erhalten
 Wenn du die Registrierung abgeschlossen hast, musst du noch einmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt (diesen bekommst du zudem noch einmal per E-Mail zugeschickt). 
 
-![Summary der Registrierung. Hier siehst du die IDs deiner senseBox und deiner Sensoren!](../../../pictures/summary.PNG)
+![Summary der Registrierung. Hier siehst du die IDs deiner senseBox und deiner Sensoren!](https://github.com/sensebox/resources/raw/master/gitbook_pictures/summary.PNG)
 
 {% collapse title="Was ist meine senseBox ID" %}
 

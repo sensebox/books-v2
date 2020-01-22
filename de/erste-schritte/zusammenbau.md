@@ -12,7 +12,7 @@
 
 ### Grundausstattung
 
-![Komponentenübersicht der Standardversion](../../../pictures/01_aufbau.png)
+![Komponentenübersicht der Standardversion](https://github.com/sensebox/resources/raw/master/gitbook_pictures/01_aufbau.png)
 
 - Gehäuse mit Deckel
 - mini-USB Kabel + Adapter
@@ -38,7 +38,7 @@ des MCUs.
 
 
 
-![ MCU im Gehäuse](../../../pictures/mcu_verschraubung.jpeg)
+![ MCU im Gehäuse](https://github.com/sensebox/resources/raw/master/gitbook_pictures/mcu_verschraubung.jpeg)
 
 
 
@@ -48,7 +48,7 @@ des MCUs.
 
 Unanhängig davon, welches Bee du benutzt, musst du im nächsten Schritt dein Bee auf dem dafür vorgesehenen *XBEE1* Steckplatz anbringen. 
 
-![MCU im Gehäuse mit WiFi Bee](../../../pictures/xbee.jpeg)
+![MCU im Gehäuse mit WiFi Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/xbee.jpeg)
 
 ## 3. Schritt
 
@@ -61,7 +61,7 @@ Der Stecker des Sensors im Gehäuse kann auf einem der 5 *12C/Wire* Steckplätze
 **Das mini-USB Kabel solltest du erst am MCU anschließen, sobald alles aufgebaut ist.**
 
 
-![Temperatur und Luftfeuchtigkeitssensor + USB ](../../../pictures/usb_sensor.png)
+![Temperatur und Luftfeuchtigkeitssensor + USB ](https://github.com/sensebox/resources/raw/master/gitbook_pictures/usb_sensor.png)
 
 ## 4. Schritt
 
@@ -78,7 +78,7 @@ Mit dem Zubehör kannst du das Gehäuse nun da befestigen, wo du möchtest.
     Achte darauf, dass der Sensor dabei nach oben zeigt! 
 </div>
 
-![Temperatur und Luftfeuchtigskeitssensor im Schutzgehäuse](../../../pictures/tempGeh.jpeg)
+![Temperatur und Luftfeuchtigskeitssensor im Schutzgehäuse](https://github.com/sensebox/resources/raw/master/gitbook_pictures/tempGeh.jpeg)
 
 
 # Zusätzliche Komponenten  (optional)
@@ -93,7 +93,7 @@ Jetzt drückst du 4 Plastikstifte in die äußeren Löcher vom MCU.
 
 
 
-![Anschluss der Kabel für 3 Standartsensoren und Feinstaubsensor](../../../pictures/allesensoren.jpeg)
+![Anschluss der Kabel für 3 Standartsensoren und Feinstaubsensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/allesensoren.jpeg)
 
 
 ## 6. Schritt
@@ -104,7 +104,7 @@ Platziere jetzt jeweils 2 Plastikstifte für einen Sensor und den kleinen Löche
 
 
 
-![Anschluss der Sensoren auf dem Plexiglas](../../../pictures/plexi.jpeg)
+![Anschluss der Sensoren auf dem Plexiglas](https://github.com/sensebox/resources/raw/master/gitbook_pictures/plexi.jpeg)
 
 
 ## 7. Schritt 
@@ -113,7 +113,7 @@ Platziere jetzt jeweils 2 Plastikstifte für einen Sensor und den kleinen Löche
 
 
 
-![Komponenten vom Feinstaubsensor](../../../pictures/komposFein.jpeg)
+![Komponenten vom Feinstaubsensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/komposFein.jpeg)
 
 - Feinstaubsensor
 - Gehäuse
@@ -138,14 +138,14 @@ An dieser Stelle solltest du das Gewinde noch nicht fest drehen!
 </div>
 
 
-![Vorgehen zum Anschluss des Kabels vom Feinstaubsensor](../../../pictures/anschlussfein.jpeg)
+![Vorgehen zum Anschluss des Kabels vom Feinstaubsensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/anschlussfein.jpeg)
 
 
 
 Stecke jetzt die Kunststoffröhre auf den Eingang vom Feinstaubsensor und dann durch das andere Loch im Gehäuse. 
 Nun kannst du die Gewinde auf beiden Seiten des Gehäuses fest drehen und den Deckel auf dem Gehäuse befestigen. 
 
-![Fertiger Anschluss Feinstaubsensor](../../../pictures/feinstaub.jpeg)
+![Fertiger Anschluss Feinstaubsensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub.jpeg)
 
 
 
@@ -153,5 +153,5 @@ Nun kannst du die Gewinde auf beiden Seiten des Gehäuses fest drehen und den De
 
 
 
-![Fertiger Anschluss Feinstaubsensor](../../../pictures/aufbaufertig.jpeg)
+![Fertiger Anschluss Feinstaubsensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/aufbaufertig.jpeg)
 

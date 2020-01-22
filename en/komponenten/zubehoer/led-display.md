@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Das OLED-Display](../../../../pictures/oled_top.png)
+![Das OLED-Display](https://github.com/sensebox/resources/raw/master/gitbook_pictures/oled_top.png)
 
 ## Technical Details
    * Number of Pixels: 128 × 64

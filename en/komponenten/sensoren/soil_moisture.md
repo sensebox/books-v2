@@ -9,7 +9,7 @@
     <br>
 </div>
 
-![soil temperature & humidity](../../../../pictures/smt50_top.png)
+![soil temperature & humidity](https://github.com/sensebox/resources/raw/master/gitbook_pictures/smt50_top.png)
 
 ## Technical details
 - Supply voltage: 3.3 - 30 VDC (DC voltage)
@@ -26,7 +26,7 @@
 ## Integration of the SMT50 in a consisting senseBox:home setup
 Prerequisite for the tutorial is a senseBox:home station registered on the openSenseMap.<br>In our case we have already registered a senseBox:home with WiFi module for data transmission, as well as sensors for temperature & humidity and air pressure & temperature. We also brought it online beforehand.
 
-![Our registered station on the openSenseMap](../../../../pictures/station_osem_home.jpg)
+![Our registered station on the openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem_home.jpg)
 
 ### Expanding the hardware
 We simply have to put the JST plug into the Digital A(pins 1&2) connector.
@@ -34,7 +34,7 @@ We simply have to put the JST plug into the Digital A(pins 1&2) connector.
 ### Integration into openSenseMap
 After that sign in on the OSeM. Select your station in the Dashboard and click 'Edit'. Under the sensors tab there is a + symbol on the top right, two new entries for the two phenomena should be created. Now enter the required information one after the other for the two additional measured values. Finally, for saving the changes, you have to click on the floppy disk icon.
 
-![sensor edit OSeM](../../../../pictures/sensoren_edit.jpg)
+![sensor edit OSeM](https://github.com/sensebox/resources/raw/master/gitbook_pictures/sensoren_edit.jpg)
 
 ### Expand the script
 The script with the newly added phenomena should now also be found on the configuration page under the tab Script. Enter your Wi-Fi data and copy the script with 'Ctrl + A' in Arduino.<br><br>So that the measured values ​​can be uploaded, the respective functions for reading out the sensors have to be implemented and the upload function has to be adapted to the OSeM.<br>Round about the line '75' the sensor IDs should be located. If everything worked, the IDs for the newly created phenomena should also appear there:
@@ -68,4 +68,4 @@ addMeasurement(BODENTSENSOR_ID, soilTemperature);
 ```
 <br>
 If you have done everything right, your values ​​will now be displayed on the OSeM!<br>
-![Station openSenseMap](../../../../pictures/station_osem.jpg)
+![Station openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem.jpg)
