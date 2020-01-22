@@ -21,9 +21,34 @@ To avoid redundant data all pictures used in all senseBox books are stored in on
 ### Development environment
 We use the node.js-based tool [GitBook](https://github.com/GitbookIO/gitbook) for rendering of the content.
 
-### Command line
+### Setup of Gitbook
 To live-preview or render a book, you need the npm package `gitbook-cli`.
-Install it by running `npm i -g gitbook-cli`. If that does not work or you do not have `npm`, have a look at the [official documentation](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
+Follow these instructions or have a look at the [official documentation](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
+
+1. Install node.js and npm package.
+```
+ # Mac OSX.
+ $ brew install node npm
+
+ # Ubuntu.
+ $ sudo apt-get install nodejs npm
+```
+
+2. Install n with npm.
+```
+ $ sudo npm install n -g
+```
+
+3. Downgrade node.js to v5.12.0. (see Build error with node v6 · Issue #1)
+```
+ $ n 5.12.0        
+```
+
+4. Install gitbook-cli package.
+```
+ $ sudo npm install -g gitbook-cli
+```
+
 Clone this repository with the following command:
 ```
 $ git clone https://github.com/sensebox/books-v2.git
@@ -39,7 +64,36 @@ To get a live preview of a books website-output, run:
 gitbook install   # only required once
 gitbook serve
 ```
-Due to outsourcing the pictures used in all books to the gh-pages branch you will not be able to see pictures in your local live preview.
+
+#### Export as PDF
+To get a PDF version of a book you need to follow these instructions in addition to the setup of github (see above):
+
+1. Install necessary package with npm.
+```
+ $ gitbook install
+```
+
+2. Check version.
+```
+ $ gitbook -V
+CLI version: 2.3.0
+GitBook version: 3.1.1
+```
+
+3. Install [calibre](https://calibre-ebook.com/download) for build pdf, epub and mobi.
+
+4. Link calibre command line tool.
+```
+ # neccessary in Mac OSX only
+ $ ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin/
+```
+
+
+5. Run the following commands:
+```
+git checkout <BRANCH_NAME> # use either `home` or `edu` as branch_name
+gitbook ./ <BOOK_NAME>.pdf  # choose your pdf name here
+```
 
 
 #### Render to disk
