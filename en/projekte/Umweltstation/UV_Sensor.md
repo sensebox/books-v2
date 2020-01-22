@@ -28,7 +28,7 @@ UV light intensity is measured in microwatts per square centimeter (μW / cm²).
 
 ## Construction
 
-![Exposure and UV sensor connected via I2C port](../../../../pictures/diy-station/wired_lux.jpg)
+![Exposure and UV sensor connected via I2C port](https://github.com/sensebox/resources/raw/master/gitbook_pictures/diy-station/wired_lux.jpg)
 
 Connect the sensor to the senseBoxMCU as shown in the graphic.
 

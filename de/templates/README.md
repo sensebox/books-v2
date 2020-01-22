@@ -52,7 +52,7 @@ Darunter eine [Vorlage für eine neue Seite](neue-seite.md) mit Titelelement und
 
 [Bildunterschriften](bildunterschriften.md):
 
-![Dies ist eine Beispiel-Unterschrift](https://github.com/sensebox/books-v2/blob/home/../../pictures/mcu_one_top.png?raw=true)
+![Dies ist eine Beispiel-Unterschrift](https://github.com/sensebox/resources/raw/master/gitbook_pictures/mcu_one_top.png?raw=true)
 
 <div class="line">
     <br>

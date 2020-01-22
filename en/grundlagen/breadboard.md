@@ -13,4 +13,4 @@ The breadboard helps you to safely connect circuits without soldering. The elect
 
 The breadboard consists of two mirrored, non-conductive connected sides. These each consist of two long (horizontal in the following figure) rows for the plus and minus terminals and two times 30 (vertical rows in the following figure) rows of five spring contacts labeled a to e and f to j, respectively. The plus and minus terminals and the five horizontal spring contacts of a row are conductively connected as shown below.
 
-![Breadboard](../../../pictures/Breadboard.png)
+![Breadboard](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Breadboard.png)

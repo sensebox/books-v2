@@ -9,7 +9,7 @@ With the sensor SDS011 it is possible to determine the fine dust concentration i
     <br>
 </div>
 
-![Fine dust sensor for PM10 und PM2.5](../../../../pictures/feinstaub_top.png)
+![Fine dust sensor for PM10 und PM2.5](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top.png)
 
 ## Technical Details
 * Fast reaction time less than 10 seconds 
@@ -18,7 +18,7 @@ With the sensor SDS011 it is possible to determine the fine dust concentration i
 * Multiple scientific verification of data accuracy
 
 ## Parts required for the Set-Up 
-![Required (provided) Parts](../../../../pictures/feinstaub_top_accessoire.png)
+![Required (provided) Parts](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top_accessoire.png)
 
    * SDS011 fine dust sensor
    * connecting wire

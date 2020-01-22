@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![microSD-Bee](../../../../pictures/msd_new bottom.png)
+![microSD-Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/msd_new bottom.png)
 
 # Technical Details
 * "Plug-in-and-Go" senseBox compatibel
