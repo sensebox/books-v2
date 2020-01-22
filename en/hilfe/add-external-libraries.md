@@ -46,7 +46,7 @@ Choose the right system for your computer and follow the steps given.
 
 4. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Click `File` and then` Preferences`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Click `File` and then` Preferences`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2.PNG)
 
     and look in the box under `Sketchbook location 'for the location of the Sketchbook folder. 
 

@@ -23,11 +23,11 @@ Wähle dein Betriebssystem, um die passende Anleitung zu sehen:
 ### Step 1: Delete the senseBox libraries from the sketchbook folder
 1. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Click `File` and then` Preferences`](pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Click `File` and then` Preferences`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2.PNG)
 
     and look in the box under `Sketchbook location 'to see where the Sketchbook folder is stored. 
 
- ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen.PNG)
+ ![Look in the red-marked box to see where your sketchbook location is](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen.PNG)
 
     Remember the path to this folder, ie the location where it is stored.
 
@@ -53,11 +53,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Open the preferences and paste the URL](pictures/ardu/Ardu1.png)
+ ![Open the preferences and paste the URL](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu1.png)
 
 2.Now open the * board administrator * under * Tools -> Board: "..." -> Board Administrator * and search there for the ** senseBox SAMD Boards ** - Package.
 
-![Search for the red highlighted package](pictures/ardu/Ardu3.png)
+![Search for the red highlighted package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
  If you click on the entry in the list, there appears an update button.
  <div class="box_info">
@@ -67,18 +67,18 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 3. Click on this button and make sure that the installed version is higher than 1.1.0.
 
-![Click 'Update' to update the board support package](pictures/ardu/update-b-s-p.png)
+![Click 'Update' to update the board support package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
  Since we regularly update the ** senseBox SAMD boards ** package for you, you should always go back to the board administrator and see if the ** senseBox SAMD boards ** package is still up to date. Open the board administrator as described above, look for ** senseBox SAMD boards ** and click there on 'update'.
 {% content "second" %}
 ### Delete the senseBox Libraries from the Sketchbook Folder
 1. Now open the Arduino IDE. Go to `Arduino` ->` Settings ... `:
 
- ![Click `Arduino` ->` Settings ... `](pictures/libraries/voreinstellungen_2_mac.png)
+ ![Click `Arduino` ->` Settings ... `](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2_mac.png)
 
     and look in the box under `Sketchbook location 'to see where the Sketchbook folder is stored.
 
- ![Look in the red-marked box where your sketchbook location is](pictures/libraries/voreinstellungen_mac.png)
+ ![Look in the red-marked box where your sketchbook location is](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_mac.png)
 
     Remember the path to this folder, ie the location where it is stored.
 
@@ -104,11 +104,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Open the preferences and paste the URL there](pictures/libraries/voreinstellungen_mac_boardverwalter.png)
+ ![Open the preferences and paste the URL there](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_mac_boardverwalter.png)
 
 2. Now open the * board administrator * under * Tools -> Board: "..." -> Board Administrator * and search there for the ** senseBox SAMD Boards ** - Package.
 
-![Search for the red highlighted package](pictures/ardu/Ardu3.png)
+![Search for the red highlighted package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
  If you click on the entry in the list, there appears an update button.
  <div class="box_info">
@@ -117,7 +117,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
  </div>
 
 3.Click on this button and make sure that the installed version is higher than 1.1.0.
-![KClick 'Update' to update the board support package](pictures/ardu/update-b-s-p.png)
+![KClick 'Update' to update the board support package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
 Since we regularly update the ** senseBox SAMD boards ** package for you, you should always go back to the board administrator and see if the ** senseBox SAMD boards ** package is still up to date. Open the board administrator as described above, look for ** senseBox SAMD boards ** and click there on 'update'.
 
@@ -125,11 +125,11 @@ Since we regularly update the ** senseBox SAMD boards ** package for you, you sh
 ### Step 1: Delete the senseBox libraries from the sketchbook folder
 1. Now open the Arduino IDE. Go to `File` ->` Preferences`:
 
- ![Click `File` ->` Preferences`](pictures/libraries/voreinstellungen_2_linux.png)
+ ![Click `File` ->` Preferences`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2_linux.png)
 
     and look in the box under `Sketchbook location 'to see where the Sketchbook folder is stored. 
 
- ![Look in the red-marked box to see where your sketchbook location is](pictures/libraries/voreinstellungen_linux.png)
+ ![Look in the red-marked box to see where your sketchbook location is](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_linux.png)
 
     Remember the path to this folder, ie the location where it is stored.
 
@@ -156,11 +156,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        Normally, the following URL already exists at this point: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> this looks very similar to the above, but is not the same URL. However, it must necessarily be replaced by the above URL.
     </div>
 
- ![Open the preferences and paste the URL](pictures/ardu/Ardu1.png)
+ ![Open the preferences and paste the URL](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu1.png)
 
 2.Now open the * board administrator * under * Tools -> Board: "..." -> Board Administrator * and search there for the ** senseBox SAMD Boards ** - Package.
 
-![Search for the red highlighted package](pictures/ardu/Ardu3.png)
+![Search for the red highlighted package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
  If you click on the entry in the list, there appears an update button.
 
@@ -171,7 +171,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 3. Click on this button and make sure that the installed version is higher than 1.1.0.
 
-![Click 'Update' to update the board support package](pictures/ardu/update-b-s-p.png)
+![Click 'Update' to update the board support package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
  Since we regularly update the ** senseBox SAMD boards ** package for you, you should always go back to the board administrator and see if the ** senseBox SAMD boards ** package is still up to date. Open the board administrator as described above, look for ** senseBox SAMD boards ** and click there on 'update'.
 {% endtabs %}

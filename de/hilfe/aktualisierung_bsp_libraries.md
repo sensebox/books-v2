@@ -24,7 +24,7 @@ Wähle dein Betriebssystem, um die passende Anleitung zu sehen:
 ### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
 1. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Klicke `Datei` und dann `Voreinstellungen`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2.PNG)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
 
