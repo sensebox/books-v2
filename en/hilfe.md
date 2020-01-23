@@ -52,7 +52,7 @@ and
 
 - Look where the cable from the fine dust sensor is connected at your senseBox MCU.
 
-![Look at which of the two color-coded ports you've connected your fine dust sensor.]https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_serial_port.jpg)
+![Look at which of the two color-coded ports you've connected your fine dust sensor.](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_serial_port.jpg)
 
 - If you have connected the fine dust sensor like in the picture to the serial port 1 (red marked port), you can exchange the `undefined` in the sketch with `Serial1`. 
 
