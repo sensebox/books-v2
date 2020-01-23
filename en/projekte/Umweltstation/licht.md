@@ -33,13 +33,13 @@ For this measurement, we will use the sensor TSL45315 from AMS-TAOS below. The s
 The sensor is addressed via the I²C protocol. We address it directly with the following commands taken from the data sheet:
 
 
-![](../../../../pictures/diy-station/Grundlagen_Station_6.png)
+![](https://github.com/sensebox/resources/raw/master/gitbook_pictures/diy-station/Grundlagen_Station_6.png)
 For this measurement, we will use the sensor TSL45315 from AMS-TAOS below. The sensor datasheet shows that its sensitivity is matched to the visible part of the light spectrum, which is approximately between 400 and 700 nm. According to the data sheet, this sensor has a range of 2 to 200,000 lux, with a resolution of 3 lux. Furthermore, the sensor must be operated at 3.3V.
 {% endcollapse %}
 
 ## Construction
 
-![Exposure and UV sensor connected via I2C port](../../../../pictures/diy-station/wired_lux.jpg)
+![Exposure and UV sensor connected via I2C port](https://github.com/sensebox/resources/raw/master/gitbook_pictures/diy-station/wired_lux.jpg)
 
 ## Programming
 <div class="box_warning">

@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Lora Bee](../../../../pictures/LoraBee%20bottom.png)
+![Lora Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoraBee%20bottom.png)
 
 # Technische Informationen
 * HopeRF RFM95W/RFM96W LoRa Transceiver
@@ -69,7 +69,7 @@ So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk 
     <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
 </div>
 
-![Ausgewählte ID's und Keys](../../../../pictures/LoRa_TTN_EUI.png)
+![Ausgewählte ID's und Keys](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoRa_TTN_EUI.png)
 
 {% collapse title="Deklarieren der globalen Variablen und Deffinierung der Sensoren" %}
 

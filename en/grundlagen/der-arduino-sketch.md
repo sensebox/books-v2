@@ -14,11 +14,11 @@ When you open the IDE, you will see a large white area directly in which you wil
 
 Lastly, you should look at the small buttons above the white area.
 
-![check for spelling errors - transfer program to senseBox MCU](../../../pictures/grundlagen/arduino-ide_schaltflaechen1.png)
+![check for spelling errors - transfer program to senseBox MCU](https://github.com/sensebox/resources/raw/master/gitbook_pictures/grundlagen/arduino-ide_schaltflaechen1.png)
 
 The tick and the arrow are the two most important symbols for you: With the check mark you can have your program checked for spelling errors, and with the arrow you transfer your program to the senseBox MCU.
 
-![create new program - open saved program - save program](../../../pictures/grundlagen/arduino-ide_schaltflaechen2.png)
+![create new program - open saved program - save program](https://github.com/sensebox/resources/raw/master/gitbook_pictures/grundlagen/arduino-ide_schaltflaechen2.png)
 
 The other three icons - starting with the small leftmost leaf - are for creating a new program, opening a saved one and saving your written program.
 

@@ -8,7 +8,7 @@ If you want to use your senseBox without power connection, it is now possible wi
     <br>
 </div>
 
-![Station setup powered with solar](../../../pictures/solar_aufbau_rough.jpg)
+![Station setup powered with solar](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_aufbau_rough.jpg)
 
 ## Materials 
 - Sensors
@@ -34,14 +34,14 @@ If you want to use your senseBox without power connection, it is now possible wi
 First you build up the senseBox as usual. You can look things up in the instruction [manual](https://sensebox.github.io/books-v2/home/en/) benutzen.
 To make sure the senseBox is using the battery and the battery is charged meanwhile, you need the [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview).
 
-![Powerboost construction](../../../pictures/solar_powerboost.jpg)
+![Powerboost construction](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_powerboost.jpg)
 
 
 {% collapse title="Power Switch (optional)" %}
 The power switch should be connected to the powerboost. You need solder hardware for this. How exactly this is done, can be read [here](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-3-5).
 Now we can use the power switch to regulate the input from the solar panel to the battery.
 
-![Build-in switch in housing](../../../pictures/solar_aufbau_schalter.jpg)
+![Build-in switch in housing](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_aufbau_schalter.jpg)
 
 In this example a hole is drilled into the case, so you can access it whenever you want. 
 {% endcollapse %}
@@ -52,7 +52,7 @@ There is nothing special to be programmed in this example. As long as the power 
 
 ## Usage
 
-![Example construction on a roof](../../../pictures/solar_aufbau_dach.jpg)
+![Example construction on a roof](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_aufbau_dach.jpg)
 
 After 2 days of testing with a rather big 6600 mAh battery, it shows that with sufficient sunlight (2-3 hours a day) the battery remains at least at constant charge level. 
 This means that if you want to operate the station in the open without main power supply, this is very well possible with the help of a solar cell, even a long time without direct sunlight can be intercepted with a large battery. You should only clean the cell once in a while, as pollen or dirt will settle there.

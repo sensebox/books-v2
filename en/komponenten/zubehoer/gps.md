@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![The GPS-sensor](../../../../pictures/gps%20top.png)
+![The GPS-sensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/gps%20top.png)
 
 # Funktion
 

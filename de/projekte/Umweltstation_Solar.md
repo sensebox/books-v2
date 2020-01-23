@@ -8,7 +8,7 @@ Wenn du deine senseBox ohne Steckdose oder Powerbank betreiben möchtest, kannst
     <br>
 </div>
 
-![Aufgebaute Station betrieben durch Solar](../../../pictures/solar_aufbau_rough.jpg)
+![Aufgebaute Station betrieben durch Solar](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_aufbau_rough.jpg)
 
 ## Materialien 
 - Sensoren
@@ -34,12 +34,12 @@ Wenn du deine senseBox ohne Steckdose oder Powerbank betreiben möchtest, kannst
 Zunächst baust Du die senseBox nach deinem belieben auf. Hierzu die gewohnte Anleitung in den [books](https://sensebox.github.io/books-v2/home/de/) benutzen.
 Um zu gewährleisten, dass die senseBox zeitgleich mit Strom versorgt wird und einen Akku nutzt, der durch die Solarzelle aufgeladen wird, benötigst du den [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview). Der Stromfluss vom Akku zur MCU wird durch einen [Power Switch](https://www.adafruit.com/product/805) reguliert.
 
-![Powerboost Aufbau](../../../pictures/solar_powerboost.jpg)
+![Powerboost Aufbau](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_powerboost.jpg)
 
 {% collapse title="Ein-/Aus-Schalter einbauen (Optional)" %}
 Der Switch wird mit dem Powerboost verbunden. Hierfür benötigst du Löt-Werkzeug. Wie du den Switch mit dem Powerboost verbindest, wird dir [hier](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-3-5) erklärt. Nun können wir den USB-Eingang am Powerboost verwenden, um den Stromfluss zur MCU, mit dem Power Switch zu regulieren.
 
-![Eingebauter Schalter im Gehäuse](../../../pictures/solar_aufbau_schalter.jpg)
+![Eingebauter Schalter im Gehäuse](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_aufbau_schalter.jpg)
 
 In diesem Beispiel wurde ein Loch für den Schalter in das Gehäuse gebohrt. So ist er von außen immer zugänglich und die senseBox kann nach Belieben zum Stromsparen an- oder ausgeschaltet werden.
 {% endcollapse %}
@@ -52,6 +52,6 @@ Bei der Programmierung muss in diesem Beispiel nichts besonderes beachtet werden
 
 ## Nutzung
 
-![Beispielaufbau auf dem Dach](../../../pictures/solar_aufbau_dach.jpg)
+![Beispielaufbau auf dem Dach](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_aufbau_dach.jpg)
 
 Nach 2-tägigem Test mit einem großen Akku (6600 MAh) ziehen wir das Fazit, dass bei genügender Sonneneinstrahlung (2-3 Stunden täglich) der Akku auf zumindest konstantem Ladungsniveau bleibt, wenn nicht sogar aufgeladen wird. In meinem Fall stieg die Ladung von anfangs 60 % auf 90 % bei 2 Tagen durchgehendem blauen Himmel. Dass bedeutet, solltest du die Station im freien ohne Netz-Stromversorgung betreiben wollen, ist das mithilfe einer Solarzelle sehr gut möglich, auch längere Zeit ohne direkte Sonneneinstrahlung können mit einem großen Akku abgefangen werden. Lediglich säubern solltest du die Zelle ab und an, da sich dort gern Pollen oder Schmutz absetzen.

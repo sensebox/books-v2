@@ -36,12 +36,12 @@ Laut dem Datenblatt hat dieser Sensor eine Reichweite von 2 bis 200.000 Lux, bei
 
 Der Sensor wird über das I²C Protokoll angesprochen. Wir sprechen ihn direkt mit den folgenden aus dem Datenblatt entnommenen Befehlen an:
 
-![](../../../../pictures/diy-station/Grundlagen_Station_6.png)
+![](https://github.com/sensebox/resources/raw/master/gitbook_pictures/diy-station/Grundlagen_Station_6.png)
 {% endcollapse %}
 
 ##Aufbau
 
-![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](../../../../pictures/diy-station/wired_lux.png)
+![Belichtungs- und UV-Sensor angeschlossen über I2C-Port](https://github.com/sensebox/resources/raw/master/gitbook_pictures/diy-station/wired_lux.png)
 
 ## Programmierung
 <div class="box_warning">

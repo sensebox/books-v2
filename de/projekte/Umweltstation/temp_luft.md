@@ -33,7 +33,7 @@ Jedes Gerät hat dabei eine eindeutige Kennung, damit der Datenbus jedes Einzeln
 ## Aufbau
 Steckt den Schaltkreis wie ihr ihn unten in der Grafik seht.
 
-![Temperatur- und Luftfeuchtigkeitssensor angeschlossen über I2C-Port](../../../../pictures/diy-station/wired_tempairhumi.png)
+![Temperatur- und Luftfeuchtigkeitssensor angeschlossen über I2C-Port](https://github.com/sensebox/resources/raw/master/gitbook_pictures/diy-station/wired_tempairhumi.png)
 
 ## Programmierung
 

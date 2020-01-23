@@ -23,10 +23,10 @@ With the Arduino IDE a sketch can be compiled and uploaded to the senseBox MCU. 
 
 Before you can upload anything onto the senseBox, you have to adjust a few settings in the ArduinIDE. In the `Tools` tab you have to select the `senseBoxMCU` at the bottom of the list under the`Boards`option.
 
-![Board selection](../../../pictures/select_board_en.png)
+![Board selection](https://github.com/sensebox/resources/raw/master/gitbook_pictures/select_board_en.png)
 Next, under `Tools` -> `Port` select the port number of the USB port where the senseBox MCU is connected to the computer.
 
-![port selection](../../../pictures/select_port_en.png)
+![port selection](https://github.com/sensebox/resources/raw/master/gitbook_pictures/select_port_en.png)
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
@@ -83,7 +83,7 @@ Open the file `mcu_component_test` (`File` -> `Examples` -> `senseBoxMCU`) from 
 ### Options Menu
 After you have opened the serial monitor, a menu appears on its functions you can access via the input field:
 
-![options menu](../../../pictures/test_option-menu.png)
+![options menu](https://github.com/sensebox/resources/raw/master/gitbook_pictures/test_option-menu.png)
 
 To do this, write the number of the corresponding option in the input field and click on "Send". Below is a list of options with brief descriptions.
 
@@ -91,7 +91,7 @@ To do this, write the number of the corresponding option in the input field and 
 
   Here you can check if all connected sensors have been properly initialized and recognized. For each connected sensor there should be a feedback and a test measurement. In the example below, an HDC1080 temperature and humidity sensor were connected to an `I2C/Wire` port.
 
-    ![Sensortest](../../../pictures/test_option1.png)
+    ![Sensortest](https://github.com/sensebox/resources/raw/master/gitbook_pictures/test_option1.png)
 
     <div class="box_info">
         <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -101,7 +101,7 @@ To do this, write the number of the corresponding option in the input field and 
 2. **Test connection to openSenseMap**
 
   This option tests the Internet connection. If the connection is successful, a response with HTTP status 200 should be issued by the server:
-    ![Sensortest](../../../pictures/test_option2.png)
+    ![Sensortest](https://github.com/sensebox/resources/raw/master/gitbook_pictures/test_option2.png)
 
     <div class="box_info">
         <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
