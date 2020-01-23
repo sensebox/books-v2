@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Lora Bee](../../../../pictures/LoraBee%20bottom.png)
+![Lora Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoraBee%20bottom.png)
 
 # Technische Informationen
 * HopeRF RFM95W/RFM96W LoRa Transceiver
@@ -106,7 +106,7 @@ Wie du den Kommentaren im Code entnehmen kannst, ist es wichtig das richtige For
 Hast du das gemacht, kannst du dir die einzelnen Schlüssel kopieren und an der Stelle im Code ersetzen.  
 
 
-![Ausgewählte ID's und Keys welche im Code ersetzet werden müssen!](../../../../pictures/LoRa_TTN_EUI.png)
+![Ausgewählte ID's und Keys welche im Code ersetzet werden müssen!](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoRa_TTN_EUI.png)
 
 
 ### Decoding
@@ -124,9 +124,9 @@ notwendig.
 #### JSON
 Begebe dich auf die Übersicht deiner Application indem du über [diesen Link](https://console.thethingsnetwork.org/applications/) deine Application auswählst. Dort wählst du wie auf dem Bild zu sehen den Reiter `Payload Formats` aus. Hier siehst du ein Eingabefeld, in welches du den Decoder schreiben musst. 
 
-![Im Overview Fenster zu "Payload Formats" navigieren](../../../../pictures/decoder_1st.png)
+![Im Overview Fenster zu "Payload Formats" navigieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/decoder_1st.png)
 
-![In der Textbox muss der Decoder nun eingefügt werden](../../../../pictures/decoder_code.png)
+![In der Textbox muss der Decoder nun eingefügt werden](https://github.com/sensebox/resources/raw/master/gitbook_pictures/decoder_code.png)
 
 In diesem Beispiel findest du ein Decoder Profil welches nur den Temperatur- und Luftfeuchte-Sensor sowie den Feinstaubsensor der senseBox decodiert. 
 

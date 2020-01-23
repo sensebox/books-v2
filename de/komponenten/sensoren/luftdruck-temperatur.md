@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Der Luftdruck- und Temperatursensor](../../../../pictures/bmp%20top.png)
+![Der Luftdruck- und Temperatursensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/bmp%20top.png)
 
 ## Technische Informationen
 

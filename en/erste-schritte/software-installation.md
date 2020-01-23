@@ -21,11 +21,11 @@ Please have a look at the instructions for your operation systems and follow the
 
 The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the version 1.8.7 as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
 
-![ ](arduino-view.png)
+![ ](https://github.com/sensebox/resources/raw/master/gitbook_pictures/software-install/arduino-view.png)
 
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
-![ ](arduino-install-view.png)
+![ ](https://github.com/sensebox/resources/raw/master/gitbook_pictures/software-install/arduino-install-view.png)
 <div class="box_warning">
  	<i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
  	Please download the `ZIP` file and <b> not </b> the Windows Installer as this may lead to complications! 
@@ -40,11 +40,11 @@ Compile a new folder and unzip the zip-file in the new folder. By starting the f
 
 The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the version 1.8.7 as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
 
-![ ](arduino-view.png)
+![ ](https://github.com/sensebox/resources/raw/master/gitbook_pictures/software-install/arduino-view.png)
 
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
-![ ](arduino-install-view.png)
+![ ](https://github.com/sensebox/resources/raw/master/gitbook_pictures/software-install/arduino-install-view.png)
 
 In your download file should appear a  Arduino.app file. Relocate the file into your "Programme"-folder. By starting the file `Arduino.app` you can run the IDE. 
 
@@ -58,11 +58,11 @@ In your download file should appear a  Arduino.app file. Relocate the file into 
 The senseBox is a microcontroller with diffent components and sensors. It is going to be programmed with the development environment _Arduino IDE_. Please download the version 1.8.7 as a zip-file from the [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
 
 
-![ ](arduino-view.png)
+![ ](https://github.com/sensebox/resources/raw/master/gitbook_pictures/software-install/arduino-view.png)
 
 Arduino is an Open-Source project and is financed by donations. Thus you are going to be asked for a donation; you can skip by clicking on `JUST DOWNLOAD`.
 
-![ ](arduino-install-view.png)
+![ ](https://github.com/sensebox/resources/raw/master/gitbook_pictures/software-install/arduino-install-view.png)
 ### Installation of the IDE with Linux {#installation-der-ide-unter-linux}
 
 Linux-user can download and unzip a Linux version. The contained `install.sh`-script compiles a desktop shortcut automatically. The fastes way is to use the terminal. Open the Terminal therefor by hitting the keys `Ctrl + Alt + T` and enter the following commands:

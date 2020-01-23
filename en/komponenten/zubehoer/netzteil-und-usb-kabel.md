@@ -6,6 +6,6 @@
     <br>
 </div>
 
-![USB-cable](../../../../pictures/USB_cable.png)
+![USB-cable](https://github.com/sensebox/resources/raw/master/gitbook_pictures/USB_cable.png)
 
 With the enclosed USB cable, the senseBox can be configured and connected to the computer. The power supply ensures the continuous power supply. The enclosed cable has a length of 1.5 meters.

@@ -7,7 +7,7 @@
 </div>
 
 
-![microSD Karte](../../../../pictures/micro-sd-card.png)
+![microSD Karte](https://github.com/sensebox/resources/raw/master/gitbook_pictures/micro-sd-card.png)
 
 ## Technische Details
    * kompatibel mit senseBox mSD-Bee
