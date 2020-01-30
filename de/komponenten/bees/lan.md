@@ -7,7 +7,7 @@ Verbindungsstück um die senseBox mit dem Internet zu verbinden. Die Daten der s
     <br>
 </div>
 
-![LAN Bee](../../../../pictures/Lan_bottom.png)
+![LAN Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Lan_bottom.png)
 
 ## Technische Informationen
 

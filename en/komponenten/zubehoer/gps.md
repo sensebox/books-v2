@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![GPS module](../../../../pictures/gps%20top.png)
+![GPS module](https://github.com/sensebox/resources/raw/master/gitbook_pictures/gps%20top.png)
 
 
 ## Setup 

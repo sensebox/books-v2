@@ -1,12 +1,12 @@
 # LoRa-Bee {#head}
-<div class="description">Verwendet die LoRa-Schnittstelle um Daten ins Internet zu übertragen. Neu ist das LoRa WAN-XBee-Modul, mit dem eine stromsparende und kostenlose Möglichkeit der Datenübertragung ins Internet über den LoRa-Funk-Standard ermöglicht wird. Dafür werden bestehende LoRa-Netzwerke, wie zum Beispeil TheThingsNetwork genutzt um Daten zu übertragen. Die hierzu benötigte Infrastruktur wird bei TheThingsNetwork von der Community bereit gestellt, und ist in immer mehr Regionen verfügbar.</div>
+<div class="description">Verwendet die LoRa-Schnittstelle um Daten stromsparend und kostenlos ins Internet zu übertragen. Das Besondere an der Übertragunstechnologie ist ihre Reichweite, so muss ein LoRa-Gateway im Umkreis von lediglich 2 bis hin zu 40 Kilometern bestehen, je nachdem ob die Station im städtischen Gebiet oder im ländlichen Raum ohne Gebirge (ggf. über Wasser) genutzt werden soll.<br>Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe der LoRa-Funk-Standards des TheThingsNetwork. Die hierzu benötigte Infrastruktur wird von der TTN-Community bereit gestellt, und ist in immer mehr Regionen verfügbar. Deutschland besitzt im internationalen Vegleich schon eine sehr gute Abdeckung mit ~2000 Gateways.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-![Lora Bee](../../../../pictures/LoraBee%20bottom.png)
+![Lora Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoraBee%20bottom.png)
 
 # Technische Informationen
 * HopeRF RFM95W/RFM96W LoRa Transceiver
@@ -18,20 +18,25 @@
 * Gewicht: 1,1 g
 
 # Hinweise
-Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist: https://www.thethingsnetwork.org/community#list-communities-map
+Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist.<br>Dies ist auf der [Karte](https://www.thethingsnetwork.org/community#list-communities-map) des TTN möglich.
 
 **Achtung: Aufgrund der erhöhten Komplexität der Installation empfehlen wir das LoRa-Modul außschließlich fortgeschrittenen Nutzern von Open-Hardware**
 
+<div class="box_info">
+    <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
+    Dieses Beispiel befasst sich mit einer senseBox:home mit allen Sensoren, fehlt dir ein Sensor aus der senseBox:home oder hast du einen zusätzlichen Sensor musst du noch ein zusätzliches decoding Profil erstellen, was dir am Ende des Tutorials erklärt wird.</div>
+
+
 # Upload über LoRaWAN
 
-Es ist möglich Sensordaten per LoRaWAN™ durch das [TheThingsNetwork](https://thethingsnetwork.org)
-(TTN) auf die openSenseMap zu laden.
+Es ist möglich Sensordaten per [LoRaWAN™](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network) durch das [TheThingsNetwork](https://thethingsnetwork.org)
+(TTN) auf die openSenseMap zu laden.<br>
 LoRa ist ein zunehmend Verbreitung findender Funkstandard, welcher ähnlich wie
 WiFi digitale Datenübertragung in einem IP-Netzwerk erlaubt, jedoch deutlich
 andere Features bietet:
 
 - Datendurchsatz: 300 - 3000 Bit/s
-- Reichweite:     bis zu 15km 
+- Reichweite:     ~ 15km (Im Durchschnitt) 
 
 TTN ist eins von mehreren Projekten, welches die zur Funk-Hardware zugehörige
 Infrastruktur für das IP-Netzwerk implementiert, wodurch registrierte Geräte
@@ -40,402 +45,91 @@ mit dem Internet verbunden werden können.
 Nutzer können *Gateways* sowie *Nodes* zu dem Netzwerk hinzufügen.
 
 
-## TTN openSenseMap Integration
-Die openSenseMap bietet eine direkte Integration in das TTN Netzwerk, was die
-Konfiguration stark vereinfacht. Hierfür musst du einen Account [TheThingsNetwork](https://thethingsnetwork.org) erstellen.
+## TheThingsNetwork & openSenseMap Integration
+Die openSenseMap bietet eine direkte Integration in das TheThingsNetwork, was die
+Konfiguration stark vereinfacht. Das TheThingsNetwork ist ein LoRa Netzwerk, welches dafür zuständig ist Daten von deiner senseBox an die openSenseMap weiterzuleiten. Erstelle als ersten Schritt dieses Tutorials einen Account auf der [Website](www.thethingsnetwork.org).
 
-### Registrierung in TTN Console
+### Registrierung im TheThingsNetwork
 
-Um ein Gerät in das TTN einzubinden, muss für dieses zunächst unter
-[thethingsnetwork.org](https://console.thethingsnetwork.org/)
-eine *Application* und ein *Device* registriert werden. Die Application und Device ID können frei gewählt werden. Die EUIs lässt man sich am besten generieren. Dann erhält man eine `app_id` und eine `dev_id`.
-
-Für die registrierte Application muss die *HTTP Integration* unter <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
-aktiviert werden. Diese muss konfiguriert werden, dass sie die Nachrichten von
-Devices per `POST` an `https://ttn.opensensemap.org/v1.1` weiterleitet. Das
-Authorization-Feld kann leer bleiben! Unter Access Key den `default key` auswählen.
+Hast du einen Account erstellt, musst du nun eine Application hinzufügen.<br>Dies kannst du über diesen [Link](https://console.thethingsnetwork.org/applications) erledigen. Hier musst du eine Application ID, also einen Namen für deine Anwendung eingeben.<br><br>Nachdem die Application hinzugefügt wurde, musst du nun ein Device hinzufügen. Dies geschieht über den Reiter `Devices`->`Register device`. Auch hier musst du eine ID für das Gerät hinzufügen. Die `Device-EUI` kannst du dir mit einem Klick auf das Symbol generieren lassen.<br><br>Zu guter Letzt musst du dem TTN-Netzwerk nun noch mitteilen, dass deine Daten an die openSenseMap weitergeleitet werden sollen. Hierfür gehst du auf deine [Übersicht](https://console.thethingsnetwork.org/applications), wählst deine eben erstellte Application aus und gehst auf den Reiter `Integrations`. Dort findest du den Knopf `Add integration`, woraufhin sich ein Fenster mit einer Reihe an Auswahlmöglichkeiten öffnet. Unter diesen Möglichkeiten wählst du `HTTP Integration` aus. Die `Process ID` kannst du wieder selbst wählen. Bei `URL` gibst du `https://ttn.opensensemap.org/v1.1` an und die Methode lautet `POST`. Unter Access Key den `default key` auswählen. Das Authorization Feld kann leer bleiben!
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" alt="ttnconsole" center width="767" />
 
-Gehe nun auf die openSenseMap und registriere eine senseBox mit deinen Sensoren die du angeschlossen hast.
-Für die Datenübertragung zur openSenseMap müssen die `app_id` und `dev_id` bei
-der Registrierung auf der openSenseMap in der TTN-Konfiguration angegeben
-werden. Darüber hinaus muss ein passendes Decoding-Profil konfiguriert werden,
-welches bestimmt wie die - wegen der geringen Bandbreite als rohe Bytes 
-übertragenen - Daten als Messungen interpretiert werden sollen.
+### Registrierung auf der openSenseMap
 
-<div class="box_warning">
-     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    <b>Wichtig:</b> Wenn du den Feinstaubsensor anschließen willst musst du im Dekodierungs-Profil <b>JSON</b> auswählen. Wenn du nur die anderen Sensoren benutzt kannst du <b>senseBox:home</b> auswählen. Das LoRa-Bee wird wie alle Übertragungsmodule an den XBEE1-Sockel angeschlossen.  
-</div>
+Gehe nun auf die openSenseMap und registriere eine senseBox mit deinen Sensoren, die du angeschlossen hast. Als Methode zur Datenübertragung wählst du hier `LoRa` aus. Im Abschnitt `Erweitert` öffnet sich nun der Reiter für die TTN-Konfigurationen. Als Erstes musst du hier ein Decoding Profil auswählen. Dies hängt von den Sensoren ab, die du installieren möchtest. 
+
+- Hast du nur die Sensoren der senseBox:home (Temperatur&Luftfeuchte, Luftdruck, UV/Licht) wähle das `senseBox:home` Profil aus. 
+- Hast du nicht alle Sensoren der senseBox:home oder hast zusätzliche wie <b> z.B. den Feinstaubsensor </b> wähle hier `JSON` aus!
+
+In den weiteren Feldern du die `Application ID` und die `Device ID` aus dem vorherigen Schritt angeben.
 
 <img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_register_ttn.png"  alt="osemregister" center width="767"/>
 
 Optional kann im Feld `port` noch der Port angegeben werden, auf welchem
-der Sender seine Daten an das TTN schickt. So lassen sich die selbe `app_id`
-und `dev_id` für mehrere Sensorstationen verwenden.
-### Arduino Sketch 
-So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk an die openSenseMap senden kannst.
+der Sender seine Daten an das TTN schickt. So lassen sich dieselbe `app_id`
+und `dev_id` für mehrere Sensorstationen verwenden. Falls das nicht der Fall ist, lasse dieses Feld leer.
 
-<div class="box_warning">
-     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo in Großbuchstaben <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
-</div>
+### Datenübertragung 
+Nachdem du die Box erfolgreich auf der openSenseMap registriert hast, bekommst du nun per Mail einen Arduino Sketch zugeschickt. Dieser ist schon <b>fast fertig!</b> Wir müssen aber noch ein paar Änderungen vornehmen, bis alles funktioniert. 
 
-![Ausgewählte ID's und Keys](../../../../pictures/LoRa_TTN_EUI.png)
+Öffne den dir zugeschickten Sketch in der Arduino IDE und scrolle zur Stelle im Code, an der du die Schlüssel `DEVEUI`,`APPEUI` und `APPKEY` eingeben musst.  
 
-{% collapse title="Arduino Sketch für senseBoxMCU" %}
+{% collapse  title="Stelle im Code" %}
 
 ```arduino
-/*******************************************************************************
- * Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman.
- * Edited by: senseBox
- *
- *******************************************************************************/
-#include <LoraMessage.h>
-#include <lmic.h>
-#include <hal/hal.h>
-#include <SPI.h>
-#include <senseBoxIO.h>
 
-#include <Adafruit_Sensor.h>
-#include <Adafruit_BMP280.h>
-#include <HDC100X.h>
-#include <Makerblog_TSL45315.h>
-#include <SDS011-select-serial.h>
-#include <VEML6070.h>
+// This EUI must be in little-endian format, so least-significant-byte (lsb)
+// first. When copying an EUI from ttnctl output, this means to reverse
+// the bytes.
+static const u1_t PROGMEM DEVEUI[8]={0x10, 0xC0, 0x7F, 0xE2, 0xCF, 0xB9, 0x34, 0x00 };
+void os_getDevEui (u1_t* buf) { memcpy_P(buf, DEVEUI, 8);}
 
-// Number of serial port the SDS011 is connected to. Either Serial1 or Serial2
-#define SDS_UART_PORT (Serial1)
-
-//Load sensors / instances
-Makerblog_TSL45315 TSL = Makerblog_TSL45315(TSL45315_TIME_M4);
-HDC100X HDC(0x40);
-Adafruit_BMP280 BMP;
-VEML6070 VEML;
-SDS011 SDS(SDS_UART_PORT);
-
-bool hdc, bmp, veml, tsl = false;
-
-//measurement variables
-float temperature = 0;
-float humidity = 0;
-float pm10 = 0;
-float pm25 = 0;
-double tempBaro, pressure;
-uint32_t lux;
-uint16_t uv;
-
-// This EUI must be in little-endian format, so least-significant-byte
+// This EUI must be in little-endian format, so least-significant-byte (lsb)
 // first. When copying an EUI from ttnctl output, this means to reverse
 // the bytes. For TTN issued EUIs the last bytes should be 0xD5, 0xB3,
 // 0x70.
-static const u1_t PROGMEM APPEUI[8]={ 'Your APP ID Here' };
+static const u1_t PROGMEM APPEUI[8]={ 0x24, 0xBE, 0x01, 0xD0, 0x7E, 0xD5, 0xB3, 0x70 };
 void os_getArtEui (u1_t* buf) { memcpy_P(buf, APPEUI, 8);}
 
-// This should also be in little endian format, see above.
-static const u1_t PROGMEM DEVEUI[8]={ 'YOUR DEVICE ID HERE '};
-void os_getDevEui (u1_t* buf) { memcpy_P(buf, DEVEUI, 8);}
-
-// This key should be in big endian format (or, since it is not really a
+// This key should be in big endian format (msb) (or, since it is not really a
 // number but a block of memory, endianness does not really apply). In
 // practice, a key taken from ttnctl can be copied as-is.
 // The key shown here is the semtech default key.
-static const u1_t PROGMEM APPKEY[16] = { 'YOUR APP KEY HERE '};
+static const u1_t PROGMEM APPKEY[16] = { 0x5A, 0x9D, 0x13, 0xEB, 0x5A, 0x1F, 0x01, 0xD7, 0x35, 0x90, 0x85, 0xE5, 0x36, 0x18, 0x10, 0x6C };
 void os_getDevKey (u1_t* buf) {  memcpy_P(buf, APPKEY, 16);}
 
-static osjob_t sendjob;
-
-// Schedule TX every this many seconds (might become longer due to duty
-// cycle limitations).
-const unsigned TX_INTERVAL = 300;
-
-// Pin mapping
-const lmic_pinmap lmic_pins = {
-    .nss = PIN_XB1_CS,
-    .rxtx = LMIC_UNUSED_PIN,
-    .rst = LMIC_UNUSED_PIN,
-    .dio = {PIN_XB1_INT, PIN_XB1_INT, LMIC_UNUSED_PIN},
-};
-
-void checkI2CSensors() {
-  byte error;
-  int nDevices = 0;
-  byte sensorAddr[] = {41, 56, 57, 64, 118};
-  tsl = false; veml = false; hdc = false; bmp = false;
-  Serial.println("\nScanning...");
-  for (int i = 0; i < sizeof(sensorAddr); i++) {
-    Wire.beginTransmission(sensorAddr[i]);
-    error = Wire.endTransmission();
-    if (error == 0) {
-      nDevices++;
-      switch (sensorAddr[i])
-      {
-        case 0x29:
-          Serial.println("TSL45315 found.");
-          tsl = true;
-          break;
-        case 0x38: // &0x39
-          Serial.println("VEML6070 found.");
-          veml = true;
-          break;
-        case 0x40:
-          Serial.println("HDC1080 found.");
-          hdc = true;
-          break;
-        case 0x76:
-          Serial.println("BMP280 found.");
-          bmp = true;
-          break;
-      }
-    }
-    else if (error == 4)
-    {
-      Serial.print("Unknown error at address 0x");
-      if (sensorAddr[i] < 16)
-        Serial.print("0");
-      Serial.println(sensorAddr[i], HEX);
-    }
-  }
-  if (nDevices == 0) {
-    Serial.println("No I2C devices found.\nCheck cable connections and press Reset.");
-    while(true);
-  } else {
-    Serial.print(nDevices);
-    Serial.println(" sensors found.\n");
-  }
-  //return nDevices;
-}
-
-void onEvent (ev_t ev) {
-    senseBoxIO.statusGreen();
-    Serial.print(os_getTime());
-    Serial.print(": ");
-    switch(ev) {
-        case EV_SCAN_TIMEOUT:
-            Serial.println(F("EV_SCAN_TIMEOUT"));
-            break;
-        case EV_BEACON_FOUND:
-            Serial.println(F("EV_BEACON_FOUND"));
-            break;
-        case EV_BEACON_MISSED:
-            Serial.println(F("EV_BEACON_MISSED"));
-            break;
-        case EV_BEACON_TRACKED:
-            Serial.println(F("EV_BEACON_TRACKED"));
-            break;
-        case EV_JOINING:
-            Serial.println(F("EV_JOINING"));
-            break;
-        case EV_JOINED:
-            Serial.println(F("EV_JOINED"));
-
-            // Disable link check validation (automatically enabled
-            // during join, but not supported by TTN at this time).
-            LMIC_setLinkCheckMode(0);
-            break;
-        case EV_RFU1:
-            Serial.println(F("EV_RFU1"));
-            break;
-        case EV_JOIN_FAILED:
-            Serial.println(F("EV_JOIN_FAILED"));
-            break;
-        case EV_REJOIN_FAILED:
-            Serial.println(F("EV_REJOIN_FAILED"));
-            break;
-            break;
-        case EV_TXCOMPLETE:
-            Serial.println(F("EV_TXCOMPLETE (includes waiting for RX windows)"));
-            if (LMIC.txrxFlags & TXRX_ACK)
-              Serial.println(F("Received ack"));
-            if (LMIC.dataLen) {
-              Serial.println(F("Received "));
-              Serial.println(LMIC.dataLen);
-              Serial.println(F(" bytes of payload"));
-            }
-            // Schedule next transmission
-            os_setTimedCallback(&sendjob, os_getTime()+sec2osticks(TX_INTERVAL), do_send);
-            break;
-        case EV_LOST_TSYNC:
-            Serial.println(F("EV_LOST_TSYNC"));
-            break;
-        case EV_RESET:
-            Serial.println(F("EV_RESET"));
-            break;
-        case EV_RXCOMPLETE:
-            // data received in ping slot
-            Serial.println(F("EV_RXCOMPLETE"));
-            break;
-        case EV_LINK_DEAD:
-            Serial.println(F("EV_LINK_DEAD"));
-            break;
-        case EV_LINK_ALIVE:
-            Serial.println(F("EV_LINK_ALIVE"));
-            break;
-         default:
-            Serial.println(F("Unknown event"));
-            break;
-    }
-}
-
-void do_send(osjob_t* j){
-    // Check if there is not a current TX/RX job running
-    if (LMIC.opmode & OP_TXRXPEND) {
-        Serial.println(F("OP_TXRXPEND, not sending"));
-    } else {
-        LoraMessage message;
-
-        //-----Temperature-----//
-        //-----Humidity-----//
-        if (hdc) {
-          Serial.print("Temperature: ");
-          temperature = HDC.getTemp();
-          Serial.println(temperature);
-          message.addUint16((temperature + 18) * 771);
-          delay(2000);
-     
-          Serial.print("Humidity: ");
-          humidity = HDC.getHumi();
-          Serial.println(humidity);
-          message.addHumidity(humidity);
-        }
-        delay(2000);
-
-        if (bmp) {
-          float altitude;
-          tempBaro = BMP.readTemperature();
-          pressure = BMP.readPressure()/100;
-          altitude = BMP.readAltitude(1013.25); //1013.25 = sea level pressure
-          Serial.print("Pressure: ");
-          Serial.println(pressure);
-          message.addUint16((pressure - 300) * 81.9187);
-          delay(2000);
-        }
-        
-        if (tsl) {
-          //-----Lux-----//
-          Serial.print("Illuminance: ");
-          lux = TSL.readLux();
-          Serial.println(lux);
-          message.addUint8(lux % 255);
-          message.addUint16(lux / 255);
-          delay(2000);
-        }
-        
-        if (veml) {
-          //-----UV intensity-----//
-          Serial.print("UV: ");
-          uv = VEML.getUV();
-          Serial.println(uv);
-          message.addUint8(uv % 255);
-          message.addUint16(uv / 255);
-          delay(2000);
-        }
-
-        uint8_t attempt = 0;
-        
-        while (attempt < 5) {
-          bool error = SDS.read(&pm25, &pm10);
-          if (!error) {
-            Serial.print("PM10: ");
-            Serial.println(pm10);
-            message.addUint16(pm10 * 10);
-            Serial.print("PM2.5: ");
-            Serial.println(pm25);
-            message.addUint16(pm25 * 10);
-            break;
-          }
-          attempt++;
-        }
-
-        // Prepare upstream data transmission at the next possible time.
-        LMIC_setTxData2(1, message.getBytes(), message.getLength(), 0);
-        Serial.println(F("Packet queued"));
-    }
-    // Next TX is scheduled after TX_COMPLETE event.
-}
-
-void setup() {
-    Serial.begin(9600);
-    delay(10000);
-
-    // RFM9X (LoRa-Bee) in XBEE1 Socket
-    senseBoxIO.powerXB1(false); // power off to reset RFM9X
-    delay(250);
-    senseBoxIO.powerXB1(true);  // power on
-
-    // init I2C/wire library
-    Wire.begin();
-
-    // Sensor initialization
-    Serial.println(F("Initializing sensors..."));
-    SDS_UART_PORT.begin(9600);
-    checkI2CSensors();
-
-    if (veml) 
-    {
-      VEML.begin();
-      delay(500);
-    }
-    if (hdc)
-    {
-      HDC.begin(HDC100X_TEMP_HUMI, HDC100X_14BIT, HDC100X_14BIT, DISABLE);
-      HDC.getTemp();
-    }
-    if (tsl) 
-    {
-      TSL.begin();
-    }
-    if (bmp) 
-    {
-      BMP.begin(0x76);
-    }
-    Serial.println(F("Sensor initializing done!"));
-    Serial.println(F("Starting loop in 3 seconds."));
-    delay(3000);
-
-    // LMIC init
-    os_init();
-    // Reset the MAC state. Session and pending data transfers will be discarded.
-    LMIC_reset();
-
-    // Start job (sending automatically starts OTAA too)
-    do_send(&sendjob);
-}
-
-void loop() {
-    os_runloop_once();
-}
 ```
 {% endcollapse %}
 
-### Decoding Profile
-Für eine Box muss passend zu den übertragenen Messdaten ein Decoding-Profil
-ausgewählt oder definiert werden.
-Die Auswahl des Decoding-Profils ist von dem Encoding der Nachrichten auf dem
-Mikrocontroller, und ob im TTN eine Payload-Function eingestellt wurde abhängig.
+Wie du den Kommentaren im Code entnehmen kannst, ist es wichtig das richtige Format der Schlüssel einzusetzen. Mit einem Klick auf das `<>` Symbol lässt du dir die Schlüssel anzeigen und kannst mit dem Pfeilsymbolen das Format ändern. Achte darauf, dass `Device und Application EUI` im `lsb` Format während der `App Key` im `msb` Format ist. 
+Hast du das gemacht, kannst du dir die einzelnen Schlüssel kopieren und an der Stelle im Code ersetzen.  
 
-- Für die senseBox:home (ohne Erweiterungen) kann das `senseBox:home` Profil
-verwendet werden.
-- Werden die Messungen auf der LoRa-Node mit der `lora-serialization`-Library
-encodiert, sollte das `lora-serialization` Profil verwendet werden.
-- Mit dem `json` Profil werden beliebige andere Encodings unterstuetzt, falls eine
-Payload-Function in der TTN Console die Nachrichten passend decodiert.
 
-Im Folgenden wird erklärt wie die unterstützten Profile konfiguriert werden:
+![Ausgewählte ID's und Keys welche im Code ersetzet werden müssen!](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoRa_TTN_EUI.png)
 
-#### `sensebox/home`
+
+### Decoding
+
+<div class="box_success">
+    <i class="fa fa-check fa-fw" aria-hidden="true" style="color: #50af51;"></i>
+   Besitzt du die senseBox:home ohne Feinstaubsensor kannst du den Sketch einfach hochladen und er sollte funktionieren. Für den Feinstaubsensor müssen wir noch ein geeignetes Decoding Profil einstellen.  
+</div>
+
+#### sensebox/home
 Dieses Profil ist zugeschnitten auf die mit der senseBox:home gelieferten Sensoren.
 Neben der Angabe `sensebox/home` unter `profile` ist keine weitere Konfiguration
 notwendig.
-<br><b>Dies funktioniert nur ohne die Feinstaub(PM2.5 und PM10) Sensoren</b>
 
+#### JSON
+Begebe dich auf die Übersicht deiner Application indem du über [diesen Link](https://console.thethingsnetwork.org/applications/) deine Application auswählst. Dort wählst du wie auf dem Bild zu sehen den Reiter `Payload Formats` aus. Hier siehst du ein Eingabefeld, in welches du den Decoder schreiben musst. 
 
+![Im Overview Fenster zu "Payload Formats" navigieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/decoder_1st.png)
 
-Zusätzlich zu dem Arduino Sketch musst du auf der TTN-Homepage einen Decoder einrichten, sodass deine Messwerte im richtigen Format an die openSenseMap gesendet werden.
-![Im Overview Fenster zu "Payload Formats" navigieren](../../../../pictures/decoder_1st.png)
+![In der Textbox muss der Decoder nun eingefügt werden](https://github.com/sensebox/resources/raw/master/gitbook_pictures/decoder_code.png)
 
-![In der Textbox muss der Decoder nun eingefügt werden](../../../../pictures/decoder_code.png)
+In diesem Beispiel findest du ein Decoder Profil welches nur den Temperatur- und Luftfeuchte-Sensor sowie den Feinstaubsensor der senseBox decodiert. 
+
 
 <h1 id="decoder"></h1>
 {% collapse  title="Decoder für das TTN" %}
@@ -448,11 +142,11 @@ Zusätzlich zu dem Arduino Sketch musst du auf der TTN-Homepage einen Decoder ei
 function Decoder(bytes, port) {
   // bytes is of type Buffer.
   'use strict';
-  var TEMPSENSOR_ID = 'YOUR TEMPERATURE SENSOR ID HERE',
-    HUMISENSOR_ID = 'YOUR HUMIDITY SENSOR ID HERE',
-    PRESSURESENSOR_ID = 'YOUR PRESSURE SENSOR ID HERE ',
-    LUXSENSOR_ID = 'YOUR LUXSENSOR ID HERE ',
-    UVSENSOR_ID = 'YOUR UV SENSOR ID HERE';
+  var TEMPSENSOR_ID = "Deine ID hier!";
+  var  HUMISENSOR_ID = "Deine ID hier!";
+  var  PM25SENSOR_ID = "Deine ID hier!";
+  var PM10SENSOR_ID = "Deine ID hier!";
+
 
   var bytesToInt = function (bytes) {
     var i = 0;
@@ -519,45 +213,26 @@ function Decoder(bytes, port) {
           uint16,
           humidity,
           uint16,
-          uint8,
-          uint16,
-          uint8,
           uint16
         ],
         [
           TEMPSENSOR_ID,
           HUMISENSOR_ID,
-          PRESSURESENSOR_ID,
-          LUXSENSOR_ID + '_mod',
-          LUXSENSOR_ID + '_times',
-          UVSENSOR_ID + '_mod',
-          UVSENSOR_ID + '_times'
+          PM25SENSOR_ID,
+          PM10SENSOR_ID
         ]);
 
       //temp
       json[TEMPSENSOR_ID] = parseFloat(((json[TEMPSENSOR_ID] / 771) - 18).toFixed(1));
-
       //hum
       json[HUMISENSOR_ID] = parseFloat(json[HUMISENSOR_ID].toFixed(1));
-
-      // pressure
-      if (json[PRESSURESENSOR_ID] !== '0') {
-        json[PRESSURESENSOR_ID] = parseFloat(((json[PRESSURESENSOR_ID] / 81.9187) + 300).toFixed(1));
-      } else {
-        delete json[PRESSURESENSOR_ID];
-      }
-
-      // lux
-      json[LUXSENSOR_ID] = (json[LUXSENSOR_ID + '_times'] * 255) + json[LUXSENSOR_ID + '_mod'];
-      delete json[LUXSENSOR_ID + '_times'];
-      delete json[LUXSENSOR_ID + '_mod'];
-
-      // uv
-      json[UVSENSOR_ID] = (json[UVSENSOR_ID + '_times'] * 255) + json[UVSENSOR_ID + '_mod'];
-      delete json[UVSENSOR_ID + '_times'];
-      delete json[UVSENSOR_ID + '_mod'];
+      //PM2.5
+      json[PM25SENSOR_ID] = parseFloat(((json[PM25SENSOR_ID] / 10)).toFixed(1));
+      //PM10
+      json[PM10SENSOR_ID] = parseFloat(((json[PM10SENSOR_ID] / 10)).toFixed(1));
 
     } catch (e) {
+      console.log(e);
       json = { payload: bytes };
     }
 
@@ -569,11 +244,72 @@ function Decoder(bytes, port) {
 ```
 
 {% endcollapse %}
+Möchtest du nun hier etwas ändern, sagen wir du möchtest den Luftdrucksensor hinzufügen, so musst du dies an drei Stellen im Decoder tun. 
 
+{% collapse  title="Erste Änderung" %}
+Als erstes musst du zwei zusätzliche Variablen für die ID's deklarieren. 
+```javascript 
+function Decoder(bytes, port) {
+  // bytes is of type Buffer.
+  'use strict';
+  var TEMPSENSOR_ID = "Deine ID hier!";
+  var HUMISENSOR_ID = "Deine ID hier!";
+  var PM25SENSOR_ID = "Deine ID hier!";
+  var PM10SENSOR_ID = "Deine ID hier!";
+  var PRESSURESENSOR_ID = "Deine ID hier!";
 
+    
+```
+{% endcollapse %}
+
+{% collapse  title="Zweite Änderung" %}
+Das Ausgabe-JSON muss um ein Feld erweitert werden. 
+```javascript
+  var bytesToSenseBoxJson = function (bytes) {
+    var json;
+    try {
+      json = decode(bytes,
+        [
+          uint16,
+          humidity,
+          uint16,
+          uint16,
+          uint16
+        ],
+        [
+          TEMPSENSOR_ID,
+          HUMISENSOR_ID,
+          PM25SENSOR_ID,
+          PM10SENSOR_ID,
+          PRESSURESENSOR_ID
+        ]);
+  
+``` 
+{% endcollapse %}
+
+{% collapse  title="Dritte Änderung" %}
+Zu guter Letzt muss dem erweiterten JSON noch ein Wert zugewiesen werden.
+
+```javascript
+      //temp
+      json[TEMPSENSOR_ID] = parseFloat(((json[TEMPSENSOR_ID] / 771) - 18).toFixed(1));
+      //hum
+      json[HUMISENSOR_ID] = parseFloat(json[HUMISENSOR_ID].toFixed(1));
+      //PM2.5
+      json[PM25SENSOR_ID] = parseFloat(((json[PM25SENSOR_ID] / 10)).toFixed(1));
+      //PM10
+      json[PM10SENSOR_ID] = parseFloat(((json[PM10SENSOR_ID] / 10)).toFixed(1));
+      //Pressure
+      json[PRESSURESENSOR_ID] = parseFloat(((json[PRESSURESENSOR_ID] / 81.9187) + 300).toFixed(1));
+```
+{% endcollapse %}
+<div class="box_warning">
+    <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
+    Fügst du einen neuen Sensor hinzu, so musst du das natürlich auch in deinem Arduino Sketch machen!
+</div>
 
 #### `lora-serialization`
-Für Sensorstationen, welche eine spezielle Sensorkonfiguration haben, können
+Für Sensor-Stationen, welche eine spezielle Sensorkonfiguration haben, können
 durch das `lora-serialization` Profil nahezu beliebige Daten annehmen.
 Hierzu nutzen wir die [`lora-serialization`](https://github.com/thesolarnomad/lora-serialization)
 Bibliothek, welche ein einheitliches Encoding auf dem Microcontroller, und

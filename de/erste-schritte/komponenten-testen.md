@@ -18,11 +18,11 @@ Mit der Arduino IDE lässt sich ein Sketch kompilieren und auf die senseBox MCU 
 ### Konfiguration in der Arduino IDE
 Bevor du die senseBox programmieren kannst, müsst du ein paar Einstellungen in der Arduino IDE vornehmen. Unter dem Reiter `Werkzeuge` musst du bei der Option `Boards` die senseBox MCU unten in der Liste auswählen.
 
-![Boardauswahl](../../../pictures/select_board.png)
+![Boardauswahl](https://github.com/sensebox/resources/raw/master/gitbook_pictures/select_board.png)
 
 Als nächstes wählst du unter `Werkzeuge` -> `Port` die Anschlussnummer des USB Ports aus, an dem die senseBox MCU mit dem Computer verbunden ist. 
 
-![Portauswahl](../../../pictures/select_port.png)
+![Portauswahl](https://github.com/sensebox/resources/raw/master/gitbook_pictures/select_port.png)
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
@@ -82,7 +82,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar, der n
 ### Optionsmenü
 Nachdem du den seriellen Monitor geöffnet hast, erscheint ein Menü auf dessen Funktionen du über das Eingabefeld zugreifen kannst:
 
-![Optionsmenü](../../../pictures/test_option-menu.png)
+![Optionsmenu](https://github.com/sensebox/resources/raw/master/gitbook_pictures/test_option-menu.png)
 
 Dazu schreibt du die Nummer der entsprechenden Option in das Eingabefeld und klickst auf „Senden“. Unterhalb findest du eine Auflistung der Optionen mit kurzen Beschreibungen.
 
@@ -90,7 +90,7 @@ Dazu schreibt du die Nummer der entsprechenden Option in das Eingabefeld und kli
 
   Hier könntest du überprüfen, ob alle angeschlossenen Sensoren richtig initialisiert und erkannt wurden. Für jeden angeschlossenen Sensor sollte es eine Rückmeldung und eine Testmessung geben. Im Beispiel unterhalb wurde ein HDC1080 Temperatur- und Luftfeuchtesensor an einen `I2C/Wire` Port angeschlossen.
 
-  ![Sensor-Test](../../../pictures/test_option1.png)
+  ![Sensortest](https://github.com/sensebox/resources/raw/master/gitbook_pictures/test_option1.png)
 
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -101,7 +101,7 @@ Dazu schreibt du die Nummer der entsprechenden Option in das Eingabefeld und kli
 
   Mit dieser Option wird die Internetverbindung getestet. Bei einem erfolgreichen Verbindungsaufbau sollte eine Antwort mit HTTP-Status 200 vom Server ausgegeben werden:
 
-  ![Verbindungs-Test](../../../pictures/test_option2.png)
+  ![Verbindungs-Test](https://github.com/sensebox/resources/raw/master/gitbook_pictures/test_option2.png)
 
   <div class="box_info">
       <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>

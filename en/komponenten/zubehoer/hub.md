@@ -7,7 +7,7 @@
 </div>
 
 
-![Expander](../../../../pictures/hub_bottom.png)
+![Expander](https://github.com/sensebox/resources/raw/master/gitbook_pictures/hub_bottom.png)
 
 ## Technical Details
    *  "Plug-in-and-Go" senseBox compatible

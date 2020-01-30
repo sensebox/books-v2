@@ -9,7 +9,7 @@
     <br>
 </div>
 
-![Bodentemperatur- & Feuchtigkeit](../../../../pictures/smt50_top.png)
+![Bodentemperatur- & Feuchtigkeit](https://github.com/sensebox/resources/raw/master/gitbook_pictures/smt50_top.png)
 
 ## Technische Details
 - Versorgungsspannung: 3.3 - 30 VDC (Gleichspannung)
@@ -26,7 +26,7 @@
 ## Integration des SMT50 in bestehendes senseBox:home Setup
 Vorraussetzung für das Tutorial ist eine bereits auf der openSenseMap registrierten senseBox:home Station.<br>In unserem Fall haben wir bereits eine senseBox:home mit WiFi Modul für die Datenübertragung, sowie Sensoren für Temperatur & Luftfeuchtigkeit und Luftdruck & Temperatur im Vorfeld registriert und online gebracht.
 
-![Unsere angelegte Station auf der openSenseMap](../../../../pictures/station_osem_home.jpg)
+![Unsere angelegte Station auf der openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem_home.jpg)
 
 ### Erweiterung der Hardware
 Hierzu muss einfach nur das JST-Kabel des Sensors in den Digital A Anschluss an der senseBox gesteckt werden. 
@@ -34,7 +34,7 @@ Hierzu muss einfach nur das JST-Kabel des Sensors in den Digital A Anschluss an 
 ### Integration in die openSenseMap
 Meldet euch nun auf der OSeM an. Wählt eure Station im Dashboard aus und klickt auf 'Editieren'. Unter dem Reiter Sensoren befindet sich oben rechts ein + Symbol, damit können zwei neue Einträge für die beiden Phänomene angelegt werden. Gebt nun nacheinander für die beiden zusätzlichen Messwerte die benötigten Informationen ein. Zuletzt sollten diese noch gespeichert werden, dazu müsst ihr auf das Disketten-Symbol klicken.
 
-![Sensorenbearbeitung OSeM](../../../../pictures/sensoren_edit.jpg)
+![Sensorenbearbeitung OSeM](https://github.com/sensebox/resources/raw/master/gitbook_pictures/sensoren_edit.jpg)
 
 ### Skript erweitern
 Das Skript mit den neu hinzugefügten Phänomenen sollte nun ebenfalls auf der Konfigurationsseite unter dem Reiter Skript zu finden sein. Tragt eure WLAN-Daten ein und kopiert das Skript mit 'Strg+A' in Arduino.<br><br>
@@ -70,4 +70,4 @@ addMeasurement(BODENTSENSOR_ID, soilTemperature);
 ```
 
 Wenn ihr alles richtig gemacht habt, werden eure Werte nun auf der OSeM angezeigt!<br>
-![Station openSenseMap](../../../../pictures/station_osem.jpg)
+![Station openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem.jpg)
