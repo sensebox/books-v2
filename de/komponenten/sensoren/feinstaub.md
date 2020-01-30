@@ -36,13 +36,13 @@ Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und 
     Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
 </div>
 
-Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte
-für PM10 und PM2.5 speichern
+Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte für PM10 und PM2.5 speichern.
 
 ```arduino 
 SDS011 my_sds(Serial1) // Serial1 gibt hier den Seriellen Port an, an dem du den Sensor angeschlossen hast
 float p10,p25
 ```
+
 {% collapse title="setup() Funktion" %}
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 

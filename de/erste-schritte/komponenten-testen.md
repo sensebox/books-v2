@@ -53,7 +53,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der ni
 </div>
 
 ## Sensoren und Internetverbindung testen
-<div class="description">Bevor ihr eure senseBox mit der openSenseMap verbindet sollten alle Sensoren und das Netzwerkmodul überprüft werden, um späteren Fehlern vorzubeugen. Mit unserem Testprogramm können nach dem Aufbau der Station der Messvorgang und die Netzwerkverbindung getestet werden.</div>
+<div class="description">Bevor ihr eure senseBox mit der openSenseMap verbindet, sollten alle Sensoren und das Netzwerkmodul überprüft werden, um späteren Fehlern vorzubeugen. Mit unserem Testprogramm können nach dem Aufbau der Station der Messvorgang und die Netzwerkverbindung getestet werden.</div>
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
@@ -66,7 +66,7 @@ Bei dem Text der hinter dem `//` steht handelt es sich um einen Kommentar der ni
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Für den Fall dass sich der Monitor nicht öffnet solltet ihr überprüfen ob sich das Board im Programmmodus befindet (einmal auf Reset drücken) und ob der richtige Port ausgewählt wurde. Danach versucht es erneut mit einem Klick auf die Lupe.
+  Für den Fall dass sich der Monitor nicht öffnet, solltet ihr überprüfen ob sich das Board im Programmmodus befindet (einmal auf Reset drücken) und ob der richtige Port ausgewählt wurde. Danach versucht es erneut mit einem Klick auf die Lupe.
 </div>
 
 ------
@@ -102,6 +102,7 @@ Dazu schreibt ihr die Nummer der entsprechenden Option in das Eingabefeld und kl
 3. **Get security key**
     
     Jedes senseBox Board besitzt einen eigenen, einzigartigen Sicherheitsschlüssel den ihr mit dieser Option auslesen könnt. Er wird genutzt um die Verbindung zwischen der openSenseMap und eurer senseBox zu verschlüsseln damit niemand eure Messungen von außen Manipulieren kann.
+    
     <div class="box_info">
         <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
        Ihr benötigt diesen Schlüssel im nächsten Schritt bei der Registrierung eurer senseBox auf der openSenseMap.
