@@ -16,7 +16,7 @@ Schau dir die Anleitung für dein Betriebsystem an und folge den angegebenen Sch
 {% content "first" %}
 ### Arduino Software für Windows herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.7.
+> Bitte benutze Arduino Version 1.8.7 für einen reibungslosen Ablauf.
 
 Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert. Lade die Version 1.8.7 von der [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) herunter:
 
@@ -39,7 +39,7 @@ Lege auf deiner Festplatte einen neuen Ordner an und entpacke darin die zip-Date
 
 ### Arduino Software für Mac(OSX) herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.7 nutzen.
+> Bitte benutze Arduino Version 1.8.7 für einen reibungslosen Ablauf.
 
 Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert.  Lade die Version 1.8.7 von der [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) herunter:
 
@@ -56,7 +56,7 @@ In deinem Downloads-Ordner sollte eine Arduino.app Datei erscheinen. Verschiebe 
 
 ### Arduino Software für Linux herunterladen
 
-> Für einen reibungslosen Ablauf bitte Arduino 1.8.7 nutzen.
+> Bitte benutze Arduino Version 1.8.7 für einen reibungslosen Ablauf.
 
 Die senseBox ist ein Microcontroller mit verschiedenen Komponenten und Sensoren. Sie wird über die Entwicklungsumgebung _Arduino IDE_ programmiert.  Lade die Version 1.8.7 von der [Arduino Homepage](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) herunter:
 

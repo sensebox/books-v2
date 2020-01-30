@@ -9,9 +9,10 @@
 ![microSD-Bee](../../../../pictures/msd_new bottom.png)
 
 # Technische Informationen
+
+* Bezeichnung: mSD-Bee
 * "Plug-in-and-Go" senseBox kompatibel
 * Port für miniSD-Karte
-* Bezeichnung: mSD-Bee
 * Maße:24mm x 21mm x 9mm
 * Gewicht:2,4 g
 

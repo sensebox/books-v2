@@ -9,10 +9,9 @@
 * [Schritt 2: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
 * [Schritt 3: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
 * [Schritt 4: Programmierung der Hardware](erste-schritte/komponenten-testen.md)
-* [Schritt 5: Verschlüsselung](erste-schritte/verschluesselung.md)
-* [Schritt 6: Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
-* [Schritt 7: Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
-* [Schritt 8: Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
+* [Schritt 5: Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
+* [Schritt 6: Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
+* [Schritt 7: Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
 
 ## Komponenten
 * [Inhalt](komponenten/README.md)

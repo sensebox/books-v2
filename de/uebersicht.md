@@ -1,22 +1,21 @@
 # Übersicht {#head}
-<div class="description">In diesem Buch zeigen wir Dir was du mit deiner senseBox machen kannst, und erklären dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Ausserdem geben wir dir Tipps und Anregungen zu weiteren Experimenten.</div>
+<div class="description">In diesem Buch zeigen wir Dir, was du mit deiner senseBox machen kannst und erklären dir alles, was du wissen musst um eine fertige Wetterstation zu bauen. Außerdem geben wir Dir Tipps und Anregungen zu weiteren Experimenten.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-Damit alles reibungslos läuft starten wir ganz von vorne und führen dich Schritt für Schritt durch die Installation von Software und Hardware bis zum Bau deiner einsatzbereiten Messstation. Dazu bekommst Du zuerst einmal eine Übersicht wie diese Buch aufgebaut ist.
+Damit alles reibungslos läuft, starten wir ganz von vorne und führen Dich Schritt für Schritt durch die Installation von Software und Hardware bis zum Bau Deiner einsatzbereiten Messstation. Dazu bekommst du zuerst einmal eine Übersicht wie diese Buch aufgebaut ist.
 
 1. Erste Schritte - Installiere benötigte Programme, teste deine Sensoren und starte durch mit Deiner senseBox
   1. [Installation benötigter Software](erste-schritte/software-installation.md)
   2. [Installation der Board-Support-Packages und senseBox Libraries](erste-schritte/board-support-packages-installieren.md)
   3. [Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
   4. [Komponenten testen](erste-schritte/komponenten-testen.md)
-  5. [Verschlüsselung](erste-schritte/verschluesselung.md)
-  6. [Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
-  7. [Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
-  8. [Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
+  5. [Registrierung auf der openSenseMap](erste-schritte/registrierung-auf-der-openSenseMap.md)
+  6. [Zusammenbauen im Gehäuse](erste-schritte/zusammenbau.md)
+  7. [Die senseBox aufstellen](erste-schritte/sensebox-aufstellen.md)
 2. Komponenten - Schaue dir alle Teile der senseBox und ihre Funktionen an
    1. [Inhalt](komponenten/README.md)
      1. [senseBox MCU](komponenten/sensebox-mcu.md)

@@ -1,5 +1,5 @@
-# Schritt 6: Registrierung auf der openSenseMap {#head}
-<div class="description">Um die gemessenen Daten auf die openSenseMap zu übertragen, musst du dich dort zuerst registrieren und eine neue senseBox anlegen. Wie das geht, erfährst du im folgenden Abschnitt</div>
+# Schritt 5: Registrierung auf der openSenseMap {#head}
+<div class="description">Um die gemessenen Daten auf die openSenseMap zu übertragen, musst du dich dort zuerst registrieren und eine neue senseBox anlegen. Wie das geht, erfährst du im folgenden Abschnitt.</div>
 
 <div class="line">
     <br>
@@ -8,13 +8,12 @@
 
 {% collapse title="Was ist die openSenseMap?" %}
 
-Die openSenseMap ist ein Projekt um Sensordaten zu speichern, vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und entdecke einen riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap, sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du [hier](https://sensebox.github.io/books-v2/osem)
-
+Die openSenseMap ist ein Projekt um Sensordaten zu speichern, zu vergleichen und zu visualisieren. Schau sie dir doch am besten mal an. Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und entdecke einen riesigen Pool an Sensordaten aus der ganzen Welt. Nicht nur senseBoxen senden Daten an die openSenseMap, sondern auch andere Microcontroller mit Sensoren. Wie die einzelnen Funktionen der openSenseMap und ihre Schnittstellen funktionieren findest du [hier](https://sensebox.github.io/books-v2/osem).
 
 {% endcollapse %}
 
 ## 1. Nutzeraccount Registrierung
-Gehe auf www.opensensemap.org und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
+Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und lege dir einen Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
 
 ![Account anlegen](../../../pictures/Sing_up.PNG)
 
@@ -36,18 +35,12 @@ Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der 
 
 {% collapse title="Verbindung über LoRa" %}
 
-Möchtest du deine Daten über LoRa an die openSenseMap schicken wählst du bei "Verbindungsart" LoRa aus. Anschließend kannst du im Reiter "Erweitert" deine Lora Einstellungen angeben. Hier musst du die Application-ID und Device-ID angeben, welche du beim <a href="www.thethingsnetwork.org">TheThingsNetwork</a> angegeben hast. 
+Möchtest du deine Daten über LoRa an die openSenseMap schicken, wählst du bei "Verbindungsart" LoRa aus. Anschließend kannst du im Reiter "Erweitert" deine Lora Einstellungen angeben. Hier musst du die Application-ID und Device-ID angeben, welche du beim <a href="www.thethingsnetwork.org">TheThingsNetwork</a> angegeben hast. 
 ![LoRa Konfigurationen](../../../pictures/LoRaOSEM.PNG)
 
 {% endcollapse %}
 
 Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen, welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Falls du einen Feinstaubsensor installieren möchtest, musst du außerdem noch angeben, an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
-
-{% collapse title="Warum muss ich den Feinstaub-Sensor an einen Serial-Port anschließen?" %}
-
-Hier sollte eine Erklärung stehen. 
-
-{% endcollapse %}
 
 ## 3. Summary der Registrierung und Mail erhalten
 Wenn du die Registrierung abgeschlossen hast, musst du noch einmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt (diesen bekommst du zudem noch einmal per E-Mail zugeschickt). 
@@ -106,5 +99,5 @@ Wenn alles richtig gelaufen ist, kannst du nun auf der openSenseMap deine Statio
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  Du kannst dich nicht mehr daran erinnern, wie du den Code von Arduino auf die senseBox überträgst? Schau nochmal in <a href="../erste-schritte/software-installation.html">Schritt 1</a> und <a href="../erste-schritte/komponenten-testen.html">Schritt 5</a> nach, dort wird die Installation und die Übertragung der Tests erklärt. Falls du weitere Fragen hast, nutze unser <a href="https://forum.sensebox.de/">Forum</a>, um dich zu informieren oder gegebenenfalls einen eigenen Beitrag zu erstellen. </div>
+  Du kannst dich nicht mehr daran erinnern, wie du den Code von Arduino auf die senseBox überträgst? Schau nochmal in <a href="../erste-schritte/software-installation.html">Schritt 1</a> und <a href="../erste-schritte/komponenten-testen.html">Schritt 4</a> nach, dort wird die Installation und die Übertragung der Tests erklärt. Falls du weitere Fragen hast, nutze unser <a href="https://forum.sensebox.de/">Forum</a>, um dich zu informieren oder gegebenenfalls einen eigenen Beitrag zu erstellen. </div>
 

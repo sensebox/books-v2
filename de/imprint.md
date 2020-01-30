@@ -2,14 +2,14 @@
 
 <h2>Angaben gemäß § 5 TMG:</h2>
 <p>Reedu GmbH & Co. KG<br />
-Heisenbergstraße 2<br />
+Von-Steuben-Str. 21<br />
 48149 Münster</p>
 
 <h2>Vertreten durch:</h2>
 <p>Reedu Verwaltungs GmbH, vertreten durch die Geschäftsführer Dr. Thomas Bartoschek und David Fehrenbach</p>
 
 <h2>Kontakt:</h2>
-<p>Telefon: +49 251 83-3315-2<br />
+<p>Telefon: +49 251 981-197-97<br />
 E-Mail: <a href="mailto:kontakt@reedu.de">kontakt@reedu.de</a></p>
 
 <h2>Geschäftsführer:</h2>
