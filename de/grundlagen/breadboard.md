@@ -14,4 +14,4 @@ Das Breadboard, oder auch Steckbrett, hilft dir Schaltungen auch ohne Löten sic
 
 Das Breadboard besteht aus zwei gespiegelten, nicht leitend verbundenden Seiten. Diese bestehen jeweils aus zwei langen (auf der folgenden Abbildung horizontalen) Reihen für die Plus- und Minusanschlüsse sowie zweimal 30 (auf der folgenden Abbildung vertikalen) Reihen mit je fünf Federkontakten, die mit a bis e bzw. f bis j beschriftet sind. Die Plus- und Minusanschlüsse sowie die fünf horizontalen Federkontakte einer Reihe sind, wie unten dargestellt, leitend miteinander verbunden.
 
-![Breadboard](../../../pictures/Breadboard.png)
+![Breadboard](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Breadboard.png)

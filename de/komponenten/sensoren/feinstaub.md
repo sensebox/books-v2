@@ -9,7 +9,7 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
     <br>
 </div>
 
-![Feinstaubsensor für PM10 und PM2.5](../../../../pictures/feinstaub_top.png)
+![Feinstaubsensor für PM10 und PM2.5](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top.png)
 
 ## Technische Details
 * Schnelle Reaktionszeit von weniger als 10 Sekunden
@@ -18,7 +18,7 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
 * Mehrfach wissenschaftliche Prüfung der Datengenauigkeit
 
 ## Zum Aufbau benötigte Bauteile 
-<img src="../../../../pictures/feinstaub_top_accessoire.png" alt="Benötigte (mitgelieferte) Bauteile" width="500px"/>
+<img src="https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top_accessoire.png" alt="Benötigte (mitgelieferte) Bauteile" width="500px"/>
 
    * SDS011 Feinstaub Sensor
    * Verbindungskabel

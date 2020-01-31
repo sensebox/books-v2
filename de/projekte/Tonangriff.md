@@ -39,7 +39,7 @@ Der Summer benötigt einen Minus und einen Pluspol. Stecke den Schaltkreis so wi
     Der längere Pin am Summer ist der Pluspol(rotes Kabel verbinden) und der kurze Pin der Minuspol(schwarzes Kabel verbinden)
 </div>
 
-![Verkabelung des Summers](../../../pictures/Aufbau_Summer.png)
+![Verkabelung des Summers](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Aufbau_Summer.png)
 
 Wenn ihr den Schaltkreis wie in der Grafik steckt und den Arduino mit dem Netzteil verbindet, sollte der Summer einen lauten Dauerton erzeugen. Damit haben wir unsere erste Aufgabe bereits erledigt.
 
@@ -49,7 +49,7 @@ Nun wollen wir ein weiteres Bauteil in unseren Schaltkreis integrieren, mit dess
 
 Verbinde dazu den 5V Ausgang des Arduinos mit dem Potentiometer, und dieses mit dem längeren Pin des Summers. Nun musst du den kurzen Pin des Summers noch mit GND verbinden und schon kannst du über das Potentiometer die Lautstärke verändern.
 
-![Verkabelung des Potentiometers](../../../pictures/Aufbau_Potentiometer.png)
+![Verkabelung des Potentiometers](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Aufbau_Potentiometer.png)
 
 <div class="box_info">
 <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>

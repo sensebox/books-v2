@@ -12,7 +12,7 @@ Das ganze Set kann [hier](https://sensebox.kaufen/product/solar-set) bestellt we
 
 ## Solarzelle
 
-![Die Solarzelle](../../../../pictures/solar_top.png)
+![Die Solarzelle](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_top.png)
 
 ### Technische Details
    * Model-Nummer: VB-010P
@@ -32,7 +32,7 @@ Der [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) sorgt dur
     <br>
 </div>
 
-![Powerboost 1000C](../../../../pictures/powerboost-top.png)
+![Powerboost 1000C](https://github.com/sensebox/resources/raw/master/gitbook_pictures/powerboost-top.png)
 
 ### Technische Details
    * Maximale Leistungs-Input: 3,7V 
@@ -46,7 +46,7 @@ Der [Adafruit Powerboost 1000C](https://www.adafruit.com/product/2465) sorgt dur
 
 Um die senseBox mit einer Solarzelle zu benutzen, bedarf es lediglich einem Powerboostund und einem [LiPo Akku](https://eckstein-shop.de/LiPo-Akku-Lithium-Ion-Polymer-Batterie-37V-2000mAh-JST-PH-Connector), etwas um die 1000 mAh sollte genügen. Wie die Komponenten verbunden werden, siehst du im Bild unten. Wir empfehlen eine [Brandschutztasche](https://www.amazon.de/Jamara-141360-LiPo-Guard-Lipobrandschutztasche/dp/B003OFCUIS/ref=sr_1_18?keywords=LIPO+TRESOR&qid=1556284975&s=gateway&sr=8-18) für den Akku, da bei einer Beschädigung hohe Verletzungsgefahr besteht.
 
-![Powerboost Aufbau](../../../../pictures/solar_powerboost.jpg)
+![Powerboost Aufbau](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_powerboost.jpg)
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>

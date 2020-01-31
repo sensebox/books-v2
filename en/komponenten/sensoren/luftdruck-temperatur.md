@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Airpressure- and Temperature Sensor](../../../../pictures/bmp%20top.png)
+![Airpressure- and Temperature Sensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/bmp%20top.png)
 
 ## Technical Detail
 

@@ -24,11 +24,11 @@ Wähle dein Betriebssystem, um die passende Anleitung zu sehen:
 ### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
 1. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
 
- ![Klicke `Datei` und dann `Voreinstellungen`](../../../pictures/libraries/voreinstellungen_2.PNG?raw=true)
+ ![Klicke `Datei` und dann `Voreinstellungen`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2.PNG)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../../../pictures/libraries/voreinstellungen.PNG)
+ ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen.PNG)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 
@@ -55,11 +55,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Öffne die Voreinstellungen und füge die URL ein](../../../pictures/ardu/Ardu1.png)
+ ![Öffne die Voreinstellungen und füge die URL ein](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu1.png)
 
 2. Öffne nun den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und suche dort nach dem **senseBox SAMD Boards**-Package.
 
-![Suche nach dem rot markierten Package](../../../pictures/ardu/Ardu3.png)
+![Suche nach dem rot markierten Package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
  Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
 
@@ -70,7 +70,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 3. Klicke auf diesen Button und gehe danach sicher, dass die installierte Version höher als 1.1.0 ist.
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../../../pictures/ardu/update-b-s-p.png)
+![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
  Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
 
@@ -78,11 +78,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 ### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
 1. Öffne nun die Arduino IDE. Gehe auf `Arduino` -> `Einstellungen...`:
 
- ![Klicke `Arduino` -> `Einstellungen...`](../../../pictures/libraries/voreinstellungen_2_mac.png)
+ ![Klicke `Arduino` -> `Einstellungen...`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2_mac.png)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../../../pictures/libraries/voreinstellungen_mac.png)
+ ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_mac.png)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 
@@ -109,11 +109,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Öffne die Voreinstellungen und füge dort die URL ein](../../../pictures/libraries/voreinstellungen_mac_boardverwalter.png)
+ ![Öffne die Voreinstellungen und füge dort die URL ein](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_mac_boardverwalter.png)
 
 2. Öffne nun den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und suche dort nach dem **senseBox SAMD Boards**-Package.
 
-![Suche nach dem rot markierten Package](../../../pictures/ardu/Ardu3.png)
+![Suche nach dem rot markierten Package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
  Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
 
@@ -124,7 +124,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 3. Klicke auf diesen Button und gehe danach sicher, dass die installierte Version höher als 1.1.0 ist.
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../../../pictures/ardu/update-b-s-p.png)
+![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
  Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
 
@@ -132,11 +132,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 ### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
 1. Öffne nun die Arduino IDE. Gehe auf `Datei` -> `Voreinstellungen`:
 
- ![Klicke `Datei` -> `Voreinstellungen`](../../../pictures/libraries/voreinstellungen_2_linux.png)
+ ![Klicke `Datei` -> `Voreinstellungen`](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_2_linux.png)
 
     und schaue im Feld unter `Sketchbook-Speicherort` nach an welchem Ort der Sketchbook-Ordner gespeichert ist. 
 
- ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](../../../pictures/libraries/voreinstellungen_linux.png)
+ ![Schaue im rot-markierten Feld nach, wo dein Sketchbook-Speicherort ist](https://github.com/sensebox/resources/raw/master/gitbook_pictures/libraries/voreinstellungen_linux.png)
 
     Merke dir den Pfad zu diesem Ordner, also den Ort wo dieser gespeichert ist.
 
@@ -164,11 +164,11 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
        An der Stelle steht im Normalfall vorher schon folgende URL: <i>https://github.com/watterott/senseBox-MCU/raw/master/package_sensebox_index.json</i> diese sieht der obigen sehr ähnlich, ist aber nicht die gleiche URL. Sie muss aber unbedingt durch die oben stehende URL ausgetauscht werden.
     </div>
 
- ![Öffne die Voreinstellungen und füge die URL ein](../../../pictures/ardu/Ardu1.png)
+ ![Öffne die Voreinstellungen und füge die URL ein](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu1.png)
 
 2. Öffne nun den *Boardverwalter* unter *Werkzeuge -> Board:"..." -> Boardverwalter* und suche dort nach dem **senseBox SAMD Boards**-Package.
 
-![Suche nach dem rot markierten Package](../../../pictures/ardu/Ardu3.png)
+![Suche nach dem rot markierten Package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
  Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
 
@@ -179,7 +179,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 3. Klicke auf diesen Button und gehe danach sicher, dass die installierte Version höher als 1.1.0 ist.
 
-![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](../../../pictures/ardu/update-b-s-p.png)
+![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
  Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
 {% endtabs %}

@@ -35,7 +35,7 @@ Each device has a unique identifier so that the data bus can assign each one of 
 Plug in the circuit as you see it in the graphic below.
 
 
-![Temperature and humidity sensor connected via I2C port](../../../../pictures/diy-station/wired_tempairhumi.jpg)
+![Temperature and humidity sensor connected via I2C port](https://github.com/sensebox/resources/raw/master/gitbook_pictures/diy-station/wired_tempairhumi.jpg)
 
 ## Programming
 

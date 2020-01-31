@@ -14,6 +14,6 @@ The `SDA` (serial data) designated line is the data line over which the actual d
 
 If several I²C devices are to be connected to the Arduino, this is implemented via a series connection. The SDA cable on the first sensor would therefore be extended to the next sensor on the same row of the breadboard:
 
-![senseBox MCU with Breadboard](../../../pictures/mcu%20v2%20top.png)
+![senseBox MCU with Breadboard](https://github.com/sensebox/resources/raw/master/gitbook_pictures/mcu%20v2%20top.png)
 
 If you use the I²C bus on the Arduino, the Arduino is always considered a master device and all other devices on the bus as a slave. Each slave has its own address in the form of a hexadecimal number, with which it can be clearly addressed. Usually, each device brings with it a range of bus addresses that can be used. The respective addresses can be found in the data sheet of the manufacturer.

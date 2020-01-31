@@ -1,12 +1,12 @@
 # LoRa-Bee {#head}
-<div class="description">Verwendet die LoRa-Schnittstelle um Daten ins Internet zu übertragen. Neu ist das LoRa WAN-XBee-Modul, mit dem eine stromsparende und kostenlose Möglichkeit der Datenübertragung ins Internet über den LoRa-Funk-Standard ermöglicht wird. Dafür werden bestehende LoRa-Netzwerke, wie zum Beispeil TheThingsNetwork genutzt um Daten zu übertragen. Die hierzu benötigte Infrastruktur wird bei TheThingsNetwork von der Community bereit gestellt, und ist in immer mehr Regionen verfügbar.</div>
+<div class="description">Verwendet die LoRa-Schnittstelle um Daten stromsparend und kostenlos ins Internet zu übertragen. Das Besondere an der Übertragunstechnologie ist ihre Reichweite, so muss ein LoRa-Gateway im Umkreis von lediglich 2 bis hin zu 40 Kilometern bestehen, je nachdem ob die Station im städtischen Gebiet oder im ländlichen Raum ohne Gebirge (ggf. über Wasser) genutzt werden soll.<br>Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe der LoRa-Funk-Standards des TheThingsNetwork. Die hierzu benötigte Infrastruktur wird von der TTN-Community bereit gestellt, und ist in immer mehr Regionen verfügbar. Deutschland besitzt im internationalen Vegleich schon eine sehr gute Abdeckung mit ~2000 Gateways.</div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-![Lora Bee](../../../../pictures/LoraBee%20bottom.png)
+![Lora Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoraBee%20bottom.png)
 
 # Technische Informationen
 * HopeRF RFM95W/RFM96W LoRa Transceiver
@@ -18,20 +18,19 @@
 * Gewicht: 1,1 g
 
 # Hinweise
-Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist: https://www.thethingsnetwork.org/community#list-communities-map
+Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist.<br>Dies ist auf der [Karte](https://www.thethingsnetwork.org/community#list-communities-map) des TTN möglich.
 
 **Achtung: Aufgrund der erhöhten Komplexität der Installation empfehlen wir das LoRa-Modul außschließlich fortgeschrittenen Nutzern von Open-Hardware**
 
 # Upload über LoRaWAN
-
-Es ist möglich Sensordaten per LoRaWAN™ durch das [TheThingsNetwork](https://thethingsnetwork.org)
-(TTN) auf die openSenseMap zu laden.
+Es ist möglich Sensordaten per [LoRaWAN™](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network) durch das [TheThingsNetwork](https://thethingsnetwork.org)
+(TTN) auf die openSenseMap zu laden.<br>
 LoRa ist ein zunehmend Verbreitung findender Funkstandard, welcher ähnlich wie
 WiFi digitale Datenübertragung in einem IP-Netzwerk erlaubt, jedoch deutlich
 andere Features bietet:
 
 - Datendurchsatz: 300 - 3000 Bit/s
-- Reichweite:     bis zu 15km 
+- Reichweite:     ~ 15km (Im Durchschnitt) 
 
 TTN ist eins von mehreren Projekten, welches die zur Funk-Hardware zugehörige
 Infrastruktur für das IP-Netzwerk implementiert, wodurch registrierte Geräte
@@ -40,24 +39,16 @@ mit dem Internet verbunden werden können.
 Nutzer können *Gateways* sowie *Nodes* zu dem Netzwerk hinzufügen.
 
 
-## TTN openSenseMap Integration
-Die openSenseMap bietet eine direkte Integration in das TTN Netzwerk, was die
-Konfiguration stark vereinfacht. Hierfür musst du einen Account [TheThingsNetwork](https://thethingsnetwork.org) erstellen.
+## TheThingsNetwork & openSenseMap Integration
+Die openSenseMap bietet eine direkte Integration in das TheThingsNetwork, was die
+Konfiguration stark vereinfacht. Das TheThingsNetwork ist ein LoRa Netzwerk, welches dafür zuständig ist Daten von deiner senseBox an die openSenseMap weiterzuleiten. Erstelle als ersten Schritt dieses Tutorials einen Account auf der [Website](www.thethingsnetwork.org).
 
-### Registrierung in TTN Console
+### Registrierung im TheThingsNetwork
+Hast du einen Account erstellt, musst du nun eine Application hinzufügen.<br>Dies kannst du über diesen [Link](https://console.thethingsnetwork.org/applications) erledigen. Hier musst du eine Application ID, also einen Namen für deine Anwendung eingeben.<br><br>Nachdem die Application hinzugefügt wurde, musst du nun ein Device hinzufügen. Dies geschieht über den Reiter `Devices`->`Register device`. Auch hier musst du eine ID für das Gerät hinzufügen. Die `Device-EUI` kannst du dir mit einem Klick auf das Symbol generieren lassen.<br><br>Zu guter Letzt musst du dem TTN-Netzwerk nun noch mitteilen, dass deine Daten an die openSenseMap weitergeleitet werden sollen. Hierfür gehst du auf deine [Übersicht](https://console.thethingsnetwork.org/applications), wählst deine eben erstellte Application aus und gehst auf den Reiter `Integrations`. Dort findest du den Knopf `Add integration`, woraufhin sich ein Fenster mit einer Reihe an Auswahlmöglichkeiten öffnet. Unter diesen Möglichkeiten wählst du `HTTP Integration` aus. Die `Process ID` kannst du wieder selbst wählen. Bei `URL` gibst du `https://ttn.opensensemap.org/v1.1` an und die Methode lautet `POST`. Unter Access Key den `default key` auswählen. Das Authorization Feld kann leer bleiben!
 
-Um ein Gerät in das TTN einzubinden, muss für dieses zunächst unter
-[thethingsnetwork.org](https://console.thethingsnetwork.org/)
-eine *Application* und ein *Device* registriert werden. Hierbei erhält man eine
-`app_id` und eine `dev_id`.
+<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" alt="ttnconsole" center width="767" />
 
-Für die registrierte Application muss die HTTP Integration unter <https://console.thethingsnetwork.org/applications/DEINE_APPID/integrations/create/http-ttn>
-aktiviert werden. Diese muss konfiguriert werden, dass sie die Nachrichten von
-Devices per `POST` an `https://ttn.opensensemap.org/v1.1` weiterleitet. Das
-Authorization-Feld kann leer bleiben!
-
-<img src="https://raw.githubusercontent.com/sensebox/resources/master/images/osem_ttnconsole.png" alt="HTTP Integration zur openSenseMap" center width="767" />
-
+### Registrierung auf der openSenseMap
 Für die Datenübertragung zur openSenseMap müssen die `app_id` und `dev_id` bei
 der Registrierung auf der openSenseMap in der TTN-Konfiguration angegeben
 werden. Darüber hinaus muss ein passendes Decoding-Profil konfiguriert werden,
@@ -69,6 +60,7 @@ welches bestimmt wie die - wegen der geringen Bandbreite als rohe Bytes
 Optional kann im Feld `port` noch der Port angegeben werden, auf welchem
 der Sender seine Daten an das TTN schickt. So lassen sich die selbe `app_id`
 und `dev_id` für mehrere Sensorstationen verwenden.
+
 ### Arduino Sketch 
 So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk an die openSenseMap senden kannst. Mit diesem Sketch werden die Phänomene:Lufttemperatur, Luftfeuchte, PM10, PM2.5, UV-Intensität, Beleuchtungsstärke und Luftdruck gemessen.
 
@@ -77,7 +69,7 @@ So könnte ein Arduino Sketch aussehen, mit dem du Daten über das TTN-Netzwerk 
     <b>Wichtig:</b> Du musst deine eben erstellte <b>Application-EUI, Device-EUI</b> und den <b>App-Key</b> in den Sketch einfügen. Dies machst du in den ersten Zeilen des Programmcode wo <b>'INSERT YOUR ID HERE'</b> steht. <br><br> Achte darauf, dass auf der TTN-Homepage du für die <b>Device-EUI</b> und die <b>Application-EUI</b> das <b>lsb</b>-Format und für den <b>App-Key</b> das <b>msb</b>-Format ausgewählt hast!
 </div>
 
-![Ausgewählte ID's und Keys](../../../../pictures/LoRa_TTN_EUI.png)
+![Ausgewählte ID's und Keys](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoRa_TTN_EUI.png)
 
 {% collapse title="Deklarieren der globalen Variablen und Deffinierung der Sensoren" %}
 
@@ -428,7 +420,7 @@ void onEvent (ev_t ev) {
 ```
 
 {% endcollapse %}
-Als nächstes deffinieren wir das LoRa Paket was an das TTN-Netzwerk übermittelt wird. Mit `LoRaMessage message` deklarieren wir das Paket `message` welchen sukzessiv die Messwerte unserer Sensoren hinzugefügt wird.
+Als nächstes definieren wir das LoRa Paket was an das TTN-Netzwerk übermittelt wird. Mit `LoRaMessage message` deklarieren wir das Paket `message` welchen sukzessiv die Messwerte unserer Sensoren hinzugefügt wird.
 
 {% collapse title="Erstellen der LoRa-Message" %}
 ```arduino

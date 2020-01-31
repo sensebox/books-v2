@@ -13,7 +13,7 @@ Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Diese
     <br>
 </div>
 
-![Beleuchtungsstärke und UV-Stahlung](../../../../pictures/tsl%20top.png)
+![Beleuchtungsstärke und UV-Stahlung](https://github.com/sensebox/resources/raw/master/gitbook_pictures/tsl%20top.png)
 
 ## Technische Details
 
