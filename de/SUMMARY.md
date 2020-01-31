@@ -58,6 +58,7 @@
         * [Feinstaub](komponenten/sensoren/feinstaub.md)
         * [Gassensor](komponenten/sensoren/gassensor.md)
         * [Bodenfeuchte](komponenten/sensoren/bodenfeuchte.md)
+        * [Lautstärke](komponenten/sensoren/decibel_meter.md)
     * [Zubehör](komponenten/zubehoer/README.md)
         * [Strahlenschutz](komponenten/zubehoer/strahlenschutz.md)
         * [Gehäuse](komponenten/zubehoer/gehaeuse.md)
