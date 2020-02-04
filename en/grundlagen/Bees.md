@@ -1,6 +1,6 @@
 # Bees {#head}
 
-<div class="description">A bee denotes a pluggable component with which the senseBoxMCU can transmit or store data. Here you have the choice between the Wifi-Bee or the mSD-Bee.</div>
+<div class="description">A bee denotes a pluggable component with which the senseBoxMCU can transmit or store data. Here you have the choice between the WiFi-Bee or the mSD-Bee.</div>
 <div class="line">
     <br>
     <br>

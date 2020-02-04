@@ -40,7 +40,7 @@ Für die loop()-Funktion habt ihr nun zwei Möglichkeiten:
 1. Wir programmieren die LED so, dass sie jedes Mal für 0.5 Sekunden angeht wenn ein lautes Geräusch zu hören ist - **Der akustische Alarm**
 2. Wir programmieren einen Lichtschalter, der bei einem lauten Geräusch die LED ein- bzw. wieder ausschaltet - **Der akustische Lichtschalter**
 
-Beide Programme sind sehr ähnlich, es liegt also bei euch was ihr lieber programmieren wollt!
+Beide Programme sind sehr ähnlich, es liegt also bei dir was du lieber programmieren willst!
 
 
 {% collapse title="Der akustische Alarm" %} 

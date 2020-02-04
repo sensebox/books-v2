@@ -31,7 +31,7 @@ Wenn du deine senseBox ohne Steckdose oder Powerbank betreiben möchtest, kannst
     Achtung: Aufgrund der erhöhten Komplexität der Installation empfehlen wir dieses Projekt außschließlich fortgeschrittenen Nutzern von Open-Hardware. 
 </div>
 <br>
-Zunächst baust Du die senseBox nach deinem belieben auf. Hierzu die gewohnte Anleitung in den [books](https://sensebox.github.io/books-v2/home/de/) benutzen.
+Zunächst baust du die senseBox nach deinem belieben auf. Hierzu die gewohnte Anleitung in den [books](https://sensebox.github.io/books-v2/home/de/) benutzen.
 Um zu gewährleisten, dass die senseBox zeitgleich mit Strom versorgt wird und einen Akku nutzt, der durch die Solarzelle aufgeladen wird, benötigst du den [Adafruit Powerboost 1000C](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/overview). Der Stromfluss vom Akku zur MCU wird durch einen [Power Switch](https://www.adafruit.com/product/805) reguliert.
 
 ![Powerboost Aufbau](https://github.com/sensebox/resources/raw/master/gitbook_pictures/solar_powerboost.jpg)

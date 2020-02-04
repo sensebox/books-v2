@@ -13,7 +13,7 @@ So that everything runs smoothly, we start from the beginning and guide you step
    1. [Installation of Required Software](erste-schritte/software-installation.md)
    2. [Install the Board Support Packages and senseBox Libraries](erste-schritte/board-support-packages-installieren.md)
    3. [Connecting and Cabling MCU and Sensors](erste-schritte/anschluss-und-verkabelung.md)
-   4. [Programming and Initial Tests with your Sensors](erste-schritte/komponenten-testen.md)
+   4. [Programming](erste-schritte/komponenten-testen.md)
 2. Basics
 3. Projects
 4. Components - Look at all parts of the senseBox and their functions]
@@ -26,6 +26,6 @@ So that everything runs smoothly, we start from the beginning and guide you step
 
    1. [FAQ](hilfe/hilfe.md)
    2. [Add External Libraries](hilfe/add-external-libraries.md)
-   3. [Firmware Update Wifi-Bee](additional-info.md)
+   3. [Firmware Update WiFi-Bee](additional-info.md)
    4. [Update Windows USB Bootloader Driver](win-boot-help.md)
    5. [Updated the Board Support Package & senseBox Libraries](hilfe/aktualisierung_bsp_libraries.md)

@@ -7,7 +7,7 @@
 </div>
 
 
-* [Wifi-Bee](wifi.md)
+* [WiFi-Bee](wifi.md)
 * [Ethernet-Bee](lan.md)
 * [SD-Bee](sd.md)
 * [LoRa-Bee](lora.md)

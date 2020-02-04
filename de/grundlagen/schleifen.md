@@ -69,7 +69,7 @@ Du kannst zum Beispiel einen Knopf an den Arduino anschließen und die Schleife 
 
 <div class="box_warning">
      <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-     Achtung: Ein häufig gemachter Fehler ist, dass eine Bedingung immer wahr ist (Zum Beispiel, wenn ihr als Bedingung schreibt 1 > 0). In diesem Fall wird eure Schleife immer wieder durchlaufen. Man spricht von einer Endlosschleife. In diesem Fall reagiert euer Arduino nicht mehr und es ist relativ schwer herauszufinden, woran das liegt.
+     Achtung: Ein häufig gemachter Fehler ist, dass eine Bedingung immer wahr ist (Zum Beispiel, wenn du als Bedingung schreibst 1 > 0). In diesem Fall wird deine Schleife immer wieder durchlaufen. Man spricht von einer Endlosschleife. In diesem Fall reagiert dein Arduino nicht mehr und es ist relativ schwer herauszufinden, woran das liegt.
 </div>
 
 ### Aufgabe 2

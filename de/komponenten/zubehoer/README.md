@@ -8,12 +8,11 @@
 
 ## Übersicht
 
-Es gibt folgende Komponenten die mit der senseBox angeboten und für euch getestet worden sind:
+Es gibt folgende Komponenten die mit der senseBox angeboten und für dich getestet worden sind:
 * [Strahlenschutz](strahlenschutz.md)
 * [Gehäuse](gehaeuse.md)
 * [Netzteil und USB-Kabel](netzteil-und-usb-kabel.md)
 * [LED-Display](led-display.md)
 * [HUB](hub.md)
 * [Micro-SD Karte](micro-sd-karte.md)
-* [GPS](gps.md)
 

@@ -26,7 +26,7 @@ Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und 
 </div>
 <div class="box_error">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Der BME Gassensor ist nicht dem BMP280 Luftdrucksensor kompatibel. Das heißt du kannst nur einen der beiden gleichzeitig anschließen und auslesen!
+    Der BME Gassensor ist nicht mit dem BMP280 Luftdrucksensor kompatibel. Das heißt du kannst nur einen der beiden gleichzeitig anschließen und auslesen!
 </div>
 
 

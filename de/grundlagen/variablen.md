@@ -84,8 +84,8 @@ Ein String wird folgendermaßen definiert:
 String testWert = "Hallo Welt";
 ```
 
-Im Gegensatz zu den Datentypen, die ihr zuvor kennen gelernt habt, wird der Bezeichner `String` groß geschrieben.
-Darauf müsst ihr achten, sonst erkennt das Programm den Datentyp nicht.
+Im Gegensatz zu den Datentypen, die du zuvor kennen gelernt hast, wird der Bezeichner `String` groß geschrieben.
+Darauf musst du achten, sonst erkennt das Programm den Datentyp nicht.
 In den meisten Programmiersprachen gibt es primitive Datentypen und höhere Datentypen. Du erkennst sie daran, ob ihre Bezeichner klein (primitiver Datentyp) oder groß (höherer Datentyp) geschrieben werden.
 Für unsere Anwendungen in der senseBox:edu ist es nicht notwendig zwischen primitiven und höheren Datentypen zu unterscheiden; wenn du später komplexere Anwendungen programmierst, wirst du mehr darüber lernen.
 Möchtest du jetzt schon mehr darüber erfahren, dann schaue doch [hier](https://de.wikipedia.org/wiki/Datentyp#Zusammengesetzte_Datentypen "Wikipedia") nach.

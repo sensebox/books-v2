@@ -13,7 +13,7 @@
 
 1. [senseBox MCU](sensebox-mcu.md)
 2. [Bees](bees/README.md)
-    + [Wifi-Bee](bees/wifi.md)
+    + [WiFi-Bee](bees/wifi.md)
     + [LAN-Bee](bees/lan.md)
     + [SD-Bee](bees/sd.md)
     + [LoRa-Bee](bees/lora.md)
@@ -22,6 +22,7 @@
     + [Air pressure & Temperatur](sensoren/luftdruck-temperatur.md)
     + [Illumination and UV](sensoren/belichtung-und-uv.md)
     + [Fine dust](sensoren/feinstaub.md)
+    + [GPS](sensoren/gps.md)
     + [Soil Moisture](sensoren/bodenfeuchte.md)
 4. [Additional Components](zubehoer/README.md)
     + [Sensor Protection](zubehoer/strahlenschutz.md)
@@ -30,6 +31,5 @@
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)
     + [Micro-SD Card](zubehoer/micro-sd-karte.md)
-    + [GPS](zubehoer/gps.md)
 
 There are many more sensors which you can adapt with some own initiation and do-it-yourself skills. However, currently we can only provide information about the listet components. If you are interested in other sensor technology you can visit our [Forum](https://forum.sensebox.de/). There you will reveice help from the senseBox community.

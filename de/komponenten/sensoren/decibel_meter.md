@@ -8,7 +8,7 @@
     <br>
 </div>
 
-![Der Geräuschpegel-Sensor](../../../../pictures/decibel_meter.png)
+![Der Geräuschpegel-Sensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/decibel_meter.jpg)
 
 ## Technische Informationen
 
@@ -19,7 +19,7 @@
 * Messspanne: zwischen 30dBA und 130 dBA akkurat
 * Messintervall: 125ms
 
-![Anschluss des Sensors](../../../../pictures/SoundLevelMeter.png)
+![Anschluss des Sensors](https://github.com/sensebox/resources/raw/master/gitbook_pictures/SoundLevelMeter.png)
 
 
 ## Programmierung mit Arduino
@@ -85,4 +85,4 @@ void loop() {
 }
 ```
 
-![Werte auf der OpenSenseMap](../../../../pictures/osem_showcase.png)
+![Werte auf der OpenSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/osem_showcase.png)

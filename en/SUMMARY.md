@@ -7,7 +7,7 @@
 * [Step 1: Software Installation](erste-schritte/software-installation.md)
 * [Step 2: Installation of the Board-Support-Packages](erste-schritte/board-support-packages-installieren.md)
 * [Step 3: Pin and Wiring](erste-schritte/anschluss-und-verkabelung.md)
-* [Step 4: Programming and Component Testing](erste-schritte/komponenten-testen.md)
+* [Step 4: Programming](erste-schritte/komponenten-testen.md)
 
 ## Basics
 * [Arduino IDE and Sketches](grundlagen/der-arduino-sketch.md)
@@ -42,7 +42,7 @@
 * [Content](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
     * [Bees](komponenten/bees/README.md)
-        * [Wifi-Bee](komponenten/bees/wifi.md)
+        * [WiFi-Bee](komponenten/bees/wifi.md)
         * [LAN-Bee](komponenten/bees/lan.md)
         * [mSD-Bee](komponenten/bees/sd.md)
         * [LoRa-Bee](komponenten/bees/lora.md)
@@ -51,6 +51,7 @@
         * [Air Pressure & Temperature](komponenten/sensoren/luftdruck-temperatur.md)
         * [Light and UV Intensity](komponenten/sensoren/belichtung-und-uv.md)
         * [Fine Dust](komponenten/sensoren/feinstaub.md)
+        * [GPS](komponenten/sensoren/gps.md)
         * [Soil Moisture](komponenten/sensoren/bodenfeuchte.md)
     * [Accessories](komponenten/zubehoer/README.md)
         * [Radiation Protection](komponenten/zubehoer/strahlenschutz.md)
@@ -59,14 +60,13 @@
         * [LED-Display](komponenten/zubehoer/led-display.md)
         * [Expander](komponenten/zubehoer/hub.md)
         * [Micro-SD Card](komponenten/zubehoer/micro-sd-karte.md)
-        * [GPS](komponenten/zubehoer/gps.md)
         * [Solar Panel](komponenten/zubehoer/solar-panel.md)
 
 ## Help & Miscellaneous
 * [FAQ](hilfe/hilfe.md)
 * [Downloads](downloads.md)
 * [Manual Integration of Libraries](hilfe/add-external-libraries.md)
-* [Firmware Update Wifi-Bee](additional-info.md)
+* [Firmware Update WiFi-Bee](additional-info.md)
 * [Update Windows USB-Bootloader Drivers](win-boot-help.md)
 * [Update of Board-Support-Package & senseBox-Libraries](hilfe/aktualisierung_bsp_libraries.md)
 * [Imprint](imprint.md)

@@ -75,7 +75,7 @@ void loop(){
 ## Aufgaben
 
 {% collapse title="Aufgabe 1" %}
-Baue die oben beschriebene Schaltung nach und versuche den HDC1008 auszulesen und Dir die gemessenen Daten im seriellen Monitor anzeigen zu lassen.
+Baue die oben beschriebene Schaltung nach und versuche den HDC1008 auszulesen und dir die gemessenen Daten im seriellen Monitor anzeigen zu lassen.
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
     Schaue dir hierfür die Beispiele aus den <a href="../../erste-schritte/software-installation.md">Ersten Schritten</a> an!

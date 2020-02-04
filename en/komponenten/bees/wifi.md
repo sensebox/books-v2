@@ -1,5 +1,5 @@
-# Wifi-Bee {#head}
-<div class="description">The Wifi-Bee is the connector between the senseBox and the internet. The data of the senseBox is transmitted via Wifi to the existing network. The Wifi-bee is based on the ATWINC1500 microchip by Atmel which has a very low energy consumption and a long range.</div>
+# WiFi-Bee {#head}
+<div class="description">The WiFi-Bee is the connector between the senseBox and the internet. The data of the senseBox is transmitted via WiFi to the existing network. The WiFi-bee is based on the ATWINC1500 microchip by Atmel which has a very low energy consumption and a long range.</div>
 
 <div class="line">
     <br>
@@ -12,7 +12,7 @@
 </div>
 <br>
 
-![Wifi-Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/wifi_new bottom.png)
+![WiFi-Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/wifi_new bottom.png)
 
 # Technical Details
 

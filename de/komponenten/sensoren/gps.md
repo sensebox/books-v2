@@ -10,5 +10,5 @@
 
 # Funktion
 
-Der GPS Sensor wird an einen I2C-Port angeschlossen. Ein Beispiel wie man den GPS-Sensor verwendet, findet ihr in Kapitel [Mobile Station]( https://sensebox.github.io/books-v2/edu/de/projekte/Mobile_Station.html)
+Der GPS Sensor wird an einen I2C-Port angeschlossen. Ein Beispiel wie man den GPS-Sensor verwendet, findest du in Kapitel [Mobile Station]( https://sensebox.github.io/books-v2/edu/de/projekte/Mobile_Station.html)
 

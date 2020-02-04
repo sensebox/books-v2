@@ -7,7 +7,7 @@
 * [Schritt 1: Software Installation](erste-schritte/software-installation.md)
 * [Schritt 2: Board-Support-Packages installieren](erste-schritte/board-support-packages-installieren.md)
 * [Schritt 3: Anschluss und Verkabelung](erste-schritte/anschluss-und-verkabelung.md)
-* [Schritt 4: Komponenten testen](erste-schritte/komponenten-testen.md)
+* [Schritt 4: Programmierung](erste-schritte/komponenten-testen.md)
 
 ## Grundlagen
 * [Arduino IDE und Sketches](grundlagen/der-arduino-sketch.md)
@@ -47,7 +47,7 @@
 * [Inhalt](komponenten/README.md)
     * [senseBox MCU](komponenten/sensebox-mcu.md)
     * [Bees](komponenten/bees/README.md)
-        * [Wifi-Bee](komponenten/bees/wifi.md)
+        * [WiFi-Bee](komponenten/bees/wifi.md)
         * [LAN-Bee](komponenten/bees/lan.md)
         * [mSD-Bee](komponenten/bees/sd.md)
         * [LoRa-Bee](komponenten/bees/lora.md)
@@ -56,6 +56,7 @@
         * [Luftdruck & Temperatur](komponenten/sensoren/luftdruck-temperatur.md)
         * [Belichtung und UV](komponenten/sensoren/belichtung-und-uv.md)
         * [Feinstaub](komponenten/sensoren/feinstaub.md)
+        * [GPS](komponenten/sensoren/gps.md)
         * [Gassensor](komponenten/sensoren/gassensor.md)
         * [Bodenfeuchte](komponenten/sensoren/bodenfeuchte.md)
         * [Lautstärke](komponenten/sensoren/decibel_meter.md)
@@ -66,14 +67,13 @@
         * [LED-Display](komponenten/zubehoer/led-display.md)
         * [Expander](komponenten/zubehoer/hub.md)
         * [Micro-SD Karte](komponenten/zubehoer/micro-sd-karte.md)
-        * [GPS](komponenten/zubehoer/gps.md)
         * [Solarzelle](komponenten/zubehoer/solarzelle.md)
 
 ## Hilfe & Weiteres
 * [FAQ](hilfe/hilfe.md)
 * [Downloads](downloads.md)
 * [Externe Libraries hinzufügen](hilfe/add-external-libraries.md)
-* [Firmware Update Wifi-Bee](additional-info.md)
+* [Firmware Update WiFi-Bee](additional-info.md)
 * [Windows USB-Bootloader Treiber aktualisieren](win-boot-help.md)
 * [Aktualisierung des Board-Support-Package & senseBox-Libraries](hilfe/aktualisierung_bsp_libraries.md)
 * [Contributing](templates/README.md)

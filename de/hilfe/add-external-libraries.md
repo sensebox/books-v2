@@ -1,6 +1,7 @@
 # Manuelles Einbinden von Libraries {#head}
 
-<div class="description">Um eigene Sensoren an die senseBox anschließen zu können, geben die Hersteller vieler Sensoren passende Libraries mit. Hier zeigen wir euch, wie ihr aus einem Github-Repository Libraries herunterladen und diese manuell einbinden könnt. Ihr könnt diese Anleitung für jegliche externe Libraries verwenden, die ihr in Arduino einbinden möchtet. </div>
+<div class="description">Um eigene Sensoren an die senseBox anschließen zu können, geben die Hersteller vieler Sensoren passende Libraries mit. Hier zeigen wir dir, wie du aus einem Github-Repository Libraries herunterladen und diese manuell einbinden kannst. Du kannst diese Anleitung für jegliche externe Libraries verwenden, die du in Arduino einbinden möchtest. </div>
+
 <div class="line">
     <br>
     <br>

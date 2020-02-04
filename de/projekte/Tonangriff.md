@@ -53,7 +53,7 @@ Verbinde dazu den 5V Ausgang des Arduinos mit dem Potentiometer, und dieses mit 
 
 <div class="box_info">
 <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    Tipp: Falls ihr ein paar Informationen zur Funktionsweise eines Potentiometers lesen möchtet, schaut euch den Eintrag im Glossar an.
+    Tipp: Falls ihr ein paar Informationen zur Funktionsweise eines Potentiometers lesen möchtet, schaue dir den Eintrag im Glossar an.
 </div>
 
 <div class="box_success">
@@ -119,7 +119,7 @@ Jetzt könne wir unsere Melodie in ein Array schreiben. Ein weiteres Array beats
     int melody[] = { g, e, R, R, R, e, f, g, E,  E,  C }; //example melody
     int beats[]  = { 8, 8, 8, 8, 8, 8, 8, 8, 16, 16, 32 };
 ```
-Natürlich dürft ihr hier später eure eigene Melodie einfügen. Dazu könnt ihr im Internet einmal die Noten eures Lieblingssongs suchen (siehe unten).
+Natürlich darfst du hier später deine eigene Melodie einfügen. Dazu könnt ihr im Internet einmal die Noten deines Lieblingssongs suchen (siehe unten).
 {% endcollapse %}
 
 Wir schreiben uns eine Hilfsmethode, welche genau einen Ton unserer Melodie abspielt. Dazu überprüft sie in der ersten if-Anweisung ob es sich um eine Note oder eine Pause handelt. Falls es sich um eine Note handelt, wird die Note in einer Schleife für duration Millisekunden gespielt:
@@ -185,7 +185,7 @@ void loop(){
 
 <div class="box_info">
 <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-Idee: Falls ihr für eure Melodie höhere oder tiefere Töne benötigt, so könnt ihr diese wie im Beispiel oben definieren. Wie viel Hertz ein Ton hat könnt ihr hier nachschauen. Diesen Wert müsst ihr dann mit einem antiproportionalen Dreisatz umrechnen.
+Idee: Falls du für deine Melodie höhere oder tiefere Töne benötigst, so kannst du diese wie im Beispiel oben definieren. Wie viel Hertz ein Ton hat könnt ihr hier nachschauen. Diesen Wert müsst ihr dann mit einem antiproportionalen Dreisatz umrechnen.
 </div>
 
 <div class="box_warning">
