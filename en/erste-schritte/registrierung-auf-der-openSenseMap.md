@@ -95,5 +95,5 @@ ___________
 If everything went right, you can now select your station on the openSenseMap and watch how measurements are transmitted continuously!
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-  You can not remember how to transfer the code from Arduino to the senseBox? Look again <a href="../erste-schritte/software-installation.html">Step 1</a> and <a href="../erste-schritte/komponenten-testen.html">Step 5</a> , the installation and the transfer will be explained there. In case you have further questions, you are welcome to use our  <a href="https://forum.sensebox.de/">forum</a>, to get information or to write a post. </div>
+  You can not remember how to transfer the code from Arduino to the senseBox? Look again <a href="../erste-schritte/software-installation.html">Step 1</a> and <a href="../erste-schritte/komponenten-testen.html">Step 4</a> , the installation and the transfer will be explained there. In case you have further questions, you are welcome to use our  <a href="https://forum.sensebox.de/">forum</a>, to get information or to write a post. </div>
 

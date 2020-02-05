@@ -1,6 +1,6 @@
 # Summary
 
-* [The senseBox:edu Book](README.md)
+* [The senseBox Tech-Book](README.md)
 * [Overview](uebersicht.md)
 
 ## First Steps
@@ -42,5 +42,5 @@
     * [Firmware Update WiFi-Bee](hilfe/additional-info.md)
     * [Update Windows USB-Bootloader Drivers](hilfe/win-boot-help.md)
     * [Update of Board-Support-Package & senseBox-Libraries](hilfe/aktualisierung_bsp_libraries.md)
-    * [Imprint](hilfe/imprint.md)
-    * [Privacy](hilfe/privacy.md)
+* [Imprint](hilfe/imprint.md)
+* [Privacy](hilfe/privacy.md)

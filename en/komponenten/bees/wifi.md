@@ -8,7 +8,7 @@
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Some of our WINC1500 WiFi Bees may have outdated firmware (version 19.4.4) installed. This can lead to transmission problems. If these problems occur with you, please visit <a href="../../additional-info.md">this website</a> to refresh the firmware.
+    Some of our WINC1500 WiFi Bees may have outdated firmware (version 19.4.4) installed. This can lead to transmission problems. If these problems occur with you, please visit <a href="../../hilfe/additional-info.md">this website</a> to refresh the firmware.
 </div>
 <br>
 

@@ -8,7 +8,7 @@
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Bei einigen unserer WiFi Bees vom Typ WINC1500 kann es vorkommen, dass eine veraltete Firmware (Version 19.4.4) installiert ist. Das kann zu Übertragungsproblemen führen. Sollten diese Probleme bei dir auftreten, schaue dir <a href="../../additional-info.md">diese Hilfeseite</a> an, um die Firmware zu aktualisieren.
+    Bei einigen unserer WiFi Bees vom Typ WINC1500 kann es vorkommen, dass eine veraltete Firmware (Version 19.4.4) installiert ist. Das kann zu Übertragungsproblemen führen. Sollten diese Probleme bei dir auftreten, schaue dir <a href="../../hilfe/additional-info.md">diese Hilfeseite</a> an, um die Firmware zu aktualisieren.
 </div>
 <br>
 

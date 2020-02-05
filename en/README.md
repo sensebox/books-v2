@@ -1,6 +1,6 @@
 # The senseBox Tech-Book {#head}
 <div class="description">
-Here you will find all information you need to start with your own senseBox:edu.
+Here you will find all information you need to start with your own senseBox.
 </div>
 <div class="line">
     <br>
@@ -8,21 +8,21 @@ Here you will find all information you need to start with your own senseBox:edu.
 </div>
 
 ## About this Book
-This book guides you through the construction of your own senseBox:edu.
+This book guides you through the construction of your own senseBox.
 You will create your own environmental gauging station and you will learn a lot about sensors, programming and electrical engineering.
 Read the introduction carefully. It helps to understand how the book works.
 
 ## Introduction
 
 This book is is for all people that like to puzzle and to do handicrafts.
-With this book you will understand the technology,  hardware and software of the senseBox:edu.
+With this book you will understand the technology,  hardware and software of the senseBox.
 There are no limits to create your own applications and to write your own programs.
 
 You get the senseBox with a comprehensive set of sensors, LEDs, resistors, cables and more interesting components.
 
-senseBox:edu can be used in schools, to help pupils understand informatics, physics and technique. But also, it can be used at home to do  enviromental experiments.
+senseBox can be used in schools, to help pupils understand informatics, physics and technique. But also, it can be used at home to do  enviromental experiments.
 
-This book will help you with your first steps with senseBox:edu. It declares the basis, shows you experiments which you can recreate and declares all components of senseBox:edu.
+This book will help you with your first steps with senseBox. It declares the basis, shows you experiments which you can recreate and declares all components of senseBox.
 
 You can go through this book by using the left sidebar or by using the green arrow keys. Every „side“ has its own heading and below this heading it has a grey deposited box with green scripture, where you can find a short description about the given side.
 
@@ -82,7 +82,7 @@ I am the second tab. By clicking me, you changed the content to the second tab.
 # Third Tab
 
 I am the third tab. By clicking me, you changed the content to the third tab. 
-Now, have some fun with your senseBox:edu book!
+Now, have some fun with your senseBox tech-book!
 
 {% endtabs %}
 <div class="line" style="border-bottom: solid 1px #a6a6a6!important;">
@@ -91,7 +91,7 @@ Now, have some fun with your senseBox:edu book!
 <br>
 
 Have you seen all of the tabs and other elements?
-If so, you are now readz to start off with this book and your senseBox:edu!
+If so, you are now readz to start off with this book and your senseBox!
 
 Please read the chapter „First steps“ before you start with your own project.
 
