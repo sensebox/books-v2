@@ -20,4 +20,4 @@ This Bee connects the senseBox with your router. The data of your senseBox will 
 ## Tipps and Hints
 
 The Ethernet Bee will be delivered without an ethernet cable. We prefer to use flat cables, which can be also pulled below windows and doors.  
-Especially in combination with 'Power over Ethernet' (PoE) the ethernet bee is an interesting option.
+Especially in combination with 'Power over Ethernet' (PoE) the Ethernet Bee is an interesting option.

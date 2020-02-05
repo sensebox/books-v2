@@ -1,4 +1,4 @@
-# The senseBox:edu Book {#head}
+# The senseBox Tech-Book {#head}
 <div class="description">
 Here you will find all information you need to start with your own senseBox:edu.
 </div>
@@ -18,7 +18,7 @@ This book is is for all people that like to puzzle and to do handicrafts.
 With this book you will understand the technology,  hardware and software of the senseBox:edu.
 There are no limits to create your own applications and to write your own programs.
 
-You get the senseBox:edu with a comprehensive set of sensors, LEDs, resistors, cables and more interesting components.
+You get the senseBox with a comprehensive set of sensors, LEDs, resistors, cables and more interesting components.
 
 senseBox:edu can be used in schools, to help pupils understand informatics, physics and technique. But also, it can be used at home to do  enviromental experiments.
 

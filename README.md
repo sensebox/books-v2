@@ -1,1 +1,1 @@
-senseBox:edu book
+senseBox Tech Buch

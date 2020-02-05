@@ -1,5 +1,5 @@
-# Step 4: Programming and Component Testing {#head}
-<div class="description"> This chapter describes how the programming of the senseBox works and how you can test the included sensors and components </div>
+# Step 4: Programming the Hardware {#head}
+<div class="description"> In this chapter we describe how to program the senseBox using Arduino IDE and how to test the sensors and components of the senseBox.</div>
 
 <div class="line">
     <br>
@@ -8,8 +8,7 @@
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-    A software program for the senseBox is also called Sketch in the following
-
+  The software we code for senseBox is also called "sketch" in the following.
 </div>
 
 

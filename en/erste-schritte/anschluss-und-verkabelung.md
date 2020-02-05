@@ -1,6 +1,6 @@
-# Step 3: Connecting and Wiring {#head}
+# Step 3: Pin and Wiring {#head}
 
-<div class="description">The I2C connector system makes it very easy to connect the sensors and components to the senseBox MCU. Here you can see again a rough overview of the individual components</div>
+<div class="description">Due to the I2C plug-in system, the pin of the sensor and components to the senseBox MCU is very easy. You will here see a complete overview of all the components.</div>
 
 <div class="line">
     <br>

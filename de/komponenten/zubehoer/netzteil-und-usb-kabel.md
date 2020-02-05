@@ -8,4 +8,4 @@
 
 ![USB-Kabel](https://github.com/sensebox/resources/raw/master/gitbook_pictures/USB_cable.png)
 
-Mit dem beiligenden USB Kabel kann die senseBox an den Computer angeschlossen und konfiguriert werden. Mit dem Netzteil wird die durchgehende Stromversorgung hergestellt. Das beiliegende Kabel hat eine Länge von 1,5 Meter. 
+Mit dem beiliegenden USB Kabel kann die senseBox an den Computer angeschlossen und konfiguriert werden. Mit dem Netzteil wird die durchgehende Stromversorgung hergestellt. Das beiliegende Kabel hat eine Länge von 1,5 Meter. 

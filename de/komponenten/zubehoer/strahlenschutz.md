@@ -1,15 +1,20 @@
 # Strahlenschutz {#head}
-<div class="description">Der Strahlenschutz schützt den Außensender für Temperatur + Luftfeuchtigkeit (BMP280)vor Witterung. Er dient als Schutz vor Niederschlag und direkter Sonneneinstrahlung. Er ist einfach zu montieren und hat eine Öffnung für die Fühlerkabel.</div>
+<div class="description">Der Strahlenschutz schützt den Außensender für Temperatur + Luftfeuchtigkeit (BMP280) vor Witterung. Er dient als Schutz vor Niederschlag und direkter Sonneneinstrahlung. Er ist einfach zu montieren und hat eine Öffnung für die Fühlerkabel. </div>
 
 <div class="line">
     <br>
     <br>
 </div>
 
-## Hinweise für die Standortwahl des Strahlenschutzes
-* Suche dir im Freien einen schattigen Platz für den Strahlenschutz aus. (Direkte  Sonneneinstrahlung verfälscht die Messwerte). 
+![Der Strahlenschutz](../../../../pictures/strahlenschutz.png)
 
-* Prüfe, ob eine Übertragung der Messwerte vom Sender am gewünschten Aufstellort zur Basisstation stattfindet (bei massiven Wänden,  insbesondere mit Metallteilen kann sich die Sendereichweite erheblich reduzieren). 
+## Hinweise für die Standortwahl des Strahlenschutzes
+* Suchen  dir  im  Freien  einen  schattigen  Platz  für  den  Strahlenschutz  aus.  (Direkte  Sonnen-
+einstrahlung verfälscht die Messwerte). 
+
+* Prüfen, ob eine Übertragung der Messwerte vom Sender am gewünschten Aufstellort
+zur  Basisstation  stattfindet  (bei  massiven  Wänden,  insbesondere  mit  Metallteilen  kann
+sich die Sendereichweite erheblich reduzieren). 
 
 ## Montieren der Schutzhülle 
 

@@ -1,7 +1,7 @@
 #Fine Dust Sensor {#head}
 <div class="description">
 
-With the sensor SDS011 it is possible to determine the fine dust concentration in the air. The sensor outputs two values: the concentration of PM2.5 (particle < 2.5 μm) and PM10 (particle < 10 μm). This sensor is equipped with a small fan to suck in air. Inside is a laser that measures the number of particles together with a photodiode. The results of the measurements are given in μg / m³ (micrograms per cubic meter)
+With this sensor SDS011 it is possible to determine the fine dust concentration in the air. The sensor outputs two values: the concentration of PM2.5 (particle < 2.5 μm) and PM10 (particle < 10 μm). This sensor is equipped with a small fan to suck in air. Inside is a laser that measures the number of particles together with a photodiode. The results of the measurements are given in μg / m³ (micrograms per cubic meter).
 </div>
 
 <div class="line">
@@ -12,8 +12,8 @@ With the sensor SDS011 it is possible to determine the fine dust concentration i
 ![Fine dust sensor for PM10 und PM2.5](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top.png)
 
 ## Technical Details
-* Fast reaction time less than 10 seconds 
 * "Plug-in-and-Go" senseBox compatibel
+* Fast reaction time less than 10 seconds 
 * High resolution up to 0.3µg/m3
 * Multiple scientific verification of data accuracy
 

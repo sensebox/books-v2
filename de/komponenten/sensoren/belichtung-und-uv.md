@@ -8,7 +8,6 @@ Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Diese
 <div class="line">
     <br>
     <br>
-    <br>
 </div>
 
 ![Beleuchtungsstärke und UV-Stahlung](https://github.com/sensebox/resources/raw/master/gitbook_pictures/tsl%20top.png)
@@ -18,7 +17,6 @@ Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Diese
 ### Belichtungssensor
 
 * Betriebsspannung: 3,3V - 5V tolerantes I2C/TWI Interface
-* Eingangsspannungsbereich: 3,3V - 5V
 * on-board 2,5V Spannungsregler
 * on-board Pegelwandler
 

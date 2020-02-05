@@ -1,7 +1,7 @@
-# Das senseBox:edu Buch {#head}
+# Das senseBox Tech-Buch {#head}
 <div class="description">
 Hier findest du alle Informationen, die du brauchst um mit Deiner
-senseBox:edu durchzustarten!
+senseBox durchzustarten!
 </div>
 <div class="line">
     <br>
@@ -14,9 +14,9 @@ Dieses Buch begleitet dich auf deinem Weg zur eigenen Umweltmessstation, vom Auf
 Damit du ohne weiteres starten kannst, lies dir einmal kurz aber gründlich die Einleitung durch. Sie hilft dir das Buch besser zu verstehen und gibt dir Einsicht in das, was dich erwartet.
 
 ## Einleitung
-Das senseBox:edu Buch ist ein Buch für alle Tüftler und Interessierte, die im Besitz einer senseBox:edu sind. Also für alle, die nicht nur einfach eine Umweltmessstation zusammenbauen und aufstellen wollen, sondern die Technik, Hardware und Software dahinter verstehen und beherrschen möchten. Mit der senseBox:edu sind dir keine Limits gesetzt, eigene Anwendungsfälle zu erfinden und dazu passende Programme zu schreiben. Die senseBox:edu wird zusammen mit einem umfassenden Setup an Sensoren, LEDs, Widerständen, Kabeln und weiteren spannenden Komponenten geliefert. Sie kann in der Schule zum Lernen und Verstehen von Informatik, Physik und Technik eingesetzt werden, aber auch zuhause zum Experimentieren benutzt werden.
+Das senseBox Tech-Buch ist ein Buch für alle Tüftler und Interessierte, die im Besitz einer senseBox sind. Also für alle, die nicht nur einfach eine Umweltmessstation zusammenbauen und aufstellen wollen, sondern die Technik, Hardware und Software dahinter verstehen und beherrschen möchten. Mit der senseBox sind dir keine Limits gesetzt, eigene Anwendungsfälle zu erfinden und dazu passende Programme zu schreiben. Die senseBox wird zusammen mit einem umfassenden Setup an Sensoren, LEDs, Widerständen, Kabeln und weiteren spannenden Komponenten geliefert. Sie kann in der Schule zum Lernen und Verstehen von Informatik, Physik und Technik eingesetzt werden, aber auch zuhause zum Experimentieren benutzt werden.
 
-Dieses Buch hilft dir bei den [Ersten Schritten](erste-schritte/software-installation.md) mit deiner senseBox:edu, erklärt dir Grundlagen, stellt dir Projekte zum selber nachbauen vor und erklärt dir die einzelnen Komponenten der senseBox. Du solltest mit den ersten Schritten starten und diese lesen und befolgen, bevor du dich an die vorgestelleten DIY-Projekte oder eigene Projekte wagst. 
+Dieses Buch hilft dir bei den [Ersten Schritten](erste-schritte/software-installation.md) mit deiner senseBox, erklärt dir Grundlagen, stellt dir Projekte zum selber nachbauen vor und erklärt dir die einzelnen Komponenten der senseBox. Du solltest mit den ersten Schritten starten und diese lesen und befolgen, bevor du dich an die vorgestelleten DIY-Projekte oder eigene Projekte wagst. 
 
 Auf dem Weg durch das Buch wirst du dich mithilfe der Seitenleiste links oder mit den grünen Pfeiltasten auf den Seiten durch die Anleitungen klicken.
 Jede Seite hat eine Überschrift und darunter eine grau hinterlegte Box mit grüner Schrift, in der eine kleine Beschreibung der Seite verfasst wurde. Das Ganze sieht in etwa so aus:
@@ -25,11 +25,12 @@ Jede Seite hat eine Überschrift und darunter eine grau hinterlegte Box mit grü
 <div class="description">
 Hier steht eine kleine Beschreibung von dem, was dich auf dieser Seite erwartet.
 </div>
+
 <div class="line">
     <br>
 </div>
 <br>
-Außerdem werden dir mit Sicherheit einige unserer vier verschiedenen Arten von Hinweis-Boxen begegnen. Hier siehst du, wofür die Boxen stehen und was sie dir vermitteln:
+Außerdem werden dir mit Sicherheit einige unserer vier verschiedenen Arten von Hinweis-Boxen begegnen. Hier siehst du wofür die Boxen stehen und was sie dir vermitteln:
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -37,7 +38,7 @@ Außerdem werden dir mit Sicherheit einige unserer vier verschiedenen Arten von 
 
 <div class="box_success">
     <i class="fa fa-check fa-fw" aria-hidden="true" style="color: #50af51;"></i>
-   Diese Hinweis-Box ist eine Art Checkliste. In ihr stehen zusammenfassend Sachen, die du im Laufe der Seite erledigt hast. An ihr kannst du abschließend abhaken, ob du keinen wichtigen Zwischenschritt vergessen hast. 
+   Diese Hinweis-Box ist eine Art Checkliste. In ihr stehen zusammenfassend Sachen die du im Laufe der Seite erledigt hast. An ihr kannst du abschließend abhaken, ob du keinen wichtigen Zwischenschritt vergessen hast. 
 </div>
 
 <div class="box_warning">
@@ -69,7 +70,7 @@ Ich bin der zweite Tab. Indem du mich angewählt, hast ersetzt mein Inhalt den I
 
 {% content "third" %}
 # Dritter Tab
-Ich bin der dritte Tab. Indem du mich angewählt, hast wird der Inhalt des vorher ausgewählten Tabs durch meinen Inhalt ersetzt. Viel Spaß noch mit dem senseBox:edu Buch!
+Ich bin der dritte Tab. Indem du mich angewählt, hast wird der Inhalt des vorher ausgewählten Tabs durch meinen Inhalt ersetzt. Viel Spaß noch mit dem senseBox Tech-Buch!
 
 {% endtabs %}
 <div class="line" style="border-bottom: solid 1px #a6a6a6!important;">
@@ -77,6 +78,6 @@ Ich bin der dritte Tab. Indem du mich angewählt, hast wird der Inhalt des vorhe
 </div>
 <br>
 Hast du dir die Tabs und alle weiteren Elemente angeschaut? 
-Wenn ja, dann kannst du jetzt loslegen mit diesem Buch und deiner senseBox:edu!
+Wenn ja, dann kannst du jetzt loslegen mit diesem Buch und deiner senseBox!
 
 Viel Spaß wünscht dir das Team der [senseBox](https://sensebox.de/)! 

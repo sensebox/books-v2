@@ -11,7 +11,6 @@ Verbindungsstück um die senseBox mit dem Internet zu verkabeln. Die Daten der s
 
 ## Technische Informationen
 
-
 * "Plug-in-and-Go" senseBox kompatibel
 * 3.3V Betriebsspannung mit 5V I/O Signal Toleranz
 * Bezeichnung: W5500

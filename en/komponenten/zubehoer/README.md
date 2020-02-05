@@ -15,3 +15,4 @@ There are the following components offered and tested for you with the senseBox:
 * [LED display](led-display.md)
 * [HUB](hub.md)
 * [Micro SD card](micro-sd-karte.md)
+* [Solar Panel](solarzelle.md)

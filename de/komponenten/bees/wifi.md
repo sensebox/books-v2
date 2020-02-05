@@ -1,5 +1,5 @@
-# WiFi-Bee {#head}
-<div class="description">Verbindungsstück für die Nutzung der senseBox mit dem Internet. Die Daten der senseBox werden per WLAN (WiFi) in das bestehende Netzwerk übertragen. Das WiFi-Bee basiert auf dem ATWINC1500 Mikrochip von Atmel welcher einen sehr geringen Energieverbrauch und eine hohe Reichweite hat.</div>
+# Wifi-Bee {#head}
+<div class="description">Verbindungsstück um die senseBox mit dem Internet zu verbinden. Die Daten der senseBox werden per WLAN (Wifi) in das bestehende Netzwerk übertragen. Das Wifi-Bee basiert auf dem ATWINC1500 Mikrochip von Atmel, welcher einen sehr geringen Energieverbrauch und eine hohe Reichweite hat.</div>
 
 <div class="line">
     <br>

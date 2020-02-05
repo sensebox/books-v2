@@ -7,9 +7,6 @@ Auch ohne Vorkenntnisse kann der Microcontroller ganz einfach mit der Übertragu
     <br>
 </div>
 
-
-
-
 ![Die senseBox MCU](https://github.com/sensebox/resources/raw/master/gitbook_pictures/mcu_one_top.png)
 
 ## Technische Spezifikationen

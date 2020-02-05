@@ -15,4 +15,3 @@ Es gibt folgende Komponenten die mit der senseBox angeboten und für dich getest
 * [LED-Display](led-display.md)
 * [HUB](hub.md)
 * [Micro-SD Karte](micro-sd-karte.md)
-
