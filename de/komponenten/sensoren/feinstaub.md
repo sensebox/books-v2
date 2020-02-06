@@ -18,17 +18,23 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
 * Mehrfach wissenschaftliche Prüfung der Datengenauigkeit
 
 ## Zum Aufbau benötigte Bauteile 
-<img src="https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top_accessoire.png" alt="Benötigte (mitgelieferte) Bauteile"/>
+![Benötigte (mitgelieferte) Bauteile](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top_accessoire.png)
 
    * SDS011 Feinstaub Sensor
    * Verbindungskabel
-   * Stück Teflonschlauch Ø = 6mm innen und Ø = 8mm außen
+   * 2 Stück Teflonschlauch Ø = 6mm innen und Ø = 8mm außen
    * Gehäuse
-   * Kabelverschraubung 16mm
+   * 2x Kabelverschraubung 16mm
 
-## Anschluss und Programmierung
+## Anschluss
 
-Mit dem mitgelieferten Verbindungskabel kannst du deinen Feinstaub Sensor mit dem "UART/Serial"-Port der senseBoxMCU verbinden. 
+Mit dem mitgelieferten Verbindungskabel kannst du deinen Feinstaub Sensor mit dem "UART/Serial"-Port der senseBoxMCU verbinden.
+Zuerst sollte sich aber um das Gehäuse gekümmert werden. Hier ist es wichtig, auf beiden Seiten ein Loch mitsamt Verschraubung anzubringen, da nur so die Abluft wieder aus dem Gehäuse kommen kann und der Sensor korrekte Werte ausgibt.
+
+![Verschraubungen am Gehäuse](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub-ausgang.jpg)
+
+## Programmierung
+
 Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und uns die ersten Messwerte ausgeben lassen.
 
 <div class="box_warning">

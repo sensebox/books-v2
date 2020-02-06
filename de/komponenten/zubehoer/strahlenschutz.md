@@ -6,7 +6,7 @@
     <br>
 </div>
 
-![Der Strahlenschutz](../../../../pictures/strahlenschutz.png)
+![Der Strahlenschutz](https://github.com/sensebox/resources/raw/master/gitbook_pictures/meteo.png)
 
 ## Hinweise für die Standortwahl des Strahlenschutzes
 * Suchen  dir  im  Freien  einen  schattigen  Platz  für  den  Strahlenschutz  aus.  (Direkte  Sonnen-

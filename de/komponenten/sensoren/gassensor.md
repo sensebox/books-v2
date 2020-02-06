@@ -9,6 +9,7 @@ Mit dem Sensor BME680 kannst du eine verschiedene Auswahl an Phänomenen messen.
     <br>
 </div>
 
+![Der BME680](https://github.com/sensebox/resources/raw/master/gitbook_pictures/bme.png)
 
 ## Technische Details
 * Schnelle Reaktionszeit von weniger als 10 Sekunden

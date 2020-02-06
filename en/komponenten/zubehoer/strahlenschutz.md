@@ -6,8 +6,7 @@
     <br>
 </div>
 
-
-
+![Radiation Protection](https://github.com/sensebox/resources/raw/master/gitbook_pictures/meteo.png)
 
 ## Advice for the Location of the Radiation Protection
 * Choose a shady spot outdoors for radiation protection . (Direct sunshine falsifies the measured values).

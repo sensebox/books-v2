@@ -1,4 +1,4 @@
-# Bodentemperatur- & Feuchtigkeitssensor SMT50 {#head}
+# Bodentemperatur- & Feuchtigkeitssensor {#head}
 
 <div class="description">
 	Der truebner SMT50 ist ein kapazitiver Bodentemperatur- und Feuchtigkeitssensor und eignet sich daher gut für diverse Anwendung im heimischen Garten.<br>
@@ -26,7 +26,7 @@
 ## Integration des SMT50 in bestehendes senseBox:home Setup
 Vorraussetzung für das Tutorial ist eine bereits auf der openSenseMap registrierten senseBox:home Station.<br>In unserem Fall haben wir bereits eine senseBox:home mit WiFi Modul für die Datenübertragung, sowie Sensoren für Temperatur & Luftfeuchtigkeit und Luftdruck & Temperatur im Vorfeld registriert und online gebracht.
 
-![Unsere angelegte Station auf der openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem_home.jpg)
+![Unsere angelegte Station auf der openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem_home.JPG)
 
 ### Erweiterung der Hardware
 Hierzu muss einfach nur das JST-Kabel des Sensors in den Digital A Anschluss an der senseBox gesteckt werden. 
