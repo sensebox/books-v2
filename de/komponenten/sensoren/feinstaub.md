@@ -1,6 +1,5 @@
 #Feinstaubsensor {#head}
 <div class="description">
-
 Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft zu bestimmen. Der Sensor gibt zwei Werte aus: Die Konzentration von PM2.5 (Partikel < 2.5 um) und PM10 (Partikel < 10 um). Dieser Sensor ist mit einem kleinen Ventilator ausgestattet, um Luft anzusaugen. In seinem Inneren befindet sich ein Laser, der zusammen mit einer Photodiode die Anzahl der Partikel misst. Die Ergebnisse der Messungen werden in µg/m³ (Mikrogramm pro Kubikmeter) angegeben.
 </div>
 
@@ -9,6 +8,8 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/feinstaub-sds011) gehts zum Sensor in unserem Shop.
+
 ![Feinstaubsensor für PM10 und PM2.5](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top.png)
 
 ## Technische Details
@@ -16,6 +17,8 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
 * Schnelle Reaktionszeit von weniger als 10 Sekunden
 * Hohe Auflösung bis zu 0.3µg/m3
 * Mehrfach wissenschaftliche Prüfung der Datengenauigkeit
+
+Link zum vollständigen Datenblatt: [nova SDS011](https://cdn-reichelt.de/documents/datenblatt/X200/SDS011-DATASHEET.pdf)
 
 ## Zum Aufbau benötigte Bauteile 
 ![Benötigte (mitgelieferte) Bauteile](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top_accessoire.png)

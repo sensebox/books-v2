@@ -6,6 +6,8 @@
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/parts/zubehor) gehts zum Zubehör in unserem Shop.
+
 ## Übersicht
 
 Es gibt folgende Komponenten die mit der senseBox angeboten und für dich getestet worden sind:

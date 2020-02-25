@@ -6,6 +6,8 @@
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/sd-bee) gehts zum SD-Bee in unserem Shop.
+
 ![microSD-Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/msd_new%20bottom.png)
 
 # Technische Informationen
@@ -15,7 +17,6 @@
 * Maße: 24mm x 21mm x 9mm
 * Gewicht: 2,4 g
 
-
 # Hinweise
 
 Achtung: Das SD-Bee wird ohne SD-Karte geliefert, falls du im senseBox-Shop bestellst.
@@ -23,8 +24,7 @@ Achtung: Das SD-Bee wird ohne SD-Karte geliefert, falls du im senseBox-Shop best
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Achte darauf, dass die mSD-Bee an den XBEE2-Stecker der senseBox-MCU angeschlossen werden muss, anonsten 
-    kann es zu Problemen beim Speichern deiner Messwerte kommen.
+    Achte darauf, dass die mSD-Bee an den XBEE2-Stecker der senseBox-MCU angeschlossen werden muss, anonsten kann es zu Problemen beim Speichern deiner Messwerte kommen.
 </div>
 
 # Beispiel 

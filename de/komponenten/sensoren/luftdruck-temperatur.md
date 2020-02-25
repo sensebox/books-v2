@@ -6,6 +6,8 @@
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/luftdruck-temperatur) gehts zum Sensor in unserem Shop.
+
 ![Der Luftdruck- und Temperatursensor](https://github.com/sensebox/resources/raw/master/gitbook_pictures/bmp%20top.png)
 
 ## Technische Informationen
@@ -17,3 +19,24 @@
 * Betriebsversorgungsstrom 2.7μA bei 1 Hz Sampling Frequenz
 * Maße: 25mm x 25mm x 9mm
 * Gewicht: 2,4 g
+
+Link zum gesamten Datenblatt: [Bosch BMP280 Data sheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf)
+
+## Programmierung
+
+```arduino
+#include "SenseBoxMCU.h"
+
+BMP280 bmp_sensor;
+
+
+void setup() {
+  bmp_sensor.begin();
+}
+
+void loop() {
+    bmp_sensor.getPressure();
+    bmp_sensor.getTemperature();
+    bmp_sensor.getAltitude(1000);
+}
+```

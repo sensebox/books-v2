@@ -6,6 +6,8 @@
     <br>
 </div>
 
+[Hier](http://ww1.microchip.com/downloads/en/DeviceDoc/ATWINC15x0-MR210xB-IEEE-802.11-b-g-n-SmartConnect-IoT-Module-Data-Sheet-DS70005304C.pdf) gehts zum WiFi-Bee in unserem Shop.
+
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
     Bei einigen unserer WiFi Bees vom Typ WINC1500 kann es vorkommen, dass eine veraltete Firmware (Version 19.4.4) installiert ist. Das kann zu Übertragungsproblemen führen. Sollten diese Probleme bei dir auftreten, schaue dir <a href="../../hilfe/additional-info.md">diese Hilfeseite</a> an, um die Firmware zu aktualisieren.
@@ -24,3 +26,6 @@
 * Bezeichnung: WINC1500
 * Maße: 24mm x 25mm x 9mm
 * Gewicht: 3,5 g
+
+Link zum gesamten Datenblatt: [Atmel ATWINC1500 Data Sheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATWINC15x0-MR210xB-IEEE-802.11-b-g-n-SmartConnect-IoT-Module-Data-Sheet-DS70005304C.pdf)
+

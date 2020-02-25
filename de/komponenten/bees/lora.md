@@ -7,6 +7,8 @@ Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe de
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/lora-bee) gehts zum LAN-Bee in unserem Shop.
+
 ![Lora Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoraBee%20bottom.png)
 
 # Technische Informationen
@@ -17,6 +19,8 @@ Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe de
 * Bezeichnung: RFN9xW
 * Maße: 46mm x 25mm x 12mm
 * Gewicht: 1,1 g
+
+Link zum gesamten Datenblatt: [HopeRF RFM9xW Informationen](https://www.hoperf.com/modules/lora/RFM95.html)
 
 # Hinweise
 Bitte prüfe, bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist.<br>

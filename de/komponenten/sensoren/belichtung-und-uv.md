@@ -10,6 +10,8 @@ Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Diese
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/licht-sensor) gehts zum Sensor in unserem Shop.
+
 ![Beleuchtungsstärke und UV-Stahlung](https://github.com/sensebox/resources/raw/master/gitbook_pictures/tsl%20top.png)
 
 ## Technische Details
@@ -30,3 +32,24 @@ Der zweite Sensor ist ein Vishay VEML6070 Ultravioletter (UV)-Lichtsensor. Diese
 ### Maße
 * 25mm x 25mm x 9mm
 * Gewicht: 2,5 g
+
+Link zum den Datenblättern: [AMS-TAOS TSL45315](https://learn.watterott.com/sensors/tsl45315/), [Vishay VEML6070](https://www.vishay.com/docs/84277/veml6070.pdf)
+
+## Programmierung
+
+```arduino
+#include "SenseBoxMCU.h"
+
+TSL45315 tsl;
+VEML6070 veml;
+
+void setup() {
+    tsl.begin();
+    veml.begin();
+}
+
+void loop() {
+    tsl.getIlluminance();
+    veml.getUvIntesity();
+}
+```

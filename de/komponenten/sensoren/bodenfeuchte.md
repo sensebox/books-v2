@@ -9,6 +9,8 @@
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/bodenfeuchte-temperatursensor-smt50) gehts zum Sensor in unserem Shop.
+
 ![Bodentemperatur- & Feuchtigkeit](https://github.com/sensebox/resources/raw/master/gitbook_pictures/smt50_top.png)
 
 ## Technische Details

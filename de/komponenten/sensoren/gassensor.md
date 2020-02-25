@@ -16,6 +16,8 @@ Mit dem Sensor BME680 kannst du eine verschiedene Auswahl an Phänomenen messen.
 * "Plug-in-and-Go" senseBox kompatibel
 * Abweichung bei Gasmessungen von +-15%
 
+Link zum Datenblatt: [Bosh BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf)
+
 ## Anschluss und Programmierung
 
 Mit dem mitgelieferten Verbindungskabel kannst du deinen Gassensor mit dem "I2C"-Port der senseBoxMCU verbinden. 
