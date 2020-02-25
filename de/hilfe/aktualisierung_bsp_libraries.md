@@ -2,7 +2,7 @@
 
 <div class="description">
     Um die Installation und Updates der senseBox-Libraries benutzerfreundlicher zu gestalten, haben wir die Installationsschritte verändert. <br>
-    Auf dieser Seite zeigen wir dir, welche Schritte du befolgen musst, um dein Board-Support-Package und deine senseBox-Libraries zu aktualisieren. Diese Anleitung betrifft dich nur, wenn du die ersten Schritte dieses Buches <b>vor dem 23. Juni 2018</b> durchgeführt hast.
+    Auf dieser Seite zeigen wir dir, welche Schritte du befolgen musst, um dein Board-Support-Package und deine senseBox-Libraries zu aktualisieren. Diese Anleitung betrifft dich nur, wenn du die ersten Schritte des home- oder edu-Books <b>vor dem 23. Juni 2018</b> durchgeführt hast.
 </div>
 <div class="line">
     <br>
