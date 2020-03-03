@@ -1,4 +1,5 @@
-#Gassensor {#head}
+# Umweltsensor BME680 {#head}
+
 <div class="description">
 
 Mit dem Sensor BME680 kannst du eine verschiedene Auswahl an Phänomenen messen. Lufttemperatur, relative Luftfeuchtigkeit, Luftdruck und Luftqualität können mit dem BME680 bestimmt werden. Er ist also ein echter Alleskönner. 
@@ -8,6 +9,8 @@ Mit dem Sensor BME680 kannst du eine verschiedene Auswahl an Phänomenen messen.
     <br>
     <br>
 </div>
+
+Der BME680 kann derzeit nur als Teil der [senseBox mini](https://sensebox.kaufen/product/sensebox-mini) in unserem Shop erworben werden.
 
 ![Der BME680](https://github.com/sensebox/resources/raw/master/gitbook_pictures/bme.png)
 
@@ -54,14 +57,12 @@ void setup(){
 
     // Oversampling der Sensoren festlegen
     BME680.setOversampling(TemperatureSensor, Oversample16);
-    BME680.setOversampling(HumiditySensor,   Oversample16);
-    BME680.setOversampling(PressureSensor,   Oversample16);
+    BME680.setOversampling(HumiditySensor, Oversample16);
+    BME680.setOversampling(PressureSensor, Oversample16);
     Serial.println(F("- Setting IIR filter to a value of 4 samples"));
     // IIR Filter auf 4 Werte setzen
     BME680.setIIRFilter(IIR4);
-    BME680.setGas(320, 150); // 320�c for 150 milliseconds
-
-
+    BME680.setGas(320, 150);
 }
 ```
 
@@ -72,19 +73,24 @@ In der `loop()`-Funktion können wir mit dem Befehl `getSensorData()` die aktuel
 
 ```arduino
 void loop(){
+    // Variable um Messwerte zu speichern
+    static int32_t temperature, humidity, pressure, gas;
 
-    static int32_t temperature, humidity, pressure, gas;     // Variable um Messwerte zu speichern
-    BME680.getSensorData(temperature, humidity, pressure, gas); // Aktuelle Messwerte auslesen und speichern
-
-
-    Serial.print(humidity / 1000.0, 2);                      // rel. Luftfeuchte in milli-prozent
+    // Aktuelle Messwerte auslesen und speichern
+    BME680.getSensorData(temperature, humidity, pressure, gas); 
+    
+    // rel. Luftfeuchte in milli-prozent
+    Serial.print(humidity / 1000.0, 2);                      
     Serial.print(F("%rel. Luftfeuchte "));
-    Serial.print(pressure / 100.0, 2);                       // Luftdruck in Hectopascals
+    
+    // Luftdruck in Hectopascals
+    Serial.print(pressure / 100.0, 2);                       
     Serial.print(F("hPa "));
-    Serial.print(gas / 100.0, 2);                            // Luftqualität in mOhm
+
+    // Luftqualität in mOhm
+    Serial.print(gas / 100.0, 2);                            
     Serial.println(F("mOhm"));
     delay(5000);
-
 }
 ```
 {% endcollapse %}

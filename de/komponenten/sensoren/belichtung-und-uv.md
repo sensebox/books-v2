@@ -39,17 +39,21 @@ Link zum den Datenblättern: [AMS-TAOS TSL45315](https://learn.watterott.com/sen
 
 ```arduino
 #include "SenseBoxMCU.h"
+#include <SPI.h>
 
 TSL45315 tsl;
 VEML6070 veml;
 
 void setup() {
+    Serial.begin(9600);
     tsl.begin();
     veml.begin();
 }
 
 void loop() {
-    tsl.getIlluminance();
-    veml.getUvIntesity();
+    Serial.print("Illuminance: ");
+    Serial.println(tsl.getIlluminance());
+    Serial.print("UV-Intensity: ");
+    Serial.println(veml.getUvIntesity());
 }
 ```

@@ -6,6 +6,7 @@
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/hub) gehts zum Expander in unserem Shop.
 
 ![Expander](https://github.com/sensebox/resources/raw/master/gitbook_pictures/hub_bottom.png)
 

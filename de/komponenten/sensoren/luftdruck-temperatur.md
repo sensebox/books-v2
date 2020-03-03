@@ -26,17 +26,21 @@ Link zum gesamten Datenblatt: [Bosch BMP280 Data sheet](https://www.bosch-sensor
 
 ```arduino
 #include "SenseBoxMCU.h"
+#include <SPI.h>
 
 BMP280 bmp_sensor;
 
-
 void setup() {
+  Serial.begin(9600);
   bmp_sensor.begin();
 }
 
 void loop() {
-    bmp_sensor.getPressure();
-    bmp_sensor.getTemperature();
-    bmp_sensor.getAltitude(1000);
+    Serial.print("Pressure: ");
+    Serial.println(bmp_sensor.getPressure());
+    Serial.print("Temperature: ");
+    Serial.println(bmp_sensor.getTemperature());
+    Serial.print("Altitude: ");
+    Serial.println(bmp_sensor.getAltitude(1000));
 }
 ```

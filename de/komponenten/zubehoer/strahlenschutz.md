@@ -6,6 +6,8 @@
     <br>
 </div>
 
+[Hier](https://sensebox.kaufen/product/strahlenschutz) gehts zum Strahlenschutz in unserem Shop.
+
 ![Der Strahlenschutz](https://github.com/sensebox/resources/raw/master/gitbook_pictures/meteo.png)
 
 ## Hinweise für die Standortwahl des Strahlenschutzes

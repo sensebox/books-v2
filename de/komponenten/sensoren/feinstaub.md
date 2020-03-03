@@ -47,7 +47,11 @@ Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und 
 
 Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte für PM10 und PM2.5 speichern.
 
-```arduino 
+```arduino
+#include "SenseBoxMCU.h"
+#include <SPI.h>
+#include <Wire.h>
+
 SDS011 my_sds(Serial1) // Serial1 gibt hier den Seriellen Port an, an dem du den Sensor angeschlossen hast
 float p10,p25
 ```
@@ -63,7 +67,6 @@ void setup(){
     // Seriellen Port an dem unsere Sensor angeschlossen ist initialisieren
     Serial1.begin(9600);
     delay(5000);
-
 }
 ```
 
