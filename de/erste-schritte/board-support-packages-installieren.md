@@ -1,6 +1,6 @@
 # Schritt 2: Board-Support-Package installieren {#head}
 
-<div class="description">Damit die Arduino IDE deine <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> unterstützt und Du Programme auf diese übertragen kannst, musst Du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die nötigen Treiber und die notwendige Software, um mit deinem Prozessor zu kommunizieren. Das Board-Support-Package der senseBox enthält außerdem bereits unsere senseBox-Libraries. Damit stehen euch alle grundlegenden Methoden zur Programmierung der beiliegenden Sensoren zur Verfügung.</div>
+<div class="description">Damit die Arduino IDE deine <a href="../komponenten/sensebox-mcu.md">senseBox MCU</a> unterstützt und du Programme auf diese übertragen kannst, musst du vor Beginn noch zwei Board-Support-Packages installieren. Diese beinhalten die nötigen Treiber und die notwendige Software, um mit deinem Prozessor zu kommunizieren. Das Board-Support-Package der senseBox enthält außerdem bereits unsere senseBox-Libraries. Damit stehen euch alle grundlegenden Methoden zur Programmierung der beiliegenden Sensoren zur Verfügung.</div>
 <div class="line">
     <br>
     <br>

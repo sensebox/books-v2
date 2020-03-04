@@ -52,7 +52,7 @@ Independently which bee you are using, in the next step you have to mount the be
 
 For this you have to first screw the M20 thread in the hole on the side of the case.
 Please then unscrew the cover and put the wire (without sensor) and the mini-USB wire whereby the opening of the screw thread. Now you can screw the cover on to the screw thread again and connect the sensor with the wire. 
-The sensor plug can be attached to one of the 5 *12C/Wire* slots.
+The sensor plug can be attached to one of the 5 *I2C/Wire* slots.
 **Please connect the mini-USB wire not before everything is built together.**
 
 
@@ -83,7 +83,7 @@ You can now mount the case wherever you want with the attachments.
 
 
 
-In case you want to add further sensors, please initially connect the intended wire with the 12C/Wire ports. If you have a fine dust sensor begin with putting the wire through the screw thread. Following connect the other end of the wire to the UART/Serial port 1. 
+In case you want to add further sensors, please initially connect the intended wire with the I2C/Wire ports. If you have a fine dust sensor begin with putting the wire through the screw thread. Following connect the other end of the wire to the UART/Serial port 1. 
 Now push the 4 plastic bolts in the outer holes of the MCU
 
 

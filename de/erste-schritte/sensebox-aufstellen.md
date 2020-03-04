@@ -1,4 +1,4 @@
-# Schritt 8: Die senseBox aufstellen {#head}
+# Schritt 7: Die senseBox aufstellen {#head}
 <div class="description">Um eine erfolgreiche Datenübertragen, sowie die Vergleichbarkeit der Daten zu maximieren, gibt es einige Tipps was sie beim Aufstellen der senseBox:home beachten sollten.</div>
 
 <div class="line">
@@ -17,16 +17,17 @@
 1.	Grundsätzlich gibt es keinen richtigen oder falschen Aufstellungsort. Wir ermutigen dazu, die senseBox dort aufzubauen, wo man sich selbst für die Messungen interessiert. 
 
 2.	Die senseBox Community freut sich aber, wenn die senseBoxen eine gute Dokumentation auf der openSenseMap haben. Dazu gehören:
-a.	Ein Bild der Station
-b.	Beschaffung des Anbringungsorts, wie Höhe, Überdachung, Orientierung.
-c.	Sonstige Beschreibungen
+    *	Ein Bild der Station
+    *	Beschaffung des Anbringungsorts, wie Höhe, Überdachung, Orientierung.
+    *	Sonstige Beschreibungen
 
 3.	Aus wissenschaftlicher Sicht gibt es natürlich eine weitgehende Untersuchung zur optimalen Messwerterfassung. Viele verschiedene Faktoren beeinflussen die Messqualität. Wir verweisen auf folgende Punkte:
-*	Natürlich verändern verschiedene Positionierungen die Messwerte. Stellt man die senseBox direkt in die Sonne, können z.B. die Temperatur-Werte bei Einstrahlung sehr hoch sein.
-*	Es ist zudem besser die senseBox etwas entfernt von der Hauswand anzubringen (z.B. an einem Balkongeländer), um Verfälschung durch Abwärme zu vermeiden.  
-Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. unter folgendem Link: https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf 
+    *	Natürlich verändern verschiedene Positionierungen die Messwerte. Stellt man die senseBox direkt in die Sonne, 
+    können z.B. die Temperatur-Werte bei Einstrahlung sehr hoch sein.
+    *	Es ist zudem besser die senseBox etwas entfernt von der Hauswand anzubringen (z.B. an einem Balkongeländer), um Verfälschung durch Abwärme zu vermeiden.  
+    Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. unter folgendem Link: https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf 
 
-4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: [www.books.sensebox.de](https://www.books.sensebox.de)
+4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: [www.sensebox.de/de/material](hhttps://sensebox.de/de/material)
 
 
 ## Wartung
@@ -34,4 +35,4 @@ Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. un
 1.	Es sollte unbedingt vermieden werden, dass sich Kondenswasser in der senseBox sammelt. Deshalb wird mindestens einmal im Monat ein visueller Check der senseBox empfohlen. Gegebenenfalls sollte das Silica Gel erneuert werden. 
 2.	Die senseBox sollte regelmäßig von anfallendem Schmutz befreit werden.
 
-Weitere Tipps finden Sie auf [www.sensebox.de](https://www.sensebox.de) und in unserem Forum [www.forum.sensebox.de](https://www.forum.sensebox.de).  
+Weitere Tipps findest du auf [www.sensebox.de](https://www.sensebox.de) und in unserem Forum [forum.sensebox.de](https://forum.sensebox.de/).  

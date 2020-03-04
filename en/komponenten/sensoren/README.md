@@ -16,5 +16,6 @@ Here you will find information about the following sensors, just click on the na
 - [Air pressure & temperature](luftdruck-temperatur.md)
 - [Exposure and UV](belichtung-und-uv.md)
 - [Fine dust](feinstaub.md)
+- [Soil Moisture](bodenfeuchte.md)
 
 Of course, you can also connect any other sensor you know to the senseBox. However then you are asked as a tinkerer to figure out the wiring and programming ;) We would love to see you sharing information about your sensor and how you connected it to your senseBox so we can add it to our instruction.

@@ -16,3 +16,4 @@ Es gibt folgende Komponenten die mit der senseBox angeboten und für euch getest
 * [HUB](hub.md)
 * [Micro-SD Karte](micro-sd-karte.md)
 * [GPS](gps.md)
+* [Solar](solarzelle.md)
