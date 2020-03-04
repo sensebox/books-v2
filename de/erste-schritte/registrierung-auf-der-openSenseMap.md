@@ -13,7 +13,7 @@ Die openSenseMap ist ein Projekt um Sensordaten zu speichern, zu vergleichen und
 {% endcollapse %}
 
 ## 1. Nutzeraccount Registrierung
-Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
+Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und lege dir einen Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
 
 ![Account anlegen](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Sing_up.PNG)
 
@@ -35,7 +35,7 @@ Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der 
 
 {% collapse title="Verbindung über LoRa" %}
 
-Möchtest du deine Daten über LoRa an die openSenseMap schicken wählst du bei "Verbindungsart" LoRa aus. Anschließend kannst du im Reiter "Erweitert" deine Lora Einstellungen angeben. Hier musst du die Application-ID und Device-ID angeben, welche du beim [TheThingsNetwork](https://www.thethingsnetwork.org) angegeben hast. 
+Möchtest du deine Daten über LoRa an die openSenseMap schicken wählst du bei "Verbindungsart" LoRa aus. Anschließend kannst du im Reiter "Erweitert" deine Lora Einstellungen angeben. Hier musst du die Application-ID und Device-ID angeben, welche du beim <a href="www.thethingsnetwork.org">TheThingsNetwork</a> angegeben hast. 
 ![LoRa Konfigurationen](https://github.com/sensebox/resources/raw/master/gitbook_pictures/LoRaOSEM.PNG)
 
 {% endcollapse %}
@@ -61,33 +61,35 @@ Der einfachste Weg deinen Code auf die senseBox zu bekommen ist unseren Online C
 
 Schließt du deine senseBox MCU an deinen Computer an und führst einen Doppelklick auf den roten Button aus wird diese als Wechseldatendräger erkannt. Mit einem Klick auf Code Kompilieren in der Weboberfläche wird dein Programmcode auf dem Server kompiliert und eine .BIN Datei wird dir zum Download angeboten. Je nachdem welches Betriebssystem du verwendest unterscheidet sich nun der Kopiervorgang. 
 
-{% tabs first="Windows", second="MacOS", third="Linux" %}
-{% content "first" %}
+
+{% tabs win="Windows", mac="MacOS", linux="Linux" %}
+{% content "win" %}
 #### Kopieren unter Windows 
 
 Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
+___________
 
-
-{% content "second" %}
+{% content "mac" %}
 
 #### Kopieren unter MacOS
 
 Unter MacOS funktioniert das kopieren der .BIN per Drag & Drop leider zurzeit noch nicht. Eine Möglichkeit ist die Datei im Terminal per dd-Befehl zu kopieren (nur erfahrenen Nutzern zu empfehlen!) oder einen alternativen Dateimanager wie zum Beispiel [muCommander](http://www.mucommander.com/) zu verwenden.
+___________
 
-{% content "third" %}
+{% content "linux" %}
 
 #### Kopieren unter Linux 
 
 Unter Linux kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
-
+___________
 
 {% endtabs %}
 
-## Arduino-Code auf die senseBox laden
+### Arduino-Code auf die senseBox laden
 Nachdem du den ```.ino``` Anhang der Email heruntergeladen hast (oder weiter Unten in der Übersicht kopiert hast), muss dieses Programm auf deine senseBox geladen werden. Dafür musst du natürlich die Arduino IDE (wie in Schritt 1 erklärt) auf deinem Computer heruntergeladen haben. In Kurzfassung kannst du danach folgende Schritte befolgen:
 
-{% tabs first="WiFi-Bee", second="Ethernet-Bee", third="LoRa-Bee" %}
-{% content "first" %}
+{% tabs wifi="WiFi-Bee", lan="Ethernet-Bee", lora="LoRa-Bee" %}
+{% content "wifi" %}
 
 ### WiFi-Bee
 
@@ -99,7 +101,7 @@ Nachdem du den ```.ino``` Anhang der Email heruntergeladen hast (oder weiter Unt
 * Warten bis das Programm übertragen wurde
 __________
 
-{% content "second" %}
+{% content "lan" %}
 
 ### Ethernet-Bee
 
@@ -111,7 +113,7 @@ __________
 ___________________
 
 
-{% content "third" %}
+{% content "lora" %}
 
 ### LoRa-Bee
 
