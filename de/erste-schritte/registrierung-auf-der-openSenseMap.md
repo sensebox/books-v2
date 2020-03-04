@@ -13,7 +13,7 @@ Die openSenseMap ist ein Projekt um Sensordaten zu speichern, zu vergleichen und
 {% endcollapse %}
 
 ## 1. Nutzeraccount Registrierung
-Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und lege dir einen Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
+Gehe auf [www.opensensemap.org](https://www.opensensemap.org) und lege dir eine Account an. Dafür klickst du rechts oben in der Ecke auf "Login" und gehst dann auf "Sign up". Du brauchst eine gültige E-Mail-Adresse zum Registrieren. Nach erfolgreicher Registrierung erhältst du eine E-Mail mit einem Bestätigungslink. Bitte klicke den Link um die Registrierung abzuschließen. 
 
 ![Account anlegen](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Sing_up.PNG)
 
@@ -26,7 +26,7 @@ Nach der erfolgreichen Registrierung kannst du damit beginnen deine senseBox anz
 
 Da die openSenseMap offen für alle Arten von senseBoxen ist, wirst du nach der verwendeten Hardware gefragt. Wähle *senseBox:home V2* und den Bee den du verwendest (WiFi, oder Ethernet)
 
-![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Select_hardware.PNG)
+![Auswahl von senseBox:home V2 MCU und WiFi Internetverbindung](https://github.com/sensebox/resources/raw/master/gitbook_pictures/202003-screen-registration.PNG)
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -40,12 +40,12 @@ Möchtest du deine Daten über LoRa an die openSenseMap schicken wählst du bei 
 
 {% endcollapse %}
 
-Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen, welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Falls du einen Feinstaubsensor installieren möchtest, musst du außerdem noch angeben, an welchen Serial-Port du diesen anschließen willst. Danach kannst du den Vorgang abschließen.
+Jetzt hast du es fast geschafft! Noch schnell die Sensoren auswählen, welche du an deine senseBox anschließen wirst. Einfach anklicken und fertig. Bei einigen Sensoren musst du noch angeben an welchen Ports auf dem Mikrocontroller diese angeschlossen sind. Danach kannst du den Vorgang abschließen.
 
 ## 3. Summary der Registrierung und Mail erhalten
-Wenn du die Registrierung abgeschlossen hast, musst du noch einmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt (diesen bekommst du zudem noch einmal per E-Mail zugeschickt). 
+Wenn du die Registrierung abgeschlossen hast, musst du noch einmal der Veröffentlichung deiner Daten zustimmen. Danach erhälst du eine Summary deiner Registrierung. Dort wird dir deine senseBox ID, deine Sensoren-IDs und der Arduino Code angezeigt.  
 
-![Summary der Registrierung. Hier siehst du die IDs deiner senseBox und deiner Sensoren!](https://github.com/sensebox/resources/raw/master/gitbook_pictures/summary.PNG)
+![Summary der Registrierung. Hier siehst du die IDs deiner senseBox und deiner Sensoren!](https://github.com/sensebox/resources/raw/master/gitbook_pictures/202003-overview.PNG)
 
 {% collapse title="Was ist meine senseBox ID" %}
 
@@ -53,8 +53,38 @@ Die senseBox ID ist ein eindeutiger Identifikator deiner senseBox. Damit kannst 
 
 {% endcollapse %}
 
+## Online Kompilieren
+Der einfachste Weg deinen Code auf die senseBox zu bekommen ist unseren Online Compiler zu benutzen. Dafür musst du in der Maske einige Angaben machen. Wenn etwas nicht auf deinen individuellen Aufbau der senseBox passt, kannst du das Feld einfach frei lassen. Zum Abschluss drückst du auf "Kompilieren" und eine Datei im Format .bin wird von deinem Browser heruntergeladen. 
+![Konfiguration um Online zu kompilieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/202003-online-compiling.PNG)
+
+### Übertragen auf die senseBox MCU
+
+Schließt du deine senseBox MCU an deinen Computer an und führst einen Doppelklick auf den roten Button aus wird diese als Wechseldatendräger erkannt. Mit einem Klick auf Code Kompilieren in der Weboberfläche wird dein Programmcode auf dem Server kompiliert und eine .BIN Datei wird dir zum Download angeboten. Je nachdem welches Betriebssystem du verwendest unterscheidet sich nun der Kopiervorgang. 
+
+{% tabs first="Windows", second="MacOS", third="Linux" %}
+{% content "first" %}
+#### Kopieren unter Windows 
+
+Unter Windows kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
+
+
+{% content "second" %}
+
+#### Kopieren unter MacOS
+
+Unter MacOS funktioniert das kopieren der .BIN per Drag & Drop leider zurzeit noch nicht. Eine Möglichkeit ist die Datei im Terminal per dd-Befehl zu kopieren (nur erfahrenen Nutzern zu empfehlen!) oder einen alternativen Dateimanager wie zum Beispiel [muCommander](http://www.mucommander.com/) zu verwenden.
+
+{% content "third" %}
+
+#### Kopieren unter Linux 
+
+Unter Linux kannst du die erstellte .BIN Datei einfach per Drag & Drop auf den Wechseldatenträger <b>SENSEBOX</b> kopieren. Die rote LED am Button wird kurz flackern und anschließend startet das Board selbstständig neu und führt deinen Programmcode aus. 
+
+
+{% endtabs %}
+
 ## Arduino-Code auf die senseBox laden
-Nachdem du den ```.ino``` Anhang der Email heruntergeladen hast, muss dieses Programm auf deine senseBox geladen werden. Dafür musst du natürlich die Arduino IDE (wie in Schritt 1 erklärt) auf deinem Computer heruntergeladen haben. In Kurzfassung kannst du danach folgende Schritte befolgen:
+Nachdem du den ```.ino``` Anhang der Email heruntergeladen hast (oder weiter Unten in der Übersicht kopiert hast), muss dieses Programm auf deine senseBox geladen werden. Dafür musst du natürlich die Arduino IDE (wie in Schritt 1 erklärt) auf deinem Computer heruntergeladen haben. In Kurzfassung kannst du danach folgende Schritte befolgen:
 
 {% tabs first="WiFi-Bee", second="Ethernet-Bee", third="LoRa-Bee" %}
 {% content "first" %}
@@ -76,7 +106,6 @@ __________
 * Arduino Anwendung öffnen
 * In der Menüleiste ``Datei`` → ``Öffnen`` auswählen und die ``sensebox.ino`` Datei auswählen
 * Im Dialogfeld wird gefragt ob die Datei verschoben werden darf. Dieses mit "Ja" oder "Ok" bestätigen.
-* Jetzt musst du dein WiFi-Netzwerk und dein Passwort für das Netzwerk zwischen die ``""`` eingeben. Achte darauf, keine Leerzeichen zwischen den ``"`` und den Buchstaben deines Passworts zu haben.  
 * Jetzt kannst du as Programm über das Pfeil Icon auf den Mikrocontroller laden.
 * Warten bis das Programm übertragen wurde
 ___________________
