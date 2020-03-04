@@ -1,5 +1,6 @@
 # LoRa-Bee {#head}
-<div class="description">Verwendet die LoRa-Schnittstelle um Daten stromsparend und kostenlos ins Internet zu übertragen. Das Besondere an der Übertragunstechnologie ist ihre Reichweite, so muss ein LoRa-Gateway im Umkreis von lediglich 2 bis hin zu 40 Kilometern bestehen, je nachdem ob die Station im städtischen Gebiet oder im ländlichen Raum ohne Gebirge (ggf. über Wasser) genutzt werden soll.<br>Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe der LoRa-Funk-Standards des TheThingsNetwork. Die hierzu benötigte Infrastruktur wird von der TTN-Community bereit gestellt, und ist in immer mehr Regionen verfügbar. Deutschland besitzt im internationalen Vegleich schon eine sehr gute Abdeckung mit ~2000 Gateways.</div>
+<div class="description">Verwendet die LoRa-Schnittstelle um Daten stromsparend und kostenlos ins Internet zu übertragen. Das Besondere an der Übertragunstechnologie ist ihre Reichweite, so muss ein LoRa-Gateway im Umkreis von lediglich 2 bis hin zu 40 Kilometern bestehen, je nachdem ob die Station im städtischen Gebiet oder im ländlichen Raum ohne Gebirge (ggf. über Wasser) genutzt werden soll.<br><br>
+Das von senseBox entwickelte LoRaWan™-XBee-Modul überträgt Daten mithilfe der LoRa-Funk-Standards des TheThingsNetwork. Die hierzu benötigte Infrastruktur wird von der TTN-Community bereit gestellt, und ist in immer mehr Regionen verfügbar. Deutschland besitzt im internationalen Vegleich schon eine sehr gute Abdeckung mit ~2000 Gateways.</div>
 
 <div class="line">
     <br>
@@ -18,9 +19,15 @@
 * Gewicht: 1,1 g
 
 # Hinweise
-Bitte prüfe bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist.<br>Dies ist auf der [Karte](https://www.thethingsnetwork.org/community#list-communities-map) des TTN möglich.
+Bitte prüfe, bevor du dir eine senseBox mit LoRa Bee holst, ob dein Gebiet bereits von LoRa erschlossen ist.<br>
+Dies ist auf der [Karte](https://www.thethingsnetwork.org/community#list-communities-map) des TTN möglich.
 
 **Achtung: Aufgrund der erhöhten Komplexität der Installation empfehlen wir das LoRa-Modul außschließlich fortgeschrittenen Nutzern von Open-Hardware**
+
+<div class="line">
+    <br>
+    <br>
+</div>
 
 # Upload über LoRaWAN
 Es ist möglich Sensordaten per [LoRaWAN™](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network) durch das [TheThingsNetwork](https://thethingsnetwork.org)

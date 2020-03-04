@@ -9,14 +9,16 @@
 
 ## Anschluss von Bees
 
-Der Anschluss der Bees ist ganz einfach. Durch das Stecksystem reicht es das Bee direkt auf den Microcontroller aufzusetzen. Dabei gibt es nur zwei Dinge zu beachten: 1. Die Ausrichtung auf dem Board und 2. Der richtige Portanschluss auf dem Microcontroller. 
+Der Anschluss der Bees ist ganz einfach. Durch das Stecksystem reicht es, das Bee direkt auf den Microcontroller aufzusetzen. Dabei gibt es nur zwei Dinge zu beachten: 
+1. Die Ausrichtung auf dem Board
+2. Der richtige Portanschluss auf dem Microcontroller
 
 ### WiFi-Bee, Ethernet-Bee und LoRa-Bee
 Diese Bees werden alle auf den Port 1 aufgesteckt. Den richtigen Port erkennst du an der Beschriftung: ``XBEE1``. Die richtige Richtung beim Aufstecken erkennst du an der 7-eckigen Kennzeichnung auf dem Board und der Bee.
 ![Exemplarischer Anschluss der WiFi-Bee an die MCU (XBEE1)](https://github.com/sensebox/resources/raw/master/gitbook_pictures/plug-in-components/wifi-anschluss.png)
 
 ### mSD-Bee
-Die SD-Bee wird an Port 2 aufgesteckt, welcher standardmäßig dafür freigeschalten ist. Den richtigen Port erkennst du an der Beschriftung: ``XBEE2``. Die richtige Richtung beim Aufstecken erkennst du an der 7-eckigen Kennzeichnung auf dem Board und der Bee.
+Die SD-Bee wird an Port 2 aufgesteckt, welcher standardmäßig dafür freigeschaltet ist. Den richtigen Port erkennst du an der Beschriftung: ``XBEE2``. Die richtige Richtung beim Aufstecken erkennst du an der 7-eckigen Kennzeichnung auf dem Board und der Bee.
 
 ![Anschluss der mSD-Bee an die MCU (XBEE1)](https://github.com/sensebox/resources/raw/master/gitbook_pictures/plug-in-components/sd-anschluss.png)
 

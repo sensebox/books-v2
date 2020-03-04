@@ -21,7 +21,7 @@
 
 ## Aufbau
 ### Hardwarekonfiguration
-Um alle Komponenten anzuschließen benötigst Du zwei JST-Adapterkabel. Das erste wird an Digital A (also den digitalen Pins 1 und 2) angeschlossen, das zweite an Digital B (also den digitalen Pins 3 und 4) angeschlossen. Am Kabel in Digital A werden die rote und die gelbe LED angeschlossen, am Kabel in Digital B die grüne LED und der Button.
+Um alle Komponenten anzuschließen benötigst du zwei JST-Adapterkabel. Das erste wird an Digital A (also den digitalen Pins 1 und 2) angeschlossen, das zweite an Digital B (also den digitalen Pins 3 und 4) angeschlossen. Am Kabel in Digital A werden die rote und die gelbe LED angeschlossen, am Kabel in Digital B die grüne LED und der Button.
 
 ![Verkabelung der Ampelschaltung](https://github.com/sensebox/resources/raw/master/gitbook_pictures/projekte/AmpelSchaltungKlein.png)
 

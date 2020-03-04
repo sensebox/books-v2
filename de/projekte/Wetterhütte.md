@@ -19,7 +19,7 @@ Lamellierte Gehäusewände und -türe sorgen für eine gute Belüftung und Schut
 
 ## Materialien 
 
-- senseBox MCU (Outdoor Case, Netzteil und Kabel, Temperatur & relative Luftfeuchte Sensor,Wifi-Bee)
+- senseBox MCU (Outdoor Case, Netzteil und Kabel, Temperatur & relative Luftfeuchte Sensor,WiFi-Bee)
 - Sensoren (Luftdruck & Temperatur, Beleuchtungsstärke & UV-Strahlung, Feinstaub (PM10 & PM2.5)
 - Wetterhaus (Bausatz roh oder gestrichen)
 [Bezugsquelle Stiftung zur Palme](https://www.globe-swiss.ch/files/Downloads/902/Download/Wetterhausflyer_2017.pdf)

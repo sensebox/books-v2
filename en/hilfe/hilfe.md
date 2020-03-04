@@ -16,7 +16,7 @@ You will therefore find some common errors along with the error message and inst
 
 <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
-   Of course, if you publicly present your sketch (for example, in our forum), you should always make sure that you do not disclose personal information to the public. Therefore, you should first look in the code, if you have your Wifi name (SSID) and the password built into the sketch. If this is the case, please delete it from the sketch before publishing it on the internet.
+   Of course, if you publicly present your sketch (for example, in our forum), you should always make sure that you do not disclose personal information to the public. Therefore, you should first look in the code, if you have your WiFi name (SSID) and the password built into the sketch. If this is the case, please delete it from the sketch before publishing it on the internet.
 </div>
 
 {% collapse title="I get an error when I connect the fine dust sensor. But I did not change the sketch, what is wrong here?" %}
@@ -80,7 +80,7 @@ This [help website](add-external-libraries.md)! explains how to integrate them m
 ### Questions about the Data transmission
 
 {% collapse title="I have problems with the transmission of data via wifi. What can I do?" %}
-It is possible with some of our Wifi Bees of the type WINC1500 that an old firmware (Version 19.4.4) is installed. This can lead to problems with the data transmission. If this is the case, please visit [this help website](../additional-info.md) to refresh the firmware.
+It is possible with some of our WiFi Bees of the type WINC1500 that an old firmware (Version 19.4.4) is installed. This can lead to problems with the data transmission. If this is the case, please visit [this help website](../additional-info.md) to refresh the firmware.
 {% endcollapse %}
 
 ### Questions to the Connection between the senseBox and the Computer

@@ -10,10 +10,10 @@
 
 ## Technische Informationen
 
-* Maße: 25mm x 25mm x 9mm
-* Gewicht: 2,4 g
 * "Plug-in-and-Go" senseBox kompatibel
 * Betriebsdruck 300 bis 1100 hPa
 * Relative Präzision ±0.12 hPa
 * Absolute Präzision ±1 hPa
 * Betriebsversorgungsstrom 2.7μA bei 1 Hz Sampling Frequenz
+* Maße: 25mm x 25mm x 9mm
+* Gewicht: 2,4 g

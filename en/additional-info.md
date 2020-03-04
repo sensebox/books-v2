@@ -1,4 +1,4 @@
-# Firmware Update Wifi-Bee {#head}
+# Firmware Update WiFi-Bee {#head}
 <div class="description">Unfortunately, some of our WINC1500 WiFi Bees have outdated firmware (version 19.4.4) installed. Unfortunately, there is no other way to update this firmware than to do it manually. The following chapter explains how to find out which firmware you are using and (if you have an outdated version) how to update it.</div>
 
 <div class="line">
@@ -16,7 +16,7 @@ First, it must be found out which version the supplied WiFi Bee has. Go to `File
 
 ![Open the WiFi-Test](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Update-Wifi-Firmware/1-test.PNG)
 
-Now upload the sketch to your board (by clicking the arrow icon). Note that the WiFi Bee must be plugged into your senseBox board (please plug it in to XBEE1). Then click on the serial monitor (by clicking the magnifying glass icon) and it will be checked if your Wifi-Bee is functional and shows which firmware is installed on it.
+Now upload the sketch to your board (by clicking the arrow icon). Note that the WiFi Bee must be plugged into your senseBox board (please plug it in to XBEE1). Then click on the serial monitor (by clicking the magnifying glass icon) and it will be checked if your WiFi-Bee is functional and shows which firmware is installed on it.
 
 
 
@@ -47,11 +47,11 @@ Now load the sketch on your board (by clicking the arrow icon), on which the WiF
 
 Now click `Tools` and select `Wifi101 Firmware Updater`.
 
-![Choose Wifi 101 Firmware Updater](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Update-Wifi-Firmware/4-firmware-updater.PNG)
+![Choose WiFi 101 Firmware Updater](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Update-Wifi-Firmware/4-firmware-updater.PNG)
 
 First, you can test the connection by clicking on the ` COM Port ` and then on ` Test connection `. The following information should come back: `"The programmer is working!"`
 
-![Test connection of the Wifi-Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Update-Wifi-Firmware/5-test-connection.PNG)
+![Test connection of the WiFi-Bee](https://github.com/sensebox/resources/raw/master/gitbook_pictures/Update-Wifi-Firmware/5-test-connection.PNG)
 
 Almost done, now just click on ` Update Firmware ` and the upload starts. Then a success message should appear: `"The firmware has been updated!"`
 

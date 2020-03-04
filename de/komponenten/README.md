@@ -14,7 +14,7 @@
 
 1. [senseBox MCU](sensebox-mcu.md)
 2. [Bees](bees/README.md)
-    + [Wifi-Bee](bees/wifi.md)
+    + [WiFi-Bee](bees/wifi.md)
     + [LAN-Bee](bees/lan.md)
     + [SD-Bee](bees/sd.md)
     + [LoRa-Bee](bees/lora.md)
@@ -23,6 +23,10 @@
     + [Luftdruck & Temperatur](sensoren/luftdruck-temperatur.md)
     + [Belichtung und UV](sensoren/belichtung-und-uv.md)
     + [Feinstaub](sensoren/feinstaub.md)
+    + [GPS](sensoren/gps.md)
+    + [Gassensor](sensoren/gassensor.md)
+    + [Bodenfeuchte](sensoren/bodenfeuchte.md)
+    + [Lautstärkesensor](sensoren/decibel_meter.md)
 4. [Zubehör](zubehoer/README.md)
     + [Strahlenschutz](zubehoer/strahlenschutz.md)
     + [Gehäuse](zubehoer/gehaeuse.md)
@@ -30,6 +34,5 @@
     + [LED-Display](zubehoer/led-display.md)
     + [HUB](zubehoer/hub.md)
     + [Micro-SD Karte](zubehoer/micro-sd-karte.md)
-    + [GPS](zubehoer/gps.md)
 
-Natürlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tüftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit können wir dir leider nur Anleitungen für die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort bekommst du nicht nur Hilfe von uns sondern auch von Tüftlern aus der ganzen Welt. 
+Natürlich gibt es noch viele andere Sensoren, die du mit ein bisschen Tüftelei und Eigeninitiative an deine senseBox anschliessen kannst. Zurzeit können wir dir leider nur Anleitungen für die aufgelisteten Komponenten geben. Falls du Fragen zu anderen Sensoren hast kann dir unser [Forum](https://forum.sensebox.de/) weiterhelfen. Dort bekommst du nicht nur Hilfe von uns, sondern auch von Tüftlern aus der ganzen Welt. 

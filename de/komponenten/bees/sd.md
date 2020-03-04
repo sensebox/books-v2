@@ -12,22 +12,23 @@
 * "Plug-in-and-Go" senseBox kompatibel
 * Port für miniSD-Karte
 * Bezeichnung: mSD-Bee
-* Maße:24mm x 21mm x 9mm
-* Gewicht:2,4 g
+* Maße: 24mm x 21mm x 9mm
+* Gewicht: 2,4 g
 
 
 # Hinweise
 
-Achtung: Das SD-Bee wird ohne SD-Karte geliefert, falls ihr im senseBox-Shop bestellt.
+Achtung: Das SD-Bee wird ohne SD-Karte geliefert, falls du im senseBox-Shop bestellst.
 
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
     Achte darauf, dass die mSD-Bee an den XBEE2-Stecker der senseBox-MCU angeschlossen werden muss, anonsten 
-    kann es zu Problemen beim speichern deiner Messwerte kommen.
+    kann es zu Problemen beim Speichern deiner Messwerte kommen.
 </div>
+
 # Beispiel 
-Im folgenden Beispiel zeigen wir euch wie ihr eure Daten auf einer SD-Karte speichern könnt. 
+Im folgenden Beispiel zeigen wir dir, wie du deine Daten auf einer SD-Karte speichern kannst. 
 {% collapse title="Deklarierung der Objekte und setup()" %}
 ```arduino
 // Einladen der Bibliotheken
@@ -63,7 +64,7 @@ void loop()
     // Datei öffnen mit Schreibzugriff
     myFile = SD.open(fileName, FILE_WRITE);
     myFile.println(hdc.getTemperature());
-    // Nach benutzung wird die Datei wieder geschlossen
+    // Nach Benutzung wird die Datei wieder geschlossen
     myFile.close();
 };
 ```

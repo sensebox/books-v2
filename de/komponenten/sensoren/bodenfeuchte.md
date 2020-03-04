@@ -26,18 +26,18 @@
 ## Integration des SMT50 in bestehendes senseBox:home Setup
 Vorraussetzung für das Tutorial ist eine bereits auf der openSenseMap registrierten senseBox:home Station.<br>In unserem Fall haben wir bereits eine senseBox:home mit WiFi Modul für die Datenübertragung, sowie Sensoren für Temperatur & Luftfeuchtigkeit und Luftdruck & Temperatur im Vorfeld registriert und online gebracht.
 
-![Unsere angelegte Station auf der openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem_home.jpg)
+![Unsere angelegte Station auf der openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem_home.JPG)
 
 ### Erweiterung der Hardware
 Hierzu muss einfach nur das JST-Kabel des Sensors in den Digital A Anschluss an der senseBox gesteckt werden. 
 
 ### Integration in die openSenseMap
-Meldet euch nun auf der OSeM an. Wählt eure Station im Dashboard aus und klickt auf 'Editieren'. Unter dem Reiter Sensoren befindet sich oben rechts ein + Symbol, damit können zwei neue Einträge für die beiden Phänomene angelegt werden. Gebt nun nacheinander für die beiden zusätzlichen Messwerte die benötigten Informationen ein. Zuletzt sollten diese noch gespeichert werden, dazu müsst ihr auf das Disketten-Symbol klicken.
+Melde dich nun auf der OSeM an. Wähle deine Station im Dashboard aus und klicke auf 'Editieren'. Unter dem Reiter Sensoren befindet sich oben rechts ein `+` Symbol, damit können zwei neue Einträge für die beiden Phänomene angelegt werden. Gebe nun nacheinander für die beiden zusätzlichen Messwerte die benötigten Informationen ein. Zuletzt sollten diese noch gespeichert werden, dazu musst du auf das Disketten-Symbol klicken.
 
 ![Sensorenbearbeitung OSeM](https://github.com/sensebox/resources/raw/master/gitbook_pictures/sensoren_edit.jpg)
 
 ### Skript erweitern
-Das Skript mit den neu hinzugefügten Phänomenen sollte nun ebenfalls auf der Konfigurationsseite unter dem Reiter Skript zu finden sein. Tragt eure WLAN-Daten ein und kopiert das Skript mit 'Strg+A' in Arduino.<br><br>
+Das Skript mit den neu hinzugefügten Phänomenen sollte nun ebenfalls auf der Konfigurationsseite unter dem Reiter Skript zu finden sein. Trage deine WLAN-Daten ein und kopiere das Skript mit 'Strg+A' in Arduino.<br><br>
 Damit die Messwerte hochgeladen werden können, müssen die jeweiligen Funktionen zum Auslesen der Sensoren implementiert werden und die Uploadfunktion zur OSeM angepasst werden.<br>Ungefähr ab Zeile '75' sollten sich die Sensor IDs befinden. Wenn alles funktioniert hat, sollten dort auch die IDs für die neu erstellten Phänomene auftauchen:
 ```arduino
 // sensor IDs
@@ -69,5 +69,5 @@ addMeasurement(VOLUMESENSOR_ID, soilMoisture);
 addMeasurement(BODENTSENSOR_ID, soilTemperature);
 ```
 
-Wenn ihr alles richtig gemacht habt, werden eure Werte nun auf der OSeM angezeigt!<br>
+Wenn du alles richtig gemacht hast, werden deine Werte nun auf der OSeM angezeigt!<br>
 ![Station openSenseMap](https://github.com/sensebox/resources/raw/master/gitbook_pictures/station_osem.jpg)

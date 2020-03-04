@@ -50,5 +50,5 @@ Um die senseBox mit einer Solarzelle zu benutzen, bedarf es lediglich einem Powe
 
 <div class="box_warning">
     <i class="fa fa-exclamation-circle fa-fw" aria-hidden="true" style="color: #f0ad4e"></i>
-    Der LiPo-Akku und der Powerboost sollten am besten vor Nässe geschützt aufgebaut werden, wenn ihr die Station draußen betreibt. Das passende Gehäuse gibt es im Set dazu, ist aber auch das Gleiche wie z.B. beim Feinstaubsensor. Vorsicht auch bei Minustemperaturen, dann solltest du die Station bestenfalls reinholen.
+    Der LiPo-Akku und der Powerboost sollten am besten vor Nässe geschützt aufgebaut werden, wenn du die Station draußen betreibst. Das passende Gehäuse gibt es im Set dazu, ist aber auch das Gleiche wie z.B. beim Feinstaubsensor. Vorsicht auch bei Minustemperaturen, dann solltest du die Station bestenfalls reinholen.
 </div>

@@ -1,6 +1,6 @@
 # Das senseBox:edu Buch {#head}
 <div class="description">
-Hier findest Du alle Informationen, die du brauchst um mit Deiner
+Hier findest du alle Informationen, die du brauchst um mit Deiner
 senseBox:edu durchzustarten!
 </div>
 <div class="line">
@@ -18,7 +18,7 @@ Das senseBox:edu Buch ist ein Buch für alle Tüftler und Interessierte, die im 
 
 Dieses Buch hilft dir bei den [Ersten Schritten](erste-schritte/software-installation.md) mit deiner senseBox:edu, erklärt dir Grundlagen, stellt dir Projekte zum selber nachbauen vor und erklärt dir die einzelnen Komponenten der senseBox. Du solltest mit den ersten Schritten starten und diese lesen und befolgen, bevor du dich an die vorgestelleten DIY-Projekte oder eigene Projekte wagst. 
 
-Auf dem Weg durch das Buch wirst Du dich mithilfe der Seitenleiste links oder mit den grünen Pfeiltasten auf den Seiten durch die Anleitungen klicken.
+Auf dem Weg durch das Buch wirst du dich mithilfe der Seitenleiste links oder mit den grünen Pfeiltasten auf den Seiten durch die Anleitungen klicken.
 Jede Seite hat eine Überschrift und darunter eine grau hinterlegte Box mit grüner Schrift, in der eine kleine Beschreibung der Seite verfasst wurde. Das Ganze sieht in etwa so aus:
 
 # Überschrift
@@ -56,7 +56,7 @@ Weiterhin gibt es einige Absätze, die dir nicht direkt angezeigt werden. Sie en
  Super, du hast alles richtig verstanden! Klicke noch einmal auf die grüne Überschrift des Absatzes und ich verschwinde wieder!   
 {% endcollapse %}
 
-Als letztes wichtiges Element, dass du kennen solltest bevor Du mit diesem Buch durchstarten kannst, haben wir sogenannte "Tabs". Du kennst sie vermutlich aus deinem Internet-Browser und wenn Du dich aktuell im Internet befindet, hast du auch bestimmt mehrere Tabs geöffnet. Wir haben ähnlich wie im Browser auch Tabs, diese sind allerdings innerhalb der Seite eingebaut. Sie helfen uns, das was du siehst, auf das was du auch wirklich benötigst, zu reduzieren. Wenn wir zum Beispiel eine Anleitung beschreiben, um ein Programm zu installieren, tun wir dies für verschiedene Betriebssysteme (Windows, OSX(Mac) und Linux). Da Du im Normalfall nur an einem Computer arbeitest, ist für dich nur das darauf installierte Betriebssystem von Interesse. Daher integrieren wir die Installationsanleitungen in drei Tabs. In jedem dieser drei Tabs wird die passende Anleitung für ein Betriebssytem angezeigt. Du wählst das zu deinem System passende Tab aus und bekommst so nur die passende Anleitung angezeigt und nicht die anderen beiden. Probier es einfach mal aus und schau dir an, was passiert wenn du hier die verschiedenen Tabs anklickst.
+Als letztes wichtiges Element, dass du kennen solltest bevor du mit diesem Buch durchstarten kannst, haben wir sogenannte "Tabs". Du kennst sie vermutlich aus deinem Internet-Browser und wenn du dich aktuell im Internet befindet, hast du auch bestimmt mehrere Tabs geöffnet. Wir haben ähnlich wie im Browser auch Tabs, diese sind allerdings innerhalb der Seite eingebaut. Sie helfen uns, das was du siehst, auf das was du auch wirklich benötigst, zu reduzieren. Wenn wir zum Beispiel eine Anleitung beschreiben, um ein Programm zu installieren, tun wir dies für verschiedene Betriebssysteme (Windows, OSX(Mac) und Linux). Da du im Normalfall nur an einem Computer arbeitest, ist für dich nur das darauf installierte Betriebssystem von Interesse. Daher integrieren wir die Installationsanleitungen in drei Tabs. In jedem dieser drei Tabs wird die passende Anleitung für ein Betriebssytem angezeigt. Du wählst das zu deinem System passende Tab aus und bekommst so nur die passende Anleitung angezeigt und nicht die anderen beiden. Probier es einfach mal aus und schau dir an, was passiert wenn du hier die verschiedenen Tabs anklickst.
 
 {% tabs first="Erster Tab", second="Zweiter Tab", third="Dritter Tab" %}
 {% content "first" %}
@@ -76,7 +76,7 @@ Ich bin der dritte Tab. Indem du mich angewählt, hast wird der Inhalt des vorhe
     <br>
 </div>
 <br>
-Hast Du dir die Tabs und alle weiteren Elemente angeschaut? 
-Wenn ja, dann kannst Du jetzt loslegen mit diesem Buch und deiner senseBox:edu!
+Hast du dir die Tabs und alle weiteren Elemente angeschaut? 
+Wenn ja, dann kannst du jetzt loslegen mit diesem Buch und deiner senseBox:edu!
 
 Viel Spaß wünscht dir das Team der [senseBox](https://sensebox.de/)! 

@@ -1,6 +1,6 @@
 # Bees {#head}
 
-<div class="description">Ein Bee bezeichnet eine aufsteckbare Komponenente, mit welcher die senseBoxMCU Daten übertragen oder speichern kann. Hier hast du die Wahl zwischen der Wifi-Bee oder der mSD-Bee.</div>
+<div class="description">Ein Bee bezeichnet eine aufsteckbare Komponenente, mit welcher die senseBoxMCU Daten übertragen oder speichern kann. Hier hast du die Wahl zwischen der WiFi-Bee oder der mSD-Bee.</div>
 <div class="line">
     <br>
     <br>

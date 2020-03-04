@@ -20,7 +20,7 @@ The weather hut made of wood was painted white inside and outside for optimal he
 
 ## Materials 
 
-- senseBox MCU (Outdoor Case, Power supply and cable, temperature & relative humidity sensor, Wifi-Bee). [Source of supply senseBox Shop](https://sensebox.kaufen/product/sensebox-home)
+- senseBox MCU (Outdoor Case, Power supply and cable, temperature & relative humidity sensor, WiFi-Bee). [Source of supply senseBox Shop](https://sensebox.kaufen/product/sensebox-home)
 - Sensors (Air pressure & temperature, illuminance & UV radiation, fine dust (PM10 & PM2.5).  [Source of supply senseBox Shop](https://sensebox.kaufen/product/sensebox-home)
 - Weather house (Kit raw or painted)
 [Source of supply Stiftung zur Palme](https://www.globe-swiss.ch/files/Downloads/902/Download/Wetterhausflyer_2017.pdf)

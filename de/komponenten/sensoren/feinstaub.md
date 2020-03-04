@@ -12,13 +12,13 @@ Mit diesem Sensor SDS011 ist es möglich die Feinstaubkonzentration in der Luft 
 ![Feinstaubsensor für PM10 und PM2.5](https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top.png)
 
 ## Technische Details
-* Schnelle Reaktionszeit von weniger als 10 Sekunden
 * "Plug-in-and-Go" senseBox kompatibel
+* Schnelle Reaktionszeit von weniger als 10 Sekunden
 * Hohe Auflösung bis zu 0.3µg/m3
 * Mehrfach wissenschaftliche Prüfung der Datengenauigkeit
 
 ## Zum Aufbau benötigte Bauteile 
-<img src="https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top_accessoire.png" alt="Benötigte (mitgelieferte) Bauteile" width="500px"/>
+<img src="https://github.com/sensebox/resources/raw/master/gitbook_pictures/feinstaub_top_accessoire.png" alt="Benötigte (mitgelieferte) Bauteile"/>
 
    * SDS011 Feinstaub Sensor
    * Verbindungskabel
@@ -36,13 +36,13 @@ Ist dies erledigt können wir nun im Programmcode den Sensor initialisieren und 
     Stelle sicher, dass du das aktuellste Board-Support-Package installiert hast, da du die korrekten Software-Bibliotheken benötigst. Wie das geht wurde dir in <a href ="../erste-schritte/board-support-packages-installieren.md">Schritt 2</a> erklärt!
 </div>
 
-Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte
-für PM10 und PM2.5 speichern
+Als erstes muss eine Instanz des Sensors erstellt werden. Dazu erstellen wir noch 2 Variablen in denen wir unsere beiden Messwerte für PM10 und PM2.5 speichern.
 
 ```arduino 
 SDS011 my_sds(Serial1) // Serial1 gibt hier den Seriellen Port an, an dem du den Sensor angeschlossen hast
 float p10,p25
 ```
+
 {% collapse title="setup() Funktion" %}
 In der `setup()`-Funktion soll der Sensor nun gestartet werden: 
 

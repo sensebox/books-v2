@@ -1,8 +1,9 @@
 # Arduino IDE und Sketches {#head}
 
 <div class="description">
-    Bevor du loslegen kannst dein erstes eigenes Programm zu schreiben, musst du dir das Arduino Programm - die sogenannte Entwicklungsumgebung (engl. IDE) - anschauen.
+    Bevor du loslegen kannst dein erstes eigenes Programm zu schreiben, musst du dir die Arduino IDE (engl. für Entwicklungsumgebung) - anschauen.
 </div>
+
 <div class="line">
     <br>
     <br>

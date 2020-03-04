@@ -2,7 +2,7 @@
 
 <div class="description">
     Um die Installation und Updates der senseBox-Libraries benutzerfreundlicher zu gestalten, haben wir die Installationsschritte verändert. <br>
-    Auf dieser Seite zeigen wir euch, welche Schritte ihr befolgen müsst, um euer Board-Support-Package und eure senseBox-Libraries zu aktualisieren. Diese Anleitung betrifft euch nur, wenn ihr die ersten Schritte dieses Buches <b>vor dem 23. Juni 2018</b> durchgeführt habt.
+    Auf dieser Seite zeigen wir dir, welche Schritte du befolgen musst, um dein Board-Support-Package und deine senseBox-Libraries zu aktualisieren. Diese Anleitung betrifft dich nur, wenn du die ersten Schritte dieses Buches <b>vor dem 23. Juni 2018</b> durchgeführt hast.
 </div>
 <div class="line">
     <br>
@@ -44,7 +44,7 @@ Wähle dein Betriebssystem, um die passende Anleitung zu sehen:
 
 ### Schritt 2: Neues Board-Support-Package einbinden
 
-Um das neue Board-Support-Package einzubinden, geht ihr ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
+Um das neue Board-Support-Package einzubinden, gehst du ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
 
 1. Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
 ```
@@ -61,7 +61,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ![Suche nach dem rot markierten Package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
- Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
+ Wenn du auf den Eintrag in der Liste klickst, erscheint dort ein Update-Button. 
 
  <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -72,7 +72,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
- Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
+ Da wir das **senseBox SAMD Boards**-Package für dich regelmäßig aktualisieren, solltest du immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffne dafür wie oben beschrieben den Boardverwalter, suche nach **senseBox SAMD Boards** und klicke dort ggf. auf `Update`.
 
 {% content "second" %}
 ### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
@@ -98,7 +98,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ### Schritt 2: Neues Board-Support-Package einbinden
 
-Um das neue Board-Support-Package einzubinden, geht ihr ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
+Um das neue Board-Support-Package einzubinden, gehst du ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
 
 1. Füge die folgende URL in deiner Arduino IDE unter *`Arduino` -> `Einstellungen...`* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
 ```
@@ -115,7 +115,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ![Suche nach dem rot markierten Package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
- Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
+ Wenn du auf den Eintrag in der Liste klickst, erscheint dort ein Update-Button. 
 
  <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -126,7 +126,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
- Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
+ Da wir das **senseBox SAMD Boards**-Package für dich regelmäßig aktualisieren, solltest du immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffne dafür wie oben beschrieben den Boardverwalter, suche nach **senseBox SAMD Boards** und klicke dort ggf. auf `Update`.
 
 {% content "third" %}
 ### Schritt 1: Löschen der senseBox-Libraries aus dem Sketchbook-Folder
@@ -153,7 +153,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ### Schritt 2: Neues Board-Support-Package einbinden
 
-Um das neue Board-Support-Package einzubinden, geht ihr ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
+Um das neue Board-Support-Package einzubinden, gehst du ähnlich vor, wie in den ersten Schritten, mit ein paar kleinen Änderungen.
 
 1. Füge die folgende URL in deiner Arduino IDE unter *Datei -> Voreinstellungen* in das Feld für *Zusätzliche Bordverwalter-URLs* ein:
 ```
@@ -170,7 +170,7 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ![Suche nach dem rot markierten Package](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/Ardu3.png)
 
- Wenn ihr auf den Eintrag in der Liste klickt, erscheint dort ein Update-Button. 
+ Wenn du auf den Eintrag in der Liste klickst, erscheint dort ein Update-Button. 
 
  <div class="box_info">
     <i class="fa fa-info fa-fw" aria-hidden="true" style="color: #42acf3;"></i>
@@ -181,5 +181,5 @@ https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.j
 
 ![Klicke auf 'Update', um das Board-Support-Package zu aktualisieren](https://github.com/sensebox/resources/raw/master/gitbook_pictures/ardu/update-b-s-p.png)
 
- Da wir das **senseBox SAMD Boards**-Package für euch regelmäßig aktualisieren, solltet ihr immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffnet dafür wie oben beschrieben den Boardverwalter, sucht nach **senseBox SAMD Boards** und klickt dort ggf. auf `Update`.
+ Da wir das **senseBox SAMD Boards**-Package für dich regelmäßig aktualisieren, solltest du immer mal wieder in den Boardverwalter gehen und nachschauen, ob das **senseBox SAMD Boards**-Package noch aktuell ist. Öffne dafür wie oben beschrieben den Boardverwalter, suche nach **senseBox SAMD Boards** und klicke dort ggf. auf `Update`.
 {% endtabs %}
