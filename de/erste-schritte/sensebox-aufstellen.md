@@ -27,7 +27,7 @@
     *	Es ist zudem besser die senseBox etwas entfernt von der Hauswand anzubringen (z.B. an einem Balkongeländer), um Verfälschung durch Abwärme zu vermeiden.  
     Detaillierte Informationen zur meteorologischen Datenerhebung findet man z.B. unter folgendem Link: https://library.wmo.int/pmb_ged/wmo_8_en-2012.pdf 
 
-4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: [www.sensebox.de/de/material](hhttps://sensebox.de/de/material)
+4.	Die Qualität der Messdaten ist auch von der Anbringung der Sensoren innerhalb der senseBox abhängig. Diese Informationen findet man in unseren Bauanleitungen: [www.sensebox.de/de/material](https://sensebox.de/de/material)
 
 
 ## Wartung
